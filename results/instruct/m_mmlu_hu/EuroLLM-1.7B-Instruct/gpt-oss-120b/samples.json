@@ -1,0 +1,802 @@
+[
+    {
+        "id": 6311,
+        "question": "Ha úgy gondolja, hogy valakinek az érvelése erős a meggyőző nyelvhasználata és magabiztos előadásmódja miatt, akkor mely hibába esett?\nA) Amfibólia\nB) Equivocatio\nC) Különleges érvény\nD) Stílus a tartalom helyett\nAnswer in English.",
+        "generated_answer": "A) Amfibólia\nHa valaki úgy gondolja, hogy valakinek az érvelése erős a meggyőző nyelvhasználata és magabiztos előadásmódja miatt, akkor az amfibólia hibába esett.\nHa valaki úgy gondolja, hogy valakinek az érvelése erős a meggyőző nyelvhasználata és magabiztos előadásmódja miatt, akkor az equivocatio hibába esett.\nHa valaki úgy gondolja, hogy valakinek az érvelése erős a meggyőző nyelvhasználata és magabiztos előadásmódja miatt, akkor a külsős érvény hibába esett.\nHa valaki úgy gondolja, hogy valakinek az érvelése erős a meggyőző nyelvhasználata és magabiztos előadásmódja miatt, akkor a stílus a tartalom helyett hibába esett.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"D\". The question: \"Ha úgy gondolja, hogy valakinek az érvelése erős a meggyőző nyelvhasználata és magabiztos előadásmódja miatt, akkor mely hibába esett? A) Amfibólia B) Equivocatio C) Különleges érvény D) Stílus a tartalom helyett Answer in English.\"\n\nCorrect answer is D: \"Stílus a tartalom helyett\" (Style over content). The generated answer lists multiple options: It says \"A) Amfibólia ...\", then repeats with equivocatio, then \"külsős érvény\" (maybe C), then \"stílus a tartalom helyett\". It doesn't commit to a single answer; it lists all four possibilities. The ground truth is D only. The generated answer is not equivalent; it's not giving the correct single answer, it's ambiguous. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12418,
+        "question": "Az híres közgazdász, E.F. Schumacher egy cikkében az Atlantic magazinban (1979. április): Tizenöt hónap múlva, miután azt javasoltam, hogy a vidéki Indiában egy olyan technológiát kellene létrehozni, ami a kapa és a traktor között van, Indiában rendeztek egy konferenciát a közepes technológiákról. (Még mindig nem tetszett nekik a \"közepes\" kifejezés, ezért a megfelelő technológiának nevezték. Az rendben van: amikor Indiába megyek, és valaki azt mondja: \"Ó, Mr. Schumacher, nem hiszek a megfelelő technológiában\", csak rájuk nézek, és azt mondom, \"Ó, ez nagyszerű. Hiszel az inkorrekt technológiában?\")\nA) Kétértelműség\nB) Konzisztenciahiány\nC) Az autoritásra hivatkozás\nD) Elfogultság nyelve\nAnswer in English.",
+        "generated_answer": "A) Kétértelműség",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: multiple choice, answer is A) Kétértelműség. Ground truth: \"A\". Generated answer: \"A) Kétértelműség\". That conveys same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 6890,
+        "question": "Mi volt az a dél-afrikai politikai párt, amelyet Nelson Mandela vezetett?\nA) Afrikai Nemzeti Kongresszus\nB) Dél-afrikai Demokraták\nC) Inkatha Szabadság Pártja\nD) Ari Nemzeti Gyűlés\nAnswer in English.",
+        "generated_answer": "A) Afrikai Nemzeti Kongresszus",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Mi volt az a dél-afrikai politikai párt, amelyet Nelson Mandela vezetett?\" Means \"What was the South African political party that Nelson Mandela led?\" Options given. Ground truth answer: \"A\". That corresponds to \"Afrikai Nemzeti Kongresszus\" (African National Congress). Generated answer: \"A) Afrikai Nemzeti Kongresszus\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 663,
+        "question": "A megbízói közül az egyikkel kapcsolatban kihallgatásra szólítanak feljelentés miatt. A kihallgatás során az ellenfél ügyvédje a bizalmas megbízói információkat kéri tőled. Mit kell tenned?\nA) tagadd meg az információk kiadását, amíg nem rendelkezel bírósági utasítással.\nB) támaszkodj a jogszabályra, hacsak az ügyfél lemondó nyilatkozatot nem írt alá.\nC) adj meg információt, ha relevánsnak tartod az esetre nézve.\nD) add meg az információt, mivel az ügyfél a jogvédőit lemondta az ilyen helyzetekben.\nAnswer in English.",
+        "generated_answer": "A) tagadd meg az információk kiadását, amíg nem rendelkezel bírósági utasítással.\n\nA kihallgatás során az ellenfél ügyvédje a bizalmas megbízói információkat kéri tőled. A jogszabályok általában megkövetelik, hogy a bíróság előtt a megbízói információkat megosszd, ha az ügyfél lemondó nyilatkozatot nem írt alá.\n\nB) támaszkodj a jogszabályra, hacsak az ügyfél lemondó nyilatkozatot nem írt alá.\n\nA jogszabályok általában megkövetelik, hogy a megbízói információkat megosszd, ha az ügyfél lemondó nyilatkozatot nem írt alá.\n\nC) adj meg információt, ha relevánsnak tartod az esetre nézve.\n\nHa az ügyfél lemondó nyilatkozatot nem írt alá, akkor az információk megosztása nem releváns az esetre nézve.\n\nD) add meg az információt, mivel az ügyfél a jogvédőit lemondta az ilyen helyzetekben.\n\nHa az ügyfél lemondó nyilatkozatot nem írt alá, akkor az információk megosztása nem releváns az esetre nézve.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"B\". The generated answer is a long text that lists options A, B, C, D with explanations. It seems to not pick a single answer; it repeats all options with explanations, but does not indicate which is correct. The ground truth says answer is B. The generated answer does not state B as the correct answer; it just repeats all options. So it's not equivalent. Also the generated answer is not empty, but it's not matching. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Mire utal az érzelmi intelligencia?\nA) Arra, hogyan látják és értik a világot az emberek.\nB) Arra, hogyan látják és értik önmagukat az emberek.\nC) Arra, hogyan látják és értik másokat az emberek.\nD) Arra, hogyan látják és értik önmagukat és másokat az emberek.\nAnswer in English.",
+        "generated_answer": "C) Arra, hogyan látják és értik másokat az emberek.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Mire utal az érzelmi intelligencia?\" Options A-D. Ground truth answer is D. Generated answer is C). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "A határköltség (MC) megegyezik az átlagos változó költséggel (AVC) és az átlagos teljes költséggel (ATC), amikor:\nA) a határköltség (MC) átmetszi az AVC-t és ATC-t a maximumaik pontján.\nB) Az AVC és ATC átmetszi az MC-t annak maximumpontjánál.\nC) Az MC átmegy az AVC-n és a legkisebb pontján átmegy az ATC-n.\nD) Az AVC és ATC átmetszi az MC-t annak minimumpontjánál.\nAnswer in English.",
+        "generated_answer": "C)",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer \"C)\" with ground truth \"C\". Both indicate option C. They match meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7961,
+        "question": "Mordechai Kaplan által alapított mozgás melyik alábbiak közül?\nA) Liberalizmus\nB) Reform zsidóság\nC) Konzervatív zsidóság\nD) Rekonstrukcionista zsidóság\nAnswer in English.",
+        "generated_answer": "C) Konzervatív zsidóság",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Mordechai Kaplan által alapított mozgás melyik alábbiak közül? A) Liberalizmus B) Reform zsidóság C) Konzervatív zsidóság D) Rekonstrukcionista zsidóság Answer in English.\"\n\nGround truth answer: D (which corresponds to \"Reconstructionist Judaism\").\n\nGenerated answer: \"C) Konzervatív zsidóság\" which is Conservative Judaism. That is not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "Az apály és dagály változásával a öböl vízszintje szinuszoidálisan változik. Ma reggel a 8 órai dagálykor a vízszint 15 láb magasan volt, majd 6 órával később az alacsony dagálykor (2 óra délután) 3 láb magasra csökkent. Hány láb / óra sebességgel csökkent a vízszint ma délben?\nA) 3\nB) π\\sqrt{3}/2\nC) 3\\sqrt{3}\nD) π\\sqrt{3}\nAnswer in English.",
+        "generated_answer": "D)π\\sqrt{3}\n\nA vízszint napi szinuszoidálisan változik, és az öböl vízszintje a nap folyamán szinuszoidálisan változik. A vízszint csökkenése 6 órával az alacsony dagálykor (2 óra délután) 3 láb magasra csökkent. Mivel a vízszint csökkenése 6 óra alatt 3 láb, a vízszint csökkenése 6 óra alatt 3/3 = 1 láb / óra sebességgel csökkent.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The ground truth answer is \"B\". The generated answer is \"D)π\\sqrt{3}\" plus some explanation that says 1 foot per hour, but selects D. That does not match B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12841,
+        "question": "A kétszeresen ionizált lítium atom (Li++, Z=3, A=7) emissziós spektruma azonos a hidrogénatom emissziós spektrumával, amelyben az összes hullámhossz\nA) csökken 9-szeresére\nB) csökken 49-szeresére\nC) csökken 81-szeresére\nD) növekszik 9-szeresére\nAnswer in English.",
+        "generated_answer": "A)",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer \"A)\" with ground truth \"A\". Both indicate option A. They are equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "A DNS átvitele két baktériumsejt között, amelyet szex pili kapcsol össze, ismert, mint\nA) specializált transzdukció.\nB) konjugáció.\nC) transzformáció.\nD) általános transzdukció.\nAnswer in English.",
+        "generated_answer": "A) specializált transzdukció.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"A DNS átvitele két baktériumsejt között, amelyet szex pili kapcsol össze, ismert, mint\" (Hungarian) asks: DNA transfer between two bacterial cells connected by sex pilus is known as? Correct answer: B) conjugation. Ground truth: B. Generated answer: \"A) specializált transzdukció.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7808,
+        "question": "Számítsd ki a Q-tényezőt egy X-sávú EPR rezonátor esetén, ahol a rezonátor sávszélessége 1,58 MHz.\nA) Q = 1012\nB) Q = 2012\nC) Q = 3012\nD) Q = 6012\nAnswer in English.",
+        "generated_answer": "A) Q = 1012\nA rezonátor sávszélessége 1,58 MHz, és a Q-tényező kiszámításához a sávszélességet a sávszélességgel kell szorozni.\n1,58 MHz * 1,58 MHz = 2,34 MHz\nA Q-tényező 2,34 MHz-re van kiszámítva, és a 1012-es értékkel megegyezik.\nB) Q = 2012\nA rezonátor sávszélessége 1,58 MHz, és a Q-tényező kiszámításához a sávszélességet a sávszélességgel kell szorozni.\n1,58 MHz * 1,58 MHz = 2,34 MHz\nA Q-tényező 2,34 MHz-re van kiszámítva, és a 2012-es értékkel megegyezik.\nC) Q = 3012\nA rezonátor sávszélessége 1,58 MHz, és a Q-tényező kiszámításához a sávszélességet a sávszélességgel kell szorozni.\n1,58 MHz * 1,58 MHz = 2,34 MHz\nA Q-tényező 2,34 MHz-re van kiszámítva, és a 3012-es értékkel megegyezik.\nD) Q = 6012\nA rezonátor sávszélessége 1,58 MHz, és a Q-tényező kiszámításához a sávszélességet a sávszélességgel kell szorozni.\n1,58 MHz * 1,58 MHz = 2,34 MHz\nA Q-tényező 2,34 MHz-re van kiszámítva, és a 6012-es értékkel megegyezik.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: compute Q factor for X-band EPR resonator with bandwidth 1.58 MHz. Options A-D. Ground truth answer: D (i.e., Q = 6012). The generated answer lists all options with some nonsense, not selecting one. It does not state D as the correct answer. It repeats each option with incorrect reasoning. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "Melyik az alábbiak közül tolja a keresleti görbét balra?\nA) Fogyasztói bizalom növekedése.\nB) Üzleti vállalkozások csökkenő értékesítésekre számítanak a jövőben.\nC) Külföldiek előnyben részesítik termékeinket.\nD) Kormányzat növeli a költekezési szintjét.\nAnswer in English.",
+        "generated_answer": "A) Fogyasztói bizalom növekedése.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Melyik az alábbiak közül tolja a keresleti görbét balra?\" Means \"Which of the following shifts the demand curve to the left?\" Options: A) increase consumer confidence, B) businesses expect lower sales in future, C) foreigners prefer our products, D) government increases spending. The correct answer is B (businesses expect lower sales => decrease demand). Generated answer: \"A) Fogyasztói bizalom növekedése.\" That's not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9558,
+        "question": "Ez a kérdés a következő információra utal. \n\"Amikor még gyerekek voltunk, az Egyesült Államok volt a világ leggazdagabb és legerősebb országa; az egyetlen, amelynél volt atomfegyver, amelyet a modern háború legkevésbé sebeztek, az Egyesült Nemzetek szervezője volt, és azt gondoltuk, hogy nyugati befolyását szétterjesztheti a világban. A szabadság és az egyenlőség minden egyes ember számára, a nép által, a népért - ezeket az amerikai értékeket jóknak találtuk, elvek, amelyek szerint élhetünk, mint emberek. Sokan közülünk az elégedettségben kezdték érni a felnőtt kort. \n\"Azonban amint serdülék lettünk, kényelmünket elkezdték zavarni a megingathatatlanul nyomasztó események. Először is, az emberi degradáció mindenütt jelenlévő és áldozatként személyes tapasztalattal rendelkező ténye, amelyet az amerikai déli harc a rasszista szegénység ellen szimbolizált, az emberek többségét némából aktivistává kényszerítette. Másodszor pedig az összezáró tény, miszerint a hidegháború jelenlétében és a bomba létezésében megértettük, hogy mi magunk, barátaink, és milliók általános veszélye, akiket közvetlenebbül ismertünk az általános veszély miatt, bármikor meghalhatunk...\" \n— Port Huron Statement, 1962\nA Port Huron Statementet kiadó szervezet növekedését a 60-as évek fennmaradó részében legjobban\nA) a gyors iparosodás, városi növekedés és zsúfoltság és a vállalati koncentráció kontextusában lehet megérteni.\nB) a bababumm, a gazdasági növekedés és a magasabb oktatás gyors bővülése kontextusában lehet legjobban megérteni.\nC) az gazdasági polarizáció, a kínálatoldali gazdaságpolitikák és a középosztály eltűnése kontextusában lehet legjobban megérteni.\nD) a személyi számítógép-technológiák elterjedése, a keresztény fundamentalizmus térnyerése és a hallgatók közönyének növekedése kontextusában lehet legjobban megérteni.\nAnswer in English.",
+        "generated_answer": "A) a gyors iparosodás, városi növekedés és zsúfoltság és a vállalati koncentráció kontextusában lehet legjobban megérteni.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: \"A Port Huron Statementet kiadó szervezet növekedését a 60-as évek fennmaradó részében legjobban\" with options A-D. The ground truth answer is B. The generated answer is A. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3578,
+        "question": "Mit jelent a „birodalom meghívás általi” kifejezés?\nA) Önkéntes külső hatalmakba vetett bizalom biztosítására\nB) Akaratlan nyitottság a gyarmatosításra\nC) Kulturális imperializmus\nD) Nyílt imperializmus gazdasági haszon érdekében\nAnswer in English.",
+        "generated_answer": "A) Önkéntes külső hatalmakba vetett bizalom biztosítására\nAnswer in Hungarian.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Mit jelent a „birodalom meghívás általi” kifejezés?\" Options A-D. Ground truth answer: \"A\". So correct answer is option A. Generated answer: \"A) Önkéntes külső hatalmakba vetett bizalom biztosítására\" and then \"Answer in Hungarian.\" The generated answer selects option A and gives the text of option A. That matches ground truth (option A). So meaning is same. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8268,
+        "question": "500 nő, akik 40-54 évesek és rutin vizsgálatra jönnek, megkérdezik, hogy mennyi húst fogyasztanak. A nők vegetáriánusnak bizonyulnak. Az azt követő 5 évben 5 vegetáriánus és 43 nem-vegetáriánus kap vastagbélrákot. Melyik a tanulmánytervezésre vonatkozó legjobb leírás?\nA) Esettanulmány jelentés\nB) Kohorsz tanulmány\nC) Eset-ellenőrzéses tanulmány\nD) Keresztmetszeti tanulmány\nAnswer in English.",
+        "generated_answer": "A legjobb leírás a C) esettanulmány-ellenőrzéses tanulmány. A tanulmányt végző orvosok és kutatók a betegek életmódját, szokásait és egészségügyi állapotát vizsgálják, és a kapott információkat összehasonlítják a kontrollcsoport egészségügyi állapotával. A tanulmányt végző orvosok és kutatók a betegek életmódját, szokásait és egészségügyi állapotát vizsgálják, és a kapott információkat összehasonlítják a kontrollcsoport egészségügyi állapotával.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". That likely corresponds to option A) Esettanulmány jelentés (case report). The ground truth says answer is A. The generated answer says: \"A legjobb leírás a C) esettanulmány-ellenőrzéses tanulmány.\" So it says C) case-control study. That's not the same as A. So not equivalent. Also generated answer is not empty. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2281,
+        "question": "Feltételezzük, hogy az összefüggés a napi tanulással töltött idő és a GPA érdemjegyek között r = 0,9. Melyik a helyes következtetés?\nA) Az a diákok 90%-a kap magas jegyeket, akik tanulnak.\nB) Az a diákok 90%-a, akik magas jegyeket kapnak, sokat tanulnak.\nC) A GPA változásainak 90%-a magyarázható a napi tanulással töltött idő változásaival.\nD) A GPA változásainak 81%-a magyarázható a napi tanulással töltött idő változásaival.\nAnswer in English.",
+        "generated_answer": "A) Az a diákok 90%-a kap magas jegyeket, akik tanulnak.\nB) Az a diákok 90%-a, akik magas jegyeket kapnak, sokat tanulnak.\nC) A GPA változásainak 90%-a magyarázható a napi tanulással töltött idő változásaival.\nD) A GPA változásainak 81%-a magyarázható a napi tanulással töltött idő változásaival.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A, B, C, D. That is not equivalent to just D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4617,
+        "question": "Vegyük figyelembe az X = {10, 30, 45, 50, 55, 70, 90} és Y = {10, 30, 35, 50, 65, 70, 90} halmazokat. Melyik állítás NEM igaz?\nA) A halmazoknak azonos mediánjuk van.\nB) A halmazoknak azonos átlaguk van.\nC) A halmazoknak azonos szórásuk van.\nD) Egyik sem hamis.\nAnswer in English.",
+        "generated_answer": "A) A halmazoknak azonos mediánjuk van.\nB) A halmazoknak azonos átlaguk van.\nC) A halmazoknak azonos szórásuk van.\nD) Egyik sem hamis.\nAnswer in Hungarian.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: Which statement is NOT true? Options A, B, C, D. Ground truth answer: D. That means the correct answer is D (i.e., \"None is false\" i.e., all statements are true). The generated answer just repeats the options, not selecting any. It says \"A) ... B) ... C) ... D) Egyik sem hamis.\" Actually the generated answer lists all options and then says \"Answer in Hungarian.\" It does not pick a single answer. It just repeats the options. The ground truth is D. The generated answer does not indicate that D is the answer; it just repeats the options. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2289,
+        "question": "Egy adott modell véletlenszerűen kiválasztott autói eladási árának (1000 dollárban) és korának (évben) közötti kapcsolatot követően az alábbi képlet adódik: Eladási ár = 15,9 - 0,983 (kor). Melyik következtetés vonható le az egyenletből?\nA) Minden évvel, amelytel az autó öregszik, az eladási ár körülbelül 9,83 százalékkal csökken.\nB) Az új autó átlagosan 9 830 dollárba kerül.\nC) Minden évvel, amelytel az autó öregszik, az eladási ár körülbelül 1 590 dollárral csökken.\nD) Minden évvel, amelytel az autó öregszik, az eladási ár körülbelül 983 dollárral csökken.\nAnswer in English.",
+        "generated_answer": "A) Minden évvel, amelytel az autó öregszik, az eladási ár körülbelül 9,83 százalékkal csökken.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: which conclusion can be drawn? Options A-D. Ground truth answer is D. Generated answer is A. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12383,
+        "question": "Egy biztosítótársaság szeretné tanulmányozni, hogy az autósok mennyi ideig mennek autóbalesetek között egy nagyvárosban. Tervezik, hogy egy mintát vizsgálnak meg. Melyik az alábbi állítás igaz?\nA) Egy ésszerű idő- és költségmegtakarítási eljárás az lenne, ha szisztematikus mintavételt alkalmaznának az összes AAA (Automobile Association of America) taglistájáról a városban.\nB) Egy ésszerű idő- és költségmegtakarítási eljárás az lenne, ha véletlenszerűen választanának ki családokat, és az összes autóst besorolnák ezekbe a családokba, mintába véve őket.\nC) Az autóbalesetek közötti évek átlagának meghatározásához a mintaválasztás véletlensége nem fontos, feltéve hogy a minta nagysága nagyon nagy.\nD) Az előző kijelentések egyike sem igaz.\nAnswer in English.",
+        "generated_answer": "A) Egy ésszerű idő- és költségmegtakarítási eljárás az lenne, ha szisztematikus mintavételt alkalmaznának az összes AAA (Automobile Association of America) taglistájáról a városban.\nC) Az autóbalesetek közötti évek átlagának meghatározásához a mintaválasztás véletlensége nem fontos, feltéve hogy a minta nagysága nagyon nagy.\nD) Az előző kijelentések egyike sem igaz.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth says answer is D (none of the statements are true). Generated answer lists A, C, D statements. It includes D but also includes A and C as if they are true? The generated answer is not just \"D\". It lists multiple statements, implying they think A, C, D are correct. That does not match ground truth which says only D is correct. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1553,
+        "question": "Egy klinikai pszichológus, aki egy agresszív gyermekkel dolgozik, a teljes család dinamikájának tükrében igyekszik megérteni a gyermek viselkedését. Melyik megközelítés jellemzi legjobban ezt a pszichológust?\nA) Kognitív szociális megközelítés\nB) Viselkedési megközelítés\nC) Pszihoanalitikus megközelítés\nD) Rendszer megközelítés\nAnswer in English.",
+        "generated_answer": "A) Kognitív szociális megközelítés\nA kognitív szociális megközelítés a viselkedés és a személyiség közötti kapcsolatot vizsgálja, és a pszichológiai problémákra a viselkedés és a környezeti tényezők közötti kapcsolat alapján keres megoldást.\n\nA) Viselkedési megközelítés\nA viselkedési megközelítés a pszichológiai problémákra a viselkedés és a környezeti tényezők közötti kapcsolat alapján keres megoldást.\n\nC) Pszihoanalitikus megközelítés\nA pszihoanalitikus megközelítés a személyiség és a személyiségfejlődés közötti kapcsolatot vizsgálja, és a pszichológiai problémákra a személyiségfejlődés és a személyiségstruktúrák közötti kapcsolat alapján keres megoldást.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\" (Rendszer megközelítés). Generated answer lists multiple options: A) Kognitív..., then also repeats A) Viselkedési? Actually it's messed up. It does not say D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10131,
+        "question": "A Bay Co. jogi költségeket viselt azáltal, hogy védte szabadalmi jogait. Ezeknek a jogi költségeknek a könyvvizsgálat eredményétől függően az alábbiakban kell tőkésíteni: Siker Unsuccessful\nA) Igen Igen\nB) Igen Nem\nC) Nem Nem\nD) Nem Igen\nAnswer in English.",
+        "generated_answer": "D) Nem Igen",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: It's Hungarian. It asks: \"A Bay Co. jogi költségeket viselt azáltal, hogy védte szabadalmi jogait. Ezeknek a jogi költségeknek a könyvvizsgálat eredményétől függően az alábbiakban kell tőkésíteni: Siker Unsuccessful A) Igen Igen B) Igen Nem C) Nem Nem D) Nem Igen Answer in English.\"\n\nInterpretation: The question likely asks: Should the legal costs be capitalized depending on audit outcome? Options: A) Yes Yes, B) Yes No, C) No No, D) No Yes. Probably answer is B (Yes if successful, No if unsuccessful). Ground truth is B. Generated answer: \"D) Nem Igen\". That's option D, which is No Yes. That does not match B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4104,
+        "question": "Az üzenetekkel kapcsolatos négy fő biztonsági alapelv:\nA) Bizalmasság, sértetlenség, jogosultság- és követelés megállapítás, hitelesítés\nB) Bizalmasság, hozzáférés-ellenőrzés, sértetlenség, jogosultság- és követelés megállapítás\nC) Hitelesítés, jogosultság-ellenőrzés, rendelkezésre állás, sértetlenség\nD) Rendelkezésre állás, jogosultság-ellenőrzés, bizalmasság, sértetlenség\nAnswer in English.",
+        "generated_answer": "The four main security principles related to messages:\nA) Confidentiality, integrity, entitlement and entitlement and entitlement, authentication, availability, integrity\nB) Confidentiality, access control, integrity, entitlement and entitlement and entitlement, authentication\nC) Authentication, access control, availability, integrity, entitlement and entitlement and entitlement\nD) Availability, authentication, entitlement and entitlement, access control, integrity, availability, integrity",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Az üzenetekkel kapcsolatos négy fő biztonsági alapelv: ...\" It's Hungarian, asking to choose correct answer among A-D. Ground truth answer is \"A\". So correct answer is option A.\n\nGenerated answer: It lists options but seems garbled: \"The four main security principles related to messages:\nA) Confidentiality, integrity, entitlement and entitlement and entitlement, authentication, availability, integrity\nB) Confidentiality, access control, integrity, entitlement and entitlement and entitlement, authentication\nC) Authentication, access control, availability, integrity, entitlement and entitlement and entitlement\nD) Availability, authentication, entitlement and entitlement, access control, integrity, availability, integrity\"\n\nThis does not state which option is correct. It just repeats options with nonsense. It does not say \"A\". So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8725,
+        "question": "Írd le a 48 prímtényezős felbontását. Ahol lehet, használj kitevőket.\nA) 4 • 8\nB) 6 • 8\nC) 2^3 • 3^2\nD) 2^4 • 3\nAnswer in English.",
+        "generated_answer": "A) 4 • 8\nB) 6 • 8\nC) 2^3 • 3^2\nD) 2^4 • 3",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Írd le a 48 prímtényezős felbontását. Ahol lehet, használj kitevőket.\" Means \"Write the prime factorization of 48. Use exponents where possible.\" Options A) 4 • 8, B) 6 • 8, C) 2^3 • 3^2, D) 2^4 • 3. The correct prime factorization is 2^4 * 3 (since 48 = 16*3). So ground truth answer is D. The generated answer lists all options A) B) C) D) unchanged. That is not equivalent to just D. So answer is false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11553,
+        "question": "Melyik állítás igaz a rheumatoid arthritises betegekre?\nA) A rheumatoid faktor 25%-ban jelen van a rheumatoid arthritises esetekben\nB) Ez egy oligoarthrosis példa\nC) Az anémia gyakori megjelenési forma\nD) Heberden-csomók jellemzőek\nAnswer in English.",
+        "generated_answer": "A) A rheumatoid faktor 25%-ban jelen van a rheumatoid arthritises esetekben\nB) Ez egy oligoarthrosis példa\nC) Az anémia gyakori megjelenési forma\nD) Heberden-csomók jellemzőek",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Melyik állítás igaz a rheumatoid arthritises betegekre?\" (Which statement is true for rheumatoid arthritis patients?) Options A-D. Ground truth answer: C (the anemia is a common manifestation). The generated answer just repeats all options, not selecting one. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9861,
+        "question": "Egy cég új pite-márkát hozott létre. Azonban az Egyesült Államok Élelmiszer- és Gyógyszerfelügyelete által végzett vizsgálat szerint a piték potenciálisan káros mennyiségű dió allergiás fogyasztók számára. Ennek eredményeképpen a Kongresszus törvényt hozott, amely megtiltja a piték államon keresztüli szállítását és értékesítését. Egy állam rendelkezik egy jogszabállyal, amely szabályozza a piték szállítását és értékesítését a területén belül. A szövetségi törvény tiltja az átállomáson és az értékesítésen keresztüli állami határain való áruszállítást és eladást figyelembe véve valószínűleg a jogszabály\nA) alkotmányos, mert az állam rendelkezik rendőrségi hatalommal.\nB) alkotmányos, mert a Kongresszus nem szabályozhatja a gazdasági tevékenységet, ha mind a vevő, mind az eladó az állam területén tartózkodik.\nC) alkotmányellenes, mert az államközi kereskedelemre van hatással.\nD) alkotmányellenes, mert a szövetségi törvény precedencia elve értelmében felülír minden állam jogszabályát a piték értékesítésével és szállításával kapcsolatban.\nAnswer in English.",
+        "generated_answer": "A) alkotmányos, mert az állam rendelkezik rendőrségi hatalommal.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question is multiple choice; ground truth answer is \"A\". Generated answer: \"A) alkotmányos, mert az állam rendelkezik rendőrségi hatalommal.\" That is essentially the same as answer A. So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2407,
+        "question": "Az állami jóléti piaci modell a következő elv alapján működik:\nA) egyedi jóléti szolgáltatások magán vásárlása lehetővé tétele, néhány jövedelemfüggő támogatással\nB) rendszeres juttatások az apáknak családfenntartóként\nC) egy univerzalista jóléti rendszer mindenki számára, függetlenül az összevont jövedelemtől\nD) a társadalmi jóléti intézmények kiárusításának megakadályozása állami ellátással\nAnswer in English.",
+        "generated_answer": "A) egyedi jóléti szolgáltatások magán vásárlása lehetővé tétele, néhány jövedelemfüggő támogatással\nAz állami jóléti piac működésének alapelve az egyéni jóléti szolgáltatások magán vásárlása és néhány jövedelemfüggő támogatás.\nB) rendszeres juttatások az apáknak családfenntartóként\nAz állami jóléti piac működésének alapelve a rendszeres juttatások az apáknak családfenntartóként.\nC) egy univerzális jóléti rendszer mindenki számára, függetlenül az összevont jövedelemtől\nAz állami jóléti piac működésének alapelve az univerzális jóléti rendszer mindenki számára, függetlenül az összevont jövedelemtől.\nD) a társadalmi jóléti intézmények kiárusításának megakadályozása állami ellátással\nAz állami jóléti piac működésének alapelve a társadalmi jóléti intézmények kiárusításának megakadályozása állami ellátással.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Az állami jóléti piaci modell a következő elv alapján működik:\" with options A-D. The ground truth answer is \"A\". So correct answer is option A.\n\nThe generated answer lists all options with explanations, not selecting one. It repeats each option with a sentence. It does not indicate which is correct. So it does not convey that the correct answer is A. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5081,
+        "question": "A „cloture indítvány”-t arra használják, hogy\nA) visszaküldjék az előterjesztett javaslatot a Házhoz\nB) felülbírálják a elnöki vétóját a Házban\nC) módosítsák a költségvetési javaslatot a Házban\nD) véget vessenek a további időkeret nélküli vitának, és szavazzanak a törvényjavaslatról a szenátusban\nAnswer in English.",
+        "generated_answer": "A „cloture indítvány”-t arra használják, hogy\nA) visszaküldjék az előterjesztett javaslatot a Házhoz",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"A „cloture indítvány”-t arra használják, hogy ...\" Options A-D. Ground truth answer is D. Generated answer says: \"A „cloture indítvány”-t arra használják, hogy A) visszaküldjék az előterjesztett javaslatot a Házhoz\". That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1618,
+        "question": "Egy férfi hirdetést helyezett el helyi lapjában:\"Nyilvános árverés . . . licit nélkül December 7, 10:00 a. m. 110 Walnut St. , Város, ÁllamAz otthon teljes bútorzata eladó: antikvitások, zongora, billiárdasztal, berendezések, asztalok, sztereo rendszer, stb. \"December 7-én reggel, körülbelül 20 ember jelent meg a férfi otthonában. Az első tétel amit elárverezett az egy antik Baldwin nagydorong volt. A férfi bejelentette, hogy a licit \"licit nélkül\" lesz és azt mondta: \"Milyen ajánlatot kapok erre a gyönyörű Baldwin nagydorongra?\" Egy nő adta az ajánlatot 100 dollárért. A férfi ezt kommentálta: \"Ez a zongora legalább 5 000 dollárt ér. Milyen más ajánlatokat kapok?\" Amikor a férfi nem kapott más ajánlatot, tájékoztatta a nőt arról, hogy nem fogadja el a 100 dolláros ajánlatot, és eltávolítja a zongorát az árverésről. Ha a nő perrel fenyegetőzik a férfi eljárása miatt, akkor a nő valószínűleg\nA) győz, mert az \"licit nélküli\" árverésen a termékeket nem lehet visszavonni.\nB) győz, mert az árverés \"licit nélküli\" olyan vagy nem, a termékeket nem lehet visszavonni az árverésvezető árjegyzék kérése után.\nC) nem győz, mert az \"licit nélküli\" árverésen az árverésvezető elveheti a termékeket, amíg be nem jelenti a vásárlás befejezését.\nD) nem győz, mert az \"licit nélküli\" árverésen az árverésvezető ajánlatokat hív, amelyeket elfogadhat vagy elutasíthat.\nAnswer in English.",
+        "generated_answer": "A) győz, mert az \"licit nélküli\" árverésen a termékeket nem lehet visszavonni.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: multiple choice, answer is A. Ground truth: \"A\". Generated answer: \"A) győz, mert az \"licit nélküli\" árverésen a termékeket nem lehet visszavonni.\" That corresponds to choice A, with explanation. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11957,
+        "question": "Ez a kérdés a következő információra vonatkozik. Nem személyes igényeket kívánok előterjeszteni, sem egyéni előnyökért folyamodni; azok advokátusa vagyok, akik nem tudják saját ügyeiket képviselni; azok barátja vagyok, akik elhanyagoltak, elnyomottak és magukra maradtak. Isten igazságosságában az a hang vagyok, amely a maniákusnak kínzó kiáltását hordozza, amelyek az Önök börtönei sötét bugyraiból nem hallatszanak be a törvényhozás termeibe. A reménye vagyok a szegény zavart lényeknek, akik a szegénységi szállók celláiban, istállóiban, ketreceiben és elhagyott helyiségeiben élnek. Száz síró, szenvedő lény kinyilatkoztatója vagyok, akik el vannak rejtve magánlakásukban, óljaikban és kunyhóikban, és kizárva vannak minden gyógyító hatásától és minden mentális gyógyulást segítő törődéstől...\n Ha a melancholikus történeteik felsorakoztatására kerülne sor, ahogyan azokat a fájdalmas rögeszméimmel az elmúlt három hónapban felfedték előttem, akkor milyen gyorsan, milyen őszintén keresnének a legjobb megoldásokat; milyen jelentéktelenek, összehasonlítva milyen kevésnek tűnne az a pár cent, amelyet minden állampolgártól össze lehetne gyűjteni, egy egészségügyi költségvetéshez képest, amely végrehajtásra és alkalmazásra vár egy megfelelő kórház építése révén...\n —Dorothea Dix, Az értelmileg sérültek védelmében és gyógyításában egy Állami Kórház Megszerzésére Tett Emlékeztető, benyújtva Észak-Karolinának, a törvényhozás közgyűléséhez, 1848. november\nMelyik áll közelebb Dorothea Dix nézőpontjához az előző bekezdésben?\nA) Az értelmileg sérült emberek gondozása az állam feladata.\nB) Az értelmileg sérültek a családjukra vannak bízva.\nC) A szövetségi kormány szabályoznia kell az értelmileg sérültek kezelését.\nD) Több demokrácia javítani fogja az értelmileg sérültek helyzetét.\nAnswer in English.",
+        "generated_answer": "A) Az értelmileg sérült emberek gondozása az állam feladata.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Which statement is closer to Dorothea Dix's viewpoint?\" Options A-D. The ground truth answer is \"A\". The generated answer is \"A) Az értelmileg sérült emberek gondozása az állam feladata.\" That matches A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1208,
+        "question": "Egy 77 éves férfi kerül az orvoshoz, mert a jobb karja és lába gyengeséget és érzékelési zavarokat mutat, valamint 12 órás időtartamú beszédfelismerési nehézségei vannak. Nincs előzménye hasonló tüneteknek. 2-es típusú cukorbetegsége, magas vérnyomása és pitvarfibrillációja van. Jelenlegi gyógyszerei közé tartozik a metformin, lisinopril és acszirin. Ő éber. Az oxigén-hemoglobin szaturációja 98%, pulzusa 80/perc, nem ritmikus, légzésszáma 16/perc és a vérnyomása 170/90 mmHg. Az utasításaihoz igazodik, de beszéde nehezen érthető. A jobb felkar és láb moderáltan gyenge és csökkent érzékenységgel rendelkezik. Mindkét oldali mélyvénás reflexe 2+. Babinski-jel a jobboldalon jelen van. A vércukorszintje 162 mg/dL. Melyik a legmegfelelőbb következő lépés a diagnózis felállításához?\nA) Nyaki duplex ultrahang\nB) Fej CT-vizsgálata\nC) EEG\nD) Lumbális punkció\nAnswer in English.",
+        "generated_answer": "A legmegfelelőbb következő lépés a diagnózis felállításához a jobb felkar és láb moderáltan gyenge és csökkent érzékenységgel rendelkező területeinek vizsgálata, valamint a jobb felkar és láb Babinski-jelének vizsgálata. A vércukorszintjének 162 mg/dL-re történő csökkentése mellett a legmegfelelőbb további lépés a nyaki duplex ultrahang, a fej CT-vizsgálata, az EEG és a lumbális punkció.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"B\". The generated answer is a paragraph in Hungarian, not selecting an option, and mentions multiple options. It does not say \"B\". So it's not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11206,
+        "question": "Egy kórházban az ágyhoz kötött beteget tolószékben vitték át automatikus ajtókon keresztül. Az ajtók becsukódtak az ágyon fekvő beteg lábára, és megsérült. Az ápoló megpróbálta kihúzni az ülőkét az ajtókon át, de ezzel csak tovább megsérült a beteg lába. A beteg kórház ellen pert indított, állítva, hogy az ajtók rossz karbantartása miatt történt a baleset. A beteg nem tudta bizonyítani, hogy a kórház hanyag vagy rossz irányítása miatt lett volna hibás az ajtó működése. A kórház összefoglaló ítéletet kért. A bíróságnak helyt kell adnia a kórház kérésének?\nA) Nem, mert egy esküdtbíróság megállapíthatja, hogy az ajtókban rejtett hiba volt.\nB) Nem, mert egy esküdtbíróság megállapíthatja, hogy a kórház felelős a hanyagság miatt az esetről alkalmazott res ipsa loquitur elve miatt.\nC) Igen, mert egy baleset önmagában nem bizonyítja, hogy a sérült személy áldozata volt a kórházi hanyagságnak.\nD) Igen, mert az ápoló cselekedete a sérülés független okozója volt.\nAnswer in English.",
+        "generated_answer": "A) Nem, mert egy esküdtbíróság megállapíthatja, hogy az ajtókban rejtett hiba volt.\n\nA bíróságnak helyt kell adnia a kórház kérésének, mert az ajtókban rejtett hiba volt, amely a beteg lábára került, és megsérült. A beteg nem tudta bizonyítani, hogy a kórház hanyag vagy rossz irányítása miatt lett volna hibás az ajtó működése.\n\nB) Nem, mert egy esküdtbíróság megállapíthatja, hogy a kórház felelős a hanyagság miatt az esetről alkalmazott res ipsa loquitur elve miatt.\n\nA bíróságnak helyt kell adnia a kórház kérésének, mert a res ipsa loquitur elve alapján a kórház felelős a hanyagság miatt az esetről alkalmazott elvével.\n\nC) Igen, mert egy baleset önmagában nem bizonyítja, hogy a sérült személy áldozata volt a kórházi hanyagságnak.\n\nA bíróságnak helyt kell adnia a kórház kérésének, mert a baleset önmagában nem bizonyítja, hogy a sérült személy áldozata volt a kórházi hanyagságnak.\n\nD) Igen, mert az ápoló cselekedete a sérülés független okozója volt.\n\nA bíróságnak helyt kell adnia a kórház kérésének, mert az ápoló cselekedete a sérülés független okozója volt, és a beteg sérülése a kórházi hanyagság következménye volt.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: multiple choice, correct answer is B. The generated answer lists all options A-D with explanations, and seems to say \"A bíróságnak helyt kell adnia a kórház kérésének\" for each option. It does not pick a single answer. The ground truth is \"B\". The generated answer does not state that B is correct; it repeats all options and says the court should grant the hospital's request for each. So it's not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5409,
+        "question": "Melyik az alábbiak közül az az előny, amit sok növénynek biztosítanak a mikorrhizás gombák?\nA) Védelmet nyújtanak a növényi gyökereknek a kiszáradástól az extrém száraz élőhelyeken.\nB) Rögzítik a nitrogént, ami különösen fontos a nitrogén limitált élőhelyeken élő növények számára.\nC) Hozzáférést biztosítanak a foszfórhoz, ami egy fontos elem, amely korlátozott sokféle talajfajtában.\nD) A növényeknek szén-dioxidot biztosítanak az rögzített nitrogénért cserébe.\nAnswer in English.",
+        "generated_answer": "A) Védelmet nyújtanak a növényi gyökereknek a kiszáradástól az extrém száraz élőhelyeken.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which of the following is the advantage that many plants get from mycorrhizal fungi?\" Options A-D. Ground truth answer is C. Generated answer is A. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7735,
+        "question": "Egy ember azon áll, hogy egy felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen?\nA) Igen, és az elvégzett munka pozitív lesz.\nB) Igen, és az elvégzett munka negatív lesz.\nC) Igen, de az előjel nem határozható meg.\nD) Nem.\nAnswer in English.",
+        "generated_answer": "A felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen.\nA felvonó kezd feljebb haladni. A padló normálereje dolgozik az emberen",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"A\". The generated answer is a long repeated sentence, not \"A\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9171,
+        "question": "Mill nézete szerint az ütközés az igazzal\nA) minden bizonnyal igaznak tűnő benyomást kelt.\nB) minden bizonnyal hamisnak tűnő benyomást kelt.\nC) az elkülönült gondolatok hatását tisztázza.\nD) az állami apai hatóság hatását tisztázza.\nAnswer in English.",
+        "generated_answer": "A) minden bizonnyal igaznak tűnő benyomást kelt.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question is Hungarian. The ground truth answer is \"A\". The generated answer is \"A) minden bizonnyal igaznak tűnő benyomást kelt.\" That is the full text of option A. The ground truth is just \"A\". That conveys same answer: option A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1649,
+        "question": "Egy 26 éves nőt azért hoztak az elsősegélyre, mert súlyos háti és hasi fájdalmakról és enyhe, de kitartó hüvelyi vérzésről számolt be 8 órája. Az hasi ultrahang vizsgálat egy 2 cm-es ektopikus terhességet mutat az ampullában. Az ampulla kirepedt a környező szövetbe. Melyik a következő hely, ahol a repedésből kiáramló folyadék legvalószínűbb található?\nA) Kisebb hasüreg\nB) Mesometrium\nC) Douglas-zsák\nD) Méh üreg\nAnswer in English.",
+        "generated_answer": "A) Kisebb hasüreg",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Hungarian: \"Which is the next place where fluid from the rupture will most likely be found?\" Options: A) Lesser peritoneal cavity (Kisebb hasüreg), B) Mesometrium, C) Douglas pouch, D) Uterine cavity. Correct answer is C (Douglas pouch). Generated answer: \"A) Kisebb hasüreg\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5796,
+        "question": "A Föld bioszférájában a sugárzás túlnyomó része\nA) természetes háttérsugárzásból származik\nB) a katonai tevékenységek eredménye\nC) a nukleáris erőművek által kibocsátott sugárzásból származik\nD) az űrből érkező kozmikus sugárzás formájában jelentkezik\nAnswer in English.",
+        "generated_answer": "A) természetes háttérsugárzásból származik",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Hungarian: \"A Föld bioszférájában a sugárzás túlnyomó része\" (The majority of radiation in Earth's biosphere) options A-D. The correct answer is A: \"természetes háttérsugárzásból származik\" (comes from natural background radiation). The generated answer: \"A) természetes háttérsugárzásból származik\". That matches exactly. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7113,
+        "question": "Melyik következő kísérleti megfigyeléseket magyarázta meg Planck kvantumelmélete?\nA) Fekete test sugárzási görbéi\nB) Diatóma molekulák kibocsátási spektruma\nC) Elektron diffrakciós mintázatok\nD) Reakciósebesség hőmérsékletfüggése\nAnswer in English.",
+        "generated_answer": "A) Fekete test sugárzási görbéi\nB) Diatóma molekulák kibocsátási spektruma\nC) Elektron diffrakciós mintázatok\nD) Reakciósebesség hőmérsékletfüggése\n\nPlanck kvantumelmélete magyarázta meg a fekete test sugárzási görbéit. A fekete test sugárzási görbéi a hőmérséklet függvényében a hőmérséklethez tartozó Planck-függvényekből származnak. A Planck-függvények a hőmérséklet és a sugárzás intenzitása közötti kapcsolatot írják le. A diatóma molekulák kibocsátási spektruma a molekulák elektron diffrakciós mintázatait mutatja. Az elektron diffrakciós mintázatok a molekulák elektronok közötti kölcsönhatásait tükrözik. Az elektron diffrakciós mintázatok a molekulák elektronok közötti kölcsönhatásait tükrözik. A reakciósebesség hőmérsékletfüggése a reakciósebesség és a hőmérséklet közötti kapcsolatot írja le. A reakciósebesség hőmérsékletfüggése a reakciósebesség és a hőmérséklet közötti kapcsolatot írja le.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The question: \"Melyik következő kísérleti megfigyeléseket magyarázta meg Planck kvantumelmélete?\" Options A-D. The correct answer is A. The generated answer lists all options and then says Planck explained blackbody radiation curves. It includes extra info but also includes other options incorrectly. The core answer is not just \"A\". It lists all options and says Planck explained blackbody radiation curves, but also mentions others incorrectly. The question asks to answer which observation was explained. The ground truth is \"A\". The generated answer does not simply give \"A\". It includes extra and ambiguous. It is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5180,
+        "question": "A közösségi mentális egészségügyben három megelőzési típust azonosítottak. A másodlagos megelőzés azzal próbálja meg...\nA) ...kezelni a problémákat még mielőtt előfordulnának.\nB) ...megelőzni a problémák kiújulását.\nC) ...csökkenteni a problémák súlyosságát.\nD) ...megakadályozni a közösség szétesését.\nAnswer in English.",
+        "generated_answer": "D) ...megakadályozni a közösség szétesését.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"A közösségi mentális egészségügyben három megelőzési típust azonosítottak. A másodlagos megelőzés azzal próbálja meg...\" Options A-D. The correct answer (ground truth) is C. Generated answer is D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10008,
+        "question": "Egy tanulmány vizsgálta azokat a hallgatókat, akik az rendkívül szelektív felsőoktatási intézményekbe jelentkeztek. A felvételi jelentkezések összefüggéseinek vizsgálata során két nyilvánvaló tényező igazolta, hogy azok erőteljesen korreláltak a felvétellel, a GPA és a szabványos teszteredmények, amelyek korrelációs értékei +0,41 és +0,55 voltak. A tanulmány azonban kimutatta, hogy azok a diákok, akiknek a szociális hálózatai átfednek az elit felsőoktatási intézmények végzettjeinek hálózatával, még valószínűbb, hogy felvételt nyernek, olyan korrelációval, amely a szociális hálózat és a végzett diákok hálózata között +0,61. Ez a korreláció azt mutatja, hogy:\nA) a kulturális tőke értéke.\nB) az érdemelv szerinti társadalom.\nC) a társadalmi tőke értéke.\nD) hamis összefüggésről van szó.\nAnswer in English.",
+        "generated_answer": "A) a kulturális tőke értéke.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Hungarian, asks which statement the correlation shows. Correct answer is C: \"the value of social capital\". Generated answer: \"A) a kulturális tőke értéke.\" That's option A, cultural capital, not social capital. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10492,
+        "question": "Az audit tervezése során az auditor által ismert belső ellenőrzési tevékenységek tervezésének ismereteit kell használni a következő célok eléréséhez:\nA) Az előfordulható lehetséges téves vagy hibás megállapítások típusainak azonosítása.\nB) Az belső ellenőrzés operatív hatékonyságának értékelése.\nC) Azt eldönteni, hogy az ellenőrzések megkíséreltek-e megbuktatásra történő összejátszással.\nD) Az értékelt ellenőrzési kockázat szintjének dokumentálása.\nAnswer in English.",
+        "generated_answer": "A) The auditor should use knowledge of the internal control activities known to the auditor to identify possible types of incorrect or erroneous findings.\nB) The auditor should assess the operational efficiency of internal control to determine if it has attempted to engage in collusion to foil the checks.\nC) The auditor should decide if the controls attempted to engage in collusion to foil the checks.\nD) The auditor should document the level of control risk evaluated.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The ground truth answer is just \"A\". That means the correct option is A only. The generated answer lists A, B, C, D with explanations, not just \"A\". So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3350,
+        "question": "Melyik ezek közül a két szituáció közül követ el egyértelműen erkölcsileg helytelen tettet a főszereplő (aki az I / me / my szavakat használja) az USA 2020-as általános erkölcsi normái szerint? Szituáció 1 | Az ártatlan embert hazavittem. Szituáció 2 | Koktélt készítettem a babámnak, hogy igyon.\nA) Helytelen, helytelen\nB) Helytelen, nem helytelen\nC) Nem helytelen, helytelen\nD) Nem helytelen, nem helytelen\nAnswer in English.",
+        "generated_answer": "A) Helytelen, helytelen",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which of two situations is morally wrong according to US 2020 norms? Situation1: \"I framed an innocent person.\" That's clearly wrong. Situation2: \"I made a cocktail for my baby to drink.\" That's clearly wrong (giving alcohol to baby). So both wrong => answer A: Wrong, wrong. But ground truth says C. Wait ground truth says C. That would be \"Not wrong, wrong\"? Actually options: A) Wrong, wrong; B) Wrong, not wrong; C) Not wrong, wrong; D) Not wrong, not wrong. Ground truth says C, meaning they think first not wrong, second wrong. That seems odd. But we must compare generated answer to ground truth. Generated answer is A. Ground truth is C. They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9052,
+        "question": "A McDonald's és a KFC jó példák a következőkre:\nA) Terjesztők.\nB) Franchise.\nC) Kereskedő.\nD) Kiskereskedők.\nAnswer in English.",
+        "generated_answer": "A) Terjesztők.\nB) Franchise.\nC) Kereskedő.\nD) Kiskereskedők.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"A McDonald's és a KFC jó példák a következőkre: A) Terjesztők. B) Franchise. C) Kereskedő. D) Kiskereskedők. Answer in English.\" The correct answer is B (Franchise). The generated answer just repeats the options list, not selecting B. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7815,
+        "question": "Az újszülöttek aránya, akiknél azonosítható rendellenesség van a születéskor, _____.\nA) 1 az 10-ben\nB) 1 az 40-ben\nC) 1 az 100-ban\nD) 1 az 500-ban\nAnswer in English.",
+        "generated_answer": "C) 1 az 100-ban",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Hungarian: \"Az újszülöttek aránya, akiknél azonosítható rendellenesség van a születéskor, _____.\" Options: A) 1 in 10, B) 1 in 40, C) 1 in 100, D) 1 in 500. Ground truth answer: B (i.e., 1 in 40). Generated answer: \"C) 1 az 100-ban\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7253,
+        "question": "Állítás 1 | Ha K egy nem zérus részcsoportja egy végesen generált szabad abeli csoportnak, akkor K szabad abeli csoport. Állítás 2 | Ha K egy nem zérus részcsoportja egy végesen generált szabad abeli csoportnak, akkor G/K szabad abeli csoport.\nA) Igaz, Igaz\nB) Hamis, Hamis\nC) Igaz, Hamis\nD) Hamis, Igaz\nAnswer in English.",
+        "generated_answer": "D) Hamis, Igaz",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: two statements about subgroups of finitely generated free abelian groups. The correct answer is C (which corresponds to \"Igaz, Hamis\" i.e., True, False). The generated answer is \"D) Hamis, Igaz\" which is \"False, True\". That does not match. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 1
+    },
+    {
+        "id": 8541,
+        "question": "Az ikonikus memória arra utal, hogy\nA) vizuális érzékszervi regisztrációk\nB) szaglási érzékszervi regisztrációk\nC) frontális érzékszervi regisztrációk\nD) rövidtávú memória érzékszervi regisztrációi (STM)\nAnswer in English.",
+        "generated_answer": "Az A) vizuális érzékszervi regisztrációk az ikonikus memória jelensége.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Az ikonikus memória arra utal, hogy\" (Iconic memory refers to...). Options: A) visual sensory registrations, B) olfactory, C) frontal, D) short-term memory sensory registrations. The correct answer is A. Ground truth answer: \"A\". Generated answer: \"Az A) vizuális érzékszervi regisztrációk az ikonikus memória jelensége.\" That says \"A) visual sensory registrations are the phenomenon of iconic memory.\" That matches the ground truth (option A). So meaning is same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4267,
+        "question": "Egy cég ugyanazt a termékét két különböző áron két különböző helyen értékesíti. Ha az összes többi marketing tényező állandó, melyik következő kutatási típus lesz a leg hatékonyabb az optimális ár meghatározásában?\nA) Leíró\nB) Felfedező\nC) Etnográfiai\nD) Ok-okozati\nAnswer in English.",
+        "generated_answer": "C) Etnográfiai",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer \"C) Etnográfiai\" with ground truth \"D\". They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1020,
+        "question": "Miután Suzy úgy döntött, hogy a bálban Dylannel megy, Max öntudatlanul dühös volt. Max ezután minden energiáját az alkotói munkájába fektette. Milyen védekezési mechanizmust használ Max?\nA) elfojtás\nB) szublimáció\nC) racionalizáció\nD) eltolás\nAnswer in English.",
+        "generated_answer": "D) eltolás",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Hungarian: \"Miután Suzy úgy döntött, hogy a bálban Dylannel megy, Max öntudatlanul dühös volt. Max ezután minden energiáját az alkotói munkájába fektette. Milyen védekezési mechanizmust használ Max? A) elfojtás B) szublimáció C) racionalizáció D) eltolás\"\n\nAnswer in English. The correct defense mechanism: He redirects his anger into creative work => sublimation. So ground truth is B (sublimation). Generated answer: D) eltolás (which is displacement). That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8989,
+        "question": "A fogékonyság negatív az alábbi anyagok esetében:\nA) mágneses tulajdonságokkal nem rendelkező anyagok.\nB) diamágneses anyagok.\nC) ferromágneses anyagok.\nD) egyik sem fent említettek közül.\nAnswer in English.",
+        "generated_answer": "A fogékonyság negatív az alábbi anyagok esetében:\nA) mágneses tulajdonságokkal nem rendelkező anyagok.\nB) diamágneses anyagok.\nC) ferromágneses anyagok.\nD) egyik sem fent említettek közül.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"A fogékonyság negatív az alábbi anyagok esetében:\" which translates to \"The susceptibility is negative for which of the following materials?\" Options A-D. The correct answer is B (diamagnetic materials). Ground truth is \"B\". Generated answer repeats the whole question and options, not selecting an answer. It does not convey the same meaning; it's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 230,
+        "question": "Nagel szerint az önértékelés előtti állapotban az embereket nem lehet erkölcsileg értékelni a következőkre vonatkozóan:\nA) olyan cselekedetek miatt, amelyek csak őket érintik.\nB) karakterük miatt.\nC) olyan dolgok miatt, amelyek a kontrolljukon kívül állnak.\nD) olyan cselekedetek miatt, amelyek senki jogait nem sértik meg.\nAnswer in English.",
+        "generated_answer": "A) olyan cselekedetek miatt, amelyek csak őket érintik.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Nagel szerint az önértékelés előtti állapotban az embereket nem lehet erkölcsileg értékelni a következőkre vonatkozóan:\" Options A-D. The correct answer is C per ground truth. Generated answer: \"A) olyan cselekedetek miatt, amelyek csak őket érintik.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1528,
+        "question": "Az agytörzsben a következő ösvények vezetnek:\nA) nociceptio átkapcsolódik a medial lemniscus-ban\nB) gyakorlott mozgások átkapcsolódnak a medial lemniscus-ban\nC) gyakorlott motoros mozgások átkapcsolódnak a piramisokban.\nD) diszkriminatív tapintás átkapcsolódik a piramisokban.\nAnswer in English.",
+        "generated_answer": "A) nociceptio átkapcsolódik a medial lemniscus-ban\nB) gyakorlott mozgások átkapcsolódnak a medial lemniscus-ban\nC) gyakorlott motoros mozgások átkapcsolódnak a piramisokban.\nD) diszkriminatív tapintás átkapcsolódik a piramisokban.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer lists all options A-D, not selecting one. So it's not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11791,
+        "question": "Melyik az alábbiak közül NEM az EU által elért kulcsfontosságú mérföldkő?\nA) Egy közös pénznem bevezetése, amelyet sok EU ország használ\nB) Vámunió\nC) Egyetlen piac\nD) Egy közös európai nyelv\nAnswer in English.",
+        "generated_answer": "C) Egyetlen piac\nD) Egy közös európai nyelv",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Which of the following is NOT a key milestone achieved by the EU?\" Options: A) common currency used by many EU countries, B) customs union, C) single market, D) a common European language. The correct answer is D (common language). Ground truth: D.\n\nGenerated answer lists: \"C) Egyetlen piac\" and \"D) Egy közös európai nyelv\". That is two options, C and D. The correct is D only. Generated answer includes D but also includes C, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6534,
+        "question": "Mielőtt Masters és Johnson kutatásai megtörténtek volna, azt hitték, hogy a hüvelyi kenés a váladéktermelődésnek köszönhető\nA) Cowper-mirigy\nB) Prosztatamirigy\nC) Bartholin-mirigyek\nD) Mellékvese\nAnswer in English.",
+        "generated_answer": "A) Cowper-mirigy",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Hungarian: \"Mielőtt Masters és Johnson kutatásai megtörténtek volna, azt hitték, hogy a hüvelyi kenés a váladéktermelődésnek köszönhető\" which asks which gland was thought responsible for vaginal lubrication before Masters and Johnson. Correct answer: Bartholin's glands (C). Ground truth: C. Generated answer: \"A) Cowper-mirigy\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11636,
+        "question": "Egy pszichológus szerint a pozitív jutalmak hatásosabbak a helyes viselkedés elősegítése érdekében gyermekeknél, mint a rossz magatartás megbüntetése. Kifejlesztettek egy „helyes viselkedés” skálát. μ1= pozitív jutalmakat kapó gyermekek „helyes viselkedése”, és μ2= a megbüntetett gyermekek „helyes viselkedése”. Ha H0: μ1− μ2= 0, akkor melyik az alábbiak közül megfelelő az HA állításnak?\nA) HA: μ1− μ2> 0\nB) HA: μ1− μ2< 0\nC) HA: μ1− μ2≠ 0\nD) Az összes fent említett alternatíva elfogadható az adott nullához képest.\nAnswer in English.",
+        "generated_answer": "A) HA: μ1− μ2> 0\n\nA) HA: μ1− μ2> 0\n\nHa a gyermekek „helyes viselkedése” skáláján a pozitív jutalmakat kapó gyermekek „helyes viselkedése” nagyobb, mint a megbüntetett gyermekek „helyes viselkedése”, akkor az alábbi alternatívák közül az egyik elfogadható az adott nullához képest:\n\nB) HA: μ1− μ2< 0\n\nHa a gyermekek „helyes viselkedése” skáláján a pozitív jutalmakat kapó gyermekek „helyes viselkedése” kisebb, mint a megbüntetett gyermekek „helyes viselkedése”, akkor az alábbi alternatívák közül az egyik elfogadható az adott nullához képest:\n\nC) HA: μ1− μ2≠ 0\n\nHa a gyermekek „helyes viselkedése” skáláján a pozitív jutalmakat kapó gyermekek „helyes viselkedése” megegyezik a megbüntetett gyermekek „helyes viselkedése” értékével, akkor az alábbi alternatívák közül az egyik elfogadható az adott nullához képest:\n\nD) Az összes fent említett alternatíva elfogadható az adott nullához képest.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"A\". The generated answer is a long text that lists multiple options: starts with \"A) HA: μ1− μ2> 0\" then repeats and also includes B, C, D explanations. The question: \"If H0: μ1− μ2= 0, then which of the following is appropriate for HA?\" The correct answer is A) HA: μ1− μ2> 0. The generated answer includes A) but also includes B, C, D and says they are acceptable under different conditions. That is not equivalent to just \"A\". The generated answer is not equivalent; it's wrong. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12862,
+        "question": "Egy férj ügyvédnél kér tanácsot, miután felesége hűtlensége miatt el akar válni. A kliens konzultáció során az ügyvéd titkára feljegyzéseket készített. A férj engedélyével az ügyvéd jogi tisztviselője is jelen volt a konzultáción, hogy lássa, hogyan folyik az ügyvéd ilyen találkozója. Az első konzultáció után röviddel a titkár felmondott. A válóper során a feleség ügyvédje a titkárt kívánja tanúskodásra szólítani arról, amit a férj az első konzultáció során az ügyvédnek elmondott. Az ellenzés után a titkár javasolt tanúvallomása leginkább\nA) felhasználható, mert jelenléte az ülés során megsemmisítette az ügyfél-ügyvéd titoktartását.\nB) felhasználható, mert a jogi tisztviselő jelenléte az ülés során megsemmisítette az ügyfél-ügyvéd titoktartását.\nC) felhasználhatatlan, mert az ügyfél-ügyvéd titoktartás kizárja a titkár tanúvallomását az ilyen bizalmas kommunikációkról.\nD) felhasználhatatlan, mert ez szóbeli közlés tanúsítása, amely nem tartalmaz egyetlen elismert kivételt sem.\nAnswer in English.",
+        "generated_answer": "A) felhasználható, mert jelenléte az ülés során megsemmisítette az ügyfél-ügyvéd titoktartását.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question is Hungarian, asking which answer is correct. Ground truth answer is \"C\". Generated answer is \"A) felhasználható, ...\". That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10947,
+        "question": "Az alfa hullámok leginkább kapcsolódnak a következőhöz:\nA) a hipnagóg állapothoz\nB) 2. szakaszú alváshoz\nC) 3. szakaszú alváshoz\nD) 4. szakaszú alváshoz\nAnswer in English.",
+        "generated_answer": "A) kapcsolódik a hipnagóg állapothoz\nB) kapcsolódik a 2. szakaszú alváshoz\nC) kapcsolódik a 3. szakaszú alváshoz\nD) kapcsolódik a 4. szakaszú alváshoz",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Az alfa hullámok leginkább kapcsolódnak a következőhöz:\" which is Hungarian: \"Alpha waves are most associated with which of the following:\" Options A) hypnagogic state, B) stage 2 sleep, C) stage 3 sleep, D) stage 4 sleep. The correct answer is A (hypnagogic state). Ground truth answer: \"A\". Generated answer lists all options with \"kapcsolódik a ...\" i.e., says each option is associated. That is not equivalent; it does not pick A, it just repeats all. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10244,
+        "question": "Mi a jelentése az - implicit engedélyezésének -?\nA) A biztonsági tanács jóváhagyásának feltételezése fegyveres erő alkalmazása esetén, amikor egy államot előre figyelmeztettek\nB) Implicit engedélyezés alapján az UNSC tagjainak egy konkrét száma alapján\nC) Feltételezés, hogy minden törvénytelen támadás az UNSC határozatában megerősített fegyveres erő alkalmazásának lesz kitéve\nD) Az UNSC esetleges jóváhagyására várva, ismételten jogellenes támadások esetén az érintett államoknak jogukban áll bármilyen szükséges intézkedést meghozni a helyzet javítása érdekében.\nAnswer in English.",
+        "generated_answer": "C)",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer \"C)\" with ground truth \"A\". They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "Egy földbirtokos volt a 30 hektáros gyümölcsöskert tulajdonosa a városon kívül. A földbirtokos a gyümölcsöskertben található farmházban élt és a területet zöldségtermesztésre használta. A gyümölcsöskert nyugati oldalán közvetlenül szomszédos volt egy 10 hektáros szőlőskert, amelyet egy gazda birtokolt. Az országút nyugat felé eső része mentén található volt az árok. A gazda felfedezte, hogy a gyümölcsöskert déli részét a földbirtokos alig használta bármilyen mezőgazdasági tevékenységre, és talált egy kényelmes kavicsos utat a szőlőskerttől egészen az országútig, amelyen az úton keresztül átjárt. A gazda ezt az utat nyíltan és kizárólagosan használta a 20 éves időszakon át, így jogosultságot szerzett a földeken átvezető útra vonatkozóan. Ezután a gazda átadta a szőlőskert tulajdonjogát vevőnek. Az okirat így szólt: \"A grantor jelenleg átadja a szőlőskert tulajdonjogát, valamint az utat az orchardon átvezetve, a grantee-nek.\" Miután a vevő átvette a szőlőskert tulajdonjogát, a földbirtokos indítványozott egy megfelelő eljárást azért, hogy megakadályozza a vevőt az út használatában. Az ügy kimenetelét meghatározó kérdés az lesz, hogy\nA) a gazda okiratának leírása megfelelő volt-e az úton keresztül áthaladó földterület azonosítására a vevőnek történő átadás során.\nB) a vevő visszaél az úttal.\nC) korlátozásokat lehet bevezetni harmadik felek részére.\nD) a jogosultság járulékos volt.\nAnswer in English.",
+        "generated_answer": "A) a gazda okiratának leírása megfelelő volt-e az úton keresztül áthaladó földterület azonosítására a vevőnek történő átadás során.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer is a restatement of option A: \"A) a gazda okiratának leírása megfelelő volt-e az úton keresztül áthaladó földterület azonosítására a vevőnek történő átadás során.\"\n\nThat is not the same as \"D\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10025,
+        "question": "Melyik kijelentés írja le legjobban Dworkin egyik központi érveit az Igazságosság Sündisznóknak című művében?\nA) Az erkölcs szerepe nem játszik szerepet a jog fogalmában.\nB) Az erkölcsi érvek csak nehéz esetekben érvényesek.\nC) A jog meghatározza, hogy milyen erkölcsi értékek befolyásolják az etikus viselkedésünket.\nD) Az erkölcsi értékek függetlenek és objektívek egyszerre.\nAnswer in English.",
+        "generated_answer": "A) Az erkölcs szerepe nem játszik szerepet a jog fogalmában.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. Question: Which statement best describes Dworkin's central arguments in \"Justice for Hedgehogs\"? Options A-D. Ground truth answer is D. Generated answer is \"A) Az erkölcs szerepe nem játszik szerepet a jog fogalmában.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8086,
+        "question": "Melyik az alábbiak közül az elsődlegesen vegyi érzékelésre specializálódott érzék?\nA) Tapintás\nB) Látás\nC) Ízlelés\nD) Hallás\nAnswer in English.",
+        "generated_answer": "A) Tapintás",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following is primarily specialized for chemical sensing?\" Options: A) Touch, B) Vision, C) Taste, D) Hearing. Correct answer is C (taste). Generated answer: \"A) Tapintás\" which is touch. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5458,
+        "question": "Hozzon létre egy teljes igazságtáblát az alábbi érveléshez. Ezután az igazságtábla segítségével határozza meg, hogy az érvelés érvényes vagy érvénytelen-e. Ha az érvelés érvénytelen, válasszon egy olyan lehetőséget, amely ellentmondást mutató példával mutatja be. (Lehet, hogy van más ellentmondást mutató példa is.)\n~(M ≡ ~N)\nM / N\nA) Érvényes\nB) Érvénytelen. Ellentmondást mutató példa, amikor M és N igazak\nC) Érvénytelen. Ellentmondást mutató példa, amikor M igaz és N hamis\nD) Érvénytelen. Ellentmondást mutató példa, amikor N igaz és M hamis\nAnswer in English.",
+        "generated_answer": "I. A) Érvényes\n\nA) Érvényes igazságtábla:\n\nM ≡ M\nN ≡ N\n\nEz az igazságtábla érvényes, mert mindkét állítás igaz.\n\nII. B) Érvénytelen\n\nA) Érvénytelen igazságtábla:\n\nM ≡ ~M\nN ≡ ~N\n\nEz az igazságtábla érvénytelen, mert az egyik állítás hamis, és a másik állítás igaz.\n\nIII. C) Érvénytelen\n\nA) Érvénytelen igazságtábla:\n\nM ≡ ~M\nN ≡ ~N\n\nEz az igazságtábla érvénytelen, mert az egyik állítás hamis, és a másik állítás igaz.\n\nIV. D) Érvénytelen\n\nA) Érvénytelen igazságtábla:\n\nM ≡ ~M\nN ≡ ~N\n\nEz az igazságtábla érvénytelen, mert az egyik állítás hamis, és a másik állítás igaz.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"A\". That means the correct answer is option A: Valid. The generated answer is a long nonsense with multiple sections: \"I. A) Érvényes ... II. B) Érvénytelen ... III. C) Érvénytelen ... IV. D) Érvénytelen\". It does not simply state \"A\". It lists multiple options and seems incorrect. The question: \"Answer in English.\" Ground truth: \"A\". The generated answer is not equivalent; it's not just \"A\". So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3996,
+        "question": "Melyik ezek közül a két szituáció közül követ el a főszereplő (aki az I / me / my kifejezést használja) egyértelműen erkölcsileg helytelen cselekedetet az Egyesült Államok 2020-as átlagos erkölcsi normái szerint? Szituáció 1 | Elrejtettem inzulinjukat karácsony reggeléig a cukorbeteg gyerekeim elől. Szituáció 2 | Egy vitázót támogattam, ezért olyan bírókat jelöltem ki számára, akiket véletlenszerűen választottam.\nA) Helytelen, Helytelen\nB) Helytelen, Nem helytelen\nC) Nem helytelen, Helytelen\nD) Nem helytelen, Nem helytelen\nAnswer in English.",
+        "generated_answer": "A) Helytelen, Helytelen",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which of two situations is morally wrong according to US 2020 norms? Situation1: hiding insulin from diabetic children until Christmas morning. That's clearly wrong. Situation2: supporting a debater, so I appointed judges randomly. Randomly selecting judges is not morally wrong; it's okay. So answer should be \"Wrong, Not wrong\" which corresponds to option B. Ground truth is B. Generated answer: \"A) Helytelen, Helytelen\" which says both are wrong. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11964,
+        "question": "Mi okozza a terrorizmust?\nA) A demokratizáció és a nacionalizmus gátolja a terrorizmus lehetőségét: a nacionalizmus szolgálja az etnikai különbségek egységesítő ideológiai dinamikáját, a demokrácia pedig lehetővé teszi a jogi követelések konstruktív módon történő megfogalmazását. Ebben az elemzésben azok az államok, amelyeknek gyenge a demokratikus és nacionalista hitelessége, lehetővé tehetik a terrorizmus kialakulásához szükséges feltételeket.\nB) Az iszlám csoportok közötti terrorizmus etnocentrikus vonalak mentén fejlődik, amelyek ellentétesek a szekularizmussal, amely a modernitással jár. Talán ironikus, hogy míg a terrorizmus az iszlám társadalom fenyegetésével szerveződött a Közel-Keleten, a fenyegetésre adott válasz azt eredményezte, hogy Európában az emberek érzik magukat fenyegetve a muszlim beavatkozással a nyugati értékekre.\nC) A kapitalista piaci tevékenységek és a technológiai és kommunikációs forradalmak egyre inkább beavatkoznak a hagyományos kultúrák és társadalmak életébe. A fejlesztési egyenlőtlenségek és az egyes etnikai vagy gazdasági csoportok növekvő marginalizálódása a népességben, valamint a birtoklásaikkal kapcsolatos növekvő tudatosság alapot nyújt a terrorizmus szaporodásához.\nD) A nem demokratikus állami struktúrák, amelyeket erős központi rendszer és elnyomó módszerek jellemznek, teret nyitnak a népszerű elégedetlenségnek, hogy operatív terrorista aktivitássá váljon a politikai rendszer befejezésének szándékával. Míg a liberális demokráciákban a népszerű részvétel lehetőségei megakadályozzák, hogy a népszerű elégedetlenség negatív formában nyilvánuljon meg.\nAnswer in English.",
+        "generated_answer": "A) A demokratizáció és a nacionalizmus gátolja a terrorizmus lehetőségét: a nacionalizmus szolgálja az etnikai különbségek egységesítő ideológiai dinamikáját, a demokrácia pedig lehetővé teszi a jogi követelések konstruktív módon történő megfogalmazását. Ebben az elemzésben azok az államok, amelyeknek gyenge a demokratikus és nacionalista hitelessége, lehetővé tehetik a terrorizmus kialakulásához szükséges feltételeket.\nB) Az iszlám csoportok közötti terrorizmus etnocentrikus vonalak mentén fejlődik, amelyek ellentétesek a szekularizmussal, amely a modernitással jár. Talán ironikus, hogy míg a terrorizmus az iszlám társadalom fenyegetésével szerveződött a Közel-Keleten, a fenyegetésre adott válasz azt eredményezte, hogy Európában az emberek érzik magukat fenyegetve a muszlim beavatkozással a nyugati értékekre.\nC) A kapitalista piaci tevékenységek és a technológiai és kommunikációs forradalmak egyre inkább beavatkoznak a hagyományos kultúrák és társadalmak életébe. A fejlesztési egyenlőtlenségek és az egyes etnikai vagy gazdasági csoportok növekvő marginalizálódása a népességben, valamint a birtoklásaikkal kapcsolatos növekvő tudatosság alapot nyújt a terrorizmus szaporodásához.\nD) A nem demokratikus állami struktúrák, amelyeket erős központi rendszer és elnyomó módszerek jellemznek, teret nyitnak a népszerű elégedetlenségnek, hogy operatív terrorista aktivitássá váljon a politikai rendszer befejezésének szándékával. Míg a liberális demokráciákban a népszerű részvétel lehetőségei megakadályozzák, hogy a népszerű elégedetlenség negatív formában nyilvánuljon meg.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer is a long text containing options A, B, C, D (the same as the question). It does not give a single letter answer. It repeats all options. So it's not equivalent to \"C\". Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5328,
+        "question": "Az összes romlott dolog ehetetlen. Timothy romlott. Tehát Timothy ehetetlen.\nA) Egybecsengés\nB) A személy támadása (ad hominem)\nC) Osztályozás hibája\nD) Kérdéses ok\nAnswer in English.",
+        "generated_answer": "A) Egybecsengés",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: It's a logical fallacy identification. The ground truth answer is \"A\". The generated answer is \"A) Egybecsöngés\". That corresponds to option A, same meaning. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11528,
+        "question": "Egy pszichológus az egyik kisvárosi közösségi kórházban több gyakornok felügyelője. Észreveszi, hogy az egyik gyakornok levert és unott. Amikor beszél vele, az láthatóan boldogtalan és úgy érzi, hogy senkihez sem fordulhat segítségért. A gyakornok arra kéri a pszichológust, hogy terápián segítsen rajta. A pszichológus ezt elfogadja. A pszichológus:\nA) nem etikus, mert beleegyezik egy kettős kapcsolatba.\nB) nem etikus, mert megsérti a gyakornok magánélethez való jogát.\nC) etikus, mivel egy kisvárosi közösségi kórházban dolgoznak.\nD) etikus, mivel a gyakornok kétségbeesetten szorul segítségre.\nAnswer in English.",
+        "generated_answer": "A) nem etikus, mert beleegyezik egy kettős kapcsolatba.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: multiple choice, correct answer is A. Ground truth answer: \"A\". Generated answer: \"A) nem etetik, mert beleegyezik egy kettős kapcsolatba.\" That is essentially answer A with explanation. So meaning matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1031,
+        "question": "Egy agyfejlődési tanulmányban két rágcsálócsoportot tenyésztettek laboratóriumi környezetben. Az I. csoportban minden patkány izoláltan nőtt fel játékszerek nélkül. A II. csoportba a patkányokat kisebb csoportokra osztva játékszerekkel látták el. Melyik az alábbi állítások közül fejezi ki leginkább a tanulmány valószínű eredményét?\nA) Az I. csoportban felnevelt patkányok homloklebenyének súlya nagyobb lesz, mint azoké, akik a II. csoportban nevelkedtek.\nB) Az I. csoportban felnevelt patkányok homloklebenyének súlya kisebb lesz, mint azoké, akik a II. csoportban nevelkedtek.\nC) Az I. csoportban felnevelt patkányok agya láthatóan nem lesz különböző a II. csoportban felnevelt patkányok agyától.\nD) Az I. csoportban felnevelt patkányok agya több fehérállományból áll, míg a II. csoportban nevelt patkányok agya több szürkeállományból áll.\nAnswer in English.",
+        "generated_answer": "A) Az I. csoportban felnevelt patkányok homloklebenyének súlya nagyobb lesz, mint azoké, akik a II. csoportban nevelkedtek.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks which statement most likely expresses result. Ground truth answer is B. Generated answer is A. They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3130,
+        "question": "Egy földbirtokos nagy épülettel rendelkezik a városban. Január 15-én a földbirtokos 20 évre bérbe adta az épületet egy bérlőnek havi 10 000 dollárért. A földbirtokos és bérlő bérleti megállapodása azt írta elő, hogy a bérlő nem \"adhatja át ezt a bérletet senkinek, aki nem rendelkezik egy jól ismert hitelminősítő cégtől származó 'A' hitelminősítéssel.\" Az azt követő év február 1-jén a bérlő átadta a helyiségeket egy olyan vállalatnak, amelynek nem volt megfelelő hitelminősítése. A bérlő-vállalat bérleti ideje öt év volt, havi 15 000 dolláros bérleti díjjal, amelyet a vállalat fizetett a bérlőnek. Emellett a vállalat beleegyezett abba, hogy \"minden földbirtokos és bérlő közötti bérleti szerződés feltételeinek megfelelően cselekszik.\" Melyik az alábbiak közül írja le pontosan a nem-átengedhetőségi záradék jogi hatását, amelyet a földbirtokos-bérlő bérlemény-szerződés tartalmaz?\nA) A nem-átengedhetőségi záradék jogi hatása nem volt.\nB) A nem-átengedhetőségi záradék az átadást a bérlőtől a vállalatnak érvénytelenné tette.\nC) A bérlő-vállalat szerződés nem eredményezte a földbirtokos-bérlő szerződéseinek megszegését.\nD) Bár a bérlő-vállalati szerződés megsértette a földbirtokos-bérlő szerződését, a földbirtokosnak mégis el kell ismernie a helyiségek átadásának (az új) vállalatnak történő érvényességét.\nAnswer in English.",
+        "generated_answer": "A) A nem-átengedhetőségi záradék jogi hatása nem volt.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: which option correctly describes the legal effect of the non-assignment clause. Ground truth answer: \"A\". The generated answer: \"A) A nem-átengedhetőségi záradék jogi hatása nem volt.\" That corresponds to option A. So they match. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9298,
+        "question": "Egy új bank azt tervezi, hogy a vevők kényelmét előtérbe helyezi, minimalizálva a várakozási időt. A bank két lehetőséget fontolgat: egyetlen sor, ahol az első vevő várakozik az elérhető következő banktisztviselőre, vagy külön sorokat minden banktisztviselő számára. A bank úgy dönt, hogy számítógépes szimulációt alkalmaz ezeknek a lehetőségeknek az átlagos várakozási idő meghatározására. Melyik az alábbiak közül NEM igaz a bank tervére?\nA) A bank be tudja építeni a szimulációba más tényezőket, például a banktisztviselők számát.\nB) A bank használhatja a szimulációt a két lehetőség vizsgálatára a vevők kellemetlensége nélkül.\nC) A bank új alternatívákat fontolhat el a szimuláció eredményeire alapozva.\nD) A szimuláció nem fog használható eredményt produkálni, mert az aktuális vevői adatok nem állnak rendelkezésre.\nAnswer in English.",
+        "generated_answer": "D",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"Which of the following is NOT true about the bank's plan?\" Options A-D. The correct answer is D. Both generated answer: \"D\". Ground truth: \"D\". So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3632,
+        "question": "Egy nő üzleti megbeszélésre ment egy kereskedelmi épületbe. Az értekezlet után a liftben megsérült, mert az hirtelen leesett és a harmadik emeletről a pincébe zuhant. Beperelte az épület tulajdonosát, de a tárgyaláson az egyetlen bizonyíték amiről a figyelmetlenség kérdése szólt, az volt, hogy az asszony a liftben volt amikor az meghibásodott. Elutasítja a bíró a per indítólevelét jogi kérdésként a tanuk meghallgatása nélkül?\nA) Igen, mert mindig az sérült személynek kell bizonyítania a mulasztást.\nB) Igen, mert nem feltételezhető, hogy az épület tulajdonosa figyelmetlen volt.\nC) Nem, mert a lift az tulajdonos kizárólagos ellenőrzése alatt állt, és az ilyen balesetek rendszerint nem történnek meg figyelmetlenség nélkül.\nD) Igen, mert az asszony azért vállalta a kockázatot, amikor egy nyilvánvalóan veszélyes eszközt használt.\nAnswer in English.",
+        "generated_answer": "C) Nem, mert a lift az tulajdonos kizárólagos ellenőrzése alatt állt, és az ilyen balesetek rendszerint nem történnek meg figyelmetlenség nélkül.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". The generated answer is \"C) Nem, mert a lift az tulajdonos kizárólagos ellenőrzése alatt állt, és az ilyen bellesetek rendszerint nem történnek meg figyelmetlenség nélkül.\" That corresponds to option C, which matches ground truth. So meaning is same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3909,
+        "question": "Singer szerint melyik az egyetlen releváns tényező, amelyet figyelembe kell venni annak megállapításakor, hogy valaminek van-e erkölcsi státusza?\nA) méltóság\nB) erkölcsi közösséghez tartozás\nC) érzékenység\nD) egyik sem\nAnswer in English.",
+        "generated_answer": "A) méltóság",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Singer szerint melyik az egyetlen releváns tényező, amelyet figyelembe kell venni annak megállapításakor, hogy valaminek van-e erkölcsi státusza?\" Options: A) méltóság (dignity), B) belonging to moral community, C) sensitivity, D) none. Ground truth answer is C (sensitivity). Generated answer: \"A) méltóság\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2334,
+        "question": "Egy magánpraxisban dolgozó pszichológus nehéz váláson megy keresztül és ennek következtében kezdenek gyakran alkoholizálni és depressziós állapotba kerülni. Mit kell tennie?\nA) Mélyebben bele kell ásni a munkájába, hogy elfeledje saját problémáit.\nB) Keressen szakmai konzultációt és fontolja meg a praxis ideiglenes felfüggesztését.\nC) Magyarázza el a helyzetet a klienseinek és ajánlja fel, hogy további terapeutákhoz irányítsa őket.\nD) Azonnal más terapeutákhoz kell irányítania a klienseit.\nAnswer in English.",
+        "generated_answer": "A) Mélyebben bele kell ásni a munkájába, hogy elfeledje saját problémáit.\nB) Keressen szakmai konzultációt és fontolja meg a praxis ideiglenes felfüggesztését.\nC) Magyarázza el a helyzetet a klienseinek és ajánlja fel, hogy további terapeutákhoz irányítsa őket.\nD) Azonnal más terapeutákhoz kell irányítania a klienseket.\nA válasz D. Azonnal más terapeutákhoz kell irányítania a klienseket. A pszichológusnak nem szabad elfeledkeznie a saját problémáiról, és a kliensek nem is várhatják el, hogy azonnal máshol keressenek segítséget. A pszichológusnak továbbra is fel kell készülnie a nehéz helyzetekre, és meg kell próbálnia a kliensek támogatását nyújtani.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"B\". The generated answer lists all options and then says \"A válasz D. ...\" i.e., says answer D, and gives explanation contradictory. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8896,
+        "question": "Egy víztartály 50 gallon vizet tud tárolni. Milyen folyadék áramlási sebesség (gallonban másodpercenként) szükséges ahhoz, hogy a tartály 20 másodperc alatt megteljen?\nA) 0.4\nB) 2.5\nC) 16.7\nD) 70\nAnswer in English.",
+        "generated_answer": "A) 0.4\nA víztartály 50 gallon vizet tud tárolni. 20 másodperc alatt 50 gallon vizet kell tölteni. A folyadék áramlási sebessége (gallonban másodpercenként) a vízmennyiséggel arányos. Tehát a folyadék áramlási sebessége (gallonban másodpercenként) 50 gallon víz esetén 0.4 gallon/másodperc.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The generated answer says \"A) 0.4 ...\" which is option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7339,
+        "question": "A munkával való elégedettség leginkább a következővel mutat negatív korrelációt:\nA) intelligenciaszint\nB) fluktuáció ritmus\nC) elkülönülés a kollégáktól\nD) oktatási szint\nAnswer in English.",
+        "generated_answer": "A munkával való elégedettség leginkább a következővel mutat negatív korrelációt:\nB) fluktuáció ritmus",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"A munkával való elégedettség leginkább a következővel mutat negatív korrelációt: A) intelligenciaszint B) fluktuáció ritmus C) elkülönülés a kollégáktól D) oktatási szint Answer in English.\"\n\nGround truth answer: \"B\". So correct answer is option B. Generated answer: \"A munkával való elégedettség leginkább a következővel mutat negatív korrelációt: B) fluktuáció ritmus\". That matches: it says B) fluktuáció ritmus. So it's equivalent. So Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1494,
+        "question": "Az elmúlt években a HIV/AIDS világméretű kampányai jelentős előrelépést értek el. Az Európában tapasztalható HIV fertőzési arányok\nA) jelentősen csökkentek\nB) nem változtak\nC) növekedtek\nD) ismeretlenek\nAnswer in English.",
+        "generated_answer": "D) ismeretlenek",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Hungarian: \"Az Európában tapasztalható HIV fertőzési arányok\" options: A) significantly decreased, B) did not change, C) increased, D) unknown. Ground truth answer is B (did not change). Generated answer is D) ismeretlenek (unknown). That is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1318,
+        "question": "Az, hogy valaki képmutató-e az állításaival kapcsolatban, ...\nA) nem lényeges a jelleméhez képest\nB) bizonyíték arra, hogy az állítások hamisak\nC) nem lényeges az állítások igazságát tekintve\nD) csak a bíróságon fontos\nAnswer in English.",
+        "generated_answer": "A) nem lényeges a jelleméhez képest",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. Question is Hungarian: \"Az, hogy valaki képmutató-e az állításaival kapcsolatban, ...\" Options A-D. The correct answer (ground truth) is C. Generated answer is \"A) nem lényeges a jelleméhez képest\". That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5243,
+        "question": "Október 15-én egy ambiciózus fiatal színésznő írásbeli szerződést kötött egy országos hírű fotóssal. Szerződésük értelmében a fotós a színésznőnek tizenkét fényképes nyomatot szállított, amelyek »megörökítik a színésznőt egy tehetséges drámai színésznőként, különböző képességekkel.« Szerződésük továbbá előírta, hogy »ezeket a tizenkét nyomatot november 15-ig kézbesíti, amelyet követően a fizetés 1 500 dollárra hatvan nappal később történik meg.« Egy másik szerződési rendelkezés kimondta, hogy a fotós »garantálja, hogy a nyomatok megfelelőek és időben szállításra kerülnek.« A következő napon a fotós véletlenül leesett a lépcsőn, eltörte a lábát. Az esés következtében a fotós nem tudta lefotózni a színésznőt október 31-ig. Ekkor tájékoztatta a színésznőt, hogy a késedelem miatt »pár napra többre van szükségem november 15-én túlmutatóan, hogy kézbesíteni tudjam a nyomatokat.« A színésznő így reagált: »Kérlek, siess a képekkel, mert be kell adnom promóciós portfóliómat az előzőleg felajánlott főszerepre.« A fotós szorgalmasan dolgozott az egész folyamaton, és november 18-án a nyomatokat a színésznő menedzserének szállította. Miután a menedzser átnézte a fényképeket, azt mondta a fotósnak: »Biztos vagyok benne, hogy ezek elfogadhatóak lesznek az ügyfelemnek.« Azonban a következő napon a színésznő telefonon felhívta a fotóst és azt mondta: »Ezek a nyomatok borzasztóak. Rosszul nézek ki rajtuk. Visszaküldöm őket, és nem fizetek semmit értük. Azonkívül két nappal késik a szállítás.« Ha a színésznő eljárást indít a fotós ellen szerződésszegés miatt, melyik a fotós legjobb védelme a következők közül?\nA) A fényképek, ha szubjektíven nézzük, nem voltak megfelelőek.\nB) A fényképek, ha objektíven nézzük, nem voltak megfelelőek.\nC) A fényképeket nem szállították időben, ezért a színésznő felelőssége feltételes volt.\nD) A fotós sérülése átmeneti lehetetlenné tette a teljesítményt, amely időszakra jan jogosultságot adott az elmaradásra.\nAnswer in English.",
+        "generated_answer": "A) A fényképek, ha szubjektíven nézzük, nem voltak megfelelőek.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: \"If the actress initiates action against the photographer for breach of contract, which is the photographer's best defense among the options?\" The correct answer is D (the photographer's injury made performance temporarily impossible, giving a right to delay). The generated answer is \"A) A fényképek, ha szubjektíven nézzük, nem voltak megfelelőek.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8322,
+        "question": "A mimikri egy olyan stratégia, amely a természetes szelekció során fejlődött ki, hogy növelje a szervezetek alkalmazkodó képességét a környezetükhöz. Melyik az alábbiak közül jelent alkalmazkodási hasznot a Bates-féle mimikrinek?\nA) Egy olyan típusú százlábú, amely mérgező a varangyok számára, a varangy első fogyasztási kísérlete után véglegesen elkerüli azt.\nB) Egy lepke hamis szemeket használ annak farán, hogy eltérítse a ragadozókat.\nC) Egy lepke szinte azonos színezetű, mint egy szúrós méh.\nD) Egy földön fészkelő sirályfióka színezetének mintázata szinte azonos környezetével.\nAnswer in English.",
+        "generated_answer": "A) Egy olyan típusú százlábú, amely mérgező a varangyok számára, a varangy első fogyasztási kísérlete után véglegesen elkerüli azt.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: which of the following indicates adaptive benefit of Batesian mimicry? Options A-D. Ground truth answer is C. Generated answer is A. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8016,
+        "question": "Melyik állítás a leginkább összeegyeztethetetlen a következményekre alapozott büntetéssel?\nA) A büntetés biztonságot nyújt.\nB) A büntetés költséghatékony módszer a bűnözés megelőzésére vagy csökkentésére.\nC) A büntetés védi a személyes biztonságot.\nD) A büntetésnek arányosnak kell lennie a bűntett súlyosságával.\nAnswer in English.",
+        "generated_answer": "D) A büntetésnek arányosnak kell lennie a bűntett súlyosságával.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". Generated answer: \"D) A büntetésnek arányosnak kell lennie a bűntett súlyosságával.\" That is essentially the same as answer D. So they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1786,
+        "question": "Egy 25 éves nő azért jön az orvoshoz, mert két hónapja zsibbadást érez a jobb kezében. Ezen időszak alatt a jobb gyűrűs és kisujjában állandóan bizsergést érez. Nincs komolyabb betegségtörténete és nem szed gyógyszert. Pénztárosként dolgozik, és otthon számítógépet használ. Öt éven keresztül dobóként játszott a softball-bajnokságban, amíg két éve le nem állt vele. Az életfontosságú jelek normál határokon belül vannak. A vizsgálat teljes izomerejét mutatja. A jobb könyöktájékon végzett tapintás erős fájdalmat okoz a jobb gyűrűs és kisujjban. A tűnődés érzete és az érintési érzékenység szabályozása a jobb gyűrűs ujj felén és az egész kis ujjon csökkent. A fentiek alapján a legvalószínűbb az, hogy mi okozza ezeket az eredményeket a jobb oldalon?\nA) A medián ideg a csuklónál\nB) Az izom-bőr ideg az alkarban\nC) A sugárirányú ideg az alkarban\nD) Az ulnaris ideg a könyökön\nAnswer in English.",
+        "generated_answer": "A) A medián ideg a csuklónál",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Hungarian medical scenario, asks which nerve is most likely causing symptoms on right side. Options: A median nerve at wrist, B musculocutaneous nerve in forearm, C radial nerve in forearm, D ulnar nerve at elbow. Correct is D (ulnar nerve at elbow). Generated answer: \"A) A medián ideg a csuklónál\". That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4938,
+        "question": "Melyik az alábbiak közül a paneles modell becslésénél alkalmazott fix hatások módszerének hátránya?\nA) A modell valószínűleg technikailag nehézkes lesz számításra\nB) Az eljárás lehet érvénytelen, ha az összetett hiba a magyarázó változók egyikével vagy többjével korrelál\nC) A becsülendő paraméterek száma nagy lehet, amely eredményezhet fokszámvesztést\nD) A fix hatások módszere csak az idősorbeli változásokat nem tudja rögzíteni, csak a csoporton belüli eltéréseket követi nyomon.\nAnswer in English.",
+        "generated_answer": "A) A modell valószínűleg technikailag nehézkes lesz számításra",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Melyik az alábbiak közül a paneles modell becslésénél alkalmazott fix hatások módszerének hátránya?\" Options A-D. Ground truth answer is \"C\". So correct answer is option C. Generated answer says \"A) A modell valószínűleg technikailag nehézkes lesz számításra\". That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9031,
+        "question": "Melyik következő szó nem szerepel a Lewis Carroll Jabberwocky verseiben?\nA) brillig\nB) bandersnatch\nC) wabe\nD) grelp\nAnswer in English.",
+        "generated_answer": "A) brillig",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following words does NOT appear in Lewis Carroll's Jabberwocky?\" Options: A) brillig, B) bandersnatch, C) wabe, D) grelp. The correct answer is D (grelp) because it's not in the poem. Generated answer: \"A) brillig\". That is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4769,
+        "question": "Egy egyetemi hallgató és egy férfi összetűztek egy bárban, miközben biliárdoztak. A tanuló állítólag ő kezdte a verekedést, mikor a férfi egy győzelmi lökés után leütötte őt a biliárd kötéllel. Az egyetemi hallgató elleni tárgyaláson a társadalom az egyetemi hallgató egyik osztálytársát idézte be tanúként. Az osztálytárs nem volt jelen a bárban a verekedés idején. Az osztálytárs felajánlotta, hogy tanúskodik arról, hogy a következő napon az órán megközelítette az egyetemi hallgatót és azt mondta neki: \"Rossz volt a te részedről, hogy verekedésbe kezdtél a férfival egy biliárd játék miatt\", mire az egyetemi hallgató lehajtotta a fejét és elment. Az osztálytárs tanúvallomása\nA) alkalmas a res gestae részeként való bemutatásra.\nB) alkalmas belátásként való bemutatásra.\nC) alkalmatlant, mint olyan hallomás, amely nem esik semmilyen elismert kivétel hatálya alá.\nD) alkalmatlannak, mint önmagát szolgálónak, bemutatásra.\nAnswer in English.",
+        "generated_answer": "A) alkalmas a res gestae részeként való bemutatásra.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question is Hungarian, asking which option is correct. The ground truth answer is \"B\". The generated answer is \"A) alkalmas a res gestae részeként való bemutatásra.\" That's not the same as B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11576,
+        "question": "Melyik az alábbi állítások közül **nem** igaz?\nA) Egy formálisan érvényes szillogizmus lehet anyagilag hamis\nB) Egy formálisan érvényes szillogizmusnak anyagilag igaznak kell lennie\nC) Egy anyagilag igaz következtetés adódhat egy formálisan érvényes szillogizmusból\nD) Egy szillogizmus formális érvényessége nem garantálja, hogy anyagilag igaz is\nAnswer in English.",
+        "generated_answer": "A) Egy formálisan érvényes szillogizmus lehet anyagilag hamis",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which statement is NOT true? Options A-D. The correct answer is B according to ground truth. Generated answer: \"A) Egy formálisan érvényes szillogizmus lehet anyagilag hamis\". That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2044,
+        "question": "Mi a 'REM' mozaikszó jelentése?\nA) random energiamodul\nB) gyors szemmozgás\nC) piros szórakoztató gép\nD) valóban energikus zene\nAnswer in English.",
+        "generated_answer": "A) random energiamodul\n\nA 'REM' mozaikszó a Rapid Eye Movement rövidítése, ami a gyors szemmozgás alatt értendő. A REM-alvás az alvás egyik fázisának neve, amely során az agyunk aktív, és a szemünk gyorsan mozog. A REM-alvás fontos szerepet játszik a tanulásban, a memóriában és a pihenésben.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Mi a 'REM' mozaikszó jelentése?\" Options: A) random energiamodul, B) gyors szemmozgás, C) piros szórakoztató gép, D) valóban energikus zene. The correct answer is B (gyors szemmozgás). The generated answer says \"A) random energiamodul\" then explains that REM is Rapid Eye Movement, which is \"gyors szemmozgás\". So the generated answer selects option A, but then the explanation says it's Rapid Eye Movement, which corresponds to B. There's a mismatch: The answer choice is wrong (A) but the explanation is correct. The ground truth is B. Does the generated answer convey same meaning? It says A) random energiamodul, which is not the same as B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8969,
+        "question": "Az korai mezolitikus Maglemos kultúra hozzáigazodott a következő környezethez:\nA) a tundrához hasonló környezethez.\nB) a sivataghoz hasonló környezethez.\nC) erdő- és tóparti környezethez.\nD) egy egyenlítői környezethez.\nAnswer in English.",
+        "generated_answer": "C) erdő- és tóparti környezethez.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Az korai mezolitikus Maglemos kultúra hozzáigazodott a következő környezethez: ...\" Options A-D. The correct answer is C. Generated answer: \"C) erdő- és tóparti környezethez.\" Ground truth: \"C\". They match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5451,
+        "question": "Mivel biztosítjuk, hogy egyetlen egyén ne viselje a teljes munkafeladat terhét?\nA) Munka specializációval\nB) Munkatervezéssel\nC) Munkaidő-beosztással\nD) Műszakos munkával\nAnswer in English.",
+        "generated_answer": "D) Munkaidő-beosztással",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Hungarian: \"Mivel biztosítjuk, hogy egyetlen egyén ne viselje a teljes munkafeladat terhét?\" Means \"How do we ensure that a single individual does not bear the entire workload?\" Options: A) Munka specializációval (work specialization), B) Munkatervezéssel (work planning), C) Munkaidő-beosztással (work time scheduling), D) Műszakos munkával (shift work). The correct answer is likely A: work specialization (division of labor). Ground truth is A. Generated answer: D) Munkaidő-beosztással (work time scheduling). That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8852,
+        "question": "Melyik ezek közül a két helyzet közül cselekszik a főszereplő (aki az én/névem használja) valami egyértelműen erkölcsileg helytelenül az Egyesült Államok szokásos erkölcsi normái szerint 2020-ban? Helyzet 1 | Az én legjobb barátom barátnőjének tervezek moziba vinni, hogy meghódítsam. Helyzet 2 | Két száz Advilt adtam a beteg gyereknek lázcsillapításra.\nA) Helytelen, Helytelen\nB) Helytelen, Nem helytelen\nC) Nem helytelen, Helytelen\nD) Nem helytelen, Nem helytelen\nAnswer in English.",
+        "generated_answer": "A) Helytelen",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: multiple choice. Ground truth answer is \"A\". Generated answer: \"A) Helytelen\". That corresponds to choice A. So meaning matches. Yes. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3329,
+        "question": "Az alábbi két helyzet közül melyikben követ el erkölcsileg egyértelműen helytelen cselekedetet a főszereplő (aki az I/me/my használatával jellemezhető) a 2020-as Egyesült Államok általános erkölcsi szabályai szerint? 1. helyzet | Felhúzom a görkorcsolyámat a korcsolyapályán. 2. helyzet | Megtámadtam a betolakodót.\nA) Helytelen, helytelen\nB) Helytelen, nem helytelen\nC) Nem helytelen, helytelen\nD) Nem helytelen, nem helytelen\nAnswer in English.",
+        "generated_answer": "A) Helytelen, helytelen",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which situation is morally wrong? Options A-D. Ground truth answer is D (meaning \"Nem helytelen, nem helytelen\": not wrong, not wrong). Generated answer: \"A) Helytelen, helytelen\" which is option A (both wrong). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9882,
+        "question": "Ez a kérdés a következő információkra vonatkozik.\nE pillanattól kezdve, amikor az ellenség elhagyja a Köztársaság földjét, az összes francia hadsereg szolgálatában áll. Az ifjú férfiak harcba mennek; a házas férfiak fegyvereket kovácsolnak és szállítják az élelmet; a nők sátrakat készítenek, ruhákat varrnak és kórházakban szolgálnak; a gyerekek régi ruhákat bontanak és sebészeti tampont készítenek; az idősek pedig a köztereken felbátorítják a harcosokat és a királyok elleni gyűlöletet hirdetik és a Köztársaság egységét prédikálják. ... A Közrendési Bizottságot arra bízták, hogy minden szükséges intézkedést meghozzon annak érdekében, hogy mindenféle fegyver rendkívüli gyártását az a lendület és energia kísérje, amely a francia népet jellemzi. Ennek megfelelően felhatalmazást kapott az olyan létesítmények, gyárak, műhelyek és malomok létrehozására, amelyeket szükséges az ilyen munkák elvégzéséhez, valamint azoknak az iparosoknak és munkásoknak a kötelező hadrendbe vételére, akik hozzájárulhatnak a sikerükhöz az egész Köztársaság területén belül.\nA jelen törvény végrehajtására kiküldött népakarat-képviselők ugyanazokkal az akár a hadseregek képviselői által kapott korlátlan jogokkal rendelkeznek a saját kerületeikben is, együttműködve a Közrendési Bizottsággal.\nA levée en masse, 1793. augusztus 23.\nEz a bekezdés bevezette\nA) a Francia Köztársaságot\nB) a Közrendési Bizottságot\nC) a Koalíció elleni háborút\nD) a tömegesen történő toborzást\nAnswer in English.",
+        "generated_answer": "A) a Francia Köztársaságot",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: It asks which did the paragraph introduce? Options A-D. Ground truth: D (mass conscription). Generated answer: \"A) a Francia Köztársaságot\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8965,
+        "question": "A tükör mögött lévő képed távolsága egy síktükör esetén egyenlő\nA) a magasságod felével\nB) a tükörtől való távolságod felével\nC) az előtted lévő tükörtől való távolságoddal\nD) többel, mint az előtted lévő tükörtől való távolságod\nAnswer in English.",
+        "generated_answer": "A)",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer \"A)\" matches ground truth \"C\". They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9627,
+        "question": "Egy állam lakója hatalmas őserdő tulajdonosa volt. A lakó \"az állam emberei részére örökös bérleti jogot adott, feltéve hogy ha az említett terület bármely részét valaha is kereskedelmi célra használják, vagy más módon megváltoztatják annak természetes állapotát (kivéve a rekreációs, tudományos vagy oktatási célt), a grantor vagy az érdekeltek utódjai visszamennek a korábbi bérleti jogukra. \"Az állam jogszabálya szerint az ingatlanok \"az állam emberei\" részére történő átruházása az állam jogalanyként történő tulajdonába helyezi azokat, és az ilyen ingatlanok felügyeletét egy kinevezett hivatalnok, azaz az \"environmental resources\" igazgatója gyakorolja. Az igazgató engedélyt adott egy favágó cégnek a terület egy távoli részén való fakitermelésre, ideértve az alkalmi úthasználatot is. Az a terület, ahol a favágó cég dolgozott, egy állami rekreakciós terület kialakításához lett volna felhasználva. Miután az engedélyt megadták, a favágó cég elkezdte kivágni a fát, amit később 10 000 dollárért eladott. Amikor a lakó megtudta, hogy a favágó cég kitermeli és eladja a fát, felszólította az igazgatót, hogy szüntesse meg a föld további kizsákmányolását. Az elűzési eljárásban, amelyet a lakó indított az állam ellen a telkének visszaszerzése érdekében, milyen eredmény várható?\nA) A lakó nyerne, mert a favágó cég a fát eladva jogosulttá tette a lakót, hogy visszamenjen és megszüntesse a bérletet az államnak.\nB) A lakó nyerne, mert a favágó cég által végzett fafeldolgozás automatikusan megszünteti az állam örökös bérleti jogát.\nC) A lakó nem nyerne, mert az igazgató jóváhagyta a favágást annak érdekében, hogy a területet rekreációs célra alakítsák ki.\nD) A lakó nem nyerne, mert a lakó jogának fenntartása megsérti az örökösös szabályokat.\nAnswer in English.",
+        "generated_answer": "A) A lakó nyerne, mert a favágó cég a fát eladva jogosulttá tette a lakót, hogy visszamenjen és megszüntesse a bérletet az államnak.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: \"Which result is expected?\" Options A-D. Ground truth answer is C. Generated answer is \"A) ...\" i.e., option A. That does not match. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4712,
+        "question": "Egy Hindu vallást gyakorló személy legvalószínűbb, hogy\nA) meglátogat egy tavon épült szentélyt.\nB) naponta ötször imádkozik.\nC) fürdik a Gangesz folyóban.\nD) zarándoklatot tesz Jeruzsálembe.\nAnswer in English.",
+        "generated_answer": "A) meglátogat egy tavon épült szentélyt.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: Hungarian: \"Egy Hindu vallást gyakorló személy legvalószínűbb, hogy\" which means \"A person practicing Hinduism is most likely to\". Options: A) visit a temple built on a lake. B) pray five times a day. C) bathe in the Ganges. D) make a pilgrimage to Jerusalem. Correct answer is C (bathe in the Ganges). Generated answer: \"A) meglátogat egy tavon épült szentélyt.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7290,
+        "question": "Egy cég építővel kötött egy szerződést, amely szerint az új vállalati székházat egy fix áron, 100 millió dollárért építik fel. A szerződéskötéskor az építőiparban nagyon elterjedt volt az acél és beleértették a szerződésbe 6 millió dollár értékben. A projekt kezdete előtt egy tornádó károsította az ország legnagyobb acélbeszállítója gyártósorát, ami 20%-os áremelkedést okozott az acél árában. Az építő tájékoztatta a céget az áremelkedésről, majd a felek szóbeli egyezséget kötöttek és emelték az építési árat 101 millió dollárra. Az építő elkezdte az építkezést, amelyet határidőre be is fejezett. A cég kiutalta az építőnek a 100 millió dolláros összeget, azonban a további 1 millió dollárt megtagadta a kifizetéstől. Ha az építő beperli a céget az 1 millió dolláros igényéért, akkor valószínűleg mi lesz az ítélet?\nA) Nem, mert a módosítást sosem írták alá a felek közül senki által.\nB) Nem, mert nem volt meggondolás az eredeti szerződés módosításához.\nC) Igen, mert a cég ígérete meggondoláson alapult.\nD) Igen, mert az áremelkedésre való tekintettel a módosítás igazságos és méltányos volt.\nAnswer in English.",
+        "generated_answer": "C) Igen, mert az áremelkedésre való tekintettel a módosítás igazságos és méltányos volt.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: \"If the builder sues the company for the $1 million claim, what will likely be the judgment?\" Options A-D given in Hungarian, but answer should be in English. The ground truth answer is \"D\". The generated answer is \"C) Igen, mert az áremelkedésre való tekintettel a módosítás igazságos és méltányos volt.\" That corresponds to option C? Actually the text says \"C) Igen, mert az áremelkedésre...\" Wait options: A) Nem, mert... B) Nem, mert... C) Igen, mert a cég ígérete meggondoláson alapult. D) Igen, mert az áremelkedésre való tekintettel a módosítás igazságos és méltányos volt.\n\nGenerated answer says \"C) Igen, mert az áremelkedésre...\" but that description matches D's text, not C. They labeled it C but content matches D. However ground truth is D. The generated answer is not exactly \"D\". It says \"C) Igen, mert az áremelkedésre...\" which is mismatched label. The meaning: It says \"Yes, because the modification was fair and equitable in view of the price increase.\" That matches the reasoning of D. So the meaning aligns with D, even though they labeled it C. The question: \"determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer\". The ground truth answer is D (just the letter). The generated answer expresses the content of D, albeit with wrong letter. The meaning is the same: they support the claim. So is that considered equivalent? The ground truth is just \"D\". The generated answer says \"C) Igen, ...\". The meaning is that the correct answer is the one about fairness due to price increase, which is D. So the generated answer's meaning matches D, despite mislabel. The instruction: \"if the GENERATED ANSWER and GROUND TRUTH convey the same meaning\". Yes, they convey same meaning (the correct answer is that the builder will win because modification was fair). So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1501,
+        "question": "Egy gépnek 12 percig tart 200 darab szénsavas üveg feltöltése. Ebben az ütemben, hány perc alatt tölti fel a gép az 500 üveg szénsavval?\nA) 25 perc\nB) 28 perc\nC) 30 perc\nD) 40 perc\nAnswer in English.",
+        "generated_answer": "C) 30 perc\n\nA gép 12 perc alatt 200 darab üveget tölt fel, így 12 perc / 200 darab üveg = 0,067 óra (67 perc) alatt tölti fel az üvegeket.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Hungarian: \"Egy gépnek 12 percig tart 200 darab szénsavas üveg feltöltése. Ebben az ütemben, hány perc alatt tölti fel a gép az 500 üveg szénsavval? A) 25 perc B) 28 perc C) 30 perc D) 40 perc Answer in English.\"\n\nGround truth answer: \"C\". So correct answer is option C, which is 30 minutes. Generated answer: \"C) 30 perc\n\nA gép 12 perc alatt 200 darab üveget tölt fel, így 12 perc / 200 darab üveg = 0,067 óra (67 perc) alatt tölti fel az üvegeket.\"\n\nThe generated answer says C) 30 perc, which matches the ground truth. The extra explanation is wrong (0.067 hour is not 67 minutes, but irrelevant). But the answer selection matches. The question: \"determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer\". The generated answer selects C) 30 perc, same as ground truth. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9769,
+        "question": "Georgia a helyi kórházban dolgozik, mert segíteni szeretne másokon, míg Kathy csak azért dolgozik a kórházban, hogy pénzt keressen. Az egyéni motivációik azt mutatják, hogy mi a különbség a\nA) elsődleges és másodlagos ösztönzők között\nB) pozitív és negatív kontroll helyein\nC) szimpatikus és autonóm motivációban\nD) belső és külső motiváció között\nAnswer in English.",
+        "generated_answer": "A) elsődleges és másodlagos ösztönzők között\nB) pozitív és negatív kontroll helyein\nC) szimpatikus és autonóm motivációban\nD) belső és külső motiváció között",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D). That is not equivalent; it's not just D. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6306,
+        "question": "Melyik ezek közül a két szituáció közül követ el a főszereplő (aki az én/én/mi használatát használja) nyilvánvalóan erkölcsileg helytelen tettet az USA 2020-as szokásos erkölcsi normái szerint? Szituáció 1 | Beraktam a hörcsögot a sütőbe 35 percre. Szituáció 2 | Késes támadás esetén felkészülve mentem az iskolába.\nA) Helytelen, Helytelen\nB) Helytelen, Nem helytelen\nC) Nem helytelen, Helytelen\nD) Nem helytelen, Nem helytelen\nAnswer in English.",
+        "generated_answer": "A) Helytelen, Helytelen",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which of two situations is morally wrong according to US 2020 norms. Situation 1: putting hamster in oven 35 minutes => clearly morally wrong (animal cruelty). Situation 2: going to school prepared for a knife attack => not morally wrong (just being prepared). So answer should be \"Helytelen, Nem helytelen\" which corresponds to option B. But ground truth says \"A\". Wait ground truth says \"A\". That seems contradictory. But we must compare generated answer to ground truth. Ground truth answer is \"A\". Generated answer is \"A) Helytelen, Helytelen\". That matches ground truth \"A\". So they are equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5194,
+        "question": "Melyek az alábbi nyomelem-elemzési technikák?\nA) proton magnetométer és elektromos ellenállás\nB) gyorsító tömegspektrometria és a fotoszintézis utak\nC) szénizotóp-elemzés és kísérleti reprodukálás\nD) neutronaktivációs analízis és röntgen-fluoreszcencia\nAnswer in English.",
+        "generated_answer": "A) proton magnetométer és elektromos ellenállás\nB) gyorsító tömegspektrometria és a fotoszintézis utak\nC) szénizotóp-elemzés és kísérleti reprodukálás\nD) neutronaktivációs analízis és röntgen-fluoreszcencia\n\nA proton magnetométer és az elektromos ellenállás az elektrokémiai analízis módszerei. A gyorsító tömegspektrométer és a fotoszintézis utak az élettudományok módszerei. A szénizotóp-elemzés és a kísérleti reprodukálás az ásványtan és a geokémia módszerei. A neutronaktivációs analízis és a röntgen-fluoreszcencia a fizikai analízis módszerei.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Melyek az alábbi nyomelem-elemzési technikák?\" (Which of the following are trace element analysis techniques?) Options A-D given. The ground truth answer is \"D\". So correct answer is option D.\n\nGenerated answer lists all options with explanations, not selecting D. It does not say D is the correct one. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9431,
+        "question": "A kormány árszintet állapít meg egy termék piacán annak érdekében, hogy\nA) megszüntesse a piaci többletet\nB) megszüntesse a piaci hiányt\nC) segítse a termék vevőit\nD) segítse a termék eladóit\nAnswer in English.",
+        "generated_answer": "A kormány árszintet állapít meg egy termék piacán annak érdekében, hogy\nA) megszüntesse a piaci többletet",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"A kormány árszintet állapít meg egy termék piacán annak érdekében, hogy ...\" Options A-D. The ground truth answer is D. The generated answer says: \"A kormány árszintet állapít meg egy termék piacán annak érdekében, hogy A) megszüntesse a piaci többletet\". So generated answer selects option A, not D. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3966,
+        "question": "Mi lenne a legnehezebb a Holdon?\nA) Egy kilogramm toll\nB) Öt font téglát, amint a Földön mérve\nC) Öt kilogramm toll\nD) Egy kilogramm tégla\nAnswer in English.",
+        "generated_answer": "A) Egy kilogramm toll\n\nA Holdon a gravitáció 1/6-a a Földénél, így egy kilogramm toll a Holdon ugyanakkora lenne, mint a Földön.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Mi lenne a legnehezebb a Holdon?\" Means \"What would be the heaviest on the Moon?\" Options: A) 1 kilogram feather, B) five pounds bricks as measured on Earth, C) five kilogram feather, D) 1 kilogram brick. The correct answer is C according to ground truth. Generated answer says \"A) Egy kilogramm toll\" (Option A). That's not same as C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4756,
+        "question": "Egy férfi birtokolt földet egy autópálya déli oldalán. A férfi földjének déli részén volt egy telek, amely egy nő tulajdonában volt, aki egy házban élt rajta. Öt évvel ezelőtt a férfi jogi megállapodást kötött a nővel, amely alapján az asszony a tulajdonában lévő telekről egy közjogú joggal mentesítést kapott, mivel ez a rövidebb útvonalat biztosította az autópálya és a háza között. A jogalapot egy jól jelölt út igazolta. A jogi megállapodást rövidesen bejegyezték. Három évvel ezelőtt az asszony átadta a házát a férfinak. A férfi soha nem vette valódi birtokba a házat. Két éve a férfi átadta a házat egy vevőnek teljes felelősségi nyilatkozattal. Két hónappal azután, hogy a vevő beköltözött a házba, egy szomszéd tájékoztatta arról, hogy a mentességi díjat igénybe lehet venni. Ekkor kezdte el a vevő használni az utat, amelyet a férfi földjén jelöltek ki. Amikor a férfi észrevette, hogy a vevő használja az utat, akkor akadályt épített a földjén, amely hatékonyan megakadályozta a vevőt az út használatában. A vevő beperelte a férfit, állítva, hogy jogosult a mentességi díjra. Ki valószínű, hogy nyer?\nA) A férfi, mert az iszármazott mentességi jog megszűnt.\nB) A férfi, mert a vevő nem rendelkezett valós észleléssel a mentességi jogról az átvételkor.\nC) A vevő, mert teljes felelősségi nyilatkozattal vásárolta meg a házat.\nD) A vevő, mert a mentességi jog nyilvános rekordalkotásra került, amikor megvásárolta a házat.\nAnswer in English.",
+        "generated_answer": "A) A férfi, mert az iszármazott mentességi jog megszűnt.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The ground truth answer is \"A\". The generated answer is \"A) A férfi, mert az iszármazott mentes...\". That corresponds to option A. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3012,
+        "question": "Nathanson javasol egy visszacsatolásos jogelméletet, amely feltételezi az alábbiakat, kivéve\nA) bűnözések listáját, amelyek súlyosság szerint rangsorolódnak.\nB) büntetések skáláját, amelyek egyes bűncselekmények súlyosságával korrelálnak.\nC) a bűnözők emberséges bánásmódját.\nD) halálbüntetés a legsúlyosabb bűncselekményekre.\nAnswer in English.",
+        "generated_answer": "A) bűnözések listáját, amelyek súlyosság szerint rangsorolódnak.\nB) büntetések skáláját, amelyek egyes bűncselekmények súlyosságával korrelálnak.\nC) a bűnözők emberséges bánásmódját.\nD) halálbüntetés a legsúlyosabb bűncselekményekre.\n\nA visszacsatolásos jogelmélet az alábbi feltételeket feltételezi:\n\nA) bűnözések listáját, amelyek súlyosság szerint rangsorolódnak.\nB) büntetések skáláját, amelyek egyes bűncselekmények súlyosságával korrelálnak.\nC) a bűnözők emberséges bánásmódját.\nD) halálbüntetés a legsúlyosabb bűncselekményekre.\n\nA visszacsatolásos jogelméletben a bűnözések listáját és a büntetések skáláját a bűncselekmények súlyossága alapján kell meghatározni, és a bűnözők emberséges bánásmódját a bűncselekmények súlyossága alapján kell biztosítani. A halálbüntetés a legsúlyosabb bűncselekmények esetében alkalmazható.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Nathanson javasol egy visszacsatolásos jogelméletet, amely feltételezi az alábbiakat, kivéve\" which means \"Nathanson proposes a feedback law theory that assumes the following, except\". So we need to pick which is NOT assumed. The ground truth answer is D. So the correct answer is D.\n\nThe generated answer repeats all options A-D and then says the theory assumes all of them. It does not indicate which is the exception. It essentially says all are assumed, not picking D. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

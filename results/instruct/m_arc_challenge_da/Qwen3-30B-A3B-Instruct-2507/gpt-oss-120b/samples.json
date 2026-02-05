@@ -1,0 +1,82 @@
+[
+    {
+        "id": 788,
+        "question": "Hvilket beskriver en kemisk forandring?\nA) sukker, der opløses i te\nB) solens varme på fortorvet\nC) saks, der klipper papir i stykker\nD) syre i maven, der fordøjer mad\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n**D) acid in the stomach digesting food**\n\nExplanation: A chemical change involves a transformation in the molecular composition of a substance, resulting in new substances being formed. In option D, stomach acid (hydrochloric acid) reacts with food, breaking it down into simpler compounds — this is a chemical change.\n\nLet’s review the others:\n- A) Sugar dissolving in tea – this is a physical change (no new substance is formed).\n- B) Sun's heat on a sidewalk – this is a physical change (heat transfer, no chemical reaction).\n- C) Scissors cutting paper – this is a physical change (only shape changes).\n\nOnly D involves a true chemical change.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"D\". Generated answer says the correct answer is D and explains why. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Hvilket af følgende er en korrekt skrevet kemisk ligning, der demonstrerer massebevarelse?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correct chemical equation that demonstrates mass conservation (i.e., is balanced) is:\n\n**B) H₂O + CO₂ → H₂CO₃**\n\n### Explanation:\nMass conservation means that the number of atoms of each element must be the same on both sides of the equation.\n\nLet’s check each option:\n\n---\n\n**A) Mg + HCl → H₂ + MgCl₂**  \n- Left: 1 Mg, 1 H, 1 Cl  \n- Right: 2 H, 1 Mg, 2 Cl  \n❌ Not balanced (H and Cl counts don’t match)\n\n---\n\n**B) H₂O + CO₂ → H₂CO₃**  \n- Left: 2 H, 1 C, 3 O (1 from H₂O + 2 from CO₂)  \n- Right: 2 H, 1 C, 3 O (in H₂CO₃)  \n✅ Balanced — atoms are conserved. This represents the formation of carbonic acid from water and carbon dioxide.\n\n---\n\n**C) KClO₃ → KCl + O₂**  \n- Left: 1 K, 1 Cl, 3 O  \n- Right: 1 K, 1 Cl, 2 O (only 2 O in O₂)  \n❌ Not balanced (3 O on left, only 2 on right)\n\n---\n\n**D) H₂ + O₂ → H₂O**  \n- Left: 2 H, 2 O  \n- Right: 2 H, 1 O  \n❌ Not balanced (oxygen atoms don't match)\n\n---\n\n### ✅ Correct answer: **B) H₂O + CO₂ → H₂CO₃**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct equation is B) H₂O + CO₂ → H₂CO₃, and explains that B is correct. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 82,
+        "question": "Hvorfor er vanding af planter og græsplæner om morgenen en måde at spare vand på?\nA) Der er altid mere vand om morgenen.\nB) Mindre mængder vand fordamper om morgenen, når det er køligt.\nC) Vand, der bruges om morgenen, kan genanvendes til eftermiddagsbrug.\nD) Græs kan kun absorbere vand om morgenen.\nAnswer in English.",
+        "generated_answer": "B) Less water evaporates in the morning when it's cooler.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"B\". Generated answer says \"B) Less water evaporates in the morning when it's cooler.\" That matches option B. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 530,
+        "question": "Hvilke ændringer vil være skadelige for en egernes levested?\nA) ny plantevækst\nB) ændring af årstiderne\nC) fældning af træer for at bygge huse\nD) plantning af fyrretræ frøplanter\nAnswer in English.",
+        "generated_answer": "The change that would be harmful to a homeowner's standard of living is:\n\nC) felling of trees to build houses\n\nExplanation: While tree felling may be necessary for construction, it can negatively impact a homeowner's quality of life by reducing shade, increasing noise, decreasing property value, harming local ecosystems, and contributing to environmental degradation. In contrast, options A (new plant growth), B (changing seasons—natural process), and D (planting pine saplings) are generally beneficial or neutral to the environment and living conditions.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvilke ændringer vil være skadelige for en egernes levested?\" Means \"Which changes would be harmful for a woodpecker's habitat?\" Options: C is felling trees for houses. Ground truth answer: C. Generated answer says: \"The change that would be harmful to a homeowner's standard of living is: C) felling of trees to build houses\". It says homeowner's standard of living, not woodpecker habitat. But it still selects C as harmful. The meaning: The question asks about harmful to egernes (woodpecker) habitat. The generated answer says harmful to homeowner's standard of living, which is a different subject. However the core selection is C. Does that count as same meaning? The answer selection matches, but the explanation is off. The question: \"determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer\". The ground truth is just \"C\". The generated answer says C is harmful, albeit mischaracterized. The meaning of answer is that C is the correct choice. So it's equivalent in terms of answer choice. Likely considered True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "Hvad er mest sandsynligt det første skridt for elever at gøre for et genbrugsprojekt?\nA) brænd materialerne i et bål\nB) tag materialerne til en losseplads\nC) smid materialerne i en affaldsspand\nD) sorter materialerne efter plastik, papir og dåser\nAnswer in English.",
+        "generated_answer": "The most likely first step for students to take in a recycling project is:  \nD) sort the materials by plastic, paper, and cans.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"D\". Generated answer says \"The most likely first step ... is: D) sort the materials by plastic, paper, and cans.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "I Australien kan middagstemperaturerne stige til over 110°F (43°C). For at holde deres kroppe kølige slikker kænguruer deres arme og dækker dem med et tykt lag af spyt. Når spytet fordamper, fungerer det som en kølingsmekanisme og sænker kænguruens kropstemperatur. Hvilken term beskriver bedst denne aktivitet?\nA) naturlig udvælgelse\nB) forsvars mekanisme\nC) strukturel tilpasning\nD) adfærdsmæssig tilpasning\nAnswer in English.",
+        "generated_answer": "The best term describing this activity is:\n\n**D) behavioral adaptation**\n\nExplanation: Kangaroos licking their arms and using saliva to cool down is a behavior they actively perform in response to high temperatures. This is not a physical (structural) change, nor is it a result of natural selection acting over generations (natural selection), nor is it primarily a defense against predators (defense mechanism). Instead, it's a learned or instinctive behavior that helps regulate body temperature—making it a **behavioral adaptation**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says \"The best term ... D) behavioral adaptation\". So yes, matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Når en person springer ud fra et fly med faldskærm, bevæger hun sig med cirka 67 meter per sekund. Når hun trækker i snoren, og hendes faldskærm åbner sig, bremses hun til cirka 3 meter per sekund. Hvis hastigheden og accelerationen overvejes som positive, før faldskærmen åbnes, hvordan ændres hendes hastighed og acceleration så, når faldskærmen åbnes?\nA) Hastigheden og accelerationen forbliver begge positive.\nB) Hastigheden og accelerationen bliver begge negative.\nC) Hastigheden forbliver positiv, men accelerationen bliver negativ.\nD) Hastigheden bliver negativ, men accelerationen forbliver positiv.\nAnswer in English.",
+        "generated_answer": "When the person is falling before the parachute opens, she is moving downward with a speed of about 67 m/s. Since we are told to consider **downward motion as positive**, her **velocity is positive**.\n\nWhen the parachute opens, it creates a large upward force (air resistance), which causes a **deceleration** — that is, a reduction in her downward speed. This means she is still moving downward (so velocity remains **positive**), but her speed is decreasing.\n\nSince acceleration is defined as the rate of change of velocity, and her velocity is decreasing while still being positive, the **acceleration is negative** (because the change in velocity is negative).\n\n### Therefore:\n- **Velocity remains positive** (still moving downward).\n- **Acceleration becomes negative** (due to deceleration from the parachute).\n\n✅ Correct answer: **C) Hastigheden forbliver positiv, men accelerationen bliver negativ.**\n\nIn English:  \n**C) The velocity remains positive, but the acceleration becomes negative.**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer says answer is C, explains that velocity remains positive, acceleration negative. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 621,
+        "question": "Nogle frøarter vil begrave sig selv i mudder, hvis miljøet bliver meget tørt. Frøerne går i en slags dvale. Hvad ville være det mest sandsynlige signal for frøerne til at dukke op fra mudderet?\nA) en decrease i dagslys timer\nB) en stigning i lufttemperatur\nC) en stigning i nedbør\nD) et fald i lufttrykket\nAnswer in English.",
+        "generated_answer": "The most likely signal for the seeds to emerge from the mud would be:\n\n**C) a stigning i nedbør** (an increase in precipitation)\n\n**Explanation:** Since the seeds bury themselves in mud during dry conditions and enter dormancy, the return of moisture (rain or increased water availability) would be the most direct and reliable environmental cue that conditions are favorable again for germination. Water triggers metabolic processes in seeds, allowing them to break dormancy and sprout. Therefore, an increase in precipitation is the most logical signal for the seeds to emerge.\n\nCorrect answer: **C) a stigning i nedbør** → **C) an increase in precipitation**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says the most likely signal is C) an increase in precipitation. So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 976,
+        "question": "Et lag af sten indeholder et fossilt af en fisk og et fossilt af en dinosaur, som levede på land, meget tæt på hinanden. Hvad er den mest sandsynlige forklaring på dette?\nA) Fisken og dinosauren boede begge tæt på en kystlinje.\nB) Fisken blev båret langt ind i landet af en enorm bølge. // (behold originalteksten)\nC) Fisken og dinosauren blev forstenet på meget forskellige tidspunkter.\nD) Dinosauren var på vej fra en kontinent til en anden svømmende, da den døde.\nAnswer in English.",
+        "generated_answer": "The most likely explanation for a fish fossil and a dinosaur fossil (which lived on land) being found very close together in a layer of rock is:\n\n**B) The fish was carried far inland by a huge wave.**\n\nExplanation: Fish fossils are typically found in marine or freshwater deposits, while land-dwelling dinosaurs are found in terrestrial sediments. If both are found together in the same layer, it suggests that the fish was transported from a water body (like a sea or lake) into a land environment—likely by a powerful event such as a tsunami or flood. This would explain how a fish fossil ended up near a dinosaur fossil despite their different habitats. Option B best accounts for this unusual co-occurrence.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The generated answer says the most likely explanation is B. So they differ. Therefore answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "Hvilken af følgende metoder er den mest effektive måde at transportere store mængder kul fra en mine i Kentucky til et kraftværk i Arizona?\nA) med skib\nB) med tog\nC) med lastbil\nD) med fly\nAnswer in English.",
+        "generated_answer": "The most effective method to transport large quantities of coal from a mine in Kentucky to a power plant in Arizona is:\n\n**B) with train**\n\nTrains are the most efficient and cost-effective way to move bulk goods like coal over long distances across land. They can carry huge amounts of cargo at once, are relatively energy-efficient, and are well-suited for the vast rail networks that span the United States. \n\n- **A) With ship** – Not feasible, as there are no navigable waterways connecting Kentucky to Arizona.\n- **C) With truck** – Too expensive and inefficient for such long distances and large volumes.\n- **D) With plane** – Completely impractical due to extremely high costs and low capacity.\n\nTherefore, **train (B)** is the correct and most effective answer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the most effective method is B) with train. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

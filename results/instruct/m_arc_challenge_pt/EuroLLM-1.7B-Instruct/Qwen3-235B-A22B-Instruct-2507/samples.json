@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Qual das seguintes opções descreve a água mudando de líquido para sólido?\nA) o gelo se formando em um lago\nB) o orvalho se formando na grama\nC) a neve derretendo em uma poça\nD) a água evaporando de um lago\nAnswer in English.",
+        "generated_answer": "A resposta correta é a alternativa: C) a neve derretendo em uma poça.",
+        "ground_truth": "A",
+        "assessment": "The question asks which option describes water changing from liquid to solid. The correct answer is A) \"o gelo se formando em um lago\" (ice forming on a lake), as this represents freezing, the phase change from liquid to solid.\n\nThe generated answer incorrectly states C) \"a neve derretendo em uma poça\" (snow melting into a puddle), which describes a solid turning into a liquid (melting), the opposite of the required phase change.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 861,
+        "question": "Um homem escalou até o topo de uma montanha muito alta. Enquanto estava no topo da montanha, ele bebeu toda a água de sua garrafa de plástico e depois colocou a tampa de volta. Quando voltou para o acampamento no vale, descobriu que a garrafa vazia havia se deformado. Qual das seguintes opções melhor explica por que isso aconteceu?\nA) A temperatura no vale é mais baixa do que no topo da montanha.\nB) A temperatura no vale é mais alta do que no topo da montanha.\nC) A pressão do ar no vale é mais baixa do que no topo da montanha.\nD) A pressão do ar no vale é mais alta do que no topo da montanha.\nAnswer in English.",
+        "generated_answer": "A) A temperatura no vale é mais baixa do que no topo da montanha.",
+        "ground_truth": "D",
+        "assessment": "The question describes a scenario where a man drinks water from a plastic bottle at the top of a high mountain, seals it, and later finds the empty bottle deformed when he returns to the camp in the valley. The deformation is due to changes in air pressure, not temperature.\n\nAt higher altitudes (the mountain top), atmospheric pressure is lower. When the man seals the empty bottle at the top, the air pressure inside the bottle equals the low external pressure. Upon descending to the valley, the external air pressure increases, becoming higher than the pressure inside the sealed bottle. This higher external pressure compresses the bottle, causing it to deform.\n\nTherefore, the correct explanation is that the air pressure in the valley is higher than at the top of the mountain, which corresponds to option D.\n\nThe generated answer states option A: \"The temperature in the valley is lower than at the top of the mountain,\" which is incorrect both in fact (valleys are generally warmer than mountain tops) and in relevance (temperature change is not the primary cause of the deformation).\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Por que regar plantas e grama de manhã cedo é uma maneira de conservar água?\nA) Sempre há mais água de manhã.\nB) Quantidades menores de água evaporam na manhã fresca.\nC) A água usada de manhã pode ser reciclada para uso à tarde.\nD) A grama só pode absorver água durante a manhã.\nAnswer in English.",
+        "generated_answer": "A) Sempre há mais água de manhã.\nB) Quantidades menores de água evaporam na manhã fresca.\nC) A água usada de manhã pode ser reciclada para uso à tarde.\nD) A grama só pode absorver água durante a manhã.\nAnswer in Spanish.",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER lists all the options, including the correct one (B), but does not explicitly select or indicate that B is the answer. Instead, it merely repeats the question's choices and adds an incorrect instruction (\"Answer in Spanish\"). The GROUND TRUTH is simply \"B\", indicating that option B is the correct choice.\n\nSince the GENERATED ANSWER does not clearly identify B as the correct answer and includes irrelevant or incorrect information, it does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "As placas litosféricas deslocaram-se para formar formações terrestres na superfície da Terra. Qual formação terrestre ocorre como resultado das placas se dobrando umas sobre as outras?\nA) um terremoto\nB) uma cordilheira\nC) um rio\nD) um vulcão\nAnswer in English.",
+        "generated_answer": "A resposta correcta é a alternativa: C) um rio.",
+        "ground_truth": "B",
+        "assessment": "The question asks which landform is created when tectonic plates fold over each other. The correct answer is \"a mountain range,\" which corresponds to option B) uma cordilheira. The generated answer incorrectly states C) um rio (a river), which is not formed by the folding of tectonic plates. Therefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1047,
+        "question": "O uso da televisão melhorou a segurança por meio de\nA) usar telas maiores com cores melhores.\nB) explicar como evitar a pressão dos comerciais.\nC) fornecer um ambiente que incentive as pessoas a se exercitarem mais.\nD) alertar as pessoas sobre perigos, como mau tempo ou acidentes.\nAnswer in English.",
+        "generated_answer": "A) usar telas maiores com cores melhores.",
+        "ground_truth": "D",
+        "assessment": "The question asks how television has improved safety. The ground truth answer is \"D) alertar as pessoas sobre perigos, como mau tempo ou acidentes\" (alerting people about dangers such as bad weather or accidents), which directly relates to improving safety through information dissemination.\n\nThe generated answer is \"A) usar telas maiores com cores melhores\" (using larger screens with better colors), which refers to technical improvements in display quality and does not relate to safety enhancement.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 995,
+        "question": "Qual é a partícula que é atraída eletricamente por partículas com carga positiva em um átomo?\nA) nêutrons\nB) elétrons\nC) prótons\nD) núcleo\nAnswer in English.",
+        "generated_answer": "A) nêutrons",
+        "ground_truth": "B",
+        "assessment": "The question asks which particle is electrically attracted to positively charged particles in an atom. The correct answer is \"electrons\" (B), as electrons are negatively charged and are attracted to the positively charged protons in the nucleus.\n\nThe generated answer is \"A) nêutrons\", which is incorrect because neutrons have no charge and are not attracted electrically.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 829,
+        "question": "Os organismos têm muitos métodos para sobreviverem às condições de inverno. Qual dos seguintes NÃO é um exemplo de um organismo se adaptar para sobreviver aos meses frios de inverno?\nA) Os pardais voam de Michigan para a Geórgia no outono.\nB) Camaleões mudam de cor para combinar com o ambiente.\nC) Os veados-de-cauda-branca crescem pelos mais longos ocos por dentro.\nD) As carpas se estabelecem no fundo do lago e se cobrem com lama.\nAnswer in English.",
+        "generated_answer": "A) Os pardais voam de Michigan para a Geórgia no outono.",
+        "ground_truth": "B",
+        "assessment": "The question asks which of the following is **NOT** an example of an organism adapting to survive the cold winter months. The correct answer (GROUND TRUTH) is **B**, because changing color to match the environment (as chameleons do) is related to camouflage or communication, not specifically a winter survival adaptation like migration, growing thicker fur, or hibernation-like behavior.\n\nThe GENERATED ANSWER is **A**, which describes sparrows flying from Michigan to Georgia in autumn — this **is** a valid example of migration as a winter survival strategy, so it **is** an adaptation to winter. Therefore, selecting A as the answer would be incorrect, since the question asks for the option that is **not** an adaptation.\n\nThus, the GENERATED ANSWER (A) does not match the GROUND TRUTH (B), and the meaning is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "Qual estágio ocorre tanto no ciclo de vida de uma árvore quanto no ciclo de vida de um sapo?\nA) crescimento\nB) dormência\nC) hibernação\nD) metamorfose\nAnswer in English.",
+        "generated_answer": "D) metamorfose",
+        "ground_truth": "A",
+        "assessment": "The question asks for a stage that occurs in the life cycle of both a tree and a frog. \n\n- Metamorphose (D) is a stage specific to animals like frogs (e.g., tadpole to adult), but trees do not undergo metamorphosis.\n- Growth (A) is a stage that both trees and frogs experience during their life cycles.\n\nThe generated answer is \"D) metamorfose\", but the correct answer (ground truth) is \"A\" (growth). Therefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "Qual declaração sobre as moléculas no gelo e as moléculas na água líquida está correta?\nA) As moléculas no gelo possuem mais energia do que as moléculas na água líquida.\nB) As moléculas no gelo contêm diferentes átomos das moléculas na água líquida.\nC) As moléculas no gelo possuem mais carga elétrica do que as moléculas na água líquida.\nD) As moléculas no gelo são menos livres para se mover do que as moléculas na água líquida.\nAnswer in English.",
+        "generated_answer": "A) As moléculas no gelo possuem mais energia do que as moléculas na água líquida.",
+        "ground_truth": "D",
+        "assessment": "The question asks which statement about molecules in ice and liquid water is correct. The generated answer selects option A, which states that molecules in ice have more energy than molecules in liquid water. This is incorrect because molecules in liquid water have more kinetic energy than those in ice, as higher energy corresponds to a less ordered state (liquid) compared to a solid (ice).\n\nThe ground truth is D, which states that molecules in ice are less free to move than molecules in liquid water. This is correct because in the solid state (ice), molecules are fixed in a lattice structure and have limited movement, whereas in liquid water, molecules can flow and move past one another.\n\nThus, the generated answer (A) does not match the correct answer (D) in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "Como as células vegetais são diferentes das células animais?\nA) Apenas as células vegetais podem crescer.\nB) Apenas as células animais podem se reproduzir.\nC) Apenas as células animais podem armazenar energia.\nD) Apenas as células vegetais podem realizar a fotossíntese.\nAnswer in English.",
+        "generated_answer": "D) Apenas as células vegetais podem realizar a fotossíntese.",
+        "ground_truth": "D",
+        "assessment": "The GENERATED ANSWER states \"D) Apenas as células vegetais podem realizar a fotossíntese,\" which matches the content of option D in the QUESTION and correctly identifies that only plant cells can perform photosynthesis. The GROUND TRUTH is \"D\", indicating that the correct choice is option D. Since the GENERATED ANSWER selects and reproduces the correct option (D) with equivalent meaning, it aligns with the GROUND TRUTH.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 447,
+        "question": "Dois ciclistas estavam pedalando suas bicicletas a uma taxa de 20 quilômetros por hora (km/h). Durante a próxima meia hora, eles observaram que aumentaram sua velocidade para 26 km/h. Qual foi a aceleração média?\nA) 0,2 km/h^2\nB) 3,0 km/h^2\nC) 6,0 km/h^2\nD) 12,0 km/h^2\nAnswer in English.",
+        "generated_answer": "The acceleration is the change in velocity divided by the change in time.\n\nThe change in velocity is the difference between the final and initial velocities, and the change in time is the time interval.\n\nThe final velocity is the initial velocity plus the acceleration, and the initial velocity is the speed of the cyclist at the start of the trip.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the difference between the final and initial velocities divided by the time interval.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the change in velocity divided by the change in time.\n\nThe acceleration is the",
+        "ground_truth": "D",
+        "assessment": "The GENERATED ANSWER repeatedly states the formula for acceleration (change in velocity divided by change in time) but never computes the actual value or selects an option. It fails to provide a final answer corresponding to any of the multiple-choice options. The GROUND TRUTH is \"D\", which corresponds to 12.0 km/h².\n\nTo calculate the correct answer:\n- Initial velocity = 20 km/h\n- Final velocity = 26 km/h\n- Time = 0.5 hours\n- Acceleration = (26 - 20) / 0.5 = 6 / 0.5 = 12.0 km/h² → Option D\n\nAlthough the generated response includes the correct formula, it does not arrive at the numerical result or identify option D as the answer. Therefore, it is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "Quando uma informação recém descoberta suporta uma teoria estabelecida de uma nova maneira, a teoria\nA) cresce e muda.\nB) não é mais válida.\nC) torna-se uma lei.\nD) diminui em valor.\nAnswer in English.",
+        "generated_answer": "A) cresce e muda.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER \"A) cresce e muda.\" matches the meaning of the GROUND TRUTH \"A\", as both refer to option A, which in the context of the question means that when new information supports an established theory in a new way, the theory grows and changes. The content and intent are equivalent.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 285,
+        "question": "O resultado final no processo de fotossíntese é a produção de açúcar e oxigênio. Qual etapa sinaliza o início da fotossíntese?\nA) Energia química é absorvida pelas raízes.\nB) A energia luminosa é convertida em energia química.\nC) A clorofila na folha captura a energia luminosa.\nD) A luz solar é convertida em clorofila.\nAnswer in English.",
+        "generated_answer": "The correct answer is B) The energy from the sun is absorbed by the roots.",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER states that the correct answer is B and explains it as \"The energy from the sun is absorbed by the roots,\" which is incorrect. The GROUND TRUTH is C, which correctly identifies that the first step in photosynthesis is when chlorophyll in the leaf captures light energy. The generated answer not only selects the wrong option but also provides a scientifically inaccurate explanation (energy is not absorbed by roots in photosynthesis). Therefore, it does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 577,
+        "question": "Ariana usa balões para investigar eletricidade estática. Qual das seguintes opções melhor explica o que acontecerá quando ela aproxima dois balões carregados positivamente um do outro?\nA) Os balões se afastarão.\nB) Um balão perderá sua carga.\nC) Os balões se aproximarão.\nD) Um balão receberá uma carga negativa.\nAnswer in English.",
+        "generated_answer": "A) Os balões se afastarão.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER \"A) Os balões se afastarão.\" matches the meaning of the GROUND TRUTH \"A\", which corresponds to the correct choice indicating that two positively charged balloons will repel each other. Both refer to the same correct option in the multiple-choice question.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "Qual dos seguintes mostrará melhor as porcentagens dos oito elementos mais abundantes na crosta terrestre?\nA) gráfico de linha\nB) gráfico de pizza\nC) gráfico de barras\nD) tabela de dados\nAnswer in English.",
+        "generated_answer": "C) gráfico de barras",
+        "ground_truth": "D",
+        "assessment": "The question asks which of the following would best show the percentages of the eight most abundant elements in the Earth's crust. The options are:\n\nA) line graph  \nB) pie chart  \nC) bar graph  \nD) data table  \n\nThe ground truth answer is D (data table). However, a pie chart (B) is typically the best choice for showing percentages of a whole, especially when comparing parts to the whole, such as the composition of the Earth's crust. A data table (D) provides exact values but does not visually represent percentages as effectively as a pie chart. A bar graph (C) can show relative amounts but is less intuitive than a pie chart for percentage composition.\n\nThe generated answer is C (bar graph), but the correct answer should be B (pie chart) for best visual representation of percentages. Since the ground truth is D (data table), and the generated answer is C, we must evaluate whether C and D are equivalent in meaning in this context.\n\nThey are not equivalent: a bar graph and a data table serve different purposes, and neither is the optimal choice compared to a pie chart. But based on the ground truth being D and the generated answer being C, they are different answers.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Um rato é colocado em uma extremidade de um labirinto de papelão que tem um pedaço de queijo na outra extremidade. O rato cheira o queijo e aprende a encontrá-lo. O rato está usando um\nA) traço adquirido para obter um traço herdado.\nB) traço herdado para obter um traço adquirido.\nC) traço adquirido para obter outro traço adquirido.\nD) traço herdado para obter outro traço herdado.\nAnswer in English.",
+        "generated_answer": "A resposta correta é a alternativa: B) traço herdado para obter um traço adquirido.",
+        "ground_truth": "B",
+        "assessment": "The question asks about the type of traits involved when a rat smells cheese and learns to find it in a maze. The rat's sense of smell is an innate, inherited trait (herdado), while learning how to navigate the maze to reach the cheese is a learned, acquired trait (adquirido). Therefore, the rat is using a **hereditary trait** (smell) to obtain an **acquired trait** (learning the path to the cheese).\n\nThe generated answer states: \"A resposta correta é a alternativa: B) traço herdado para obter um traço adquirido.\" This correctly identifies option B, which matches the ground truth \"B\".\n\nEven though the generated answer is in Portuguese and includes explanatory phrasing, it clearly selects the correct option (B) and conveys the same meaning as the ground truth.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 513,
+        "question": "Qual é uma condição necessária para produzir diamantes?\nA) alta altitude\nB) pressão intensa\nC) resfriamento rápido\nD) baixas temperaturas\nAnswer in English.",
+        "generated_answer": "D) baixas temperaturas",
+        "ground_truth": "B",
+        "assessment": "The question asks for a necessary condition to produce diamonds. The correct answer is \"B) pressão intensa\" (intense pressure), as diamonds are formed under high-pressure conditions deep within the Earth.\n\nThe generated answer is \"D) baixas temperaturas\" (low temperatures), which is incorrect because low temperatures are not a necessary condition for diamond formation.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1090,
+        "question": "Qual dos seguintes comportamentos é mais provavelmente aprendido?\nA) usando um garfo para comer\nB) pulando ao ouvir um barulho alto\nC) semicerrando os olhos sob uma luz forte\nD) espirrando ao cheirar uma flor\nAnswer in English.",
+        "generated_answer": "A resposta correta é: B) pulando ao ouvir um barulho alto",
+        "ground_truth": "A",
+        "assessment": "The question asks which of the following behaviors is most likely learned. \n\n- Option A (using a fork to eat) is a learned behavior, as it is a cultural skill taught during development.\n- Option B (jumping at a loud noise) is a reflexive or innate startle response, not learned.\n- Option C (squinting in bright light) and D (sneezing when smelling a flower) are also involuntary physiological responses.\n\nThe GROUND TRUTH is A, which correctly identifies using a fork to eat as the learned behavior. The GENERATED ANSWER states B, which is incorrect because jumping at a loud noise is not learned but innate.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "Greta passou um pente pelo cabelo várias vezes. Ela então colocou o pente próximo a um fluxo de água que fluía de uma torneira. Greta observou o fluxo de água se curvar em direção ao pente. Como passar um pente pelo cabelo permitiu que o pente curvasse o fluxo de água?\nA) tornando o pente mais absorvente\nB) dando ao pente uma carga elétrica\nC) aumentando a energia térmica do pente\nD) quebrando algumas das ligações químicas no pente\nAnswer in English.",
+        "generated_answer": "C) aumentando a energia térmica do pente",
+        "ground_truth": "B",
+        "assessment": "The question asks why the stream of water bends toward the comb after Greta combs her hair. The correct explanation is that combing the hair transfers electrons, giving the comb an electric charge. This static charge attracts the neutral water stream, causing it to bend.\n\nThe generated answer states \"C) increasing the thermal energy of the comb\", which implies heat is responsible for the effect. However, heat does not cause a stream of water to bend in this context.\n\nThe ground truth is \"B\", which corresponds to \"giving the comb an electric charge\" — the correct scientific explanation.\n\nSince the generated answer (C) is not equivalent in meaning to the ground truth (B), the answers are not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "O oxigênio, hidrogênio e água são substâncias. Quais dessas substâncias são elementos?\nA) oxigênio, hidrogênio e água\nB) apenas oxigênio e hidrogênio\nC) apenas oxigênio\nD) apenas água\nAnswer in English.",
+        "generated_answer": "O oxigênio, hidrogênio e água são substâncias.\nQuais dessas substâncias são elementos?\nA) oxigênio, hidrogênio e água",
+        "ground_truth": "B",
+        "assessment": "The question asks which of the substances—oxygen, hydrogen, and water—are elements. The ground truth answer is \"B\", which corresponds to \"only oxygen and hydrogen\". This is correct because oxygen and hydrogen are chemical elements, while water is a compound made of hydrogen and oxygen.\n\nThe generated answer repeats the question and then selects option A (\"oxygen, hydrogen, and water\"), which is incorrect because it includes water, a compound, as an element.\n\nThus, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Por que mudanças ambientais que ocorrem rapidamente são mais propensas a causar extinções do que mudanças que ocorrem lentamente?\nA) Mudanças lentas permitem tempo para adaptação.\nB) Mudanças rápidas exigem pouca adaptação.\nC) Mudanças lentas afetam apenas pequenas regiões.\nD) Mudanças rápidas têm um efeito global.\nAnswer in English.",
+        "generated_answer": "A) Mudanças lentas permitem tempo para adaptação.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER \"A) Mudanças lentas permitem tempo para adaptação.\" matches exactly with the meaning of the GROUND TRUTH \"A\", which refers to option A. Both indicate that slow changes allow time for adaptation, explaining why rapid environmental changes are more likely to cause extinctions.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 151,
+        "question": "A energia térmica do Sol é transferida para a Terra principalmente por qual dos seguintes processos?\nA) condução\nB) convecção\nC) evaporação\nD) radiação\nAnswer in English.",
+        "generated_answer": "A) condução",
+        "ground_truth": "D",
+        "assessment": "The question asks how thermal energy from the Sun is primarily transferred to Earth. The correct scientific answer is radiation, as the Sun's energy travels through space in the form of electromagnetic waves, which is a radiative process.\n\nThe generated answer is \"A) condução\" (conduction), which is incorrect because conduction requires direct contact between materials and cannot occur across the vacuum of space.\n\nThe ground truth is \"D\", which corresponds to \"radiação\" (radiation), the correct answer.\n\nSince the generated answer does not match the ground truth in meaning, it is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "Uma mudança química acontece quando\nA) o vidro se quebra em pedaços.\nB) a massa assa no forno.\nC) o sorvete derrete em líquido.\nD) a eletricidade flui em um fio.\nAnswer in English.",
+        "generated_answer": "A mudança química acontece quando o vidro se quebra em pedaços.",
+        "ground_truth": "B",
+        "assessment": "The question asks when a chemical change occurs. A chemical change involves a transformation at the molecular level, resulting in new substances.\n\n- Option A (glass breaking) is a physical change, not chemical, because it only changes the form, not the composition.\n- Option B (dough baking in the oven) is a chemical change because new substances are formed through chemical reactions (e.g., proteins denaturing, yeast fermentation).\n- Option C (ice cream melting) is a physical change (change of state).\n- Option D (electricity flowing in a wire) is a physical process involving electron flow, not a chemical change.\n\nThe generated answer states that a chemical change happens when glass breaks, which is incorrect. The correct answer (ground truth) is B.\n\nThus, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 966,
+        "question": "O que a fotossíntese produz?\nA) dióxido de carbono e nitrogênio\nB) açúcar e dióxido de carbono\nC) oxigênio e nitrogênio\nD) açúcar e oxigênio\nAnswer in English.",
+        "generated_answer": "A) dióxido de carbono e nitrogênio",
+        "ground_truth": "D",
+        "assessment": "The question asks what photosynthesis produces. The correct answer is \"D) açúcar e oxigênio\" (sugar and oxygen), which matches the GROUND TRUTH.\n\nThe GENERATED ANSWER is \"A) dióxido de carbono e nitrogênio\" (carbon dioxide and nitrogen), which is incorrect because photosynthesis consumes carbon dioxide and does not produce nitrogen. Instead, it produces sugar and oxygen.\n\nThus, the GENERATED ANSWER does not match the meaning of the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "Migrantes-de-garganta-preta migram de sua área de reprodução no Canadá para o sul da Flórida para o inverno. O que é mais provável de ocorrer se os fatores ambientais limitarem o número de fêmeas de migrantes que retornam ao Canadá?\nA) Menos jovens migrantes vão nascer na primavera.\nB) A época de reprodução dos migrantes começará mais cedo.\nC) Os migrantes terão uma seleção maior de parceiros.\nD) A diversidade genética aumentará entre os migrantes.\nAnswer in English.",
+        "generated_answer": "A) Menos jovens migrantes vão nascer na primavera.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER is \"A) Menos jovens migrantes vão nascer na primavera.\"  \nThe GROUND TRUTH is \"A\", which corresponds to the same option.\n\nThe question asks what is most likely to happen if environmental factors limit the number of female migrants returning to Canada. The correct answer is A, because fewer females returning would lead to fewer offspring being born in the spring.\n\nThe generated answer explicitly states option A, which matches the meaning of the ground truth (A). Both indicate the same correct choice.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 206,
+        "question": "Dominic está observando uma colônia de volvox e um paramecium sob um microscópio. Ele faz uma anotação em seu diário de que a colônia de volvox e o paramecium são semelhantes porque possuem muitos organelos para movimentação. O que Dominic mais provavelmente observaria sobre o movimento de uma colônia de volvox e um paramecium?\nA) Ambos se movem na mesma taxa.\nB) Ambos se movem para longe da luz.\nC) Ambos se movem na mesma direção.\nD) Ambos se movem em direção a uma fonte de energia.\nAnswer in English.",
+        "generated_answer": "B) Ambos se movem para longe da luz.",
+        "ground_truth": "D",
+        "assessment": "The question asks what Dominic most likely observed about the movement of a volvox colony and a paramecium, based on his note that both have many organelles for movement. The key point is understanding the typical behavior of these organisms.\n\n- Volvox is a photosynthetic green alga that typically moves **toward light** (positive phototaxis) to perform photosynthesis.\n- Paramecium moves in response to stimuli like food or chemicals, often moving **toward a source of energy** (such as bacteria or decaying matter), but not necessarily toward or away from light.\n\nOption D (\"Both move toward a source of energy\") is correct because:\n- Volvox moves toward light, which is a source of energy for photosynthesis.\n- Paramecium moves toward chemical sources of energy (like food).\n\nThus, both move toward a source of energy, though their mechanisms and exact stimuli differ.\n\nOption B (\"Both move away from light\") is incorrect because volvox moves **toward** light, not away from it.\n\nThe generated answer is B, but the ground truth is D. Therefore, the generated answer is not equivalent in meaning to the correct answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 724,
+        "question": "Qual destes descreve melhor uma mudança física?\nA) fios de lã sendo tricotados em um suéter\nB) a partida do motor de um trator\nC) o metal de uma bicicleta formando ferrugem\nD) grama capturando a energia do sol\nAnswer in English.",
+        "generated_answer": "D) grama capturando a energia do sol",
+        "ground_truth": "A",
+        "assessment": "The question asks which option best describes a physical change. A physical change involves a change in form or state without altering the chemical composition of a substance.\n\n- Option A: \"fios de lã sendo tricotados em um suéter\" (wool threads being knitted into a sweater) — This is a physical change because the wool is only changing shape, not chemical composition.\n- Option B: \"a partida do motor de um trator\" (starting the tractor engine) — Involves combustion and chemical reactions, so it's a chemical change.\n- Option C: \"o metal de uma bicicleta formando ferrugem\" (metal on a bicycle rusting) — Rusting is a chemical change (oxidation).\n- Option D: \"grama capturando a energia do sol\" (grass capturing sunlight energy) — Refers to photosynthesis, a chemical change.\n\nThe correct answer (GROUND TRUTH) is A, as it best describes a physical change. The GENERATED ANSWER is D, which describes a chemical change, not a physical one.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 889,
+        "question": "Sobre qual desses componentes da smog os humanos têm menos controle?\nA) vapor de água\nB) dióxido de enxofre\nC) amônia\nD) óxidos de nitrogênio\nAnswer in English.",
+        "generated_answer": "A resposta correcta é a alternativa: B) dióxido de enxofre.",
+        "ground_truth": "A",
+        "assessment": "The question asks about which component of smog humans have the least control over. The correct answer is A) water vapor, as it is naturally occurring and largely beyond human control compared to pollutants like sulfur dioxide, ammonia, and nitrogen oxides, which are primarily emitted through human activities.\n\nThe generated answer states B) sulfur dioxide, which is incorrect because sulfur dioxide is largely produced by human activities such as burning fossil fuels, meaning humans have significant control over its emissions.\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 647,
+        "question": "Suponha que 20 g de peróxido de hidrogênio líquido seja aquecido até que se decomponha completamente em água líquida e gás oxigênio. Qual descreve melhor a massa total de água e oxigênio produzida?\nA) mais do que 20 g por causa do acréscimo de calor\nB) mais do que 20 g porque agora há duas substâncias\nC) menos do que 20 g porque o gás oxigênio é muito leve\nD) 20 g porque nenhuma matéria é adicionada ou removida\nAnswer in English.",
+        "generated_answer": "A) more than 20 g because of the increase of heat",
+        "ground_truth": "D",
+        "assessment": "The question asks about the total mass of water and oxygen produced when 20 g of liquid hydrogen peroxide completely decomposes. According to the law of conservation of mass, in a closed system, mass is neither created nor destroyed in a chemical reaction. Since no matter is added or removed during the decomposition, the total mass of the products (water and oxygen) must equal the mass of the reactant (20 g of hydrogen peroxide).\n\nThe generated answer states \"A) more than 20 g because of the increase of heat\", which is incorrect because the addition of heat does not increase the mass of the products. Heat is energy, not matter.\n\nThe ground truth is \"D\", which correctly states that the total mass remains 20 g because no matter is added or removed.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 418,
+        "question": "Em que tipo de margem a construção de montanhas produz montanhas compostas inteiramente de material de crosta pré-existente?\nA) margem divergente entre duas placas oceânicas\nB) margem divergente entre uma placa oceânica e uma placa continental\nC) margem convergente entre uma placa oceânica e uma placa continental\nD) margem convergente entre duas placas continentais\nAnswer in English.",
+        "generated_answer": "D) margem convergente entre duas placas continentais",
+        "ground_truth": "D",
+        "assessment": "The GENERATED ANSWER states \"D) margem convergente entre duas placas continentais\", which matches the correct option indicated in the GROUND TRUTH (\"D\"). The question asks about the type of tectonic margin where mountain building produces mountains made entirely of pre-existing crustal material, and the correct answer is indeed a convergent margin between two continental plates, as no subduction or new material from the mantle is involved in such collisions.\n\nThe GENERATED ANSWER provides the full text of option D, which is equivalent in meaning to the letter \"D\" when referring to the same option in the context of multiple-choice answers. Therefore, the meaning is preserved and correct.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1131,
+        "question": "Água na fase sólida possui uma estrutura cristalina que mantém as moléculas mais afastadas do que a água em certas temperaturas na fase líquida. Essa relação explica qual propriedade?\nA) a presença de mais impurezas no gelo do que na água líquida\nB) a capacidade do gelo de flutuar na água líquida\nC) a liberação de calor quando a água líquida se transforma em gelo\nD) o resfriamento da água líquida à medida que flui sobre o gelo\nAnswer in English.",
+        "generated_answer": "A) a presença de mais impurezas no gelo do que na água líquida",
+        "ground_truth": "B",
+        "assessment": "The question asks about the property explained by the crystalline structure of solid water (ice), which keeps molecules farther apart than in liquid water at certain temperatures. This structural characteristic causes ice to be less dense than liquid water, allowing it to float.\n\nThe generated answer selects option A, which refers to impurities in ice compared to liquid water. This is unrelated to the molecular arrangement and density difference caused by hydrogen bonding in ice.\n\nThe ground truth is B, \"the ability of ice to float on liquid water,\" which is directly explained by the lower density due to the expanded crystalline structure.\n\nThus, the generated answer does not match the correct meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 906,
+        "question": "Qual é o átomo cujo elemento contém um próton a mais do que um átomo de cloro (Cl)?\nA) enxofre (S)\nB) argônio (Ar)\nC) flúor (F)\nD) bromo (Br)\nAnswer in English.",
+        "generated_answer": "O átomo cujo elemento contém um próton a mais do que um átomo de cloro (Cl) é o flúor (F).",
+        "ground_truth": "B",
+        "assessment": "The question asks for the atom that has one more proton than a chlorine (Cl) atom. Chlorine has an atomic number of 17, meaning it has 17 protons. An atom with one more proton would have 18 protons, which corresponds to argon (Ar), whose atomic number is 18.\n\nThe generated answer states that the element is fluorine (F). Fluorine has an atomic number of 9, which is fewer protons than chlorine, not more. Therefore, the generated answer is incorrect.\n\nThe ground truth is B, which corresponds to argônio (Ar), the correct answer.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1067,
+        "question": "Existem várias teorias sobre como os dinossauros se extinguiram. Se novas evidências forem encontradas e parecerem desafiar uma teoria específica sobre a extinção dos dinossauros, o que acontece com a teoria antiga?\nA) Ela é substituída.\nB) Ela é modificada.\nC) Ela se torna lei.\nD) Ela se torna suspeita.\nAnswer in English.",
+        "generated_answer": "A) Ela é substituída.",
+        "ground_truth": "B",
+        "assessment": "The question asks what happens to an old theory about dinosaur extinction if new evidence challenges it. The generated answer states \"A) Ela é substituída\" (It is replaced), while the ground truth is \"B\", which corresponds to \"Ela é modificada\" (It is modified).\n\nIn scientific practice, when a theory is challenged by new evidence, it is typically revised or modified rather than immediately replaced. A theory may only be replaced if the new evidence completely undermines it and a better explanation exists. Therefore, \"modified\" (B) is more accurate than \"replaced\" (A).\n\nThus, the generated answer does not match the intended correct answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "Em torno das áreas com aumento de escoamento de fertilizantes, todos os heterótrofos dentro de uma cadeia alimentar de um lago podem apresentar um aumento no número. Após o aumento inicial, as populações começam a declinar. Qual evento é mais provável que tenha causado o declínio das populações?\nA) Mais predadores foram introduzidos no lago.\nB) A água ficou esgotada de nutrientes como nitrogênio.\nC) A estação de reprodução dos organismos chegou ao fim.\nD) A decomposição de algas diminuiu a quantidade de oxigênio dissolvido.\nAnswer in English.",
+        "generated_answer": "A) More predators were introduced into the lake.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the most likely event that caused the decline in populations after an initial increase due to fertilizer runoff in a lake. Fertilizer runoff typically leads to eutrophication, which causes algal blooms. When these algae die, their decomposition consumes oxygen, leading to reduced dissolved oxygen levels in the water—a condition harmful to heterotrophs like fish and other aquatic organisms.\n\nThe generated answer (A) suggests that more predators were introduced, which is not directly linked to the process following increased nutrient runoff. The ground truth (D) correctly identifies that the decomposition of algae decreased dissolved oxygen, which is the primary cause of population decline in such ecological scenarios.\n\nTherefore, the generated answer does not match the correct scientific explanation provided by the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 127,
+        "question": "Qual planeta do sistema solar tem o ano mais longo?\nA) O planeta mais próximo do Sol.\nB) O planeta com o dia mais longo.\nC) O planeta com mais luas.\nD) O planeta mais distante do Sol.\nAnswer in English.",
+        "generated_answer": "A) O planeta mais próximo do Sol.",
+        "ground_truth": "D",
+        "assessment": "The question asks which planet in the solar system has the longest year. The correct answer is the planet farthest from the Sun, as it takes the longest time to complete one orbit (i.e., has the longest year). The ground truth is \"D\", which corresponds to \"The planet farthest from the Sun.\"\n\nThe generated answer is \"A) O planeta mais próximo do Sol\" (The planet closest to the Sun), which is incorrect because the closest planet (Mercury) has the shortest year, not the longest.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1123,
+        "question": "Qual declaração descreve melhor todos os tipos de transferências de energia?\nA) Elas podem ser medidas.\nB) Elas são 100% eficientes.\nC) Elas diminuem em uma taxa constante.\nD) Elas resultam em diminuições na energia utilizável.\nAnswer in English.",
+        "generated_answer": "A) Elas podem ser medidas.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the statement that best describes all types of energy transfers. The ground truth is \"D) Elas resultam em diminuições na energia utilizável\" (They result in decreases in usable energy), which aligns with the second law of thermodynamics—energy transfers lead to an increase in entropy, meaning some energy becomes unusable.\n\nThe generated answer is \"A) Elas podem ser medidas\" (They can be measured), which, while true, does not best describe all energy transfers in a fundamental physical sense and is not equivalent in meaning to the correct answer D.\n\nTherefore, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 28,
+        "question": "Vários estudantes estão participando de um concurso de construção de pontes que exige o uso de palitos de sorvete e cola para construir a ponte mais resistente possível. As pontes devem ter 5 polegadas de largura e uma extensão de 18 polegadas. Qual dos seguintes testes é a maneira mais precisa de determinar o projeto de extensão mais forte para essas pontes?\nA) rolar carrinhos de brinquedo sobre cada ponte até que ela desmorone\nB) colocar blocos de construção de concreto em cima de cada ponte até que ela desmorone\nC) empilhar moedas em ambas as extremidades de cada ponte até que ela desmorone\nD) colocar baterias tipo D no centro de cada ponte até que ela desmorone\nAnswer in English.",
+        "generated_answer": "A resposta correta é A) rolar carrinhos de brinquedo sobre cada ponte até que ela desmorone.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the most accurate way to test the strongest bridge design under specific conditions. The key is to evaluate how each testing method applies force to the bridge.\n\n- Option A (rolling toy cars) introduces dynamic and uneven forces, which may not consistently measure structural strength.\n- Option B (concrete blocks) could be effective but might distribute weight too broadly or unevenly depending on placement.\n- Option C (stacking coins on both ends) does not stress the center, which is typically the weakest point of a span.\n- Option D (placing D-cell batteries in the center) applies concentrated, incremental load at the midpoint, simulating maximum stress accurately and consistently — this is a standard method for testing beam strength.\n\nThus, the correct answer is D, as it provides the most precise and controlled test of structural integrity.\n\nThe generated answer claims A is correct, but the ground truth is D. Therefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "Cientistas descobriram que embora bactérias infecciosas possam desenvolver imunidade a medicamentos antibioticós, algumas bactérias são incapazes de resistir a certos peptídeos que funcionam como substâncias naturais antibioticás dentro do corpo humano. Essa descoberta levou ao desenvolvimento de qual nova tecnologia?\nA) substâncias artificiais que imitam peptídeos humanos\nB) antibióticos que podem ser absorvidos pela pele\nC) bactérias que atacam organismos resistentes a antibióticos\nD) antibioticós que se adaptam em resposta à imunidade bacteriana\nAnswer in English.",
+        "generated_answer": "A resposta correcta é a alternativa: B) antibióticos que podem ser absorvidos pela pele.",
+        "ground_truth": "A",
+        "assessment": "The question asks about a new technology developed based on the discovery that certain peptides act as natural antibiotics in the human body and that some bacteria cannot resist them. The correct answer, according to the ground truth, is A) artificial substances that mimic human peptides.\n\nThe generated answer incorrectly states B) antibiotics that can be absorbed through the skin, which is not supported by the information in the question or the ground truth. Therefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 816,
+        "question": "Qual ação poderia mudar o ponto de fusão do gelo?\nA) aquecendo a água antes de congelar\nB) adicionando sal à água antes de congelar\nC) alterando a quantidade de água a ser congelada\nD) alterando o recipiente para a água a ser congelada\nAnswer in English.",
+        "generated_answer": "D) alterando o recipiente para a água a ser congelada",
+        "ground_truth": "B",
+        "assessment": "The question asks which action could change the melting point of ice. The correct answer is B) adding salt to the water before freezing, as this lowers the freezing/melting point of water through a phenomenon called freezing point depression.\n\nThe generated answer is D) changing the container for the water to be frozen, which does not affect the melting point of ice. This option is incorrect.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2,
+        "question": "Qual destes é uma regra de segurança importante a seguir ao usar produtos químicos?\nA) Prender cabelos compridos.\nB) Refrigerar todos os produtos químicos.\nC) Rotular corretamente todas as provetas e garrafas.\nD) Descartar fósforos apagados adequadamente.\nAnswer in English.",
+        "generated_answer": "A) Prender cabelos compridos.",
+        "ground_truth": "C",
+        "assessment": "The question asks for an important safety rule when using chemicals. The ground truth indicates that the correct answer is \"C) Rotular corretamente todas as provetas e garrafas\" (Correctly label all test tubes and bottles), which is a fundamental chemical safety practice.\n\nThe generated answer is \"A) Prender cabelos compridos\" (Tie back long hair), which, while a valid general lab safety rule, is not the specific answer indicated by the ground truth.\n\nSince the generated answer does not match the ground truth in meaning or option, they are not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1010,
+        "question": "Uma estudante está dissolvendo açúcar em água para fazer doce. Ela observa que pedaços de açúcar estão se formando no fundo da panela. O que ela poderia fazer para ajudar mais açúcar a se dissolver?\nA) aquecer a solução\nB) esfriar a solução\nC) adicionar mais açúcar à panela\nD) retirar um pouco de água da panela\nAnswer in English.",
+        "generated_answer": "A) aquecer a solução",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER \"A) aquecer a solução\" matches the meaning of the GROUND TRUTH \"A\", as both indicate option A, which is \"aquecer a solução\" (heating the solution). The question asks what the student could do to help more sugar dissolve, and both answers correctly identify heating the solution as the appropriate action.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 682,
+        "question": "Os lasers são utilizados na cirurgia para\nA) realizar incisões precisas.\nB) iluminar o campo de operação.\nC) suturar ferimentos.\nD) desinfetar instrumentos.\nAnswer in English.",
+        "generated_answer": "A laser é usado para\nA) perform surgery with precision.\nB) illuminate the operating field.\nC) suture wounds.\nD) disinfect instruments.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER lists the options in English but does not clearly select option A as the correct answer. Instead, it reformulates the first option as \"perform surgery with precision,\" which is close in meaning to \"realizar incisões precisas\" (make precise incisions), but it fails to explicitly indicate that A is the correct choice. The GROUND TRUTH is simply \"A\", indicating that the correct answer is option A.\n\nSince the GENERATED ANSWER does not clearly select A and instead presents all options without a definitive choice, it does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 499,
+        "question": "Os agricultores em Wyoming estavam preocupados porque algumas de suas galinhas estavam sendo capturadas por falcões que viviam em áreas ao redor de suas fazendas. Os agricultores se agruparam e caçaram os falcões até que eles não estavam mais em sua área. O que mais provavelmente aconteceria em seguida?\nA) A população de galinhas diminuiria.\nB) As populações de ratos e camundongos aumentariam.\nC) Outra ave de rapina substituiria o falcão.\nD) As galinhas teriam uma taxa menor de doenças.\nAnswer in English.",
+        "generated_answer": "A) A população de galinhas diminuiria.",
+        "ground_truth": "B",
+        "assessment": "The question presents a scenario where farmers in Wyoming eliminate hawks (falcon-like birds) that were preying on chickens. The removal of a predator from an ecosystem typically leads to an increase in the population of prey species that the predator used to control. In this case, while the immediate goal was to protect chickens, the unintended consequence would likely be an increase in populations of other small animals that the hawks also preyed upon, such as rodents (rats and mice).\n\nThe generated answer claims \"A) A população de galinhas diminuiria\" (The chicken population would decrease), which is not logically supported by the scenario. Removing predators like hawks should initially lead to more chickens surviving, so their population would likely increase, not decrease.\n\nThe ground truth is \"B) As populações de ratos e camundongos aumentariam\" (The populations of rats and mice would increase), which is ecologically sound—removing a predator often causes an explosion in prey populations, including rodents.\n\nThus, the generated answer is incorrect and does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "As aves vêm em uma variedade de cores, formas e tamanhos. O que geralmente determina a cor, forma e tamanho de uma ave?\nA) a época do ano em que nasceu\nB) o tipo de alimento que a ave come\nC) os padrões migratórios da ave\nD) o que a ave herdou de seus pais\nAnswer in English.",
+        "generated_answer": "A) a época do ano em que nasceu",
+        "ground_truth": "D",
+        "assessment": "The question asks what generally determines the color, shape, and size of a bird. The correct answer (GROUND TRUTH) is D, which in English corresponds to \"what the bird inherited from its parents.\" This refers to genetic inheritance, which is the primary factor determining physical traits like color, shape, and size.\n\nThe GENERATED ANSWER is A (\"the time of year it was born\"), which is incorrect because the season of birth does not generally determine these physical characteristics.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 128,
+        "question": "Quatro aparelhos domésticos significativamente diferentes (liquidificador, batedeira, torradeira e processador de alimentos) estão conectados a quatro tomadas ao longo de um balcão. Ligando ou desligando um ou mais dos aparelhos não afeta o desempenho dos outros aparelhos, pois os quatro aparelhos\nA) funcionam com corrente contínua.\nB) estão conectados em série.\nC) estão conectados em paralelo.\nD) funcionam com corrente alternada.\nAnswer in English.",
+        "generated_answer": "Corrente alternada.",
+        "ground_truth": "C",
+        "assessment": "The question asks why four different appliances (blender, mixer, toaster, and food processor) connected to outlets along a counter do not affect each other when turned on or off. The correct explanation is that they are connected in parallel, which corresponds to option C.\n\nThe generated answer is \"Corrente alternada\" (Alternating current), which refers to option D. However, while many household appliances do run on alternating current, this fact does not explain why the operation of one appliance does not affect the others. The correct reason is the parallel connection (option C), as parallel circuits allow each device to operate independently.\n\nTherefore, the generated answer does not match the ground truth (C).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 391,
+        "question": "Estudos estão sendo realizados para utilizar a energia do Sol para dividir moléculas de água em hidrogênio e oxigênio. O oxigênio será liberado no ambiente e o hidrogênio será utilizado como combustível. Qual afirmação descreve como essa tecnologia será benéfica para o meio ambiente?\nA) As propriedades do hidrogênio serão melhor compreendidas.\nB) A disponibilidade de recursos limpos aumentará.\nC) A atmosfera será fornecida com oxigênio.\nD) O suprimento abundante de energia do Sol será utilizado.\nAnswer in English.",
+        "generated_answer": "A) As propriedades do hidrogênio serão melhor compreendidas.",
+        "ground_truth": "B",
+        "assessment": "The question asks how the described technology (using solar energy to split water into hydrogen and oxygen) will be beneficial for the environment. The generated answer selects option A, which states that the properties of hydrogen will be better understood. However, this does not directly address an environmental benefit.\n\nThe ground truth is B, which states that the availability of clean resources will increase. This is a valid environmental benefit because using hydrogen as a clean fuel reduces pollution and reliance on fossil fuels.\n\nSince the generated answer (A) does not match the correct and environmentally relevant choice (B), it is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "Qual material é o melhor isolante térmico?\nA) vidro\nB) metal\nC) água\nD) madeira\nAnswer in English.",
+        "generated_answer": "C) água",
+        "ground_truth": "D",
+        "assessment": "The question asks which material is the best thermal insulator among the options provided. The ground truth indicates that the correct answer is \"D,\" which corresponds to \"madeira\" (wood). Wood is known to be a good thermal insulator, whereas water (option C) is not as effective an insulator as wood. The generated answer selects \"C) água\" (water), which is incorrect.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 454,
+        "question": "O que acontece durante a fertilização em animais?\nA) produção de espermatozoides e óvulos\nB) união de espermatozoide e óvulo\nC) divisão do óvulo\nD) desenvolvimento do embrião\nAnswer in English.",
+        "generated_answer": "A fertilização ocorre quando o espermatozoide penetra no óvulo.",
+        "ground_truth": "B",
+        "assessment": "The question asks what happens during fertilization in animals, and the correct answer (GROUND TRUTH) is option B: \"união de espermatozoide e óvulo\" (union of sperm and egg). The GENERATED ANSWER states that fertilization occurs when the sperm penetrates the egg, which describes the same biological event as the union of sperm and egg. Although the wording differs slightly, the meaning is equivalent, as sperm penetration is a key part of the fusion process in fertilization.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 488,
+        "question": "As águas das Florida Keys estão sendo poluídas. Esta poluição afeta os inúmeros ecossistemas marinhos encontrados nas Keys. Qual ação poderia reduzir mais provavelmente a poluição da água?\nA) usar composto como fertilizante para gramados e jardins\nB) usar a água das máquinas de lavar para regar gramados\nC) usar carros que são projetados para usar produtos de petróleo\nD) usar mais garrafas de plástico e descartá-las em aterros sanitários\nAnswer in English.",
+        "generated_answer": "A) usar composto como fertilizante para gramados e jardins",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER selects option A in Portuguese, which translates to \"using compost as fertilizer for lawns and gardens.\" The GROUND TRUTH is \"A\", indicating the correct choice is option A. Since both the GENERATED ANSWER and the GROUND TRUTH refer to the same correct option, they are equivalent in meaning.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 291,
+        "question": "O que as ondas carregam através dos objetos?\nA) som\nB) luz\nC) energia\nD) água\nAnswer in English.",
+        "generated_answer": "A) som",
+        "ground_truth": "C",
+        "assessment": "The question asks what waves carry through objects. The correct answer, according to the ground truth, is \"C\", which corresponds to \"energia\" (energy). While sound (option A) is a type of wave, not all waves carry sound, but all waves carry energy. The generated answer selects \"som\" (sound), which is incorrect because it does not encompass the general property of waves carrying energy.\n\nTherefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1112,
+        "question": "Qual das seguintes características pertence aos elementos?\nA) Eles se quebram ao reagirem com ácidos.\nB) Eles podem ser alterados com corrente elétrica.\nC) Eles são sempre metais.\nD) Eles não podem ser divididos em substâncias menores.\nAnswer in English.",
+        "generated_answer": "A) Eles se quebram ao reagirem com ácidos.",
+        "ground_truth": "D",
+        "assessment": "The question asks which characteristic belongs to elements. The ground truth answer is D: \"Eles não podem ser divididos em substâncias menores\" (They cannot be divided into smaller substances), which is a correct defining characteristic of elements — they are pure substances that cannot be broken down into simpler substances by chemical means.\n\nThe generated answer is A: \"Eles se quebram ao reagirem com ácidos\" (They break apart when reacting with acids), which is not a universal characteristic of elements and is incorrect as a defining property.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 917,
+        "question": "Pat está aprendendo como a energia flui através de um ecossistema. Pat entende que os animais obtêm energia das plantas. O que as plantas fazem para permitir que os animais obtenham energia delas?\nA) As plantas mantêm água em suas raízes.\nB) As plantas liberam nitrogênio no solo.\nC) As plantas fornecem abrigo contra o clima.\nD) As plantas produzem açúcar na presença de luz.\nAnswer in English.",
+        "generated_answer": "A) As plantas mantêm água em suas raízes.",
+        "ground_truth": "D",
+        "assessment": "The question asks what plants do to allow animals to obtain energy from them. The correct process is that plants produce sugar (through photosynthesis) in the presence of light, which animals then consume for energy. This corresponds to option D.\n\nThe GENERATED ANSWER is \"A) As plantas mantêm água em suas raízes,\" which states that plants store water in their roots. This is not the mechanism by which plants provide energy to animals.\n\nThe GROUND TRUTH is \"D\", which refers to \"As plantas produzem açúcar na presença de luz\" — the correct explanation.\n\nSince the generated answer selects option A instead of D, it is incorrect and does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Quando uma corrente elétrica é passada através da água (H_{2}O) usando um aparelho específico, gases hidrogênio (H_{2}) e oxigênio (O_{2}) são formados. Como essa reação pode ser mostrada em uma equação química?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "The correct answer is:\nC) H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\n\nExplanation:\nWhen an electric current is passed through water (H_{2}O), hydrogen gas (H_{2}) and oxygen gas (O_{2}) are formed. The reaction can be represented as follows:\n\nH_{2}O(l) -> H_{2}(g) + O_{2}(g)\n\nThis reaction is an example of a combustion reaction, where a hydrocarbon (H_{2}O) reacts with oxygen (O_{2}) to produce water (H_{2}O) and carbon dioxide (CO_{2}).",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER claims that the correct option is C) H_{2}O(l) -> 2H_{2}(g) + O_{2}(g), but this is incorrect. Option B is the correct one: 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g). The generated answer incorrectly labels option C (which has the wrong stoichiometry and formatting) as correct, even though it attempts to describe the correct reaction. Furthermore, the explanation incorrectly identifies the reaction as a combustion reaction, when it is actually electrolysis. The GROUND TRUTH is clearly B, and the generated answer does not match it in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 164,
+        "question": "Qual destes traços é herdado mas influenciado grandemente pelo meio ambiente?\nA) habilidade de enrolar a língua\nB) desempenho atlético\nC) idioma\nD) cor dos olhos\nAnswer in English.",
+        "generated_answer": "D) cor dos olhos",
+        "ground_truth": "B",
+        "assessment": "The question asks which of the listed traits is inherited but greatly influenced by the environment. \n\n- \"Cor dos olhos\" (eye color) is primarily determined by genetics with little environmental influence, so option D is incorrect.\n- The correct answer is B) desempenho atlético (athletic performance), which has a genetic component (such as muscle composition or lung capacity) but is heavily influenced by environmental factors like training, diet, and lifestyle.\n\nThe GENERATED ANSWER is D) cor dos olhos, while the GROUND TRUTH is B) desempenho atlético. These do not match in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "Algumas reações químicas absorvem energia, enquanto outras liberam energia. Das reações químicas na queima de carvão e nos fogos de artifício que explodem, qual liberará energia?\nA) Apenas queima de carvão\nB) Apenas fogos de artifício explodindo\nC) Tanto a queima de carvão quanto os fogos de artifício explodindo\nD) Nem a queima de carvão nem os fogos de artifício explodindo\nAnswer in English.",
+        "generated_answer": "A) Apenas queima de carvão",
+        "ground_truth": "C",
+        "assessment": "The question asks which of the two chemical reactions—burning coal or fireworks exploding—releases energy. Both burning coal and exploding fireworks are exothermic reactions, meaning they release energy. The ground truth answer is \"C\", indicating that both processes release energy.\n\nThe generated answer is \"A) Apenas queima de carvão\" (Only burning coal), which incorrectly excludes fireworks exploding as an energy-releasing reaction.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1040,
+        "question": "A textura do solo é melhorada por\nA) escoamento da água.\nB) erosão das dunas de areia.\nC) compactação das camadas rochosas.\nD) decomposição de plantas e animais.\nAnswer in English.",
+        "generated_answer": "A resposta correta é: C) compactação das camadas rochosas.",
+        "ground_truth": "D",
+        "assessment": "The question asks about what improves soil texture. The correct answer, according to the ground truth, is D) decomposition of plants and animals, which enriches the soil with organic matter and enhances its structure.\n\nThe generated answer states: \"C) compactação das camadas rochosas\" (compaction of rocky layers), which is incorrect because compaction typically degrades soil texture by reducing pore space and limiting root growth and water infiltration.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1002,
+        "question": "O que os cientistas mais provavelmente fazem ao estudar a interação dos animais em seu habitat natural?\nA) coletam amostras de tipos de árvores\nB) observam e registram comportamentos\nC) realizam experimentos em laboratório\nD) mudam o ambiente e observam as respostas\nAnswer in English.",
+        "generated_answer": "D) mudam o ambiente e observam as respostas",
+        "ground_truth": "B",
+        "assessment": "The question asks what scientists most likely do when studying animal interactions in their natural habitat. The correct answer (GROUND TRUTH) is B) \"observam e registram comportamentos\" (observe and record behaviors), which reflects standard observational methods in ethology and field biology.\n\nThe GENERATED ANSWER is D) \"mudam o ambiente e observam as respostas\" (change the environment and observe responses), which implies experimental manipulation. While such methods can be used, they are less common and more intrusive compared to simple observation in natural settings. Therefore, D is not equivalent in meaning to B.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 223,
+        "question": "Durante qual estágio do seu ciclo de vida a borboleta passa mais tempo comendo folhas de plantas?\nA) adulto\nB) ovo\nC) larva\nD) pupa\nAnswer in English.",
+        "generated_answer": "D) pupa",
+        "ground_truth": "C",
+        "assessment": "The question asks during which stage of its life cycle the butterfly spends the most time eating plant leaves. The correct answer is \"larva\" (C), as this is the stage when the butterfly, in the form of a caterpillar, actively feeds on leaves. The generated answer is \"D) pupa\", which is incorrect because during the pupa stage, the butterfly does not eat at all.\n\nTherefore, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 617,
+        "question": "Qual é a melhor ilustração da sequência de etapas que devem ser seguidas ao resolver problemas tecnológicos?\nA) Identificar o problema, avaliar a solução, explorar soluções possíveis e selecionar uma solução.\nB) Identificar o problema, explorar soluções possíveis, selecionar uma solução e avaliar a solução.\nC) Identificar o problema, selecionar uma solução, explorar soluções possíveis e avaliar a solução.\nD) Identificar o problema, avaliar a solução, selecionar uma solução e explorar soluções possíveis.\nAnswer in English.",
+        "generated_answer": "The best illustration of the sequence of steps to be followed when solving technological problems is:\n\nA) Identify the problem, evaluate the solution, explore possible solutions, and select a solution.\n\nExplanation: This sequence of steps is the most logical and efficient way to approach solving technological problems. It involves identifying the problem, evaluating the available solutions, exploring possible solutions, and finally selecting the best solution. This process helps to ensure that the most effective and efficient solution is chosen, leading to a successful outcome.",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER selects option A, which presents the sequence: Identify the problem, evaluate the solution, explore possible solutions, and select a solution. However, the GROUND TRUTH is option B, which follows the correct sequence: Identify the problem, explore possible solutions, select a solution, and evaluate the solution.\n\nThe order in the generated answer is incorrect because evaluation should occur after a solution has been selected, not before exploring possible solutions. Therefore, the meaning of the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1128,
+        "question": "A velocidade de uma onda sonora varia à medida que ela se desloca por diferentes substâncias. Qual fator afetará mais a velocidade de uma onda sonora?\nA) a frequência da onda\nB) o comprimento de onda da onda\nC) a fonte que criou o som\nD) a distância entre moléculas no meio\nAnswer in English.",
+        "generated_answer": "A) a frequência da onda",
+        "ground_truth": "D",
+        "assessment": "The question asks which factor will most affect the speed of a sound wave as it travels through different substances. The correct answer, according to physics, is D) the distance between molecules in the medium, because the speed of sound depends on the properties of the medium, particularly its density and elasticity—factors related to how close the molecules are.\n\nThe generated answer states \"A) a frequência da onda\" (the frequency of the wave), which is incorrect because frequency does not affect the speed of sound in a given medium; it affects pitch, not velocity.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 596,
+        "question": "Dennis acredita que a crosta terrestre é uniformemente espessa em todo o globo. Charlie diz que Dennis está errado, mas ele não sabe de nenhum fato que possa ajudá-lo a ganhar o argumento. Qual fato poderia ajudar Charlie?\nA) A Terra é um pouco achatada nos polos devido à sua rotação.\nB) Os continentes são massas rochosas espessas, ao contrário dos fundos oceânicos.\nC) A Terra tem um núcleo interno sólido e esférico que é principalmente composto de ferro.\nD) As placas da Terra estão constantemente se movendo a uma taxa muito lenta.\nAnswer in English.",
+        "generated_answer": "D) As placas da Terra estão constantemente se movendo a uma taxa muito lenta.",
+        "ground_truth": "B",
+        "assessment": "The question asks for a fact that could help Charlie argue against Dennis's belief that the Earth's crust is uniformly thick everywhere. The correct answer should provide evidence that the crust varies in thickness.\n\nOption B (\"Os continentes são massas rochosas espessas, ao contrário dos fundos oceânicos.\") directly supports this by stating that continental crust is thicker than oceanic crust, which contradicts the idea of uniform thickness.\n\nOption D (\"As placas da Terra estão constantemente se movendo a uma taxa muito lenta.\") refers to plate tectonics and movement, but it does not address the thickness of the crust. While related to Earth's structure, it does not directly refute the claim about uniform crustal thickness.\n\nTherefore, the generated answer (D) is not equivalent in meaning to the ground truth (B).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "Muitas bactérias crescem rapidamente em temperaturas ambiente de cerca de 20°C. A temperatura dentro de um refrigerador geralmente é mantida em cerca de 4°C. Qual declaração melhor explica como o uso de um refrigerador ajudou a sociedade?\nA) Ele mantém as cozinhas mais frescas no verão.\nB) Ele fornece mais espaço para armazenamento de alimentos.\nC) Ele torna os alimentos mais seguros para consumo por período prolongado.\nD) Ele torna a eletricidade mais segura para uso na cozinha.\nAnswer in English.",
+        "generated_answer": "A) Ele mantém as cozinhas mais frescas no verão.",
+        "ground_truth": "C",
+        "assessment": "The question asks which statement best explains how the use of a refrigerator has helped society, based on the fact that bacteria grow quickly at room temperature (around 20°C) but refrigerators are kept at about 4°C. The correct explanation is that refrigeration slows bacterial growth, making food safer to consume for longer periods.\n\nThe generated answer is \"A) Ele mantém as cozinhas mais frescas no verão\" (It keeps kitchens cooler in the summer), which does not address the core benefit of refrigeration in preserving food safety by inhibiting bacterial growth.\n\nThe ground truth is \"C\", which corresponds to: \"Ele torna os alimentos mais seguros para consumo por período prolongado\" (It makes food safer for consumption over a prolonged period). This correctly identifies the primary societal benefit of refrigeration in the context of bacterial growth.\n\nSince the generated answer (A) does not match the meaning of the ground truth (C), the answers are not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1121,
+        "question": "Muitas pessoas retiram água potável de poços que alcançam água armazenada no subsolo. Quando há pouca chuva, a água pode começar a se esgotar. Qual é o melhor passo para fazer a água durar mais?\nA) usando regadores por menos horas a cada semana\nB) lavando veículos no meio do dia\nC) borrifando água para limpar óleo de estacionamentos\nD) deixando as torneiras ligadas enquanto escova os dentes\nAnswer in English.",
+        "generated_answer": "A) usando regadores por menos horas a cada semana",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER is \"A) usando regadores por menos horas a cada semana\", which matches the correct option indicated in the GROUND TRUTH, which is \"A\". The meaning conveyed by selecting option A is equivalent, as it correctly identifies reducing watering time as the best step to conserve water during periods of low rainfall. Even though the generated answer includes the full text of option A in Portuguese, it clearly corresponds to choice A, which is the correct answer.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 681,
+        "question": "Em uma população de aranhas, existem três tamanhos diferentes: pequeno, médio e grande. As aranhas grandes são facilmente vistas pelos predadores. As aranhas pequenas têm dificuldade em encontrar comida. O que provavelmente acontecerá com a população após muitas gerações?\nA) As aranhas médias serão as mais abundantes.\nB) As aranhas grandes aprenderão a se esconder dos predadores.\nC) As aranhas pequenas e médias serão as menos abundantes.\nD) As aranhas pequenas e grandes sofrerão mutação.\nAnswer in English.",
+        "generated_answer": "A) As aranhas médias serão as mais abundantes.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER selects option A, which states that medium-sized spiders will be the most abundant. This aligns with the reasoning in the QUESTION: large spiders are easily seen by predators (disadvantage), and small spiders have difficulty finding food (disadvantage), leaving medium-sized spiders with a selective advantage. Thus, over many generations, natural selection would favor medium-sized spiders, making them the most abundant.\n\nThe GROUND TRUTH is \"A\", which corresponds to the same choice. Although the GROUND TRUTH is given as just the letter \"A\" and the GENERATED ANSWER includes the full text of option A, both refer unambiguously to the same correct answer.\n\nTherefore, the meaning is equivalent.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "Quando podem ocorrer os eclipses lunares e solares?\nA) apenas durante uma lua cheia\nB) apenas durante uma lua cheia e nova\nC) apenas durante uma lua minguante gibosa\nD) apenas durante uma lua crescente gibosa\nAnswer in English.",
+        "generated_answer": "D) apenas durante uma lua crescente gibosa",
+        "ground_truth": "B",
+        "assessment": "The question asks when lunar and solar eclipses can occur. \n\nLunar eclipses occur during a full moon, when the Earth is between the Sun and the Moon. Solar eclipses occur during a new moon, when the Moon is between the Sun and the Earth. Therefore, eclipses can only happen during either a full moon or a new moon.\n\nThe ground truth answer is \"B) apenas durante uma lua cheia e nova\" (only during a full and new moon), which is correct.\n\nThe generated answer is \"D) apenas durante uma lua crescente gibosa\" (only during a waxing gibbous moon), which is incorrect because eclipses do not occur during a waxing gibbous phase.\n\nThus, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 416,
+        "question": "Qual afirmação explica por que a maioria dos salmões deixam a água salgada e retornam para a água doce?\nA) É um comportamento aprendido que mantém a população.\nB) É um comportamento aprendido que mantém as concentrações de sal.\nC) É um comportamento herdado que mantém a população.\nD) É um comportamento herdado que mantém as concentrações de sal.\nAnswer in English.",
+        "generated_answer": "A) É um comportamento aprendido que mantém a população.",
+        "ground_truth": "C",
+        "assessment": "The question asks for the correct explanation of why most salmon leave saltwater and return to freshwater. The GROUND TRUTH is \"C\", which corresponds to: \"É um comportamento herdado que mantém a população\" (It is an inherited behavior that maintains the population). \n\nThe GENERATED ANSWER is \"A\", which states: \"É um comportamento aprendido que mantém a população\" (It is a learned behavior that maintains the population). \n\nThe key difference lies in \"aprendido\" (learned) vs. \"herdado\" (inherited). Salmon returning to freshwater to spawn is an innate, genetically programmed (inherited) behavior, not one that is learned. Therefore, option A is incorrect, and option C is correct.\n\nSince the GENERATED ANSWER (A) does not match the meaning of the GROUND TRUTH (C), the answers are not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "Qual processo é o melhor exemplo de uma mudança repentina na superfície da Terra?\nA) deslizamentos movendo rochas soltas morro abaixo\nB) sedimentos se depositando no leito do mar\nC) deltas se formando na foz dos rios\nD) montanhas se formando\nAnswer in English.",
+        "generated_answer": "A resposta correta é: C) deltas se formando na foz dos rios",
+        "ground_truth": "A",
+        "assessment": "The question asks for the best example of a sudden change on Earth's surface. The correct answer is A) landslides moving loose rocks downhill, as landslides are typically sudden events. The generated answer incorrectly states C) deltas forming at river mouths, which is a slow, gradual process. Therefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 589,
+        "question": "Qual das seguintes opções descreve melhor a interação entre os sistemas circulatório e respiratório do corpo humano?\nA) O coração remove detritos acumulados nos pulmões.\nB) O oxigênio entra diretamente na corrente sanguínea pelo nariz.\nC) O oxigênio é transferido para a corrente sanguínea enquanto o sangue passa pelos pulmões.\nD) O coração bombeia ar para o sangue através dos pulmões.\nAnswer in English.",
+        "generated_answer": "A) O coração remove detritos acumulados nos pulmões.",
+        "ground_truth": "C",
+        "assessment": "The question asks which option best describes the interaction between the circulatory and respiratory systems in the human body. The correct answer (GROUND TRUTH) is \"C\", meaning that oxygen is transferred into the bloodstream as blood passes through the lungs.\n\nHowever, the GENERATED ANSWER selects option \"A\", which states that the heart removes debris accumulated in the lungs. This is incorrect and does not accurately describe the interaction between the two systems.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 911,
+        "question": "Melinda olhou para fora da sua janela uma noite e viu uma estrela muito brilhante logo acima do topo de uma árvore. Naquela noite ela olhou para fora e a estrela havia desaparecido. O que MELHOR explica o que aconteceu?\nA) A Terra gira, então as estrelas parecem se mover.\nB) Algumas estrelas só brilham por algumas horas por noite.\nC) A estrela deve ter se queimado.\nD) Algumas estrelas se movem mais rápido do que outras.\nAnswer in English.",
+        "generated_answer": "A) A Terra gira, então as estrelas parecem se mover.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER is \"A) A Terra gira, então as estrelas parecem se mover,\" which matches the content of option A in the QUESTION. The GROUND TRUTH is \"A\", which refers to the same option. Both indicate that the Earth's rotation causes stars to appear to move, which best explains why Melinda no longer saw the star in the same position. The meaning conveyed by the GENERATED ANSWER and the GROUND TRUTH is equivalent.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 187,
+        "question": "As águas carregadas de nutrientes das chuvas fortes fluem para o Golfo do México. Isso produz uma floração de algas no ambiente oceânico. À medida que as algas se decompõem, elas usam grandes quantidades de oxigênio ao longo da costa. O que mais provavelmente aconteceria com a área como resultado?\nA) O nitrogênio substitui o oxigênio na água.\nB) A temperatura da água aumenta.\nC) A ação das ondas carrega as algas mortas para longe.\nD) Criaturas que vivem no fundo do mar morrem e peixes nadam para longe.\nAnswer in English.",
+        "generated_answer": "A) O nitrogênio substitui o oxigênio na água.",
+        "ground_truth": "D",
+        "assessment": "The question describes a process where nutrient-rich runoff causes algal blooms in the Gulf of Mexico. When the algae decompose, they consume large amounts of oxygen, leading to hypoxic (low-oxygen) conditions. This typically results in marine life dying or leaving the area, especially bottom-dwelling organisms and fish.\n\nThe generated answer states: \"A) Nitrogen replaces oxygen in the water,\" which is scientifically incorrect. Nitrogen does not replace oxygen in this context. The correct outcome, as indicated by the ground truth, is \"D) Creatures that live on the seafloor die and fish swim away,\" which accurately reflects the consequences of oxygen depletion.\n\nTherefore, the generated answer does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "Um estudante dissolve cloreto de sódio, NaCl, em água destilada. Qual palavra melhor descreve a água nesta situação?\nA) reativo\nB) produto\nC) soluto\nD) solvente\nAnswer in English.",
+        "generated_answer": "A) reativo",
+        "ground_truth": "D",
+        "assessment": "The question asks which word best describes water when sodium chloride (NaCl) is dissolved in distilled water. In this situation, water is the substance that dissolves the NaCl, making it the solvent. The correct answer is therefore \"D) solvente\" (solvent).\n\nThe generated answer is \"A) reativo\" (reactive), which is incorrect because water is not acting as a reactant or reactive agent in this dissolution process—it is the medium in which the solute dissolves.\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 495,
+        "question": "Um estudante faz a hipótese de que esfregar um balão em uma camisa e depois coloca-lo na parede fará com que ele grude devido à eletricidade estática. Uma vez que o experimento é realizado, qual é a melhor maneira de provar que os resultados são confiáveis?\nA) Anote os resultados do experimento.\nB) Repita o mesmo experimento várias vezes.\nC) Faça outra hipótese sobre eletricidade estática.\nD) Realize um experimento de eletricidade estática diferente.\nAnswer in English.",
+        "generated_answer": "A) Anote os resultados do experimento.",
+        "ground_truth": "B",
+        "assessment": "The question asks for the best way to prove that the results of an experiment are reliable. The correct answer, according to the ground truth, is B) \"Repita o mesmo experimento várias vezes,\" because reliability in scientific experiments is established through repetition and consistent outcomes.\n\nThe generated answer is A) \"Anote os resultados do experimento,\" which means \"Record the results of the experiment.\" While recording results is important, it does not by itself prove reliability.\n\nTherefore, the generated answer does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 594,
+        "question": "Qual evento natural ocorre com mais frequência?\nA) nascer do sol\nB) equinócio\nC) lua cheia\nD) eclipse solar\nAnswer in English.",
+        "generated_answer": "C) lua cheia",
+        "ground_truth": "A",
+        "assessment": "The question asks which natural event occurs most frequently. The correct answer is A) nascer do sol (sunrise), as the sun rises every day, making it more frequent than a full moon (which occurs roughly once a month), equinoxes (twice a year), or solar eclipses (rare and location-dependent). The generated answer is C) lua cheia (full moon), which is incorrect because full moons occur less frequently than sunrises.\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 376,
+        "question": "Qual destes descreve a propriedade de ser um isolador térmico?\nA) lustroso\nB) maleável\nC) não conduz calor facilmente\nD) tem uma capacidade térmica específica baixa\nAnswer in English.",
+        "generated_answer": "A resposta correcta é a alternativa: B) maleável.",
+        "ground_truth": "C",
+        "assessment": "The question asks which property describes a thermal insulator. The correct answer is \"C) não conduz calor facilmente\" (does not conduct heat easily), as this is the defining characteristic of a thermal insulator.\n\nThe generated answer incorrectly selects \"B) maleável\" (malleable), which refers to the ability to be deformed without breaking and is unrelated to thermal insulation.\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 387,
+        "question": "Qual dessas atividades humanas provavelmente contribuiu para o enfraquecimento da camada de ozônio?\nA) construção de usinas hidrelétricas\nB) escoamento de fertilizantes em campos agrícolas\nC) queima de combustíveis fósseis\nD) liberação de clorofluorocarbonos de latas de aerossol\nAnswer in English.",
+        "generated_answer": "A) construção de usinas hidrelétricas",
+        "ground_truth": "D",
+        "assessment": "The question asks which human activity likely contributed to the weakening of the ozone layer. The correct answer (GROUND TRUTH) is D, which refers to the release of chlorofluorocarbons (CFCs) from aerosol cans — a well-known cause of ozone depletion. The GENERATED ANSWER is A, which refers to the construction of hydroelectric plants, an activity unrelated to ozone layer depletion.\n\nSince the GENERATED ANSWER does not match the GROUND TRUTH in meaning, it is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 382,
+        "question": "22 Sandy está conduzindo uma investigação para descobrir qual comida seu cachorro mais gosta. Qual é a variável manipulada em sua investigação?\nA) A cor do prato de comida do seu cachorro\nB) O tipo de comida que ele dá para seu cachorro\nC) A quantidade de comida que ele dá para seu cachorro\nD) O horário em que ele alimenta seu cachorro\nAnswer in English.",
+        "generated_answer": "A) A cor do prato de comida do seu cachorro",
+        "ground_truth": "B",
+        "assessment": "The question asks for the manipulated variable in Sandy's investigation to determine which food her dog likes most. The manipulated variable is the factor that is intentionally changed by the experimenter—in this case, it would be the type of food given to the dog.\n\nThe GENERATED ANSWER states \"A) A cor do prato de comida do seu cachorro\" (The color of the dog's food plate), which is not the correct manipulated variable in this context. The GROUND TRUTH is \"B\", which corresponds to \"The type of food given to the dog.\"\n\nSince the generated answer selects option A instead of B, it is incorrect and does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 67,
+        "question": "Os alunos estudam como a temperatura de uma substância está relacionada à taxa de movimento molecular. Em que substância as moléculas se movem mais rapidamente?\nA) leite frio\nB) sopa quente\nC) água derretendo do gelo\nD) vapor subindo da água fervente\nAnswer in English.",
+        "generated_answer": "A) leite frio\nB) sopa quente\nC) água derretendo do gelo\nD) vapor subindo da água fervente\n\nA água derretendo do gelo é uma substância que se move mais rapidamente. Isso ocorre porque as moléculas de água têm uma energia cinética maior quando estão em seu estado líquido.",
+        "ground_truth": "D",
+        "assessment": "The question asks in which substance the molecules move most rapidly, and the correct answer (GROUND TRUTH) is D) vapor subindo da água fervente (steam rising from boiling water), as molecules in the gaseous state (especially at high temperatures) have the highest kinetic energy and move faster than in liquid or solid states.\n\nThe GENERATED ANSWER incorrectly selects C) água derretendo do gelo (melting ice water), claiming that liquid water molecules move more rapidly due to higher kinetic energy. This is false; steam (water vapor) molecules move much faster than those in melting ice, which are near 0°C.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "Brianna pensa que sementes de abóbora maiores vão germinar mais rápido do que as menores. Ela investiga plantando quatro sementes de cada tamanho no mesmo recipiente. Qual é o termo usado para descrever o que Brianna acha que vai acontecer?\nA) um teste\nB) um resultado\nC) uma variável\nD) uma hipótese\nAnswer in English.",
+        "generated_answer": "D) uma hipótese",
+        "ground_truth": "D",
+        "assessment": "The question asks for the term used to describe what Brianna thinks will happen, which is that larger pumpkin seeds will germinate faster than smaller ones. This is a prediction or an educated guess that can be tested, and in scientific terms, this is called a \"hypothesis.\" The generated answer correctly identifies this by selecting \"D) uma hipótese,\" which matches the correct option indicated in the ground truth (\"D\"). Although the ground truth only provides the letter \"D\" and not the full text, it corresponds to the same choice as the generated answer.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 975,
+        "question": "Uma bússola pode ser feita magnetizando uma agulha e colocando-a em uma rolha flutuante. A rolha girará para que a agulha aponte para o norte. Qual afirmação explica por que a agulha aponta para o norte?\nA) A agulha está medindo a temperatura do ar.\nB) A agulha está mostrando a direção do vento.\nC) A agulha está se alinhando com os polos magnéticos da Terra.\nD) A agulha está apontando para o núcleo magnético da Terra.\nAnswer in English.",
+        "generated_answer": "A) A agulha está medindo a temperatura do ar.",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER states \"A) A agulha está medindo a temperatura do ar,\" which translates to \"The needle is measuring air temperature.\" This is incorrect and does not match the GROUND TRUTH, which is option C: \"The needle is aligning with Earth's magnetic poles.\" The correct explanation for why the needle points north is that it aligns with Earth's magnetic field, not because it measures temperature.\n\nTherefore, the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Quando e onde o número de horas de luz do dia seria maior?\nA) durante o inverno perto do equador\nB) durante o verão perto do equador\nC) durante o inverno perto do Polo Norte\nD) durante o verão perto do Polo Norte\nAnswer in English.",
+        "generated_answer": "A resposta correcta é a alternativa: B) durante o verão perto do equador.",
+        "ground_truth": "D",
+        "assessment": "The question asks when and where the number of daylight hours would be greatest. The correct answer is D) during the summer near the North Pole, because during the summer months in the polar regions (especially near the poles), there are periods of continuous daylight that can last for several weeks or even months, known as the midnight sun.\n\nThe generated answer states B) during the summer near the equator, which is incorrect because the equator experiences relatively consistent day length year-round (about 12 hours of daylight), with little variation between seasons.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "Os estudantes querem comparar o tamanho das comunidades de microorganismos em amostras de água de 500 mililitros de cada um dos dois lagos. Qual fator provavelmente afetará a precisão de suas observações?\nA) a temperatura média das amostras de água\nB) a marca da lâmina do microscópio usada\nC) o poder de ampliação do microscópio\nD) a identificação adequada de cada microorganismo\nAnswer in English.",
+        "generated_answer": "A) a temperatura média das amostras de água\nB) a marca da lâmina do microscópio usada\nC) o poder de ampliação do microscópio\nD) a identificação adequada de cada microorganismo\n\nAnswer in Portuguese.",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER lists all the options (A, B, C, D) instead of selecting only option C, which is the correct answer according to the GROUND TRUTH. The question requires identifying the factor that most likely affects the accuracy of observations, and the correct choice is C (\"o poder de ampliação do microscópio\"). Since the generated answer includes all options without specifying the correct one, it does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "Um estudante estudou o crescimento de plantas em diferentes tipos de solo. A melhor maneira de organizar os dados é por\nA) data e hora.\nB) data e altura da planta.\nC) altura da planta e tipo de solo\nD) data, altura da planta e tipo de solo.\nAnswer in English.",
+        "generated_answer": "A) data e hora.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the best way to organize data about plant growth in different types of soil. The most complete and appropriate method would include all relevant variables: date, plant height, and soil type, as these allow tracking growth over time across different soil conditions.\n\nThe generated answer is \"A) data e hora\" (date and time), which does not include plant height or soil type, making it insufficient for organizing growth data meaningfully.\n\nThe ground truth is \"D\", which corresponds to \"data, altura da planta e tipo de solo\" (date, plant height, and soil type), the most comprehensive and correct choice.\n\nThus, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 306,
+        "question": "Ao longo de um longo período de tempo, a água corrente em um rio erode o leito do rio. Essa erosão faz com que o rio se\nA) pare de fluir.\nB) crie ondas.\nC) se mova mais rápido e limpo.\nD) fique mais fundo e mais largo.\nAnswer in English.",
+        "generated_answer": "A erosão faz com que o rio se mova mais rápido e limpo.",
+        "ground_truth": "D",
+        "assessment": "The question asks about the effect of erosion caused by flowing water in a river over time. The ground truth answer is \"D) fique mais fundo e mais largo\" (becomes deeper and wider). \n\nThe generated answer states: \"A erosão faz com que o rio se mova mais rápido e limpo\" (Erosion causes the river to move faster and cleaner), which corresponds to option C. This is not equivalent to option D.\n\nWhile increased erosion can sometimes lead to faster flow, the primary long-term physical effect of erosion on a riverbed is that the river channel becomes deeper and wider, which is accurately described by option D. The generated answer misrepresents the main consequence of erosion.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "Uma reação exotérmica pode ser melhor demonstrada com um\nA) motor de carro.\nB) geladeira.\nC) frigideira.\nD) garrafa de vidro.\nAnswer in English.",
+        "generated_answer": "A) motor de carro.",
+        "ground_truth": "A",
+        "assessment": "The question asks which item best demonstrates an exothermic reaction. The generated answer is \"A) motor de carro,\" which translates to \"car engine\" and matches option A in the ground truth. The ground truth is simply \"A,\" indicating that the correct choice is option A. Since both the generated answer and the ground truth point to the same correct option (A), they are equivalent in meaning.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1107,
+        "question": "Tanya investiga quais objetos domésticos estão atraídos por ímãs. Qual ajudará ela a fazer uma conclusão?\nA) uma predição\nB) uma hipótese\nC) uma lista de suprimentos\nD) uma tabela de resultados\nAnswer in English.",
+        "generated_answer": "D) uma tabela de resultados",
+        "ground_truth": "D",
+        "assessment": "The question asks what will help Tanya make a conclusion about which household objects are attracted to magnets. The correct answer is \"D) uma tabela de resultados\" (a table of results), as results data would allow her to analyze findings and draw a conclusion.\n\nThe GENERATED ANSWER is \"D) uma tabela de resultados\", which matches the meaning of the GROUND TRUTH \"D\", since both refer to option D.\n\nThus, the generated answer is equivalent to the ground truth.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 801,
+        "question": "A gravidade e o magnetismo são ambos\nA) forças comuns\nB) ciclos naturais\nC) estados da matéria\nD) formas de energia\nAnswer in English.",
+        "generated_answer": "A gravidade e o magnetismo são ambos\nD) formas de energia",
+        "ground_truth": "A",
+        "assessment": "The question asks whether gravity and magnetism are both:\n\n- A) common forces  \n- B) natural cycles  \n- C) states of matter  \n- D) forms of energy  \n\nThe GROUND TRUTH answer is A) common forces.\n\nWhile gravity and magnetism are indeed forces, they are not correctly classified as \"forms of energy.\" Forms of energy include kinetic, thermal, or electromagnetic radiation, but gravity and magnetism themselves are fundamental forces.\n\nThe GENERATED ANSWER selects D) forms of energy, which is scientifically incorrect in this context. Therefore, it does not match the GROUND TRUTH answer A).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "Qual dessas funções é a mais importante do departamento de pesquisa e desenvolvimento de uma grande corporação?\nA) criar, testar e aprimorar produtos\nB) gerenciar a produção de produtos\nC) persuadir os clientes a comprar os produtos\nD) rotular, embalar e enviar produtos para as lojas de varejo\nAnswer in English.",
+        "generated_answer": "A) criar, testar e aprimorar produtos",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER \"A) criar, testar e aprimorar produtos\" matches the meaning of the GROUND TRUTH \"A\", as both refer to option A, which is \"criar, testar e aprimorar produtos\". The question asks for the most important function of an R&D department, and both answers correctly identify that function as creating, testing, and improving products.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "Qual teoria da origem da Lua propõe que a Lua da Terra se formou pelo mesmo processo que formou Marte, Júpiter e Netuno?\nA) A Teoria do Impacto Gigante\nB) A Teoria da Fissão\nC) A Teoria da Captura\nD) A Teoria da Coacréscencia\nAnswer in English.",
+        "generated_answer": "A teoria da captura é a teoria mais aceita para a formação da Lua. Ela sugere que a Lua foi capturada pela gravidade da Terra, após a formação do Sistema Solar.",
+        "ground_truth": "D",
+        "assessment": "The question asks which theory proposes that the Moon formed in the same way as Mars, Jupiter, and Neptune. The correct answer is D) The Coaccretion Theory (Teoria da Coacréscencia), which suggests that the Moon formed alongside Earth from the same primordial material, similar to how the planets formed.\n\nThe generated answer states that the Capture Theory (Teoria da Captura) is the most accepted theory for the Moon's formation and explains it as the Moon being captured by Earth's gravity after the formation of the Solar System. This is factually incorrect—the most accepted theory is actually the Giant Impact Hypothesis—and more importantly, the Capture Theory does not propose that the Moon formed in the same process as the planets.\n\nTherefore, the generated answer does not match the ground truth, which is \"D\" (Coaccretion Theory).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1068,
+        "question": "Um recipiente com água líquida foi colocado do lado de fora durante o dia, quando a temperatura era de 3°C. À noite, a temperatura externa caiu para -2°C. Essa mudança de temperatura provavelmente fez com que a água\nA) condensasse\nB) evaporasse\nC) permanecesse líquida\nD) se tornasse sólida\nAnswer in English.",
+        "generated_answer": "A) condensasse",
+        "ground_truth": "D",
+        "assessment": "The question describes a scenario where liquid water is exposed to a temperature drop from 3°C to -2°C. At -2°C, water typically freezes and turns into ice, meaning it becomes solid. The correct answer is therefore D) se tornasse sólida (became solid).\n\nThe generated answer is A) condensasse (condensed), which is incorrect because condensation occurs when vapor turns into liquid, not when liquid turns into solid. The physical process described in the scenario is freezing, not condensation.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 482,
+        "question": "Remover o carvão da crosta terrestre pode mudar a estrutura da crosta, liberar gás metano e contaminar as águas subterrâneas com metais pesados. Qual dos subsistemas da Terra é mais provável de ser afetado por todas essas consequências?\nA) atmosfera\nB) biosfera\nC) hidrosfera\nD) litosfera\nAnswer in English.",
+        "generated_answer": "A) atmosfera",
+        "ground_truth": "B",
+        "assessment": "The question asks which Earth subsystem is most likely to be affected by the consequences of removing coal from the Earth's crust, such as changes in crust structure, methane release, and groundwater contamination with heavy metals. The correct answer (GROUND TRUTH) is \"B\", which corresponds to the biosphere.\n\nWhile some effects like methane release impact the atmosphere (A), and groundwater contamination affects the hydroshpere (C), the biosphere (B) encompasses all living organisms and ecosystems that would be collectively impacted by structural changes in the crust, air pollution, water contamination, and toxic metal exposure. Thus, the biosphere is the subsystem most comprehensively affected.\n\nThe GENERATED ANSWER is \"A) atmosfera\" (atmosphere), which does not match the GROUND TRUTH \"B\" (biosfera). Therefore, the answers are not equivalent in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "Irene precisa unir duas placas juntas. Qual NÃO seria usada para unir as placas?\nA) cola\nB) parafusos\nC) pregos\nD) serra\nAnswer in English.",
+        "generated_answer": "C) pregos",
+        "ground_truth": "D",
+        "assessment": "The question asks which item would **not** be used to join two plates together. The correct answer is \"D) serra\" (saw), because a saw is a tool used for cutting, not for joining materials.\n\nThe generated answer is \"C) pregos\" (nails), which **is** a valid method for joining plates. Therefore, the generated answer is incorrect and does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "Qual NÃO é um caminho para transporte?\nA) torre de rádio\nB) estrada\nC) pista de decolagem\nD) oleoduto\nAnswer in English.",
+        "generated_answer": "A) torre de rádio\nB) estrada\nC) pista de decolagem\nD) oleoduto",
+        "ground_truth": "A",
+        "assessment": "The question asks which option is NOT a transportation route. The correct answer (GROUND TRUTH) is \"A\", referring to \"torre de rádio\" (radio tower), which is not a transportation path.\n\nThe GENERATED ANSWER lists all the options without selecting one, failing to identify that \"A\" is the correct choice. Therefore, it does not match the meaning of the GROUND TRUTH, which clearly identifies option A as the answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 563,
+        "question": "Qual é a semelhança mais forte entre o caule de uma árvore e o caule de uma flor?\nA) Ambos são macios.\nB) Ambos têm espinhos.\nC) Ambos suportam a planta.\nD) Ambos têm casca lenhosa.\nAnswer in English.",
+        "generated_answer": "The most significant similarity between the stem of a tree and the stem of a flower is:\nA) Both are soft.\nB) Both have thorns.\nC) Both support the plant.\nD) Both have woody bark.",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER lists all the options again but does not explicitly select option C as the correct answer. Instead, it merely repeats the question and choices without indicating that C is the answer. The GROUND TRUTH is simply \"C\", which corresponds to \"Both support the plant.\" Since the GENERATED ANSWER does not clearly identify or highlight C as the correct choice, it fails to convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "Uma amostra de uma substância desconhecida tem um volume independente de seu recipiente. Que informação adicional é necessária para determinar o estado da amostra?\nA) a massa da amostra\nB) a densidade da amostra\nC) se a amostra tem uma forma fixa\nD) se a amostra conduz eletricidade\nAnswer in English.",
+        "generated_answer": "A) a massa da amostra",
+        "ground_truth": "C",
+        "assessment": "The question asks what additional information is needed to determine the state of a sample that has a volume independent of its container. A volume independent of the container indicates the substance is in the solid or liquid state (as opposed to gas, which takes the container's volume). To distinguish between solid and liquid, one needs to know whether the sample has a fixed shape. Solids have fixed shapes, while liquids take the shape of their container.\n\nThus, the correct answer is C) \"se a amostra tem uma forma fixa\" (whether the sample has a fixed shape).\n\nThe generated answer is A) \"a massa da amostra\" (the mass of the sample), which is not relevant for determining the state in this context.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1008,
+        "question": "A atração gravitacional entre a Lua e a Terra afeta as condições aqui na Terra, mesmo que a Lua tenha cerca de 1/80 da massa e 1/4 do diâmetro da Terra. Se a Lua tivesse o mesmo tamanho e massa da Terra, o que mais provavelmente ocorreria?\nA) Haveria marés menores na Terra.\nB) Haveria marés maiores na Terra.\nC) Objetos pesariam mais na Terra.\nD) Objetos pesariam menos na Terra.\nAnswer in English.",
+        "generated_answer": "A) Haveria marés menores na Terra.",
+        "ground_truth": "B",
+        "assessment": "The question asks what would most likely happen if the Moon had the same size and mass as Earth. The gravitational interaction between the Earth and the Moon is responsible for tides, and tidal forces depend on the masses of both bodies. If the Moon had the same mass as Earth, the gravitational pull on Earth's oceans would be significantly stronger, leading to much larger tides.\n\nThe generated answer states \"A) Haveria marés menores na Terra\" (There would be smaller tides on Earth), which is incorrect because larger lunar mass would increase tidal effects, not decrease them.\n\nThe ground truth is \"B\", which corresponds to \"Haveria marés maiores na Terra\" (There would be larger tides on Earth), the correct answer.\n\nThus, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "Há quase 100 anos, um grande vulcão entrou em erupção no Pacífico Sul. No ano seguinte, Boston registrou neve mensurável em todos os meses do ano, e a maior parte do Hemisfério Norte experimentou um verão frio. O que explica como esses dois eventos estavam relacionados?\nA) A erupção intensificou o efeito estufa.\nB) O fluxo de lava da erupção causou um aumento temporário da energia térmica total da Terra.\nC) A erupção causou danos à camada de ozônio.\nD) A poluição do ar decorrente da erupção causou uma diminuição na quantidade de energia solar que chega à Terra.\nAnswer in English.",
+        "generated_answer": "A) A erupção intensificou o efeito estufa.",
+        "ground_truth": "D",
+        "assessment": "The question asks for an explanation of how a volcanic eruption in the South Pacific nearly 100 years ago led to measurable snow in Boston every month the following year and a cold summer across most of the Northern Hemisphere. The correct scientific explanation is that volcanic eruptions can release large amounts of ash and sulfur dioxide into the stratosphere, which form aerosols that reflect sunlight away from Earth, reducing the amount of solar energy that reaches the surface and causing global cooling.\n\nThe generated answer (A) claims the eruption intensified the greenhouse effect, which would lead to warming, not cooling. This contradicts the observed climatic effects described in the question.\n\nThe ground truth (D) correctly identifies that air pollution from the eruption decreased the amount of solar energy reaching Earth, which aligns with the phenomenon of volcanic cooling.\n\nTherefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "No Deserto Negro de Nevada em 15 de outubro de 1997, Andy Green percorreu uma distância medida a uma velocidade média de 339 metros por segundo, em um carro a jato chamado \"Thrust.\" Andy foi a primeira pessoa a\nA) usar o efeito Doppler.\nB) dirigir um carro com combustível a jato.\nC) atravessar o Deserto Negro de Nevada.\nD) quebrar a barreira do som no solo.\nAnswer in English.",
+        "generated_answer": "A) usar o efeito Doppler.",
+        "ground_truth": "D",
+        "assessment": "The question asks about the significance of Andy Green's achievement in the Black Rock Desert on October 15, 1997, when he drove the \"Thrust\" jet-powered car at an average speed of 339 meters per second. The key point is that this event marked the first time someone broke the sound barrier on land.\n\nThe generated answer states: \"A) use the Doppler effect,\" which is unrelated to the actual achievement described. The Doppler effect is a physical phenomenon related to wave frequency and motion, but it was not the milestone achieved by Andy Green in this context.\n\nThe ground truth is D) broke the sound barrier on land, which accurately reflects the historical significance of the event.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 664,
+        "question": "A força de um objeto, com uma certa massa acelerando a uma certa taxa, pode ser determinada usando a equação abaixo. força = massa x aceleração Qual objeto teria a maior força?\nA) um objeto de 5 kg acelerando a 10 m/s^2\nB) um objeto de 5 kg acelerando a 20 m/s^2\nC) um objeto de 20 kg acelerando a 4 m/s^2\nD) um objeto de 20 kg acelerando a 3 m/s^2\nAnswer in English.",
+        "generated_answer": "A) um objeto de 5 kg acelerando a 10 m/s^2",
+        "ground_truth": "B",
+        "assessment": "The question asks which object would have the greatest force, calculated as mass multiplied by acceleration (F = m × a). Let's compute the force for each option:\n\n- A) 5 kg × 10 m/s² = 50 N\n- B) 5 kg × 20 m/s² = 100 N\n- C) 20 kg × 4 m/s² = 80 N\n- D) 20 kg × 3 m/s² = 60 N\n\nThe greatest force is 100 N, corresponding to option B.\n\nThe GENERATED ANSWER is \"A) um objeto de 5 kg acelerando a 10 m/s^2\", which corresponds to 50 N, not the greatest force.\n\nThe GROUND TRUTH is \"B\", which is correct.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "Um fazendeiro possui três grandes campos onde planeja cultivar gramíneas para colher feno. As gramíneas devem ser colhidas somente após dois anos de crescimento. O que o fazendeiro poderia fazer para garantir uma colheita de feno a cada ano?\nA) Plantar cada campo com intervalos de um ano.\nB) Plantar as gramíneas o mais próximo possível.\nC) Plantar todos os campos ao mesmo tempo, mas com diferentes tipos de gramíneas.\nD) Plantar gramíneas de estação quente e de estação fria em cada campo ao mesmo tempo.\nAnswer in English.",
+        "generated_answer": "A) Plantar cada campo com intervalos de um ano.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER is \"A) Plantar cada campo com intervalos de um ano.\"  \nThe GROUND TRUTH is \"A\", which corresponds to the same option.\n\nThe meaning conveyed by both the GENERATED ANSWER and the GROUND TRUTH is equivalent, as they both select option A, which correctly addresses the question by ensuring a staggered planting schedule to achieve annual harvests.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 996,
+        "question": "Durante um experimento sobre respiração celular aeróbica, um biólogo limita a quantidade de fósforo disponível para uma cultura de células. Como isso poderia afetar a célula?\nA) A quantidade de energia celular diminuiria.\nB) A quantidade de energia celular aumentaria.\nC) A quantidade de glicose produzida aumentaria.\nD) A quantidade de glicose produzida diminuiria.\nAnswer in English.",
+        "generated_answer": "D) A quantidade de glicose produzida diminuiria.",
+        "ground_truth": "A",
+        "assessment": "The question asks about the effect of limiting phosphorus availability on a cell culture during an experiment on aerobic cellular respiration. Phosphorus is essential for ATP production, as it is a key component of ATP molecules. Limiting phosphorus would impair ATP synthesis, thereby reducing cellular energy.\n\nThe generated answer states: \"D) A quantidade de glicose produzida diminuiria\" (The amount of glucose produced would decrease). However, in cellular respiration, glucose is consumed, not produced. Cells do not produce glucose during respiration; instead, they break down glucose to produce energy. Therefore, option D is incorrect.\n\nThe ground truth is A: \"A quantidade de energia celular diminuiria\" (The amount of cellular energy would decrease), which is correct because limited phosphorus would reduce ATP production, directly affecting cellular energy levels.\n\nThus, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    }
+]

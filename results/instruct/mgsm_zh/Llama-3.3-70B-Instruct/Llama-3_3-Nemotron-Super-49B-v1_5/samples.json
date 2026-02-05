@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？\nAnswer in English.",
+        "generated_answer": "要计算 Janice 将支付的总金额，我们将每月付款金额乘以 12：\n\n$165/月 x 12 个月 = $1,980\n\n由于 Janice 借了 2,000 美元，并承诺额外支付 10%，因此她需要支付的总金额为：\n\n$2,000 + ($2,000 x 0.10) = $2,000 + $200 = $2,200\n\n由于 Janice 将支付 $1,980，而她需要支付 $2,200，因此她将剩下：\n\n$2,200 - $1,980 = $220\n\n因此，12 个月后，Janice 将剩余 $220 的未偿余额。",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "汽车在高速公路上排起长龙。有些车在堵车的前 15 分钟就开过去了，然后又有 20 辆车在堵车的剩下 15 分钟里开过去。排队的车中有 5 辆车驶出了高速出口，所以他们不需要从堵车的地方开过去。如果高速公路上最早有 30 辆车，前 15 分钟有多少辆车从堵车的地方开过去？\nAnswer in English.",
+        "generated_answer": "Let's break down the information:\n\n* Initially, there were 30 cars on the highway.\n* 5 cars exited the highway, so they didn't need to pass the traffic jam. This leaves 30 - 5 = 25 cars that needed to pass the traffic jam.\n* In the remaining 15 minutes, 20 cars passed the traffic jam.\n* Since 25 cars needed to pass the traffic jam and 20 cars passed in the remaining 15 minutes, the number of cars that passed in the first 15 minutes is 25 - 20 = 5 cars.\n\nTherefore, 5 cars passed the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "维奥莱塔想买新的蜡笔。她需要 5 种不同颜色的蜡笔，并为这次购买准备了 20 美元。一支蜡笔 2 美元。她会收到多少零钱？\nAnswer in English.",
+        "generated_answer": "Violetta needs 5 crayons, and each crayon costs $2. So, the total cost of the crayons will be 5 x $2 = $10. She has $20, so she will get $20 - $10 = $10 as change. The answer is $10.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "查德点了一个自制卷饼当午餐。基础卷饼为 6.50 美元。他额外添加了 2.00 美元的肉、1.00 美元的奶酪、1.00 美元的牛油果和 2 份各 0.25 美元的酱汁。他决定多花 3.00 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 5.00 美元的礼品卡可在结账时使用。他还需付多少？\nAnswer in English.",
+        "generated_answer": "要计算查德需要支付的总金额，我们需要将所有添加的物品加到基本卷饼的价格上，然后减去礼品卡的价值。\n\n基础卷饼：$6.50\n额外添加：\n- 肉：$2.00\n- 奶酪：$1.00\n- 牛油果：$1.00\n- 酱料（2 x $0.25）：$0.50\n总额外添加：$2.00 + $1.00 + $1.00 + $0.50 = $4.50\n升级套餐：$3.00\n\n总成本：$6.50（基础卷饼）+ $4.50（额外添加）+ $3.00（升级）= $14.00\n\n使用礼品卡：$14.00 - $5.00 = $9.00\n\n查德仍需支付 $9.00。",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "弗兰基每天晚上做完作业后看电视。周一和周二，他每晚看一集自己最喜欢的节目，一集 1 小时。周三，他看了几集每集 30 分钟的节目。周四，他提早做完了作业，看了一集每集 1 小时的节目和一集每集 30 分钟的节目。周五，因为有周末，他可以熬夜，所以他看了 2 集每集 1 小时的节目。如果他一共看了 7 小时的电视，他在周三看了多少集每集 30 分钟的节目？\nAnswer in English.",
+        "generated_answer": "Let's break down the information:\n\n* Monday and Tuesday: 1 hour/night x 2 nights = 2 hours\n* Wednesday: x episodes x 30 minutes/episode = 0.5x hours (we'll come back to this)\n* Thursday: 1 hour + 0.5 hours = 1.5 hours\n* Friday: 2 hours/night x 1 night = 2 hours\n\nTotal hours watched: 2 + 0.5x + 1.5 + 2 = 7 hours\n\nCombine like terms: 5.5 + 0.5x = 7\n\nSubtract 5.5 from both sides: 0.5x = 1.5\n\nDivide both sides by 0.5: x = 3\n\nSo, Frankie watched 3 episodes of 30 minutes each on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "一款新程序在第一个月被下载了 60 次，第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载次数减少了 30%。三个月来，这款程序一共被下载了多少次？\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads over the three months, we first need to calculate the downloads for each month and then sum them up.\n\n1. First month downloads: 60\n2. Second month downloads: 3 times the first month = 3 * 60 = 180\n3. Third month downloads: 30% decrease from the second month. \n   - Decrease amount: 30% of 180 = 0.3 * 180 = 54\n   - Third month downloads: 180 - 54 = 126\n\nTotal downloads over the three months = 60 (first month) + 180 (second month) + 126 (third month) = 366\n\nThe program was downloaded a total of 366 times over the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "有四间学校在争夺篮球锦标赛的桂冠。每间学校都派出一支女子篮球队和一支男子篮球队，而且每支球队有 5 名球员。每间学校还为自己的每支球队派出一位教练。这些学校一共派出了多少人？\nAnswer in English.",
+        "generated_answer": "There are 4 schools, each with 2 teams (men's and women's), and each team has 5 players and 1 coach. \n\nThe total number of players is: \n4 schools * 2 teams * 5 players = 40 players\n\nThe total number of coaches is: \n4 schools * 2 teams * 1 coach = 8 coaches\n\nThe total number of people is: \n40 players + 8 coaches = 48 people\n\nSo, the schools sent a total of 48 people.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "伊莎贝尔为她妹妹的生日派对买了派对用品。她花 12 美元买了蛋糕的原材料，43 美元买了生日礼物，15 美元买了装饰品，4 美元买了邀请函，22 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the party supplies. \n\nTotal cost = cost of cake ingredients + cost of birthday gift + cost of decorations + cost of invitations + cost of party favors\nTotal cost = $12 + $43 + $15 + $4 + $22\nTotal cost = $96\n\nSince Isabel and her parents split the cost three ways, we divide the total cost by 3.\n\nCost per person = Total cost / 3\nCost per person = $96 / 3\nCost per person = $32\n\nSo each person paid $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？\nAnswer in English.",
+        "generated_answer": "最初有 60 个精灵。三分之一辞职，因此 60/3 = 20 个精灵辞职。剩下 60 - 20 = 40 个精灵。然后，10 个精灵在孩子们踢了他们的胫骨后辞职。因此，剩下 40 - 10 = 30 个精灵。答案是 30。",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "珍妮在她妈妈的办公室帮忙。她有一沓 60 封需要贴邮票的信和一沓已经贴好邮票的信。她在需要贴邮票的信的三分之一上贴上邮票。如果现在那堆已经贴好邮票的信中有 30 封信，当珍妮开始贴邮票时，那堆信中有多少封信？\nAnswer in English.",
+        "generated_answer": "让我们逐步分解这个问题：\n\n1. 珍妮在需要贴邮票的信的三分之一上贴上邮票。由于一开始有 60 封需要贴邮票的信，因此她贴上了 1/3 × 60 = 20 封信的邮票。\n2. 现在，已经贴好邮票的信的堆中有 30 封信。由于她贴上了 20 封信的邮票，这意味着一开始已经贴好邮票的信的堆中有 30 - 20 = 10 封信。\n\n因此，当珍妮开始贴邮票时，已经贴好邮票的信堆中有 10 封信。",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

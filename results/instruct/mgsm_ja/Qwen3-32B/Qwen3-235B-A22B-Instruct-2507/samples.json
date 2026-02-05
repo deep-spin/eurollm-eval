@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total amount Janes will pay over 12 months and compare it to the agreed repayment amount to find out the remaining debt.\n\n---\n\n### Step 1: Calculate the total amount to be repaid (with 10% interest)\n\nJanes borrowed **$2,000** and promised to repay with a **10% increase**, so:\n\n$$\n\\text{Total repayment amount} = 2,000 \\times (1 + 0.10) = 2,000 \\times 1.10 = 2,200 \\text{ dollars}\n$$\n\n---\n\n### Step 2: Calculate how much Janes has already paid in 12 months\n\nHe pays **$165 per month** for 12 months:\n\n$$\n\\text{Total paid} = 165 \\times 12 = 1,980 \\text{ dollars}\n$$\n\n---\n\n### Step 3: Calculate the remaining balance\n\n$$\n\\text{Remaining debt} = 2,200 - 1,980 = 220 \\text{ dollars}\n$$\n\n---\n\n### ✅ Final Answer:\n\n**$220** is the remaining debt after 12 months.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "車が高速道路に並んでいる。そのうちの何台かは、渋滞の最初の15分間を走り、次の20台は渋滞の残りの15分を走っている。列のうち、5台の車は渋滞を走らなくていいよう、出口から出た。もともと30台の車が高速道路にいたのなら、渋滞の最初の15分間を走った車は何台いる？\nAnswer in English.",
+        "generated_answer": "Let's break down the information and solve the problem step by step.\n\n### Given:\n- Total number of cars on the highway: **30**\n- **5** cars left via an exit, so they **did not experience any traffic jam**.\n- The remaining **25** cars experienced a 30-minute traffic jam.\n  - Some of these cars were in the traffic for the **first 15 minutes**.\n  - The **next 20 cars** were in the traffic for the **remaining 15 minutes**.\n\nWe are asked to find:  \n> How many cars were in the **first 15 minutes** of the traffic jam?\n\n---\n\n### Step-by-step reasoning:\n\n- There are **25 cars** that were stuck in the 30-minute traffic jam.\n- Out of those, **20 cars** were in the **last 15 minutes** of the jam.\n- So, the rest of the 25 must have been in the **first 15 minutes**.\n\n$$\n\\text{Cars in first 15 minutes} = 25 - 20 = 5\n$$\n\n---\n\n### ✅ Final Answer:\n**5 cars** were in the traffic jam during the **first 15 minutes**.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "バイオレッタは新しいクレヨンを購入したいです。彼女は5つの違う色が必要で、今回の購入のために$20用意しました。1本のクレヨンは$2です。彼女のおつりはいくらになりますか？\nAnswer in English.",
+        "generated_answer": "バイオレッタは5つのクレヨンを購入したいです。1本が$2なので、合計の代金は：\n\n$$\n5 \\times 2 = 10 \\, \\text{ドル}\n$$\n\n彼女は$20持っていたので、おつりは：\n\n$$\n20 - 10 = 10 \\, \\text{ドル}\n$$\n\n**おつりは $10 ドルです。**",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "チャドは自分で作るブリトーをランチに注文しました。基本のブリトーは$6.50です。追加の肉を$2.00、追加のチーズを$1.00、$1.00アボカド、$0.25のソースを2つ注文付けます。彼はランチに追加で$3.00払ってアップグレードし、ポテトチップスと飲み物を付けました。会計時に使える$5.00のギフトカードを持っています。彼の料金は今いくらになりますか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total cost of Chad's lunch step by step.\n\n### Base price of the burrito:\n- **$6.50**\n\n### Add-ons:\n- Additional meat: **$2.00**\n- Additional cheese: **$1.00**\n- Avocado: **$1.00**\n- 2 sauces @ $0.25 each: **$0.50**\n\n**Total add-ons: $2.00 + $1.00 + $1.00 + $0.50 = $4.50**\n\n### Meal upgrade (includes chips and drink):\n- **$3.00**\n\n### Total before gift card:\n- $6.50 (base) + $4.50 (add-ons) + $3.00 (upgrade) = **$14.00**\n\n### Subtract the $5.00 gift card:\n- $14.00 - $5.00 = **$9.00**\n\n### ✅ Final amount Chad has to pay:\n**$9.00**",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "フランキーは毎晩宿題が終わった後にテレビを観ます。月曜日と火曜日、彼はそれぞれの日のお気に入りの番組の1時間のエピソードを観ました。水曜日、彼は30分のエピソードをいくつか観ました。木曜日、彼は宿題を早く終わらせて、1時間のエピソードと30分の番組を観ました。金曜日の週末、彼は遅くまで起きて、1時間のエピソードを2つ観ました。もしも彼が全部でテレビを7時間観たとすると、水曜日に彼は30分のエピソードをいくつ観ましたか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total time Frankie spent watching TV throughout the week and find out how many 30-minute episodes he watched on Wednesday.\n\n---\n\n### Given:\n- **Monday**: 1 hour episode → **60 minutes**\n- **Tuesday**: 1 hour episode → **60 minutes**\n- **Wednesday**: x number of **30-minute** episodes → **30x minutes**\n- **Thursday**: 1 hour episode + 30-minute show → **60 + 30 = 90 minutes**\n- **Friday**: 2 one-hour episodes → **2 × 60 = 120 minutes**\n\n---\n\n### Total time watching TV:\n\n$$\n60\\ (\\text{Mon}) + 60\\ (\\text{Tue}) + 30x\\ (\\text{Wed}) + 90\\ (\\text{Thu}) + 120\\ (\\text{Fri}) = 7 \\text{ hours} = 420 \\text{ minutes}\n$$\n\nNow plug in the values:\n\n$$\n60 + 60 + 30x + 90 + 120 = 420\n$$\n\n$$\n330 + 30x = 420\n$$\n\n$$\n30x = 420 - 330 = 90\n$$\n\n$$\nx = \\frac{90}{30} = 3\n$$\n\n---\n\n### ✅ Final Answer:\n**Frankie watched 3 episodes of 30 minutes each on Wednesday.**",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "新規のプログラムが最初の月は60回ダウンロードされました。2か月目にはダウンロード回数は3倍に膨れ上がりましたが、3か月目は30%減少しました。3か月間でプログラムのダウンロード回数は合計何回だったでしょうか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total number of downloads over the 3 months step by step.\n\n1. **First month**:  \n   Downloads = 60\n\n2. **Second month**:  \n   Downloads tripled compared to the first month:  \n   $ 60 \\times 3 = 180 $\n\n3. **Third month**:  \n   Downloads decreased by 30% from the second month:  \n   $ 180 - (0.30 \\times 180) = 180 - 54 = 126 $\n\nNow, sum up the downloads for all three months:\n\n$$\n60 + 180 + 126 = 366\n$$\n\n**Answer: 366 downloads in total over 3 months.**",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "バスケットボールの大会で、4校が競っている。各学校が女子バスケットボールチームと男子バスケットボールチームを参加させており、各チーム5人いる。各学校はまた、コーチも1人参加させている。すべての学校で、全部で何人の人間が参加しているか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total number of people participating in the basketball tournament.\n\nThere are **4 schools** participating.\n\nEach school has:\n\n- 1 **girls' basketball team** with **5 players**\n- 1 **boys' basketball team** with **5 players**\n- 1 **coach**\n\nSo, for one school:\n$$\n5 \\text{ (girls)} + 5 \\text{ (boys)} + 1 \\text{ (coach)} = 11 \\text{ people}\n$$\n\nFor **4 schools**:\n$$\n4 \\times 11 = 44 \\text{ people}\n$$\n\n### ✅ Final Answer: **44 people**.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "イザベルは妹の誕生日会に向けパーティー用品を購入しました。彼女はケーキの材料に$12、誕生日プレゼントに$43、飾り付けに$15、招待カードに$4、会に参加するゲストのお土産バッグに$22使いました。彼女は両親2人と、費用を均等に3等分します。それぞれ何ドル払いましたか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total amount Isabel spent first:\n\n- ケーキの材料: $12  \n- 誕生日プレゼント: $43  \n- 飾り付け: $15  \n- 招待カード: $4  \n- お土産バッグ: $22  \n\n**合計費用** = $12 + $43 + $15 + $4 + $22 = **$96**\n\nThis total is to be divided **equally among 3 people** (Isabel and her two parents).\n\n$$\n\\frac{96}{3} = 32\n$$\n\n**Each person paid $32.**",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "ニッサは、サンタビレッジの彼女のデパートでエルフを演じる60人の期間従業員を雇います。3分の1のエルフが子供が彼らに吐いた後、辞めます。それから残りの10人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Total number of elves hired:**  \n   60 elves.\n\n2. **One-third of the elves quit after children spit on them:**  \n   $$\n   \\frac{1}{3} \\times 60 = 20 \\text{ elves quit}\n   $$\n\n   Remaining elves:\n   $$\n   60 - 20 = 40 \\text{ elves left}\n   $$\n\n3. **Then, 10 more elves quit after children kicked their shins:**\n\n   Remaining elves:\n   $$\n   40 - 10 = 30 \\text{ elves left}\n   $$\n\n### ✅ Final Answer:\n**30 elves remain.**",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "ジェニーは母親のオフィスで手伝いをしています。彼女には、切手が必要な60通の手紙の塊と、すでに切手が貼られた手紙の塊があります。切手が必要な手紙の3分の1に切手を貼ります。すでに切手を貼られた手紙の塊に今、30通の手紙があるとすると、ジェニーが作業を始めた時、その塊には何通の手紙がありました？\nAnswer in English.",
+        "generated_answer": "Let's break down the information and solve the problem step by step.\n\n---\n\n### Given:\n\n- ジェニー (Jenny) has **two groups** of letters:\n  1. A group that **needs stamps**: 60 letters.\n  2. A group that **already has stamps**.\n\n- She puts **stamps on one-third** of the 60 letters that need them.\n\n- After this, there are now **30 letters** in the **already-stamped group**.\n\nWe are asked to find:  \n> How many letters were in the already-stamped group **before** Jenny started working?\n\n---\n\n### Step 1: Stamps added\n\nShe adds stamps to **one-third of 60 letters**:\n\n$$\n\\frac{1}{3} \\times 60 = 20 \\text{ letters}\n$$\n\nSo, she moves **20 letters** from the \"needs stamps\" group to the \"already has stamps\" group.\n\n---\n\n### Step 2: Final count in the already-stamped group is 30 letters\n\nSince **20 letters** were added to make it 30 letters total in the already-stamped group, the number of letters originally in that group must have been:\n\n$$\n30 - 20 = 10\n$$\n\n---\n\n### ✅ Final Answer:\n\n**10 letters** were in the already-stamped group when Jenny started working.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

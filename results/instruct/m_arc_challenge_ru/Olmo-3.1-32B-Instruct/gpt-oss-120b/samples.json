@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Какое из перечисленных явлений описывает химическую реакцию?\nA) растворение сахара в чае\nB) солнечный свет нагревающий тротуар\nC) ножницы режущие бумагу на куски\nD) кислота в желудке переваривающая пищу\nAnswer in English.",
+        "generated_answer": "The phenomenon that describes a chemical reaction is:\n\nD) acid in the stomach digesting food\n\nExplanation: A chemical reaction involves the transformation of one or more substances into new substances with different chemical properties. In option D, the acid (hydrochloric acid) in the stomach reacts with food components, breaking them down into simpler substances through chemical processes such as hydrolysis and denaturation. This is a chemical change.\n\nThe other options are not chemical reactions:\n- A) Dissolving sugar in tea is a physical change.\n- B) Solar energy heating a sidewalk is a transfer of energy, not a chemical reaction.\n- C) Scissors cutting paper is a physical change (mechanical force).",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"D\". Generated answer says the phenomenon is D, and explains why. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Какое из следующих уравнений является правильно записанным химическим уравнением, демонстрирующим закон сохранения массы?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correctly balanced equation that demonstrates the law of conservation of mass is:\n\nC) KClO₃ → KCl + O₂ (when properly balanced as 2 KClO₃ → 2 KCl + 3 O₂)\n\nHowever, among the options given, only option C can be balanced to satisfy the law of conservation of mass (equal number of each type of atom on both sides). The other options are either unbalanced or do not represent a valid chemical reaction that conserves mass as written.\n\nBut strictly speaking, as written (unbalanced), none of the equations are balanced. However, if we are to choose the one that can be balanced and represents a real chemical reaction that obeys the law of conservation of mass when balanced, the answer is:\n\nC) KClO₃ → KCl + O₂\n\nBut to be precise, the balanced form is:\n\n2 KClO₃ → 2 KCl + 3 O₂\n\nAmong the options given, C is the only one that can be balanced to obey the law of conservation of mass. The others are either not balanced and cannot be made correct by simple balancing (A and D are missing coefficients or products), or represent a simple combination without a change that requires balancing (B). \n\nSo the best answer is:\n\nC) KClO₃ → KCl + O₂",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Which equation is correctly written chemical equation demonstrating law of conservation of mass? Options A-D. Ground truth answer: B. So correct answer is B (H2O + CO2 -> H2CO3). The generated answer says C is correct. That does not match ground truth. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Почему полив растений и травы в раннее утро способствует экономии воды?\nA) Утром всегда больше воды.\nB) Меньше вода испаряется в прохладное утро.\nC) Вода, использованная утром, может быть повторно использована после обеда.\nD) Трава может поглощать воду только по утрам.\nAnswer in English.",
+        "generated_answer": "B) Less water is lost due to evaporation in the cool morning.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"B\". Generated answer: \"B) Less water is lost due to evaporation in the cool morning.\" That matches option B and explains it. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 530,
+        "question": "Литосферные плиты перемещаются, чтобы образовать земные формации на поверхности Земли. Какая земная формация возникает в результате складывания одной плиты на другую?\nA) землетрясение\nB) горный хребет\nC) река\nD) вулкан\nAnswer in English.",
+        "generated_answer": "B) mountain range\n\nWhen one tectonic plate moves on top of another in a process called subduction, it often leads to the formation of mountain ranges. This is because the collision and folding of the plates push the Earth's crust upward, creating mountains.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"B\". The generated answer says \"B) mountain range ...\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "Как организмы, классифицируемые как Eukarya, отличаются от организмов, классифицируемых как Археи и Бактерии?\nA) Все они многоклеточные.\nB) Все они размножаются половым образом.\nC) Все они производят свою собственную пищу.\nD) Все они имеют ядра, окруженные мембраной.\nAnswer in English.",
+        "generated_answer": "D) All of them have nuclei surrounded by a membrane.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". The generated answer says \"D) All of them have nuclei surrounded by a membrane.\" That matches D. So meaning same. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Во время эксперимента по аэробной клеточной респираторной функции биолог ограничивает количество доступного фосфора для культуры клеток. Как это может повлиять на клетку?\nA) Количество клеточной энергии уменьшится.\nB) Количество клеточной энергии увеличится.\nC) Количество произведенной глюкозы увеличится.\nD) Количество произведенной глюкозы уменьшится.\nAnswer in English.",
+        "generated_answer": "A) The amount of cellular energy will decrease.\n\nExplanation: Phosphorus is a key component of ATP (adenosine triphosphate), the primary energy currency of the cell. Limiting phosphorus availability would impair the synthesis and regeneration of ATP, leading to a decrease in cellular energy. Additionally, many metabolic pathways, including glycolysis and the citric acid cycle, rely on phosphate groups. With less phosphorus, the production of glucose (through gluconeogenesis) would also be limited due to the requirement for phosphate in these pathways. Therefore, both A and D could be correct, but the most direct and fundamental effect is a decrease in cellular energy (A).",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer says \"A) The amount of cellular energy will decrease.\" That's essentially answer A. It also includes extra explanation and mentions D could also be correct but says most direct is A. The core answer is A. So it's equivalent. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Когда человек прыгает с парашютом с самолета, он движется со скоростью около 67 метров в секунду. Когда он вытягивает шнурок и его парашют открывается, его скорость замедляется до 3 метров в секунду. Если скорость и ускорение считаются положительными до открытия парашюта, как изменяются его скорость и ускорение, когда парашют открывается?\nA) Скорость и ускорение остаются положительными.\nB) Скорость и ускорение оба становятся отрицательными.\nC) Скорость остается положительной, но ускорение становится отрицательным.\nD) Скорость становится отрицательной, но ускорение остается положительным.\nAnswer in English.",
+        "generated_answer": "C) Speed remains positive, but acceleration becomes negative.\n\nExplanation: Before the parachute opens, the person is moving downward with a positive velocity (assuming downward is positive) and likely experiencing some acceleration due to gravity (which could be less than g if air resistance is already acting). When the parachute opens, the air resistance increases dramatically, causing a large upward force that opposes the motion. This results in a rapid decrease in speed, meaning the acceleration is now in the opposite direction to the velocity (upward, or negative if downward is positive). Therefore, the velocity (speed in the direction of motion) remains positive (downward), but the acceleration becomes negative (upward, opposing the motion).",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is simply \"C\". The generated answer says \"C) Speed remains positive, but acceleration becomes negative.\" That matches option C. So meaning is same. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 621,
+        "question": "Некоторые виды лягушек закапываются в грязь, если среда становится очень сухой. Лягушки входят в тип остановки жизненных функций. Какой сигнал, скорее всего, заставит лягушек выйти из грязи?\nA) уменьшение часов светового дня\nB) увеличение температуры воздуха\nC) увеличение осадков\nD) уменьшение атмосферного давления\nAnswer in English.",
+        "generated_answer": "The most likely signal to make frogs emerge from their burrows (or from the mud, in this context) is:\n\nC) increase in rainfall\n\nWhen the environment becomes very dry, frogs burrow or bury themselves in mud to conserve moisture. The primary cue that conditions have improved and that water is available again is the return of rain. Increased rainfall signals that the environment is no longer too dry, prompting the frogs to emerge.\n\nSo the answer is:  \nC) increase in rainfall",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". Generated answer says \"C) increase in rainfall\" and explains that. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 976,
+        "question": "Снег, дождь, град и туман - это все формы\nA) газ.\nB) вода.\nC) ветер.\nD) облака.\nAnswer in English.",
+        "generated_answer": "B) water.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Снег, дождь, град и туман - это все формы\" (Snow, rain, hail and fog are all forms of...). Options: A) gas, B) water, C) wind, D) clouds. Correct answer is B) water. Ground truth answer: \"B\". Generated answer: \"B) water.\" That conveys same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 733,
+        "question": "Какой из следующих способов является наиболее эффективным для транспортировки больших объемов угля из шахты в Кентукки в электростанцию в Аризоне?\nA) на корабле\nB) поездом\nC) грузовиком\nD) самолетом\nAnswer in English.",
+        "generated_answer": "The most efficient way to transport large volumes of coal from a mine in Kentucky to an electric power plant in Arizona is **B) by train**.\n\nHere’s why:\n\n- **A) By ship:** Not feasible, as Kentucky is landlocked and there is no direct water route to Arizona.\n- **B) By train:** Rail transport is the most practical and cost-effective method for moving large quantities of bulk commodities like coal over long distances in the United States. There are established rail networks connecting Kentucky and Arizona, making this a standard industry practice.\n- **C) By truck:** While trucks are flexible, they are much less efficient for long-distance, high-volume transport due to fuel costs, driver regulations, and lower cargo capacity per trip.\n- **D) By airplane:** Air transport is prohibitively expensive and not suitable for bulk commodities like coal.\n\nTherefore, **by train (B)** is the most efficient and realistic option.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"B\". Generated answer says the most efficient way is B) by train, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 447,
+        "question": "Два велосипедиста катались со скоростью 20 километров в час. В следующие полчаса они заметили, что увеличили свою скорость до 26 км/ч. Каково было их среднее ускорение?\nA) 0,2 км/ч^2\nB) 3,0 км/ч^2\nC) 6,0 км/ч^2\nD) 12,0 км/ч^2\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\nWe have two cyclists initially moving at 20 km/h. After half an hour (0.5 hours), they increase their speed to 26 km/h. We are to find their average acceleration during the entire time period.\n\nLet's define the time intervals:\n- Initial speed, \\( v_0 = 20 \\) km/h\n- Final speed, \\( v_f = 26 \\) km/h\n- Time for initial speed, \\( t_1 = 0.5 \\) hours\n- Let the time after the speed increase be \\( t_2 \\). However, the problem does not specify how long they traveled at 26 km/h, but since it asks for the average acceleration over the whole period and only gives us the change after 0.5 hours, we must assume the question is about the average acceleration from the start until after the speed change, but we need the total time.\n\nBut the problem says: \"В следующие полчаса они заметили, что увеличили свою скорость до 26 км/ч.\" This means: \"In the next half an hour, they noticed that they had increased their speed to 26 km/h.\" This suggests that the speed change happened over the next half hour, or that after half an hour, their speed became 26 km/h.\n\nBut the wording is a bit ambiguous. Let's consider two interpretations:\n\n**Interpretation 1:** They traveled at 20 km/h for 0.5 hours, then immediately increased their speed to 26 km/h and continued at that speed (but we don't know for how long). But since the question asks for average acceleration and gives only these two speeds and the time for the first interval, it's likely that the total time considered is just the 0.5 hours during which the speed changed from 20 to 26 km/h.\n\nBut the problem says: \"В следующие полчаса они заметили, что увеличили свою скорость до 26 км/ч.\" This can be interpreted as: \"In the following half an hour, they noticed that they had increased their speed to 26 km/h.\" That suggests that over the next 0.5 hours, their speed increased from 20 to 26 km/h.\n\nSo, let's assume:\n- At t = 0, speed = 20 km/h\n- At t = 0.5 hours, speed = 26 km/h\n- The acceleration is assumed to be constant during this interval.\n\nNow, average acceleration is defined as:\n\\[\na_{\\text{avg}} = \\frac{\\Delta v}{\\Delta t} = \\frac{v_f - v_0}{t_f - t_0}\n\\]\n\nPlug in the values:\n- \\( v_f = 26 \\) km/h\n- \\( v_0 = 20 \\) km/h\n- \\( \\Delta t = 0.5 \\) hours\n\n\\[\na_{\\text{avg}} = \\frac{26 - 20}{0.5} = \\frac{6}{0.5} = 12 \\text{ km/h}^2\n\\]\n\nBut the units are a bit non-standard. Normally, acceleration is in m/s², but here the answer is expected in km/h².\n\nSo the average acceleration is 12 km/h².\n\nNow, let's check the options:\nA) 0,2 км/ч^2  \nB) 3,0 км/ч^2  \nC) 6,0 км/ч^2  \nD) 12,0 км/ч^2  \n\nThe correct answer is **D) 12,0 км/ч^2**.\n\nHowever, let's double-check if the time interval is different. If they traveled at 20 km/h for 0.5 hours, then instantly changed to 26 km/h and we don't know how long they traveled at that speed, we can't compute the average acceleration unless we know the total time. But since the question only gives us the change over the next half hour and asks for the average acceleration (implying during the period of change), the above calculation is correct.\n\n**Final Answer: D) 12,0 км/ч^2**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is just \"D\". The generated answer explains and concludes that the correct answer is D) 12,0 km/h^2. That matches. So it's equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1033,
+        "question": "Какая часть экосистемы пруда предоставляет маленьким рыбкам укрытие?\nA) камни\nB) вода\nC) лягушки\nD) почва\nAnswer in English.",
+        "generated_answer": "The part of the pond ecosystem that provides small fish with shelter is:\n\nA) stones (rocks)\n\nRocks and other submerged structures in a pond provide hiding places and shelter for small fish from predators and environmental factors.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer says: \"The part of the pond ecosystem that provides small fish with shelter is: A) stones (rocks) ...\". That matches A. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 285,
+        "question": "Конечным результатом процесса фотосинтеза является производство сахара и кислорода. Какой шаг сигнализирует о начале фотосинтеза?\nA) Химическая энергия поглощается через корни.\nB) Световая энергия преобразуется в химическую энергию.\nC) Хлорофилл в листе захватывает световую энергию.\nD) Солнечный свет превращается в хлорофилл.\nAnswer in English.",
+        "generated_answer": "The step that signals the beginning of photosynthesis is:\n\nC) Chlorophyll in the leaf captures light energy.\n\nThis is because the absorption of light energy by chlorophyll in the chloroplasts is the initiating event that triggers the process of photosynthesis.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". Generated answer says \"The step that signals the beginning of photosynthesis is: C) Chlorophyll in the leaf captures light energy. This is because the absorption of light energy by chlorophyll in the chloroplasts is the initiating event that triggers the process of photosynthesis.\" That matches the answer C. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 577,
+        "question": "Ариана использует воздушные шарики для изучения статического электричества. Какое из следующих утверждений лучше всего объясняет, что произойдет, когда она поднесет два положительно заряженных воздушных шарика близко друг к другу?\nA) Шарики будут отдаляться.\nB) Один из шариков потеряет свою зарядку.\nC) Шарики сольются вместе.\nD) Один из шариков получит отрицательный заряд.\nAnswer in English.",
+        "generated_answer": "The best statement to explain what happens when Ariana brings two positively charged balloons close to each other is:\n\nA) The balloons will repel each other.\n\nThis is because like charges repel each other according to the laws of electrostatics. When two positively charged objects are brought close, they push away from each other. The other options are incorrect because:\n\n- B) One of the balloons does not lose its charge; the charges remain unless there is a path for the charge to flow.\n- C) Balloons do not \"сольются вместе\" (melt together); they remain separate.\n- D) The balloons do not change the sign of their charge; they remain positive.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"A\". The generated answer says the best statement is A) The balloons will repel each other. That matches. So meaning equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "Какой из нижеперечисленных способов лучше всего отображает процентное соотношение восьми наиболее распространенных элементов в земной коре?\nA) линейный график\nB) круговая диаграмма\nC) гистограмма\nD) таблица данных\nAnswer in English.",
+        "generated_answer": "The best way to display the percentage composition of the eight most common elements in the Earth's crust is:\n\nB) pie chart\n\nA pie chart is specifically designed to show parts of a whole, making it ideal for displaying percentage proportions.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. The question: \"Which of the following ways best displays the percentage relationship of the eight most common elements in Earth's crust?\" Options: A) line graph, B) pie chart, C) histogram, D) data table. The ground truth answer is D (table). The generated answer says B (pie chart). They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Мышь помещена в одном конце картонного лабиринта, в другом конце которого находится кусочек сыра. Мышь чувствует запах сыра и учится находить его. Мышь использует\nA) приобретенный признак для получения унаследованного признака.\nB) унаследованный признак для получения приобретенного признака.\nC) приобретенный признак для получения другого приобретенного признака.\nD) унаследованный признак для получения другого унаследованного признака.\nAnswer in English.",
+        "generated_answer": "The mouse uses an **inherited trait** (such as the sense of smell and the instinct to seek food) to learn to find the cheese. The ability to learn, however, is a trait that can be influenced by experience, but the initial sensory capability (smell detection) is inherited. The question seems to be about whether the mouse uses an \"acquired\" or \"inherited\" trait to find the cheese.\n\nSo, the mouse uses the **inherited trait (sense of smell)** to detect the cheese's presence, and then it uses learning (which could be considered an acquired behavior or skill) to navigate the maze. But the detection of the cheese's smell itself is due to an inherited trait.\n\nTherefore, the best answer is:\n\n**B) inherited trait for obtaining an acquired trait.**\n\nBut let's look at the options more carefully:\n\nA) acquired trait for obtaining an inherited trait. (Not correct)\nB) inherited trait for obtaining an acquired trait. (Correct: inherited sense of smell allows the mouse to learn the path to cheese)\nC) acquired trait for obtaining another acquired trait. (Not directly relevant)\nD) inherited trait for obtaining another inherited trait. (Not quite, because learning is not an inherited trait)\n\nSo, the most accurate answer is:\n\n**B) inherited trait for obtaining an acquired trait.**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"B\". Generated answer concludes that the best answer is B) inherited trait for obtaining an acquired trait. So it matches. Therefore equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 513,
+        "question": "Какое условие необходимо для образования алмазов?\nA) высокая высота\nB) интенсивное давление\nC) быстрое охлаждение\nD) низкие температуры\nAnswer in English.",
+        "generated_answer": "The necessary condition for the formation of diamonds is **B) intensive pressure**.\n\nDiamonds form deep within the Earth's mantle under **extremely high pressure and temperature**, typically at depths greater than 150 kilometers and temperatures above 1000°C. While high temperature (not listed as an option here) and depth (which relates to pressure) are important, the key factor that distinguishes diamond formation from the formation of graphite is the **intense pressure**. High pressure forces carbon atoms into a tightly packed crystal structure, creating diamond.\n\nLet's look at the options:\n\nA) высокая высота (high height) – Incorrect. Depth, not height, is relevant.\nB) интенсивное давление (intensive pressure) – **Correct**. Intense pressure is essential.\nC) быстрое охлаждение (rapid cooling) – Incorrect. Diamonds do not require rapid cooling; they form over millions of years.\nD) низкие температуры (low temperatures) – Incorrect. Diamond formation requires high temperatures.\n\nSo, the correct answer is **B) intensive pressure**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth: \"B\". The generated answer says the necessary condition is B) intensive pressure, and selects B. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1090,
+        "question": "Энергетические компании часто производят электричество из различных источников. Использование какого ресурса наиболее положительно скажется на качестве воздуха?\nA) нефть\nB) газ\nC) уголь\nD) ветер\nAnswer in English.",
+        "generated_answer": "D) wind",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Энергетические компании часто производят электричество из различных источников. Использование какого ресурса наиболее положительно скажется на качестве воздуха? A) нефть B) газ C) уголь D) ветер Answer in English.\"\n\nGround truth answer: \"D\". Means the correct choice is D (wind). Generated answer: \"D) wind\". That conveys same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 300,
+        "question": "Грета несколько раз прочесала волосы расческой. Затем она положила расческу рядом со струей воды, текущей из крана. Грета наблюдала, как струя воды сгибается к расческе. Как прочесывание волос расческой позволило расческе согнуть струю воды?\nA) сделав расческу более впитывающей\nB) придав ей электрический заряд\nC) увеличивая тепловую энергию расчески\nD) разрушая некоторые химические связи в расческе\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) making the comb more absorbent**.\n\nHowever, let's analyze the reasoning:\n\nWhen Gretta combs her hair several times with the comb, she likely deposits some oil or residue from her hair onto the comb. This makes the comb slightly \"sticky\" or more absorbent with respect to water. When she places the comb near the stream of water, the water is attracted to the comb due to this increased surface interaction (capillary action or adhesion), causing the stream to bend or stick to the comb.\n\nThe other options do not make sense in this context:\n- **B) giving it an electric charge**: There's no mention of static electricity or any process that would charge the comb.\n- **C) increasing the thermal energy of the comb**: There's no indication that heat is involved.\n- **D) breaking some chemical bonds in the comb**: There's no chemical reaction described.\n\nSo, the best scientific explanation is that the comb becomes more absorbent due to the oils from hair, which allows it to interact with and bend the water stream.\n\n**Answer: A) making the comb more absorbent**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Грета несколько раз прочесала волосы расческой... Как прочесывание волос расческой позволило расческе согнуть струю воды? Options A) сделав расческу более впитывающей B) придав ей электрический заряд C) увеличивая тепловую энергию расчески D) разрушая некоторые химические связи в расческе Answer in English.\"\n\nGround truth answer is \"B\". So correct answer is B (giving it an electric charge). The generated answer says \"A) making the comb more absorbent\". That's not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "Игрушечный грузовик катится по гладкой поверхности. Если поверхность покрыта песком, грузовик, скорее всего, будет катиться\nA) медленнее\nB) быстрее\nC) с той же скоростью\nD) None\nAnswer in English.",
+        "generated_answer": "A) slower\n\nThe toy truck will likely move more slowly on a surface covered with sand compared to a smooth surface because sand creates more friction and resistance.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer says \"A) slower\" and explains that the toy truck will likely move more slowly on sand. That matches option A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 202,
+        "question": "Почему быстро происходящие изменения окружающей среды вероятнее вызывают вымирание, чем медленно происходящие изменения?\nA) Медленные изменения оставляют время на адаптацию.\nB) Быстрые изменения требуют меньше адаптации.\nC) Медленные изменения влияют только на маленькие регионы.\nD) Быстрые изменения оказывают глобальное воздействие.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nA) Medlenie izmeneni ostavlyaet vremya na adaptatsiyu.  \n(Medlen'nye izmeneni ostavlyayut vremya na adaptatsiyu.)  \nTranslation: Slow changes leave time for adaptation.\n\nExplanation: Rapidly occurring environmental changes happen too quickly for species to adapt through natural selection, making extinction more likely. Slow changes give species more time to adapt to the new conditions.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"A\". The generated answer says \"The correct answer is: A) Medlenie izmeneni ostavlyaet vremya na adaptatsiyu... Translation: Slow changes leave time for adaptation. Explanation...\" So it identifies answer A as correct. That matches ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 151,
+        "question": "Каким из следующих процессов в основном передается тепловая энергия от Солнца к Земле?\nA) теплопроводность\nB) конвекция\nC) испарение\nD) излучение\nAnswer in English.",
+        "generated_answer": "D) radiation",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Каким из следующих процессов в основном передается тепловая энергия от Солнца к Земле?\" Options A-D. Correct is D) излучение (radiation). Generated answer: \"D) radiation\". Ground truth: \"D\". Both indicate same answer. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 676,
+        "question": "В эксперименте используются два идентичных листа бумаги; один из них скомкан в шарик, а другой плоский. Что, скорее всего, произойдет, когда они будут брошены вниз одновременно с одинаковой высоты?\nA) плоский лист упадет на край\nB) оба листа упадут с одинаковой скоростью\nC) скомканный лист упадет быстрее\nD) скомканный лист будет двигаться горизонтально\nAnswer in English.",
+        "generated_answer": "The most likely outcome is that the crumpled (balled-up) paper will fall faster than the flat sheet because it experiences less air resistance relative to its mass. The flat paper has a larger surface area, which creates more air resistance and slows its descent. Therefore, the correct answer is:\n\nC) the crumpled paper will fall faster.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer says: \"The most likely outcome is that the crumpled (balled-up) paper will fall faster... Therefore, the correct answer is: C) the crumpled paper will fall faster.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 966,
+        "question": "Студент измеряет ускорение каменного блока на ровной поверхности при известной силе. Какая дополнительная информация необходима, чтобы точно рассчитать массу блока?\nA) Плотность блока\nB) Количество трения\nC) Масса поверхности\nD) Направление движения\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nB) Количество трения (The amount of friction)\n\nExplanation:\nTo calculate the mass of the block using Newton's second law (F = ma), you need to know the net force acting on the block and the resulting acceleration. The applied force is given, but if there is friction, the net force is the applied force minus the frictional force. To subtract the frictional force, you need to know the magnitude of the friction, which depends on the coefficient of friction and the normal force (which is related to mass). However, if you do not know the frictional force or the coefficient of friction, you cannot accurately determine the net force and thus cannot solve for mass precisely.\n\nLet's break down the options:\n\nA) Плотность блока (Density of the block) — Not needed if you can measure acceleration and know the forces; mass can be found directly from F_net = ma.\nB) Количество трения (Amount of friction) — **Needed**, because if friction is present, you must know its value to find the net force and thus the mass.\nC) Масса поверхности (Mass of the surface) — Not relevant, as the surface is typically assumed to be immovable or its mass does not affect the calculation.\nD) Направление движения (Direction of movement) — Not needed for the calculation, only the magnitude of forces and acceleration matter.\n\nTherefore, the additional information needed is the amount of friction (B).",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"B\". Generated answer says the correct answer is B) Количество трения (The amount of friction). So it matches. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1146,
+        "question": "Фермеры используют пестициды для борьбы с насекомыми. Иногда пестициды смываются в ручьи. Это пример\nA) работы фермеров по защите окружающей среды.\nB) использования природных веществ для решения проблем.\nC) попытки фермеров уменьшить количество урожая.\nD) ситуации, когда решение одной проблемы создает другую проблему.\nAnswer in English.",
+        "generated_answer": "D) a situation where solving one problem creates another problem.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"D\". The generated answer says \"D) a situation where solving one problem creates another problem.\" That matches D, which is the correct meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 206,
+        "question": "Доминик наблюдает за колонией вольвокса и парамецием под микроскопом. Он делает запись в своем журнале о том, что колония вольвокса и парамеций похожи, потому что имеют много органелл для передвижения. Что, скорее всего, заметит Доминик в движении колонии вольвокса и парамеции?\nA) Они оба движутся с одинаковой скоростью.\nB) Они оба движутся подальше от света.\nC) Они оба движутся в одном направлении.\nD) Они оба движутся к источнику энергии.\nAnswer in English.",
+        "generated_answer": "The question is about what Dominic is likely to notice about the movement of both the volvox and paramaecium colonies, given that he noted their similarity in having many organelles for movement.\n\nFrom biology, both Volvox (a colonial green alga) and Paramecium (a ciliate protozoan) are known for their movement using cilia or flagella. However, let's analyze the options:\n\nA) They both move at the same speed.  \nThis is unlikely to be generally true; their sizes and environments differ, so their speeds may not be the same.\n\nB) They both move away from light.  \nWhile some organisms avoid light (photophobic), others may be attracted to it (phototactic). There's no general rule that both move away from light.\n\nC) They both move in the same direction.  \nThere is no inherent reason that both would move in the same direction; movement direction depends on environmental factors.\n\nD) They both move toward a source of energy.  \nVolvox, being photosynthetic, tends to move toward light (as an energy source for photosynthesis), and Paramecium moves toward food sources (as a heterotroph). Both are moving toward sources that provide energy (light for Volvox, food for Paramecium). This is a more plausible and general observation related to their movement and the organelles used for movement.\n\nTherefore, the best answer is:\n\nD) They both move toward a source of energy.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"D\". Generated answer says the best answer is D) They both move toward a source of energy. So it matches. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 724,
+        "question": "Из чего из перечисленного состоит материя?\nA) гравитация\nB) свет\nC) тепло\nD) воздух\nAnswer in English.",
+        "generated_answer": "The correct answer is D) воздух (air).\n\nExplanation:\n- A) Gravity is not matter; it is a force.\n- B) Light (свет) is electromagnetic radiation and does not have mass; it is not matter.\n- C) Heat (тепло) is a form of energy, not matter.\n- D) Air (воздух) is a mixture of gases (mainly nitrogen and oxygen), which are made of molecules and atoms, so air is matter.\n\nTherefore, only \"воздух\" (air) from the list is composed of matter.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". Generated answer says the correct answer is D) воздух (air). That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 889,
+        "question": "Энергия изменяет форму или передается через действие сил. Примером изменения кинетической энергии на потенциальную энергию является\nA) валун, лежащий на утесе\nB) человек, бегающий по дорожке\nC) машина, поднимающаяся на холм и паркующаяся\nD) резиновая лента растягивается и ломается\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nC) машина, поднимающаяся на холм и паркующаяся\n\nExplanation: When a car is driving up a hill, it converts kinetic energy (energy of motion) into potential energy (stored energy due to height). At the top of the hill, when it is parked, most of its kinetic energy has been converted into gravitational potential energy. This is a classic example of energy transformation from kinetic to potential energy.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". Generated answer says \"The correct answer is: C) машина, поднимающаяся на холм и паркующаяся\" plus explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 647,
+        "question": "Какой из нижеперечисленных вариантов наименее вероятно окажет влияние на глобальные изменения климата?\nA) производство энергии с помощью гидроэлектростанций\nB) производство энергии с использованием угля\nC) производство энергии с использованием нефти\nD) производство энергии с использованием природного газа\nAnswer in English.",
+        "generated_answer": "The least likely option to have an impact on global climate change among the given choices is:\n\nA) production of energy using hydroelectric power plants\n\nHydroelectric power is generally considered one of the cleaner and lower-emission sources of energy compared to fossil fuels (coal, oil, natural gas), as it produces minimal greenhouse gas emissions during operation. While hydroelectric plants can have ecological impacts (e.g., on local ecosystems and water cycles), their direct contribution to global greenhouse gas emissions is much lower than that of fossil fuel-based energy production. Therefore, among the options listed, hydroelectric power is least likely to significantly contribute to global climate change through greenhouse gas emissions.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". The generated answer says the least likely is \"A) production of energy using hydroelectric power plants\". That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 418,
+        "question": "При каком типе маргина горообразование приводит к появлению гор, состоящих полностью из существующих коры?\nA) разрывном маргине между двумя океаническими плитами\nB) разрывном маргине между океанической и континентальной плитами\nC) столкновительном маргине между океанической и континентальной плитами\nD) столкновительном маргине между двумя континентальными плитами\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nD) convergent margin between two continental plates\n\nExplanation:\nWhen two continental plates converge, they collide and the crust is pushed upwards to form mountains. Because both are continental crust (which is relatively thick and less dense than oceanic crust), the resulting mountains are often formed primarily from the uplift and folding of existing continental crust, rather than from the creation of new crust via subduction or volcanic activity. Famous examples include the Himalayas and the Alps. In contrast, other types of margins (like divergent or oceanic-continental convergent) often involve the creation of new crust (e.g., via volcanism or rifting), or the incorporation of oceanic crust.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". The generated answer says \"The correct answer is: D) convergent margin between two continental plates\" and gives explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1131,
+        "question": "Как лучше всего ученикам проявлять уважение к окружающей среде при проведении наблюдений в природе?\nA) Оставаться на дорожках.\nB) Не брать образцы.\nC) Фотографировать.\nD) Оставлять область точно так, как нашли ее.\nAnswer in English.",
+        "generated_answer": "The best way for students to show respect for the environment while conducting observations in nature is:\n\nD) Leave the area exactly as they found it.\n\nThis helps minimize human impact and preserves the natural setting for others and for wildlife.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". The generated answer says: \"The best way ... is D) Leave the area exactly as they found it.\" That matches D. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 906,
+        "question": "Красный гигантский звезда отличается от звезд главной последовательности тем, что она\nA) горит при более низкой температуре.\nB) всегда больше других солнц.\nC) имеет бóльшую плотность и гравитацию.\nD) соединяет водород, чтобы получить гелий.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nC) has greater density and gravity.\n\nRed giant stars are larger and cooler than main sequence stars, but because they are much more spread out, their surface temperature is lower. However, because they started with more mass (in most cases), their total mass (if not too much has been lost) and thus their gravity and density (before significant mass loss) can still be greater than those of main sequence stars of similar or even larger size but lower mass. \n\nHowever, the most direct and commonly cited difference is that red giants have much greater size (radius), but their surface temperature is lower. Among the options given, the one that is most accurate is:\n\nC) has greater density and gravity.\n\nBut note: As red giants expand, their surface gravity actually decreases, but their mass (if not much lost) and core density are higher than main sequence stars of similar size. So, compared to a main sequence star of similar mass, the red giant has a much larger radius and lower surface gravity, but higher core density and gravity at the core. Among the options, C is the best fit, though the question is a bit ambiguous.\n\nAlternatively, if the question is about what fundamentally distinguishes a red giant from a main sequence star, it's that the red giant is in a later evolutionary stage, characterized by a much larger size and lower surface temperature, but the options don't directly say that.\n\nGiven the options:\n\nA) is incorrect because red giants are actually cooler (lower temperature).\nB) is not always true; not all red giants are bigger than all main sequence stars (there are supergiants, but not all red giants are the largest).\nC) is the best choice among the options, as red giants typically have greater mass (and thus greater gravity and density in their cores) than typical main sequence stars, though their surface gravity is lower due to their large size.\nD) is incorrect; the process of fusion in red giants is the fusion of hydrogen into helium in a shell around the core, not in the core as in main sequence stars, but the description is not accurate.\n\nSo, the best answer is:\n\nC) has greater density and gravity.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Красный гигантский звезда отличается от звезд главной последовательности тем, что она ...\" (What distinguishes a red giant star from main sequence stars?). Options: A) burns at lower temperature. B) always larger than other suns. C) has greater density and gravity. D) combines hydrogen to get helium. The correct answer likely is A: burns at lower temperature (red giants are cooler). Ground truth answer is \"A\". Generated answer says the correct answer is C) has greater density and gravity. That does not match ground truth. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1067,
+        "question": "В течение дня контейнер с жидкой водой был помещён на улице при температуре 3°C. Ночью температура на улице упала до -2°C. Скорее всего, эти изменения температуры привели к тому, что вода\nA) сконденсировалась\nB) испарилась\nC) осталась жидкой\nD) перешла в твёрдое состояние\nAnswer in English.",
+        "generated_answer": "C) осталась жидкой\n\nExplanation: Water freezes at 0°C. Since the temperature dropped to -2°C overnight, but started at 3°C during the day, unless the container was exposed to temperatures below 0°C for a long enough time for the entire water to cool below freezing, it is likely that the water remained liquid. However, if the container was not insulated and the cold night was long enough, some of the water could have frozen. But the question says \"скорее всего\" (most likely), and given that it was only dropped to -2°C overnight and started above freezing, it is most likely that the water remained liquid unless the container was very shallow or not insulated. But among the options, the most reasonable answer is that the water stayed liquid (C), unless we assume rapid freezing, but that's less likely for a typical container of water left outside overnight with such a temperature drop. However, if we strictly follow the temperatures and typical physics, water should freeze below 0°C. But since the question is likely testing understanding of phase changes and the fact that it was above freezing during the day, and the drop was relatively small and short, the most likely intended answer is that it stayed liquid unless specified otherwise. But strictly speaking, at -2°C, water should be solid if it has had time to cool throughout. However, in many such questions, the expectation is that unless it's clearly below freezing for a long time, some water may remain liquid, or the question expects the answer that it froze. But given the options and the context, the most likely expected answer is:\n\nActually, the correct physical answer is that the water should freeze when the temperature drops below 0°C and remains there long enough for the heat to dissipate. So the most scientifically accurate answer would be D) перешла в твёрдое состояние (turned into a solid), but if the question expects that it didn't freeze completely due to the short time or other factors, then C) осталась жидкой.\n\nBut given the options and the typical setup of such questions, the intended answer is probably:\n\nD) перешла в твёрдое состояние (turned into a solid)\n\nBut let's clarify: Water freezes at 0°C. If the temperature drops below 0°C and stays there long enough for the water to lose its heat to the environment, it will freeze. Since the night temperature was -2°C and assuming it stayed that way long enough, the water should freeze. So the best answer is:\n\nD) перешла в твёрдое состояние\n\nBut if the question implies that the cooling was rapid and the container was well insulated or the water volume was small, maybe not. But with the information given, the most likely physical outcome is freezing.\n\nFinal answer: D) перешла в твёрдое состояние (turned into a solid)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer: D (water turned solid). Generated answer: It first says \"C) осталась жидкой\" then a long explanation, then at the end says \"Final answer: D) перешла в твёрдое состояние\". The generated answer includes contradictory statements: initially picks C, then later says D is correct. The final answer line says D. The question: \"determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer\". The generated answer ends with \"Final answer: D) перешла в твёрдое состояние\". So the ultimate answer given is D, matching ground truth. The earlier confusion doesn't matter; the final answer is D. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 533,
+        "question": "Вокруг зон повышенного выброса удобрений все гетеротрофы в цепи питания озера могут увеличить свою численность. После начального повышения популяции начинают сокращаться. Какое событие наиболее вероятно привело к сокращению популяций?\nA) В озеро было введено больше хищников.\nB) Вода была обесцвечена питательными веществами, такими как азот.\nC) Сезон размножения для организмов подошел к концу.\nD) Разлагающиеся водоросли снизили количество растворенного кислорода.\nAnswer in English.",
+        "generated_answer": "The most likely event that led to the reduction in population after the initial increase is:\n\nD) Decomposing algae reduced the amount of dissolved oxygen.\n\n**Explanation:**  \nWhen fertilizers are added to a lake, they cause an increase in nutrients (like nitrogen and phosphorus), leading to an algal bloom. These algae eventually die and decompose, a process primarily carried out by bacteria. This decomposition consumes large amounts of dissolved oxygen in the water (a process called eutrophication). The resulting low oxygen levels (hypoxia or anoxia) stress or kill many aquatic organisms, especially those that are not adapted to low oxygen, leading to a reduction in their populations. This is a classic sequence in the process of eutrophication.\n\nLet's briefly consider the other options:\n\nA) Introduction of more predators: This would likely reduce the population of the prey, but the question specifies \"all heterotrophs\" in the food chain, so this is unlikely to affect all of them uniformly.\n\nB) Water was depleted of nutrients like nitrogen: If nutrients were depleted, primary producers (autotrophs) would be affected first, not all heterotrophs.\n\nC) The breeding season ended: This might reduce reproduction, but wouldn't cause a sudden die-off or population crash across all heterotrophs.\n\nTherefore, the correct answer is D.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is simply \"D\". Generated answer says the most likely event is D, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 127,
+        "question": "Какая планета в Солнечной системе имеет самый длительный год?\nA) Планета, находящаяся ближе всего к Солнцу.\nB) Планета с самым длинным днем.\nC) Планета с наибольшим количеством спутников.\nD) Планета, находящаяся дальше всего от Солнца.\nAnswer in English.",
+        "generated_answer": "D) Planet that is farthest from the Sun. \n\nThe planet with the longest year in the Solar System is Neptune, which is the farthest from the Sun. Its orbital period is about 165 Earth years.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". The question: Which planet has the longest year? Options given. The correct answer is D (planet farthest from Sun). The generated answer says \"D) Planet that is farthest from the Sun. The planet with the longest year ... is Neptune, which is the farthest from the Sun.\" That matches D. So it's equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1123,
+        "question": "Медь и золото имеют похожие свойства реакции. В периодической таблице элементов эти элементы наиболее вероятно находятся\nA) в одной группе.\nB) в одном периоде.\nC) имеют практически одинаковую массу.\nD) имеют одинаковое количество протонов.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nA) in the same group.\n\nExplanation: Both copper (Cu) and gold (Au) are transition metals and are located in Group 11 of the periodic table. Elements in the same group have similar chemical properties, which is why copper and gold have similar reaction properties.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"A\". Generated answer says \"The correct answer is: A) in the same group.\" That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 28,
+        "question": "Несколько студентов участвуют в конкурсе по строительству мостов, требующим использования палочек для мороженого и клея для создания самого прочного моста. Мосты должны быть шириной 5 дюймов и пролетом 18 дюймов. Какой из следующих тестов является наиболее точным способом определения самого прочного моста для этих конструкций?\nA) прокатывание игрушечных машинок по каждому мосту, пока он не рухнет\nB) размещение бетонных блоков для строительства на вершине каждого моста до тех пор, пока он не рухнет\nC) укладка монет на обоих концах каждого моста, пока он не рухнет\nD) размещение D-клеточных батарей в центре каждого моста до тех пор, пока он не рухнет\nAnswer in English.",
+        "generated_answer": "The most accurate test among the options provided for determining the strongest bridge in this context—where the bridges are made of popsicle sticks and glue, and must span a specific width and length—is the one that most closely simulates the actual load conditions the bridge would be subjected to in the competition.\n\nLet's analyze each option:\n\nA) Rolling toy cars across each bridge until it collapses  \nThis simulates a rolling load, which is somewhat similar to real-world vehicular loads. However, unless the toy cars are calibrated to apply a consistent and measurable force, this test may not be precise or repeatable.\n\nB) Placing concrete blocks on the top of each bridge until it collapses  \nThis applies a static, distributed load, which is closer to a real engineering test (such as a static load test). However, in the context of a popsicle stick and glue bridge competition, using concrete blocks is not practical and may not reflect the actual loads the bridge would encounter in the contest, which are likely to be lighter and perhaps more uniform or point-loaded.\n\nC) Laying coins on both ends of each bridge until it collapses  \nThis applies a point load at both ends, but not in the center where bending moments are typically highest for simple beam bridges. It does not simulate a realistic loading scenario for a beam bridge.\n\nD) Placing D-cell batteries in the center of each bridge until it collapses  \nThis applies a concentrated load at the center of the span, which is where the bending moment is greatest for a simply supported beam. This is a common way to test small bridges in educational settings because it simulates the worst-case scenario for a simple beam bridge. If the bridge can support a battery in the center, it is likely to support lighter distributed loads across the span.\n\n**Conclusion:**  \nOption D is the most accurate among the choices given, because placing a load at the center of the span most closely simulates the critical loading condition for a simple beam bridge made of popsicle sticks and glue. This test is more likely to reveal the true strength and structural integrity of the bridge under the expected conditions of the competition.\n\n**Answer:**  \nD) placing D-cell batteries in the center of each bridge until it collapses",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"D\". The generated answer says that the correct option is D, with explanation, and final answer: \"D) placing D-cell batteries in the center of each bridge until it collapses\". That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 191,
+        "question": "Ученые открыли, что, несмотря на то, что заразные бактерии могут развивать иммунитет к антибиотикам, некоторые из них не могут сопротивляться определенным пептидам, которые действуют как природные антибиотические вещества внутри человеческого тела. Это открытие привело к разработке какой новой технологии?\nA) искусственные вещества, которые имитируют человеческие пептиды\nB) антибиотики, которые могут быть впитаны через кожу\nC) бактерии, которые атакуют устойчивые к антибиотикам организмы\nD) антибиотики, которые адаптируются в ответ на иммунитет бактерий\nAnswer in English.",
+        "generated_answer": "A) artificial compounds that mimic human peptides\n\n**Explanation:**  \nThe discovery that some pathogenic bacteria cannot resist certain peptides that act as natural antibiotics in the human body led to the development of technologies that mimic these natural peptides. These artificial compounds, which imitate human antimicrobial peptides, are being developed as new antibiotics to combat antibiotic-resistant bacteria. This approach is based on the idea that these peptides can evade the resistance mechanisms that bacteria have developed against traditional antibiotics. The other options do not directly relate to the use of natural peptide-based strategies.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"A\". The generated answer says \"A) artificial compounds that mimic human peptides\". That matches option A. So meaning equivalent. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 816,
+        "question": "Инженер использует компьютер для проектирования моста. Какой тест является наиболее важным с точки зрения безопасности?\nA) максимальная нагрузка, которую мост может выдержать\nB) стоимость материалов, используемых для строительства моста\nC) процент материалов, которые могут быть переработаны\nD) скорость, с которой мост может быть построен\nAnswer in English.",
+        "generated_answer": "The most important test from the perspective of safety is:\n\nA) maximum load that the bridge can withstand\n\nThis is because the primary safety concern for a bridge is its structural integrity and ability to safely support the loads it will encounter, including vehicles, pedestrians, and environmental forces. Testing the maximum load ensures the bridge will not fail under expected or extreme conditions. The other options relate to cost, sustainability, and construction speed, which are important but not directly related to safety.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth: \"A\". Generated answer says the most important test is A) maximum load... So yes, matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2,
+        "question": "Какое из нижеперечисленных правил является важным для безопасного использования химических веществ?\nA) Завязать длинные волосы.\nB) Хранить все химические вещества в холодильнике.\nC) Правильно маркировать все пробирки и бутылки.\nD) Не выбрасывать тщательно потушенные спички в неподходящем месте.\nAnswer in English.",
+        "generated_answer": "The important rule for the safe use of chemicals from the list provided is:\n\nC) Properly label all beakers and bottles.\n\nProper labeling is crucial for safety because it ensures that everyone handling the containers knows what chemicals are inside, their hazards, and how to handle them safely. This helps prevent accidents, misuse, and confusion. The other options are either irrelevant or not generally applicable safety rules for chemicals.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". Generated answer says the important rule is C) Properly label all beakers and bottles, and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1010,
+        "question": "При каких обстоятельствах адаптация, которая сокращает время метаморфоза лягушачьих, будет наиболее полезной?\nA) когда лягушачья икра должна немедленно начать плавать\nB) когда в окружающей среде ограниченное количество воды\nC) когда уменьшается количество хищников\nD) когда лягушачьим нужно сочетаться с окружающей средой\nAnswer in English.",
+        "generated_answer": "The adaptation that shortens the metamorphosis time of amphibian larvae would be most beneficial **when the amphibian larvae need to quickly become adults to escape predation or to utilize adult resources, such as for breeding or dispersal.** However, among the given options, the most directly relevant is:\n\n**A) when the amphibian larvae must start swimming immediately**\n\nShortening metamorphosis allows the larvae to become adult frogs capable of swimming and escaping predators or unfavorable conditions more quickly. This is especially useful in environments where being a larva (tadpole) is dangerous due to predators or other threats.\n\nOption B (limited water) could be relevant if water is drying up, but the question is about shortening metamorphosis time, not about water availability per se. Option C (fewer predators) would make the adaptation less necessary, not more. Option D (need to adapt to the environment) is more general and not specifically tied to the speed of metamorphosis.\n\nSo, the best answer is:\n\n**A) when the amphibian larvae must start swimming immediately**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"При каких обстоятельствах адаптация, которая сокращает время метаморфоза лягушачьих, будет наиболее полезной?\" Options A-D. Ground truth answer: B (when limited water). Generated answer says the best answer is A. So they do not match. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "Большинство экосистем производители могут использовать фотосинтез для захвата энергии для пищевых цепей. В какой экосистеме производители должны захватывать энергию из газов, таких как метан и сероводород?\nA) коралловый риф\nB) высокая пустыня\nC) океанская впадина\nD) вечнозеленый лес\nAnswer in English.",
+        "generated_answer": "C) oceanic trench\n\n**Explanation:**  \nIn most producer ecosystems, photosynthesis is the primary method for capturing energy, as it relies on sunlight to convert carbon dioxide and water into glucose. However, in deep-sea environments like oceanic trenches, sunlight cannot penetrate, so photosynthesis is not possible. Instead, producers in these ecosystems, such as chemosynthetic bacteria, derive energy from chemical reactions involving gases like methane and hydrogen sulfide, which can seep up from the Earth's crust through hydrothermal vents or cold seeps. These bacteria form the base of the food web in these environments. \n\nThe other options (coral reef, desert, and rainforest) all rely primarily on photosynthesis by plants or algae.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer says \"C) oceanic trench\" with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 499,
+        "question": "Фермеры в Вайоминге были обеспокоены тем, что некоторые из их кур стали жертвами ястребов, которые обитали в районах вокруг их ферм. Фермеры объединились и охотились на ястребов до тех пор, пока они не исчезли из района. Что, скорее всего, произойдет дальше?\nA) Популяция кур уменьшится.\nB) Появится увеличение популяций мышей и крыс.\nC) Другая птица хищник заменит ястреба.\nD) У кур будет более низкий уровень заболеваемости.\nAnswer in English.",
+        "generated_answer": "The most likely outcome is **B) There will be an increase in populations of mice and rats.**\n\nHere’s why: When the farmers removed the hawks (the predators of the chickens), they eliminated the main natural predator of the mice and rats. With fewer predators, the populations of mice and rats, which are preyed upon by hawks, are likely to increase. This is a classic example of a trophic cascade, where the removal of a top predator leads to an increase in the population of the next lower trophic level (in this case, small mammals like mice and rats). \n\nOther options:\n- **A)** is incorrect because the chicken population might actually increase now that the hawks are gone.\n- **C)** is possible but not the most direct or immediate consequence; it may take time for another predator to establish itself, and it's not guaranteed.\n- **D)** is unlikely; more chickens could mean more disease transmission among them, not less.\n\nSo, **B** is the best answer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"B\". The generated answer says \"The most likely outcome is B) There will be an increase in populations of mice and rats.\" That matches B. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 666,
+        "question": "Медь - это элемент, который используется в электрических проводах. Какая является наименьшей единицей меди, которая по-прежнему обладает характеристиками меди?\nA) атом\nB) электрон\nC) ядерный образующий центр\nD) протон\nAnswer in English.",
+        "generated_answer": "The smallest unit of copper that still retains the characteristics of copper is the **atom**. \n\nHere's why:\n\n- **Atom (A)**: An atom of copper consists of a nucleus (protons and neutrons) and electrons. It retains the chemical and physical properties of copper because it has the same number of protons (atomic number 29), which defines copper as an element.\n- **Electron (B)**: Electrons are subatomic particles that determine electrical charge but do not define the element or its properties on their own.\n- **Nuclear forming center / Nucleus (C)**: The nucleus contains protons and neutrons, but by itself, it is not considered an \"unit of copper\" and does not retain the properties of copper outside of an atom.\n- **Proton (D)**: A proton is a component of the nucleus and does not, by itself, have the properties of copper.\n\nTherefore, the correct answer is **A) atom**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"A\". The question: \"Медь - это элемент... Какая является наименьшей единицей меди, которая по-прежнему обладает характеристиками меди? A) атом B) электрон C) ядерный образующий центр D) протон Answer in English.\" Ground truth: \"A\". The generated answer says the smallest unit is the atom, and says correct answer is A) atom. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 128,
+        "question": "Четыре значительно различных бытовых устройства (блендер, миксер, тостер и кухонный комбайн) подключены к четырем розеткам вдоль стойки. Включение или выключение одного или нескольких из этих устройств не влияет на работу других, потому что все устройства\nA) работают от постоянного тока.\nB) соединены последовательно.\nC) соединены параллельно.\nD) работают от переменного тока.\nAnswer in English.",
+        "generated_answer": "C) are connected in parallel.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer: \"C) are connected in parallel.\" That conveys same meaning (option C). So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 391,
+        "question": "Ведутся исследования по использованию энергии солнца для расщепления молекул воды на водород и кислород. Кислород будет выделяться в окружающую среду, а водород будет использоваться в качестве топлива. Какое утверждение описывает, как данная технология пользуется окружающей среде?\nA) Свойства водорода будут лучше пониматься.\nB) Доступность чистых ресурсов увеличится.\nC) Атмосфере будет поставлен кислород.\nD) Используется обилие солнечной энергии.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nD) It uses an abundance of solar energy.\n\nExplanation: The technology described uses solar energy to split water molecules into hydrogen and oxygen. The statement that best describes how the technology interacts with the environment is that it utilizes the abundant solar energy available. The other options either focus on scientific understanding (A), resource availability (B), or incorrectly describe the environmental impact regarding oxygen in the atmosphere (C; while oxygen is released, saying \"the atmosphere will be supplied with oxygen\" is not the most precise or direct way to describe the technology's use of the environment). The core environmental interaction here is the use of solar energy.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"Какое утверждение описывает, как данная технология пользуется окружающей среде?\" Options: A) Свойства водорода будут лучше пониматься. B) Доступность чистых ресурсов увеличится. C) Атмосфере будет поставлен кислород. D) Используется обилие солнечной энергии.\n\nGround truth answer is B. Generated answer says D is correct. So they are not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "Какой пример физического изменения?\nA) разбить объект на мелкие части с помощью молотка\nB) оставить железную цепь в соленой воде, пока она не ржавеет\nC) нагреть коричневое вещество до образования серого порошка\nD) реагировать уксус и пищевую соду, чтобы получить белую пену и газ\nAnswer in English.",
+        "generated_answer": "The question asks for an example of a physical change. A physical change is a change in which the substance's physical properties are altered, but its chemical composition remains the same.\n\nLet's analyze each option:\n\nA) Breaking an object into small pieces with a hammer — This is a physical change. The object's shape and size change, but its chemical composition remains the same.\n\nB) Leaving an iron chain in salt water until it rusts — This is a chemical change. Rusting involves a chemical reaction between iron and oxygen (and salt accelerates it), forming new substances.\n\nC) Heating a brown substance to form a gray powder — This could be either a physical or chemical change depending on the substance. If it's just a change in color and state (like melting or sublimation), it's physical. But if a new substance is formed (like decomposition or combustion), it's chemical. Without more information, it's ambiguous, but it's less clearly a physical change than option A.\n\nD) Reacting vinegar and baking soda to get white foam and gas — This is a chemical change. New substances (carbon dioxide gas and sodium acetate in the foam) are formed.\n\nTherefore, the best answer is:\n\nA) разбить объект на мелкие части с помощью молотка (Break an object into small pieces with a hammer)",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". Generated answer says the best answer is A, explaining that it's a physical change. So it conveys same meaning. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 454,
+        "question": "Что происходит во время оплодотворения у животных?\nA) образование спермы и яйцеклетки\nB) соединение спермы и яйцеклетки\nC) деление яйцеклетки\nD) развитие эмбриона\nAnswer in English.",
+        "generated_answer": "B) union of sperm and egg cell\n\nDuring fertilization in animals, the sperm cell and the egg cell (ova) come together and fuse, forming a zygote. This is the key event of fertilization. The other options describe different stages of reproduction or development:  \nA) is gamete formation (gametogenesis),  \nC) is cell division after fertilization (cleavage),  \nD) is embryonic development after fertilization.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"B\". The generated answer says \"B) union of sperm and egg cell ...\". That conveys the same meaning: option B. So equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 488,
+        "question": "Воды у побережья Флориды загрязняются. Это загрязнение влияет на множество морских экосистем, находящихся в районе Флоридских ключей. Какое действие наиболее вероятно снизит загрязнение воды?\nA) использование компоста в качестве удобрения для газонов и садов\nB) использование воды из стиральных машин для полива газонов\nC) использование автомобилей, предназначенных для использования нефтепродуктов\nD) использование большего количества пластиковых бутылок и их утилизация на свалках\nAnswer in English.",
+        "generated_answer": "The action most likely to reduce water pollution in the Florida coast area is:\n\nA) использование компоста в качестве удобрения для газонов и садов (use of compost as fertilizer for lawns and gardens)\n\nExplanation: Compost is an organic fertilizer that reduces the need for chemical fertilizers, which can run off into water bodies and cause pollution. The other options (using laundry water for irrigation, using gasoline-powered cars, and using more plastic bottles) are likely to increase pollution. Using compost helps prevent nutrient and chemical runoff, thus reducing water pollution.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer says the action most likely to reduce water pollution is A) use of compost as fertilizer. That matches. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 291,
+        "question": "Что несут волны через объекты?\nA) звук\nB) свет\nC) энергию\nD) воду\nAnswer in English.",
+        "generated_answer": "C) energy",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Что несут волны через объекты?\" (What do waves carry through objects?) Options: A) sound, B) light, C) energy, D) water. Ground truth answer: \"C\". That indicates option C, which is \"energy\". Generated answer: \"C) energy\". That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1112,
+        "question": "Ученый утверждает, что сделал открытие в лаборатории. Что нужно ученому, чтобы доказать, что его открытие действительно верно?\nA) диаграммы, показывающие шаги, используемые в открытии\nB) точные записи, демонстрирующие, что данные согласованы\nC) документы, показывающие, что ученый хорошо известен\nD) доказательство того, что оборудование, используемое в открытии, имеет высокое качество\nAnswer in English.",
+        "generated_answer": "B) precise records demonstrating that the data are consistent\n\nTo prove that a scientific discovery is valid, a scientist needs to provide evidence that the results are reliable and reproducible. Precise records of the experiments and data that demonstrate consistency are essential for others to verify the findings. While diagrams (A), reputation (C), and high-quality equipment (D) may be relevant, they are not sufficient on their own to prove the validity of the discovery. The key is the documentation and consistency of the data (B).",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"B\". Generated answer says \"B) precise records demonstrating that the data are consistent\" and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 917,
+        "question": "Движение на север от экватора приводит к смене жарких и влажных климатов на жаркие и сухие. Граница между этими двумя типами климата определяется каким фактором?\nA) высота над уровнем моря\nB) типы местного растительного покрова\nC) циркуляционные процессы региональных воздушных масс\nD) расстояние до ближайшего горного хребта\nAnswer in English.",
+        "generated_answer": "C) circulatory processes of regional air masses\n\nThe boundary between humid (wet) and arid (dry) climates as you move north from the equator is primarily determined by the movement and characteristics of air masses, which are governed by atmospheric circulation patterns such as the trade winds and subtropical high-pressure zones. These circulatory processes control the amount of moisture that reaches a region, thus defining the transition from humid to dry climates.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". Generated answer says \"C) circulatory processes of regional air masses\" and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 186,
+        "question": "Как только через воду (H_{2}O) проходит электрический ток, используя определенное устройство, образуются газы водород (H_{2}) и кислород (O_{2}). Как можно показать эту реакцию в химическом уравнении?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(ж) -> 2H_{2}(г) + O_{2}(г)\nC) H:O:H -> H_{2}O\nD) H_{2}O(ж) -> 2H(г) + O(г)\nAnswer in English.",
+        "generated_answer": "The correct balanced chemical equation for the electrolysis of water is:\n\nB) 2H₂O(ℓ) → 2H₂(g) + O₂(g)\n\nThis equation shows that two molecules of water (in liquid form) break down into two molecules of hydrogen gas and one molecule of oxygen gas, which is consistent with the products of electrolysis of water. The other options are either unbalanced or do not correctly represent the reactants and products.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"B\". The generated answer says the correct balanced equation is B) 2H2O(l) -> 2H2(g) + O2(g). That matches. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 164,
+        "question": "Какой из этих признаков наследуется, но очень сильно зависит от окружающей среды?\nA) способность скручивать язык\nB) спортивная производительность\nC) язык\nD) цвет глаз\nAnswer in English.",
+        "generated_answer": "The trait that is inherited but also very strongly influenced by the environment is:\n\nB) sporting performance\n\nExplanation:  \n- **Inherited aspect:** Athletic ability or predisposition can be influenced by genetics (e.g., muscle fiber type, VO2 max potential, certain physical attributes).\n- **Strong environmental influence:** Sporting performance is highly dependent on factors such as training, nutrition, coaching, access to facilities, cultural emphasis on sports, and more.\n\nOther options:\n- A) Ability to roll the tongue: This is mostly genetic, but the environment has little impact on whether you can do it or not.\n- C) Language: This is primarily learned from the environment, though there may be some genetic influence on language aptitude.\n- D) Eye color: This is mostly genetic and not significantly affected by the environment.\n\nSo, the best answer is **B) sporting performance**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"B\". The generated answer says the trait is B) sporting performance, and explains that. So it matches. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 655,
+        "question": "Облака приносят дождь и снег на поверхность Земли. Как дождь и снег больше всего поддерживают жизнь на Земле?\nA) Они охлаждают поверхность земли.\nB) Они переносят кислоты в почву.\nC) Они доставляют пресную воду организмам на суше.\nD) Они создают горы.\nAnswer in English.",
+        "generated_answer": "C) They deliver fresh water to organisms on land.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"C\". The generated answer says \"C) They deliver fresh water to organisms on land.\" That matches option C, same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1040,
+        "question": "Хамелеон может менять свой цвет, чтобы соответствовать окружающей среде. Эта способность помогает хамелеону выжить, потому что он может\nA) сохранять тепло.\nB) найти партнера.\nC) охотиться за едой.\nD) быть легко замеченным.\nAnswer in English.",
+        "generated_answer": "C) hunt for food. \n\nThe ability of a chameleon to change its color primarily helps it to camouflage itself in its environment, making it harder for predators to spot it and easier for it to approach prey without being seen. So the correct answer is C) hunt for food.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". The generated answer says \"C) hunt for food. The ability ... helps it to camouflage ... making it harder for predators to spot it and easier for it to approach prey ... So the correct answer is C) hunt for food.\" That matches the ground truth answer C. So meaning is same. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1002,
+        "question": "Какой самый большой орган в человеческом теле?\nA) желудок\nB) мозг\nC) кожа\nD) печень\nAnswer in English.",
+        "generated_answer": "The largest organ in the human body is the skin (C).",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Какой самый большой орган в человеческом теле? A) желудок B) мозг C) кожа D) печень Answer in English.\" Ground truth: \"C\". Means answer is option C, skin. Generated answer: \"The largest organ in the human body is the skin (C).\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "На каком этапе своего жизненного цикла бабочка проводит больше всего времени, питаясь листьями растений?\nA) взрослый\nB) яйцо\nC) личинка\nD) куколка\nAnswer in English.",
+        "generated_answer": "C) larva",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"На каком этапе своего жизненного цикла бабочка проводит больше всего времени, питаясь листьями растений?\" Options: A) adult, B) egg, C) larva, D) pupa. The correct answer is C) larva. Ground truth answer: \"C\". Generated answer: \"C) larva\". That conveys same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 617,
+        "question": "Что происходит с деревянным бревном, когда его сжигают?\nA) Оно полностью уничтожается.\nB) Оно полностью преобразуется в тепловую энергию.\nC) Оно превращается в другие типы вещества и энергии.\nD) Физически оно превращается в газообразную фазу.\nAnswer in English.",
+        "generated_answer": "C) It is transformed into other types of matter and energy. \n\nWhen a wooden log is burned, the wood undergoes combustion, a chemical reaction primarily involving the reaction of cellulose and other organic compounds in the wood with oxygen from the air. This process produces carbon dioxide (CO₂), water (H₂O), ash (inorganic minerals), and heat (thermal energy). So, the wood is not completely destroyed nor is it fully converted into just thermal energy; rather, it is transformed into new substances (gases and solids like CO₂, H₂O, and ash) and energy (heat and light). Therefore, the most accurate answer is C.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"C\". The generated answer says \"C) It is transformed into other types of matter and energy.\" and explains. That matches the answer C. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1128,
+        "question": "Типичная высота зрелой восточной белой сосны составляет 100 футов, но в Онтонагоне, штат Мичиган, есть восточная белая сосна, которая достигла высоты 150 футов. Насколько больше сосна в Мичигане, чем типичная восточная белая сосна?\nA) 1,5 раза\nB) 2 раза\nC) 2,5 раза\nD) 3 раза\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\nThe typical height of an Eastern white pine is 100 feet.  \nThe Eastern white pine in Michigan is 150 feet tall.\n\nWe are asked: How much bigger (taller) is the Michigan pine compared to a typical one? Specifically, \"how many times bigger\" or \"how many times taller.\"\n\nTo find how many times bigger, we divide the height of the Michigan pine by the typical height:\n\n150 feet ÷ 100 feet = 1.5\n\nSo, the Michigan pine is 1.5 times the height of a typical Eastern white pine.\n\nHowever, sometimes people interpret \"how much bigger\" as \"how much more,\" which would be the difference:  \n150 - 100 = 50 feet bigger  \nBut the question says \"насколько больше ... чем\" and the options are in multiples (\"раза\"), so it's about the multiple, not the difference in feet.\n\nTherefore, the answer is:\n\nA) 1,5 раза (1.5 times)\n\nBut let's check the options in English:\n\nA) 1.5 times  \nB) 2 times  \nC) 2.5 times  \nD) 3 times  \n\nSo the correct answer is:\n\nA) 1.5 times",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The generated answer says the answer is A) 1.5 times. That matches. So equivalent.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 596,
+        "question": "Что такое потенциальная энергия?\nA) Энергия, которую объект имеет в связи с его движением.\nB) Энергия, которую объект имеет в связи с его положением.\nC) Энергия, которая увеличивает массу объекта.\nD) Энергия, которая увеличивает температуру объекта.\nAnswer in English.",
+        "generated_answer": "B) Energy that an object has due to its position.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"B\". The generated answer: \"B) Energy that an object has due to its position.\" That matches the meaning of B: potential energy is energy due to position. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 255,
+        "question": "Многие бактерии быстро растут при комнатной температуре около 20 °C. Температура внутри холодильника обычно поддерживается на уровне около 4 °C. Какое утверждение лучше всего объясняет, как использование холодильника помогло обществу?\nA) Он сохраняет более низкую температуру на кухне летом.\nB) Он предоставляет больше места для хранения продуктов.\nC) Он делает еду безопасней для употребления в течение более длительного периода.\nD) Он делает использование электричества на кухне безопаснее.\nAnswer in English.",
+        "generated_answer": "The best statement that explains how the use of a refrigerator has helped society is:\n\nC) He makes food safer to eat for a longer period.\n\nExplanation: Bacteria grow rapidly at room temperature (around 20°C), but at the low temperature inside a refrigerator (around 4°C), their growth is greatly slowed down. This slows down the spoilage and decay of food, making it safer to eat for a longer time. This is the primary public health benefit of refrigeration. The other options do not directly address the main reason why refrigeration is beneficial in terms of food safety and public health.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"C\". The generated answer says the best statement is C, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1121,
+        "question": "Все природные ресурсы на Земле являются обновляемыми или необновляемыми. Является ли ресурс возобновляемым или нет, зависит от того, насколько быстро или медленно он заменяется. Если ресурс используется быстрее, чем заменяется, то он со временем исчезнет. Какая из следующих деятельностей показывает использование необновляемого природного ресурса?\nA) Группа людей плавает в реке.\nB) Строительная бригада строит железный мост.\nC) Фермер выращивает овощи, чтобы продать на местном рынке.\nD) Человек выпекает торт с помощью электричества, произведенного гидроэлектростанцией.\nAnswer in English.",
+        "generated_answer": "The activity that shows the use of a non-renewable natural resource is:\n\nB) A construction crew builds an iron bridge.\n\nExplanation: Iron (or more generally, metals like iron) are typically extracted from ores, which are non-renewable resources because they form over very long geological timescales and cannot be replenished at the rate they are consumed. The other options involve either renewable resources (rowing in a river, farming vegetables) or the use of energy from a renewable source (hydroelectric power).",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is simply \"B\". Generated answer says the activity is B, with explanation. That matches. So equivalent meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 681,
+        "question": "Лазеры используются в хирургии для\nA) создания тонких разрезов.\nB) освещения поля действия.\nC) шитья ран.\nD) дезинфекции инструментов.\nAnswer in English.",
+        "generated_answer": "A) creating thin cuts.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Лазеры используются в хирургии для\" (Lasers are used in surgery for). Options: A) создания тонких разрезов. B) освещения поля действия. C) шитья ран. D) дезинфекции инструментов. The correct answer is A. Ground truth answer: \"A\". Generated answer: \"A) creating thin cuts.\" That conveys the same meaning: option A, describing thin cuts. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "Таня исследует, какие предметы в доме притягиваются магнитом. Что поможет ей сделать заключение?\nA) предположение\nB) гипотеза\nC) список материалов\nD) таблица результатов\nAnswer in English.",
+        "generated_answer": "The best answer is **B) hypothesis**.\n\nA hypothesis is an educated guess that can be tested through experimentation. Tanya needs to form a hypothesis about which objects in the house will be attracted to a magnet before she begins her investigation. This allows her to design an experiment to test her prediction and draw a conclusion.\n\nHere’s why the other options are not as directly helpful for forming a conclusion:\n\n- **A) assumption**: This is something believed without proof, but it's not specifically testable or structured for scientific investigation.\n- **C) list of materials**: This is useful for conducting the experiment, but not for forming a conclusion.\n- **D) table of results**: This is used to record and organize data from the experiment, but not to form the initial prediction needed to guide the investigation.\n\nSo, the correct answer is **B) hypothesis**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"Таня исследует, какие предметы в доме притягиваются магнитом. Что поможет ей сделать заключение? A) предположение B) гипотеза C) список материалов D) таблица результатов\". The ground truth answer is D (таблица результатов). The generated answer says B) hypothesis. So they are not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 416,
+        "question": "Какое утверждение объясняет, почему большинство лососей уходят из соленой воды и возвращаются в пресную воду?\nA) Это выученное поведение, которое поддерживает популяцию.\nB) Это выученное поведение, которое поддерживает концентрацию соли.\nC) Это унаследованное поведение, которое поддерживает популяцию.\nD) Это унаследованное поведение, которое поддерживает концентрацию соли.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nC) This is inherited behavior that maintains the population.\n\nExplanation: Most salmon leave saltwater and return to freshwater to spawn. This behavior is instinctive (inherited) rather than learned, and it is crucial for the survival and continuation of the species (maintaining the population). The behavior is not directly about maintaining salt concentration, and it is not learned behavior.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"C\". Generated answer says \"The correct answer is: C) This is inherited behavior that maintains the population.\" That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1120,
+        "question": "Многие люди черпают свежую воду из колодцев, которые доходят до воды, накопленной под землей. При малом количестве осадков вода может начать заканчиваться. Какой шаг лучше сделать, чтобы вода дольше хранилась?\nA) использование поливалок в течение меньшего количества часов в неделю\nB) мыть автомобили в середине дня\nC) рыскать водой для очистки нефти с парковочных мест\nD) оставлять краны открытыми во время чистки зубов\nAnswer in English.",
+        "generated_answer": "The best step to make the water last longer in a well that relies on groundwater is:\n\nA) using soaker hoses for a shorter amount of time each week\n\nThis option promotes efficient water use, which helps conserve the groundwater stored in the well, especially during periods of low rainfall. The other options (washing cars in the middle of the day, using water to clean oil from parking lots, and leaving taps open while brushing teeth) all waste water and would deplete the well's supply faster.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". Generated answer says: \"The best step ... is A) using soaker hoses for a shorter amount of time each week\". That matches option A. So yes, they convey same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 589,
+        "question": "Некоторые деревья, например кориновое, могут быть населены грибом, который повреждает их листья. Какое из следующих наилучшим образом описывает отношение между деревом и грибом?\nA) паразитизм\nB) сапрофитизм\nC) взаимовыгодное сосуществование\nD) комменсализм\nAnswer in English.",
+        "generated_answer": "The best answer is:\n\nA) parasitism\n\nExplanation: In this scenario, the fungus is harming the tree by damaging its leaves and living on it, which is a classic example of parasitism. Parasitism is a relationship where one organism (the parasite) benefits at the expense of the other organism (the host), which is harmed. In this case, the fungus (parasite) benefits while the tree (host) is harmed.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says \"A) parasitism\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 911,
+        "question": "В экосистеме леса ниша популяции белок - это\nA) разложение.\nB) опыление цветов.\nC) рециркуляция питательных веществ в почве.\nD) сбор желудей и их зарытие в почву.\nAnswer in English.",
+        "generated_answer": "The ecological niche of a population of worms (belok) in a forest ecosystem is most closely related to their role in decomposition and nutrient cycling. Among the options given, the best answer is:\n\nD) сбор желудей и их зарытие в почву. (Collection of feces and burying them in the soil.)\n\nThis process is part of decomposition and nutrient cycling, where worms consume organic matter, break it down, and their castings (waste) enrich the soil with nutrients, facilitating the recycling of nutrients in the soil.\n\nSo, the answer in English is:\n\nD) Collection of feces and burying them in the soil.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". The generated answer says: \"The ecological niche ... is most closely related to their role in decomposition... Among the options given, the best answer is: D) сбор желудей и их зарытие в почву. (Collection of feces and burying them in the soil.) This process is part... So the answer in English is: D) Collection of feces and burying them in the soil.\"\n\nThus the generated answer selects D, matching ground truth. However, the content is wrong (they talk about worms, misinterpretation), but they still pick D. The question: \"determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer\". The ground truth answer is just \"D\". The generated answer also says D. So they are equivalent in that they both indicate D. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 187,
+        "question": "В результате сильных дождей питательно-загрязненные воды попадают в Мексиканский залив. Это способствует цветению водорослей в океанской среде. При распаде водорослей вдоль побережья используется большое количество кислорода. Какое из перечисленных событий наиболее вероятно произойдет в этой области в результате этого?\nA) Азот заменит кислород в воде.\nB) Температура воды увеличится.\nC) Волны унесут мертвые водоросли.\nD) Обитатели морского дна погибнут, а рыбы уплывут.\nAnswer in English.",
+        "generated_answer": "The most likely event to occur as a result of the described process is:\n\nD) Objet d'habitat benthique mourront, et les poissons plongeront (in English: The bottom-dwelling organisms will die, and the fish will flee/swim away).\n\n**Explanation:**\nWhen nutrient-rich runoff causes an algal bloom in the ocean, the algae (phytoplankton) proliferate rapidly. When the algae die, their decomposition by bacteria consumes large amounts of dissolved oxygen in the water—a process known as eutrophication. This leads to hypoxia (low oxygen levels) near the bottom of the water column, which can cause the death of benthic (bottom-dwelling) organisms due to lack of oxygen. Fish and other mobile marine life may flee the area to avoid the low-oxygen conditions.\n\nLet's briefly evaluate the other options:\n- **A) Nitrogen will replace oxygen in the water.**  \n  Incorrect. Nitrogen is not replacing oxygen; the issue is depletion of oxygen due to microbial decomposition.\n- **B) The water temperature will increase.**  \n  Incorrect. There is no direct evidence that the process described would significantly increase water temperature.\n- **C) Waves will carry away the dead algae.**  \n  While waves may move dead algae, this is not the primary or most significant consequence of the oxygen depletion caused by decomposition.\n\nTherefore, **D** is the most accurate and likely outcome.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is simply \"D\". The generated answer says the most likely event is D, with explanation. That matches. So equivalent meaning. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 649,
+        "question": "Какой вопрос о тюльпанах лучше всего может быть решен научными исследованиями?\nA) Являются ли тюльпаны лучше других цветов?\nB) Какие гены определяют цвет лепестков тюльпана?\nC) Почему люди любят смотреть на тюльпаны?\nD) Какой цвет тюльпанов самый красивый?\nAnswer in English.",
+        "generated_answer": "The question that can best be answered by scientific research is:\n\nB) What genes determine the color of tulip petals?\n\nThis is because it is a specific, measurable, and testable question that can be investigated using scientific methods, such as genetic analysis and experimentation. The other options are either subjective (A and D) or involve human behavior and preference (C), which are more difficult to answer definitively with scientific research alone.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"B\". Generated answer says the question that can best be answered by scientific research is B) What genes determine the color of tulip petals? That matches. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 495,
+        "question": "Студент выдвигает гипотезу, что трение воздушного шара по рубашке и затем его прикрепление к стене приведёт к его прилипанию из-за статического электричества. Каким наилучшим образом можно доказать надёжность результатов после проведения эксперимента?\nA) Запишите результаты эксперимента.\nB) Повторите эксперимент несколько раз.\nC) Выдвиньте другую гипотезу о статическом электричестве.\nD) Проведите другой эксперимент по статическому электричеству.\nAnswer in English.",
+        "generated_answer": "The best way to demonstrate the reliability of the results after conducting an experiment is:\n\nB) Repeat the experiment several times.\n\nBy repeating the experiment under the same conditions, you can assess the reproducibility and consistency of the results, which increases confidence in their reliability and helps rule out random errors or anomalies. While recording results (A) is essential, it alone does not establish reliability. Proposing another hypothesis (C) or conducting a different experiment (D) may help explore alternative explanations or deepen understanding, but they are not the most direct way to show that your current results are reliable.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"B\". Generated answer says the best way is B) Repeat the experiment several times, and explains why. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 594,
+        "question": "Ученики изучают, как положение Земли и Солнца влияет на изменения на Земле. Что произошло после того, как на Земле прошло четыре сезона?\nA) Земля завершила одно вращение вокруг Луны.\nB) Земля завершила одну оборот вокруг Солнца.\nC) Солнце завершило один оборот вокруг Земли.\nD) Луна завершила один оборот вокруг Земли.\nAnswer in English.",
+        "generated_answer": "B) Земля завершила одну оборот вокруг Солнца.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian: \"Ученики изучают, как положение Земли и Солнца влияет на изменения на Земле. Что произошло после того, как на Земле прошло четыре сезона?\" Options: A) Earth completed one rotation around Moon. B) Earth completed one orbit around Sun. C) Sun completed one orbit around Earth. D) Moon completed one orbit around Earth. Correct is B. Generated answer: \"B) Земля завершила одну оборот вокруг Солнца.\" That's essentially same as B. Ground truth: \"B\". So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 376,
+        "question": "Какое из этих свойств описывает теплоизоляцию?\nA) блестящий\nB) пластичный\nC) плохо проводит тепло\nD) имеет низкую удельную теплоемкость\nAnswer in English.",
+        "generated_answer": "The property that describes thermal insulation is:\n\nC) poorly conducts heat\n\nThis is because good thermal insulation means the material does not allow heat to pass through it easily, i.e., it is a poor conductor of heat.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer says \"C) poorly conducts heat\" and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 387,
+        "question": "Какая из этих человеческих деятельностей, скорее всего, способствовала истощению озонового слоя?\nA) строительство гидроэлектростанций\nB) стоки из удобренных полей\nC) сжигание ископаемого топлива\nD) выбросы хлорфторуглеродов из аэрозольных баллончиков\nAnswer in English.",
+        "generated_answer": "D) releases of chlorofluorocarbons from aerosol cans",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". Generated answer: \"D) releases of chlorofluorocarbons from aerosol cans\". That matches D, same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 382,
+        "question": "Сэнди проводит исследование, чтобы узнать, какую еду его собака любит больше всего. Какая переменная влияет на результаты его исследования?\nA) Цвет миски с едой для собаки\nB) Тип еды, которую он дает своей собаке\nC) Количество еды, которое он дает своей собаке\nD) Время дня, когда он кормит свою собаку\nAnswer in English.",
+        "generated_answer": "The variable that affects the results of Sandy's study is:\n\nB) Type of food that he gives his dog\n\nExplanation: The type of food is the independent variable in this context because it is the factor being tested to see which one the dog prefers. The other options (color of the bowl, amount of food, and time of day) could be controlled variables or other factors, but the type of food is what directly relates to the dog's preference being studied.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth: \"B\". Generated answer says the variable is B) Type of food... So yes matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 67,
+        "question": "Студенты изучают связь температуры вещества с скоростью молекулярного движения. Молекулы какого вещества движутся быстрее?\nA) холодное молоко\nB) теплый суп\nC) вода, таящая ото льда\nD) пар, восходящий от кипящей воды\nAnswer in English.",
+        "generated_answer": "The molecules that move the fastest are in the substance with the highest temperature. Among the options, steam (par) rising from boiling water is at the highest temperature. Therefore, the correct answer is:\n\nD) пар, восходящий от кипящей воды (steam rising from boiling water)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". Generated answer says the correct answer is D, explains that steam rising from boiling water is the fastest. So yes, same meaning. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 532,
+        "question": "Брианна думает, что большие семена тыквы прорастут быстрее, чем маленькие. Она проверяет это, высадив по четыре семени каждого размера в одинаковый контейнер. Какое понятие используется для описания того, что Брианна думает произойдет?\nA) испытание\nB) результат\nC) переменная\nD) гипотеза\nAnswer in English.",
+        "generated_answer": "D) hypothesis",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks \"What concept is used to describe what Brianna thinks will happen?\" Options: A) test, B) result, C) variable, D) hypothesis. The correct answer is D) hypothesis. Generated answer: \"D) hypothesis\". Ground truth: \"D\". Both indicate same answer. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 975,
+        "question": "Какое утверждение о молекулах льда и молекулах жидкой воды верно?\nA) Молекулы льда имеют больше энергии, чем молекулы жидкой воды.\nB) Молекулы льда содержат другие атомы, чем молекулы жидкой воды.\nC) Молекулы льда имеют больше электрического заряда, чем молекулы жидкой воды.\nD) Молекулы льда менее подвижны, чем молекулы жидкой воды.\nAnswer in English.",
+        "generated_answer": "The correct statement is:\n\nD) Molecules of ice are less mobile than molecules of liquid water.\n\nExplanation:\n- Ice is a solid, so its water molecules are arranged in a fixed, crystalline structure and can only vibrate in place, making them much less mobile than in liquid water.\n- In liquid water, molecules move more freely and are in constant motion.\n- Options A, B, and C are incorrect because:\n  - A) Ice molecules actually have less energy on average than liquid water molecules at the same temperature (except at the melting point, where energies are equal).\n  - B) Both ice and liquid water are H₂O, so they contain the same atoms.\n  - C) Both ice and liquid water molecules are electrically neutral overall, though they have partial charges due to polarity.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"D\". Generated answer says the correct statement is D, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 141,
+        "question": "Когда и где количество часов дневного света в день будет наибольшим?\nA) зимой у экватора\nB) летом у экватора\nC) зимой у северного полюса\nD) летом у северного полюса\nAnswer in English.",
+        "generated_answer": "B) летом у экватора (in summer at the equator)\n\nExplanation: The equator receives the most direct sunlight year-round, but the length of daylight is nearly constant (about 12 hours a day) throughout the year. However, the amount of sunlight (insolation) is highest when the sun is highest in the sky, which occurs during the equinoxes (around March and September), but the question is about the \"количество часов дневного света\" (number of daylight hours), not the intensity. \n\nActually, the number of daylight hours is almost the same (about 12 hours) at the equator all year round. However, if we consider the total amount of sunlight (daylight hours multiplied by sun's elevation), it is highest when the sun is highest, which is around the equinoxes. But strictly about the number of daylight hours, the equator always has about 12 hours per day, while at the poles, there are periods with 24 hours of daylight (midsummer) and 24 hours of darkness (midwinter).\n\nBut among the options, the only time and place where the number of daylight hours is maximized for a long period is at the poles during summer (24 hours a day). However, the question asks for the \"количество часов дневного света в день будет наибольшим\" (when and where the number of daylight hours in a day is the greatest). The maximum possible is 24 hours, which occurs at the poles during their respective summers.\n\nSo, the correct answer should be:\nD) летом у северного полюса (in summer at the North Pole)\n\nBut let's clarify:\n- At the equator: ~12 hours of daylight every day, all year.\n- At the North Pole in summer: 24 hours of daylight for about 6 months.\n- At the North Pole in winter: 0 hours of daylight for about 6 months.\n\nTherefore, the greatest number of daylight hours in a day (24 hours) occurs at the poles during their respective summers.\n\nSo the correct answer is:\nD) летом у северного полюса (in summer at the North Pole)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare GENERATED ANSWER to GROUND TRUTH. Ground truth answer is \"D\". The generated answer includes a lot of explanation and ultimately says the correct answer should be D) летом у северного полюса. So the generated answer's final answer is D. That matches ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 183,
+        "question": "Студенты хотят сравнить размер сообществ микроорганизмов в образцах воды объемом 500 миллилитров из каждого из двух прудов. Какой фактор, скорее всего, повлияет на точность их наблюдений?\nA) средняя температура образцов воды\nB) марка предметного стекла микроскопа\nC) увеличительная способность микроскопа\nD) правильная идентификация каждого микроорганизма\nAnswer in English.",
+        "generated_answer": "The factor that is most likely to affect the accuracy of their observations is **D) proper identification of each microorganism**.\n\nHere’s why:\n\n- **A) Average temperature of the water samples:** While temperature can influence the growth or activity of microorganisms, if both samples are measured under similar conditions or if the counting is done on preserved samples, temperature may have a limited direct effect on the accuracy of counting the number of microorganisms in the fixed samples.\n- **B) Brand of the microscope's objective glass:** Unless the glass is extremely poor quality (e.g., causing severe aberrations or obscuring the view), the brand is unlikely to significantly affect the accuracy of counting microorganisms in a well-maintained laboratory setting.\n- **C) Magnification power of the microscope:** As long as the magnification is sufficient to see and distinguish the microorganisms, simply having higher or lower magnification (as long as it's adequate) does not inherently introduce error in counting. However, if the magnification is too low and organisms are not visible, that would be a problem, but the question does not suggest this.\n- **D) Correct identification of each microorganism:** If the students cannot correctly identify which organisms belong to the community of interest, they may miscount or exclude/include the wrong types, directly affecting the accuracy of their comparison. This is a fundamental source of error in microbiological counts.\n\nTherefore, **D) proper identification of each microorganism** is the most critical factor for accurate comparison of microbial community sizes.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"Students want to compare size of microbial communities in water samples... Which factor most likely affect accuracy?\" Options A-D. Ground truth answer: C (magnification power). Generated answer says D (proper identification). They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "Ученик изучал рост растений в различных типах почвы. Лучший способ организации данных -\nA) дата и время.\nB) дата и высота растения.\nC) высота растения и тип почвы.\nD) дата, высота растения и тип почвы.\nAnswer in English.",
+        "generated_answer": "D) date, height of the plant, and type of soil. \n\nThis is the best way to organize the data because it includes all the relevant variables: the time of measurement (date), the measured outcome (height of the plant), and the factor being studied (type of soil). Organizing data this way allows for analysis of how plant height changes over time across different soil types.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". Generated answer says \"D) date, height of the plant, and type of soil. This is the best way...\" So it selects D and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 306,
+        "question": "В течение длительного времени проточная вода в реке эродирует русло реки. Эрозия вызывает...\nA) остановку течения.\nB) образование волн.\nC) движение быстрее и чище.\nD) становление более глубокой и широкой.\nAnswer in English.",
+        "generated_answer": "D) formation of a deeper and wider channel.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". The generated answer says \"D) formation of a deeper and wider channel.\" That matches option D meaning. So yes equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 79,
+        "question": "Экзотермическую реакцию лучше всего продемонстрировать с помощью\nA) автомобильного двигателя.\nB) холодильника.\nC) сковороды.\nD) стеклянной бутылки.\nAnswer in English.",
+        "generated_answer": "The best way to demonstrate an exothermic reaction is with:\n\nC) a frying pan.\n\nExplanation: An exothermic reaction releases heat to the surroundings. When you cook food on a frying pan, for example, you often see food sizzling and the pan getting hot—this is a visible and relatable example of an exothermic reaction (such as the combustion of oil or butter). The other options (car engine, refrigerator, glass bottle) are either more complex or not directly demonstrating a simple exothermic reaction in a visible way.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Экзотермическую реакцию лучше всего продемонстрировать с помощью\" (Which is best to demonstrate an exothermic reaction with). Options: A) автомобильного двигателя (car engine). B) холодильника (refrigerator). C) сковороды (frying pan). D) стеклянной бутылки (glass bottle). The ground truth answer is \"A\". So correct answer is car engine. The generated answer says \"C) a frying pan.\" So it's not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1107,
+        "question": "Что удерживает Землю в орбите вокруг Солнца?\nA) инерция Луны\nB) местоположение орбиты Земли\nC) скорость вращения Земли\nD) гравитационное притяжение Солнца\nAnswer in English.",
+        "generated_answer": "D) gravitational attraction of the Sun",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"D\". Generated answer: \"D) gravitational attraction of the Sun\". That conveys same meaning: option D is gravitational attraction of the Sun. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 801,
+        "question": "Согласно классификации клеток, прокариотические клетки отличаются от эукариотических клеток. Какая особенность часто используется для отличия прокариотических клеток от эукариотических клеток?\nA) Жизненные процессы\nB) Размерные отличия\nC) Плазматические мембраны\nD) Энергетические молекулы\nAnswer in English.",
+        "generated_answer": "C) Plasmatic membranes\n\nHowever, the more precise and commonly cited distinguishing feature is the presence of a **nucleus** and other membrane-bound organelles in eukaryotic cells, which are generally absent in prokaryotic cells. But among the given options, \"plasmatic membranes\" (which likely refers to the presence of internal membranes or the structure of the plasma membrane and its associated features) is the closest, as prokaryotic cells lack membrane-bound organelles, whereas eukaryotic cells have them. But if we strictly follow the options:\n\n- A) Life processes — not specific enough\n- B) Size differences — not a defining feature\n- C) Plasmatic membranes — this could refer to the lack of internal membranes in prokaryotes\n- D) Energy molecules — both have similar energy molecules (e.g., ATP)\n\nThe best answer from the options is **C) Plasmatic membranes**, as the presence of internal membrane-bound structures (like the nucleus, mitochondria, etc.) is a key difference. However, the most fundamental and direct answer is the absence of a nucleus in prokaryotes, but that's not listed here. So, based on the options given, **C** is the best choice.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". Generated answer says \"C) Plasmatic membranes\" and explanation. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "Мунинглори - растения, в генах которых содержится большое количество вариаций цвета цветка. Когда появляется белый цветок в популяции, не связанной с признаком белого цвета цветка, каковы наиболее вероятные источники?\nA) генетическая мутация\nB) отборочное племенное разведение\nC) дупликация генома\nD) сексуальная рекомбинация\nAnswer in English.",
+        "generated_answer": "The most likely source is **A) genetic mutation**.\n\nHere's why:\n\n- The question describes a population of Muninglori plants with a lot of variation in flower color encoded in their genes.\n- Suddenly, a white flower appears in a population that is not associated with the trait for white flowers (i.e., the population did not previously have white flowers or the trait for white flowers was not present or expressed).\n- Genetic mutations are random changes in the DNA sequence that can create new alleles, including new colors not previously present in the population. This is a classic example of a new mutation causing a novel phenotype.\n- Duplication (C) could potentially create new genes or gene copies, but it's less likely to directly and immediately result in a completely new color unless the duplication specifically affects a color gene in a novel way.\n- Sexual recombination (D) shuffles existing alleles but cannot create new alleles or traits that are not already present in the gene pool.\n- Selective breeding (B) requires that the trait already exists in the population or is introduced from another population; it cannot create a brand new trait out of nowhere.\n\nTherefore, the sudden appearance of a white flower in a population where the trait was not previously present is most likely due to a **genetic mutation (A)**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says \"The most likely source is A) genetic mutation.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "Какая теория происхождения Луны предполагает, что Луна Земли сформировалась тем же процессом, что и Марс, Юпитер и Нептун?\nA) Теория гигантского столкновения\nB) Теория расщепления\nC) Теория захвата\nD) Теория коаккреции\nAnswer in English.",
+        "generated_answer": "The theory that proposes the Moon formed by the same process as Mars, Jupiter, and Neptune is the **A) Giant impact theory** (also known as the \"giant collision\" or \"Theia hypothesis\"). However, it's important to clarify:\n\n- The **giant impact theory** specifically suggests the Moon formed from debris after a Mars-sized body collided with early Earth. This is unique to Earth and the Moon.\n- The formation of the gas giants (Jupiter and Neptune) and Mars is generally explained by **core accretion** (option D), where planetesimals gradually accumulate into larger bodies under gravity.\n- None of the listed theories perfectly match the idea that the Moon formed by the same process as the gas giants and Mars, but among the options, **D) Coaccretion theory** (core accretion) is the process most associated with the formation of Mars, Jupiter, and Neptune.\n- The Moon's formation is not explained by coaccretion but by the giant impact.\n\nGiven the options and the question's phrasing, the closest answer is:\n\n**D) Theory of coaccretion**\n\nBut strictly speaking, the Moon did **not** form by the same process as Mars, Jupiter, and Neptune. However, if the question is asking which theory is associated with the formation of Mars, Jupiter, and Neptune, it's **D) Theory of coaccretion**. If the question is about the Moon's formation being similar to those planets, then none of the options are correct, but the giant impact theory (A) is the Moon's main theory.\n\nBut since the question specifically asks which theory proposes the Moon formed by the same process as Mars, Jupiter, and Neptune, and given the options, the best answer is:\n\n**D) Theory of coaccretion**\n\nBut this is not accurate scientifically. The correct scientific answer is that the Moon did **not** form by the same process as Mars, Jupiter, and Neptune. The Moon formed by the giant impact, while the planets formed by coaccretion. But if forced to choose from the options as per the question's wording, **D) Theory of coaccretion** is the process for the planets, not the Moon. \n\nHowever, if the question is phrased as \"which theory suggests the Moon formed in a similar way to the formation of Mars, Jupiter, and Neptune,\" then the answer would be **none of the above**, but if we must choose, **D) Theory of coaccretion** is the process for the planets, but not for the Moon.\n\nBut since the question says \"proposes that the Moon of the Earth formed by the same process that Mars, Jupiter, and Neptune did,\" and given the options, the answer is:\n\n**None of the above is scientifically correct, but if we must choose, D) Theory of coaccretion is the process for Mars, Jupiter, and Neptune, not the Moon. The Moon's formation is explained by A) Giant impact theory, which is not the same process.**\n\nBut since the user asks to answer in English and pick from the options, and the question seems to be a multiple choice, the most likely intended answer is:\n\n**D) Theory of coaccretion**\n\nBut this is not correct for the Moon. The correct answer for the Moon is A) Giant impact theory, but that's not the same process as for Mars, Jupiter, and Neptune.\n\nGiven the ambiguity, I will answer as per the most likely intent of the question:\n\n**D) Theory of coaccretion**\n\nBut with a note: This is not scientifically accurate for the Moon's formation. The Moon formed by the giant impact theory (A), while Mars, Jupiter, and Neptune formed primarily by coaccretion (D).",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer: \"D\". The generated answer is long, but ends with stating that the answer is D (Theory of coaccretion). It says \"the most likely intended answer is D\". So the generated answer selects D as answer. That matches ground truth. The question: \"Which theory ...?\" The ground truth: D. The generated answer says D is the answer (though with a lot of caveats). The core answer is D. So it's equivalent. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1068,
+        "question": "Нить ДНК содержит кодоны, которые состоят из последовательности из трех нуклеотидов. Что наилучшим образом описывает важность кодонов, найденных в последовательности ДНК?\nA) Они содержат код для молекул РНК.\nB) Они сигнализируют о начале митотического деления клеток.\nC) Они обеспечивают правильное копирование генетического кода.\nD) Они используются для сборки аминокислот при синтезе белков.\nAnswer in English.",
+        "generated_answer": "The best description of the importance of codons found in a DNA sequence is:\n\nD) They are used for the assembly of amino acids during protein synthesis.\n\nExplanation: Codons are sequences of three nucleotides in DNA (or mRNA) that code for specific amino acids during protein synthesis. The primary function of codons is to specify which amino acid should be added next in a growing polypeptide chain, thus playing a crucial role in the assembly of proteins from amino acids. \n\nLet's briefly address the other options:\n- A) They contain the code for RNA molecules. (While DNA does code for RNA, the specific role of codons is in specifying amino acids, not just RNA sequences.)\n- B) They signal the start of mitotic cell division. (Cell division signals are not codons, but specific sequences like origins of replication or mitotic checkpoints.)\n- C) They ensure the accurate copying of genetic code. (Accurate copying is the role of DNA polymerase and proofreading mechanisms, not codons themselves.)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"D\". Generated answer says the best description is D, and explains. So it matches. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 482,
+        "question": "Удаление угля из земной коры может изменить конструкцию коры, выделить метановый газ и заражать подземные воды тяжелыми металлами. Какой из подсистем Земли наиболее вероятно пострадает от всех этих последствий?\nA) атмосфера\nB) биосфера\nC) гидросфера\nD) литосфера\nAnswer in English.",
+        "generated_answer": "The most likely subsystem of the Earth to be affected by all these consequences—changes in the structure of the crust, release of methane gas, and contamination of groundwater with heavy metals—is the **hydrosphere (C)**.\n\nHere’s why:\n\n- **Release of methane gas** directly impacts the atmosphere (A), but methane is also dissolved in water and can contaminate water bodies.\n- **Contamination of groundwater with heavy metals** directly affects the **hydrosphere (C)**, which includes all water on, above, and below the Earth's surface.\n- **Changes in the structure of the crust** primarily affect the **lithosphere (D)**, but the contamination of groundwater is a direct impact on the hydrosphere.\n- The **biosphere (B)** could be affected indirectly through contaminated water and air, but the question asks which subsystem is most directly and comprehensively affected by all these consequences.\n\nHowever, since groundwater is part of the hydrosphere, and contamination of groundwater is a direct result of coal removal and heavy metal leaching, the **hydrosphere (C)** is the subsystem most directly and comprehensively affected by all these processes. The atmosphere is affected by methane, but the other impacts (crust structure and groundwater contamination) are more directly related to the hydrosphere and lithosphere. Since the question asks which is \"most likely to be affected by all these consequences,\" the hydrosphere is the best answer because groundwater contamination is a major and direct impact, and methane can dissolve in water, affecting water quality as well.\n\n**Final answer: C) hydrosphere**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer with ground truth. Ground truth answer is \"B\" (i.e., biosphere). Generated answer says \"hydrosphere (C)\". They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "Ирене нужно соединить две доски. Какое из перечисленного НЕ будет использовано для соединения досок?\nA) клей\nB) шурупы\nC) гвозди\nD) пила\nAnswer in English.",
+        "generated_answer": "D) saw",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ирене нужно соединить две доски. Какое из перечисленного НЕ будет использовано для соединения досок? A) клей B) шурупы C) гвозди D) пила\". The correct answer is D (saw) because you don't use a saw to join boards. Generated answer: \"D) saw\". Ground truth: \"D\". Both indicate option D. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 858,
+        "question": "Новые технологии позволили производителям автомобилей продвигать экономичные гибридные автомобили, однако утилизация гибридных автомобилей в конце их срока службы представляет проблему. Какой вопрос отражает проблему утилизации, уникальную для гибридных автомобилей?\nA) Что будет сделано для переработки батарей?\nB) Что будет сделано с хладагентом в кондиционере?\nC) Что будет сделано с жидкостями в бензобаке, радиаторе и батареях?\nD) Что будет сделано с пластиковыми материалами в автомобилях?\nAnswer in English.",
+        "generated_answer": "The question that reflects the problem unique to hybrid vehicles at the end of their life is:\n\nA) What will be done with the recycling of batteries?\n\nHybrid vehicles have large, high-voltage batteries that present unique environmental and safety challenges during disposal and recycling, which is not as significant an issue with conventional gasoline or diesel vehicles. While other components like fluids and plastics are also concerns, the battery is the most distinctive and problematic aspect specific to hybrids.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". Generated answer says: \"The question that reflects the problem unique to hybrid vehicles ... is A) What will be done with the recycling of batteries?\" So it selects A. That matches ground truth. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 563,
+        "question": "Какие стебли на дереве и цветке наиболее похожи?\nA) Оба мягкие.\nB) У обоих есть шипы.\nC) Оба поддерживают растение.\nD) У обоих деревянная кора.\nAnswer in English.",
+        "generated_answer": "The most similar aspect between a branch on a tree and a flower is that **both support the plant**. \n\nSo the correct answer is:\n\nC) Both support the plant.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"C\". Generated answer says: \"both support the plant\" and selects C. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 922,
+        "question": "До недавнего времени известно было лишь о небольшой части генетического материала человека, имеющей определенную функцию. Считалось, что остальная часть ДНК не имеет значения. Однако новые данные утверждают, что все ДНК необходима для определенных функций генов. Какое утверждение лучше всего описывает значение этих новых данных?\nA) Это упростит изучение ДНК.\nB) Это доказывает, что ДНК менее важна, чем раньше считалось.\nC) Это подтверждает, что научные результаты не должны оспариваться.\nD) Это демонстрирует, что научные знания подвержены изменению.\nAnswer in English.",
+        "generated_answer": "The best answer is:\n\nD) This demonstrates that scientific knowledge is subject to change.\n\nExplanation: The passage describes how previous beliefs about DNA (that only a small part had known function and the rest was considered insignificant) have been challenged by new data showing that all DNA may have some function. This is a classic example of how scientific understanding evolves as new evidence emerges. It does not simplify the study of DNA (A is incorrect), nor does it suggest DNA is less important (B is incorrect), nor does it support the idea that scientific results should not be questioned (C is incorrect). Instead, it shows that scientific knowledge changes as new information becomes available, which is what option D states.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". Generated answer says the best answer is D and explains why. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1008,
+        "question": "Какие альтернативные источники энергии используют гравитационную энергию для производства электроэнергии?\nA) энергия приливов и гидроэнергетика\nB) геотермальная энергия и гидроэнергетика\nC) ветровая энергия и энергия приливов\nD) геотермальная энергия и ветровая энергия\nAnswer in English.",
+        "generated_answer": "None of the listed options correctly identify an alternative energy source that uses gravitational energy for electricity production. Gravitational energy in the context of electricity generation primarily refers to technologies like pumped hydro storage, which uses the force of gravity to store and generate electricity by pumping water uphill and then releasing it to spin turbines. However, among the options given, **hydroelectric power (including tidal and wave energy, which are driven by gravitational forces of the moon and sun)** is the only one that utilizes gravitational energy.\n\nLet's analyze the options:\n\nA) Energy of tides and hydroelectricity — Both are influenced by gravitational forces (moon and sun for tides, water elevation for hydro).\nB) Geothermal energy and hydroelectricity — Geothermal energy does **not** use gravitational energy; it uses heat from the Earth's interior.\nC) Wind energy and energy of tides — Wind energy does **not** use gravitational energy; it uses atmospheric pressure differences.\nD) Geothermal energy and wind energy — Neither uses gravitational energy.\n\nTherefore, the best answer among the options is:\n\n**A) energy of tides and hydroelectricity**\n\nBut strictly speaking, only the gravitational component is present in tidal and hydroelectric energy, not in the other options listed.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth answer. Ground truth: \"A\". The question: Which alternative energy sources use gravitational energy? The correct answer is A. The generated answer says: \"None of the listed options correctly identify... However, among the options given, hydroelectric power (including tidal and wave energy, which are driven by gravitational forces ...) is the only one... Therefore, the best answer among the options is: **A) energy of tides and hydroelectricity**\". So the generated answer selects A. That matches ground truth. So meaning is same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 731,
+        "question": "Небольшая прачечная имеет несколько полок над стиральной машиной. Эти полки являются примером\nA) укрепления стены.\nB) эффективного использования места для хранения.\nC) использования машины для более чем одной цели.\nD) решения потребности в укрытии творческим способом.\nAnswer in English.",
+        "generated_answer": "B) effective use of space for storage.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"B\". Generated answer: \"B) effective use of space for storage.\" That matches option B and meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 168,
+        "question": "15 октября 1997 года, в Черной пустыне Невады на своем реактивном автомобиле \"Thrust\" Энди Грин преодолел измеренное расстояние со средней скоростью 339 метров в секунду. Энди стал первым человеком, который\nA) использовал эффект Доплера.\nB) управлял автомобилем, работающим на реактивном топливе.\nC) пересек Черную пустыню Невады.\nD) преодолел звуковой барьер на земле.\nAnswer in English.",
+        "generated_answer": "D) prodelil zvukovoy barer na zemle. (He broke the sound barrier on land.)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"D\". Generated answer: \"D) prodelil zvukovoy barer na zemle. (He broke the sound barrier on land.)\" That corresponds to D. So meaning same. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 664,
+        "question": "Какой возобновляемый ресурс генерируется конвекционными воздушными потоками?\nA) энергия ветра\nB) солнечная энергия\nC) энергия ископаемого топлива\nD) геотермальная энергия\nAnswer in English.",
+        "generated_answer": "A) wind energy",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Какой возобновляемый ресурс генерируется конвекционными воздушными потоками?\" Means \"Which renewable resource is generated by convective air flows?\" Options: A) wind energy, B) solar energy, C) fossil fuel energy, D) geothermal energy. Correct answer is A) wind energy. Ground truth answer: \"A\". Generated answer: \"A) wind energy\". That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "Фермер имеет три больших поля, на которых он планирует выращивать травы для сенокоса. Травы следует собирать только после двухлетнего роста. Что мог бы сделать фермер, чтобы обеспечить сенокос каждый год?\nA) Посадить каждое поле с интервалом в один год.\nB) Посадить травы как можно ближе друг к другу.\nC) Посадить все поля одновременно, но с разными видами трав.\nD) Посадить в каждом поле одновременно травы теплого и холодного времени года.\nAnswer in English.",
+        "generated_answer": "The farmer should stagger the planting of the fields so that each year, one field is ready for harvest while the others are in different growth stages. The best answer is:\n\nA) Plant each field one year apart.\n\nBy planting each field in a different year, the farmer ensures that every year, one of the fields will be two years old and ready for harvest. This way, the farmer can have a harvest every year. The other options do not address the two-year growth requirement or provide a way to ensure an annual harvest.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". Generated answer says: \"The farmer should stagger the planting... The best answer is: A) Plant each field one year apart.\" So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 996,
+        "question": "В Австралии, средняя температура днем может подниматься до более 110°F (43°C). Чтобы охладить свое тело, кенгуру облизывает свои лапы, покрывая их толстым слоем слюны. При испарении слюны происходит охлаждение, снижающее температуру тела кенгуру. Какое из следующих понятий наилучшим образом описывает эту деятельность?\nA) естественный отбор\nB) защитный механизм\nC) структурная адаптация\nD) поведенческая адаптация\nAnswer in English.",
+        "generated_answer": "The best answer is:\n\nD) behavioral adaptation\n\nExplanation: Kengaroos licking their forearms to cool down is a specific behavior they use to adapt to their hot environment. This is a behavioral adaptation because it involves an action or behavior, not a physical structure or a process of natural selection. Structural adaptation would refer to a physical feature, like fur or body shape. A defense mechanism is more about protection from predators or threats, and natural selection is the process that leads to adaptations over generations, not the adaptation itself.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"D\". Generated answer says \"D) behavioral adaptation\" and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

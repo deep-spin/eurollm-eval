@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": "The correct answer is B) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]. This translates to \"There exists an x such that x is a person and x is cruel, and there exists a y such that y is an animal and x neglects y.\" This accurately captures the meaning of the original sentence.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": "The correct answer is D) ~Bej. This is because the predicate language is a logical language where the predicate \"Bxy\" means \"x is greater than y\". In this case, the statement \"Zem nie je väčšia ako Jupiter\" can be translated to \"Zem is not greater than Jupiter\", which in predicate language would be \"~Bej\". However, since the question asks for the best translation, and considering that the predicate language typically uses a tilde (~) to negate a predicate, the correct answer is D) ~Bej.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": "The correct answer is C) Inductance. In an electrical circuit, inductance is the property of a component that opposes changes in current flow, similar to how a mechanical tlumič (dämpfer) opposes changes in motion.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": "B) Plánovanie programu\n\nIn the planning process, the decision on goals is made during the planning phase. This is where the program's objectives, scope, and key performance indicators (KPIs) are defined and agreed upon. The planning phase is crucial as it sets the foundation for the entire program, ensuring that all subsequent activities are aligned with the program's goals and objectives.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": "D) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\n\nThis answer is based on the fact that the question of whether a fetus is a person and therefore has the same moral status as a born person is a complex and debated issue in ethics and philosophy. Different people and cultures have different views on this matter, and there is no consensus on a clear answer. Therefore, the correct answer is D) neexistuje jasná odpoveď na otázku morálneho statusu potratu.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": "The answer is C) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy. \n\nThe distance from the Sun to Earth is known as an astronomical unit (AU). If Earth were moved to a distance of 3 AU, the time it takes to complete one orbit (a year) would depend on the shape of the new orbit. If the new orbit is circular, the year would be approximately 5.2 times longer than the current year. However, if the new orbit is elliptical, the year could be shorter or longer depending on the shape of the ellipse. Therefore, without knowing the exact shape of the new orbit, it is not possible to determine the exact length of the new year.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": "B) Intenzívna distribúcia.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "The most likely diagnosis is C) hypotonická dysfunkcia maternice. This is because the woman is experiencing irregular and weak contractions, which are not strong enough to progress the labor. The fact that she has already received pain medication twice and the cervix is dilating but the contractions are not strong enough to push the baby out suggests that the uterus is not contracting effectively. This is a common issue in labor, especially in women who have had multiple pregnancies and births. Hypotonic uterine dysfunction is a condition where the uterus is not contracting strongly enough to push the baby out, and it can be treated with medication or other interventions to help stimulate contractions.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": "The correct answer is D) Discrimination. \n\nDiscrimination refers to the behavior of treating people unequally based on their membership in a particular group, such as race, gender, or religion. It is a form of prejudice and can manifest in various ways, including exclusion, denial of opportunities, and unfair treatment. \n\nA) Prejudice is a preconceived opinion or attitude, often negative, towards a particular group or individual. It can lead to discrimination but is not the same as discrimination itself.\n\nB) Conditioning refers to the process of learning through association, where a response is elicited by a specific stimulus. It is not directly related to negative attitudes or discrimination.\n\nC) Catharsis is the process of releasing pent-up emotions or feelings, often through art, music, or other creative outlets. It is not related to negative attitudes or discrimination.\n\nSo, the correct answer is D) Discrimination.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": "A) Postupnosť deja\n\nUčiteľ pomocou obrázkových kariet ukazuje scény z začiatku, stredu a konca príbehu, čo pomáha študentom pochopiť postupnosť udalostí v príbehu, čo je základom literárnej štruktúry známej ako postupnosť deja.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

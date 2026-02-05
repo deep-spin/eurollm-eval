@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Дженет заняла 2000 $ и пообещала вернуть их с дополнительными 10 % от суммы. Если Дженет будет выплачивать 165 $ в месяц в течение 12 месяцев, сколько составит остаток средств Дженет к тому моменту?\nAnswer in English.",
+        "generated_answer": "To calculate the remaining amount Janet will owe after 12 months of payments, we first need to determine the total amount she borrowed and the total amount she will pay back.\n\n1. **Total borrowed amount**: $2000\n\n2. **Additional 10% of the borrowed amount**: 10% of $2000 = 0.10 * $2000 = $200\n\n3. **Total amount Janet promised to pay back**: $2000 (borrowed amount) + $200 (additional 10%) = $2200\n\nNow, let's calculate how much Janet will pay back in 12 months if she pays $165 per month.\n\n4. **Total amount paid in 12 months**: $165 * 12 = $1980\n\nSince Janet promised to pay back $2200, and she will have paid $1980 after 12 months, we need to find out how much more she owes.\n\n5. **Remaining amount**: $2200 (total promised to pay back) - $1980 (total paid after 12 months) = $220\n\nSo, after 12 months of paying $165 per month, Janet will still owe $220.\n\n**Answer**: Janet will still owe $220 after 12 months of payments.",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"220\". The generated answer says \"Janet will still owe $220 after 12 months\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Машины выстроились на автостраде. Несколько машин проехали в первые 15 минут дорожной пробки, затем еще 20 машин проехали в оставшиеся 15 минут пробки. 5 машин из очереди съехали с дороги, поэтому им не нужно ехать через дорожную пробку. Если с самого начала на автостраде было 30 машин, сколько машин проехало через дорожную пробку в первые 15 минут?\nAnswer in English.",
+        "generated_answer": "To find out how many cars passed through the traffic jam in the first 15 minutes, we need to subtract the number of cars that passed through in the second 15 minutes and the number of cars that left the queue from the total number of cars at the beginning.\n\nTotal number of cars at the beginning = 30\n\nCars that passed through in the first 15 minutes = 20\n\nCars that passed through in the second 15 minutes = 20\n\nCars that left the queue = 5\n\nSo, the number of cars that passed through the traffic jam in the first 15 minutes is:\n\n30 (total cars) - 5 (cars that left the queue) = 25\n\n25 - 20 (cars that passed through in the second 15 minutes) = 5\n\nTherefore, 5 cars passed through the traffic jam in the first 15 minutes. \n\nHowever, this seems to be a misunderstanding of the problem statement. The problem states that 20 cars passed through in the first 15 minutes and 20 cars passed through in the remaining 15 minutes. Therefore, the correct answer should be 20 cars passed through in the first 15 minutes. \n\nSo, the correct answer is 20. \n\n20 cars passed through the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"5\". The generated answer says final answer is 20 cars passed through in the first 15 minutes. It also mentions confusion but concludes correct answer is 20. So it does not match ground truth. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Виолетта хочет купить новые цветные карандаши. Ей нужны 5 разного цвета, и она приготовила для этой покупки 20 $. Один карандаш стоит 2 $. Сколько сдачи она получит?\nAnswer in English.",
+        "generated_answer": "To calculate the change Violetta will receive, we first need to determine how many color pencils she can buy with $20.\n\nEach pencil costs $2. \nSo, the number of pencils she can buy is $20 / $2 = 10 pencils.\n\nHowever, she only wants 5 different colors. \nSince each pencil is a different color, she can buy 5 pencils of different colors.\n\nThe cost for 5 pencils is 5 * $2 = $10.\n\nNow, we calculate the change she will receive:\nChange = Total money available - Total cost of pencils\nChange = $20 - $10 = $10\n\nSo, Violetta will receive $10 in change.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". The question: \"Виолетта хочет купить новые цветные карандаши. Ей нужны 5 разного цвета, и она приготовила для этой покупки 20 $. Один карандаш стоит 2 $. Сколько сдачи она получит?\" The answer is 10 (dollars). The generated answer says she will receive $10 in change. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Чед заказал на обед собери-свой-буррито. Базовый буррито стоит 6,50 $. Он добавляет дополнительное мясо за 2,00 $, дополнительный сыр за 1,00 $, авокадо за 1,00 $ и 2 соуса за 0,25 $ каждый. Он решает улучшить еду за дополнительные 3,00 $, что добавит чипсы и напиток. У него есть подарочная карта на 5,00 $, которую он использует при оплате. Сколько он еще должен?\nAnswer in English.",
+        "generated_answer": "To calculate how much Chad still owes, we need to add up all the costs and then subtract the value of the gift card.\n\n1. Base burrito: $6.50\n2. Additional meat: $2.00\n3. Additional cheese: $1.00\n4. Avocado: $1.00\n5. 2 sauces: $0.25 x 2 = $0.50\n6. Upgrade for chips and drink: $3.00\n\nTotal cost before gift card: $6.50 + $2.00 + $1.00 + $1.00 + $0.50 + $3.00 = $14.00\n\nChad has a gift card worth $5.00. \n\nSo, the amount he still owes is: $14.00 - $5.00 = $9.00\n\nChad still owes $9.00.",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"9\". The generated answer says \"$9.00\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Фрэнки смотрит телевизор каждый вечер после того, как сделает домашнее задание. Вечером в понедельник и вторник он посмотрел 1-часовую серию своего любимого шоу. В среду он посмотрел несколько серий 30-минутного шоу. В четверг он рано закончил домашнее задание и посмотрел 1-часовую серию и 30-минутное шоу. В пятницу он мог поздно лечь спать перед выходными, поэтому посмотрел две 1-часовых серии. Если он смотрел телевизор всего 7 часов, сколько 30-минутных серий он посмотрел в среду?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to calculate the total time spent watching TV and then determine how much of that time was spent watching 30-minute shows.\n\nLet's break it down:\n\n1. **Monday and Tuesday**: 1-hour show each evening = 2 hours total.\n2. **Wednesday**: 30-minute show (let's denote the number of 30-minute shows as x). So, time spent = 30x minutes.\n3. **Thursday**: 1-hour show + 30-minute show = 1.5 hours total.\n4. **Friday**: 2 one-hour shows = 2 hours total.\n\nNow, let's add up all the time spent watching TV:\n\n2 hours (Monday and Tuesday) + 30x minutes (Wednesday) + 1.5 hours (Thursday) + 2 hours (Friday) = 7 hours\n\nWe need to convert everything to minutes for easier calculation:\n\n2 hours = 120 minutes\n1.5 hours = 90 minutes\n2 hours = 120 minutes\n\nSo, the equation becomes:\n\n120 + 30x + 90 + 120 = 7 * 60\n\nSimplify the equation:\n\n330 + 30x = 420\n\nSubtract 330 from both sides:\n\n30x = 90\n\nDivide by 30 to solve for x:\n\nx = 3\n\nSo, Frankie watched 3 30-minute shows on Wednesday.\n\nThe answer is 3.",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"3\". Generated answer explains and concludes \"So, Frankie watched 3 30-minute shows on Wednesday. The answer is 3.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "У новой программы было 60 загрузок за первый месяц. Количество загрузок за второй месяц было в три раза больше, чем загрузок за первый месяц, но затем снизилось на 30 % в третьем месяце. Сколько всего загрузок было у программы за три месяца?\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads for the three months, we need to calculate the downloads for each month and then add them up.\n\n1. First month: 60 downloads\n2. Second month: 3 times the downloads of the first month = 3 * 60 = 180 downloads\n3. Third month: 30% decrease from the second month's downloads = 180 - (30% of 180) = 180 - (0.3 * 180) = 180 - 54 = 126 downloads\n\nNow, we add up the downloads for all three months:\n60 (first month) + 180 (second month) + 126 (third month) = 366 downloads\n\nSo, the total number of downloads for the program over the three months is 366.",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"366\". Generated answer explains calculation and arrives at 366. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "В турнире по баскетболу соревнуются четыре школы. Каждая школа отправила баскетбольную команду девочек и баскетбольную команду мальчиков, и в каждой команде по 5 игроков. Каждая школа также отравила тренера для каждой команды. В общей сложности сколько человек отправили все школы?\nAnswer in English.",
+        "generated_answer": "To calculate the total number of people sent by all schools, we need to consider both the players and the coaches.\n\nEach school has:\n- 1 team of 5 girls\n- 1 team of 5 boys\n- 1 coach for the girls' team\n- 1 coach for the boys' team\n\nSo, each school sends:\n- 5 girls + 5 boys = 10 players\n- 1 coach for the girls' team + 1 coach for the boys' team = 2 coaches\n\nTherefore, each school sends a total of 10 players + 2 coaches = 12 people.\n\nSince there are 4 schools, the total number of people sent by all schools is:\n4 schools * 12 people/school = 48 people\n\nSo, in total, all schools sent 48 people.",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"48\". Generated answer explains and arrives at 48. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Изабель купила праздничные принадлежности для праздника в честь дня рождения ее младшей сестры. Она потратила 12 $ на ингредиенты для торта, 43 $ на подарки ко дню рождения, 15 $ на украшения, 4 $ на приглашения и 22 $ на мешочки со сладостями для гостей праздника. Она разделила стоимость поровну на три части со своими двумя родителями. Сколько заплатил каждый человек?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total amount Isabel spent. \n\nTotal amount spent = 12 (ingredients for cake) + 43 (gifts) + 15 (decorations) + 4 (invitations) + 22 (sweet bags) \nTotal amount spent = 106 $\n\nSince Isabel divided the cost equally among three people (herself and her two parents), we divide the total amount by 3:\n\n106 $ / 3 = 35.33 $ \n\nSo each person (Isabel and her two parents) paid 35.33 $.\n\nHowever, since it's not possible to pay a fraction of a dollar in most real-life situations, we would typically round this amount to the nearest whole dollar. \n\nRounded to the nearest whole dollar, each person would pay 35 $.\n\nSo, each person (Isabel and her two parents) paid 35 $ each.",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: total expenses: 12+43+15+4+22 = 106. Divided by 3 = 35.333... So each pays about $35.33. Ground truth answer is \"32\". That seems incorrect. The generated answer says 35.33 (or 35). Ground truth says 32. They are not same. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 130,
+        "question": "Нисса нанимает 60 сезонных рабочих на роль эльфов в деревне Санты в ее универсаме. Треть эльфов увольняются после того, как детей рвет на них, затем 10 эльфов из оставшихся увольняются после того, как дети пинают их по ногам. Сколько эльфов остается?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to follow these steps:\n\n1. Determine the initial number of elves.\n2. Calculate the number of elves that leave after the first incident.\n3. Calculate the number of elves that leave after the second incident.\n4. Subtract the total number of elves that left from the initial number to find the number of elves that remain.\n\nStep 1: Initial number of elves\nNissa hires 60 seasonal workers to be elves.\n\nStep 2: Elves that leave after the first incident\nOne-third of the elves leave after the first incident. \nTo find one-third of 60, we calculate 60 / 3 = 20 elves.\n\nStep 3: Elves that leave after the second incident\nAfter the first incident, 60 - 20 = 40 elves remain.\n10 of these remaining elves leave after the second incident.\nSo, 10 elves leave after the second incident.\n\nStep 4: Calculate the number of elves that remain\nTo find the number of elves that remain, we subtract the total number of elves that left from the initial number of elves.\nTotal elves that left = 20 (from the first incident) + 10 (from the second incident) = 30 elves.\nSo, the number of elves that remain = 60 (initial number) - 30 (total elves that left) = 30 elves.\n\nTherefore, 30 elves remain. \n\nThe answer is 30.",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"30\". Generated answer explains and concludes 30 elves remain. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Дженни помогает у мамы в офисе. У нее есть пачка из 60 писем, на которые нужно приклеить марки, и пачка писем с уже наклеенными марками. Она приклеила марки на одну треть писем без марок. Если теперь в пачке с уже наклеенными марками 30 писем, то сколько было в этой пачке, когда Дженни приступила к работе?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many letters Jenny started with in the unmarked stack.\n\n1. Let's denote the number of unmarked letters Jenny started with as \"x\".\n2. She then glued stamps to one third of these letters. So, she glued stamps to (1/3)*x letters.\n3. The problem states that the stack with already glued stamps now contains 30 letters. \n\nSince the stack with already glued stamps contains 30 letters, and these letters are the result of gluing stamps to one third of the original unmarked stack, we can set up the following equation:\n\n(1/3)*x = 30\n\nTo solve for x, we multiply both sides of the equation by 3:\n\nx = 30 * 3\nx = 90\n\nSo, Jenny started with 90 unmarked letters. \n\nTherefore, the answer is 90.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to compare generated answer (90) with ground truth (10). They are not the same meaning. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

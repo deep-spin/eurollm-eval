@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": "The best translation into predicate logic is:\n\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\n\nThis translation accurately captures the meaning of the original sentence: \"Some animals are neglected by cruel people.\"\n\nHere's a breakdown of the translation:\n\n- (∃x) is a universal existential quantifier, indicating that there exists at least one animal.\n- (Cx • Px) is a conjunction of predicates, stating that the animal is cruel and a person.\n- (∃y)(Ay • Nxy) is another existential quantifier, indicating that there exists at least one animal that is neglected by a person.\n\nThe other options are incorrect because they either omit the crucial information about the animal being neglected or use incorrect quantifiers.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is simply \"B\". The generated answer says the best translation is B) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]. That matches. So answer is True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": "The best translation of the sentence \"Zem nie je väčšia ako Jupiter\" into predicate logic is:\n\nC) Bje~\n\nThis translation corresponds to the English sentence \"Earth is not greater than Jupiter.\" The predicate logic translation uses the following symbols:\n\n- e: Earth\n- j: Jupiter\n- Bxy: x is greater than y\n\nThe correct translation is C) Bje~, which represents the negation of the predicate Bxy, indicating that Earth is not greater than Jupiter.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says \"C) Bje~\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": "The correct answer is B) conductivity.\n\nIn the analogy between force and current, the force is analogous to the voltage, the displacement is analogous to the charge, and the velocity is analogous to the current. In this analogy, the tighter the spring (the higher the force), the more the mass (the charge) will accelerate (the current will increase). This is similar to how a conductor with higher conductivity will allow more current to flow.\n\nTherefore, the electrical analog of a tighter spring (higher force) is higher conductivity, not resistance (A), which would be the opposite.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". The generated answer says \"The correct answer is B) conductivity.\" That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": "The correct answer is B) Planning the program. In this phase, the goals of the program are defined and decided upon.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says \"The correct answer is B) Planning the program. In this phase, the goals of the program are defined and decided upon.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": "The correct answer is C) abortion is prima facie morally wrong, but may be permitted in some extreme cases.\n\nThis answer is based on the fact that Little argues that we should accept the prerogative of mothers to terminate a pregnancy while the fetus is not a person. This suggests that he believes that abortion is morally wrong, but that there may be exceptional circumstances in which it is justified.\n\nThe other options are incorrect because:\n\nA) This option suggests that Little believes that we should accept the prerogative of mothers to terminate a pregnancy because it would be a radical change to our practical identity. However, this is not the reason that Little gives for accepting the prerogative.\n\nB) This option suggests that Little believes that abortion is absolutely morally wrong. However, Little does not explicitly state this, and instead argues that abortion is prima facie morally wrong, but may be permitted in some extreme cases.\n\nD) This option suggests that Little believes that there is no clear answer to the question of the moral status of abortion. However, Little does provide a clear argument for why he believes that abortion is prima facie morally wrong, and why it may be permitted in some extreme cases.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože ...\" Options A-D. Ground truth answer is \"A\". The generated answer says \"The correct answer is C) abortion is prima facie morally wrong, but may be permitted in some extreme cases.\" So generated answer says C, not A. Therefore they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": "The correct answer is B) about 5.2 times longer.\n\nIf the Earth were suddenly moved to an orbit three times farther from the Sun, the length of a year would increase. This is because the Earth's orbit would be longer, and it would take more time for the Earth to complete one orbit around the Sun.\n\nTo calculate the new length of a year, we can use the formula:\n\nNew year length = Old year length / (1 / 3)\n\nAssuming the old year length is approximately 365.25 days (the actual length of a year on Earth), the new year length would be:\n\nNew year length = 365.25 days / (1 / 3) = 5.2 times longer\n\nTherefore, the correct answer is B) about 5.2 times longer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". The generated answer says \"The correct answer is B) about 5.2 times longer.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": "The correct answer is B) Intensive distribution.\n\nIntensive distribution means placing a product or service in as many outlets or locations as possible to increase the chances of customers finding it. This strategy is often used for products that are in high demand or have a short shelf life, such as food or beverages.\n\nThe other options are not correct:\n\nA) Exclusive distribution means that a product or service is only available through a limited number of outlets or locations, often to create a sense of exclusivity or to control the distribution process.\n\nC) Selective distribution means that a product or service is only available through a limited number of outlets or locations that have been carefully selected by the manufacturer or supplier.\n\nD) Direct distribution means that a product or service is sold directly to the customer, without the involvement of intermediaries such as retailers or wholesalers.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"B\". Generated answer says \"The correct answer is B) Intensive distribution.\" That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "The most likely diagnosis is **D) Primary dysfunctional labor**.\n\nHere's why:\n\n* **Progression:** The patient is in active labor with regular contractions, but they are now weak and infrequent. This suggests a slow progression, which is a hallmark of primary dysfunctional labor.\n* **Lack of Progress:** Despite previous medication and a dilated cervix, there is no progress in the labor process.\n* **Other Options:**\n    * **Braxton-Hicks contractions:** These are irregular, painless contractions that do not progress to labor.\n    * **Lower uterine segment dysfunction:** This refers to a specific type of dysfunctional labor, but the description doesn't fit the patient's current situation.\n    * **Hypotonic uterine dysfunction:** This is a more general term for inadequate uterine contractions, but it doesn't explain the patient's current weak contractions.\n\n**Primary dysfunctional labor** is characterized by inadequate uterine contractions that fail to progress despite adequate cervical ripening.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". The question asks: \"Najpravdepodobnejšou diagnózou je A) Braxton-Hicksove kontrakcie B) dolný sťahovací okruh maternice C) hypotonická dysfunkcia maternice D) primárna dysfunkčná práca\". Ground truth says C) hypotonická dysfunkcia maternice. Generated answer says D) Primary dysfunctional labor. That's not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": "The correct answer is A) Prejudice.\n\nPrejudice refers to a preconceived opinion or attitude that is not based on reason or actual experience. It is a negative attitude or feeling towards a particular group of people, often based on stereotypes or misconceptions.\n\nThe other options do not accurately describe the behavioral component of negative attitudes towards certain groups:\n\n* B) Conditioning refers to the process of learning through association, where a behavior is learned in response to a stimulus.\n* C) Catharsis refers to the release of emotions, often through art or other forms of expression.\n* D) Discrimination refers to the unfair or unequal treatment of people based on their membership in a particular group. While discrimination is often a result of prejudice, it is not the same thing as prejudice itself.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which of these expressions describes the behavioral component of negative attitudes towards certain groups?\" Options: A) Predpojatosť (prejudice), B) Podmienkovanie (conditioning), C) Katarzia (catharsis), D) Diskriminácia (discrimination). The correct answer is D (discrimination) according to ground truth. Generated answer says correct answer is A) Prejudice. So they differ. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": "The correct answer is A) Sequence of events.\n\nThe teacher is helping students understand the concept of sequence of events by showing them picture cards that depict scenes from the beginning, middle, and end of the story. This helps students to visualize the order of events in the story and understand how the plot unfolds.\n\nThe other options are not correct because:\n\n* B) Point of view refers to the perspective from which a story is told, but it is not directly related to the sequence of events.\n* C) Character development refers to the way a character changes or grows throughout a story, but it is not directly related to the sequence of events.\n* D) Setting refers to the time and place in which a story takes place, but it is not directly related to the sequence of events.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". The generated answer says \"The correct answer is A) Sequence of events.\" So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

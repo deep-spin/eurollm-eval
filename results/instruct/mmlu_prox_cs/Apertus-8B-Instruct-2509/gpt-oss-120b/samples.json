@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Ti, kteří pravděpodobněji zažijí depresi po ztrátě, jsou ti, kteří\nA) Mají silnou síť sociální podpory\nB) Nemají předchozí anamnézu duševních problémů\nC) Dříve nezažili depresi\nD) Mají vysoký příjem\nE) Jsou v manželství méně než rok\nF) Jsou mladí pozůstalí\nG) Těší se dobrému zdraví\nH) None\nI) None\nJ) None\nAnswer in English.",
+        "generated_answer": "The correct answer is B) Nemají předchozí anamnézu duševních problémů. This is because individuals without a prior history of mental health issues are less likely to experience depression after a loss. However, it's important to note that depression can affect anyone, regardless of their background or circumstances.",
+        "ground_truth": "F",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"F\". The generated answer says \"The correct answer is B) Nemají předchozí anamnézu duševních problémů.\" That's B, not F. So they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Předpokládejme, že odbory jsou dostatečně silné na to, aby vyjednaly 5% nárůst nominálních mezd. O kolik očekáváte, že vzrostou ceny? V USA roste produktivita v průměru o 2 % ročně. O kolik si pracovníci polepší?\nA) 2 %\nB) 0 %, pokud je zvýšení mezd zcela kompenzováno stejným nárůstem produktivity.\nC) 7 %, za předpokladu významného rozdílu mezi zvýšením mezd a růstem produktivity, který vede k vyšší inflaci.\nD) 5 %\nE) 4 %, s ohledem na další ekonomické faktory, které mohou přispět ke zvýšení cen.\nF) 2,5 %, při zohlednění scénáře, kdy zvýšení mezd mírně převyšuje kombinovaný efekt růstu produktivity a dalších inflačních faktorů.\nG) 3 %\nH) 6 %, za předpokladu, že ceny rostou více než mzdy kvůli dalším inflačním tlakům.\nI) 1 %\nJ) Pracovníci si vůbec nepolepší; ceny vzrostou o 5 %, čímž negují zvýšení mezd.\nAnswer in English.",
+        "generated_answer": "B) 0 %, pokud je zvýšení mezd zcela kompenzováno stejným nárůstem produktivity.",
+        "ground_truth": "G",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The ground truth answer is \"G\". That corresponds to option G) 3 %. The generated answer is \"B) 0 %, pokud je zvýšení mezd zcela kompenzováno stejným nárůstem produktivity.\" That's option B, not G. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "Společnost Colonial Cookie Company platí na základě úkolové mzdy v sazbě 80 centů za kus. Paní Batter dokončila následující počet akceptovatelných kusů v minulém týdnu: v pondělí 45, v úterý 41, ve středu 49, ve čtvrtek 47 a v pátek 43. Jaký byl její celkový výdělek za týden?\nA) $160\nB) $195\nC) $220\nD) $185\nE) $175\nF) $200\nG) $225\nH) $210\nI) $165\nJ) $180\nAnswer in English.",
+        "generated_answer": "To calculate the total earnings, we need to multiply the number of acceptable cookies completed each day by the hourly rate and then sum up the total.\n\nMonday: 45 cookies * $0.80 = $36\nTuesday: 41 cookies * $0.80 = $32.80\nWednesday: 49 cookies * $0.80 = $39.20\nThursday: 47 cookies * $0.80 = $37.60\nFriday: 43 cookies * $0.80 = $34.40\n\nTotal earnings: $36 + $32.80 + $39.20 + $37.60 + $34.40 = $195\n\nThe correct answer is B) $195.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"J\". The question asks: which option? The options list: A) $160, B) $195, C) $220, D) $185, E) $175, F) $200, G) $225, H) $210, I) $165, J) $180. The correct calculation: sum of pieces: 45+41+49+47+43 = let's sum: 45+41=86, +49=135, +47=182, +43=225 pieces. At $0.80 each: 225 * 0.8 = 180. So correct answer is $180, which corresponds to option J. The generated answer computed $195 and said answer B. That's wrong. Ground truth is J ($180). So they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Pufr je vytvořen ze stejných koncentrací slabé kyseliny a její konjugované báze. Jaký účinek na pH má zdvojnásobení objemu pufračního roztoku přidáním vody?\nA) Způsobí to nepředvídatelné kolísání pH.\nB) Způsobí to vyrovnání pH s pH vody.\nC) Způsobí to, že se pH stane extrémně zásaditým.\nD) Zcela to neutralizuje pH.\nE) Výrazně to sníží pH.\nF) Má to malý vliv.\nG) Výrazně to zvýší pH.\nH) Zdvojnásobí to hodnotu pH.\nI) Změní to pH asymptoticky k pKa kyseliny.\nJ) Způsobí to, že se pH stane extrémně kyselým.\nAnswer in English.",
+        "generated_answer": "The correct answer is I) Změní to pH asymptoticky k pKa kyseliny.\n\nWhen the volume of the buffer solution is doubled by adding water, the pH will change asymptotically to the pKa of the weak acid. This is because the ratio of the concentrations of the weak acid and its conjugate base will change, but the pH will approach the pKa value as the concentrations approach their equilibrium values. The pKa is a measure of the acidity of the weak acid, and it determines the pH of the buffer solution at its equilibrium. Therefore, the pH of the buffer solution will change asymptotically to the pKa value when the volume is doubled.",
+        "ground_truth": "F",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"F\". That corresponds to option \"Má to malý vliv.\" (It has a small effect). The generated answer says \"I) Změní to pH asymptoticky k pKa kyseliny.\" which is a different answer. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Jaký je nejmenší počet směrodatných odchylek od průměru, který musíme použít, pokud chceme zajistit, aby bylo zahrnuto alespoň 50 % dat distribuce?\nA) 3.1\nB) 2.1\nC) 1.9\nD) 2.0\nE) 0.5\nF) 2.5\nG) 0.67\nH) 3.5\nI) 1.0\nJ) 1.4\nAnswer in English.",
+        "generated_answer": "To determine the minimum number of standard deviations from the mean that must be used to ensure that at least 50% of the data in a distribution is included, we can use the 68-95-99.7 rule, also known as the empirical rule. This rule states that in a normal distribution, about 68% of the data falls within 1 standard deviation of the mean, about 95% falls within 2 standard deviations, and about 99.7% falls within 3 standard deviations.\n\nGiven that we want to ensure that at least 50% of the data is included, we can use the 68-95-99.7 rule to determine the minimum number of standard deviations. Since 50% is less than 68%, we need to use more than 1 standard deviation. However, since we want to ensure that at least 50% is included, we need to use at least 2 standard deviations, as this will ensure that at least 95% of the data is included, which is more than 50%.\n\nTherefore, the correct answer is B) 2.1.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"J\". That corresponds to option J) 1.4. The generated answer says \"Therefore, the correct answer is B) 2.1.\" That's not matching. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "$\\lim_{x \\to c}((x^2 - 5x - 6) / (x - c))$ existuje. Jaká je hodnota c?\nA) [0, 5]\nB) [2, 8]\nC) [1, 7]\nD) [3, 9]\nE) [1, 5]\nF) [-3, 3]\nG) [-4, 2]\nH) [0, 6]\nI) [-2, 4]\nJ) [-1, 6]\nAnswer in English.",
+        "generated_answer": "To determine the value of c for which the limit exists, we need to check if the function is defined at c and if it is continuous at c.\n\nThe function is defined at c if c is not equal to 6. If c = 6, then the denominator becomes zero, and the function is undefined.\n\nTo check if the function is continuous at c, we need to check if the limit of the function as x approaches c is equal to the value of the function at c.\n\nLet's evaluate the limit:\n\n$\\lim_{x \\to c}((x^2 - 5x - 6) / (x - c))$\n\nIf c is not equal to 6, then the limit exists and is equal to the value of the function at c.\n\nIf c = 6, then the limit does not exist.\n\nSo, the value of c for which the limit exists is any value that is not equal to 6.\n\nTherefore, the correct answer is:\n\nE) [1, 5]",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"J\". That likely corresponds to option J) [-1, 6]. The generated answer says \"Therefore, the correct answer is: E) [1,5]\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "Může v jednoduchém modelu koloběhu ekonomiky dojít k ekonomickému růstu?\nA) Ekonomický růst v jednoduchém modelu koloběhu ekonomiky závisí na vnějších faktorech\nB) Ekonomický růst může nastat, pokud se zvýší populace v rámci modelu\nC) Ano, pokud je model upraven tak, aby zahrnoval mezinárodní obchod\nD) Ekonomický růst je určen spotřebitelskou důvěrou v rámci modelu\nE) Model umožňuje ekonomický růst pouze prostřednictvím zvýšených investic\nF) Ano, v jednoduchém modelu koloběhu ekonomiky může docházet k ekonomickému růstu\nG) Jednoduchý model koloběhu ekonomiky automaticky vede k ekonomickému růstu\nH) Ekonomický růst je možný pouze tehdy, pokud model zahrnuje technologický pokrok\nI) Ekonomický růst může nastat se zvýšenými vládními výdaji v rámci modelu\nJ) Ne, v jednoduchém modelu koloběhu ekonomiky nemůže dojít k žádnému ekonomickému růstu\nAnswer in English.",
+        "generated_answer": "F) Ano, v jednoduchém modelu koloběhu ekonomiky může docházet k ekonomickému růstu\n\nThe answer is F. In a simple model of the economic cycle, economic growth can occur if the model is adjusted to include factors such as increased investment, technological progress, or international trade. However, the question asks if economic growth can occur in a simple model, and the correct answer is F, as it acknowledges that economic growth can occur in such a model under certain conditions.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"Může v jednoduchém modelu koloběhu ekonomiky dojít k ekonomickému růstu?\" The ground truth answer is J, which says \"Ne, v jednoduchém modelu koloběhu ekonomiky nemůže dojít k žádnému ekonomickému růstu\" (No, cannot). The generated answer selects F, which says \"Ano, ... může docházet k ekonomickému růstu\". That's opposite. So they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "Od samého začátku jsem psal, abych si vysvětlil svůj vlastní život, a zval jsem čtenáře, kteří se rozhodli vydat se se mnou na cestu, aby se ke mně připojili na vysokém laně. Pracoval bych bez záchranné sítě a bez hluku davu, který by mě rušil. Pohled z výšky je závratný, poučný. Nezaznamenávám svět přesně tak, jak ke mně přichází, ale přetvářím ho tím, že jej nechám projít skrze hranol úžasných příběhů, které jsem po cestě nasbíral. Sbírám příběhy, jako lepidopterolog hromadí své chloroformované exempláře vzácných můr nebo kostarických brouků. Příběhy jsou jako nádoby, které používám k interpretaci světa pro sebe sama. ----------Pat Conroy Co z následujícího nejlépe popisuje organizaci tohoto úryvku?\nA) Autor vysvětluje důležitost vyprávění příběhů pro pochopení světa.\nB) Autor popisuje sérii událostí bez poskytnutí jakékoli interpretace.\nC) Autor porovnává své pracovní metody s ostatními ve svém oboru.\nD) Autor popisuje sled událostí vedoucích k jeho současné práci.\nE) Autor používá analogie k vysvětlení své zkušenosti s konkrétní činností.\nF) Autor diskutuje o dopadu své profese na svůj osobní život.\nG) Autor chronologicky zaznamenává různé fáze své práce v určité disciplíně.\nH) Autor využívá své osobní zkušenosti ke kritice společenských norem.\nI) Autor srovnává své vlastní zkušenosti se zkušenostmi ostatních ve svém oboru.\nJ) Autor poskytuje několik vysvětlení, proč zvolil určitý způsob jednání.\nAnswer in English.",
+        "generated_answer": "E) Autor používá analogie k vysvětlení své zkušenosti s konkrétní činností.",
+        "ground_truth": "E",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"E\". Generated answer is \"E) Autor používá analogie k vysvětlení své zkušenosti s konkrétní činností.\" That is essentially the same answer (E). So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7808,
+        "question": "Která rovnice vyjadřuje, že číslo y snížené o 36 se rovná 13?\nA) 13 + y = 36\nB) 13 - y = 36\nC) y = 13 - 36\nD) 36 - y = 13\nE) 13 = y + 36\nF) y = 36 - 13\nG) y + 36 = 13\nH) y - 36 = 13\nI) 36 + y = –13\nJ) 36 = y + 13\nAnswer in English.",
+        "generated_answer": "The correct answer is G) y + 36 = 13. This is because if you subtract 36 from both sides of the equation, you get y = 13 - 36, which is the same as the original equation.",
+        "ground_truth": "H",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"H\". That corresponds to option H) y - 36 = 13. The generated answer says correct answer is G) y + 36 = 13. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "Deficit střevní laktázy vede k maldigesci laktózy, která může následně vést k laktózové intoleranci, tj. způsobuje klinické příznaky. Kojenci a děti obvykle vykazují dostatečné hladiny laktázy, takže klinické příznaky nepociťují. Obecně lze dospělé klasifikovat jako jedince s perzistencí laktázy nebo jedince bez perzistence laktázy. Jaké je přibližné procento jedinců bez perzistence laktázy celosvětově?\nA) 30 %-35 %\nB) 80 %-85 %\nC) 90 %-95 %\nD) 55 %-60 %\nE) 5 %-10 %\nF) 45 %-50 %\nG) 60 %-65 %\nH) 10 %-15 %\nI) 20 %-25 %\nJ) 70 %-75 %\nAnswer in English.",
+        "generated_answer": "The correct answer is B) 80 %-85 %. This is because most of the world's population has a genetic predisposition to lose lactase activity after weaning, which is associated with the absence of lactase persistence. This is particularly true in populations that have traditionally consumed dairy products in adulthood, such as in Europe and North America. However, in many other parts of the world, lactose intolerance is more common due to the prevalence of lactase non-persistence.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"J\". That corresponds to option J) 70%-75%. The generated answer says \"The correct answer is B) 80%-85%\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

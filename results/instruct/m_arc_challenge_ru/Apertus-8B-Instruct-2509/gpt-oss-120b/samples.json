@@ -1,0 +1,82 @@
+[
+    {
+        "id": 788,
+        "question": "Какое из перечисленных явлений описывает химическую реакцию?\nA) растворение сахара в чае\nB) солнечный свет нагревающий тротуар\nC) ножницы режущие бумагу на куски\nD) кислота в желудке переваривающая пищу\nAnswer in English.",
+        "generated_answer": "D) кислота в желудке переваривающая пищу\n\nThis is a chemical reaction because the acid in the stomach is breaking down the food into smaller molecules, which is a chemical change. The other options are physical changes: A) is a physical change because the sugar dissolves in the tea, but the sugar molecules remain the same; B) is a physical change because the sun's heat is transferring energy to the pavement, but the pavement's molecules remain the same; C) is a physical change because the scissors are cutting the paper into smaller pieces, but the paper's molecules remain the same.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". Generated answer says \"D) кислота в желудке переваривающая пищу\" and explains why it's chemical reaction. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Какое из следующих уравнений является правильно записанным химическим уравнением, демонстрирующим закон сохранения массы?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correct chemical equation that demonstrates the law of conservation of mass is:\n\nC) KClO_{3} -> KCl + O_{2}\n\nThis equation shows that the total mass of the reactants (KClO_{3}) is equal to the total mass of the products (KCl and O_{2}).",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: which equation is correctly written demonstrating law of conservation of mass? Options given. Ground truth answer is B. Generated answer says C. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Почему полив растений и травы в раннее утро способствует экономии воды?\nA) Утром всегда больше воды.\nB) Меньше вода испаряется в прохладное утро.\nC) Вода, использованная утром, может быть повторно использована после обеда.\nD) Трава может поглощать воду только по утрам.\nAnswer in English.",
+        "generated_answer": "B) Меньше вода испаряется в прохладное утро.\n\nWhen you water plants and grass in the early morning, the water is less likely to evaporate due to the cooler temperatures. This means that more of the water is absorbed by the plants and soil, resulting in a more efficient use of water. This is why watering in the early morning is often recommended for water conservation.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is simply \"B\". The generated answer says \"B) Меньше вода испаряется в прохладное утро.\" and explains. That matches answer B. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 530,
+        "question": "Литосферные плиты перемещаются, чтобы образовать земные формации на поверхности Земли. Какая земная формация возникает в результате складывания одной плиты на другую?\nA) землетрясение\nB) горный хребет\nC) река\nD) вулкан\nAnswer in English.",
+        "generated_answer": "B) горный хребет\n\nWhen two lithospheric plates collide, one plate may be forced beneath the other in a process called subduction. This can lead to the formation of mountain ranges or mountain chains, which are essentially long, elevated landforms. So, the correct answer is B) mountain range or mountain chain.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"B\". Generated answer says \"B) горный хребет ... So, the correct answer is B) mountain range or mountain chain.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "Как организмы, классифицируемые как Eukarya, отличаются от организмов, классифицируемых как Археи и Бактерии?\nA) Все они многоклеточные.\nB) Все они размножаются половым образом.\nC) Все они производят свою собственную пищу.\nD) Все они имеют ядра, окруженные мембраной.\nAnswer in English.",
+        "generated_answer": "D) Все они имеют ядра, окруженные мембраной.\n\nEukarya, Archaea, and Bacteria are three domains of life. The key difference between Eukarya and the other two domains is the presence of a membrane-bound nucleus. Eukaryotic organisms, which include animals, plants, fungi, and protists, have their genetic material stored in a nucleus, which is surrounded by a double membrane. This is not the case for Archaea and Bacteria, which are prokaryotic organisms and do not have a membrane-bound nucleus. \n\nOptions A, B, and C are incorrect because:\n\nA) Not all Eukarya are multicellular. Many Eukarya, such as protists, are unicellular.\n\nB) While some Eukarya reproduce sexually, not all do. Many Eukarya, such as plants and fungi, also reproduce asexually.\n\nC) Not all Eukarya produce their own food. Some Eukarya, such as animals, are heterotrophic and obtain their energy from consuming other organisms.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". The generated answer says \"D) ...\" and explains that D is correct. So it matches. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Во время эксперимента по аэробной клеточной респираторной функции биолог ограничивает количество доступного фосфора для культуры клеток. Как это может повлиять на клетку?\nA) Количество клеточной энергии уменьшится.\nB) Количество клеточной энергии увеличится.\nC) Количество произведенной глюкозы увеличится.\nD) Количество произведенной глюкозы уменьшится.\nAnswer in English.",
+        "generated_answer": "A) Количество клеточной энергии уменьшится.\n\nОбъяснение: Фосфор является важным элементом в процессе клеточной респираторной функции, так как он участвует в производстве АТФ (аденозинтрифосфата), который является основным источником клеточной энергии. Ограничение количества доступного фосфора приведет к снижению производства АТФ, что, в свою очередь, уменьшит количество клеточной энергии. Это может привести к замедлению роста клеток, снижению их активности и даже к их гибели.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer says \"A) Количество клеточной энергии уменьшится.\" plus explanation. That matches answer A. So meaning same. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Когда человек прыгает с парашютом с самолета, он движется со скоростью около 67 метров в секунду. Когда он вытягивает шнурок и его парашют открывается, его скорость замедляется до 3 метров в секунду. Если скорость и ускорение считаются положительными до открытия парашюта, как изменяются его скорость и ускорение, когда парашют открывается?\nA) Скорость и ускорение остаются положительными.\nB) Скорость и ускорение оба становятся отрицательными.\nC) Скорость остается положительной, но ускорение становится отрицательным.\nD) Скорость становится отрицательной, но ускорение остается положительным.\nAnswer in English.",
+        "generated_answer": "C) Скорость остается положительной, но ускорение становится отрицательным.\n\nОбъяснение: Когда парашют открывается, сила сопротивления воздуха начинает действовать на человека, замедляя его движение. Это означает, что ускорение становится отрицательным, так как оно направлено против первоначального движения. Скорость остается положительной, так как человек продолжает двигаться в том же направлении, но с меньшей скоростью.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says \"C) Скорость остается положительной, но ускорение становится отрицательным.\" That's option C. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 621,
+        "question": "Некоторые виды лягушек закапываются в грязь, если среда становится очень сухой. Лягушки входят в тип остановки жизненных функций. Какой сигнал, скорее всего, заставит лягушек выйти из грязи?\nA) уменьшение часов светового дня\nB) увеличение температуры воздуха\nC) увеличение осадков\nD) уменьшение атмосферного давления\nAnswer in English.",
+        "generated_answer": "The correct answer is C) increase in precipitation. When the environment becomes too dry, some species of frogs will bury themselves in the mud to conserve moisture. When the precipitation increases, the soil becomes wetter, which signals to the frogs that it is safe to emerge from their burrows. This is because the increased moisture in the soil indicates a more favorable environment for the frogs to survive and thrive.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". The generated answer says \"The correct answer is C) increase in precipitation.\" That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 976,
+        "question": "Снег, дождь, град и туман - это все формы\nA) газ.\nB) вода.\nC) ветер.\nD) облака.\nAnswer in English.",
+        "generated_answer": "B) вода.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Снег, дождь, град и туман - это все формы\" (Snow, rain, hail and fog are all forms of...). Options: A) gas, B) water, C) wind, D) clouds. Correct answer is B) water. Ground truth answer: \"B\". Generated answer: \"B) вода.\" That's the same meaning (B water). So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 733,
+        "question": "Какой из следующих способов является наиболее эффективным для транспортировки больших объемов угля из шахты в Кентукки в электростанцию в Аризоне?\nA) на корабле\nB) поездом\nC) грузовиком\nD) самолетом\nAnswer in English.",
+        "generated_answer": "The most efficient way to transport large volumes of coal from a mine in Kentucky to a power plant in Arizona would be by train. Trains are capable of carrying large amounts of cargo and can travel long distances efficiently. They are also more environmentally friendly than trucks and airplanes. Additionally, trains can travel on fixed routes, which can help to reduce transportation costs and increase efficiency.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"B\". The question: Which method is most efficient? Options: A ship, B train, C truck, D plane. Ground truth says B (train). Generated answer says \"by train\". So they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

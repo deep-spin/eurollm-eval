@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Melyik írja le a kémiai reakciót?\nA) cukor feloldása a teában\nB) napsugár melegítő a járdán\nC) olló darabokra vágja a papírt\nD) az emésztőrendszerben lévő sav emészti a táplálékot\nAnswer in English.",
+        "generated_answer": "A) cukor feloldása a teában\nB) napsugár melegítő a járdán\nC) olló darabokra vágja a papírt\nD) az emésztőrendszerben lévő sav emészti a táplálékot",
+        "ground_truth": "D",
+        "assessment": "The question asks which option describes a chemical reaction. The correct answer (GROUND TRUTH) is \"D\", as it refers to digestion by acid in the digestive system, which involves chemical changes. The GENERATED ANSWER lists all the options without selecting one, and thus does not convey the same meaning as the GROUND TRUTH, which clearly identifies option D as the correct choice.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 861,
+        "question": "Melyik az alábbi megadott kémiai egyenlet, amely helyesen mutatja be a tömegmegmaradás törvényét?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "A) Mg + HCl -> H_{2} + MgCl_{2}",
+        "ground_truth": "B",
+        "assessment": "The question asks which of the given chemical equations correctly demonstrates the law of conservation of mass. This law states that mass is neither created nor destroyed in a chemical reaction, meaning the number of atoms of each element must be equal on both sides of the equation.\n\nLet’s evaluate each option:\n\nA) Mg + HCl → H₂ + MgCl₂  \n- Left side: 1 Mg, 1 H, 1 Cl  \n- Right side: 2 H, 1 Mg, 2 Cl  \n→ Not balanced (H and Cl counts differ)\n\nB) H₂O + CO₂ → H₂CO₃  \n- Left: 2 H, 1 O (from H₂O) + 1 C, 2 O (from CO₂) → total: 2 H, 3 O, 1 C  \n- Right: H₂CO₃ has 2 H, 1 C, 3 O  \n→ Balanced\n\nC) KClO₃ → KCl + O₂  \n- Left: 1 K, 1 Cl, 3 O  \n- Right: 1 K, 1 Cl, 2 O  \n→ Not balanced (oxygen count differs)\n\nD) H₂ + O₂ → H₂O  \n- Left: 2 H, 2 O  \n- Right: 2 H, 1 O  \n→ Not balanced\n\nOnly option B is balanced and thus correctly represents the law of conservation of mass.\n\nThe GENERATED ANSWER is A, but the GROUND TRUTH is B.\n\nTherefore, the generated answer is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Miért jelent ez energiamegtakarítást, ha a növényeket és a füvet kora reggel öntözik?\nA) Reggel több víz áll rendelkezésre.\nB) A hűvös reggelen kevesebb víz párolog el.\nC) Kora reggel felhasznált víz újrahasznosítható az délutáni öntözéshez.\nD) A fű csak reggel tud vizet felvenni.\nAnswer in English.",
+        "generated_answer": "A) Reggel több víz áll rendelkezésre.\nB) A hűvös reggelen kevesebb víz párolog el.\nC) Kora reggel felhasznált víz újrahasznosítható az délutáni öntözéshez.\nD) A fű csak reggel tud vizet felvenni.",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER lists all the options (A, B, C, D) instead of selecting the correct one. The GROUND TRUTH is \"B\", indicating that the correct answer is option B: \"A hűvös reggelen kevesebb víz párolog el.\" Since the generated answer does not select B as the correct choice but rather repeats all options, it does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "A litoszféra lemezek mozgása földi tájakat alakít ki. Melyik földi táj keletkezik, ha a lemezek egymásra hajolnak?\nA) egy földrengés\nB) egy hegylánc\nC) egy folyó\nD) egy vulkán\nAnswer in English.",
+        "generated_answer": "A) egy földrengés\nAnswer in Hungarian.",
+        "ground_truth": "B",
+        "assessment": "The question asks which geographical feature is formed when tectonic plates collide (fold towards each other). The correct answer is B) a mountain range (hegylánc), as the collision of lithospheric plates leads to the formation of mountain ranges due to folding and uplift.\n\nThe generated answer is A) an earthquake, which is a phenomenon associated with plate movement but not the landform created by folding. Earthquakes may occur during such movements, but they are not the resulting landscape feature.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1047,
+        "question": "Mi a legvalószínűbb első lépés diákoknak, ha újrahasznosítási projektbe kezdenek?\nA) égetjék el az anyagokat tábortüzesben\nB) szállítsák az anyagokat szemétlerakóba\nC) dobják az anyagokat egy szemetesbe\nD) rendszerezzék az anyagokat műanyagokra, papírokra és konzervekre\nAnswer in English.",
+        "generated_answer": "D) rendszerezzék az anyagokat műanyagokra, papírokra és konzervekre",
+        "ground_truth": "D",
+        "assessment": "The GENERATED ANSWER provides the full text of option D, which matches the content implied by the GROUND TRUTH \"D\", as both refer to the same correct choice in the multiple-choice question. Since the meaning is equivalent — selecting option D, which describes sorting materials into plastics, paper, and cans — the answer is correct.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Ausztráliában délben a hőmérséklet akár 110°F (43°C) fölé is emelkedhet. Ahhoz, hogy testüket hűvösen tartsák, a kenguruk nyalogatják karjukat, vastag nyálréteggel vonják be azt. Ahogy a nyál elpárolog, hűtőmechanizmusként működik és csökkenti a kenguru testhőmérsékletét. Melyik kifejezés írja le legjobban ezt a tevékenységet?\nA) természetes kiválasztódás\nB) védelmi mechanizmus\nC) szerkezeti alkalmazkodás\nD) viselkedési alkalmazkodás\nAnswer in English.",
+        "generated_answer": "A) természetes kiválasztódás",
+        "ground_truth": "D",
+        "assessment": "The question asks which term best describes the behavior of kangaroos licking their arms to cool down, a process that helps regulate their body temperature in hot climates. The correct answer is \"D) viselkedési alkalmazkodás,\" which translates to \"behavioral adaptation\" in English.\n\nThe generated answer is \"A) természetes kiválasztódás\" (natural selection), which refers to the evolutionary process by which certain traits become more common due to their survival advantage, not the specific behavior itself.\n\nNatural selection may have led to this behavior over time, but the act of licking arms to cool down is a behavioral adaptation, not natural selection. Therefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 829,
+        "question": "Amikor egy személy ejtőernyőzik egy repülőgépből, kb. 67 méter / másodperces sebességgel halad. Amikor kihúzza a kötelet, és kinyílik a siklóernyője, kb. 3 méter / másodperc sebességre lassul. Ha a sebességet és az gyorsulást pozitívnak tekintjük mielőtt kinyílik a siklóernyője, hogyan változik a sebessége és az gyorsulása, amikor kinyílik a siklóernyője?\nA) A sebesség és az gyorsulás is pozitív marad.\nB) A sebesség és az gyorsulás is negatív lesz.\nC) A sebesség pozitív marad, de az gyorsulás negatívvá válik.\nD) A sebesség negatívvá válik, de az gyorsulás pozitív marad.\nAnswer in English.",
+        "generated_answer": "A) A sebesség és az gyorsulás is pozitív marad.",
+        "ground_truth": "C",
+        "assessment": "The question describes a skydiver falling from a plane at approximately 67 m/s, and when the parachute is deployed, the speed decreases to about 3 m/s. It states that velocity and acceleration are considered positive before the parachute opens.\n\nWhen the parachute opens, the skydiver is still moving downward (same direction as initial motion), so if downward was defined as positive before, then the velocity remains positive (since direction hasn't changed). However, the diver is slowing down, which means the acceleration is in the opposite direction to the velocity—upward. Therefore, acceleration becomes negative.\n\nThus, the correct answer is:\nC) The velocity remains positive, but the acceleration becomes negative.\n\nThe generated answer is A), which claims both velocity and acceleration remain positive. This is incorrect because while velocity stays positive (downward motion continues), acceleration must be negative (deceleration in the upward direction).\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "Néhány béka faj annak érdekében, hogy elkerülje a kiszáradást, beszalad a sárba maga alá. A békák hibernációs állapotba kerülnek. Melyik lenne a legvalószínűbb jel arra, hogy a békák előbújjanak a sárból?\nA) az órák számának csökkenése\nB) a levegő hőmérsékletének emelkedése\nC) a csapadékmennyiség növekedése\nD) a légnyomás csökkenése\nAnswer in English.",
+        "generated_answer": "A) az órák számának csökkenése",
+        "ground_truth": "C",
+        "assessment": "The question asks for the most likely sign that frogs would emerge from the mud after hibernation. The correct answer (GROUND TRUTH) is C, which corresponds to \"an increase in precipitation\" (a rise in rainfall). This makes sense because increased moisture in the environment would prompt frogs to come out of dormancy, as they require moist conditions to survive.\n\nHowever, the GENERATED ANSWER is \"A) az órák számának csökkenése\" (a decrease in the number of hours), which refers to shorter daylight hours—typically associated with approaching winter or colder seasons, not emergence from hibernation. This is contrary to the expected environmental cue for frogs becoming active again.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "Egy kőréteget találtak, amelyben egy hal és egy szárazföldi dinoszaurusz fosszíliája nagyon közel található egymáshoz. Mi a legvalószínűbb magyarázat erre?\nA) A hal és a dinoszaurusz mindketten egy part közelében éltek.\nB) Az óriási hullám messze szállította a halat a szárazföldre.\nC) A hal és a dinoszaurusz nagyon különböző időpontokban lettek fosszilizálva.\nD) A dinoszaurusz úszott egyik kontinensről a másikra, amikor meghalt.\nAnswer in English.",
+        "generated_answer": "A) A hal és a dinoszaurusz mindketten egy part közelében éltek.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER provides the full text of option A, which states that the fish and the dinosaur both lived near a shoreline. The GROUND TRUTH is \"A\", which refers to the same option. Since both the GENERATED ANSWER and the GROUND TRUTH point to the same correct choice—option A—and the meaning is fully equivalent, the answer is considered correct.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 733,
+        "question": "Melyik lehet a legjobb módja annak, hogy nagy mennyiségű szenet szállítsunk egy kentuckyi bányából egy arizonai erőműbe?\nA) hajóval\nB) vonattal\nC) teherautóval\nD) repülővel\nAnswer in English.",
+        "generated_answer": "A legjobb módja annak, hogy nagy mennyiségű szenet szállítsunk egy kentuckyi bányából egy arizonai erőműbe, a C) teherautóval.",
+        "ground_truth": "B",
+        "assessment": "The question asks for the best way to transport a large amount of coal from a mine in Kentucky to a power plant in Arizona. The correct answer according to the ground truth is B) by train.\n\nTrains are generally the most efficient and cost-effective method for transporting large quantities of bulk goods like coal over long distances on land, especially across states such as from Kentucky to Arizona. Trucks (C) are less efficient for such long distances and large volumes due to higher costs and logistical limitations. Ships (A) are not feasible overland, and planes (D) are far too expensive for bulk cargo like coal.\n\nThe generated answer claims that the best method is C) by truck, which is incorrect when compared to the ground truth (B) by train.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 447,
+        "question": "Két kerékpáros 20 kilométer per órás (km/h) sebességgel tekert. A következő fél órában észrevették, hogy növelték a sebességüket 26 km/h-ra. Mi volt az átlagos gyorsulásuk?\nA) 0,2 km/h^2\nB) 3,0 km/h^2\nC) 6,0 km/h^2\nD) 12,0 km/h^2\nAnswer in English.",
+        "generated_answer": "A) 0,2 km/h^2\n\nA sebességváltozások miatt a két kerékpáros átlagos sebessége 20 km/h -ból 26 km/h -ra nőtt. Az átlagos sebességváltozás 26 km/h -ból 20 km/h -ra, ami 0,2 km/h^2 -ot jelent.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the average acceleration of two cyclists who increased their speed from 20 km/h to 26 km/h over a period of half an hour (0.5 hours).\n\nAverage acceleration is calculated as:\n\nAcceleration = (Change in velocity) / (Time taken)  \n= (26 km/h - 20 km/h) / 0.5 h  \n= 6 km/h / 0.5 h  \n= 12 km/h²\n\nThus, the correct answer is D) 12.0 km/h².\n\nThe GENERATED ANSWER claims A) 0.2 km/h² and provides incorrect reasoning: it says the acceleration is \"0.2 km/h²\" without showing the correct calculation. The explanation is flawed and does not match the correct physics formula.\n\nTherefore, the GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "Egy 20 N-os tárgyat elhelyeznek egy felületre és elkezd csúszni. Mi a legvalószínűbb oka annak, hogy a tárgy elkezd mozogni?\nA) A gravitáció kiegyensúlyozott erőt fejt ki a tárgyra.\nB) Egy kiegyensúlyozatlan erő okoz gyorsulást.\nC) A súrlódás hat az objektumra.\nD) Az objektumra ható erők egyensúlyban vannak.\nAnswer in English.",
+        "generated_answer": "A) A gravitáció kiegyensúlyozott erőt fejt ki a tárgyra.",
+        "ground_truth": "B",
+        "assessment": "The question asks for the most likely reason why a 20 N object starts to move when placed on a surface. The correct physical explanation is that an unbalanced (net) force causes acceleration, which corresponds to option B.\n\nThe generated answer selects option A, which states that gravity exerts a balanced force on the object. This does not explain motion; balanced forces result in no acceleration. Therefore, option A is incorrect.\n\nThe ground truth is B: \"An unbalanced force causes acceleration,\" which correctly explains why the object begins to move.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 285,
+        "question": "Fényképezési folyamat során a cukor és oxigén termelődése az eredmény. Melyik lépés jelzi a fotoszintézis kezdetét?\nA) A gyökereken keresztül vegyi energia szívódik fel.\nB) A fényenergiát kémiai energiává alakítják át.\nC) A levél klorofillja elkapja a fényenergiát.\nD) Napfényt alakítanak klorofillává.\nAnswer in English.",
+        "generated_answer": "A) A gyökereken keresztül vegyi energia szívódik fel.",
+        "ground_truth": "C",
+        "assessment": "The question asks which step indicates the beginning of photosynthesis in a process where sugar and oxygen are produced. The correct answer, according to the ground truth, is \"C) A levél klorofillja elkapja a fényenergiát\" (The chlorophyll in the leaf captures light energy). This is accurate because the initiation of photosynthesis begins when chlorophyll absorbs light energy.\n\nThe generated answer is \"A) A gyökereken keresztül vegyi energia szívódik fel\" (Chemical energy is absorbed through the roots), which is incorrect. Roots absorb water and minerals, not chemical energy, and this is not the starting point of photosynthesis.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 577,
+        "question": "Ariana lufikat használ a statikus elektromosság vizsgálatához. Melyik az alábbiak közül magyarázza legjobban, mi fog történni akkor, ha két pozitívan feltöltött lufit viszonylag közel helyez Ariana egymáshoz?\nA) A lufik szétszakadnak.\nB) Az egyik lufi elveszti a töltését.\nC) A lufik össze fognak jönni.\nD) Az egyik lufi negatív töltést kap.\nAnswer in English.",
+        "generated_answer": "A) A lufik szétszakadnak.",
+        "ground_truth": "A",
+        "assessment": "The question asks what will happen when two positively charged balloons are brought close to each other. According to the principles of electrostatics, like charges repel each other. Therefore, two positively charged balloons will repel, but they will not \"tear apart\" (szétszakadnak). The correct explanation is that they will move away from each other, which is not perfectly captured by option A.\n\nHowever, the GROUND TRUTH answer is simply \"A\", meaning the evaluator considers option A correct. But in reality, option A (\"The balloons will tear apart\") is physically inaccurate — the balloons repel but do not rupture or break apart.\n\nBut as an evaluator, your task is not to re-judge based on scientific accuracy, but to determine if the GENERATED ANSWER matches the GROUND TRUTH in meaning.\n\nThe GENERATED ANSWER is: \"A) A lufik szétszakadnak.\"  \nThe GROUND TRUTH is: \"A\"\n\nSince the generated answer selects option A, and the ground truth is also \"A\", the selection is identical.\n\nEven though the content may be scientifically incorrect, the task is about equivalence in choice, not factual correctness.\n\nTherefore, the generated answer matches the ground truth.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "Melyik a legjobb megjelenítési módja a földkéreg nyolc leggyakoribb elemének százalékos arányának?\nA) vonal diagram\nB) tortadiagram\nC) oszlopdiagram\nD) adattábla\nAnswer in English.",
+        "generated_answer": "A legjobb megjelenítési módja a földkéreg nyolc leggyakoribb elemének százalékos arányának a C) oszlopdiagram.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the best way to display the percentage proportions of the eight most common elements in the Earth's crust. The correct answer according to the GROUND TRUTH is D) adattábla (data table). However, the GENERATED ANSWER selects C) oszlopdiagram (bar chart), which is not equivalent to the ground truth.\n\nAlthough a bar chart can show proportions, the ground truth indicates that a data table is considered the best choice in this context, likely because it provides precise percentage values without visual approximation.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Egér van elhelyezve egy kartonlabirintus egyik végén, ahol a másik végén egy darab sajt található. Az egér megszagolja a sajtot és megtanulja, hogyan találja meg azt. Az egér\nA) elsajátított tulajdonságot használ az örökölt tulajdonság megszerzéséhez.\nB) örökölt tulajdonságot használ az elsajátított tulajdonság megszerzéséhez.\nC) elsajátított tulajdonságot használ egy másik elsajátított tulajdonság megszerzéséhez.\nD) örökölt tulajdonságot használ egy másik örökölt tulajdonság megszerzéséhez.\nAnswer in English.",
+        "generated_answer": "A) valószínûleg az elsajátított tulajdonságot használja az örökölt tulajdonság megszerzéséhez.",
+        "ground_truth": "B",
+        "assessment": "The question describes a mouse learning how to find cheese in a maze after smelling it. This indicates that the mouse is using learned behavior (an acquired trait) to navigate, but the ability to smell or the instinct to seek food could be considered inherited traits.\n\nThe correct answer according to the ground truth is **B**: \"örökölt tulajdonságot használ az elsajátított tulajdonság megszerzéséhez\" — meaning \"uses an inherited trait to acquire a learned trait.\"\n\nIn this context:\n- The inherited trait might be the sense of smell or the instinct to seek food.\n- The learned trait is navigating the maze to reach the cheese.\n\nThus, the mouse uses its inherited sense of smell (innate) to learn the path to the cheese (acquired skill), which matches option B.\n\nThe generated answer states **A**: \"valószínűleg az elsajátított tulajdonságot használja az örökölt tulajdonság megszerzéséhez\" — meaning \"probably uses a learned trait to acquire an inherited trait,\" which is the opposite of what happens. Inherited traits are not acquired through learning; they are genetically passed down.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 513,
+        "question": "Mi az egyik feltétel a gyémántképződéshez?\nA) magas tengerszint feletti magasság\nB) intenzív nyomás\nC) gyors hűtés\nD) alacsony hőmérséklet\nAnswer in English.",
+        "generated_answer": "A) magas tengerszint feletti magasság\nD) alacsony hőmérséklet\n\nAnswer in Hungarian.",
+        "ground_truth": "B",
+        "assessment": "The question asks for one condition required for diamond formation. The correct answer according to the ground truth is B) intenzív nyomás (intense pressure). \n\nThe generated answer lists A) magas tengerszint feletti magasság (high altitude) and D) alacsony hőmérséklet (low temperature), both of which are incorrect. Diamond formation requires high pressure and high temperature, typically deep within the Earth's mantle.\n\nSince the generated answer does not match the correct answer (B), it is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1090,
+        "question": "Diákok kísérletet fognak végezni annak kiderítésére, hogy 2 g só mennyi idő alatt oldódik fel 50 mL vízben. Melyik kísérleti módszer adja a legpontosabb eredményeket?\nA) egy diák időmérést végez egy kísérletben\nB) két diák időmérést végez egy kísérletben\nC) egy diák időmérést végez három azonos kísérletben\nD) három diák időmérést végez két azonos kísérletben\nAnswer in English.",
+        "generated_answer": "A) egy diák időmérést végez egy kísérletben\nA kísérlet során a sómennyiséget a vízmennyiséggel arányos mennyiségben kell hozzáadni. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos. A sóoldat koncentrációja a vízben a sómennyiséggel arányos.",
+        "ground_truth": "C",
+        "assessment": "The question asks which experimental method will yield the most accurate results when determining how long it takes for 2 g of salt to dissolve in 50 mL of water. The options involve different numbers of students and repetitions of the experiment.\n\nThe generated answer selects option A (\"one student measures time in one experiment\") and then repeats, incorrectly and redundantly, a statement about salt concentration being proportional to the amount of salt, which is irrelevant to the question about measurement accuracy.\n\nThe ground truth is C: \"one student measures time in three identical experiments.\" This method improves accuracy through repeated trials, reducing random errors—this is a fundamental principle in experimental design.\n\nThus, the generated answer not only selects the wrong option (A instead of C) but also provides irrelevant and repetitive explanations that do not justify or support the correct reasoning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "Greta többször is átfésülte a haját egy fésűvel. Ezután a fésűt az éppen folyó vízsugár mellé helyezte. Greta megfigyelte, hogy a vízsugár elhajlik a fésű felé. Hogyan segítette azonban Greta hajának átfésülése abban, hogy a fésű elhajtsa a vízsugár irányát?\nA) a fésű nedvszívó képességének növelésével\nB) elektromos töltéssel látták el a fésűt\nC) a fésű hőenergiájának növelésével\nD) a fésűben lévő bizonyos kémiai kötések megtörésével\nAnswer in English.",
+        "generated_answer": "A) a fésű nedvszívó képességének növelésével",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER states \"A) a fésű nedvszívó képességének növelésével\", which translates to \"by increasing the comb's water-absorbing ability\". However, the GROUND TRUTH is \"B\", which corresponds to \"electrifying the comb\". \n\nGreta combing her hair transfers electrons, causing the comb to become electrically charged—a phenomenon known as static electricity. This charge attracts the stream of water, causing it to bend toward the comb. The correct explanation is therefore related to electric charge (option B), not water absorption (option A).\n\nThus, the GENERATED ANSWER does not match the meaning of the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "Egy játék teherautó gördül egy sima felületen. Ha a felület homokkal van borítva, a teherautó valószínűleg\nA) lassabban\nB) gyorsabban\nC) ugyanolyan sebességgel fog gördülni\nD) None\nAnswer in English.",
+        "generated_answer": "C) ugyanolyan sebességgel fog gördülni",
+        "ground_truth": "A",
+        "assessment": "The question asks how a toy truck will likely move when the surface it is rolling on is covered with sand. Sand increases friction compared to a smooth surface, which would slow down the truck. The ground truth answer is A) \"lassabban\" (slower), indicating the truck will move slower due to increased resistance.\n\nThe generated answer is C) \"ugyanolyan sebességgel fog gördülni\" (will roll at the same speed), which implies no change in speed despite the change in surface. This contradicts the expected physical effect of increased friction from sand.\n\nTherefore, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Miért valószínűbb, hogy a gyorsan bekövetkező környezeti változások kihalást okoznak, mint az lassan bekövetkező változások?\nA) Az lassú változásokra van idő az alkalmazkodásra.\nB) A gyors változások kis mértékű alkalmazkodást igényelnek.\nC) Az lassú változások csak kis területeket érintenek.\nD) A gyors változások globális hatást fejtenek ki.\nAnswer in English.",
+        "generated_answer": "A) Az lassú változásokra van idő az alkalmazkodásra.\n\nA gyors változások kis mértékű alkalmazkodást igényelnek.\n\nC) Az lassú változások csak kis területeket érintenek.\n\nD) A gyors változások globális hatást fejtenek ki.\n\nA gyors változások kihalást okozhatnak, mivel az emberiség nem képes gyorsan alkalmazkodni a gyorsan változó környezethez.",
+        "ground_truth": "A",
+        "assessment": "The QUESTION asks why rapidly occurring environmental changes are more likely to cause extinction than slowly occurring ones. The GROUND TRUTH answer is \"A) Az lassú változásokra van idő az alkalmazkodásra\" (Slow changes allow time for adaptation).\n\nThe GENERATED ANSWER includes the correct option A, but also includes options B, C, and D — which are incorrect — and adds an explanation that refers to human adaptability, which is not aligned with the focus of the original question (which is general, not human-specific). Including multiple choices, especially incorrect ones, distorts the meaning and implies that more than one option is valid, which contradicts the format and intent of the question.\n\nTherefore, even though the correct answer is present, the inclusion of incorrect options and misleading explanations makes the overall generated answer not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 151,
+        "question": "A Napból érkező hőenergia az alábbi folyamatok közül melyik útján jut el a Földre a legnagyobb mértékben?\nA) vezetés révén\nB) áramlás révén\nC) párolgás révén\nD) sugárzás révén\nAnswer in English.",
+        "generated_answer": "A) vezetés révén",
+        "ground_truth": "D",
+        "assessment": "The question asks by which process solar energy reaches Earth to the greatest extent. The correct answer is \"D) sugárzás révén\" (radiation), as energy from the Sun travels through the vacuum of space primarily via electromagnetic radiation.\n\nThe generated answer is \"A) vezetés révén\" (conduction), which is incorrect because conduction requires direct contact between materials and cannot occur across the vacuum of space.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "Egy kísérlet során két azonos lapot használnak; az egyiket összegyűrik, a másikat laposan hagyják. Mi valószínűleg fog történni, amikor ugyanazon magasságból egyszerre elengedve ejtik?\nA) A lapos lap élére esik.\nB) Mindkettő azonos sebességgel fog esni.\nC) Az összegyűrt lap gyorsabban fog esni.\nD) Az összegyűrt lap vízszintesen mozog majd.\nAnswer in English.",
+        "generated_answer": "A) A lapos lap élére esik.",
+        "ground_truth": "C",
+        "assessment": "The question describes an experiment where two identical sheets of paper are dropped from the same height—one crumpled and one left flat. The question asks what will likely happen.\n\nThe generated answer states: \"A) A lapos lap élére esik\" (The flat sheet lands on its edge), which is not consistent with the expected physical behavior in this experiment. In reality, due to air resistance, the crumpled paper falls faster than the flat sheet because it has less surface area exposed to air resistance.\n\nThe ground truth is C: \"Az összegyűrt lap gyorsabban fog esni\" (The crumpled paper will fall faster), which is correct.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 966,
+        "question": "Kira észreveszi, hogy az iskolai kert növényei júliusban zöldek és nőnek, de decemberben barnák. Miért nőnek jobban a növények nyáron, mint télen?\nA) Nyáron a Föld közelebb van a Naphoz.\nB) Nyáron a Föld gyorsabban forog.\nC) Nyáron a Föld magja közelebb van a felszínhez.\nD) Nyáron a Föld északi féltekéje a Nap felé dől.\nAnswer in English.",
+        "generated_answer": "A) Nyáron a Föld közelebb van a Naphoz.",
+        "ground_truth": "D",
+        "assessment": "The question asks why plants grow better in summer than in winter. The correct scientific explanation is that during summer, the Earth's northern hemisphere tilts toward the Sun (option D), resulting in longer days and more direct sunlight, which promotes plant growth.\n\nOption A, \"Nyáron a Föld közelebb van a Naphoz\" (\"In summer, the Earth is closer to the Sun\"), is incorrect because Earth's distance from the Sun is not the cause of seasons. In fact, Earth is often farthest from the Sun during northern hemisphere summer (aphelion in July).\n\nThe generated answer selects option A, while the ground truth is option D. These are not equivalent in meaning, and the generated answer is scientifically inaccurate.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "Egy diák zseblámpával világít különböző színű papírokra. Melyik színű papír fogja a legtöbb fényt elnyelni?\nA) Vörös\nB) Fekete\nC) Fehér\nD) Sárga\nAnswer in English.",
+        "generated_answer": "A) Vörös\nAnswer in Hungarian.",
+        "ground_truth": "B",
+        "assessment": "The question asks which color paper will absorb the most light when illuminated by a flashlight. The correct answer is B) Fekete (Black), because black absorbs the most light, while other colors reflect more.\n\nThe generated answer is A) Vörös (Red), which is incorrect. Red does not absorb the most light; black does.\n\nTherefore, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 206,
+        "question": "Dominic egy volvox kolóniát és egy parameciumot figyel meg mikroszkóp alatt. Feljegyzést tesz a naplójában, hogy a volvox kolónia és a paramecium hasonló, mert sok mozgáshoz használt sejtorganellumuk van. Mit figyelne meg Dominic valószínűleg a volvox kolónia és a paramecium mozgásával kapcsolatban?\nA) Mindkettő ugyanolyan sebességgel mozog.\nB) Mindkettő a fénytől távolabb mozog.\nC) Mindkettő ugyanabba az irányba mozog.\nD) Mindkettő egy energiaforrás felé mozog.\nAnswer in English.",
+        "generated_answer": "C) Mindkettő ugyanabba az irányba mozog.",
+        "ground_truth": "D",
+        "assessment": "The question asks what Dominic would likely observe about the movement of the Volvox colony and Paramecium, based on his note that both have many organelles used for movement. The key point is their motility and possible directional behavior.\n\nThe generated answer is \"C) Both move in the same direction.\" However, this is not necessarily a consistent or defining characteristic of both organisms. Volvox and Paramecium can move in various directions depending on stimuli.\n\nThe ground truth answer is \"D) Both move toward an energy source.\" This refers to positive phototaxis (in Volvox, which moves toward light for photosynthesis) and chemotaxis (in Paramecium, which moves toward favorable chemical environments/food). This shared characteristic—movement toward an energy source—is a more accurate and biologically meaningful similarity in their motility behavior.\n\nThus, while both organisms are motile, the specific observation that they move in the same direction (C) is not equivalent in meaning to moving toward an energy source (D), which reflects a purposeful, biologically relevant behavior.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 724,
+        "question": "Melyik az alábbiak közül atomokból áll?\nA) gravitáció\nB) fény\nC) hő\nD) levegő\nAnswer in English.",
+        "generated_answer": "C) hő",
+        "ground_truth": "D",
+        "assessment": "The question asks which of the following is made up of atoms. \n\n- Gravitation (A) is a force, not composed of atoms.\n- Light (B) consists of photons, which are elementary particles, not atoms.\n- Heat (C) is energy in transfer, typically via atomic or molecular motion, but not composed of atoms itself.\n- Air (D) is a mixture of gases (like nitrogen, oxygen, etc.), which are made up of atoms and molecules.\n\nThus, the correct answer is D) levegő (air), as it is the only option composed of atoms.\n\nThe GENERATED ANSWER is C) hő (heat), which is incorrect because heat is not made of atoms.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 889,
+        "question": "Mi a leginkább szükséges a geotermikus energia termeléséhez?\nA) forró kőzet\nB) fosszilis tüzelőanyag\nC) vastag kéreg\nD) meleg klíma\nAnswer in English.",
+        "generated_answer": "A leginkább szükséges a geotermikus energia termeléséhez a) forró kőzet.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER states that \"the most necessary for geothermal energy production is a) hot rock,\" which matches the content of the GROUND TRUTH, \"A\", as option A corresponds to \"forró kőzet\" (hot rock). Both answers identify the same correct choice, even though the generated answer is written out in full and the ground truth is just the letter. The meaning is equivalent.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 647,
+        "question": "Melyiknek volna a legkevésbé hatása a globális klímaváltozásra?\nA) energia termelése vízerőművekkel\nB) energia termelése szénből\nC) energia termelése olajból\nD) energia termelése földgázból\nAnswer in English.",
+        "generated_answer": "A) energia termelése vízerőművekkel\nC) energia termelése olajból\nD) energia termelése földgázból\nAnswer in Hungarian.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER lists multiple options (A, C, and D), while the GROUND TRUTH specifies only option A as the correct answer. The question asks for the one energy source with the least effect on global climate change, implying a single best answer. Although A (hydroelectric power) is indeed the correct choice, including C and D makes the generated answer incorrect because it suggests those are also valid, which they are not—oil and natural gas significantly contribute to climate change.\n\nThus, the GENERATED ANSWER is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 418,
+        "question": "Melyik hegyképződési típus esetében jönnek létre hegyláncok kizárólag a már korábban létező felsőkéreg anyagából?\nA) tengeri lemez és tengeri lemez közötti szétváló határfelületen\nB) tengeri és kontinentális lemez közötti szétváló határfelületen\nC) tengeri és kontinentális lemez összeolvadó határfelületen\nD) két kontinentális lemez összeolvadó határfelületén\nAnswer in English.",
+        "generated_answer": "A) tengeri lemez és tengeri lemez közötti szétváló határfelületen",
+        "ground_truth": "D",
+        "assessment": "The question asks about which type of mountain formation creates mountain ranges exclusively from pre-existing upper crustal material. The correct geological process for this is the collision of two continental plates (option D), where neither plate subducts significantly, and instead, the existing crust is compressed and uplifted to form mountains.\n\nOption A refers to a divergent boundary between two oceanic plates, which leads to seafloor spreading and the formation of new oceanic crust, not mountain ranges formed from pre-existing continental crust.\n\nThe generated answer selects option A, while the ground truth is option D. These are not equivalent in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1131,
+        "question": "Két fajta bór természetes módon létezik, a bór-10 és a bór-11. Mi a különbség a bór-10 és a bór-11 atomtömeg egységű (amu) atomok között?\nA) neutronok száma\nB) elektronok száma\nC) protonok és neutronok mérete\nD) elektronok mérete és elektronfelhő\nAnswer in English.",
+        "generated_answer": "A) neutronok száma\nA bór-10 és a bór-11 atomtömeg egységű atomok között a legnagyobb különbség a neutronok száma. A bór-10 atomban 10 proton és 10 neutron van, míg a bór-11 atomban 11 proton és 11 neutron van.\n\nA) neutronok száma\nA bór-10 és a bór-11 atomtömeg egységű atomok között a legnagyobb különbség a neutronok száma. A bór-10 atomban 10 proton és 10 neutron van, míg a bór-11 atomban 11 proton és 11 neutron van.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER correctly identifies that the difference between boron-10 and boron-11 is the number of neutrons (neutronok száma), which matches the correct choice \"A\" in the GROUND TRUTH. However, it contains a factual error: both boron-10 and boron-11 have 5 protons (not 10 or 11), as they are isotopes of boron. The number of neutrons differs—boron-10 has 5 neutrons, and boron-11 has 6 neutrons.\n\nDespite this scientific inaccuracy, the answer still selects the correct option \"A) neutronok száma\", which is what the question asks for. Since the task is to evaluate whether the generated answer is equivalent in meaning to the ground truth (which is simply \"A\"), and the generated answer does select option A (even with incorrect reasoning), it matches the expected response format and choice.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 906,
+        "question": "Mely emberi tevékenység befolyásolja közvetlenül az édesvíz források minőségét?\nA) az ózonréteg kimerítése\nB) üzemanyag égetése autómotorokban\nC) szemét kidobása az autó ablakából\nD) az agrár területekről származó folyadékok elfolyódnak\nAnswer in English.",
+        "generated_answer": "D) az agrár területekről származó folyadékok elfolyódnak",
+        "ground_truth": "D",
+        "assessment": "The GENERATED ANSWER provides the full option text \"D) az agrár területekről származó folyadékok elfolyódnak\", which matches the content of option D in the QUESTION. The GROUND TRUTH is \"D\", which refers to the correct choice letter. Since both indicate the same correct option (D), they are equivalent in meaning.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1067,
+        "question": "Egy DNS-szál tartalmaz kódont, amely három nukleotiddal rendelkező szekvenciából áll. Melyik írja le legjobban a kódok jelentőségét a DNS-szekvencia során?\nA) Tartalmazzák az üzenet-RNS kódját.\nB) Jelzik a mitotikus sejtosztódás kezdetét.\nC) Biztosítják a genetikai kód megfelelő replikációját.\nD) Aminosavak összeállítására szolgálnak a fehérjeszintézis során.\nAnswer in English.",
+        "generated_answer": "C) Biztosítják a genetikai kód megfelelő replikációját.",
+        "ground_truth": "D",
+        "assessment": "The question asks about the significance of codons in a DNA sequence. Codons are triplets of nucleotides that specify which amino acid will be added during protein synthesis. \n\nThe generated answer is \"C) Biztosítják a genetikai kód megfelelő replikációját\" (They ensure the proper replication of the genetic code). This is incorrect because codons are not primarily involved in DNA replication, but rather in coding for amino acids during translation.\n\nThe ground truth is \"D\", which corresponds to: \"Aminosavak összeállítására szolgálnak a fehérjeszintézis során\" (They serve to assemble amino acids during protein synthesis). This correctly describes the role of codons.\n\nThus, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "A megnövekedett műtrágya lefolyású területek környékén a tavi élelmiszerláncban az összes heterotróf tudja, hogy számának növekedése mutatkozik. Az első növekedés után a populációk elkezdenek csökkenni. Milyen esemény okozhatta a populációk csökkenését a legvalószínűbb módon?\nA) Több ragadozó került a tóba.\nB) A víz el lett szívódva olyan tápanyagoktól, mint a nitrogén.\nC) Az organizmusok párzási szezonja véget ért.\nD) A lebomló alga csökkentette a feloldott oxigén mennyiségét.\nAnswer in English.",
+        "generated_answer": "A) Több ragadozó került a tóba.\nA populációk csökkenése a ragadozók számának növekedése miatt következhet be. A ragadozók a halakkal táplálkoznak, és ha a populációjuk csökken, akkor a halak száma is csökken.\nB) A víz el lett szívódva olyan tápanyagoktól, mint a nitrogén.\nA nitrogén a növények növekedéséhez szükséges, és ha a víz el szívódik, akkor a növények száma csökken.\nC) Az organizmusok párzási szezonja véget ért.\nA párzási szezon a növények és a halak számára fontos időszak, és ha a szezon véget ér, akkor a halak száma csökken.\nD) A lebomló alga csökkentette a feloldott oxigén mennyiségét.\nA lebomló alga a víz oxigénszintjét csökkenti, és ha a lebomló alga mennyisége csökken, akkor a víz oxigénszintje is csökken.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the most likely event that caused a decrease in populations within the lake's food chain after an initial increase due to excessive fertilizer runoff. Fertilizer runoff leads to eutrophication, which causes algal blooms. When these algae die and decompose, the decomposition process consumes dissolved oxygen in the water, leading to hypoxic conditions that can kill fish and other heterotrophs.\n\nThe GROUND TRUTH answer is D: \"A lebomló alga csökkentette a feloldott oxigén mennyiségét.\" (Decomposing algae reduced the amount of dissolved oxygen). This is the scientifically correct explanation for population decline following an initial surge due to nutrient enrichment.\n\nThe GENERATED ANSWER selects option A (\"More predators entered the lake\") as the correct choice and provides explanations for all options, but incorrectly identifies A as the cause. It does not correctly identify D as the best answer, even though it describes D accurately. The key issue is that the generated answer chooses A instead of D.\n\nSince the GENERATED ANSWER does not match the GROUND TRUTH in meaning or selection, it is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 127,
+        "question": "Melyik bolygó van a Naprendszerben, amelynek a leghosszabb az éve?\nA) A Napközelben lévő bolygó.\nB) Az a bolygó, amelynek a leghosszabb a napja.\nC) Az a bolygó, amelynek a legtöbb holdja van.\nD) A Naprendszerből legtávolabb lévő bolygó.\nAnswer in English.",
+        "generated_answer": "A) A Napközelben lévő bolygó.",
+        "ground_truth": "D",
+        "assessment": "The question asks which planet in the Solar System has the longest year. The correct answer is the planet farthest from the Sun, as it takes the longest time to complete one orbit (i.e., has the longest year). The ground truth indicates that the correct choice is \"D) A Naprendszerből legtávolabb lévő bolygó\" (the planet farthest from the Solar System).\n\nThe generated answer is \"A) A Napközelben lévő bolygó\" (the planet closest to the Sun), which refers to Mercury. Mercury has the shortest year, not the longest.\n\nTherefore, the generated answer is incorrect and does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1123,
+        "question": "Milyen termékek keletkeznek a fotoszintézis során?\nA) klór és cukor\nB) oxigén és cukor\nC) nitrogén és cukor\nD) szén-dioxid és cukor\nAnswer in English.",
+        "generated_answer": "D) szén-dioxid és cukor",
+        "ground_truth": "B",
+        "assessment": "The question asks about the products of photosynthesis. The correct answer is B) oxygen and sugar (oxigén és cukor), as photosynthesis produces oxygen and glucose (a type of sugar) from carbon dioxide and water using sunlight.\n\nThe generated answer is D) carbon dioxide and sugar (szén-dioxid és cukor), which is incorrect because carbon dioxide is a reactant, not a product, in photosynthesis.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 28,
+        "question": "Egy hidépítő versenyen több diák vesz részt, ami azt kéri, hogy fagylalt pálcákból és ragasztóból az erősebb hidat építsék meg. Az általuk épített hidaknak 5 hüvelyk szélesnek kell lenniük és 18 hüvelyk hosszúnak kell lenniük. Melyik a következő teszt lehet a leghatékonyabb módja annak, hogy meghatározzuk az erősebb hidat?\nA) gurítsunk játékautókat mindaddig az összes híd össze nem omlik\nB) helyezzünk betonépítő blokkokat minden hídra, amíg össze nem omlanak\nC) rakjunk érméket mindkét végére minden hídnak, amíg össze nem omlanak\nD) helyezzünk D-cellás elemeket minden híd közepére, amíg össze nem omlanak\nAnswer in English.",
+        "generated_answer": "A) gurítsunk játékautókat mindaddig az összes híd össze nem omlik\nA legjobb módja annak, hogy meghatározzuk az erősebb hidat, ha a diákok gurítják a játékautókat az összes hídon, amíg az egyikük össze nem omlik. A legjobb hidat az alkotó diákok fogják építeni.\nB) helyezzünk betonépítő blokkokat minden hídra, amíg össze nem omlanak\nEz a módszer nem hatékony, mivel a betonépítő blokkok nem erősítik meg a hidakat, és a diákok nem tudják, hogy melyik blokk milyen hatással van a hidakra.\nC) rakjunk érméket mindkét végére minden hídnak, amíg össze nem omlanak\nEz a módszer is nem hatékony, mivel az érmék nem erősítik meg a hidakat, és a diákok nem tudják, hogy melyik érem milyen hatással van a hidakra.\nD) helyezzünk D-cellás elemeket minden híd közepére, amíg össze nem omlanak\nEz a módszer is nem hatékony, mivel a D-cellás elemeket nem lehet a hidakra helyezni, és a diákok nem tudják, hogy melyik D-cellás elem milyen hatással van a hidakra.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the most effective way to determine which bridge is stronger in a competition where bridges are built from popsicle sticks and glue, must be 5 inches wide and 18 inches long.\n\nThe options involve different methods of testing the strength of the bridges by adding weight until collapse.\n\n- The generated answer selects **A)** (rolling toy cars over the bridges) and provides explanations for why each option is or isn't efficient.\n- However, the **ground truth** answer is **D)** (placing D-cell batteries in the center of each bridge until collapse).\n\nLet’s analyze:\n\n- Option A (toy cars): Rolling toy cars may test dynamic load, but toy cars are likely too light and unevenly distributed to effectively measure maximum structural strength. Also, \"until all bridges collapse\" doesn’t make sense if only one collapses at a time.\n- Option D (D-cell batteries placed in the center): This applies a consistent, measurable, and increasing point load at the weakest point (the center), making it a controlled and effective way to test strength. D-cell batteries are standardized weights, so this allows fair comparison.\n\nTherefore, **D** is indeed a more scientifically valid and efficient method than **A**.\n\nThe generated answer incorrectly selects **A** as the best method and justifies it, while dismissing **D** with the false claim that D-cell batteries \"cannot be placed on bridges\" — which is not true.\n\nThus, the generated answer contradicts the ground truth and provides incorrect reasoning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "Tudósok felfedezték, hogy bár fertőző baktériumok fejleszthetnek immunitást az antibiotikumokkal szemben, egyes baktériumok képtelenek ellenállni bizonyos peptideknek, amelyek természetes antibiotikumként működnek az emberi testben. Ez a felfedezés milyen új technológiához vezetett?\nA) mesterséges anyagok, amelyek utánozzák az emberi peptideket\nB) antibiotikumok, amelyek felszívódhatnak a bőrön keresztül\nC) baktériumok, amelyek támadják az antibiotikum-rezisztens szervezeteket\nD) antibiotikumok, amelyek alkalmazkodnak a baktérium-immunitáshoz\nAnswer in English.",
+        "generated_answer": "A) mesterséges anyagok, amelyek utánozzák az emberi peptideket",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER provides the full option \"A) mesterséges anyagok, amelyek utánozzák az emberi peptideket\", which matches the content of option A. The GROUND TRUTH is simply \"A\", referring to the same correct option. Since both point to the identical correct choice in the context of a multiple-choice question, they are equivalent in meaning.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 816,
+        "question": "Egy mérnök számítógépet használ egy híd tervezéséhez. Mely teszt a legfontosabb biztonsági szempontból?\nA) a híd által maximálisan elbírt terhelés\nB) a híd építéséhez használt anyagok költsége\nC) az anyagok újrafeldolgozásának százaléka\nD) a híd felépítésének sebessége\nAnswer in English.",
+        "generated_answer": "C) az anyagok újrafeldolgozásának százaléka",
+        "ground_truth": "A",
+        "assessment": "The question asks which test is most important from a safety perspective when an engineer uses a computer to design a bridge. The correct answer (GROUND TRUTH) is A) the maximum load the bridge can support, as this directly relates to structural safety.\n\nThe GENERATED ANSWER is C) the percentage of materials recycled, which pertains to environmental or sustainability concerns, not safety.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2,
+        "question": "Melyik az egyik fontos biztonsági szabály, amit be kell tartani a vegyszerek használatakor?\nA) Hosszú hajat összefogni.\nB) Minden vegyületet hűtőszekrényben tartani.\nC) Helyesen címkézni minden vizsgálati csövet és üveget.\nD) Megfelelően eldobni az eloltott öngyújtókat.\nAnswer in English.",
+        "generated_answer": "D) Megfelelően eldobni az eloltott öngyújtókat.",
+        "ground_truth": "C",
+        "assessment": "The question asks for an important safety rule to follow when using chemicals. The correct answer (GROUND TRUTH) is C) \"Helyesen címkézni minden vizsgálati csövet és üveget\" (Correctly label all test tubes and containers), which is a fundamental laboratory safety practice.\n\nThe GENERATED ANSWER is D) \"Megfelelően eldobni az eloltott öngyújtókat\" (Properly dispose of extinguished lighters), which is not directly related to handling chemicals in a lab setting and is not equivalent in meaning to the correct answer.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1010,
+        "question": "Egy diák élő zöld növényt helyezett egy légmentes, átlátszó tartályba, amely levegőt tartalmazott a szobából. A tartály egy hétig volt kite exposed napfénynek. A hét végén a diáknak meg kellett határoznia, melyik gázok koncentrációja növekedett. Feltéve, hogy elegendő víz és szén-dioxid áll rendelkezésre a növény megfelelő növekedéséhez, melyik gázt várhatóan nagyobb koncentrációban találjuk?\nA) C\nB) NO_{2}\nC) O_{2}\nD) CO\nAnswer in English.",
+        "generated_answer": "A) C\nA diák által használt légmentes, átlátszó tartályban a levegőből a növények által felhasznált szén-dioxid és a növények által termelt oxigén koncentrációja nőtt. A tartályban lévő víz és szén-dioxid koncentrációja nem változott. Mivel elegendő víz és szén-dioxid áll rendelkezésre a növények megfelelő növekedéséhez, a C-gáz koncentrációja nőtt.",
+        "ground_truth": "C",
+        "assessment": "The question asks which gas concentration would increase in a sealed transparent container with a living green plant exposed to sunlight for a week, assuming sufficient water and carbon dioxide are available. The correct answer is oxygen (O₂), as plants perform photosynthesis in the presence of light, consuming carbon dioxide and releasing oxygen.\n\nThe GENERATED ANSWER selects option A) C, claiming that the concentration of \"C-gas\" increased. However, \"C\" (carbon) is not a gas under normal conditions and does not make sense in this context. The explanation incorrectly refers to \"C-gáz\" (C gas), which is scientifically inaccurate. Although the text mentions oxygen production (\"a növények által termelt oxigén koncentrációja nőtt\"), it ultimately concludes with \"C-gáz koncentrációja nőtt\", which is contradictory and incorrect.\n\nThe GROUND TRUTH is C, which corresponds to O₂ (oxygen), the correct choice among the listed options.\n\nSince the GENERATED ANSWER selects A) C instead of C) O₂, it is factually wrong despite containing some correct background information.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "A termelők az ökoszisztémák többségében fotoszintézis útján nyerik el az élelmiszerláncokhoz szükséges energiát. Melyik ökoszisztémában kell a termelőknek gázokból, mint például metán és hidrogén-szulfidból nyerni az energiát?\nA) korallzátony\nB) magas sivatagi terület\nC) óceáni árok\nD) örökzöld erdő\nAnswer in English.",
+        "generated_answer": "A) korallzátony\nA termelőknek a korallzátonyokon kell gázokból energiát nyerniük. A korallzátonyok a tengerek és óceánok legkülönfélébb élőhelyei, ahol a termelőknek a korallok és a tengeralattjárók segítségével kell energiát nyerniük a fotoszintézis útján. A korallok és a tengeralattjárók a korallzátonyokhoz kapcsolódó ökoszisztémákban élnek, és a fotoszintézis útján nyerik el az energiájukat.",
+        "ground_truth": "C",
+        "assessment": "The question asks in which ecosystem producers must obtain energy from gases such as methane and hydrogen sulfide, rather than through photosynthesis. The correct answer is C) óceáni árok (ocean trench), because in deep-sea environments like ocean trenches, where sunlight does not penetrate, producers (like chemosynthetic bacteria) rely on chemosynthesis using chemicals such as methane and hydrogen sulfide.\n\nThe generated answer incorrectly selects A) korallzátony (coral reef) and claims that producers there obtain energy from gases, which is false. Coral reefs rely on photosynthesis, primarily through symbiotic algae (zooxanthellae), not chemosynthesis from gases.\n\nAdditionally, the explanation in the generated answer contradicts itself by stating that producers in coral reefs obtain energy through photosynthesis, while the question specifically asks about ecosystems where producers use gases for energy—implying chemosynthesis.\n\nThus, the generated answer is factually incorrect and does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 499,
+        "question": "Wyoming-beli gazdák aggódtak, mert néhány tyúkjukat héják zsákmányolták, akik a farmon átívelő területeken éltek. A gazdák összefogtak és vadásztak a héjákra, míg azok nem tűntek el a területükről. Mi történne a legvalószínűbbül ezután?\nA) A tyúkpopuláció csökkenni fog.\nB) Az egér- és patkánypopuláció növekedni fog.\nC) Egy másik ragadozó madár felváltaná a héját.\nD) A tyúkok kisebb arányban lennének betegek.\nAnswer in English.",
+        "generated_answer": "A) A tyúkpopuláció csökkenni fog.\nB) Az egér- és patkánypopuláció növekedni fog.\nC) Egy másik ragadozó madár felváltaná a héját.\nD) A tyúkok kisebb arányban lennének betegek.\nAnswer in Hungarian.",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER lists all the options in Hungarian, including the correct one (B), but it does not clearly select or indicate that B is the answer. Instead, it simply repeats all the choices without making a selection. Therefore, it does not convey the same meaning as the GROUND TRUTH, which is solely \"B\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "A réz egy elem, amelyet elektromos vezetékekhez használnak. Mi a legkisebb rézelem egysége, amely még mindig megőrzi a réz jellemzőit?\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\nAnswer in English.",
+        "generated_answer": "A réz egy fém, amely elektromos vezetőképességében és ellenállóságában különbözik a többi fémtől. A rézatomok (az atomok középpontjában lévő protonok és elektronok) a réz tulajdonságait adják. A rézatomok száma a rézfémek tulajdonságaitól függ. A rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomszám a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\nA rézatomok száma a rézfémek rézatomszámának megfelelően változik. A rézatomszám a következőképpen határozható meg:\n\nA) az atom\nB) az elektron\nC) a mag\nD) a proton\n\n",
+        "ground_truth": "A",
+        "assessment": "The question asks: \"What is the smallest unit of copper that still retains the characteristics of copper?\" The correct answer is \"A) az atom\" (the atom), as the atom is the smallest unit of an element that retains its chemical properties.\n\nAlthough the generated answer contains a lot of repetitive and irrelevant text, it repeatedly lists the multiple-choice options and consistently highlights **A) az atom** as part of a recurring structure. Despite the verbosity and lack of clarity, it does not contradict or suggest any other option as correct. However, it fails to clearly and directly state that the answer is \"A) az atom\" in a coherent way, and instead appears to be malfunctioning or corrupted due to repetition.\n\nCrucially, the generated answer does not explicitly select or confirm \"A) az atom\" as the correct choice—it just repeats the options over and over. Therefore, it does not effectively communicate the correct answer.\n\nThus, it cannot be considered equivalent in meaning to the ground truth, which is simply \"A\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 128,
+        "question": "Négy jelentős különbséget mutató háztartási készülék (turmixgép, mixer, kenyérpirító és élelmiszer-feldolgozó) van bedugva az asztalon elhelyezett négy aljzatba. Az egyik vagy több készülék ki- vagy bekapcsolása nem érinti a többi készülék teljesítményét, mert a négy készülék\nA) egyenes állományon fut.\nB) sorba vannak kapcsolva.\nC) párhuzamosan vannak kapcsolva.\nD) váltóáramon futnak.\nAnswer in English.",
+        "generated_answer": "C) párhuzamosan vannak kapcsolva.\n\nA négy készülék egyenes állományon fut, és a kapcsolásuk miatt nem befolyásolja egymás teljesítményét.",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER selects \"C) párhuzamosan vannak kapcsolva\", which matches the GROUND TRUTH \"C\". However, it adds an incorrect explanation stating that \"the four devices run on a straight line (oneenes allomanyon fut)\", which contradicts the correct concept of parallel connection. In electrical circuits, devices that do not affect each other's performance when switched are connected in parallel, not in series (\"straight line\" implies series). The added misinformation makes the reasoning flawed, even though the letter choice is correct.\n\nSince the explanation contradicts the correct answer and introduces false information, the overall meaning is not equivalent to the correct, concise answer \"C\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 391,
+        "question": "Kutatások folynak arról, hogy a Napenergiát felhasználva a vízmolekulákat hidrogénre és oxigénre bonthassuk. Az oxigén a környezetbe jut, míg a hidrogént üzemanyagnak használhatjuk. Melyik állítás írja le, hogy ez a technológia hogyan hasznosítja a környezetet?\nA) A hidrogén tulajdonságait jobban megérthetjük.\nB) A tiszta energiaforrások elérhetősége növekedni fog.\nC) Az atmoszféra oxigénnel lesz ellátva.\nD) A Nap bőséges energiakínálatát fogjuk felhasználni.\nAnswer in English.",
+        "generated_answer": "A) A hidrogén tulajdonságait jobban megérthetjük.",
+        "ground_truth": "B",
+        "assessment": "The question asks how the described technology benefits the environment. The technology involves using solar energy to split water molecules into hydrogen and oxygen, with hydrogen being used as fuel and oxygen released into the environment.\n\nThe generated answer is \"A) We can better understand the properties of hydrogen,\" which refers to gaining knowledge about hydrogen, not an environmental benefit.\n\nThe ground truth is \"B) The availability of clean energy sources will increase,\" which correctly identifies an environmental benefit: increased access to clean energy through hydrogen fuel produced using solar power.\n\nThese two answers do not convey the same meaning. The generated answer focuses on understanding hydrogen's properties, while the correct answer emphasizes the environmental advantage of cleaner, more accessible energy.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "Egy építőmunkás kalapáccsal ütött egy masszív acél falra, de a fal nem mozdult. Az általa kifejtett energia\nA) az acélfal által elpusztult.\nB) hővé alakult át.\nC) eltűnt a légkörben.\nD) a kemény felszín által állt meg.\nAnswer in English.",
+        "generated_answer": "A)",
+        "ground_truth": "B",
+        "assessment": "The question asks about what happens to the energy exerted by a construction worker when hitting a massive steel wall with a hammer, where the wall does not move. According to the laws of physics, energy cannot be destroyed but is transformed into other forms. When the hammer strikes the immovable steel wall, the kinetic energy is primarily converted into heat and sound due to deformation and friction at the point of impact.\n\nThe generated answer is \"A)\", which corresponds to \"destroyed by the steel wall.\" This is incorrect because energy cannot be destroyed.\n\nThe ground truth is \"B\", which corresponds to \"converted into heat.\" This is correct, as the energy is transformed into heat (and some sound).\n\nTherefore, the generated answer does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 454,
+        "question": "Mi történik az állatoknál a megtermékenyítés során?\nA) hímivarsejt és petesejt termelése\nB) hímivarsejt és petesejt összekapcsolódása\nC) petesejt megosztása\nD) embrió fejlődése\nAnswer in English.",
+        "generated_answer": "A) hímivarsejt és petesejt termelése",
+        "ground_truth": "B",
+        "assessment": "The question asks what happens during fertilization in animals. Fertilization refers to the process where a sperm cell (male gamete) and an egg cell (female gamete) fuse together, which corresponds to option B: \"hímivarsejt és petesejt összekapcsolódása\" (union of sperm and egg cell).\n\nThe GENERATED ANSWER is A, which refers to the production of male and female gametes (gametogenesis), not fertilization.\n\nThe GROUND TRUTH is B, which correctly identifies the fusion of gametes as the event occurring during fertilization.\n\nThus, the GENERATED ANSWER does not match the meaning of the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 488,
+        "question": "A Florida Keysek víztömegei szennyeződnek. Ez a szennyezés kihat a Keysekben található sokféle tengeri ökoszisztémára. Melyik intézkedés valószínűleg csökkentené a leginkább a vízszennyezést?\nA) komposzt használata a gyep és kert trágyázására\nB) a mosógépekben használt vizet használni a gyep öntözésére\nC) olyan autók használata, amelyek kőolajtermékekre vannak tervezve\nD) több műanyag palack használata és azok szemétdombra dobása\nAnswer in English.",
+        "generated_answer": "A) komposzt használata a gyep és kert trágyázására",
+        "ground_truth": "A",
+        "assessment": "The question asks which measure would most likely reduce water pollution in the Florida Keys. The correct answer is option A, which refers to using compost to fertilize lawns and gardens. This practice reduces reliance on chemical fertilizers and minimizes runoff pollution, thus helping to protect marine ecosystems.\n\nThe GENERATED ANSWER states \"A) komposzt használata a gyep és kert trágyázására\", which matches exactly with option A in the original question and reflects the same meaning as the GROUND TRUTH \"A\", since \"A\" refers to that same option.\n\nEven though the generated answer includes the full text of option A instead of just \"A\", it still conveys the identical intended meaning as the ground truth in the context of multiple-choice answers.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 291,
+        "question": "Mi az, amit a hullámok átvisznek az objektumokon?\nA) hang\nB) fény\nC) energia\nD) víz\nAnswer in English.",
+        "generated_answer": "A) választható",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER \"A) választható\" translates to \"A) selectable\" in English, which is not equivalent to the GROUND TRUTH \"C\", referring to \"energia\" (energy). The correct answer should be \"C) energia\" based on the question, which asks what waves transfer through objects. The generated answer selects option A and provides a nonsensical term (\"selectable\") that does not match the expected concept of \"energy\".\n\nTherefore, the meaning is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1112,
+        "question": "Melyik állítás jellemzi legjobban a vizet?\nA) A folyékony víz megtartja alakját.\nB) A víz gázzá alakul, amint forr.\nC) A jég folyékony állapotba kerül, amikor megfagy.\nD) A szilárd jég az őt tartalmazó edény alakját veszi fel.\nAnswer in English.",
+        "generated_answer": "A) A folyékony víz megtartja alakját.",
+        "ground_truth": "B",
+        "assessment": "The question asks which statement best characterizes water. Let's analyze each option:\n\nA) \"A folyékony víz megtartja alakját.\" – This is false because liquid water does not retain its shape; it takes the shape of its container.\n\nB) \"A víz gázzá alakul, amint forr.\" – This is true; when water boils, it turns into gas (water vapor).\n\nC) \"A jég folyékony állapotba kerül, amikor megfagy.\" – This is false; when ice freezes, it becomes solid, not liquid.\n\nD) \"A szilárd jég az őt tartalmazó edény alakját veszi fel.\" – This is false; solid ice retains its own shape and does not take the shape of the container like a liquid.\n\nThe correct answer is B.\n\nThe GENERATED ANSWER is A, which is incorrect.\n\nThus, the generated answer does not match the GROUND TRUTH (B).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 917,
+        "question": "Egy 60 kg-os férfi és egy 25 kg-os fiú, mindketten görgőkorcsolyán vannak és kezükkel taszítják egymást. Melyik leírás jellemzi a két ember mozgását?\nA) A férfi távolabb és gyorsabban mozog, mint a fiú.\nB) A fiú távolabb és gyorsabban mozog, mint a férfi.\nC) A férfi ugyanolyan sebességgel, de távolabb mozog, mint a fiú.\nD) A fiú ugyanolyan távolságot, de gyorsabban mozog, mint a férfi.\nAnswer in English.",
+        "generated_answer": "A) A férfi távolabb és gyorsabban mozog, mint a fiú.",
+        "ground_truth": "B",
+        "assessment": "The question describes a scenario where a 60 kg man and a 25 kg boy, both on roller skates, push each other away. According to Newton's third law, the forces they exert on each other are equal and opposite. However, due to their different masses, their accelerations will differ. The lighter person (the boy) will experience greater acceleration and thus move faster and farther than the heavier man.\n\nThe generated answer states:  \n\"A) A férfi távolabb és gyorsabban mozog, mint a fiú.\"  \nThis translates to: \"The man moves farther and faster than the boy,\" which is incorrect.\n\nThe ground truth is B:  \n\"B) A fiú távolabb és gyorsabban mozog, mint a férfi.\"  \nThis means: \"The boy moves farther and faster than the man,\" which is correct.\n\nTherefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Ha egy különleges készüléken keresztül elektromos áram halad keresztül a vízen (H_{2}O), hidrogén (H_{2}) és oxigén (O_{2}) gázok keletkeznek. Hogyan lehet ezt a reakciót kémiai egyenlettel kifejezni?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(f) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(f) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "A) H_{2}O -> H + O + H",
+        "ground_truth": "B",
+        "assessment": "The question asks for the correct chemical equation representing the electrolysis of water (H₂O), which produces hydrogen gas (H₂) and oxygen gas (O₂). The correct balanced chemical equation is:\n\n2H₂O(l) → 2H₂(g) + O₂(g)\n\nThis corresponds to option B.\n\nThe GENERATED ANSWER selects option A: H₂O → H + O + H, which is incorrect because it does not represent the formation of diatomic gases (H₂ and O₂), is unbalanced, and shows atoms instead of molecules.\n\nThe GROUND TRUTH is \"B\", meaning the correct choice is option B.\n\nSince the GENERATED ANSWER (A) is not equivalent in meaning to the GROUND TRUTH (B), the answers are not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 164,
+        "question": "Melyik tulajdonság öröklődik, de nagyban befolyásolja az környezet?\nA) nyelv gördítési képesség\nB) sportteljesítmény\nC) nyelv\nD) szem színe\nAnswer in English.",
+        "generated_answer": "A) nyelv gördítési képesség\nB) sportteljesítmény\nC) nyelv\nD) szem színe\nAnswer in Hungarian.",
+        "ground_truth": "B",
+        "assessment": "The GENERATED ANSWER lists all the options and specifies \"Answer in Hungarian,\" but it does not clearly select option B as the correct answer. Instead, it appears to repeat the question's choices without indicating understanding or selection. The GROUND TRUTH is simply \"B\", meaning the correct answer is B) sportteljesítmény.\n\nSince the GENERATED ANSWER does not explicitly identify B as the correct choice and instead presents all options without resolution, it does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "A felhők esőt és havat hoznak a Föld felszínére. Hogyan támogatják leginkább az életet a Földön az eső és a hó?\nA) Lehűtik a földfelszínt.\nB) Savakat juttatnak a talajba.\nC) Süntet frissvizet az élőlények számára.\nD) Hegyeket építenek fel.\nAnswer in English.",
+        "generated_answer": "A felhők esőt és havat hoznak a Föld felszínére. Hogyan támogatják leginkább az életet a Földön az eső és a hó?\nA) Lehűtik a földfelszínt.",
+        "ground_truth": "C",
+        "assessment": "The question asks how rain and snow support life on Earth the most. The generated answer selects option A (\"Lehűtik a földfelszínt\" – \"They cool the Earth's surface\"), while the ground truth is C (\"Süntet frissvizet az élőlények számára\" – \"Provide fresh water for living organisms\").\n\nAlthough cooling the Earth's surface can be a secondary effect, the primary and most essential way rain and snow support life is by providing fresh water, which is critical for all living organisms. Therefore, the generated answer does not match the correct (ground truth) meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1040,
+        "question": "Az eszközök néha régi gleccserekről árulkodnak. Mi az a legjobb jel, hogy a gleccserek egy területet egyszer már beborítottak?\nA) A köveken sok repedés van.\nB) A kövekben fosszíliák vannak.\nC) A köveket moha borította be.\nD) A kövek mélyen a föld alatt találhatók.\nAnswer in English.",
+        "generated_answer": "A) A köveken sok repedés van.",
+        "ground_truth": "A",
+        "assessment": "The question asks for the best indicator that glaciers once covered an area. The generated answer selects option A (\"A köveken sok repedés van\" – \"There are many cracks on the stones\"), which matches the content of the ground truth, as the ground truth is simply \"A\", referring to the same option.\n\nBoth the generated answer and the ground truth point to the same choice, indicating equivalence in meaning.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1002,
+        "question": "Melyik elemek csoportja tartalmaz csak fémeket?\nA) jód, vas, nikkel\nB) hélium, szén, arany\nC) nátrium, króm, réz\nD) foszfor, nitrogén, oxigén\nAnswer in English.",
+        "generated_answer": "C) nátrium, króm, réz",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER \"C) nátrium, króm, réz\" correctly identifies option C as the one containing only metals, which matches the GROUND TRUTH \"C\". Both refer to the same correct choice in the multiple-choice question. The format differs slightly (the generated answer includes the elements, while the ground truth only includes the letter), but the meaning is equivalent.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "Melyik életszakaszában eszi a legtöbb növényi levelet a pillangó?\nA) felnőtt\nB) pete\nC) lárvája\nD) báb\nAnswer in English.",
+        "generated_answer": "C) lárvája",
+        "ground_truth": "C",
+        "assessment": "The GENERATED ANSWER \"C) lárvája\" and the GROUND TRUTH \"C\" both refer to the same option, which corresponds to the larval stage of the butterfly. The question asks in which life stage the butterfly consumes the most plant leaves, and both answers point to the correct choice (larva). Even though the generated answer includes the label \"lárvája\", it still correctly identifies option C, which matches the ground truth.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 617,
+        "question": "Melyik a legjobb megoldási lépéssorrend a technológiai problémák megoldásakor?\nA) Azonosítsa a problémát, értékelje a megoldást, vizsgálja meg a lehetséges megoldásokat és válasszon egy megoldást.\nB) Azonosítsa a problémát, vizsgálja meg a lehetséges megoldásokat, válasszon egy megoldást és értékelje a megoldást.\nC) Azonosítsa a problémát, válasszon egy megoldást, vizsgálja meg a lehetséges megoldásokat és értékelje a megoldást.\nD) Azonosítsa a problémát, értékelje a megoldást, válasszon egy megoldást és vizsgálja meg a lehetséges megoldásokat.\nAnswer in English.",
+        "generated_answer": "D) Azonosítsa a problémát, értékelje a megoldást, válasszon egy megoldást és vizsgálja meg a lehetséges megoldásokat.",
+        "ground_truth": "B",
+        "assessment": "The question asks for the best step-by-step sequence for solving technological problems. The correct (ground truth) answer is B: Identify the problem, examine possible solutions, choose a solution, and evaluate the solution.\n\nThe generated answer is D: Identify the problem, evaluate the solution, choose a solution, and examine possible solutions.\n\nThis order is incorrect because evaluating the solution (in D) occurs before choosing it and even before examining possible solutions, which is logically flawed. In contrast, option B follows a logical sequence: first identify the problem, then consider possible solutions, select one, and finally evaluate it.\n\nTherefore, the generated answer (D) does not match the ground truth (B) in meaning or correctness.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1128,
+        "question": "Melyik az alábbiak közül sorolja fel a Földet, a Jupiter bolygót, a Holdat és a Napot méretük szerint a legnagyobbtól a legkisebbig?\nA) Jupiter, Föld, Nap, Hold\nB) Nap, Jupiter, Föld, Hold\nC) Nap, Jupiter, Hold, Föld\nD) Jupiter, Nap, Föld, Hold\nAnswer in English.",
+        "generated_answer": "A) Jupiter, Föld, Nap, Hold\n\nA válasz helyes, mivel a Föld a legnagyobb, a Jupiter a második legnagyobb, a Nap a harmadik legnagyobb, és a Hold a negyedik legnagyobb bolygó a Naprendszerben.",
+        "ground_truth": "B",
+        "assessment": "The question asks to order the Earth, Jupiter, the Moon, and the Sun by size from largest to smallest. The correct order is: Sun (largest), Jupiter, Earth, Moon (smallest). Therefore, the correct answer is option B: \"Nap, Jupiter, Föld, Hold\".\n\nThe GENERATED ANSWER selects option A and incorrectly claims that Earth is the largest and Jupiter the second largest, which is false. It also wrongly states that Earth is larger than the Sun and Jupiter, which is not true. The explanation provided in the generated answer is factually incorrect.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 596,
+        "question": "Dennis úgy hiszi, hogy a Föld kérge mindenhol egyenletes vastagságú a világ minden pontján. Charlie azt állítja, hogy Dennis téved, de neki nincsenek tények az érveléshez. Melyik tény segítene Charlie-nak?\nA) A Föld kissé ellapított a sarkokon, a forgása miatt.\nB) A kontinensek vastag kőtömegek, eltérően az óceánok fenekéről.\nC) A Földnek van egy szilárd gömb alakú belső magja, amely túlnyomórészt vasból áll.\nD) A Föld lemezei folyamatosan mozognak nagyon lassú sebességgel.\nAnswer in English.",
+        "generated_answer": "D) A Föld lemezei folyamatosan mozognak nagyon lassú sebességgel.",
+        "ground_truth": "B",
+        "assessment": "The question asks which fact would help Charlie prove that Dennis is wrong in believing the Earth's crust has uniform thickness everywhere. The correct answer should provide evidence that the Earth's crust varies in thickness.\n\n- Option B states that continents are thick masses of rock, different from ocean floors, which directly supports the idea that the crust's thickness varies.\n- Option D mentions that tectonic plates are constantly moving slowly, which relates to plate tectonics but does not directly address crustal thickness.\n\nThus, while both options relate to Earth's geology, only option B provides a fact that directly contradicts Dennis's claim by showing variation in crust thickness.\n\nThe GENERATED ANSWER is D, but the GROUND TRUTH is B. These are not equivalent in meaning with respect to answering the question correctly.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "Sok baktérium gyorsan szaporodik kb. 20°C-os szobahőmérsékleten. A hűtőszekrényben a hőmérséklet általában 4°C-ra van tartva. Melyik állítás magyarázza legjobban, hogy hogyan segítette a társadalmat a hűtőszekrény használata?\nA) Hűtőtartó használatával az étkezők hűvösebbek maradnak nyáron.\nB) Több helyet biztosít az élelmiszer tárolásához.\nC) Az élelmiszer hosszabb ideig tartósabban fogyaszthatóvá válik.\nD) Az áram használata biztonságosabbá válik az ételkészítés során.\nAnswer in English.",
+        "generated_answer": "A) Hűtőtartó használatával az étkezők hűvösebbek maradnak nyáron.",
+        "ground_truth": "C",
+        "assessment": "The question asks which statement best explains how the use of refrigerators has helped society, given that bacteria multiply quickly at room temperature (around 20°C) but refrigerators are kept at 4°C. The correct explanation would relate to food preservation due to slowed bacterial growth.\n\nThe generated answer is option A: \"Using a refrigerator keeps dining areas cooler in summer.\" This does not address food safety or preservation and is irrelevant to the effect of low temperatures on bacterial growth.\n\nThe ground truth is option C: \"Food remains edible for a longer period.\" This correctly explains that refrigeration slows bacterial multiplication, thereby preserving food longer.\n\nSince the generated answer (A) does not match the meaning of the ground truth (C), they are not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1121,
+        "question": "Melyik állítás írja le a legjobban az összes energiaátvitel típusát?\nA) Mérhetőek.\nB) 100%-os hatékonyságúak.\nC) Állandó arányban csökkennek.\nD) A használható energia csökkenéséhez vezetnek.\nAnswer in English.",
+        "generated_answer": "A) Mérhetőek.",
+        "ground_truth": "D",
+        "assessment": "The question asks which statement best describes all types of energy transfer. The correct answer (GROUND TRUTH) is D: \"A használható energia csökkenéséhez vezetnek\" (Leads to a decrease in usable energy), which refers to the concept of energy degradation, especially in accordance with the second law of thermodynamics — a principle that applies universally to all energy transfers.\n\nThe GENERATED ANSWER is A: \"Mérhetőek\" (Measurable). While energy transfers are indeed measurable, this characteristic does not best describe *all* energy transfer types in a comprehensive or defining way, especially compared to the idea of decreasing usable energy, which is a fundamental and universal aspect.\n\nTherefore, the generated answer does not match the meaning of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 681,
+        "question": "A lézeres műtétek során a következőre használják:\nA) Finom bemetszések készítésére.\nB) Műtéti területek megvilágítására.\nC) Sebek összevarrására.\nD) Eszközök fertőtlenítésére.\nAnswer in English.",
+        "generated_answer": "A) Finom bemetszések készítésére.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER states \"A) Finom bemetszések készítésére\", which translates to \"For making fine incisions\" and directly corresponds to option A. The GROUND TRUTH is \"A\", which refers to the same correct option. Both indicate that lasers are used for making fine incisions during surgeries. Despite the generated answer being in Hungarian and including the full text of the option, it correctly identifies option A, which matches the meaning of the ground truth.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "Mi tartja a Földet az Nap körüli pályáján?\nA) a Hold tehetetlensége\nB) a Föld pályájának helyzete\nC) a Föld forgásának sebessége\nD) a Nap gravitációs vonzása\nAnswer in English.",
+        "generated_answer": "A) a Hold tehetetlensége",
+        "ground_truth": "D",
+        "assessment": "The question asks what keeps Earth in its orbit around the Sun. The correct answer is \"D) a Nap gravitációs vonzása\" (the gravitational attraction of the Sun). The generated answer is \"A) a Hold tehetetlensége\" (the Moon's inertia), which is incorrect and does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 416,
+        "question": "Melyik állítás magyarázza leginkább, hogy miért térnek vissza a lazacok az édesvízbe a tengervízből?\nA) Ez egy tanult viselkedés, amely fenntartja a populációt.\nB) Ez egy tanult viselkedés, amely fenntartja a só koncentrációját.\nC) Ez egy öröklött viselkedés, amely fenntartja a populációt.\nD) Ez egy öröklött viselkedés, amely fenntartja a só koncentrációját.\nAnswer in English.",
+        "generated_answer": "A) Ez egy tanult viselkedés, amely fenntartja a populációt.",
+        "ground_truth": "C",
+        "assessment": "The question asks which statement best explains why salmon return to freshwater from saltwater. The correct answer (GROUND TRUTH) is C: \"This is an inherited behavior that maintains the population.\"\n\nThe GENERATED ANSWER is A: \"This is a learned behavior that maintains the population.\"\n\nThe key difference lies in whether the behavior is \"learned\" (A) or \"inherited\" (C). Scientifically, salmon returning to freshwater to spawn is an innate, genetically programmed (i.e., inherited) behavior, not one that is learned. Therefore, option C is correct, and option A is incorrect.\n\nSince the generated answer selects A instead of C, it does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "Az összes földi természeti erőforrás megújuló vagy nem megújuló. Attól függően, hogy egy erőforrás megújuló vagy nem megújuló-e, hogy mennyire gyorsan vagy lassan pótolják az erőforrást. Ha az erőforrást gyorsabban használják fel, mint ahogy pótolják, akkor az idővel eltűnik. Melyik tevékenység mutatja be a nem megújuló természeti erőforrás felhasználását?\nA) Emberek úsznak egy folyóban.\nB) Építkezési brigád vas hídat épít.\nC) Egy gazda zöldséget termeszt, hogy eladja azon a helyi piacon.\nD) Egy személy tortát süt árammal, amelyet vízerőmű állít elő.\nAnswer in English.",
+        "generated_answer": "A) Emberek úsznak egy folyóban.",
+        "ground_truth": "B",
+        "assessment": "The question asks which activity demonstrates the use of a non-renewable natural resource. \n\n- Option A (People swimming in a river) involves recreation and does not involve consuming a non-renewable resource.\n- Option B (A construction crew building an iron bridge) involves the use of iron, which is a non-renewable resource because it is a mineral extracted from the Earth and cannot be replenished quickly.\n- Option C (A farmer growing vegetables) involves renewable agricultural resources.\n- Option D (A person baking a cake using electricity from a hydroelectric plant) uses renewable energy.\n\nThus, the correct answer is B.\n\nThe GENERATED ANSWER is \"A\", which is incorrect and does not match the GROUND TRUTH \"B\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 589,
+        "question": "Hogyan működnek együtt az emberi keringési és légzőrendszerek?\nA) A szív eltávolítja a tüdőben felhalmozódott hulladékot.\nB) Az oxigén közvetlenül áramlik a véráramba az orrból.\nC) Az oxigén átjut a véráramba, amikor a vér a tüdőnél elhalad.\nD) A szív levegőt pumpál a tüdőn keresztül a vérbe.\nAnswer in English.",
+        "generated_answer": "D) A szív levegőt pumpál a tüdőn keresztül a vérbe.\nAnswer in Hungarian.",
+        "ground_truth": "C",
+        "assessment": "The question asks how the human circulatory and respiratory systems work together. The correct answer (GROUND TRUTH) is C: \"Oxygen passes into the bloodstream when blood passes by the lungs.\" This accurately describes gas exchange in the alveoli of the lungs, where oxygen diffuses into the blood and carbon dioxide is removed.\n\nThe GENERATED ANSWER is D: \"The heart pumps air through the lungs into the blood.\" This is incorrect because the heart does not pump air; it pumps blood. Air enters the lungs through breathing, not via the heart.\n\nThus, the GENERATED ANSWER conveys a scientifically inaccurate explanation and does not match the meaning of the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 911,
+        "question": "Milyen hőmérsékleten fagy meg a víz?\nA) 0 Celsius fok\nB) 32 Celsius fok\nC) 100 Celsius fok\nD) 212 Celsius fok\nAnswer in English.",
+        "generated_answer": "A) 0 Celsius fok\nC) 100 Celsius fok\nD) 212 Celsius fok",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER lists multiple options (A, C, and D), while the GROUND TRUTH is only \"A\", indicating that the correct answer is solely option A. The question asks for the temperature at which water freezes, which is 0 degrees Celsius (option A). Options C (100°C) and D (212°C) are incorrect as they refer to boiling points (Celsius and Fahrenheit, respectively).\n\nSince the GENERATED ANSWER includes incorrect options in addition to the correct one, it does not match the GROUND TRUTH, which specifies only the correct choice.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 187,
+        "question": "Tápanyagban gazdag vizek áramlanak be a nehéz esőktől az Mexikói-öbölbe. Ez algavirágzást okoz az óceán környezetében. Ahogy az alga lebomlik, nagy mennyiségű oxigént használ fel a partvonal mentén. Ennek eredményeként mi valószínűleg történne a területen?\nA) A nitrogén kiszorítja az oxigént a vízből.\nB) A víz hőmérséklete emelkedik.\nC) A hullámzás eltávolítja az elhalt algát.\nD) Az aljzatban élők elpusztulnak és a halak elúsznak.\nAnswer in English.",
+        "generated_answer": "A) A nitrogén kiszorítja az oxigént a vízből.",
+        "ground_truth": "D",
+        "assessment": "The question describes a situation where nutrient-rich waters flow into the Gulf of Mexico, causing algal blooms. As the algae decompose, they consume large amounts of oxygen along the coastline, leading to hypoxic (low-oxygen) conditions. This process typically results in the death of bottom-dwelling organisms and forces fish to leave the area.\n\nThe generated answer states: \"A) Nitrogen displaces oxygen from the water,\" which is scientifically incorrect. Nitrogen does not displace oxygen in this context; rather, the decomposition process consumes oxygen. The correct effect described in the ground truth is \"D) Bottom-dwellers die and fish swim away,\" which accurately reflects the consequences of oxygen depletion.\n\nThus, the generated answer does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "Melyik kérdést lehetne a legjobban tudományos kutatással megválaszolni a tulipánokkal kapcsolatban?\nA) Jobbak-e a tulipánok más virágoknál?\nB) Milyen gének határozzák meg a tulipán szirmok színét?\nC) Miért szeretik az emberek nézni a tulipánokat?\nD) Melyik tulipán szín a legszebb?\nAnswer in English.",
+        "generated_answer": "A) Tulipánok és más virágok között nincsenek jelentős különbségek a virágok színeiben.\nB) A tulipánok színe a virágzás során a virágzási időszakban a virágzási hormonok hatására alakul ki.\nC) A tulipánok színe a virágzási hormonok hatására alakul ki.\nD) A tulipánok színe a virágzási hormonok hatására alakul ki.\nAnswer in Hungarian.",
+        "ground_truth": "B",
+        "assessment": "The question asks which of the listed questions can best be answered through scientific research regarding tulips. The correct answer (GROUND TRUTH) is B: \"Milyen gének határozzák meg a tulipán szirmok színét?\" (Which genes determine the color of tulip petals?), as it is a scientifically investigable, objective question about genetics.\n\nThe GENERATED ANSWER provides explanations in Hungarian for each option but does not directly select or identify option B as the correct choice. Instead, it gives biological explanations focused on hormones influencing color, which is related to B but not equivalent to selecting B as the best answer. Furthermore, the generated response fails to clearly and correctly choose the right multiple-choice option (B), which is what the question requires.\n\nTherefore, the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 495,
+        "question": "Egy diák azt a hipotézist tételezi fel, hogy ha egy lufit egy pólón dörzsöl, majd a falra tapasztja, az álló elektromosság miatt fenn fog maradni. Mi a legjobb módja annak, hogy bizonyítsuk, hogy az eredmények megbízhatóak?\nA) Jegyezze fel a kísérlet eredményeit.\nB) Ismételje meg ugyanezt a kísérletet többször.\nC) Tegyen fel egy másik hipotézist az álló elektromosságról.\nD) Hajtson végre egy másik álló elektromossági kísérletet.\nAnswer in English.",
+        "generated_answer": "A legjobb módja annak, hogy bizonyítsuk, hogy az eredmények megbízhatóak, az A) jegyezni a kísérlet eredményeit.",
+        "ground_truth": "B",
+        "assessment": "The question asks for the best way to prove that the results are reliable. The correct scientific approach to ensure reliability is to repeat the experiment multiple times (option B), as reproducibility is a key factor in validating experimental results.\n\nThe generated answer states that the best way is \"A) recording the experiment results,\" which is not sufficient on its own to prove reliability—recording data is important, but it does not confirm consistency or reliability of results.\n\nTherefore, the generated answer does not match the ground truth, which correctly identifies option B.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 594,
+        "question": "Melyik természeti esemény fordul elő a leggyakrabban?\nA) napfelkelte\nB) napéjegyenlőség\nC) telihold\nD) napfogyatkozás\nAnswer in English.",
+        "generated_answer": "C) telihold",
+        "ground_truth": "A",
+        "assessment": "The question asks which natural event occurs most frequently. The correct answer is A) napfelkelte (sunrise), as sunrise happens every day, making it more frequent than full moon (telihold), equinox (napéjegyenlőség), or solar eclipse (napfogyatkozás). The generated answer states C) telihold (full moon), which is incorrect because full moons occur roughly once a month, much less frequently than daily sunrises.\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 376,
+        "question": "Melyik jellemzi a hőszigetelő tulajdonságot?\nA) fényes\nB) alakítható\nC) nem vezeti könnyen a hőt\nD) alacsony fajhőkapacitással rendelkezik\nAnswer in English.",
+        "generated_answer": "A) fényes",
+        "ground_truth": "C",
+        "assessment": "The question asks which property characterizes thermal insulation. The correct answer (GROUND TRUTH) is C, which translates to \"does not conduct heat easily.\" This is the defining characteristic of a thermal insulator.\n\nThe GENERATED ANSWER is A (\"fényes,\" meaning \"shiny\"), which is not related to thermal insulation properties and is therefore incorrect.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 387,
+        "question": "Melyik az emberi tevékenységek közül valószínűleg a leginkább hozzájárult az ózonréteg elvékonyodásához?\nA) vízerőművek építése\nB) a műtrágyával kezelt mezők lefolyása\nC) fosszilis tüzelőanyagok égetése\nD) klórfluor-szénhidrogének kiengedése aeroszolos flakonokból\nAnswer in English.",
+        "generated_answer": "A) vízerőművek építése\nB) a műtrágyával kezelt mezők lefolyása\nC) fosszilis tüzelőanyagok égetése\nD) klórfluor-szénhidrogének kiengedése aeroszolos flakonokból",
+        "ground_truth": "D",
+        "assessment": "The question asks which human activity most likely contributed to the depletion of the ozone layer. The correct answer (GROUND TRUTH) is \"D\", referring to the release of chlorofluorocarbons (CFCs) from aerosol cans, which is scientifically accurate.\n\nThe GENERATED ANSWER lists all the options (A, B, C, D) without selecting one. It does not indicate a choice and therefore fails to identify the correct answer, which is D.\n\nSince the generated response does not convey that D is the correct answer, it is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 382,
+        "question": "Sandy 22 vizsgálatot folytat, hogy megtudja, melyik ételt kedveli legjobban a kutyája. Mi a manipulált változó a vizsgálatában?\nA) Kutyájának az ételmedencéjének a színe\nB) Az étel típusa, amit kutyájának ad\nC) Az étel mennyisége, amit kutyájának ad\nD) Az az időpont, amikor kutyájának ételt ad\nAnswer in English.",
+        "generated_answer": "A) Kutyájának az ételmedencéjének a színe",
+        "ground_truth": "B",
+        "assessment": "The question asks for the manipulated variable in Sandy's experiment to determine which food her dog likes best. The manipulated variable is the factor that is intentionally changed by the experimenter. In this case, to find out which food the dog prefers, Sandy would change the type of food given to the dog. Therefore, the correct answer is B) The type of food she gives her dog.\n\nThe generated answer is A) The color of the dog's food bowl, which is not the manipulated variable related to testing food preference. This does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 67,
+        "question": "A diákok tanulmányozzák, hogyan kapcsolódik az anyag hőmérséklete a molekulák mozgásának sebességéhez. Melyik anyagban mozognak a leggyorsabban a molekulák?\nA) hideg tej\nB) meleg leves\nC) jégből olvadó víz\nD) forrásból felemelkedő gőz\nAnswer in English.",
+        "generated_answer": "A) hideg tej\nA) hideg tejben a molekulák a leglassabban mozognak, mivel a hidegebb anyagoknál a molekulák nagyobb távolságokra képesek elmozdulni egymás felé.\n\nB) meleg levesben a molekulák a leggyorsabban mozognak, mivel a melegebb anyagoknál a molekulák nagyobb sebességgel képesek elmozdulni egymás felé.\n\nC) jégből olvadó vízben a molekulák a leggyorsabban mozognak, mivel a jégből olvadó vízben a molekulák nagyobb sebességgel képesek elmozdulni egymás felé.\n\nD) forrásból felemelkedő gőzben a molekulák a leggyorsabban mozognak, mivel a forrásból felemelkedő gőzben a molekulák nagyobb sebességgel képesek elmozdulni egymás felé.",
+        "ground_truth": "D",
+        "assessment": "The question asks which substance has the fastest-moving molecules, based on temperature. The correct answer is D) forrásból felemelkedő gőz (steam rising from boiling water), as steam has the highest temperature among the options, and molecular motion increases with temperature.\n\nThe GENERATED ANSWER incorrectly states that B) meleg leves (hot soup) is where molecules move the fastest, and also claims C) and D) have the fastest-moving molecules, creating internal contradiction. Although it mentions D, it does not clearly and correctly identify D as the correct answer. Instead, it provides conflicting explanations and ultimately misidentifies the correct option.\n\nTherefore, the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "Brianna úgy gondolja, hogy a nagyobb tökmagok hamarabb csíráznak, mint a kisebb tökmagok. Ennek kivizsgálása érdekében négy-négy magot ültet a két méretből ugyanabba a tartályba. Milyen fogalmat használunk arra, amit Brianna gondol, hogy fog történni?\nA) kísérleti teszt\nB) eredmény\nC) változó\nD) hipotézis\nAnswer in English.",
+        "generated_answer": "A) kísérleti teszt",
+        "ground_truth": "D",
+        "assessment": "The question asks for the term used to describe what Brianna thinks will happen — specifically, her idea that larger pumpkin seeds germinate faster than smaller ones. This is a prediction or proposed explanation, which in scientific terms is called a \"hypothesis\" (hipotézis in Hungarian).\n\nThe correct answer is D) hipotézis.\n\nThe generated answer is A) kísérleti teszt (experimental test), which is incorrect because an experimental test refers to the procedure used to test a hypothesis, not the hypothesis itself.\n\nTherefore, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "Havazás, eső, jégverés, és köd mind különböző formái a\nA) gáznak.\nB) víznek.\nC) szélnek.\nD) felhőknek.\nAnswer in English.",
+        "generated_answer": "C) szélnek.",
+        "ground_truth": "B",
+        "assessment": "The question asks about different forms of weather phenomena (thunder, rain, hail, fog), which are all forms of water in various states. The correct answer is B) víznek (water). The generated answer, C) szélnek (wind), is incorrect because these phenomena are not forms of wind.\n\nThus, the generated answer does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Mikor és hol lennének a napfényes órák száma naponta a legnagyobbak?\nA) télen az egyenlítő közelében\nB) nyáron az egyenlítő közelében\nC) télen az Északi-sark közelében\nD) nyáron az Északi-sark közelében\nAnswer in English.",
+        "generated_answer": "A) télen az egyenlítő közelében",
+        "ground_truth": "D",
+        "assessment": "The question asks when and where the number of sunny hours per day would be the greatest. \n\nThe generated answer states \"A) télen az egyenlítő közelében\" (in winter near the equator), which is incorrect because, although the equator receives consistent sunlight year-round, the maximum daily sunlight hours occur in summer at high latitudes due to the midnight sun phenomenon.\n\nThe ground truth is \"D\", which corresponds to \"nyáron az Északi-sark közelében\" (in summer near the North Pole). During the summer months near the Arctic Circle and North Pole, there are periods of 24-hour daylight, resulting in the highest number of daily sunshine hours.\n\nThus, the generated answer does not match the correct (ground truth) answer in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "A diákok azonos méretű mikroorganizmus közösségeket szeretnének összehasonlítani két tóból származó 500 milliliteres vízmintában. Mely tényező befolyásolja leginkább megfigyeléseik pontosságát?\nA) az átlagos vízhőmérséklet a mintákban\nB) a használt mikroszkóp slide márka\nC) a mikroszkóp nagyítása\nD) az egyes mikroorganizmusok megfelelő azonosítása\nAnswer in English.",
+        "generated_answer": "A) az átlagos vízhőmérséklet a mintákban\nB) a használt mikroszkóp slide márka\nC) a mikroszkóp nagyítása\nD) az egyes mikroorganizmusok megfelelő azonosítása",
+        "ground_truth": "C",
+        "assessment": "The question asks which factor most affects the accuracy of the students' observations when comparing microbial communities from two lakes using 500 mL water samples. The correct answer (GROUND TRUTH) is C: \"a mikroszkóp nagyítása\" (the magnification of the microscope), meaning that the level of magnification is the most influential factor in observational accuracy.\n\nHowever, the GENERATED ANSWER lists all four options (A, B, C, D) without selecting one. It does not indicate that C is the correct choice. Therefore, it fails to convey the same meaning as the GROUND TRUTH, which clearly identifies option C as the answer.\n\nSince the generated answer is not equivalent to the ground truth, the evaluation is false.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "Egy diák növények növekedését tanulmányozta különböző talajtípusokban. Az adatok legjobb szervezési módja\nA) dátum és idő szerint.\nB) dátum és növény magasság szerint.\nC) növény magasság és talajtípus szerint\nD) dátum, növény magasság és talajtípus szerint.\nAnswer in English.",
+        "generated_answer": "A) dátum és idő szerint.\n\nA növények növekedését tanulmányozó diákok számára a legjobb szervezési mód a dátum és az idő szerint. A növények növekedése során a növények magassága és a talajtípus fontos információkat tartalmazhat. A növények növekedése során a növények magassága és a talajtípus fontos információkat tartalmazhat.",
+        "ground_truth": "D",
+        "assessment": "The question asks for the best way to organize data when studying plant growth in different soil types. The options involve different ways of organizing the data, such as by date and time, plant height and soil type, or a combination of date, plant height, and soil type.\n\nThe GROUND TRUTH answer is D: \"dátum, növény magasság és talajtípus szerint\" (by date, plant height, and soil type). This is correct because to properly study plant growth across different soil types, one needs to track changes over time (date), the dependent variable (plant height), and the independent variable (soil type). All three factors are essential for meaningful analysis.\n\nThe GENERATED ANSWER is A: \"dátum és idő szerint\" (by date and time). It incorrectly claims that organizing by date and time alone is best, and although it mentions that plant height and soil type contain important information, it still concludes that date and time are the best organizing principle. This contradicts the correct answer, which requires including all three variables.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 306,
+        "question": "Hosszú idő alatt a folyóban a folyóvíz erodálja az ágyát. Ennek az eróziónak a következtében a folyó\nA) megáll a folyásban.\nB) hullámokat szít.\nC) gyorsabbá és tisztábbá válik.\nD) mélyebb és szélesebb lesz.\nAnswer in English.",
+        "generated_answer": "A folyó erodálja az ágyát.\nA folyóvíz erodálja az ágyát.",
+        "ground_truth": "D",
+        "assessment": "The question asks about the consequence of river erosion on the river over time. The ground truth answer is \"D) mélyebb és szélesebb lesz\" (in English: \"becomes deeper and wider\"). \n\nThe generated answer states: \"A folyó erodálja az ágyát. A folyóvíz erodálja az ágyát.\" This translates to \"The river erodes its bed. The river water erodes its bed.\" While this describes the process of erosion, it does not specify the outcome — that the river becomes deeper and wider — which is what the question is asking for.\n\nTherefore, although the generated answer is factually correct in describing erosion, it does not provide the same meaning as the ground truth answer, which identifies the correct consequence (option D).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "Az exoterm reakció legjobban a következővel mutatható be:\nA) autó motor.\nB) hűtőszekrény.\nC) serpenyő.\nD) üvegpalack.\nAnswer in English.",
+        "generated_answer": "A) autó motor.\n\nAz autó motorja egy exoterm reakció, amely során a motorban lévő égés során felszabaduló energia hővé alakul. A hő a motorban lévő égés során keletkező gázok nyomása miatt szabadul fel, és a motor működéséhez szükséges.",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER selects \"A) autó motor\" and provides an explanation in Hungarian about how a car engine demonstrates an exothermic reaction through combustion releasing heat energy. The GROUND TRUTH is simply \"A\", which corresponds to the correct choice.\n\nAlthough the generated answer includes additional explanation, the selected option (A) matches the ground truth, and the explanation supports the correctness of this choice. The question asks for the best illustration of an exothermic reaction, and both the generated answer and ground truth point to the same correct option.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1107,
+        "question": "Melyik mondat nem magyarázza, hogy miért volt az első helyezett gyorsabb a második helyezettnél?\nA) A nyertesnek kevesebb volt a víz ellenállása.\nB) Az első helyezettnél erősebb volt a gravitációs vonzás.\nC) A második helyezettet a súrlódás lassította le.\nD) Az első helyezett lökései és ütései erősebbek voltak.\nAnswer in English.",
+        "generated_answer": "A) A nyertesnek kevesebb volt a víz ellenállása.",
+        "ground_truth": "B",
+        "assessment": "The question asks which sentence does **not** explain why the first-place finisher was faster than the second-place finisher.\n\nGROUND TRUTH: B) Az első helyezettnél erősebb volt a gravitációs vonzás.  \nThis option is correct because stronger gravitational attraction would not realistically make someone faster in a race (especially in swimming or similar contexts), and it's unscientific to claim gravity was stronger for the winner. Thus, this statement does **not** provide a valid explanation, making it the correct answer to the question.\n\nGENERATED ANSWER: A) A nyertesnek kevesebb volt a víz ellenállása.  \nThis statement **does** explain why the winner was faster (less water resistance), so it **is** a valid explanation. Therefore, it is **not** the correct answer to the question, which seeks the option that does **not** explain the speed difference.\n\nThus, the GENERATED ANSWER does **not** match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 801,
+        "question": "A sejtek osztályozása szerint a prokarióta sejteket elkülönítik az eukarióta sejtektől. Melyik jellemzőt használják általában a prokarióta sejtek megkülönböztetésére az eukarióta sejtektől?\nA) életfolyamatok\nB) méretbeli különbségek\nC) plazmamembránok\nD) energia molekulák\nAnswer in English.",
+        "generated_answer": "A) életfolyamatok",
+        "ground_truth": "B",
+        "assessment": "The question asks for the characteristic generally used to distinguish prokaryotic cells from eukaryotic cells. The correct answer in the GROUND TRUTH is \"B\" (méretbeli különbségek – size differences). However, the GENERATED ANSWER is \"A) életfolyamatok\" (life processes), which is incorrect.\n\nThe key distinguishing feature between prokaryotic and eukaryotic cells is the presence of a nucleus and membrane-bound organelles (a structural, not functional or size-based difference in most contexts), but among the given choices, size differences (B) are more commonly cited than life processes (A). Life processes are similar in both cell types, so they are not used to differentiate them.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "Melyik folyamat kémiailag változtatja meg az anyagot?\nA) Az Elem 1 meg van csiszolva, hogy sima felületet kapjon.\nB) Az Elem 2 fel van melegítve és elpárolog.\nC) Az Elem 3 fehéres poros felületet kap, miután levegőn állt.\nD) Az Elem 4 egy keverékből szűrés segítségével kerül kinyerésre.\nAnswer in English.",
+        "generated_answer": "A) Az Elem 1 meg van csiszolva, hogy sima felületet kapjon.\nB) Az Elem 2 fel van melegítve és elpárolog.\nC) Az Elem 3 fehéres poros felületet kap, miután levegőn állt.\nD) Az Elem 4 egy keverékből szűrés segítségével kerül kinyerésre.\nA kémiai reakciók során az anyagok gyakran változnak meg. Az alábbi válaszok közül melyik a leginkább a kémiailag változó anyagokra jellemző?\nA) Az Elem 1 meg van csiszolva, hogy sima felületet kapjon.\nB) Az Elem 2 fel van melegítve és elpárolog.\nC) Az Elem 3 fehéres poros felületet kap, miután levegőn állt.\nD) Az Elem 4 egy keverékből szűrés segítségével kerül kinyerésre.\nA kémiai reakciók során az anyagok gyakran változnak meg. Az alábbi válaszok közül melyik a leginkább a kémiailag változó anyagokra jellemző? A) Az Elem 1 meg van csiszolva, hogy sima felületet kapjon.\nB) Az Elem 2 fel van melegítve és elpárolog.\nC) Az Elem 3 fehéres poros felületet kap, miután levegőn állt.\nD) Az Elem 4 egy keverékből szűrés segítségével kerül kinyerésre.\nA kémiai reakciók során az anyagok gyakran változnak meg. Az alábbi válaszok közül melyik a leginkább a kémiailag változó anyagokra jellemző? A) Az Elem 1 meg van csiszolva, hogy sima felületet kapjon.",
+        "ground_truth": "C",
+        "assessment": "The QUESTION asks which process chemically changes a substance. The options describe different physical or chemical processes:\n\n- A) Element 1 is polished to have a smooth surface → physical change.\n- B) Element 2 is heated and evaporates → phase change, physical.\n- C) Element 3 develops a white powdery surface after being exposed to air → indicates oxidation or reaction with moisture/CO₂ (e.g., rusting or tarnishing), which is a chemical change.\n- D) Element 4 is extracted from a mixture by filtration → physical separation.\n\nThus, the correct answer (GROUND TRUTH) is **C**, as it describes a chemical change.\n\nThe GENERATED ANSWER, however, does not clearly select option C. Instead, it repeats all the options multiple times and ends with repeating option A, suggesting confusion or an incomplete response. It does not explicitly or correctly identify **C** as the answer.\n\nTherefore, the GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 564,
+        "question": "Melyik elmélet szerint a Hold keletkezését ugyanazon folyamat eredményeként történt, mint amelyikkel a Mars, a Jupiter és a Neptunusz jött létre?\nA) A Hatalmas Ütközés Elmélet\nB) A Hasadási Elmélet\nC) A Fogás Elmélet\nD) A Közös Kialakulás Elmélet\nAnswer in English.",
+        "generated_answer": "A) A Hatalmas Ütközés Elmélet\nA Hold keletkezésének elméletét először 1960-ban javasolta a NASA, amikor a Holdról visszaverődő radarjelek alapján megpróbálták meghatározni a Hold és a Föld közötti ütközés idejét. A Hatalmas Ütközés Elmélet szerint a Hold a Föld és a Mars, a Jupiter és a Neptunusz közötti ütközések során jött létre.\n\nA Hatalmas Ütközés Elméletet azonban számos kritika érte, mivel a Holdnak nincs olyan tulajdonsága, amely alapján a Föld és a Mars közötti ütközésekre következtethetünk. A Holdnak nincs is olyan tulajdonsága, amely alapján a Föld és a Jupiter közötti ütközésekre következtethetünk.\n\nA Hatalmas Ütközés Elméletet a Hold keletkezésének egyik lehetséges elméletének tekintik, de nem az egyetlen. A Hold keletkezésének elméletét számos más elmélet is támogatja, például a Hasadási Elmélet, a Fogás Elmélet és a Közös Kialakulás Elmélet.\n\nA Hold keletkezésének elméletének egyik fontos következménye, hogy a Holdnak nincs saját gravitációja, és a Föld gravitációja körül kering. A Holdnak nincs saját forgása, és a Föld forgása miatt a Hold körül kering.\n\nA Hold keletkezésének elméletének egyik fontos következménye, hogy a Holdnak nincs saját gravitációja, és a Föld gravitációja körül kering. A Holdnak nincs saját forgása, és a Föld forgása miatt a Hold körül kering.",
+        "ground_truth": "D",
+        "assessment": "The question asks which theory suggests that the Moon's formation occurred through the same process that led to the formation of Mars, Jupiter, and Neptune.\n\n- The **correct answer (GROUND TRUTH)** is **D) A Közös Kialakulás Elmélet** (The Co-formation Theory), which posits that the Moon formed alongside Earth from the same primordial material in the early solar system — a process similar to how the planets formed.\n  \n- The **GENERATED ANSWER** selects **A) A Hatalmas Ütközés Elmélet** (The Giant Impact Hypothesis), which claims the Moon formed from debris after a collision between Earth and a Mars-sized body. While this is a widely accepted theory, it does **not** claim that the Moon formed in the same way as Mars, Jupiter, or Neptune — those planets formed by accretion in the protoplanetary disk, not via giant impacts.\n\nMoreover, the generated response incorrectly states that the Giant Impact Theory implies the Moon formed during collisions *between Earth and Mars, Jupiter, and Neptune*, which is scientifically inaccurate. It also adds false information such as \"the Moon has no gravity\" and \"no rotation\", which are incorrect.\n\nThus, the GENERATED ANSWER selects the wrong option and provides misleading explanations.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1068,
+        "question": "Melyik azon halmaz közül következik, hogy csak azok az objektumok ragyognak, amelyek a visszavert fény hatására ragyognak?\nA) holdak, bolygók és üstökösök\nB) holdak, üstökösök és csillagok\nC) bolygók, csillagok és üstökösök\nD) bolygók, csillagok és holdak\nAnswer in English.",
+        "generated_answer": "A) holdak, bolygók és üstökösök",
+        "ground_truth": "A",
+        "assessment": "The question asks which set implies that only objects shining due to reflected light are included. The correct answer is \"A\", which corresponds to \"holdak, bolygók és üstökösök\" (moons, planets, and comets). These celestial bodies do not produce their own light but shine by reflecting light.\n\nThe GENERATED ANSWER is \"A) holdak, bolygók és üstökösök\", which matches both the label and the content of the GROUND TRUTH \"A\", as \"A\" refers to the same option.\n\nThus, the GENERATED ANSWER and the GROUND TRUTH are equivalent in meaning.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 482,
+        "question": "Ha eltávolítjuk a szenet a Föld kérge alól, akkor megváltozhat a kéreg szerkezete, metánt szabadíthat fel, és szennyezheti a talajvízet nehézfémekkel. Melyik Föld-alkotórendszerre van a legnagyobb hatással mindezeknek a következményeknek?\nA) atmoszféra\nB) bioszféra\nC) hidroszféra\nD) litoszféra\nAnswer in English.",
+        "generated_answer": "D) litoszféra",
+        "ground_truth": "B",
+        "assessment": "The question asks which Earth system is most affected by the consequences of removing coal from beneath the Earth's crust, such as changes in crust structure, methane release, and heavy metal contamination of groundwater. The generated answer is \"D) litoszféra\", referring to the solid outer layer of the Earth. However, the ground truth is \"B\", which corresponds to the biosphere.\n\nWhile the removal of coal directly impacts the lithosphere (crust structure), the broader consequences—like methane release (affecting atmosphere and climate) and groundwater contamination (affecting water and living organisms)—have significant implications for living systems. The biosphere encompasses all ecosystems and living organisms, which are ultimately most impacted by pollution, climate change, and habitat degradation resulting from these activities.\n\nThus, the intended correct answer according to the ground truth is the biosphere (B), not the lithosphere.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "Irene-nak két táblát kell összekapcsolnia. Melyik NEM használható a táblák összekapcsolásához?\nA) ragasztó\nB) csavarok\nC) szegek\nD) fűrész\nAnswer in English.",
+        "generated_answer": "C) szegek",
+        "ground_truth": "D",
+        "assessment": "The question asks which item is NOT suitable for connecting two boards. The options are:\n\nA) glue  \nB) screws  \nC) nails  \nD) saw  \n\nThe correct answer (GROUND TRUTH) is D) fűrész (saw), because a saw is a tool used for cutting, not for connecting boards.\n\nThe GENERATED ANSWER is C) szegek (nails). Nails *can* be used to connect boards, so this is not the correct answer to the question asking for what is *not* usable.\n\nThus, the generated answer does not match the ground truth in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "Az új technológiák lehetővé tették a gépjárműgyártóknak, hogy energiatakarékos hibrid autókat állítsanak elő, azonban a hibrid autók eltávolítása szolgálati idejük végén problémát jelent. Melyik kérdés jelent egyedülálló eltávolítási problémát a hibrid járművek esetében?\nA) Mi történik az akkumulátorok újrahasznosításával?\nB) Mi történik az autóklíma hűtőközegével?\nC) Mi történik az üzemanyagtartályban, a hűtőben és az akkumulátorban található folyadékokkal?\nD) Mi történik a jármű műanyag anyagaival?\nAnswer in English.",
+        "generated_answer": "A) Mi történik az akkumulátorok újrahasznosításával?",
+        "ground_truth": "A",
+        "assessment": "The question asks about a unique disposal problem associated with hybrid vehicles at the end of their service life. The correct answer, according to the GROUND TRUTH, is \"A\", which corresponds to the issue of battery recycling. The GENERATED ANSWER states the full text of option A in Hungarian: \"Mi történik az akkumulátorok újrahasznosításával?\" (What happens to the recycling of batteries?), which clearly refers to the same choice.\n\nEven though the GENERATED ANSWER is provided as a full sentence rather than just the letter \"A\", it unambiguously selects option A and expresses the intended answer correctly. Therefore, it is equivalent in meaning to the GROUND TRUTH.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 563,
+        "question": "Miben hasonlítanak leginkább a fa és a virág szára?\nA) Mindkettő puha.\nB) Mindkettőnek van tüskéje.\nC) Mindkettő támogatja a növényt.\nD) Mindkettőnek van fás kérgük.\nAnswer in English.",
+        "generated_answer": "D) Mindkettőnek van fás kérgük.",
+        "ground_truth": "C",
+        "assessment": "The question asks: \"What do the tree and the flower stem have most in common?\"  \nThe options are:\n\nA) Both are soft.  \nB) Both have thorns.  \nC) Both support the plant.  \nD) Both have woody bark.\n\nGROUND TRUTH is C, meaning the correct answer is that both support the plant.\n\nGENERATED ANSWER is D: \"Both have woody bark.\"\n\nHowever, flower stems typically do not have woody bark — this is a characteristic of trees. Therefore, option D is factually incorrect.\n\nOption C is correct because both the tree and the flower stem provide structural support to the plant.\n\nThus, the GENERATED ANSWER (D) is not equivalent in meaning to the GROUND TRUTH (C).\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "Miért hajlamosak a konvergens határok a szedimentációs medencék képződésére?\nA) A konvergens határok depresziót hoznak létre.\nB) A konvergens határok vulkánkitöréseket okoznak.\nC) A konvergens határok összenyomják és átalakítják a kőzetet.\nD) A konvergens határok ciklikusan szállítják a szedimenteket az aszténoszférába.\nAnswer in English.",
+        "generated_answer": "A) A konvergens határok depressziót hoznak létre.",
+        "ground_truth": "A",
+        "assessment": "The question asks why convergent boundaries tend to lead to the formation of sedimentary basins. The correct answer in the ground truth is \"A\", which states that convergent boundaries create depressions. The generated answer is the full sentence \"A) A konvergens határok depressziót hoznak létre.\" This matches option A exactly and correctly identifies the reason: the formation of depressions at convergent boundaries can lead to sedimentary basin development.\n\nEven though the generated answer is in Hungarian, it accurately reflects the content of option A, which is the correct choice indicated by the ground truth \"A\". Since the meaning corresponds directly and the correct option is clearly selected, the generated answer is equivalent in meaning to the ground truth.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1008,
+        "question": "Egy diák cukrot old fel vízben cukorkészítéshez. Észreveszi, hogy cukordarabok képződnek az edény alján. Mit tehetne azért, hogy több cukor oldódjon fel?\nA) melegítse fel a oldatot\nB) hűtse le a oldatot\nC) tegyen még több cukrot az edénybe\nD) vegyen ki kevesebb vizet az edényből\nAnswer in English.",
+        "generated_answer": "A) melegítse fel a oldatot\nB) hűtse le a oldatot\nC) tegyen még több cukrot az edénybe\nD) vegyen ki kevesebb vizet az edényből",
+        "ground_truth": "A",
+        "assessment": "The GENERATED ANSWER lists all the options (A, B, C, D) provided in the question, rather than selecting the correct one. The GROUND TRUTH is \"A\", indicating that the correct answer is only option A (\"melegítse fel a oldatot\" – heat the solution), which would increase the solubility of sugar in water. By listing all options instead of just \"A\", the generated answer does not convey the same meaning as the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "Egy kis mosókonyhóban több polc található a mosógép felett. Ezek a polcok egy példája annak, hogy\nA) erősíti a falat.\nB) hatékonyan használja a tárolóteret.\nC) több célt szolgáló gépet használ.\nD) kreatív módon oldja meg a menedék igényét.\nAnswer in English.",
+        "generated_answer": "A) erősíti a falat.",
+        "ground_truth": "B",
+        "assessment": "The question asks for an example of what the shelves above the washing machine in a small laundry room represent. The correct answer (GROUND TRUTH) is B) \"hatékonyan használja a tárolóteret\" (uses storage space efficiently), which logically describes the purpose of installing shelves in a limited space.\n\nThe GENERATED ANSWER is A) \"erősíti a falat\" (strengthens the wall), which is incorrect and does not match the intended meaning of utilizing space efficiently.\n\nTherefore, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "1997. október 15-én, a Nevada fekete sivatagjában, Andy Green átlagosan 339 méter/másodperc sebességgel mért távolságot autójával, a Thrust nevű sugárhajtású járművel. Andy volt az első ember, aki\nA) kihasználta a Doppler-hatást.\nB) sugárhajtású autóval vezetett.\nC) átkelt a Nevada fekete sivatagán.\nD) átbukott a hangsebességen a földön.\nAnswer in English.",
+        "generated_answer": "A) kihasználta a Doppler-hatást.",
+        "ground_truth": "D",
+        "assessment": "The question asks which milestone Andy Green achieved on October 15, 1997, in the Black Rock Desert of Nevada, driving the jet-powered car \"Thrust.\" The key fact mentioned is that he was the first person to break the sound barrier on land.\n\nThe generated answer states: \"A) kihasználta a Doppler-hatást\" (used the Doppler effect), which is not equivalent to the correct achievement described in the ground truth.\n\nThe ground truth is \"D\", which corresponds to \"átbukott a hangsebességen a földön\" (broke the sound barrier on land).\n\nTherefore, the generated answer does not match the correct meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 664,
+        "question": "Mely megújuló erőforrás keletkezik a levegő konvekciós áramlásaiból?\nA) szélenergia\nB) napenergia\nC) fosszilis tüzelőanyag-energia\nD) geotermikus energia\nAnswer in English.",
+        "generated_answer": "C) fosszilis tüzelőanyag-energia",
+        "ground_truth": "A",
+        "assessment": "The question asks which renewable resource is generated from convective air currents in the atmosphere. The correct answer is \"A) szélenergia\" (wind energy), as wind energy arises from convective air movements.\n\nThe GENERATED ANSWER is \"C) fosszilis tüzelőanyag-energia\" (fossil fuel energy), which is incorrect because fossil fuels are not renewable and do not originate from convective air currents.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "Egy gazda három nagy mezőt használ fű termesztésére, amit csak két év növekedés után lehet learatni szénaként. Hogyan gondoskodhat a gazda arról, hogy minden évben legyen szénatermés?\nA) Évente egymás után ülteti a mezőket.\nB) A füveket minél közelebb ülteti egymáshoz.\nC) Az összes mezőt egyszerre veti be, de különböző fajta füvekkel.\nD) Meleg éghajlati és hűvös éghajlati fűfajtákat egyaránt elültet a mezőkön.\nAnswer in English.",
+        "generated_answer": "A) Évente egymás után ülteti a mezőket.\nB) A füveket minél közelebb ülteti egymáshoz.\nC) Az összes mezőt egyszerre veti be, de különböző fajta füvekkel.\nD) Meleg éghajlati és hűvös éghajlati fűfajtákat egyaránt elültet a mezőkön.\nA válasz helyes. A gazda három nagy mezőt használ fű termesztésére, amit csak két év növekedés után lehet learatni szénaként. A gazda gondoskodhat arról, hogy minden évben legyen szénatermés, ha a füveket minél közelebb ülteti egymáshoz. A válaszok közül a legalkalmasabb az A válasz.",
+        "ground_truth": "A",
+        "assessment": "The question asks how a farmer can ensure there is hay harvest every year when using three large fields for grass that can only be harvested as hay after two years of growth.\n\nThe correct strategy is to stagger the planting so that one field is always ready for harvest each year. Since it takes two years for the grass to mature, by planting one field each year in rotation (i.e., annually planting one of the three fields), the farmer ensures that every year one field reaches maturity and can be harvested. This corresponds to option A: \"Évente egymás után ülteti a mezőket\" (He plants the fields consecutively each year).\n\nThe GENERATED ANSWER lists all options and then claims that the correct answer is A, which matches the GROUND TRUTH. Despite some confusing phrasing (\"a legalkalmasabb az A válasz\" — \"the most suitable is answer A\") and an irrelevant sentence suggesting planting grass closer together (which is not relevant to annual harvest scheduling), the final conclusion correctly identifies option A as the right answer.\n\nTherefore, the meaning conveyed by the GENERATED ANSWER aligns with the GROUND TRUTH.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 996,
+        "question": "Miért nő a legtöbb erdei fa levele a fa tetején?\nA) magok szétszórásához\nB) napfény befogásához\nC) törzs árnyékolásához\nD) vízgyűjtéshez\nAnswer in English.",
+        "generated_answer": "C) törzs árnyékolásához",
+        "ground_truth": "B",
+        "assessment": "The question asks why most forest tree leaves grow at the top of the tree. The correct answer is B) to capture sunlight, as trees grow their leaves at the top to maximize exposure to sunlight for photosynthesis.\n\nThe generated answer is C) törzs árnyékolásához (to shade the trunk), which is incorrect and does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    }
+]

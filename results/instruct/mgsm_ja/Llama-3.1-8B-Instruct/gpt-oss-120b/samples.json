@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？\nAnswer in English.",
+        "generated_answer": "まず、ジャネスが毎月支払う金額を計算します。\n\n毎月支払額 = 2000 x 1.1 = 2200\n毎月支払額 - 借入金額 = 2200 - 2000 = 200\n\n次に、12 か月間の支払い額を計算します。\n\n12 か月間の支払い額 = 200 x 12 = 2400\n\n次に、12 か月間の支払い額を借入金額から引いて、残高を計算します。\n\n残高 = 借入金額 - 12 か月間の支払い額\n= 2000 - 2400\n= -400\n\n負債残高は負数であるため、ジャネスは 400 ドルを返済したことになります。",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？ Answer in English.\"\n\nInterpretation: Borrow $2000, promised to repay with 10% increase (so total owed = $2000 * 1.1 = $2200). Pays $165 per month for 12 months = $1980 total paid. Remaining balance = $2200 - $1980 = $220. So ground truth answer is 220.\n\nGenerated answer: It incorrectly calculates monthly payment as 2000*1.1 = 2200, then subtracts 2000 to get 200, then multiplies by 12 to get 2400, then subtracts from 2000 to get -400. So says debt balance is -400 (i.e., overpaid). This is not same as 220. So answer is false.\n\nThus output \"Answer: False\".assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "車が高速道路に並んでいる。そのうちの何台かは、渋滞の最初の15分間を走り、次の20台は渋滞の残りの15分を走っている。列のうち、5台の車は渋滞を走らなくていいよう、出口から出た。もともと30台の車が高速道路にいたのなら、渋滞の最初の15分間を走った車は何台いる？\nAnswer in English.",
+        "generated_answer": "30 台の車が高速道路にいたが、5 台は渋滞を走らなかったので、渋滞を走った車は 30 - 5 = 25 台になります。\n\n渋滞の最初の 15 分間を走った車は、次の 20 台と、渋滞の残りの 15 分間を走った車のうちの 5 台です。したがって、渋滞の最初の 15 分間を走った車の数は、20 + 5 = 25 です。\n\nしたがって、渋滞の最初の 15 分間を走った車は 25 台います。",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"車が高速道路に並んでいる。そのうちの何台かは、渋滞の最初の15分間を走り、次の20台は渋滞の残りの15分を走っている。列のうち、5台の車は渋滞を走らなくていいよう、出口から出た。もともと30台の車が高速道路にいたのなら、渋滞の最初の15分間を走った車は何台いる？\" So answer should be number of cars that ran the first 15 minutes. Ground truth says 5. Generated answer says 25. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "バイオレッタは新しいクレヨンを購入したいです。彼女は5つの違う色が必要で、今回の購入のために$20用意しました。1本のクレヨンは$2です。彼女のおつりはいくらになりますか？\nAnswer in English.",
+        "generated_answer": "バイオレッタは 5 つのクレヨンを購入したいので、5 x $2 = $10 を費やします。\n\n彼女は $20 を用意しているので、$20 - $10 = $10 のおつりになります。\n\n最終的な答えは $10 です。",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"10\". Generated answer says she spends $10 and gets $10 change, final answer $10. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "チャドは自分で作るブリトーをランチに注文しました。基本のブリトーは$6.50です。追加の肉を$2.00、追加のチーズを$1.00、$1.00アボカド、$0.25のソースを2つ注文付けます。彼はランチに追加で$3.00払ってアップグレードし、ポテトチップスと飲み物を付けました。会計時に使える$5.00のギフトカードを持っています。彼の料金は今いくらになりますか？\nAnswer in English.",
+        "generated_answer": "まず、基本のブリトーに追加の肉、チーズ、アボカド、ソースを加えた合計コストを計算します。\n\n基本のブリトー: $6.50\n追加の肉: $2.00\n追加のチーズ: $1.00\nアボカド: $1.00\nソース: $0.25 x 2 = $0.50\n合計: $6.50 + $2.00 + $1.00 + $1.00 + $0.50 = $11.00\n\n次に、ランチに追加で$3.00を支払ったので、合計コストは$11.00 + $3.00 = $14.00になります。\n\nギフトカードは$5.00なので、チャドは$14.00 - $5.00 = $9.00を支払う必要があります。\n\n最終的な答えは$9.00です。",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"9\". The question: \"How much does he owe?\" The generated answer says final answer is $9.00. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "フランキーは毎晩宿題が終わった後にテレビを観ます。月曜日と火曜日、彼はそれぞれの日のお気に入りの番組の1時間のエピソードを観ました。水曜日、彼は30分のエピソードをいくつか観ました。木曜日、彼は宿題を早く終わらせて、1時間のエピソードと30分の番組を観ました。金曜日の週末、彼は遅くまで起きて、1時間のエピソードを2つ観ました。もしも彼が全部でテレビを7時間観たとすると、水曜日に彼は30分のエピソードをいくつ観ましたか？\nAnswer in English.",
+        "generated_answer": "月曜日と火曜日、フランキーはそれぞれの日のお気に入りの番組の1時間のエピソードを観ました。つまり、2日間で合計1時間×2=2時間のエピソードを観ました。\n\n木曜日、彼は宿題を早く終わらせて、1時間のエピソードと30分の番組を観ました。1時間のエピソードは30分×2=60分なので、60分+30分=90分の番組を観ました。つまり、木曜日は合計90分の番組を観ました。\n\n金曜日、彼は遅くまで起きて、1時間のエピソードを2つ観ました。つまり、2×60分=120分の番組を観ました。\n\n合計で、フランキーは2時間+90分+120分=2.5時間の番組を観ました。7時間を観たとすると、7-2.5=4.5時間の番組を水曜日には観ました。\n\n水曜日は30分のエピソードを観ました。つまり、4.5時間×60分/1時間=270分の番組を観ました。270分÷30分/エピソード=9エピソードの30分の番組を観ました。\n\n最終的な答えは9です。",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: How many 30-min episodes on Wednesday? Ground truth answer: 3. Generated answer says 9. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "新規のプログラムが最初の月は60回ダウンロードされました。2か月目にはダウンロード回数は3倍に膨れ上がりましたが、3か月目は30%減少しました。3か月間でプログラムのダウンロード回数は合計何回だったでしょうか？\nAnswer in English.",
+        "generated_answer": "最初の月に 60 回ダウンロードされました。2 か月目にはダウンロード回数が 3 倍になり、60 x 3 = 180 回になります。\n\n3 か月目はダウンロード回数が 30% 減少したため、ダウンロード回数は 180 - (180 x 0.3) = 180 - 54 = 126 回になります。\n\n3 か月間の合計ダウンロード回数は、60 + 180 + 126 = 366 回です。",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"366\". Generated answer explains calculation and gives total 366. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "バスケットボールの大会で、4校が競っている。各学校が女子バスケットボールチームと男子バスケットボールチームを参加させており、各チーム5人いる。各学校はまた、コーチも1人参加させている。すべての学校で、全部で何人の人間が参加しているか？\nAnswer in English.",
+        "generated_answer": "各学校は女子バスケットボールチームと男子バスケットボールチームを参加させており、各チーム5人いるので、各学校は 2 チーム * 5 人 = 10 人の選手が参加します。\n\n各学校にはコーチが1人いるので、各学校は10人+1人=11人を参加させます。\n\n4校が参加しているので、合計は4校*11人=44人となります。\n\n答えは44人です。",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. The question: total participants. Let's compute: 4 schools, each has women's team (5 players) and men's team (5 players) = 10 players, plus 1 coach = 11 per school, total 44. But ground truth says 48. Which is correct? Let's double-check: maybe each team has 5 players, but maybe both teams each have 5 players, that's 10, plus coach = 11, times 4 = 44. So ground truth says 48, maybe they counted 6 per team? But ground truth is given as answer. We must compare generated answer to ground truth. They differ (44 vs 48). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "イザベルは妹の誕生日会に向けパーティー用品を購入しました。彼女はケーキの材料に$12、誕生日プレゼントに$43、飾り付けに$15、招待カードに$4、会に参加するゲストのお土産バッグに$22使いました。彼女は両親2人と、費用を均等に3等分します。それぞれ何ドル払いましたか？\nAnswer in English.",
+        "generated_answer": "イザベルは、ケーキの材料に$12、誕生日プレゼントに$43、飾り付けに$15、招待カードに$4、会に参加するゲストのお土産バッグに$22を費やしたため、合計コストは次のようになります。\n\n$12 + $43 + $15 + $4 + $22 = $96\n\n彼女は両親2人と費用を均等に3等分するため、各人の費用は次のようになります。\n\n$96 ÷ 3 = $32\n\nしたがって、イザベルの両親はそれぞれ $32 を支払いました。",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"32\". The generated answer says each parent pays $32. It also says total cost $96, each person $32. That matches. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "ニッサは、サンタビレッジの彼女のデパートでエルフを演じる60人の期間従業員を雇います。3分の1のエルフが子供が彼らに吐いた後、辞めます。それから残りの10人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？\nAnswer in English.",
+        "generated_answer": "まず、60人のエルフのうち3分の1が辞めます。3分の1は60/3 = 20人です。つまり、60 - 20 = 40人が残ります。\n\n次に、残りの10人が辞めます。つまり、40 - 10 = 30人が残ります。\n\n最終的な答えは30です。",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"How many elves remain?\" Ground truth: 30. Generated answer says final answer is 30. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "ジェニーは母親のオフィスで手伝いをしています。彼女には、切手が必要な60通の手紙の塊と、すでに切手が貼られた手紙の塊があります。切手が必要な手紙の3分の1に切手を貼ります。すでに切手を貼られた手紙の塊に今、30通の手紙があるとすると、ジェニーが作業を始めた時、その塊には何通の手紙がありました？\nAnswer in English.",
+        "generated_answer": "問題を分析してみましょう。\n\nジェニーは、切手が必要な手紙の 3 分の 1 に切手を貼ります。つまり、切手が必要な手紙の 1/3 に切手を貼り、残りの 2/3 は切手を貼っていません。\n\nすでに切手を貼られた手紙の塊には 30 通の手紙があります。これは、切手が必要な手紙の 1/3 に相当します。\n\nつまり、切手が必要な手紙の総数は 30 x 3 = 90 通です。\n\nジェニーには、切手が必要な手紙の塊とすでに切手を貼られた手紙の塊があります。すでに切手を貼られた手紙の塊には 30 通の手紙があるので、切手が必要な手紙の塊には 90 - 30 = 60 通の手紙があります。\n\nしたがって、ジェニーが作業を始めたとき、すでに切手を貼られた手紙の塊には 30 通の手紙が含まれていました。\n\n最終的な答えは30です。",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Japanese: \"Jenny is helping at her mother's office. She has a pile of 60 letters that need stamps and a pile of letters that already have stamps. She puts stamps on one third of the letters that need stamps. If the pile of already stamped letters now has 30 letters, how many letters were in that pile when Jenny started work?\" So initially there was some number of already stamped letters; after she stamps some of the needed letters, the already stamped pile now has 30. She added stamps to 1/3 of the 60 needing stamps = 20 letters. Those become stamped and join the stamped pile. So initial stamped pile = 30 - 20 = 10. Ground truth answer: 10. Generated answer says 30. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

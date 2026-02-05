@@ -1,0 +1,802 @@
+[
+    {
+        "id": 216,
+        "question": "ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？\nAnswer in English.",
+        "generated_answer": "To determine the remaining debt after 12 months, we'll calculate the total amount paid and subtract it from the initial loan amount, considering the 10% increase in repayment.\n\n1. **Initial Loan Amount**: $2,000  \n2. **Monthly Payment**: $165  \n3. **Total Payments Over 12 Months**:  \n   \\( 165 \\times 12 = 1,980 \\)  \n\n4. **Interest Calculation**:  \n   The loan increases by 10% annually, so the effective monthly interest rate is \\( \\frac{10\\%}{12} = \\frac{0.10}{12} \\approx 0.008333 \\).  \n   The interest accrued over 12 months is:  \n   \\( 2,000 \\times (1 + 0.008333)^{12} - 2,000 \\approx 2,000 \\times 1.104516 - 2,000 \\approx 220.91 \\).  \n\n5. **Total Interest Paid**:  \n   \\( 1,980 - 2,000 = -200 \\) (the borrower actually overpays by $200).  \n\n6. **Remaining Debt**:  \n   \\( 2,000 - 200 = 1,800 \\).  \n\n**Final Answer**: The remaining debt after 12 months is **$1,800**.",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "車が高速道路に並んでいる。そのうちの何台かは、渋滞の最初の15分間を走り、次の20台は渋滞の残りの15分を走っている。列のうち、5台の車は渋滞を走らなくていいよう、出口から出た。もともと30台の車が高速道路にいたのなら、渋滞の最初の15分間を走った車は何台いる？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many cars drove through the first 15 minutes of the traffic jam.\n\n1. **Total Cars Initially:**\n   - There are **30** cars on the highway initially.\n\n2. **Cars Exiting Early:**\n   - **5** cars exit the highway before the traffic jam.\n   - **Remaining cars:** \\( 30 - 5 = 25 \\) cars.\n\n3. **Cars Driving Through the First 15 Minutes:**\n   - The remaining **25** cars are divided into two groups:\n     - **20** cars drive through the **remaining 15 minutes** of the traffic jam.\n     - The rest drive through the **first 15 minutes** of the traffic jam.\n   - To find out how many cars drove through the first 15 minutes:\n     \\[\n     \\text{Cars in first 15 minutes} = \\text{Remaining cars} - \\text{Cars in remaining 15 minutes} = 25 - 20 = 5\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{5}\n\\]",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "バイオレッタは新しいクレヨンを購入したいです。彼女は5つの違う色が必要で、今回の購入のために$20用意しました。1本のクレヨンは$2です。彼女のおつりはいくらになりますか？\nAnswer in English.",
+        "generated_answer": "Bioletta wants to buy 5 different colored crayons, and she has $20 to spend. Each crayon costs $2.  \n\nTotal cost = 5 crayons × $2/crayon = $10  \n\nBioletta's change = $20 - $10 = **$10**",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "チャドは自分で作るブリトーをランチに注文しました。基本のブリトーは$6.50です。追加の肉を$2.00、追加のチーズを$1.00、$1.00アボカド、$0.25のソースを2つ注文付けます。彼はランチに追加で$3.00払ってアップグレードし、ポテトチップスと飲み物を付けました。会計時に使える$5.00のギフトカードを持っています。彼の料金は今いくらになりますか？\nAnswer in English.",
+        "generated_answer": "Let's break down Chad's order step by step to calculate the total cost.\n\n1. **Base Burrito Cost**: $6.50\n2. **Additional Meat**: $2.00\n3. **Additional Cheese**: $1.00\n4. **Avocado**: $1.00\n5. **Sauce**: $0.25 × 2 = $0.50\n\n**Subtotal**:\n\\[\n6.50 + 2.00 + 1.00 + 1.00 + 0.50 = 11.00\n\\]\n\n6. **Lunch Upgrade**: $3.00\n\n**Total Before Gift Card**:\n\\[\n11.00 + 3.00 = 14.00\n\\]\n\n7. **Gift Card**: $5.00\n\n**Final Total**:\n\\[\n14.00 - 5.00 = 9.00\n\\]\n\nChad's total charge is **$9.00**.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "フランキーは毎晩宿題が終わった後にテレビを観ます。月曜日と火曜日、彼はそれぞれの日のお気に入りの番組の1時間のエピソードを観ました。水曜日、彼は30分のエピソードをいくつか観ました。木曜日、彼は宿題を早く終わらせて、1時間のエピソードと30分の番組を観ました。金曜日の週末、彼は遅くまで起きて、1時間のエピソードを2つ観ました。もしも彼が全部でテレビを7時間観たとすると、水曜日に彼は30分のエピソードをいくつ観ましたか？\nAnswer in English.",
+        "generated_answer": "Let's break down Frankie's TV watching schedule:\n\n- **Monday and Tuesday:**  \n  Frankie watches 1 hour of his favorite show each day.  \n  Total for 2 days: \\( 2 \\times 1 = 2 \\) hours.\n\n- **Wednesday:**  \n  Frankie watches some 30-minute episodes. Let’s call this number \\( x \\).  \n  Total for Wednesday: \\( 0.5x \\) hours.\n\n- **Thursday:**  \n  Frankie watches 1 hour of his favorite show and 30 minutes of another show.  \n  Total for Thursday: \\( 1 + 0.5 = 1.5 \\) hours.\n\n- **Friday:**  \n  Frankie watches 2 hours of his favorite show.  \n  Total for Friday: \\( 2 \\) hours.\n\n**Total TV time for the week:**  \n\\( 2 \\) (Monday and Tuesday) \\( + 0.5x \\) (Wednesday) \\( + 1.5 \\) (Thursday) \\( + 2 \\) (Friday) \\( = 7 \\) hours.\n\nNow, solve for \\( x \\):  \n\\( 2 + 0.5x + 1.5 + 2 = 7 \\)  \n\\( 5 + 0.5x = 7 \\)  \n\\( 0.5x = 2 \\)  \n\\( x = 4 \\)\n\n**Answer:**  \nFrankie watched **4** 30-minute episodes on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "新規のプログラムが最初の月は60回ダウンロードされました。2か月目にはダウンロード回数は3倍に膨れ上がりましたが、3か月目は30%減少しました。3か月間でプログラムのダウンロード回数は合計何回だったでしょうか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the total number of downloads over the three months.\n\n1. **First Month:**\n   - Downloads: 60\n\n2. **Second Month:**\n   - The downloads triple from the first month.\n   - Downloads: \\( 60 \\times 3 = 180 \\)\n\n3. **Third Month:**\n   - The downloads decrease by 30% from the second month.\n   - First, calculate 30% of 180:\n     \\[\n     180 \\times 0.30 = 54\n     \\]\n   - Then, subtract this from the second month's downloads:\n     \\[\n     180 - 54 = 126\n     \\]\n\n4. **Total Downloads Over Three Months:**\n   - Add the downloads from all three months:\n     \\[\n     60 + 180 + 126 = 366\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{366}\n\\]",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "バスケットボールの大会で、4校が競っている。各学校が女子バスケットボールチームと男子バスケットボールチームを参加させており、各チーム5人いる。各学校はまた、コーチも1人参加させている。すべての学校で、全部で何人の人間が参加しているか？\nAnswer in English.",
+        "generated_answer": "To determine the total number of participants in the basketball tournament, let's break down the information:\n\n1. **Schools**: There are 4 schools participating.\n2. **Teams per School**: Each school has:\n   - 1 boys' basketball team (5 players)\n   - 1 girls' basketball team (5 players)\n   - 1 coach (1 person)\n\nSo, for each school:\n- Players: 5 (boys) + 5 (girls) = 10 players\n- Coaches: 1\n\nTotal participants per school: 10 players + 1 coach = 11 people\n\nFor 4 schools:\n- Total players: 11 people/school × 4 schools = 44 people\n- Total coaches: 1 coach/school × 4 schools = 4 coaches\n\nTotal participants in the tournament: 44 players + 4 coaches = **48 people**\n\n**Answer**: 48 people.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "ニッサは、サンタビレッジの彼女のデパートでエルフを演じる60人の期間従業員を雇います。3分の1のエルフが子供が彼らに吐いた後、辞めます。それから残りの10人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Initial Number of Elves:**\n   - Nissa hires **60** elves.\n\n2. **Elves Who Quit After Being Puked On:**\n   - **1/3** of the elves quit after a child puked on them.\n   - Calculation: \\( \\frac{1}{3} \\times 60 = 20 \\) elves quit.\n   - **Elves Remaining:** \\( 60 - 20 = 40 \\) elves.\n\n3. **Elves Who Quit After Being Kicked:**\n   - **10** elves quit after a child kicked their shins.\n   - **Elves Remaining:** \\( 40 - 10 = 30 \\) elves.\n\n**Final Answer:**  \n\\(\\boxed{30}\\) elves remain.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "ジェニーは母親のオフィスで手伝いをしています。彼女には、切手が必要な60通の手紙の塊と、すでに切手が貼られた手紙の塊があります。切手が必要な手紙の3分の1に切手を貼ります。すでに切手を貼られた手紙の塊に今、30通の手紙があるとすると、ジェニーが作業を始めた時、その塊には何通の手紙がありました？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many letters were in the already-stamped pile when Jenny started her work.\n\n1. **Total Letters:**\n   - Jenny has a total of **60 letters** that need stamps.\n   - Out of these, **30 letters** already have stamps.\n\n2. **Letters to be Stamped:**\n   - Jenny stamps **1/3** of the letters that need stamps.\n   - Number of letters to be stamped = \\( \\frac{1}{3} \\times 60 = 20 \\) letters.\n\n3. **Letters Remaining to be Stamped:**\n   - After stamping 20 letters, the remaining letters to be stamped = \\( 60 - 20 = 40 \\) letters.\n\n4. **Initial Number of Stamped Letters:**\n   - The problem states that there are **30 letters** already stamped when Jenny starts.\n\n5. **Verification:**\n   - Initially, there were **30 stamped letters** and **60 unstamped letters**.\n   - After stamping 20 unstamped letters, the total stamped letters become \\( 30 + 20 = 50 \\).\n   - The remaining unstamped letters are \\( 60 - 20 = 40 \\).\n\nThus, when Jenny started her work, the pile of already-stamped letters had **30 letters**.\n\n\\boxed{30}",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 103,
+        "question": "海から流れてくる霧堤が、街を覆う。街の3マイルを覆うごとに10分かかる。もしも街が、海辺から反対の陸の端まで42マイルなら、街全体を霧が覆うまでに何分かかる？\nAnswer in English.",
+        "generated_answer": "To determine how long it takes for the mist to cover the entire city, we can use the information provided:\n\n- The mist covers 3 miles of the city every 10 minutes.\n- The city is 42 miles long from the sea to the opposite end.\n\nFirst, calculate how many 3-mile segments are in 42 miles:\n\n\\[\n\\frac{42 \\text{ miles}}{3 \\text{ miles/segment}} = 14 \\text{ segments}\n\\]\n\nNext, since each segment takes 10 minutes to cover, multiply the number of segments by the time per segment:\n\n\\[\n14 \\text{ segments} \\times 10 \\text{ minutes/segment} = 140 \\text{ minutes}\n\\]\n\nSo, it takes **140 minutes** for the mist to cover the entire city.",
+        "ground_truth": 140,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 235,
+        "question": "ジョンは友達と一緒にピザを注文しました。友達は合計20人いて、1人あたり4スライス食べられるようにしたいと考えています。ピザのスライスは1枚あたり8スライスです。ジョンはピザを何枚頼む必要がありますか？\nAnswer in English.",
+        "generated_answer": "To determine how many pizzas John needs to order, let's break down the problem step by step.\n\n1. **Calculate the total number of slices needed:**\n   - There are 20 friends.\n   - Each friend will eat 4 slices.\n   - Total slices needed = 20 friends × 4 slices/friend = **80 slices**.\n\n2. **Determine how many pizzas are required:**\n   - Each pizza has 8 slices.\n   - Number of pizzas needed = Total slices needed ÷ Slices per pizza = 80 ÷ 8 = **10 pizzas**.\n\n**Final Answer:** John needs to order **10 pizzas**.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 200,
+        "question": "バルダーは井戸から水を得る。彼は毎朝桶5杯の水を得て、午後は毎日6杯の水を得る。もし1桶につき5リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？\nAnswer in English.",
+        "generated_answer": "To determine how many liters of water Balder obtains each day, we can break down the problem into two parts: the water he gets in the morning and the water he gets in the afternoon.\n\n1. **Morning Water:**\n   - Balder gets 5 cups of water in the morning.\n   - Each cup holds 5 liters.\n   - Therefore, the morning water is \\( 5 \\text{ cups} \\times 5 \\text{ liters/cup} = 25 \\text{ liters} \\).\n\n2. **Afternoon Water:**\n   - Balder gets 6 cups of water in the afternoon.\n   - Each cup holds 5 liters.\n   - Therefore, the afternoon water is \\( 6 \\text{ cups} \\times 5 \\text{ liters/cup} = 30 \\text{ liters} \\).\n\n3. **Total Daily Water:**\n   - Add the morning and afternoon water together.\n   - Total water per day is \\( 25 \\text{ liters} + 30 \\text{ liters} = 55 \\text{ liters} \\).\n\nSo, Balder obtains **55 liters** of water each day.",
+        "ground_truth": 55,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 212,
+        "question": "ゲリーは1.5マイルと6マイルの長方形の、地元の公園の端を歩くことが好きだ。彼が1時間に3マイル歩くとすると、彼は何時間歩くことに使う？\nAnswer in English.",
+        "generated_answer": "To determine how long Gary will spend walking around the park, we need to calculate the total distance he walks and then divide it by his walking speed.\n\n1. **Calculate the perimeter of the park:**\n   - The park is a rectangle with a length of 6 miles and a width of 1.5 miles.\n   - The perimeter \\( P \\) of a rectangle is given by the formula:\n     \\[\n     P = 2 \\times (\\text{length} + \\text{width})\n     \\]\n   - Substituting the given values:\n     \\[\n     P = 2 \\times (6 + 1.5) = 2 \\times 7.5 = 15 \\text{ miles}\n     \\]\n\n2. **Determine the time spent walking:**\n   - Gary walks at a speed of 3 miles per hour.\n   - The time \\( t \\) it takes to walk a distance \\( d \\) is given by:\n     \\[\n     t = \\frac{d}{\\text{speed}}\n     \\]\n   - Substituting the total distance and speed:\n     \\[\n     t = \\frac{15 \\text{ miles}}{3 \\text{ miles per hour}} = 5 \\text{ hours}\n     \\]\n\nTherefore, Gary will spend **5 hours** walking around the park.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 77,
+        "question": "レイモンドがサラが洗濯した分の半分洗濯をして、サラはデイビッドと同じくらい洗濯をした場合、サラが400ポンド洗濯をしたら、レイモンドとデイビッドの洗濯した量はどれだけの違いがありますか。\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the difference in the amount of laundry done by Raymond and David.\n\n1. **Define the Variables:**\n   - Let \\( S \\) be the amount of laundry Sarah did.\n   - Let \\( R \\) be the amount of laundry Raymond did.\n   - Let \\( D \\) be the amount of laundry David did.\n\n2. **Given Information:**\n   - Sarah did 400 pounds of laundry: \\( S = 400 \\).\n   - Raymond did half of what Sarah did: \\( R = \\frac{1}{2}S \\).\n   - Sarah did the same amount as David: \\( S = D \\).\n\n3. **Calculate Raymond's Laundry:**\n   \\[\n   R = \\frac{1}{2}S = \\frac{1}{2} \\times 400 = 200 \\text{ pounds}\n   \\]\n\n4. **Calculate David's Laundry:**\n   Since \\( S = D \\):\n   \\[\n   D = 400 \\text{ pounds}\n   \\]\n\n5. **Find the Difference Between Raymond and David:**\n   \\[\n   \\text{Difference} = R - D = 200 - 400 = -200 \\text{ pounds}\n   \\]\n\nThe negative sign indicates that David did more laundry than Raymond. Therefore, the difference is **200 pounds**.\n\n\\[\n\\boxed{200}\n\\]",
+        "ground_truth": 100,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 122,
+        "question": "サディーは月曜日8時間寝た。次の2日間、宿題を終わらせなければならなかった彼女はそれぞれ2時間少ない時間寝た。もしも彼女が残りの週、その2日よりも1時間長く寝たら、彼女は1週間通して何時間寝たことになる？\nAnswer in English.",
+        "generated_answer": "Let's break down Sadie's sleep schedule step by step:\n\n1. **Monday**:  \n   Sadie sleeps **8 hours**.\n\n2. **Tuesday and Wednesday**:  \n   She sleeps **2 hours less** than Monday, so:  \n   \\( 8 - 2 = 6 \\) hours each day.  \n   Total for these two days: \\( 6 \\times 2 = 12 \\) hours.\n\n3. **Remaining days (Thursday to Sunday)**:  \n   There are **5 days** left in the week.  \n   She sleeps **1 hour more** than Tuesday and Wednesday, so:  \n   \\( 6 + 1 = 7 \\) hours each day.  \n   Total for these five days: \\( 7 \\times 5 = 35 \\) hours.\n\n4. **Total sleep for the week**:  \n   Add Monday, Tuesday and Wednesday, and the remaining days:  \n   \\( 8 + 12 + 35 = 55 \\) hours.\n\n**Final Answer**:  \nSadie slept a total of **55 hours** in the week.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 91,
+        "question": "ジャンにはマルシアの3倍の数のペットを飼っています。マルシアはシンディーよりも2匹多くペットを飼っています。もしシンディーが4匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Sincere's Pets**:  \n   Sincere has **4** pets.\n\n2. **Marcia's Pets**:  \n   Marcia has 2 more pets than Sincere.  \n   So, Marcia has \\( 4 + 2 = 6 \\) pets.\n\n3. **Jan's Pets**:  \n   Jan has 3 times as many pets as Marcia.  \n   So, Jan has \\( 3 \\times 6 = 18 \\) pets.\n\n4. **Total Pets**:  \n   To find the total number of pets, add up the pets each person has:  \n   \\( 4 \\) (Sincere) \\( + 6 \\) (Marcia) \\( + 18 \\) (Jan) \\( = 28 \\) pets.\n\n**Final Answer**:  \n\\(\\boxed{28}\\)",
+        "ground_truth": 28,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 149,
+        "question": "チャーリーはFacebookの友達がドロシーの3倍いる。ジェームズはドロシーの4倍、Facebookの友達がいる。チャーリーに12人、Facebookの友達がいある場合、ジェームズは何人のFacebook友達がいる？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\n1. **Define Variables:**\n   - Let \\( D \\) be the number of Facebook friends Dorothy has.\n   - Charlie has 3 times as many friends as Dorothy: \\( C = 3D \\).\n   - James has 4 times as many friends as Dorothy: \\( J = 4D \\).\n\n2. **Given Information:**\n   - Charlie has 12 Facebook friends: \\( C = 12 \\).\n\n3. **Find Dorothy's Friends:**\n   - Since \\( C = 3D \\) and \\( C = 12 \\), we can solve for \\( D \\):\n     \\[\n     12 = 3D \\implies D = \\frac{12}{3} = 4\n     \\]\n   - Dorothy has 4 Facebook friends.\n\n4. **Find James's Friends:**\n   - Since \\( J = 4D \\) and \\( D = 4 \\), we can solve for \\( J \\):\n     \\[\n     J = 4 \\times 4 = 16\n     \\]\n   - James has 16 Facebook friends.\n\n**Final Answer:**\n\\[\n\\boxed{16}\n\\]",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 228,
+        "question": "カリンダは母親と一緒に360ピースのパズルに取り組んでいます。カリンダは1分あたり4つのピースをはめることができます。母親はカリンダの半分の数をはめることができます。このパズルを完成させるのに何時間かかるでしょうか？\nAnswer in English.",
+        "generated_answer": "To determine how long it will take for Kalinda and her mother to complete the 360-piece puzzle together, let's break down the problem step by step.\n\n1. **Determine the Combined Rate:**\n   - **Kalinda's rate:** 4 pieces per minute\n   - **Mother's rate:** Half of Kalinda's rate = \\( \\frac{4}{2} = 2 \\) pieces per minute\n   - **Combined rate:** \\( 4 + 2 = 6 \\) pieces per minute\n\n2. **Calculate the Total Time Required:**\n   - **Total pieces:** 360\n   - **Time in minutes:** \\( \\frac{360 \\text{ pieces}}{6 \\text{ pieces per minute}} = 60 \\) minutes\n\n3. **Convert Minutes to Hours:**\n   - \\( 60 \\text{ minutes} = 1 \\text{ hour} \\)\n\n**Final Answer:**\n\\[\n\\boxed{1 \\text{ hour}}\n\\]",
+        "ground_truth": 1,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 55,
+        "question": "ジェーンは30個の飴を持っている。ジェーンはその飴のうち2つ食べる。残りの飴で、ジェーンは1つの袋に2つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意できますか？\nAnswer in English.",
+        "generated_answer": "Jane initially has 30 candies. After eating 2 candies, she has 30 - 2 = 28 candies left. \n\nTo find out how many bags she can make, we divide the remaining candies by the number of candies per bag: 28 / 2 = 14.\n\nSo, Jane can make 14 bags.",
+        "ground_truth": 14,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 129,
+        "question": "ある病院は500人の患者を毎日診察します。それぞれの患者は平均24分間診察されます。医者は病院に、1時間$150請求します。病院は患者に1時間$200請求します。病院はこれらの診察でいくら収益を得られますか？\nAnswer in English.",
+        "generated_answer": "To calculate the total revenue generated by the hospital from these consultations, we need to consider both the revenue from the patients and the revenue from the doctors.\n\n1. **Patient Revenue:**\n   - Each patient is charged $200 per hour.\n   - Each patient is seen for an average of 24 minutes (which is 0.4 hours).\n   - Therefore, the revenue per patient is \\( 200 \\times 0.4 = 80 \\) dollars.\n   - The hospital sees 500 patients each day.\n   - So, the total patient revenue per day is \\( 500 \\times 80 = 40,000 \\) dollars.\n\n2. **Doctor Revenue:**\n   - The doctors charge $150 per hour.\n   - The doctors work a certain number of hours each day. Let's denote the number of hours the doctors work as \\( H \\).\n   - The total doctor revenue per day is \\( 150 \\times H \\).\n\n3. **Total Revenue:**\n   - The total revenue from the hospital is the sum of the patient revenue and the doctor revenue.\n   - Therefore, the total revenue per day is \\( 40,000 + 150H \\).\n\nWithout the specific number of hours the doctors work each day (\\( H \\)), we cannot provide a numerical total revenue. However, the total revenue from the patients alone is $40,000 per day.",
+        "ground_truth": 10000,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 35,
+        "question": "マイクは卓球を40分します。最初の20分に、彼は4ポイント得点します。次の20分では、彼は25%多く得点しました。全部で何ポイント得点しましたか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many points Mike scored in total.\n\n1. **First 20 Minutes:**\n   - Mike scores **4 points** in the first 20 minutes.\n\n2. **Next 20 Minutes:**\n   - In the next 20 minutes, he scores **25% more** than the first 20 minutes.\n   - To calculate 25% of 4 points:  \n     \\( 25\\% \\text{ of } 4 = 0.25 \\times 4 = 1 \\text{ point} \\)\n   - Therefore, in the next 20 minutes, he scores:  \n     \\( 4 + 1 = 5 \\text{ points} \\)\n\n3. **Total Points:**\n   - Add the points from both periods:  \n     \\( 4 \\text{ points (first 20 minutes)} + 5 \\text{ points (next 20 minutes)} = 9 \\text{ points} \\)\n\n**Final Answer:**  \n\\(\\boxed{9}\\)",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 72,
+        "question": "トミーは1スライス$3のブラウニーと、$4のチーズケーキを売って、自分のチャリティーの費用を集めている。もしもトミーが43個のブラウニーと、23個のチーズケーキを売れば、トミーはいくら集められますか？\nAnswer in English.",
+        "generated_answer": "To calculate the total amount of money Tommy can raise, we need to multiply the number of each item sold by its price and then add the results together.\n\nFor the brownies:\n- Number of brownies sold: 43\n- Price per brownie: $3\n- Total from brownies: \\( 43 \\times 3 = 129 \\) dollars\n\nFor the cheesecakes:\n- Number of cheesecakes sold: 23\n- Price per cheesecake: $4\n- Total from cheesecakes: \\( 23 \\times 4 = 92 \\) dollars\n\nAdding the totals together:\n- Total amount raised: \\( 129 + 92 = 221 \\) dollars\n\nSo, Tommy can raise **$221**.",
+        "ground_truth": 221,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 229,
+        "question": "あるスイカ農園が120個の実の小さいスイカを栽培しました。アシュリンが農園を2か月後に訪れたところ、スイカの30%が収穫可能となっていたため、自宅に持って帰りました。2週間後に訪れたところ、残りのスイカの4分の3が収穫可能となっていたため、刈り取りました。そのときまだ収穫の準備ができていなかったスイカはいくつありましたか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many watermelons were not ready for harvest yet.\n\n1. **Initial Number of Watermelons:**\n   - The farm started with **120 watermelons**.\n\n2. **First Harvest (2 Months Later):**\n   - **30%** of the watermelons were ready for harvest.\n   - Number of watermelons ready for harvest: \\( 120 \\times 0.30 = 36 \\) watermelons.\n   - Watermelons not ready for harvest: \\( 120 - 36 = 84 \\) watermelons.\n\n3. **Second Harvest (2 Weeks Later):**\n   - **Three-fourths** of the remaining watermelons were ready for harvest.\n   - Number of watermelons ready for harvest: \\( \\frac{3}{4} \\times 84 = 63 \\) watermelons.\n   - Watermelons not ready for harvest: \\( 84 - 63 = 21 \\) watermelons.\n\n**Final Answer:**  \n\\(\\boxed{21}\\) watermelons were not ready for harvest yet.",
+        "ground_truth": 21,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 193,
+        "question": "スーは愉快な地域に住んでいます。ある週末、近所の人たちがスーにいたずらをしようと決めました。金曜日の朝、近所の人は18匹のプラスチックのピンクフラミンゴを、スーの自宅前の庭に設置しました。土曜日の朝、近所の人はフラミンゴの3分の1をどかし、白く塗り、新しく塗られた白いフラミンゴを、スーの自宅前の庭に戻しました。それから、日曜日の朝、彼らは別の18個のプラスチックのピンクフラミンゴをそのコレクションに加えました。日曜日の午後、プラスチックのピンクフラミンゴはプラスチックの白いフラミンゴより何個多いですか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many more pink flamingos there are than white flamingos on Sunday afternoon.\n\n1. **Initial Setup (Friday Morning):**\n   - Total flamingos: 18 (all pink)\n\n2. **Saturday Morning:**\n   - **Removed:** \\( \\frac{1}{3} \\) of the flamingos\n     - \\( \\frac{1}{3} \\times 18 = 6 \\) flamingos removed\n   - **Remaining Pink Flamingos:** \\( 18 - 6 = 12 \\)\n   - **White Flamingos Added:** 6 (all white)\n\n3. **Sunday Morning:**\n   - **Additional Pink Flamingos Added:** 18\n   - **Total Pink Flamingos Now:** \\( 12 + 18 = 30 \\)\n\n4. **Sunday Afternoon:**\n   - **Total White Flamingos:** 6 (from Saturday)\n   - **Total Pink Flamingos:** 30\n   - **Difference:** \\( 30 - 6 = 24 \\)\n\nSo, on Sunday afternoon, there are **24 more pink flamingos** than white flamingos.\n\n\\boxed{24}",
+        "ground_truth": 24,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 24,
+        "question": "カイルは去年、ベストセラーの本を$19.50で購入しました。元の価格よりも25%安値です。この本の元の価格はいくらですか？\nAnswer in English.",
+        "generated_answer": "To find the original price of the book, we can set up the problem as follows:\n\nLet \\( x \\) be the original price of the book.\n\nKyle bought the book for $19.50, which is 25% off the original price. This means he paid 75% of the original price (since 100% - 25% = 75%).\n\nWe can express this relationship as:\n\\[ 0.75x = 19.50 \\]\n\nTo find \\( x \\), we solve for \\( x \\):\n\\[ x = \\frac{19.50}{0.75} \\]\n\\[ x = 26 \\]\n\nSo, the original price of the book was **$26**.",
+        "ground_truth": 26,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 158,
+        "question": "ラファエルは学用品を買いに出かけた。彼は、各1.5ドルのペンを4本、各4ドルのノートを2冊買い、20ドルするボンド紙を1辺買った。ラファエルは全部でいくら使った？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total amount Rafael spent.\n\n1. **Pens:**\n   - Each pen costs $1.50.\n   - Rafael bought 4 pens.\n   - Total cost for pens: \\( 4 \\times 1.50 = 6.00 \\) dollars.\n\n2. **Notebooks:**\n   - Each notebook costs $4.00.\n   - Rafael bought 2 notebooks.\n   - Total cost for notebooks: \\( 2 \\times 4.00 = 8.00 \\) dollars.\n\n3. **Bond Paper:**\n   - The bond paper costs $20.00.\n   - Rafael bought 1 piece.\n   - Total cost for bond paper: \\( 1 \\times 20.00 = 20.00 \\) dollars.\n\n4. **Total Cost:**\n   - Add up the costs of all items:\n   \\[\n   6.00 \\text{ (pens)} + 8.00 \\text{ (notebooks)} + 20.00 \\text{ (bond paper)} = 34.00 \\text{ dollars}\n   \\]\n\n**Final Answer:**  \nRafael spent a total of **$34.00**.",
+        "ground_truth": 34,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 204,
+        "question": "ジャネットは22本の緑色のペンがあり、10本の黄色のペンがあります。それから彼女は青色のペンを6袋、赤色のペンを2袋購入しました。青色のペンの各袋には9本、赤色のペンの各袋には6本入っていました。ジャネットには今何本のペンがありますか？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total number of pens Janet has now.\n\n1. **Initial Pens:**\n   - Green pens: 22\n   - Yellow pens: 10\n   - **Total initial pens:** 22 + 10 = 32\n\n2. **Pens Purchased:**\n   - Blue pens: 6 bags × 9 pens/bag = 54 pens\n   - Red pens: 2 bags × 6 pens/bag = 12 pens\n   - **Total purchased pens:** 54 + 12 = 66\n\n3. **Total Pens Now:**\n   - Initial pens + Purchased pens = 32 + 66 = 98\n\n**Final Answer:** Janet now has **98 pens**.",
+        "ground_truth": 98,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 64,
+        "question": "ソフィアはロードトリップをすることを考えており、1タンク分のガソリンでどれくらいの距離を走れるかを知りたいと思っています。彼女は最後にタンクを満タンにして以来、100マイル運転しており、再度タンクを満タンにするには4ガロン入れる必要がありました。車の持主用マニュアルには、タンクには12ガロンのガスが入ると書いてあります。ソフィアは1タンク分のガソリンで何マイル進むことができますか？\nAnswer in English.",
+        "generated_answer": "To determine how many miles Sophia can drive on one tank of gas, we can use the information provided:\n\n1. **Total capacity of the gas tank**: 12 gallons  \n2. **Gas used to drive 100 miles**: 4 gallons  \n\nFirst, calculate the **fuel efficiency** (miles per gallon, mpg):  \n\\[\n\\text{Fuel efficiency} = \\frac{\\text{Distance driven}}{\\text{Gas used}} = \\frac{100 \\text{ miles}}{4 \\text{ gallons}} = 25 \\text{ mpg}\n\\]\n\nNow, calculate the **distance Sophia can drive on a full tank**:  \n\\[\n\\text{Distance} = \\text{Fuel efficiency} \\times \\text{Tank capacity} = 25 \\text{ mpg} \\times 12 \\text{ gallons} = 300 \\text{ miles}\n\\]\n\n**Answer**: Sophia can drive **300 miles** on one tank of gas.",
+        "ground_truth": 300,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 136,
+        "question": "世界には27頭のユニコーンが残っています。そのうち3分の1は、スコティッシュハイランドです。スコティッシュユニコーンの3分の2はメスです。そこにメスのスコティッシュユニコーンは何頭いますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Total unicorns in the world**: 27\n\n2. **Scotsman unicorns**: 1/3 of the total\n   - Calculation: \\( \\frac{1}{3} \\times 27 = 9 \\)\n\n3. **Female Scotsman unicorns**: 2/3 of the Scotsman unicorns\n   - Calculation: \\( \\frac{2}{3} \\times 9 = 6 \\)\n\nSo, there are **6 female Scotsman unicorns**.",
+        "ground_truth": 6,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 180,
+        "question": "サライの学校で、2人が学級委員長に立候補している。勝者が3/4の票を取った場合、クラスで投票した生徒の総数が80だった場合、敗者が取った表の数を計算しなさい。\nAnswer in English.",
+        "generated_answer": "To determine the number of votes the losing candidate received, let's break down the problem step by step.\n\n1. **Total Votes Cast:**  \n   The class has **80** students voting.\n\n2. **Votes for the Winning Candidate:**  \n   The winning candidate received **3/4** of the total votes.  \n   \\[\n   \\text{Votes for Winner} = \\frac{3}{4} \\times 80 = 60\n   \\]\n\n3. **Votes for the Losing Candidate:**  \n   The remaining votes go to the losing candidate.  \n   \\[\n   \\text{Votes for Loser} = \\text{Total Votes} - \\text{Votes for Winner} = 80 - 60 = 20\n   \\]\n\n**Final Answer:**  \n\\[\n\\boxed{20}\n\\]",
+        "ground_truth": 20,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 207,
+        "question": "ジョーのハロウィーンキャンディーの袋には25個のチョコレートバーと80個のりんご飴が入っています。それぞれのチョコレートバーはりんご飴の2倍の重さです。それぞれのチョコレートバーが40グラムの場合、ジョーのキャンディーの袋の重さは何グラムになりますか？\nAnswer in English.",
+        "generated_answer": "To determine the total weight of Joe's Halloween candy bag, let's break down the problem step by step.\n\n1. **Weight of Chocolate Bars:**\n   - Each chocolate bar weighs **40 grams**.\n   - There are **25 chocolate bars**.\n   - Total weight of chocolate bars = \\( 25 \\times 40 = 1000 \\) grams.\n\n2. **Weight of Apple Tarts:**\n   - Each apple tart weighs **half** the weight of a chocolate bar, so \\( \\frac{40}{2} = 20 \\) grams.\n   - There are **80 apple tarts**.\n   - Total weight of apple tarts = \\( 80 \\times 20 = 1600 \\) grams.\n\n3. **Total Weight of the Bag:**\n   - Add the weight of chocolate bars and apple tarts.\n   - Total weight = \\( 1000 + 1600 = 2600 \\) grams.\n\n**Final Answer:**  \nThe total weight of Joe's candy bag is **2600 grams**.",
+        "ground_truth": 2600,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 154,
+        "question": "月曜、水曜、金曜に、大学生のキモは1時間の3つの講義を各日受ける。火曜と木曜に、彼は2時間の講義を2つ各日受ける。1セメスターで、学校は16週間ある。1セメスターで、キモは何時間講義に出席して過ごす？\nAnswer in English.",
+        "generated_answer": "To calculate the total number of hours Kimo spends in lectures during one semester, we need to break down his weekly schedule and then multiply by the number of weeks in the semester.\n\n- **Monday, Wednesday, Friday:**\n  - 3 lectures of 1 hour each per day.\n  - Total per week: \\(3 \\text{ lectures/day} \\times 3 \\text{ days} \\times 1 \\text{ hour/lecture} = 9 \\text{ hours}\\).\n\n- **Tuesday, Thursday:**\n  - 2 lectures of 2 hours each per day.\n  - Total per week: \\(2 \\text{ lectures/day} \\times 2 \\text{ days} \\times 2 \\text{ hours/lecture} = 8 \\text{ hours}\\).\n\n- **Total per week:**\n  - \\(9 \\text{ hours} + 8 \\text{ hours} = 17 \\text{ hours}\\).\n\n- **Total for 16 weeks:**\n  - \\(17 \\text{ hours/week} \\times 16 \\text{ weeks} = 272 \\text{ hours}\\).\n\nTherefore, Kimo spends **272 hours** in lectures during one semester.",
+        "ground_truth": 272,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 37,
+        "question": "ジョンは自分のすべてのおもちゃを売り、そのお金でビデオゲームを買う予定です。彼は13個のレゴセットを持っており、$15でそれぞれ売ります。彼は最終的に、$20のビデオゲームを8個買い、$5残りました。彼は現在、何個のレゴセットを持っていますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many Lego sets John currently has.\n\n1. **Calculate the total amount of money John earns from selling his Lego sets:**\n   - John sells each Lego set for $15.\n   - He has 13 Lego sets.\n   - Total earnings = 13 sets × $15/set = $195.\n\n2. **Determine how much money John spends on video games:**\n   - John buys 8 video games, each costing $20.\n   - Total spending on video games = 8 games × $20/game = $160.\n\n3. **Find out how much money John has left after buying the video games:**\n   - John has $5 remaining after his purchases.\n\n4. **Calculate how much money John had initially:**\n   - Initial amount = Total earnings from Lego sets + Remaining money.\n   - Initial amount = $195 + $5 = $200.\n\n5. **Determine how many Lego sets John currently has:**\n   - John sold all his Lego sets to get $200.\n   - Since each Lego set was sold for $15, the number of sets he sold is:\n     - Number of sets sold = Initial amount ÷ Price per set.\n     - Number of sets sold = $200 ÷ $15 ≈ 13.33.\n   - Since John can't sell a fraction of a Lego set, he must have sold 13 sets.\n\n6. **Conclusion:**\n   - John currently has the same number of Lego sets as he originally had, which is 13.\n\n**Final Answer:** John currently has **13** Lego sets.",
+        "ground_truth": 2,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "ジョンは犬の里親になります。犬をトリマーに連れて行き、$100かかります。トリマーは彼に、新しい顧客用の30%割引を提供します。トリミングの費用はいくらになりますか？\nAnswer in English.",
+        "generated_answer": "The cost of the grooming is $100. John receives a 30% discount as a new customer, so the discount amount is 30% of $100, which is $30. Therefore, the final cost of the grooming is $100 - $30 = $70.",
+        "ground_truth": 70,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 25,
+        "question": "マリーは$12のチキンのメニューを1つ、それぞれ$3の牛乳を5パック、それぞれ$1.5のリンゴを4つ、そしてピザを何箱か頼みました。マリーは全部で$50払いました。ピザが1箱$8.50だとしたら、マリーは何箱ピザを頼みましたか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many boxes of pizza Marie ordered.\n\n1. **Calculate the cost of the chicken:**\n   - Marie ordered 1 chicken, which costs \\$12.\n\n2. **Calculate the cost of the milk:**\n   - She ordered 5 packs of milk, each costing \\$3.\n   - Total cost for milk = 5 × \\$3 = \\$15.\n\n3. **Calculate the cost of the apples:**\n   - She ordered 4 apples, each costing \\$1.5.\n   - Total cost for apples = 4 × \\$1.5 = \\$6.\n\n4. **Let \\( x \\) be the number of pizza boxes ordered.**\n   - Each pizza box costs \\$8.50.\n   - Total cost for pizza = \\( x \\times \\$8.50 \\).\n\n5. **Set up the equation for the total cost:**\n   - The total amount Marie paid is \\$50.\n   - So, the equation is:\n     \\[\n     12 + 15 + 6 + 8.50x = 50\n     \\]\n\n6. **Simplify the equation:**\n   \\[\n     33 + 8.50x = 50\n   \\]\n\n7. **Solve for \\( x \\):**\n   \\[\n   8.50x = 50 - 33\n   \\]\n   \\[\n   8.50x = 17\n   \\]\n   \\[\n   x = \\frac{17}{8.50}\n   \\]\n   \\[\n   x = 2\n   \\]\n\n**Conclusion:**\nMarie ordered **2 boxes** of pizza.",
+        "ground_truth": 2,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 186,
+        "question": "ラッセルはペットショップで働いていて、齧歯類の動物たちにわらを与えようとしている。3つのケージにそれぞれ同じ数のネズミがいて、ネズミには1匹につき6本のわらが与えられる。それとは別に、ハムスターが1匹ずつ入れられたケージが10個あり、ハムスターには1匹あたり5本のわらが与えられる。それとは別に、うさぎ小屋があり、20本のわらがうさぎ全体に与えられる。このペットショップでわらはそれ以外の用途では使われていない。齧歯類の動物たちに合計で160本のわらが与えられたとしたら、1つのケージに入っているネズミの数は何匹か？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many mice are in each cage.\n\n1. **Mice in Cage:**\n   - There are 3 cages, each with the same number of mice.\n   - Each mouse gets 6 straws.\n   - Total straws for mice: \\( 3 \\times 6 = 18 \\) straws.\n\n2. **Hamsters:**\n   - There are 10 cages, each with 1 hamster.\n   - Each hamster gets 5 straws.\n   - Total straws for hamsters: \\( 10 \\times 5 = 50 \\) straws.\n\n3. **Rabbits:**\n   - There is 1 rabbit hutch with 20 straws.\n   - Total straws for rabbits: 20 straws.\n\n4. **Total Straws:**\n   - The total number of straws given to all animals is 160.\n   - So, \\( 18 \\) (mice) + \\( 50 \\) (hamsters) + \\( 20 \\) (rabbits) = \\( 88 \\) straws.\n\nHowever, the problem states that the total number of straws given is 160, which is more than the 88 straws accounted for by the mice, hamsters, and rabbits. This suggests there might be a misunderstanding or an additional source of straws not mentioned in the problem.\n\nAssuming the problem is correct and there are indeed 160 straws in total, we can solve for the number of mice:\n\n- Let \\( x \\) be the number of mice in each cage.\n- Then, \\( 3x = 18 \\) (since 18 straws are given to the mice).\n- Solving for \\( x \\), we get \\( x = \\frac{18}{3} = 6 \\).\n\nSo, there are **6 mice** in each cage.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "クレアは毎朝朝ごはん用に卵を3つ使ったオムレツを作ります。クレアは4週間で卵を何個食べることになりますか？\nAnswer in English.",
+        "generated_answer": "To determine how many eggs Claire will eat in 4 weeks, we can follow these steps:\n\n1. **Eggs per day**: Claire uses 3 eggs for her morning omelette each day.\n2. **Days in a week**: There are 7 days in a week.\n3. **Eggs per week**: \\( 3 \\text{ eggs/day} \\times 7 \\text{ days/week} = 21 \\text{ eggs/week} \\).\n4. **Eggs in 4 weeks**: \\( 21 \\text{ eggs/week} \\times 4 \\text{ weeks} = 84 \\text{ eggs} \\).\n\nSo, Claire will eat **84 eggs** in 4 weeks.",
+        "ground_truth": 7,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 175,
+        "question": "ホアンと兄弟のカルロスは、レモネードを売っている。1ガロンあたり、3ドルのレモンと2ドルの砂糖を消費する。1杯あたり0.50ドルで売り1ガロンあたり20杯作れる。25ドルの儲けがでた場合、レモンにいくら使ったことになる？\nAnswer in English.",
+        "generated_answer": "To determine how much money was spent on lemons, let's break down the costs and revenues step by step.\n\n### **Given:**\n- **Cost of lemons per gallon:** \\$3\n- **Cost of sugar per gallon:** \\$2\n- **Selling price per cup:** \\$0.50\n- **Cups per gallon:** 20\n- **Total profit:** \\$25\n\n### **Step 1: Calculate Total Revenue**\nFirst, find out how much money was made from selling the lemonade.\n\n\\[\n\\text{Total Revenue} = \\text{Number of Cups} \\times \\text{Selling Price per Cup}\n\\]\n\n\\[\n\\text{Total Revenue} = 20 \\text{ cups} \\times \\$0.50/\\text{cup} = \\$10\n\\]\n\n### **Step 2: Calculate Total Cost**\nNext, determine the total cost of ingredients (lemons and sugar).\n\n\\[\n\\text{Total Cost} = \\text{Cost of Lemons} + \\text{Cost of Sugar}\n\\]\n\n\\[\n\\text{Total Cost} = \\$3 + \\$2 = \\$5\n\\]\n\n### **Step 3: Determine Profit**\nProfit is the difference between total revenue and total cost.\n\n\\[\n\\text{Profit} = \\text{Total Revenue} - \\text{Total Cost}\n\\]\n\n\\[\n\\text{Profit} = \\$10 - \\$5 = \\$5\n\\]\n\nHowever, the problem states that the profit is \\$25, which seems to be a misunderstanding since the calculations based on the given costs and revenue only yield \\$5 in profit. \n\nAssuming the problem intended to ask for the **cost of lemons** (since the profit is already given as \\$25), we can proceed as follows:\n\n### **Step 4: Calculate Cost of Lemons**\nThe total cost is \\$5, and the cost of sugar is \\$2. Therefore, the cost of lemons is:\n\n\\[\n\\text{Cost of Lemons} = \\text{Total Cost} - \\text{Cost of Sugar}\n\\]\n\n\\[\n\\text{Cost of Lemons} = \\$5 - \\$2 = \\$3\n\\]\n\n### **Final Answer:**\n\\[\n\\boxed{3}\n\\]",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 84,
+        "question": "サッカーチームが22試合行った。彼らは負けた試合の数よりも8試合多く勝った。彼らは何回勝ったか？\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Problem Statement:**\nA soccer team played 22 matches. They won 8 more matches than they lost. How many matches did they win?\n\n**Solution:**\n\n1. **Define Variables:**\n   - Let \\( W \\) be the number of matches won.\n   - Let \\( L \\) be the number of matches lost.\n\n2. **Set Up the Equations:**\n   - The total number of matches played is 22:\n     \\[\n     W + L = 22\n     \\]\n   - They won 8 more matches than they lost:\n     \\[\n     W = L + 8\n     \\]\n\n3. **Substitute and Solve:**\n   - Substitute the second equation into the first:\n     \\[\n     (L + 8) + L = 22\n     \\]\n   - Combine like terms:\n     \\[\n     2L + 8 = 22\n     \\]\n   - Subtract 8 from both sides:\n     \\[\n     2L = 14\n     \\]\n   - Divide by 2:\n     \\[\n     L = 7\n     \\]\n   - Now, substitute \\( L = 7 \\) back into the second equation to find \\( W \\):\n     \\[\n     W = 7 + 8 = 15\n     \\]\n\n**Answer:**\nThe team won \\(\\boxed{15}\\) matches.",
+        "ground_truth": 15,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 120,
+        "question": "ミゲルは、彼の絵に週に2パッドの紙を使う。もしも1パッドの紙に30枚入っているとすると、彼は毎月何枚の紙を使う？\nAnswer in English.",
+        "generated_answer": "Miguel uses 2 pads of paper per week for his drawings. If each pad contains 30 sheets, he uses 2 * 30 = 60 sheets per week. \n\nThere are approximately 4 weeks in a month, so he uses 60 * 4 = 240 sheets of paper per month. \n\nAnswer: 240 sheets.",
+        "ground_truth": 240,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 143,
+        "question": "ジョンは牛乳を2ドルで、卵を3ドルで、電球を3ドルで、カップを3ドルで、4ドルでゴキブリ用の罠を購入する。食べ物以外には10%の税金が課される場合、すべてでいくらになりましたか。\nAnswer in English.",
+        "generated_answer": "To calculate the total cost including the 10% tax on non-food items, we first need to identify which items are considered food and which are not. \n\n- **Food items**: Milk (牛乳), Eggs (卵), and Cup (カップ)\n- **Non-food items**: Light bulb (電球) and Roach trap (ゴキブリ用の罠)\n\nThe cost of the food items is:\n- Milk: $2\n- Eggs: $3\n- Cup: $3\n\nTotal cost of food items: $2 + $3 + $3 = $8\n\nThe cost of the non-food items is:\n- Light bulb: $3\n- Roach trap: $4\n\nTotal cost of non-food items: $3 + $4 = $7\n\nThe tax is 10% of the total cost of non-food items:\n- Tax: 10% of $7 = 0.10 * $7 = $0.70\n\nNow, we add the tax to the total cost of non-food items:\n- Total cost including tax: $7 + $0.70 = $7.70\n\nFinally, we add the total cost of food items and the total cost including tax:\n- Total cost: $8 (food) + $7.70 (non-food including tax) = $15.70\n\nSo, the total cost including the 10% tax on non-food items is **$15.70**.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 215,
+        "question": "ローリーは320ドルの靴とそれに合う32ドルのベルトを買いたいと思っています。彼女はアルバイトで時給8ドルを稼いでいます。買い物ができるまでに何時間働く必要があるでしょうか？\nAnswer in English.",
+        "generated_answer": "To determine how many hours Rory needs to work to afford the shoes and belt, let's break it down step by step:\n\n1. **Total Cost**:  \n   - Shoes: $320  \n   - Belt: $32  \n   - **Total**: $320 + $32 = **$352**\n\n2. **Hourly Wage**:  \n   - Rory earns **$8 per hour**.\n\n3. **Calculation**:  \n   \\[\n   \\text{Hours Needed} = \\frac{\\text{Total Cost}}{\\text{Hourly Wage}} = \\frac{352}{8} = 44 \\text{ hours}\n   \\]\n\n**Answer**: Rory needs to work **44 hours** to afford the shoes and belt.",
+        "ground_truth": 44,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 90,
+        "question": "ティラノザウルスのテッドは恐竜ピクニックにポテトサラダを持っていこうと計画していました。彼は大人の恐竜はポテトサラダを10lbs食べ、子供は大人の半分を食べるとわかっています。テッドが皆に十分食べてもらいたいと思っている場合、もしも20匹の大人と5匹の子供がピクニックに参加するなら、何ポンドのポテトサラダをピクニックに持っていく必要がありますか？\nAnswer in English.",
+        "generated_answer": "To determine how many pounds of potato salad Ted needs to bring for the picnic, let's break down the problem step by step.\n\n1. **Calculate the total number of participants:**\n   - Adults: 20\n   - Children: 5\n   - Total participants = 20 + 5 = 25\n\n2. **Determine the amount of potato salad each type of participant eats:**\n   - Each adult eats 10 lbs.\n   - Each child eats half of what an adult eats, so each child eats \\( \\frac{10}{2} = 5 \\) lbs.\n\n3. **Calculate the total amount of potato salad needed:**\n   - Total for adults: \\( 20 \\times 10 = 200 \\) lbs\n   - Total for children: \\( 5 \\times 5 = 25 \\) lbs\n   - Total potato salad needed: \\( 200 + 25 = 225 \\) lbs\n\nSo, Ted needs to bring **225 pounds** of potato salad for the picnic.",
+        "ground_truth": 225,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 111,
+        "question": "ジュリアのボートが、湖を運転中に水漏れを起こした。ボートは彼女が岸辺に向かい10フィートこぐたびに、2リットルの水が入っか。岸辺は64秒先だった。ジュリアが岸辺にたどり着くまでに、どれだけの水がボートに入ったか？\nAnswer in English.",
+        "generated_answer": "To determine how much water entered Julia's boat by the time she reaches the shore, we can break down the problem step by step.\n\n1. **Determine the number of strokes needed to reach the shore:**\n   - The shore is 64 seconds away.\n   - For every 10 feet she rows, 2 liters of water enter the boat.\n   - Therefore, the number of 10-foot strokes required is \\( \\frac{64 \\text{ seconds}}{10 \\text{ seconds/stroke}} = 6.4 \\text{ strokes} \\).\n\n2. **Calculate the total water leakage:**\n   - For each 10-foot stroke, 2 liters of water enter the boat.\n   - For 6.4 strokes, the total water leakage is \\( 6.4 \\text{ strokes} \\times 2 \\text{ liters/stroke} = 12.8 \\text{ liters} \\).\n\nThus, by the time Julia reaches the shore, **12.8 liters** of water will have entered her boat.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 80,
+        "question": "2人の少女がそれぞれ24リットルの水を6分の1飲んだ。それから男の子が水を6リットル飲んだ。何リットルの水が残ったか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much water is left.\n\n1. **Initial Amount of Water:**\n   - There are 24 liters of water in total.\n\n2. **Water Consumed by the Two Girls:**\n   - Each girl drinks \\( \\frac{1}{6} \\) of 24 liters.\n   - So, each girl drinks \\( \\frac{1}{6} \\times 24 = 4 \\) liters.\n   - Together, the two girls drink \\( 4 + 4 = 8 \\) liters.\n\n3. **Water Remaining After the Girls Drink:**\n   - Initial water: 24 liters\n   - Water consumed by the girls: 8 liters\n   - Water remaining: \\( 24 - 8 = 16 \\) liters\n\n4. **Water Consumed by the Boy:**\n   - The boy drinks 6 liters.\n\n5. **Final Amount of Water Left:**\n   - Water remaining after the girls: 16 liters\n   - Water consumed by the boy: 6 liters\n   - Final water left: \\( 16 - 6 = 10 \\) liters\n\n**Answer:**  \n\\(\\boxed{10}\\) liters of water are left.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 156,
+        "question": "動物園の飼育係が、動物園のすべての猿に餌を与える。彼は地元の農場に、2か月ごとにバナナをすべて注文する。猿が200本のバナナ、ゴリラが400本のバナナ、ヒヒが100本のバナナを毎月必要な場合、彼は2か月間でどれだけのバナナを頼む必要があるか？\nAnswer in English.",
+        "generated_answer": "To determine how many bananas the zookeeper needs to order for two months, let's break down the requirements:\n\n1. **Monthly Banana Requirements:**\n   - **Monkeys:** 200 bananas\n   - **Gorillas:** 400 bananas\n   - **Hippos:** 100 bananas\n\n2. **Total Monthly Requirement:**\n   \\[\n   200 \\text{ (monkeys)} + 400 \\text{ (gorillas)} + 100 \\text{ (hippos)} = 700 \\text{ bananas per month}\n   \\]\n\n3. **Total Requirement for Two Months:**\n   \\[\n   700 \\text{ bananas/month} \\times 2 \\text{ months} = 1400 \\text{ bananas}\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{1400}\n\\]",
+        "ground_truth": 1400,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 163,
+        "question": "部屋に、様々なおもちゃがある：5個の赤い車、3個のアクションフィギュア、1つの人形。人形は3つのアクションフィギュアと同じ値段で、1つの赤い車は4ドルする。アクションフィギュアが5ドルだとすると、すべてのおもちゃはいくらの価値がある？\nAnswer in English.",
+        "generated_answer": "To determine the total value of all the toys, let's break down the costs:\n\n1. **Red Cars**: There are 5 red cars, and each costs $4.  \n   Total cost for red cars = 5 × $4 = $20.\n\n2. **Action Figures**: There are 3 action figures, and each costs $5.  \n   Total cost for action figures = 3 × $5 = $15.\n\n3. **Doll**: The doll costs the same as 3 action figures, which is 3 × $5 = $15.\n\nNow, add up the costs:  \nTotal value = $20 (red cars) + $15 (action figures) + $15 (doll) = $50.\n\nSo, all the toys are worth **$50**.",
+        "ground_truth": 50,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 52,
+        "question": "ユーライアの本用の鞄は彼にとって重すぎになっている。彼は15ポンド底から取り除く必要がある。彼の漫画本はそれぞれ1/4ポンドで、おもちゃはそれぞれ1/2ポンドだ。彼が30冊の漫画本を取り除いたら、おもちゃはいくつ取り除く必要があるか？\nAnswer in English.",
+        "generated_answer": "To determine how many toys Uriah needs to remove to reduce the weight of his bag by 15 pounds, let's break down the problem step by step.\n\n1. **Initial Weight Calculation:**\n   - Let \\( x \\) be the number of toys.\n   - Each toy weighs \\( \\frac{1}{2} \\) pound.\n   - Total weight of toys: \\( \\frac{1}{2}x \\) pounds.\n   - Each comic book weighs \\( \\frac{1}{4} \\) pound.\n   - Total weight of comic books: \\( 30 \\times \\frac{1}{4} = 7.5 \\) pounds.\n   - Combined weight of all items: \\( \\frac{1}{2}x + 7.5 \\) pounds.\n\n2. **Final Weight After Removal:**\n   - Uriah wants the total weight to be 15 pounds.\n   - So, \\( \\frac{1}{2}x + 7.5 = 15 \\).\n\n3. **Solve for \\( x \\):**\n   \\[\n   \\frac{1}{2}x + 7.5 = 15\n   \\]\n   \\[\n   \\frac{1}{2}x = 15 - 7.5\n   \\]\n   \\[\n   \\frac{1}{2}x = 7.5\n   \\]\n   \\[\n   x = 7.5 \\times 2\n   \\]\n   \\[\n   x = 15\n   \\]\n\n4. **Conclusion:**\n   - Uriah needs to remove **15 toys** to reduce the weight of his bag by 15 pounds.\n\n\\[\n\\boxed{15}\n\\]",
+        "ground_truth": 15,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 141,
+        "question": "700匹の蜂が蜂の巣にいる。赤ちゃんの鉢の12倍、働き蜂がおり、女王蜂の2倍の赤ちゃんの蜂がいる。何匹の働き蜂がいますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many worker bees are in the hive.\n\n1. **Define Variables:**\n   - Let \\( W \\) be the number of worker bees.\n   - Let \\( B \\) be the number of baby bees.\n   - Let \\( Q \\) be the number of queen bees.\n\n2. **Given Relationships:**\n   - The number of worker bees is 12 times the number of baby bees:\n     \\[\n     W = 12B\n     \\]\n   - The number of baby bees is 2 times the number of queen bees:\n     \\[\n     B = 2Q\n     \\]\n   - The total number of bees in the hive is 700:\n     \\[\n     W + B + Q = 700\n     \\]\n\n3. **Substitute the Relationships into the Total:**\n   - From \\( B = 2Q \\), substitute \\( B \\) in the total equation:\n     \\[\n     W + 2Q + Q = 700\n     \\]\n     \\[\n     W + 3Q = 700\n     \\]\n   - From \\( W = 12B \\), substitute \\( W \\) in the equation:\n     \\[\n     12B + 3Q = 700\n     \\]\n\n4. **Solve for \\( Q \\):**\n   - Since \\( B = 2Q \\), substitute \\( B \\) in the equation:\n     \\[\n     12(2Q) + 3Q = 700\n     \\]\n     \\[\n     24Q + 3Q = 700\n     \\]\n     \\[\n     27Q = 700\n     \\]\n     \\[\n     Q = \\frac{700}{27} \\approx 25.93\n     \\]\n   - Since the number of bees must be a whole number, we round \\( Q \\) to the nearest whole number:\n     \\[\n     Q \\approx 26\n     \\]\n\n5. **Find \\( B \\) and \\( W \\):**\n   - Using \\( B = 2Q \\):\n     \\[\n     B = 2 \\times 26 = 52\n     \\]\n   - Using \\( W = 12B \\):\n     \\[\n     W = 12 \\times 52 = 624\n     \\]\n\n6. **Verify the Total:**\n   \\[\n   W + B + Q = 624 + 52 + 26 = 700\n   \\]\n   The total matches the given number of bees.\n\n**Final Answer:**\n\\[\n\\boxed{624}\n\\]",
+        "ground_truth": 400,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 239,
+        "question": "学校の講堂に1,000人の学生がいました。講堂には3つの出入口A、B、Cがありました。出入口Aから30%の学生が退出して、残りの学生の5分の3が出入口Bから退出して、残りの学生が出入口Cから退出した場合、出入口Cから退出した学生の数は何人だったか、計算してください。\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Total number of students**: 1,000\n\n2. **Students exiting through A**:\n   - 30% of 1,000 students exit through A.\n   - \\( 0.30 \\times 1000 = 300 \\) students exit through A.\n\n3. **Students remaining after A**:\n   - Total students - Students exiting through A = \\( 1000 - 300 = 700 \\) students remain.\n\n4. **Students exiting through B**:\n   - \\( \\frac{5}{3} \\) of the remaining students exit through B.\n   - \\( \\frac{5}{3} \\times 700 = \\frac{3500}{3} \\approx 1166.67 \\) students exit through B.\n   - Since the number of students must be a whole number, we'll round to 1167 students.\n\n5. **Students remaining after B**:\n   - Remaining students - Students exiting through B = \\( 700 - 1167 = -467 \\).\n   - This negative number indicates an error in the problem statement or calculation.\n\n6. **Re-evaluating the problem**:\n   - The problem states that the remaining students after B exit through C.\n   - Let \\( x \\) be the number of students exiting through C.\n   - Total students = Students exiting through A + Students remaining after A - Students exiting through B - Students exiting through C.\n   - \\( 1000 = 300 + 700 - 1167 - x \\).\n   - Simplifying: \\( 1000 = 1000 - 1167 - x \\).\n   - \\( x = 1167 - 1000 = 167 \\).\n\n7. **Conclusion**:\n   - The number of students exiting through C is **167**.\n\n**Final Answer**: 167 students exited through C.",
+        "ground_truth": 280,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 113,
+        "question": "ライアンは彼の庭に、1日に2つの花を植える。15日後、5つの花が育たなかったとすると、彼はいくつの花を持っているか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many flowers Ryan has after 15 days.\n\n1. **Flowers planted per day**: Ryan plants 2 flowers each day.\n2. **Number of days**: He plants flowers for 15 days.\n3. **Total flowers planted**: \\( 2 \\text{ flowers/day} \\times 15 \\text{ days} = 30 \\text{ flowers} \\).\n4. **Flowers that did not grow**: 5 flowers did not grow.\n5. **Total flowers Ryan has**: \\( 30 \\text{ flowers} - 5 \\text{ flowers} = 25 \\text{ flowers} \\).\n\nSo, after 15 days, Ryan has **25 flowers**.",
+        "ground_truth": 25,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 133,
+        "question": "月曜日、ウォルトは4マイル歩いた。火曜日、彼は月曜日に歩いた分の6倍のマイルを歩いた。彼が月曜から水曜まで歩いた距離は合計41マイルだった。水曜日、彼は何マイル歩いたか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many miles Walt walked on Wednesday.\n\n1. **Monday:**\n   - Walt walked **4 miles**.\n\n2. **Tuesday:**\n   - He walked **6 times** the distance he walked on Monday.\n   - \\( 6 \\times 4 = 24 \\) miles.\n\n3. **Total distance from Monday to Tuesday:**\n   - \\( 4 \\text{ (Monday)} + 24 \\text{ (Tuesday)} = 28 \\) miles.\n\n4. **Total distance from Monday to Wednesday:**\n   - The total distance walked from Monday to Wednesday is **41 miles**.\n\n5. **Wednesday:**\n   - To find the distance walked on Wednesday, subtract the distance walked from Monday and Tuesday from the total distance.\n   - \\( 41 \\text{ (total)} - 28 \\text{ (Monday and Tuesday)} = 13 \\) miles.\n\n**Final Answer:**\n\\[\n\\boxed{13}\n\\]",
+        "ground_truth": 13,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 243,
+        "question": "ジェイソンは1か月あたり1,000分間の通話ができる契約プランに入っています。毎日上司と15分間電話し、それ以外の人に対して今月は300分電話しました。今月が30日までの月だった場合、今月はあと何分間の通話が可能ですか？\nAnswer in English.",
+        "generated_answer": "To determine how many minutes of calls Jason can make in the remaining days of the month, let's break down the information:\n\n1. **Total minutes allowed per month:** 1,000 minutes.\n2. **Minutes already used:**\n   - **Daily calls to his boss:** 15 minutes/day × 30 days = 450 minutes.\n   - **Other calls:** 300 minutes.\n   - **Total used:** 450 + 300 = 750 minutes.\n3. **Remaining minutes:** 1,000 - 750 = 250 minutes.\n\nSo, Jason can make **250 minutes** of calls in the remaining days of the month.",
+        "ground_truth": 250,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 15,
+        "question": "ある商人が、5,000ドルの宝石と8,000ドルの電化製品という2つの仕入れ計画から1つを選択しようとしています。商人の金融アドバイザーの推測によれば、今後同じ月の間に、宝石の価格は2.5%、電化製品の価格は1.2%上昇します。この月の終わりに利益を最大化できるよう仕入れ計画を選択するとすると、その利益はいくらになりますか？\nAnswer in English.",
+        "generated_answer": "To determine which inventory plan will maximize the merchant's profit, we need to calculate the expected profit for each option, considering the expected price increases.\n\n### Given:\n- **Initial Purchase Costs:**\n  - Jewelry: \\$5,000\n  - Electronics: \\$8,000\n\n- **Price Increase Rates:**\n  - Jewelry: 2.5%\n  - Electronics: 1.2%\n\n### Assumptions:\n- The merchant sells all items at the end of the month.\n- The selling price remains constant and is not affected by the price increase.\n\n### Calculations:\n\n#### 1. Jewelry:\n- **Initial Cost:** \\$5,000\n- **Price Increase:** 2.5%\n- **Increase in Cost:** \\( 5000 \\times 0.025 = \\$125 \\)\n- **Final Cost:** \\( 5000 + 125 = \\$5,125 \\)\n\n#### 2. Electronics:\n- **Initial Cost:** \\$8,000\n- **Price Increase:** 1.2%\n- **Increase in Cost:** \\( 8000 \\times 0.012 = \\$96 \\)\n- **Final Cost:** \\( 8000 + 96 = \\$8,096 \\)\n\n### Profit Calculation:\n- **Profit from Jewelry:**\n  - Selling Price: Assume the selling price is the same as the initial cost (for simplicity, if the selling price is not given).\n  - Profit: \\( 5000 - 5125 = -\\$125 \\) (Loss)\n\n- **Profit from Electronics:**\n  - Selling Price: Assume the selling price is the same as the initial cost (for simplicity, if the selling price is not given).\n  - Profit: \\( 8000 - 8096 = -\\$96 \\) (Loss)\n\n### Conclusion:\nBoth options result in a loss. Therefore, the merchant should not choose either option to maximize profit. Instead, the merchant should consider other strategies such as:\n- **Holding Off on Purchases:** Wait for prices to decrease or stabilize.\n- **Diversifying Inventory:** Purchasing a mix of items to spread risk.\n- **Negotiating with Suppliers:** Attempting to secure better prices or payment terms.\n\nIf the selling price is different from the initial cost, the calculations would need to be adjusted accordingly. However, based on the given information, neither option is profitable.",
+        "ground_truth": 125,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 140,
+        "question": "20台のレンタル可能な車の中、12台がオートマチックで、4台がマニュアルで、残りはセミオートマチックだ。セミオートマチックの割合は何%？\nAnswer in English.",
+        "generated_answer": "To find the percentage of semi-automatic cars among the 20 available rental cars, follow these steps:\n\n1. **Total number of cars**: 20  \n2. **Automatic cars**: 12  \n3. **Manual cars**: 4  \n4. **Semi-automatic cars**: \\( 20 - 12 - 4 = 4 \\)  \n\nNow, calculate the percentage of semi-automatic cars:  \n\\[\n\\text{Percentage} = \\left( \\frac{\\text{Number of semi-automatic cars}}{\\text{Total number of cars}} \\right) \\times 100 = \\left( \\frac{4}{20} \\right) \\times 100 = 20\\%\n\\]\n\n**Answer**: 20%",
+        "ground_truth": 20,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3,
+        "question": "ジェイムズは週に3回、毎回3本のスプリントを走ることに決めました。スプリントごとに60メートル走ります。ジェイムズは1週間で何メートル走るでしょうか？\nAnswer in English.",
+        "generated_answer": "James runs 3 sprints each time, covering 60 meters per sprint. If he does this 3 times a week, the total distance he runs in a week is:\n\n3 sprints/time × 60 meters/sprint × 3 times/week = 540 meters/week.\n\nSo, James runs 540 meters in a week.",
+        "ground_truth": 540,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 23,
+        "question": "蝋燭は1時間燃えるごとに、2センチ溶けます。午後1時から、午後5時までに燃えた蝋燭は、何センチ短くなるでしょう？\nAnswer in English.",
+        "generated_answer": "The candle melts 2 centimeters every hour. From 1 PM to 5 PM is a total of 4 hours.  \n\nSo, the candle will melt:  \n\\( 4 \\text{ hours} \\times 2 \\text{ cm/hour} = 8 \\text{ cm} \\)  \n\nThe candle will shorten by **8 centimeters**.",
+        "ground_truth": 8,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 184,
+        "question": "ジェリーは6面ダイスを振っている。彼が3よりも大きい数を出す確率は、偶数を2回連続で出す確率よりも（何%）高いか？\nAnswer in English.",
+        "generated_answer": "To determine how much more likely Jerry is to roll a number greater than 3 compared to rolling an even number twice in a row, we need to calculate the probabilities of each event and then find the difference.\n\n1. **Probability of rolling a number greater than 3:**\n   - A standard 6-sided die has numbers 1 through 6.\n   - Numbers greater than 3 are 4, 5, and 6.\n   - There are 3 favorable outcomes out of 6 possible outcomes.\n   - The probability is \\( \\frac{3}{6} = \\frac{1}{2} \\).\n\n2. **Probability of rolling an even number twice in a row:**\n   - Even numbers on a 6-sided die are 2, 4, and 6.\n   - The probability of rolling an even number on a single roll is \\( \\frac{3}{6} = \\frac{1}{2} \\).\n   - Since the rolls are independent, the probability of rolling an even number twice in a row is \\( \\left(\\frac{1}{2}\\right) \\times \\left(\\frac{1}{2}\\right) = \\frac{1}{4} \\).\n\n3. **Difference in probabilities:**\n   - The probability of rolling a number greater than 3 is \\( \\frac{1}{2} \\).\n   - The probability of rolling an even number twice in a row is \\( \\frac{1}{4} \\).\n   - The difference is \\( \\frac{1}{2} - \\frac{1}{4} = \\frac{1}{4} \\).\n\n4. **Convert the difference to a percentage:**\n   - \\( \\frac{1}{4} \\) is equivalent to 25%.\n\nTherefore, Jerry is **25%** more likely to roll a number greater than 3 compared to rolling an even number twice in a row.",
+        "ground_truth": 25,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 102,
+        "question": "ジョンは朝ごはん、昼ごはん、夕飯の時に1杯の水を飲むことが好きだ。最終的に、彼はベッドに行く前にも1杯飲む。ジョンは平日毎日これをするが、週末はリラックスしたいと思っており、夕飯時には代わりにソーダを飲む。彼は週に何倍の水を飲むか？\nAnswer in English.",
+        "generated_answer": "John drinks 1 cup of water for breakfast, lunch, and dinner, and 1 cup before bed. On weekdays, he does this every day, so that's 4 cups per day (1 for breakfast, 1 for lunch, 1 for dinner, and 1 before bed). Over 5 weekdays, he drinks 4 cups/day * 5 days = 20 cups.\n\nOn weekends, he replaces the water at dinner with soda, so he still drinks 1 cup for breakfast, 1 cup for lunch, and 1 cup before bed, but only 1 cup for dinner. This totals 3 cups per day on weekends. Over 2 weekend days, he drinks 3 cups/day * 2 days = 6 cups.\n\nIn total, John drinks 20 cups (weekdays) + 6 cups (weekends) = 26 cups of water per week.\n\nSo, John drinks water **26 times** more than he would if he drank only 1 cup per day.",
+        "ground_truth": 26,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 181,
+        "question": "角の花屋、サンドラは、フレッドによる注文の未配達をとても不快に感じていた。サンドラは白いカーネーションの4倍の赤い薔薇を注文し注文していた。彼女はまた、ピンクのオランダカイウを白いカネーションの5倍となる、200本注文していた。サンドラは午後5時までに赤いバラを配達できなければ、サプライヤーを変えると脅した。サンドラを取引先としてキープするためには、フレッドは午後5時までに何本の赤いバラを用意する必要があるか？\nAnswer in English.",
+        "generated_answer": "To determine how many red roses Fred needs to prepare by 5:00 PM to keep Sandra as a client, let's break down the requirements:\n\n1. **Red Roses**: Sandra ordered 4 times the number of white carnations in red roses.  \n   - Let the number of white carnations be \\( x \\).  \n   - Therefore, the number of red roses is \\( 4x \\).\n\n2. **Pink Hyacinths**: Sandra ordered 5 times the number of white carnations in pink hyacinths.  \n   - The number of pink hyacinths is \\( 5x \\).\n\n3. **Total Flowers**: The total number of flowers (red roses + pink hyacinths) must be at least the number of white carnations to meet Sandra's order.  \n   - Total flowers = \\( 4x + 5x = 9x \\).  \n   - Since the number of white carnations is \\( x \\), the total flowers must be at least \\( x \\).  \n   - Therefore, \\( 9x \\geq x \\), which simplifies to \\( x \\geq 0 \\). This is always true, so the minimum number of flowers is \\( 9x \\).\n\n4. **Red Roses Only**: Since Sandra is only concerned about the red roses, Fred needs to prepare at least \\( 4x \\) red roses.\n\nHowever, the problem does not specify the exact number of white carnations \\( x \\). To ensure Sandra is satisfied, Fred should prepare enough red roses to meet or exceed the minimum requirement. Since the problem does not provide a specific value for \\( x \\), the minimum number of red roses Fred needs to prepare is \\( 4x \\).\n\nIf we assume \\( x = 100 \\) (a reasonable estimate, as the problem does not specify), then:\n- The number of red roses needed is \\( 4 \\times 100 = 400 \\).\n\nThus, Fred needs to prepare **400 red roses** by 5:00 PM to keep Sandra as a client.",
+        "ground_truth": 160,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 171,
+        "question": "ジェイクは昆虫博物館まで歩いている。彼は8本足の蜘蛛を80匹、6本足の虫を90匹、それぞれ10本の足がある希少な変異体の無脊椎動物を見る。ジェイクは全部で何本の足を見る？\nAnswer in English.",
+        "generated_answer": "To determine the total number of legs Jake sees at the insect museum, we'll calculate the legs contributed by each type of creature and then sum them up.\n\n1. **Spider legs**:  \n   - Number of spiders: 80  \n   - Legs per spider: 8  \n   - Total spider legs: \\( 80 \\times 8 = 640 \\)\n\n2. **Insect legs**:  \n   - Number of insects: 90  \n   - Legs per insect: 6  \n   - Total insect legs: \\( 90 \\times 6 = 540 \\)\n\n3. **Rare mutant legs**:  \n   - Number of mutants: 10  \n   - Legs per mutant: 10  \n   - Total mutant legs: \\( 10 \\times 10 = 100 \\)\n\n4. **Total legs**:  \n   \\( 640 + 540 + 100 = 1280 \\)\n\n**Answer**: Jake sees a total of **1280 legs**.",
+        "ground_truth": 1210,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 160,
+        "question": "水のタンクの深さは、月曜日には17フィートだ。火曜日、タンクは7フィート水が増えた。水曜日、水の深さは火曜日の3分の2だ。水曜日のタンクの水の深さはどれくらいか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the water depth in the tank on Wednesday.\n\n1. **Monday's Depth:**\n   - The tank starts with a depth of **17 feet** on Monday.\n\n2. **Tuesday's Increase:**\n   - On Tuesday, the water level increases by **7 feet**.\n   - **Calculation:**  \n     \\( 17 \\text{ feet} + 7 \\text{ feet} = 24 \\text{ feet} \\)\n\n3. **Wednesday's Depth:**\n   - On Wednesday, the water level is **\\(\\frac{2}{3}\\)** of Tuesday's depth.\n   - **Calculation:**  \n     \\( \\frac{2}{3} \\times 24 \\text{ feet} = 16 \\text{ feet} \\)\n\n**Final Answer:**  \nThe water depth in the tank on Wednesday is \\(\\boxed{16}\\) feet.",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 0,
+        "question": "ジャネットのアヒルは1日に16個の卵を生みます。ジャネットは毎朝朝食の一環で3個を消費し、毎日4個使って友達向けにマフィンを焼きます。残りを市場で1個あたり2ドルの価格で売ります。彼女は毎日市場でいくら手に入れていますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much money Janet makes from selling the remaining eggs each day.\n\n1. **Total Eggs Laid:**\n   - Janet's duck lays **16 eggs per day**.\n\n2. **Eggs Consumed:**\n   - **3 eggs** are consumed for breakfast.\n   - **4 eggs** are used to make muffins for friends.\n   - **Total consumed:** \\( 3 + 4 = 7 \\) eggs.\n\n3. **Eggs Remaining for Sale:**\n   - **Total eggs laid:** 16\n   - **Eggs consumed:** 7\n   - **Eggs remaining:** \\( 16 - 7 = 9 \\) eggs.\n\n4. **Selling Price:**\n   - Each egg is sold for **\\$2**.\n\n5. **Daily Earnings:**\n   - **Number of eggs sold:** 9\n   - **Earnings:** \\( 9 \\times \\$2 = \\$18 \\).\n\n**Final Answer:**  \n\\(\\boxed{18}\\)",
+        "ground_truth": 18,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "ある会社が1年間で15,000ドルの広告費を使い、その3分の1の額を次の年に使いました。2年間で会社が払った広告費の合計はいくらですか？\nAnswer in English.",
+        "generated_answer": "The company spent $15,000 on advertising in the first year. In the second year, it spent one-third of that amount, which is $15,000 * (1/3) = $5,000. \n\nTo find the total amount spent over the two years, we add the amounts spent in each year: $15,000 + $5,000 = $20,000.\n\nSo, the company paid a total of $20,000 in advertising over the two years.",
+        "ground_truth": 20000,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 126,
+        "question": "ディランは、ソーセージバンを作るため、食品庫でチキンソーセージとフィッシュソーセージが必要だった。彼は38個のチキンソーセージと、チキンソーセージの数よりも6個多いフィッシュソーセージを買った。ディランは全部で何個のソーセージを買った？\nAnswer in English.",
+        "generated_answer": "Dylan bought a total of 82 sausages. \n\nHere's the calculation:\n- Chicken sausages: 38\n- Fish sausages: 38 + 6 = 44\n- Total sausages: 38 + 44 = 82",
+        "ground_truth": 82,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 85,
+        "question": "ジーンはお土産のTシャツでキルトを縫っています。彼はバケーションに行くごとに1枚シャツを得ます。すべてのシャツがそれぞれのキルトのブロックとなります。各列に、異なる年のバケーションのブロックが使用されています。彼は23歳の時から年に4回バケーションに行っています。彼は現在34歳です。全部で何個のキルトのブロックがありますか？\nAnswer in English.",
+        "generated_answer": "To determine the total number of quilt blocks in Gene's quilt, let's break down the problem step by step.\n\n1. **Calculate the number of years Gene has been vacationing:**\n   - Gene started vacationing at age 23.\n   - He is currently 34 years old.\n   - Number of years = 34 - 23 = **11 years**.\n\n2. **Determine the number of blocks per year:**\n   - Gene goes on vacation **4 times a year**.\n   - Number of blocks per year = 4.\n\n3. **Calculate the total number of blocks:**\n   - Total blocks = Number of years × Blocks per year.\n   - Total blocks = 11 × 4 = **44 blocks**.\n\nSo, Gene has **44 quilt blocks** in total.",
+        "ground_truth": 44,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 62,
+        "question": "マーシーが同じ会社で40年働くと、彼女は年に年金を$50,000もらえる。20年後から、彼女は年額5%の年金を受け取ることができるようになる。彼女が30年後にやめたら、彼女の年金は年額いくらになる？\nAnswer in English.",
+        "generated_answer": "To determine the annual pension amount Mercy will receive after retiring at 30 years, we need to calculate the present value of her pension and then adjust it for the 5% annual increase over the remaining 20 years.\n\n1. **Calculate the present value of the pension:**\n   - Mercy will receive $50,000 per year for 20 years.\n   - The present value (PV) of an annuity can be calculated using the formula:\n     \\[\n     PV = C \\times \\left( \\frac{1 - (1 + r)^{-n}}{r} \\right)\n     \\]\n     where:\n     - \\( C \\) is the annual payment ($50,000),\n     - \\( r \\) is the discount rate (assuming a reasonable rate, let's use 5% or 0.05),\n     - \\( n \\) is the number of years (20).\n\n     Plugging in the values:\n     \\[\n     PV = 50,000 \\times \\left( \\frac{1 - (1 + 0.05)^{-20}}{0.05} \\right)\n     \\]\n     \\[\n     PV = 50,000 \\times \\left( \\frac{1 - 0.3769}{0.05} \\right)\n     \\]\n     \\[\n     PV = 50,000 \\times \\left( \\frac{0.6231}{0.05} \\right)\n     \\]\n     \\[\n     PV = 50,000 \\times 12.462\n     \\]\n     \\[\n     PV \\approx 623,100\n     \\]\n\n2. **Calculate the future value of the pension:**\n   - The pension will increase by 5% annually for the next 20 years.\n   - The future value (FV) of an annuity growing at a constant rate can be calculated using the formula:\n     \\[\n     FV = PV \\times (1 + g)^n\n     \\]\n     where:\n     - \\( PV \\) is the present value ($623,100),\n     - \\( g \\) is the growth rate (5% or 0.05),\n     - \\( n \\) is the number of years (20).\n\n     Plugging in the values:\n     \\[\n     FV = 623,100 \\times (1 + 0.05)^{20}\n     \\]\n     \\[\n     FV = 623,100 \\times (1.05)^{20}\n     \\]\n     \\[\n     FV = 623,100 \\times 2.6533\n     \\]\n     \\[\n     FV \\approx 1,645,000\n     \\]\n\n3. **Calculate the annual payment:**\n   - The future value of the pension is $1,645,000, which will be received over 20 years.\n   - The annual payment (A) can be calculated using the formula for the present value of an annuity:\n     \\[\n     A = \\frac{FV}{\\left( \\frac{1 - (1 + r)^{-n}}{r} \\right)}\n     \\]\n     where:\n     - \\( FV \\) is the future value ($1,645,000),\n     - \\( r \\) is the discount rate (0.05),\n     - \\( n \\) is the number of years (20).\n\n     Plugging in the values:\n     \\[\n     A = \\frac{1,645,000}{\\left( \\frac{1 - (1 + 0.05)^{-20}}{0.05} \\right)}\n     \\]\n     \\[\n     A = \\frac{1,645,000}{\\left( \\frac{1 - 0.3769}{0.05} \\right)}\n     \\]\n     \\[\n     A = \\frac{1,645,000}{\\left( \\frac{0.6231}{0.05} \\right)}\n     \\]\n     \\[\n     A = \\frac{1,645,000}{12.462}\n     \\]\n     \\[\n     A \\approx 131,500\n     \\]\n\nTherefore, Mercy's annual pension after retiring at 30 years will be approximately **$131,500**.",
+        "ground_truth": 25000,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 83,
+        "question": "ダンはバラの苗を3つ植えます。それぞれのバラの苗には25本のバラがあります。それぞれのバラには8個のとげがあります。全部で何個のとげがありますか？\nAnswer in English.",
+        "generated_answer": "Dan plants 3 rose bushes, each with 25 roses, and each rose has 8 thorns.  \n\nTotal thorns = Number of bushes × Roses per bush × Thorns per rose  \nTotal thorns = 3 × 25 × 8  \nTotal thorns = 600  \n\nSo, there are **600 thorns** in total.",
+        "ground_truth": 600,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 220,
+        "question": "カルメンはクロスワードパズルを解くのに10分、数独パズルを解くのに5分かかります。週末、クロスワードパズルを3つ、数独パズルを8つ行いました。彼女はどれほどの時間をこれらのパズルに費やしたでしょうか？\nAnswer in English.",
+        "generated_answer": "To determine the total time Carmen spent on puzzles, we'll calculate the time spent on each type of puzzle and then sum them up.\n\n1. **Time spent on crossword puzzles:**\n   - Each crossword puzzle takes 10 minutes.\n   - She solved 3 crossword puzzles.\n   - Total time = \\( 3 \\times 10 = 30 \\) minutes.\n\n2. **Time spent on Sudoku puzzles:**\n   - Each Sudoku puzzle takes 5 minutes.\n   - She solved 8 Sudoku puzzles.\n   - Total time = \\( 8 \\times 5 = 40 \\) minutes.\n\n3. **Total time spent:**\n   - Add the time spent on crossword puzzles and Sudoku puzzles.\n   - Total time = \\( 30 + 40 = 70 \\) minutes.\n\nTherefore, Carmen spent a total of **70 minutes** on these puzzles.",
+        "ground_truth": 70,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 16,
+        "question": "サンラファエルを2つの電車が同時に出発します。いずれも西の方向に向かって80マイル走行します。次の日、北の方向に向かって150マイル進みました。それぞれの電車が2日間で走行した距離は何マイルですか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the total distance each train traveled over the two days.\n\n### Day 1:\n- **Train 1:** Travels 80 miles west.\n- **Train 2:** Travels 80 miles west.\n\n### Day 2:\n- **Train 1:** Travels 150 miles north.\n- **Train 2:** Travels 150 miles north.\n\n### Calculating Total Distance for Each Train:\n1. **Train 1:**\n   - Day 1: 80 miles (west)\n   - Day 2: 150 miles (north)\n   - **Total Distance:** \\( 80 + 150 = 230 \\) miles\n\n2. **Train 2:**\n   - Day 1: 80 miles (west)\n   - Day 2: 150 miles (north)\n   - **Total Distance:** \\( 80 + 150 = 230 \\) miles\n\n### Final Answer:\nBoth trains traveled a total of **230 miles** over the two days.",
+        "ground_truth": 230,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 48,
+        "question": "トレイシーは4フィートの長さのワイヤーを、庭でトマトの苗木を支えるために使っていました。ワイヤは今、6インチの長さに切り分けられています。彼女は幾つのワイヤを手に入れましたか？\nAnswer in English.",
+        "generated_answer": "To determine how many 6-inch pieces of wire Tracy can get from a 4-foot wire, follow these steps:\n\n1. **Convert the total wire length to inches:**\n   - 1 foot = 12 inches\n   - 4 feet = 4 × 12 = 48 inches\n\n2. **Calculate the number of 6-inch pieces:**\n   - Number of pieces = Total length / Length of each piece\n   - Number of pieces = 48 inches / 6 inches = 8\n\nSo, Tracy can get **8** pieces of 6-inch wire from the 4-foot wire.",
+        "ground_truth": 8,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 145,
+        "question": "ジョンには10ヘクタールのパイナップル農場がある。1ヘクタールあたり100個のパイナップルがある。ジョンは3か月ごとにパイナップルを収穫できる。ジョンは年にいくつのパイナップルを収穫できる？\nAnswer in English.",
+        "generated_answer": "John has a pineapple farm of 10 hectares. With 100 pineapples per hectare, the total number of pineapples on the farm is:\n\n10 hectares * 100 pineapples/hectare = 1,000 pineapples\n\nJohn can harvest pineapples every 3 months. There are 4 quarters (3-month periods) in a year, so the total number of pineapples he can harvest in a year is:\n\n1,000 pineapples/quarter * 4 quarters/year = 4,000 pineapples/year\n\nTherefore, John can harvest **4,000 pineapples** in a year.",
+        "ground_truth": 4000,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 56,
+        "question": "ピーターは今週映画に行く予定です。彼はいつも$7のチケットと$7のポップコーンを買います。彼がその週のために42ドル持っているとしたら、映画に何回行けますか？\nAnswer in English.",
+        "generated_answer": "To determine how many times Peter can go to the movies, let's break down the costs:\n\n1. **Cost per visit:**\n   - Ticket: $7\n   - Popcorn: $7\n   - **Total per visit:** $7 + $7 = **$14**\n\n2. **Total money Peter has:** $42\n\n3. **Number of visits:**\n   - Divide the total money by the cost per visit: $42 ÷ $14 = **3**\n\nPeter can go to the movies **3 times** this week.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 61,
+        "question": "ジャネットは娘にブローチを買う。彼女はそれを作る材料に$500払い、それから$800を宝石商に作ってもらうために払った。その後、彼女はそれに10%の保険をかけた。彼女はいくら支払った？\nAnswer in English.",
+        "generated_answer": "To determine the total amount Janet paid, we need to consider the costs of the materials, the labor, and the insurance.\n\n1. **Materials**: Janet paid $500 for the materials.\n2. **Labor**: She paid $800 to the jeweler to make the brooch.\n3. **Insurance**: She added a 10% insurance on the total cost of materials and labor.\n\nFirst, calculate the total cost of materials and labor:\n\\[ \\text{Total cost of materials and labor} = \\$500 + \\$800 = \\$1300 \\]\n\nNext, calculate the insurance cost:\n\\[ \\text{Insurance cost} = 10\\% \\times \\$1300 = 0.10 \\times \\$1300 = \\$130 \\]\n\nFinally, add the insurance cost to the total cost of materials and labor to get the total amount Janet paid:\n\\[ \\text{Total amount paid} = \\$1300 + \\$130 = \\$1430 \\]\n\nSo, Janet paid a total of **$1430**.",
+        "ground_truth": 1430,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 36,
+        "question": "テリーは1日に2つヨーグルトを食べます。現在ヨーグルトは4つで$5のセール中です。彼は30日分のヨーグルトにいくら使いますか？\nAnswer in English.",
+        "generated_answer": "To determine how much Terry spends on yogurt for 30 days, let's break down the problem step by step.\n\n1. **Yogurt Consumption:**\n   - Terry eats **2 yogurts per day**.\n   - Over **30 days**, he will eat:  \n     \\( 2 \\text{ yogurts/day} \\times 30 \\text{ days} = 60 \\text{ yogurts} \\).\n\n2. **Price per Yogurt:**\n   - The yogurt is on **$5 for 4 yogurts**.\n   - The price per yogurt is:  \n     \\( \\frac{\\$5}{4 \\text{ yogurts}} = \\$1.25 \\text{ per yogurt} \\).\n\n3. **Total Cost:**\n   - For **60 yogurts**, the total cost is:  \n     \\( 60 \\text{ yogurts} \\times \\$1.25/\\text{yogurt} = \\$75 \\).\n\n**Final Answer:**  \nTerry spends **\\$75** on yogurt for 30 days.",
+        "ground_truth": 75,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 139,
+        "question": "キャンディーマシーンには、青いガムボールの数の4倍の数のピンクのガムボールが入っている。12個の青いガムボールが入っているとすると、ピンクはいくつあるか？\nAnswer in English.",
+        "generated_answer": "If there are 12 blue gumballs and the number of pink gumballs is 4 times the number of blue gumballs, then the number of pink gumballs is:\n\n12 (blue) × 4 = 48 (pink)\n\nSo, there are **48 pink gumballs** in the machine.",
+        "ground_truth": 70,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 114,
+        "question": "ジャマールの電話はブリタニーの電話の6倍多くの写真を保存できる。ブリタニーの電話が保存できる写真の最大の数は、ジャマールが動物園でアヒルを撮った写真の中の、鳥の数の50倍だ。もしもジャマールの携帯電話が、1800枚の写真を保存できる場合、ジャマールが動物園でアヒルを撮った写真に、何匹アヒルがいる？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many ducks Jamal photographed at the zoo.\n\n1. **Define Variables:**\n   - Let \\( D \\) be the number of ducks Jamal photographed.\n   - Let \\( B \\) be the maximum number of photos Brittany's phone can store.\n   - Let \\( J \\) be the maximum number of photos Jamal's phone can store.\n\n2. **Given Relationships:**\n   - Jamal's phone can store 6 times as many photos as Brittany's phone:\n     \\[\n     J = 6B\n     \\]\n   - Brittany's phone can store a maximum number of photos equal to 50 times the number of birds (ducks) Jamal photographed:\n     \\[\n     B = 50D\n     \\]\n   - Jamal's phone can store 1800 photos:\n     \\[\n     J = 1800\n     \\]\n\n3. **Substitute and Solve:**\n   - From \\( J = 6B \\) and \\( J = 1800 \\), we can find \\( B \\):\n     \\[\n     1800 = 6B \\implies B = \\frac{1800}{6} = 300\n     \\]\n   - From \\( B = 50D \\), we can find \\( D \\):\n     \\[\n     300 = 50D \\implies D = \\frac{300}{50} = 6\n     \\]\n\n4. **Conclusion:**\n   - Jamal photographed **6 ducks** at the zoo.\n\n\\[\n\\boxed{6}\n\\]",
+        "ground_truth": 6,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 226,
+        "question": "ジェームズはポケモンカードを数えています。彼は30枚の炎タイプ、20枚の草タイプ、そして40枚の水タイプがあります。もしも彼が8枚の水タイプをなくし、14枚の草タイプを購入すれば、偶然選んだカードが水タイプになる確率は何になりますか（小数点以下四捨五入）？\nAnswer in English.",
+        "generated_answer": "To determine the probability that a randomly selected card is a Water type after the changes, we need to follow these steps:\n\n1. **Calculate the initial total number of cards:**\n   - Fire type: 30\n   - Grass type: 20\n   - Water type: 40\n   - **Total initial cards:** \\(30 + 20 + 40 = 90\\)\n\n2. **Update the number of cards after the changes:**\n   - Water type: \\(40 - 8 = 32\\)\n   - Grass type: \\(20 + 14 = 34\\)\n   - **Total updated cards:** \\(32 + 34 = 66\\)\n\n3. **Calculate the probability of selecting a Water type card:**\n   - Probability = \\(\\frac{\\text{Number of Water type cards}}{\\text{Total number of cards}} = \\frac{32}{66}\\)\n\n4. **Simplify the fraction and convert to a decimal:**\n   - \\(\\frac{32}{66} = \\frac{16}{33}\\)\n   - \\(16 \\div 33 \\approx 0.4848\\)\n\n5. **Round to four decimal places:**\n   - \\(0.4848 \\approx 0.4848\\)\n\nSo, the probability that a randomly selected card is a Water type after the changes is **0.4848**.",
+        "ground_truth": 33,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 20,
+        "question": "3分の2が水からなる10リットルのオレンジジュースがあります。5分の3が水からなる15リットルのパイナップルドリンクにこれを加えようとしています。注いでいる途中でオレンジジュースを1リットルこぼしてしまいました。残り24リットルのうち水はどれくらい含まれていますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much water is in the remaining 24 liters of the mixture.\n\n1. **Initial Mixtures:**\n   - **Orange Juice:** 10 liters, with \\( \\frac{2}{3} \\) being water.\n   - **Pineapple Drink:** 15 liters, with \\( \\frac{3}{5} \\) being water.\n\n2. **Calculate Water in Each Mixture:**\n   - **Orange Juice Water:**\n     \\[\n     \\frac{2}{3} \\times 10 = \\frac{20}{3} \\text{ liters}\n     \\]\n   - **Pineapple Drink Water:**\n     \\[\n     \\frac{3}{5} \\times 15 = \\frac{9}{1} \\text{ liters} = 9 \\text{ liters}\n     \\]\n\n3. **Total Water Before Mixing:**\n   \\[\n   \\frac{20}{3} + 9 = \\frac{20}{3} + \\frac{27}{3} = \\frac{47}{3} \\text{ liters}\n   \\]\n\n4. **Total Mixture After Mixing:**\n   \\[\n   10 + 15 = 25 \\text{ liters}\n   \\]\n\n5. **Water in the Final Mixture:**\n   \\[\n   \\frac{47}{3} \\text{ liters}\n   \\]\n\n6. **Adjust for the Spilled Juice:**\n   - **Spilled Juice:** 1 liter\n   - **Remaining Juice:**\n     \\[\n     10 - 1 = 9 \\text{ liters}\n     \\]\n   - **Remaining Mixture:**\n     \\[\n     25 - 1 = 24 \\text{ liters}\n     \\]\n\n7. **Final Water Calculation:**\n   - The water in the remaining mixture is the same as the total water in the original mixtures combined, since no additional water was added.\n   \\[\n   \\frac{47}{3} \\text{ liters}\n   \\]\n\n**Answer:**\n\\[\n\\boxed{\\dfrac{47}{3}}\n\\]",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 81,
+        "question": "チャーリーは10個のシールがあります。モールのストアで21個のシールを買い、誕生日に23個のシールをもらいました。それからチャーリーはそのうちの9個を妹にあげて、28個をグリーティングカードに使いました。チャーリーには何枚のシールが残っていますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many stickers Charlie has left.\n\n1. **Initial Stickers:**\n   - Charlie starts with **10** stickers.\n\n2. **Stickers Purchased:**\n   - He buys **21** more stickers at the mall.\n   - **Total after purchase:** \\( 10 + 21 = 31 \\) stickers.\n\n3. **Stickers Received as a Gift:**\n   - He receives **23** stickers as a birthday gift.\n   - **Total after gift:** \\( 31 + 23 = 54 \\) stickers.\n\n4. **Stickers Given to His Sister:**\n   - He gives **9** stickers to his sister.\n   - **Total after giving to sister:** \\( 54 - 9 = 45 \\) stickers.\n\n5. **Stickers Used for Greeting Cards:**\n   - He uses **28** stickers for greeting cards.\n   - **Final total:** \\( 45 - 28 = 17 \\) stickers.\n\n**Final Answer:**  \nCharlie has \\(\\boxed{17}\\) stickers left.",
+        "ground_truth": 17,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 242,
+        "question": "マイクには5人の文通相手がいます。そのうち2人とは文通を止めました。文通相手はそれぞれ1週間に5枚からなる手紙を2回送ってきます。マイクは同じ要領で返信します。マイクは1枚あたり6分で書くことができます。1週間あたり何時間を手紙の執筆に費やしていますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many hours Mike spends writing letters each week.\n\n### 1. **Initial Number of Correspondents**\n- Mike starts with **5** pen pals.\n\n### 2. **Pen Pals Who Stopped Corresponding**\n- **2** pen pals stopped writing to Mike.\n- **Remaining pen pals:**  \n  \\( 5 - 2 = 3 \\)\n\n### 3. **Letters Received per Pen Pal per Week**\n- Each remaining pen pal sends **2 letters** per week.\n- **Total letters received per week:**  \n  \\( 3 \\text{ pen pals} \\times 2 \\text{ letters} = 6 \\text{ letters} \\)\n\n### 4. **Letters Sent by Mike**\n- Mike writes a reply to each letter he receives.\n- **Total letters sent per week:**  \n  \\( 6 \\text{ letters} \\)\n\n### 5. **Time Spent Writing Each Letter**\n- Mike takes **6 minutes** to write one letter.\n\n### 6. **Total Time Spent Writing Letters per Week**\n- **Total time in minutes:**  \n  \\( 6 \\text{ letters} \\times 6 \\text{ minutes} = 36 \\text{ minutes} \\)\n- **Convert minutes to hours:**  \n  \\( 36 \\text{ minutes} \\div 60 = 0.6 \\text{ hours} \\)\n\n### **Final Answer**\nMike spends **0.6 hours** (or **36 minutes**) each week writing letters.  \n\n\\[\n\\boxed{0.6 \\text{ hours}}\n\\]",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 125,
+        "question": "ジュリアはシチューをご馳走するつもりで、自宅でのディナーパーティーのために準備をしていました。彼女はプラスチックのスプーンが足りないと気付き、新しいスプーンのパッケージを購入しました。後に、彼女の夫も、5本の新しいスプーンのパッケージを購入し、ジュリアに渡しました。ジュリアはシチューを作りながら、シチューの味見用に3本スプーンを使いました。後に、彼女はテーブルをセットしに行ったとき、全部で12本のスプーンがありました。ジュリアが購入したスプーンのパッケージには何本入っていましたか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many spoons were in the package Julia initially bought.\n\n1. **Initial Purchase:**\n   - Julia bought one package of spoons.\n   - Let’s denote the number of spoons in this package as \\( x \\).\n\n2. **Additional Purchase:**\n   - Her husband bought 5 more packages of spoons.\n   - Each of these packages also contains \\( x \\) spoons.\n   - So, the total number of spoons from the husband's purchase is \\( 5x \\).\n\n3. **Total Spoons:**\n   - The total number of spoons Julia has is the sum of the spoons from her initial purchase and her husband's purchase.\n   - Therefore, the total number of spoons is \\( x + 5x = 6x \\).\n\n4. **Spoons Used:**\n   - Julia used 3 spoons for tasting the soup.\n   - So, the number of spoons remaining is \\( 6x - 3 \\).\n\n5. **Spoons at the Table:**\n   - At the table, Julia found 12 spoons.\n   - This means the remaining spoons after tasting are equal to 12.\n   - So, \\( 6x - 3 = 12 \\).\n\n6. **Solve for \\( x \\):**\n   \\[\n   6x - 3 = 12\n   \\]\n   \\[\n   6x = 15\n   \\]\n   \\[\n   x = 2.5\n   \\]\n\nHowever, the number of spoons in a package must be a whole number. Since \\( x = 2.5 \\) is not a whole number, there might be an error in the problem statement or the interpretation. \n\nBut let's re-examine the problem:\n\n- If Julia initially bought 2 spoons, then the total would be \\( 2 + 5 \\times 2 = 12 \\) spoons, which matches the number at the table.\n\nTherefore, the package Julia initially bought contained **2 spoons**.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 27,
+        "question": "シンシアは毎晩アイスを一食分食べます。彼女は1カートン15食分入りのアイスクリームを、1カートンあたり$4で買いました。彼女は60日後、アイスクリームにいくら使うことになりますか？\nAnswer in English.",
+        "generated_answer": "Cynthia eats one serving of ice cream every night. She buys ice cream in cartons of 15 servings for $4 per carton. In 60 days, she will consume 60 servings. To find out how much she will spend, we divide the total number of servings by the number of servings per carton:\n\n60 servings / 15 servings per carton = 4 cartons\n\nNow, we multiply the number of cartons by the cost per carton:\n\n4 cartons * $4 per carton = $16\n\nSo, Cynthia will spend $16 on ice cream in 60 days.",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "ラムはたくさんのペンを使います。5本の空のペンのインクを集めて1本のペンにすることでお金を節約できると気付きました。25本のペンを買って、インクが少なくなったときにそれを集めて1本のペンにした場合、合計何本のペンを使用できることになりますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many pens Ram can use in total.\n\n1. **Initial Purchase:**\n   - Ram buys **25 pens**.\n\n2. **Reusing Ink:**\n   - When a pen runs out of ink, Ram collects **5 empty pens** to refill it.\n   - This means each pen is reused **5 times** before being discarded.\n\n3. **Calculating Total Pens Used:**\n   - Since each pen is reused 5 times, the total number of pens used is:\n     \\[\n     \\text{Total Pens} = \\frac{\\text{Number of Pens Purchased}}{\\text{Reuse Factor}} = \\frac{25}{5} = 5\n     \\]\n\n4. **Final Answer:**\n   - Ram can use a total of \\(\\boxed{5}\\) pens.",
+        "ground_truth": 31,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 201,
+        "question": "ジョンは仕事で賞を受賞した。この賞は5,000ドルの一時金と給料の5%アップを伴う。もしジョンが年間を通して毎週2,000ドル稼いでいて、1年の最初の日にこの賞を受け取っていた場合、ジョンはその年いくら受け取っていたか？\nAnswer in English.",
+        "generated_answer": "To calculate how much John would have received in total for the year after receiving the award, we need to consider both the one-time award and the increased salary.\n\n1. **One-time award**: $5,000\n2. **Increased salary**: 5% of his annual salary\n\nFirst, let's calculate the increased salary:\n- John earns $2,000 per week.\n- There are 52 weeks in a year, so his annual salary is $2,000 * 52 = $104,000.\n- A 5% increase on his annual salary is 0.05 * $104,000 = $5,200.\n\nNow, add the one-time award and the increased salary:\n- Total amount received = $5,000 (award) + $5,200 (increased salary) = $10,200.\n\nSo, John would have received a total of **$10,200** for the year after receiving the award.",
+        "ground_truth": 114200,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 74,
+        "question": "アーティーはファーマーズマーケットでフラワースタンドを開いています。彼は3種類の花、マリーゴールド、ペチュニア、ベゴニアを売っています。マリーゴールドは1鉢$2.74、ペチュニアは1鉢$1.87、ベゴニアは1鉢$2.12です。アーティーはお釣りを今日持っていないので、彼はすべてを、最も近いドル単位で価格設定することに決めました。もしもアーティーがマリーゴールドを12鉢、ペチュニアを9鉢、ベゴニアを17鉢売るとしたら、彼はいくら売ることができますか？\nAnswer in English.",
+        "generated_answer": "To determine how much Artie can sell his flowers for in the most convenient dollar amount, we need to round each type of flower to the nearest dollar and then sum the rounded amounts.\n\n1. **Marigolds:**\n   - Price per marigold: $2.74\n   - Number of marigolds: 12\n   - Rounded price per marigold: $3.00\n   - Total for marigolds: \\( 12 \\times 3.00 = 36.00 \\)\n\n2. **Petunias:**\n   - Price per petunia: $1.87\n   - Number of petunias: 9\n   - Rounded price per petunia: $2.00\n   - Total for petunias: \\( 9 \\times 2.00 = 18.00 \\)\n\n3. **Begonias:**\n   - Price per begonia: $2.12\n   - Number of begonias: 17\n   - Rounded price per begonia: $2.00\n   - Total for begonias: \\( 17 \\times 2.00 = 34.00 \\)\n\nNow, we sum the rounded totals:\n\\[ 36.00 + 18.00 + 34.00 = 88.00 \\]\n\nTherefore, Artie can sell his flowers for **$88.00** in the most convenient dollar amount.",
+        "ground_truth": 88,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 31,
+        "question": "ガンターは瓶のジェリービーンズを数えようとしています。友達に、いくつ瓶に入っていると思うか聞きます。ある人は、80と答えます。別の人は、1人目の答えの半分よりも、20多いと答えます。3番目の人は、1人目の回答の25%増だと言います。3人の予想の平均値は何ですか？\nAnswer in English.",
+        "generated_answer": "To find the average of the three predictions, we first need to calculate each prediction individually.\n\n1. The first person predicts 80 jelly beans.\n2. The second person predicts 1/2 of the first person's prediction plus 20, which is (1/2) * 80 + 20 = 40 + 20 = 60.\n3. The third person predicts 25% more than the first person's prediction, which is 80 + (25% of 80) = 80 + 20 = 100.\n\nNow, we calculate the average of these three predictions:\n\n(80 + 60 + 100) / 3 = 240 / 3 = 80\n\nSo, the average of the three predictions is 80.",
+        "ground_truth": 80,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 195,
+        "question": "ペンは鉛筆と消しゴムを合わせた値段と同じ価格です。鉛筆は$1.20、消しゴムは$0.30です。ペン8本はいくらになりますか？\nAnswer in English.",
+        "generated_answer": "The pen costs the same as the combined price of a pencil and an eraser. A pencil costs $1.20 and an eraser costs $0.30. So, the total cost of a pencil and an eraser is $1.20 + $0.30 = $1.50. Therefore, the pen costs $1.50. If you want to buy 8 pens, the total cost would be 8 * $1.50 = $12.00.",
+        "ground_truth": 12,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 192,
+        "question": "トムは年に10本の木を植えます。毎年彼は、1年に2本の木を伐採します。彼は50本の木から始めます。10年後、30%の木は枯れます。彼には何本の木が残りますか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many trees Tom will have after 10 years.\n\n### **1. Initial Number of Trees**\nTom starts with **50 trees**.\n\n### **2. Annual Planting and Cutting**\n- **Planting:** Tom plants **10 trees** each year.\n- **Cutting:** He cuts down **2 trees** each year.\n\n**Net increase per year:**  \n\\( 10 \\text{ (planted)} - 2 \\text{ (cut)} = 8 \\text{ trees per year} \\)\n\n### **3. Total Trees After 10 Years**\nCalculate the total number of trees after 10 years with the net increase:\n\n\\( 50 \\text{ (initial)} + 8 \\text{ (net increase/year)} \\times 10 \\text{ years} = 50 + 80 = 130 \\text{ trees} \\)\n\n### **4. Trees That Die (30% of Total)**\nAfter 10 years, **30%** of the trees die:\n\n\\( 30\\% \\text{ of } 130 = 0.3 \\times 130 = 39 \\text{ trees} \\)\n\n### **5. Final Number of Trees**\nSubtract the dead trees from the total:\n\n\\( 130 \\text{ (total)} - 39 \\text{ (dead)} = 91 \\text{ trees} \\)\n\n### **Final Answer**\nTom will have **91 trees** left after 10 years.  \n\n\\[\n\\boxed{91}\n\\]",
+        "ground_truth": 91,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 138,
+        "question": "マークは昨日75問あるテストを受けた。彼は1時間に5問を解くスピードでテストを終わらせた。今日、彼は同じスピードで100問あるテストを受けた。もしもマークが8時間かけて最初のテストを終わらせ、次のテストを6時間かけて終わらせたなら、彼が解けなかった問題は何問ある？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many questions Mark couldn't answer.\n\n### **1. Calculate the time taken for the first test:**\n- **Total questions in the first test:** 75\n- **Speed:** 5 questions per hour\n- **Time taken:**  \n  \\( \\text{Time} = \\frac{\\text{Total questions}}{\\text{Speed}} = \\frac{75}{5} = 15 \\text{ hours} \\)\n\n### **2. Calculate the time taken for the second test:**\n- **Total questions in the second test:** 100\n- **Speed:** 5 questions per hour\n- **Time taken:**  \n  \\( \\text{Time} = \\frac{100}{5} = 20 \\text{ hours} \\)\n\n### **3. Determine the total time spent on both tests:**\n- **First test time:** 15 hours\n- **Second test time:** 20 hours\n- **Total time:**  \n  \\( 15 + 20 = 35 \\text{ hours} \\)\n\n### **4. Compare the total time with the actual time taken:**\n- **Actual time taken for the first test:** 8 hours\n- **Actual time taken for the second test:** 6 hours\n- **Total actual time:**  \n  \\( 8 + 6 = 14 \\text{ hours} \\)\n\n### **5. Find the difference in time:**\n- **Difference:**  \n  \\( 35 \\text{ hours (calculated)} - 14 \\text{ hours (actual)} = 21 \\text{ hours} \\)\n\n### **6. Calculate the number of questions Mark couldn't answer:**\n- **Speed:** 5 questions per hour\n- **Unanswered questions:**  \n  \\( 21 \\text{ hours} \\times 5 \\text{ questions/hour} = 105 \\text{ questions} \\)\n\n### **Final Answer:**\nMark couldn't answer **105 questions**.",
+        "ground_truth": 105,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 202,
+        "question": "ジョジーは10エイカーの農場でブドウを育てている。各エイカーにつき、毎年ぶどうを5トン生産できる。ブドウ1トンにつき、ワイン2バレルを製造できる。彼女の農場は毎年、何バレルのワインを製造できるか？\nAnswer in English.",
+        "generated_answer": "Josie's farm produces **100 barrels** of wine annually.  \n\nHere's the calculation:  \n- **Total grapes produced per year**: 10 acres × 5 tons/acre = **50 tons**  \n- **Wine produced per ton of grapes**: 2 barrels  \n- **Total wine produced**: 50 tons × 2 barrels/ton = **100 barrels**  \n\nSo, Josie's farm makes **100 barrels** of wine each year.",
+        "ground_truth": 100,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 218,
+        "question": "エイドリアンの年齢はハリエットの年齢の3倍で、ハリエットはザックの年齢の半分の年齢です。もしもハリエットが今21歳だとしたら、3年後3人の平均年齢はいくつになりますか。\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the average age of Adrian, Harriet, and Zach three years from now.\n\n### Given:\n1. **Harriet's current age (H):** 21 years\n2. **Adrian's age is 3 times Harriet's age.**\n3. **Harriet is half the age of Zach.**\n\n### Step 1: Find Adrian's current age\nAdrian's age is 3 times Harriet's age:\n\\[\n\\text{Adrian} = 3 \\times \\text{Harriet} = 3 \\times 21 = 63 \\text{ years}\n\\]\n\n### Step 2: Find Zach's current age\nHarriet is half the age of Zach, so Zach's age is twice Harriet's age:\n\\[\n\\text{Zach} = 2 \\times \\text{Harriet} = 2 \\times 21 = 42 \\text{ years}\n\\]\n\n### Step 3: Calculate their ages 3 years from now\n\\[\n\\text{Harriet in 3 years} = 21 + 3 = 24 \\text{ years}\n\\]\n\\[\n\\text{Adrian in 3 years} = 63 + 3 = 66 \\text{ years}\n\\]\n\\[\n\\text{Zach in 3 years} = 42 + 3 = 45 \\text{ years}\n\\]\n\n### Step 4: Compute the average age in 3 years\n\\[\n\\text{Average age} = \\frac{\\text{Harriet in 3 years} + \\text{Adrian in 3 years} + \\text{Zach in 3 years}}{3} = \\frac{24 + 66 + 45}{3} = \\frac{135}{3} = 45 \\text{ years}\n\\]\n\n### Final Answer:\n\\[\n\\boxed{45}\n\\]",
+        "ground_truth": 45,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 162,
+        "question": "ビー玉1袋が20ドルで、値段は2か月ごとに、元の価格の20%ごとに値上がりする。36か月後、ビー玉1袋はいくらになる？\nAnswer in English.",
+        "generated_answer": "To determine the price of a bag of marbles after 36 months, we can model the price increase as a geometric series where the initial price is $20 and the price increases by 20% every 2 months.\n\n1. **Initial Price**: $20\n2. **Price Increase**: 20% every 2 months\n\nThe formula for the price after \\( n \\) periods (where each period is 2 months) is:\n\\[ P_n = P_0 \\times (1 + r)^n \\]\nwhere:\n- \\( P_0 \\) is the initial price ($20),\n- \\( r \\) is the monthly increase rate (20% or 0.20),\n- \\( n \\) is the number of periods.\n\nFor 36 months, the number of 2-month periods is \\( \\frac{36}{2} = 18 \\).\n\nSo, the price after 36 months is:\n\\[ P_{36} = 20 \\times (1 + 0.20)^{18} \\]\n\\[ P_{36} = 20 \\times (1.20)^{18} \\]\n\nCalculating \\( (1.20)^{18} \\):\n\\[ (1.20)^{18} \\approx 14.9304 \\]\n\nTherefore:\n\\[ P_{36} = 20 \\times 14.9304 \\approx 298.608 \\]\n\nRounding to the nearest cent:\n\\[ P_{36} \\approx 298.61 \\]\n\nSo, the price of a bag of marbles after 36 months will be approximately **$298.61**.",
+        "ground_truth": 92,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 150,
+        "question": "スティーブとティムは、どちらが学校から早く家に帰るかを決めることにした。スティーブは、ティムよりも遠くに住んでいるため、彼は自転車に乗ることができる。スティーブは学校から3マイル離れたところに住み、自転車で1分440フィート進むことができる。ティムは学校から2マイル離れたところに住む。もしもティムがスケートボードに乗り、1分264フィート進むことができれば、負けた方がレースを終えるまで、買った方はどれくらい待つことになるか？\nAnswer in English.",
+        "generated_answer": "To determine how long Tim will have to wait for Steve to finish the race, we first need to calculate the time it takes for each of them to reach home.\n\n1. **Calculate the time it takes for Steve to reach home:**\n   - Distance: 3 miles\n   - Speed: 1 minute 440 feet per minute\n\n   First, convert the speed to miles per minute:\n   \\[\n   1 \\text{ minute } 440 \\text{ feet} = 1 + \\frac{440}{5280} = 1 + \\frac{1}{12.5} \\approx 1.08 \\text{ miles per minute}\n   \\]\n\n   Now, calculate the time:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{3 \\text{ miles}}{1.08 \\text{ miles per minute}} \\approx 2.78 \\text{ minutes}\n   \\]\n\n2. **Calculate the time it takes for Tim to reach home:**\n   - Distance: 2 miles\n   - Speed: 1 minute 264 feet per minute\n\n   Convert the speed to miles per minute:\n   \\[\n   1 \\text{ minute } 264 \\text{ feet} = 1 + \\frac{264}{5280} = 1 + \\frac{1}{20} = 1.05 \\text{ miles per minute}\n   \\]\n\n   Now, calculate the time:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{2 \\text{ miles}}{1.05 \\text{ miles per minute}} \\approx 1.91 \\text{ minutes}\n   \\]\n\n3. **Determine the difference in their arrival times:**\n   \\[\n   \\text{Difference} = 2.78 \\text{ minutes} - 1.91 \\text{ minutes} = 0.87 \\text{ minutes}\n   \\]\n\nSo, Tim will have to wait approximately **0.87 minutes** (or about 52 seconds) for Steve to finish the race.",
+        "ground_truth": 4,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 73,
+        "question": "シーラは5つの携帯電話を3回払いで、それぞれ$150で購入した。各ユニットに、2%の利息が請求される。シーラは3カ月間、毎月いくら払うことになるか？\nAnswer in English.",
+        "generated_answer": "To calculate the monthly payment for Sheila, we need to determine the total amount she needs to pay and then divide it by the number of months.\n\n1. **Total Cost**:  \n   Sheila purchased 5 mobile phones at $150 each.  \n   Total cost = 5 × $150 = **$750**.\n\n2. **Total Interest**:  \n   The interest rate is 2% per unit, and there are 5 units.  \n   Total interest = 5 × 2% × $150 = 5 × 0.02 × $150 = **$15**.\n\n3. **Total Amount to Pay**:  \n   Total amount = Total cost + Total interest = $750 + $15 = **$765**.\n\n4. **Monthly Payment**:  \n   The total amount is to be paid in 3 months.  \n   Monthly payment = Total amount ÷ Number of months = $765 ÷ 3 = **$255**.\n\nSo, Sheila will pay **$255** each month.",
+        "ground_truth": 255,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 199,
+        "question": "マークは編集者である。2つの出版社向けに毎週同じ数の文を編集しており、それぞれの出版社が1文あたりに支払う金額は異なる。出版社Bは出版社Aの2倍の金額を支払う。マークは毎週合計1,000文編集し、出版社Aは彼に1文あたり5セント支払う。マークは毎週何セントもらっているか？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much Mark earns each week.\n\n1. **Total Words Edited:**\n   - Mark edits a total of **1,000 words** each week.\n\n2. **Publishers and Payment Rates:**\n   - **Publisher A:** Pays **5 cents per word**.\n   - **Publisher B:** Pays **2 times** what Publisher A pays, so **10 cents per word**.\n\n3. **Distribution of Words:**\n   - Let’s denote the number of words edited for Publisher A as **A** and for Publisher B as **B**.\n   - Since the total words are 1,000:\n     \\[\n     A + B = 1,000\n     \\]\n   - The ratio of words edited for Publisher A to Publisher B is **1:2**, meaning:\n     \\[\n     A = \\frac{1}{3} \\times 1,000 = 333 \\text{ words}\n     \\]\n     \\[\n     B = \\frac{2}{3} \\times 1,000 = 667 \\text{ words}\n     \\]\n\n4. **Calculating Earnings:**\n   - **From Publisher A:**\n     \\[\n     333 \\text{ words} \\times 5 \\text{ cents/word} = 166.5 \\text{ cents}\n     \\]\n   - **From Publisher B:**\n     \\[\n     667 \\text{ words} \\times 10 \\text{ cents/word} = 667 \\text{ cents}\n     \\]\n   - **Total Earnings:**\n     \\[\n     166.5 \\text{ cents} + 667 \\text{ cents} = 833.5 \\text{ cents}\n     \\]\n\n5. **Final Answer:**\n   \\[\n   \\boxed{833.5}\n   \\]\n\nMark earns **833.5 cents** each week.",
+        "ground_truth": 7500,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 172,
+        "question": "カブースには4羽の鳥がいる。サリーツーはグラニーレッドよりも3歳年上だ。グラニーレッドはサリーフォーの2倍の年だ。サリーフォーがサリーサーティートゥーと同じ年で、サリーサーティートゥーが8歳の場合、4羽の年の合計はいくらになる？\nAnswer in English.",
+        "generated_answer": "Let's break down the information given:\n\n1. **Sally Four** is 8 years old.\n2. **Sally Thirty-Two** is the same age as Sally Four, so Sally Thirty-Two is also 8 years old.\n3. **Granny Red** is twice as old as Sally Thirty-Two, so Granny Red is \\( 2 \\times 8 = 16 \\) years old.\n4. **Sally Two** is 3 years older than Granny Red, so Sally Two is \\( 16 + 3 = 19 \\) years old.\n\nNow, let's add up the ages of all four birds:\n\n- Sally Four: 8 years\n- Sally Thirty-Two: 8 years\n- Granny Red: 16 years\n- Sally Two: 19 years\n\nTotal age = \\( 8 + 8 + 16 + 19 = 51 \\) years.\n\nSo, the total age of the four birds is **51 years**.",
+        "ground_truth": 51,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 152,
+        "question": "カールはクッキーを10パック買う。各パックは6枚のクッキーが中に入っている。各クッキーは0.10ドルだ。カールが10ドル札で支払った場合、いくらのお釣りが返ってくる？\nAnswer in English.",
+        "generated_answer": "To find out how much change Carl will receive, let's break down the problem step by step.\n\n1. **Calculate the total number of cookies:**\n   - Carl buys 10 packs.\n   - Each pack contains 6 cookies.\n   - Total cookies = 10 packs × 6 cookies/pack = **60 cookies**.\n\n2. **Calculate the total cost:**\n   - Each cookie costs $0.10.\n   - Total cost = 60 cookies × $0.10/cookie = **$6.00**.\n\n3. **Calculate the change:**\n   - Carl pays with a $10 bill.\n   - Change = $10.00 - $6.00 = **$4.00**.\n\nSo, Carl will receive **$4.00** in change.",
+        "ground_truth": 4,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 248,
+        "question": "シェフはタマネギを4袋買いました。それぞれ50ポンドの重さがあります。タマネギ1ポンドは$1.50です。シェフはいくら使いましたか？\nAnswer in English.",
+        "generated_answer": "The chef bought 4 bags of onions, each weighing 50 pounds. The total weight of the onions is 4 * 50 = 200 pounds. The cost per pound is $1.50, so the total cost is 200 * $1.50 = $300.",
+        "ground_truth": 300,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 170,
+        "question": "マーチングバンドは新しい制服を注文している。各制服は、25ドルの帽子と、帽子の3倍の値段のするジャケット、帽子とジャケットの平均価格のズボンだ。制服はすべてでいくらになる？\nAnswer in English.",
+        "generated_answer": "To determine the total cost of the marching band's new uniforms, let's break down the costs step by step.\n\n1. **Cost of the Hat (H):**  \n   Each hat costs \\$25.\n\n2. **Cost of the Jacket (J):**  \n   The jacket costs 3 times the price of the hat, so:  \n   \\( J = 3 \\times H = 3 \\times 25 = \\$75 \\).\n\n3. **Cost of the Pants (P):**  \n   The pants cost the average of the hat and jacket prices, so:  \n   \\( P = \\frac{H + J}{2} = \\frac{25 + 75}{2} = \\frac{100}{2} = \\$50 \\).\n\n4. **Total Cost (T):**  \n   The total cost for one uniform is the sum of the hat, jacket, and pants:  \n   \\( T = H + J + P = 25 + 75 + 50 = \\$150 \\).\n\n**Final Answer:**  \nEach uniform costs **\\$150**.",
+        "ground_truth": 150,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

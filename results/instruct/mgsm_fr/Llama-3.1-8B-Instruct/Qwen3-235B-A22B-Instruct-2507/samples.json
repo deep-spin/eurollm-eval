@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth a emprunté 2 000 $ et a promis de les rendre avec un supplément de 10 % du montant. Si elle doit payer 165 $ par mois pendant 12 mois, combien d'argent restera-t-il à Janeth d'ici là ?\nAnswer in English.",
+        "generated_answer": "Pour résoudre ce problème, nous devons d'abord calculer le montant total que Janeth doit payer en 12 mois.\n\nLe montant que Janeth doit payer chaque mois est de 165 $, et elle doit payer pendant 12 mois, donc le montant total qu'elle doit payer est :\n\n165 $ x 12 = 1 980 $\n\nJaneth a emprunté 2 000 $ et doit payer un supplément de 10 % du montant. Le montant supplémentaire qu'elle doit payer est :\n\n2 000 $ x 10 % = 2 000 $ x 0,10 = 200 $\n\nLe montant total qu'elle doit payer est donc :\n\n2 000 $ + 200 $ = 2 200 $\n\nMaintenant, nous soustrayons le montant total qu'elle doit payer du montant qu'elle a emprunté pour savoir combien d'argent restera à Janeth :\n\n2 000 $ - 2 200 $ = - 200 $\n\nCependant, puisque le résultat est négatif, cela signifie que Janeth ne restera pas d'argent. En fait, elle devra payer 200 $ de plus que le montant qu'elle a emprunté.\n\nMais si on considère que le montant qu'elle doit payer en 12 mois est de 1 980 $, alors le montant qu'elle restera après 12 mois est :\n\n2 000 $ - 1 980 $ = 20 $\n\nJaneth restera donc 20 $ après avoir payé le montant total de 1 980 $ en 12 mois.",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "Des voitures sont coincées dans une file sur l'autoroute. Certaines voitures parviennent à avancer durant les 15 premières minutes de l'embouteillage, puis 20 autres voitures durant les 15 dernières. 5 voitures sortent de la file pour ne pas avoir à traverser l'embouteillage. Sachant qu'il y avait initialement 30 voitures sur l'autoroute, combien de voitures ont traversé l'embouteillage au cours des 15 premières minutes ?\nAnswer in English.",
+        "generated_answer": "Pour résoudre ce problème, nous pouvons utiliser un peu de logique et de calcul.\n\nOn sait qu'il y avait initialement 30 voitures sur l'autoroute. 5 voitures ont quitté la file, donc le nombre de voitures qui ont traversé l'embouteillage est de 30 - 5 = 25 voitures.\n\nOn sait également que 20 voitures ont pu avancer pendant les 15 dernières minutes de l'embouteillage. Cela signifie que les 25 voitures qui ont traversé l'embouteillage doivent avoir été les 20 voitures qui ont avancé pendant les 15 dernières minutes, plus les voitures qui ont pu avancer pendant les 15 premières minutes.\n\nPuisque 20 voitures ont avancé pendant les 15 dernières minutes, le nombre de voitures qui ont pu avancer pendant les 15 premières minutes est de 25 - 20 = 5 voitures.\n\nLa réponse finale est 5.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violetta veut acheter de nouveaux crayons. Elle en a besoin dans 5 couleurs différentes et a prévu 20 $ pour cet achat. Sachant qu'un crayon coûte 2 $, combien aura-t-elle de monnaie ?\nAnswer in English.",
+        "generated_answer": "Pour savoir combien de crayons Violetta peut acheter, nous devons d'abord calculer combien de crayons elle peut acheter avec 20 $, sachant qu'un crayon coûte 2 $.\n\n20 $ / 2 $ = 10 crayons\n\nPuisque Violetta a besoin de 5 couleurs différentes, elle peut acheter 2 crayons de chaque couleur, car 10 / 5 = 2.\n\nAinsi, Violetta aura 10 crayons au total, avec 2 crayons de chaque couleur.\n\nPour savoir combien de monnaie elle aura, nous devons soustraire le coût total des crayons du montant qu'elle a prévu pour l'achat.\n\nCoût total des crayons : 10 crayons * 2 $/crayon = 20 $\n\nMontant prévu pour l'achat : 20 $\n\nPuisque le coût total des crayons est égal au montant prévu pour l'achat, Violetta n'aura pas de monnaie.\n\nLa réponse finale est 0 $.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 227,
+        "question": "Pour son déjeuner, Chad a commandé un burrito à composer. Le burrito de base coûte 6,50 $. Il ajoute en supplément 2 $ de viande, 1,00 $ de fromage, 1,00 $ d'avocat et 2 sauces à 0,25 $ la sauce. Il choisit l'option premium pour 3,00 $ de plus, ce qui lui permet d'ajouter des frites et une boisson. Il possède une carte cadeau de 5,00 $ qu'il utilise à la caisse. Combien lui reste-t-il à payer ?\nAnswer in English.",
+        "generated_answer": "Pour calculer le montant que Chad doit payer, nous devons d'abord calculer le coût total du burrito.\n\nLe burrito de base coûte 6,50 $.\n\nIl ajoute 2 $ de viande, 1,00 $ de fromage, 1,00 $ d'avocat et 2 sauces à 0,25 $ la sauce, soit un total de :\n\n2 $ + 1,00 $ + 1,00 $ + (2 x 0,25 $) = 2 $ + 1,00 $ + 1,00 $ + 0,50 $ = 4,50 $\n\nLe coût total du burrito avec les options supplémentaires est donc de :\n\n6,50 $ + 4,50 $ = 11,00 $\n\nIl choisit l'option premium pour 3,00 $ de plus, ce qui porte le coût total à :\n\n11,00 $ + 3,00 $ = 14,00 $\n\nIl possède une carte cadeau de 5,00 $ qu'il utilise à la caisse, donc le montant qu'il doit payer est :\n\n14,00 $ - 5,00 $ = 9,00 $\n\nLa réponse finale est 9,00 $.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Tous les soirs, Frankie regarde la télévision après avoir fait ses devoirs. Lundi et mardi derniers, il a regardé chaque soir un épisode de son émission préférée pendant 1 heure. Mercredi, il a regardé quelques épisodes d'une émission de 30 minutes. Jeudi, il a fini ses devoirs plus tôt et a regardé un épisode d'une heure et une émission de 30 minutes. Vendredi, il a pu veiller tard en raison du week-end, et a donc regardé deux épisodes d'une heure chacune. S'il a regardé en tout 7 heures de télévision, combien d'épisodes de 30 minutes a-t-il regardé mercredi ?\nAnswer in English.",
+        "generated_answer": "Pour résoudre ce problème, nous devons calculer le temps total que Frankie a passé à regarder la télévision chaque jour et trouver la différence entre ce temps et le temps total de 7 heures.\n\nLundi et mardi, Frankie a regardé 2 x 1 heure = 2 heures de télévision.\n\nJeudi, il a regardé 1 heure + 0,5 heure = 1,5 heure de télévision.\n\nVendredi, il a regardé 2 x 1 heure = 2 heures de télévision.\n\nLe temps total que Frankie a passé à regarder la télévision lundi, mardi, jeudi et vendredi est de 2 + 2 + 1,5 + 2 = 7,5 heures.\n\nPuisque Frankie a regardé 7 heures de télévision au total, il a regardé 7 - 7,5 = -0,5 heures de télévision mercredi.\n\nPuisque nous ne pouvons pas regarder des fractions d'heures de télévision, cela signifie que Frankie a regardé 0 heures de télévision mercredi, ce qui est impossible. Cependant, nous pouvons essayer de trouver une autre solution.\n\nSupposons que Frankie ait regardé x épisodes de 30 minutes mercredi. Le temps total qu'il a passé à regarder la télévision mercredi est de 0,5x heures.\n\nLe temps total que Frankie a passé à regarder la télévision lundi, mardi, jeudi et vendredi est de 2 + 2 + 1,5 + 2 = 7,5 heures.\n\nLe temps total que Frankie a passé à regarder la télévision est la somme du temps qu'il a passé à regarder la télévision chaque jour, donc 0,5x + 2 + 2 + 1,5 + 2 = 7.\n\nEn simplifiant l'équation, on obtient 0,5x + 7,5 = 7.\n\nEn soustrayant 7,5 des deux côtés, on obtient 0,5x = -0,5.\n\nEn divisant les deux côtés par 0,5, on obtient x = -1.\n\nPuisque nous ne pouvons pas regarder des fractions négatives d'épisodes de 30 minutes, cela signifie que notre hypothèse initiale était incorrecte. Cependant, nous pouvons essayer de trouver une autre solution.\n\nSupposons que Frankie ait regardé x épisodes de 30 minutes mercredi. Le temps total qu'il a passé à regarder la télévision mercredi est de 0,5x heures.\n\nLe temps total que Frankie a passé à regarder la télévision lundi, mardi, jeudi et vendredi est de 2 + 2 + 1,5 + 2 = 7,5 heures.\n\nLe temps total que Frankie a passé à regarder la télévision est la somme du temps qu'il a passé à regarder la télévision chaque jour, donc 0,5x + 2 + 2 + 1,5 + 2 = 7,5.\n\nEn simplifiant l'équation, on obtient 0,5x + 7,5 = 7,5.\n\nEn soustrayant 7,5 des deux côtés, on obtient 0,5x = 0.\n\nEn divisant les deux côtés par 0,5, on obtient x = 0.\n\nCela signifie que Frankie n'a regardé aucun épisode de 30 minutes mercredi. Cependant, nous savons que Frankie a regardé quelques épisodes d'une émission de 30 minutes mercredi, donc cela ne peut pas être la bonne solution.\n\nLa bonne solution est que Frankie a regardé 2 épisodes de 30 minutes mercredi.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "Un nouveau programme a été téléchargé 60 fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de 30 % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?\nAnswer in English.",
+        "generated_answer": "Pour résoudre ce problème, nous devons calculer le nombre de téléchargements pour chaque mois et les additionner.\n\nAu premier mois, le programme a été téléchargé 60 fois.\n\nAu deuxième mois, le nombre de téléchargements a été trois fois supérieur à celui du premier mois, donc 3 x 60 = 180 téléchargements.\n\nAu troisième mois, le nombre de téléchargements a diminué de 30 %, ce qui signifie que 30 % des téléchargements du deuxième mois ont été supprimés. 30 % de 180 est égal à 0,3 x 180 = 54. Ainsi, le nombre de téléchargements au troisième mois est de 180 - 54 = 126.\n\nPour trouver le nombre total de téléchargements, on additionne les téléchargements de chaque mois : 60 + 180 + 126 = 366.\n\nLa réponse finale est 366.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant 5 joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?\nAnswer in English.",
+        "generated_answer": "Pour déterminer le nombre de personnes envoyées par les écoles, nous devons calculer le nombre de joueurs et d'entraîneurs pour les équipes féminines et masculines, puis les additionner.\n\nChaque école a envoyé 2 équipes, chacune comptant 5 joueurs. Le nombre total de joueurs par école est donc de 2 x 5 = 10.\n\nPuisque chaque école a envoyé 1 entraîneur, le nombre total d'entraîneurs par école est de 1.\n\nLe nombre total de personnes envoyées par école est donc de 10 (joueurs) + 1 (entraîneur) = 11.\n\nPuisque quatre écoles sont en compétition, le nombre total de personnes envoyées est de 4 x 11 = 44.\n\nLa réponse finale est 44.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "Isabelle a acheté des fournitures pour la fête d'anniversaire de sa petite sœur. Elle a dépensé 12 $ pour les ingrédients du gâteau, 43 $ pour les cadeaux d'anniversaire, 15 $ pour les décorations, 4 $ pour les invitations et 22 $ pour les sacs de goodies destinés aux invités. Elle a partagé le coût en trois, entre elle et ses deux parents. Combien chaque personne a-t-elle payé ?\nAnswer in English.",
+        "generated_answer": "Pour trouver le montant total dépensé par Isabelle, on additionne les coûts de tous les éléments :\n\n12 $ (gâteau) + 43 $ (cadeaux) + 15 $ (décorations) + 4 $ (invitations) + 22 $ (sacs de goodies) = 96 $\n\nPuisque Isabelle a partagé le coût avec ses deux parents, il y a 3 personnes qui partagent le coût total.\n\nPour trouver le montant que chaque personne a payé, on divise le coût total par 3 :\n\n96 $ ÷ 3 = 32 $\n\nChaque personne, y compris Isabelle, a donc payé 32 $.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa embauche 60 saisonniers pour jouer les lutins dans le village du Père Noël de son grand magasin. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus, puis 10 des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Combien de lutins reste-t-il ?\nAnswer in English.",
+        "generated_answer": "Pour résoudre ce problème, on peut suivre les étapes suivantes :\n\n1. Nissa embauche 60 lutins.\n2. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus. Un tiers de 60 est égal à 60 / 3 = 20. Il reste donc 60 - 20 = 40 lutins.\n3. 10 des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Il reste donc 40 - 10 = 30 lutins.\n\nLa réponse finale est 30.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie apporte une assistance au bureau de sa mère. Elle dispose d'une pile de 60 lettres à timbrer et d'une autre avec des lettres déjà timbrées. Elle tamponne un tiers des lettres à timbrer. S'il y a maintenant 30 lettres dans la pile de lettres timbrées, combien y en avait-il dans cette pile lorsque Jennie a commencé le travail ?\nAnswer in English.",
+        "generated_answer": "Pour résoudre ce problème, nous pouvons utiliser une équation simple.\n\nSoit x le nombre de lettres dans la pile de lettres timbrées avant que Jennie ne commence le travail.\n\nJennie a tamponné un tiers des lettres à timbrer, ce qui signifie qu'elle a tamponné 60/3 = 20 lettres.\n\nLe nombre total de lettres dans la pile de lettres timbrées après que Jennie ait terminé le travail est de 30.\n\nNous pouvons établir l'équation :\n\nx + 20 = 30\n\nPour résoudre x, on soustrait 20 des deux côtés de l'équation :\n\nx = 30 - 20\nx = 10\n\nIl y avait donc 10 lettres dans la pile de lettres timbrées lorsque Jennie a commencé le travail.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

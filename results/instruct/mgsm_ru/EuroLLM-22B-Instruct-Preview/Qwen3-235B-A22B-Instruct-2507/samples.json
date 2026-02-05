@@ -1,0 +1,802 @@
+[
+    {
+        "id": 216,
+        "question": "Дженет заняла 2000 $ и пообещала вернуть их с дополнительными 10 % от суммы. Если Дженет будет выплачивать 165 $ в месяц в течение 12 месяцев, сколько составит остаток средств Дженет к тому моменту?\nAnswer in English.",
+        "generated_answer": "To determine the remaining amount of money Janet will have after paying back the loan, let's break down the problem step by step.\n\n1. **Calculate the Total Amount to be Repaid:**\n   - **Principal Amount (P):** \\$2000\n   - **Interest Rate (R):** 10% of \\$2000 = \\$200\n   - **Total Repayment (A):** Principal + Interest = \\$2000 + \\$200 = **\\$2200**\n\n2. **Determine the Monthly Payment:**\n   - Janet pays **\\$165 per month** for **12 months**.\n   - **Total Paid in 12 Months:** \\$165 × 12 = **\\$1980**\n\n3. **Calculate the Remaining Amount:**\n   - **Remaining Amount (B):** Total Repayment - Total Paid = \\$2200 - \\$1980 = **\\$220**\n\n**Final Answer:**\n\\[\n\\boxed{220}\n\\]",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Машины выстроились на автостраде. Несколько машин проехали в первые 15 минут дорожной пробки, затем еще 20 машин проехали в оставшиеся 15 минут пробки. 5 машин из очереди съехали с дороги, поэтому им не нужно ехать через дорожную пробку. Если с самого начала на автостраде было 30 машин, сколько машин проехало через дорожную пробку в первые 15 минут?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many cars passed through the traffic jam in the first 15 minutes.\n\n1. **Initial Number of Cars:**\n   - There are **30 cars** at the start of the traffic jam.\n\n2. **Cars That Left the Road:**\n   - **5 cars** left the road, so they don't need to go through the traffic jam.\n   - **Remaining cars:** \\( 30 - 5 = 25 \\) cars.\n\n3. **Cars That Passed in the First 15 Minutes:**\n   - **15 cars** passed through the traffic jam in the first 15 minutes.\n\n4. **Cars That Passed in the Next 15 Minutes:**\n   - **20 cars** passed through the traffic jam in the remaining 15 minutes.\n\n5. **Total Cars That Passed Through the Traffic Jam:**\n   - Add the cars that passed in the first and second 15-minute periods:\n   \\[\n   15 \\text{ (first 15 minutes)} + 20 \\text{ (next 15 minutes)} = 35 \\text{ cars}\n   \\]\n\n6. **Cars That Passed in the First 15 Minutes:**\n   - From the total, subtract the cars that passed in the next 15 minutes:\n   \\[\n   35 \\text{ (total)} - 20 \\text{ (next 15 minutes)} = 15 \\text{ cars}\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{15}\n\\]",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Виолетта хочет купить новые цветные карандаши. Ей нужны 5 разного цвета, и она приготовила для этой покупки 20 $. Один карандаш стоит 2 $. Сколько сдачи она получит?\nAnswer in English.",
+        "generated_answer": "Violetta wants to buy 5 colored pencils of different colors and has $20 to spend. Each pencil costs $2. \n\nTo find out how much change she will receive, we first calculate the total cost of the pencils:\n\n\\[ 5 \\text{ pencils} \\times \\$2 \\text{ per pencil} = \\$10 \\]\n\nNext, we subtract the total cost from the amount of money she has:\n\n\\[ \\$20 - \\$10 = \\$10 \\]\n\nSo, Violetta will receive **$10** in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Чед заказал на обед собери-свой-буррито. Базовый буррито стоит 6,50 $. Он добавляет дополнительное мясо за 2,00 $, дополнительный сыр за 1,00 $, авокадо за 1,00 $ и 2 соуса за 0,25 $ каждый. Он решает улучшить еду за дополнительные 3,00 $, что добавит чипсы и напиток. У него есть подарочная карта на 5,00 $, которую он использует при оплате. Сколько он еще должен?\nAnswer in English.",
+        "generated_answer": "Let's break down Chad's order step by step to determine how much he still needs to pay.\n\n### 1. **Base Burrito Cost:**\n   - The base burrito costs **$6.50**.\n\n### 2. **Additional Ingredients:**\n   - **Extra Meat:** $2.00\n   - **Extra Cheese:** $1.00\n   - **Avocado:** $1.00\n   - **2 Sauces:** 2 × $0.25 = $0.50\n\n   **Total for Add-ons:**\n   - $2.00 + $1.00 + $1.00 + $0.50 = **$4.50**\n\n### 3. **Upgrade Fee:**\n   - The upgrade adds **$3.00** (for chips and a drink).\n\n### 4. **Subtotal Before Discount:**\n   - Base Burrito: $6.50\n   - Add-ons: $4.50\n   - Upgrade: $3.00\n   - **Subtotal:** $6.50 + $4.50 + $3.00 = **$14.00**\n\n### 5. **Using the Gift Card:**\n   - Chad has a **$5.00** gift card.\n   - **Remaining Amount:** $14.00 - $5.00 = **$9.00**\n\n### **Final Answer:**\nChad still needs to pay **$9.00**.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Фрэнки смотрит телевизор каждый вечер после того, как сделает домашнее задание. Вечером в понедельник и вторник он посмотрел 1-часовую серию своего любимого шоу. В среду он посмотрел несколько серий 30-минутного шоу. В четверг он рано закончил домашнее задание и посмотрел 1-часовую серию и 30-минутное шоу. В пятницу он мог поздно лечь спать перед выходными, поэтому посмотрел две 1-часовых серии. Если он смотрел телевизор всего 7 часов, сколько 30-минутных серий он посмотрел в среду?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many 30-minute episodes Frank watched on Wednesday.\n\n### Given:\n- **Monday & Tuesday:** 1-hour (60 minutes) show\n- **Wednesday:** Several 30-minute shows\n- **Thursday:** 1-hour (60 minutes) show + 30-minute show\n- **Friday:** 2 one-hour (60 minutes) shows\n- **Total TV time:** 7 hours (420 minutes)\n\n### Step 1: Calculate the time spent on each day\n1. **Monday & Tuesday:**\n   - 2 days × 1 hour = 2 hours (120 minutes)\n\n2. **Wednesday:**\n   - Let the number of 30-minute shows be \\( x \\).\n   - Total time on Wednesday = \\( 60 + 30x \\) minutes.\n\n3. **Thursday:**\n   - 1 hour + 30 minutes = 1 hour 30 minutes (90 minutes).\n\n4. **Friday:**\n   - 2 hours (120 minutes).\n\n### Step 2: Sum up the time for all days\n\\[\n120 \\text{ (Mon/Tue)} + 60 + 30x \\text{ (Wed)} + 90 \\text{ (Thu)} + 120 \\text{ (Fri)} = 420 \\text{ minutes}\n\\]\n\n### Step 3: Simplify the equation\n\\[\n120 + 60 + 90 + 120 + 30x = 420\n\\]\n\\[\n390 + 30x = 420\n\\]\n\n### Step 4: Solve for \\( x \\)\n\\[\n30x = 420 - 390\n\\]\n\\[\n30x = 30\n\\]\n\\[\nx = 1\n\\]\n\n### Final Answer:\nFrank watched **1** 30-minute episode on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "У новой программы было 60 загрузок за первый месяц. Количество загрузок за второй месяц было в три раза больше, чем загрузок за первый месяц, но затем снизилось на 30 % в третьем месяце. Сколько всего загрузок было у программы за три месяца?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **First Month:**\n   - The program had **60** downloads.\n\n2. **Second Month:**\n   - The number of downloads was **three times** the first month.\n   - Calculation: \\( 60 \\times 3 = 180 \\) downloads.\n\n3. **Third Month:**\n   - The number of downloads decreased by **30%** from the second month.\n   - Calculation: \\( 180 \\times (1 - 0.30) = 180 \\times 0.70 = 126 \\) downloads.\n\n4. **Total Downloads Over Three Months:**\n   - Add the downloads from all three months.\n   - Calculation: \\( 60 + 180 + 126 = 366 \\) downloads.\n\n**Final Answer:**  \nThe program had a total of **366** downloads over the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "В турнире по баскетболу соревнуются четыре школы. Каждая школа отправила баскетбольную команду девочек и баскетбольную команду мальчиков, и в каждой команде по 5 игроков. Каждая школа также отравила тренера для каждой команды. В общей сложности сколько человек отправили все школы?\nAnswer in English.",
+        "generated_answer": "To determine the total number of people sent by all four schools, let's break it down step by step:\n\n1. **Basketball Teams:**\n   - Each school has **2 teams** (girls and boys).\n   - Each team has **5 players**.\n   - Total players per school: \\( 2 \\times 5 = 10 \\).\n   - For **4 schools**: \\( 4 \\times 10 = 40 \\) players.\n\n2. **Coaches:**\n   - Each school has **1 coach** for the girls' team and **1 coach** for the boys' team.\n   - Total coaches per school: \\( 1 + 1 = 2 \\).\n   - For **4 schools**: \\( 4 \\times 2 = 8 \\) coaches.\n\n3. **Total People:**\n   - Players: \\( 40 \\)\n   - Coaches: \\( 8 \\)\n   - **Total:** \\( 40 + 8 = 48 \\) people.\n\n\\[\n\\boxed{48}\n\\]",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Нисса нанимает 60 сезонных рабочих на роль эльфов в деревне Санты в ее универсаме. Треть эльфов увольняются после того, как детей рвет на них, затем 10 эльфов из оставшихся увольняются после того, как дети пинают их по ногам. Сколько эльфов остается?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Initial number of elves**:  \n   Nissa hires **60** seasonal workers to play elves.\n\n2. **First round of departures**:  \n   A third of the elves are fired after children throw up on them.  \n   - Number of elves fired: \\( \\frac{1}{3} \\times 60 = 20 \\)  \n   - Elves remaining: \\( 60 - 20 = 40 \\)\n\n3. **Second round of departures**:  \n   10 elves are fired after children kick them.  \n   - Elves remaining: \\( 40 - 10 = 30 \\)\n\n**Final number of elves remaining**:  \n\\(\\boxed{30}\\)",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Дженни помогает у мамы в офисе. У нее есть пачка из 60 писем, на которые нужно приклеить марки, и пачка писем с уже наклеенными марками. Она приклеила марки на одну треть писем без марок. Если теперь в пачке с уже наклеенными марками 30 писем, то сколько было в этой пачке, когда Дженни приступила к работе?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many letters were in the \"already with stamps\" pile when Jenny started.\n\n1. **Total Letters Initially:**\n   - Jenny has a total of **60 letters**.\n\n2. **Letters Without Stamps:**\n   - She has a pile of letters **without stamps**.\n   - She stamps **one-third** of these letters.\n   - Number of letters stamped: \\( \\frac{1}{3} \\times \\text{Letters without stamps} \\).\n\n3. **Letters with Stamps After Stamping:**\n   - After stamping, the pile of letters **with stamps** has **30 letters**.\n\n4. **Letters Without Stamps After Stamping:**\n   - The remaining letters without stamps: \\( \\text{Total letters} - \\text{Letters stamped} \\).\n   - \\( 60 - \\frac{1}{3} \\times \\text{Letters without stamps} = 30 \\).\n\n5. **Solving for Letters Without Stamps Initially:**\n   - Let \\( x \\) be the number of letters without stamps initially.\n   - \\( 60 - \\frac{1}{3}x = 30 \\).\n   - \\( \\frac{1}{3}x = 30 \\).\n   - \\( x = 90 \\).\n\n6. **Letters with Stamps Initially:**\n   - Total letters initially: \\( 90 + 30 = 120 \\).\n\n**Final Answer:**\n\\[\n\\boxed{120}\n\\]",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 103,
+        "question": "Полоса тумана движется со стороны океана, накрывая город. Каждые 3 мили города туман накрывает за 10 минут. Если ширина города составляет 42 мили от побережья океана до противоположной границы на суше, за сколько минут полоса тумана накроет город целиком?\nAnswer in English.",
+        "generated_answer": "To determine how long it will take for the fog to cover the entire city, we can calculate the time it takes for the fog to travel the width of the city.\n\n1. **Distance to cover**: The city is 42 miles wide.\n2. **Speed of the fog**: The fog covers 3 miles every 10 minutes.\n\nFirst, find the speed of the fog in miles per minute:\n\\[\n\\text{Speed} = \\frac{3 \\text{ miles}}{10 \\text{ minutes}} = 0.3 \\text{ miles per minute}\n\\]\n\nNext, calculate the time it takes for the fog to cover 42 miles:\n\\[\n\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{42 \\text{ miles}}{0.3 \\text{ miles per minute}} = 140 \\text{ minutes}\n\\]\n\nSo, it will take **140 minutes** for the fog to cover the entire city.",
+        "ground_truth": 140,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 235,
+        "question": "Джон заказывает несколько пицц, чтобы поделиться с друзьями. Друзей всего 20, и Джон хочет убедиться, что каждый сможет взять 4 куска. Пиццы продаются только порезанными на 8 частей. Сколько пицц нужно заказать Джону?\nAnswer in English.",
+        "generated_answer": "To determine how many pizzas John needs to order, let's break down the problem step by step.\n\n1. **Calculate the total number of pizza slices needed:**\n   - John has 20 friends.\n   - Each friend wants 4 slices.\n   - Total slices needed = 20 friends × 4 slices/friend = **80 slices**.\n\n2. **Determine how many pizzas are required:**\n   - Each pizza is cut into 8 slices.\n   - Number of pizzas needed = Total slices needed ÷ Slices per pizza = 80 ÷ 8 = **10 pizzas**.\n\n**Final Answer:** John needs to order **10 pizzas**.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 200,
+        "question": "Бальдур набирает воду из колодца. Он набирает по 5 ведер воды каждое утро и по 6 ведер воды каждый вечер. Если каждое ведро вмещает 5 литров воды, сколько литров воды он набирает каждый день?\nAnswer in English.",
+        "generated_answer": "Baldur collects water from the well. He collects 5 buckets in the morning and 6 buckets in the evening. Each bucket holds 5 liters of water. How many liters of water does he collect each day?\n\nTo find the total liters of water Baldur collects each day, we need to calculate the total number of buckets he collects and then multiply by the capacity of each bucket.\n\n1. **Morning collection:**  \n   Baldur collects 5 buckets in the morning.\n\n2. **Evening collection:**  \n   Baldur collects 6 buckets in the evening.\n\n3. **Total buckets per day:**  \n   \\( 5 \\text{ (morning)} + 6 \\text{ (evening)} = 11 \\text{ buckets} \\)\n\n4. **Total liters per day:**  \n   Each bucket holds 5 liters, so:  \n   \\( 11 \\text{ buckets} \\times 5 \\text{ liters/bucket} = 55 \\text{ liters} \\)\n\nThus, Baldur collects **55 liters** of water each day.",
+        "ground_truth": 55,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 212,
+        "question": "Гэри нравится гулять вокруг границы местного парка, который представляет собой прямоугольник размером 1,5 мили на 6 миль. Если он идет со скоростью 3 мили в час, сколько часов он проводит за прогулкой?\nAnswer in English.",
+        "generated_answer": "To determine how long Gary spends walking around the boundary of the local park, we first need to calculate the perimeter of the rectangular park.\n\nThe park is a rectangle with a length of 6 miles and a width of 1.5 miles. The perimeter \\( P \\) of a rectangle is given by the formula:\n\n\\[\nP = 2 \\times (\\text{length} + \\text{width})\n\\]\n\nSubstituting the given values:\n\n\\[\nP = 2 \\times (6 + 1.5) = 2 \\times 7.5 = 15 \\text{ miles}\n\\]\n\nGary walks at a speed of 3 miles per hour. To find out how long it takes him to walk 15 miles, we use the formula:\n\n\\[\n\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}\n\\]\n\nSubstituting the known values:\n\n\\[\n\\text{Time} = \\frac{15 \\text{ miles}}{3 \\text{ miles per hour}} = 5 \\text{ hours}\n\\]\n\nSo, Gary spends **5 hours** walking around the boundary of the park.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 77,
+        "question": "Если Рэймонд стирает вполовину меньше белья, чем Сара, а Сара стирает в 4 раза больше белья, чем Дэвид, вычислите разницу между количеством белья, которое стирают Рэймонд и Дэвид, если Сара стирает 400 фунтов белья.\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the difference between the amount of laundry Raymond and David wash.\n\n1. **Define the Variables:**\n   - Let \\( D \\) be the amount of laundry David washes (in pounds).\n   - Sarah washes 4 times as much as David: \\( S = 4D \\).\n   - Raymond washes half as much as Sarah: \\( R = \\frac{1}{2}S \\).\n\n2. **Given Information:**\n   - Sarah washes 400 pounds of laundry: \\( S = 400 \\).\n\n3. **Calculate David's Laundry:**\n   - Since \\( S = 4D \\), we can solve for \\( D \\):\n     \\[\n     D = \\frac{S}{4} = \\frac{400}{4} = 100 \\text{ pounds}\n     \\]\n\n4. **Calculate Raymond's Laundry:**\n   - Since \\( R = \\frac{1}{2}S \\), we can substitute \\( S = 400 \\):\n     \\[\n     R = \\frac{1}{2} \\times 400 = 200 \\text{ pounds}\n     \\]\n\n5. **Find the Difference:**\n   - The difference between Raymond and David's laundry:\n     \\[\n     \\text{Difference} = R - D = 200 - 100 = 100 \\text{ pounds}\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{100}\n\\]",
+        "ground_truth": 100,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 122,
+        "question": "В понедельник Сейди спала 8 часов. В каждый из следующих двух дней она спала на 2 часа меньше, поскольку ей нужно было закончить некоторые задания. Если до конца недели она спала на 1 час больше, чем в эти два дня, сколько всего часов она спала на этой неделе?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many hours Seidi slept during the week.\n\n1. **Monday:**\n   - Seidi slept **8 hours**.\n\n2. **Tuesday and Wednesday:**\n   - She slept **2 hours less** than on Monday.\n   - So, she slept **8 - 2 = 6 hours** each day.\n   - Total for these two days: **6 hours/day × 2 days = 12 hours**.\n\n3. **Total for Monday, Tuesday, and Wednesday:**\n   - **8 (Monday) + 6 (Tuesday) + 6 (Wednesday) = 20 hours**.\n\n4. **Thursday:**\n   - She slept **1 hour more** than the total from Monday to Wednesday.\n   - So, she slept **20 + 1 = 21 hours**.\n\n5. **Total for the week:**\n   - **20 hours (Mon-Wed) + 21 hours (Thursday) = 41 hours**.\n\n**Final Answer:**  \nSeidi slept a total of **41 hours** during the week.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 91,
+        "question": "У Джен в три раза больше домашних животных, чем у Марсии. У Марсии на два домашних животных больше, чем у Синди. Если у Синди четыре домашних животных, сколько всего домашних животных у них троих?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Sinclair's Pets**:  \n   Sinclaire has **4** pets.\n\n2. **Marcia's Pets**:  \n   Marcia has **2 more** pets than Sinclaire.  \n   So, Marcia has \\( 4 + 2 = 6 \\) pets.\n\n3. **Jen's Pets**:  \n   Jen has **3 times** as many pets as Marcia.  \n   So, Jen has \\( 3 \\times 6 = 18 \\) pets.\n\n4. **Total Pets**:  \n   To find the total number of pets, add up the pets each person has:  \n   \\( 4 + 6 + 18 = 28 \\).\n\n**Final Answer**:  \nThey have a total of **28** pets.",
+        "ground_truth": 28,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 149,
+        "question": "У Чарли в три раза больше друзей на Facebook, чем у Дороти. У Джеймса в четыре раза больше друзей на Facebook, чем у Дороти. Если у Чарли 12 друзей на Facebook, сколько друзей на Facebook у Джеймса?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Define the Variables:**\n   - Let \\( D \\) be the number of friends Dorothy has on Facebook.\n   - According to the problem:\n     - Charlie has 3 times as many friends as Dorothy: \\( C = 3D \\).\n     - James has 4 times as many friends as Dorothy: \\( J = 4D \\).\n\n2. **Given Information:**\n   - Charlie has 12 friends: \\( C = 12 \\).\n\n3. **Find Dorothy's Friends:**\n   - Since \\( C = 3D \\), we can substitute the known value:\n     \\[\n     12 = 3D \\\\\n     D = \\frac{12}{3} \\\\\n     D = 4\n     \\]\n   - Dorothy has 4 friends.\n\n4. **Find James's Friends:**\n   - Since \\( J = 4D \\), we substitute the value of \\( D \\):\n     \\[\n     J = 4 \\times 4 \\\\\n     J = 16\n     \\]\n   - James has 16 friends.\n\n**Final Answer:**\n\\[\n\\boxed{16}\n\\]",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 228,
+        "question": "Калинда собирает пазл из 360 элементов со своей мамой. Калинда обычно может добавлять 4 элемента в минуту. Ее мама обычно может размещать вполовину меньше элементов в минуту, чем Калинда. Сколько часов им потребуется для того, чтобы закончить пазл?\nAnswer in English.",
+        "generated_answer": "To determine how long Kalinda and her mom will take to complete the 360-piece puzzle, let's break down the problem step by step.\n\n1. **Calculate Kalinda's rate:**\n   - Kalinda adds **4 pieces per minute**.\n\n2. **Calculate her mom's rate:**\n   - Her mom adds **half as many pieces as Kalinda**, so:\n   \\[\n   \\text{Mom's rate} = \\frac{4}{2} = 2 \\text{ pieces per minute}\n   \\]\n\n3. **Combine their rates:**\n   - Together, they add:\n   \\[\n   4 \\text{ (Kalinda)} + 2 \\text{ (Mom)} = 6 \\text{ pieces per minute}\n   \\]\n\n4. **Determine the time required:**\n   - Total pieces to complete: **360**\n   - Time in minutes:\n   \\[\n   \\text{Time} = \\frac{360}{6} = 60 \\text{ minutes}\n   \\]\n\n5. **Convert minutes to hours:**\n   - \\(60 \\text{ minutes} = 1 \\text{ hour}\\)\n\n**Final Answer:**\n\\[\n\\boxed{1}\n\\]",
+        "ground_truth": 1,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 55,
+        "question": "У Джин есть 30 леденцов. Джин съедает 2 леденца. Оставшиеся леденцы Джин хочет упаковать по 2 леденца в один пакет. Сколько пакетов может заполнить Джин?\nAnswer in English.",
+        "generated_answer": "Jin has 30 candies. He eats 2 candies. The remaining candies, Jin wants to pack 2 candies in one bag. How many bags can Jin fill?\n\n**Solution:**\n\n1. **Calculate the number of candies left after eating:**\n   \\[\n   30 \\text{ candies} - 2 \\text{ candies} = 28 \\text{ candies}\n   \\]\n\n2. **Determine how many bags can be filled with 2 candies each:**\n   \\[\n   \\frac{28 \\text{ candies}}{2 \\text{ candies per bag}} = 14 \\text{ bags}\n   \\]\n\n**Answer:**\n\\[\n\\boxed{14}\n\\]",
+        "ground_truth": 14,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 129,
+        "question": "В больнице принимают 500 человек в день. Прием каждого пациента длится в среднем 24 минуты. Доктора берут с больницы 150 $ в час, а больница берет с пациентов 200 $ в час. Сколько составляет прибыль больницы от этих посещений?\nAnswer in English.",
+        "generated_answer": "To calculate the profit of the hospital from these visits, we need to determine the total revenue and subtract the total cost.\n\n1. **Calculate the total time spent by patients:**\n   - Number of patients per day: 500\n   - Average time per patient: 24 minutes\n   - Total time in minutes: \\( 500 \\times 24 = 12,000 \\) minutes\n\n2. **Convert the total time to hours:**\n   - Total time in hours: \\( \\frac{12,000}{60} = 200 \\) hours\n\n3. **Calculate the revenue from patients:**\n   - Revenue per hour from patients: $200\n   - Total revenue from patients: \\( 200 \\times 200 = 40,000 \\) dollars\n\n4. **Calculate the cost of doctor's services:**\n   - Cost per hour for doctors: $150\n   - Total cost for doctors: \\( 200 \\times 150 = 30,000 \\) dollars\n\n5. **Calculate the profit:**\n   - Profit = Revenue from patients - Cost of doctor's services\n   - Profit = \\( 40,000 - 30,000 = 10,000 \\) dollars\n\nTherefore, the profit of the hospital from these visits is **$10,000**.",
+        "ground_truth": 10000,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 35,
+        "question": "Майк играет в пинг-понг 40 минут. За первые 20 минут он зарабатывает 4 очка. За вторые 20 минут он зарабатывает на 25 % больше очков. Сколько всего очков он заработал?\nAnswer in English.",
+        "generated_answer": "To determine the total number of points Mike earned, we can break down the problem into two parts:\n\n1. **First 20 minutes:**\n   - Mike earns 4 points.\n\n2. **Next 20 minutes:**\n   - He earns 25% more points than in the first 20 minutes.\n   - To find 25% of 4 points: \\( 0.25 \\times 4 = 1 \\) point.\n   - Therefore, he earns \\( 4 + 1 = 5 \\) points in the next 20 minutes.\n\n3. **Total points:**\n   - Add the points from both periods: \\( 4 + 5 = 9 \\) points.\n\nSo, Mike earned a total of **9 points**.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 72,
+        "question": "Томми собирает средства на благотворительность, продавая брауни по 3 $ за кусок и чизкейки по 4 $ за кусок. Если Томми продаст 43 брауни и 23 куска чизкейка, сколько денег он соберет?\nAnswer in English.",
+        "generated_answer": "To calculate the total amount of money Tommy will raise, we need to multiply the number of each item sold by its price and then add the results together.\n\n1. **Brownie sales:**\n   - Number of brownie sold: 43\n   - Price per brownie: $3\n   - Total from brownies: \\( 43 \\times 3 = 129 \\) dollars\n\n2. **Cake sales:**\n   - Number of cheesecake sold: 23\n   - Price per cheesecake: $4\n   - Total from cheesecakes: \\( 23 \\times 4 = 92 \\) dollars\n\n3. **Total amount raised:**\n   - Total from brownies and cheesecakes: \\( 129 + 92 = 221 \\) dollars\n\nSo, Tommy will raise **$221**.",
+        "ground_truth": 221,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 229,
+        "question": "Арбузная ферма вырастила 120 маленьких арбузов. Эшлин пошла на ферму через два месяца и обнаружила, что 30 % арбузов готовы к сбору, поэтому она забрала их домой. Когда она вернулась спустя две недели, 3/4 оставшихся арбузов были готовы, поэтому она их собрала. Сколько арбузов не были готовы к сбору после двух недель?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many watermelons were not ready to be harvested after two weeks.\n\n1. **Initial Number of Watermelons:**\n   - The farm started with **120** small watermelons.\n\n2. **First Harvest (After Two Months):**\n   - **30%** of the watermelons were ready to be harvested.\n   - Number of watermelons ready: \\( 30\\% \\times 120 = 0.30 \\times 120 = 36 \\) watermelons.\n   - Watermelons remaining: \\( 120 - 36 = 84 \\) watermelons.\n\n3. **Second Harvest (After Two Weeks):**\n   - **3/4** of the remaining watermelons were ready to be harvested.\n   - Number of watermelons ready: \\( \\frac{3}{4} \\times 84 = 63 \\) watermelons.\n   - Watermelons remaining: \\( 84 - 63 = 21 \\) watermelons.\n\n4. **Final Answer:**\n   - After two weeks, **21** watermelons were not ready to be harvested.\n\n\\[\n\\boxed{21}\n\\]",
+        "ground_truth": 21,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 193,
+        "question": "У Сью веселые соседи. В один из выходных они решили подшутить над Сью. В пятницу утром соседи поставили перед домом Сью 18 розовых пластиковых фламинго. В субботу утром соседи забрали треть фламинго, покрасили их в белый цвет и поставили этих свежевыкрашенных белых фламинго на прежнее место перед домом Сью. Затем в воскресенье утром они добавили в коллекцию еще 18 розовых пластиковых фламинго. На сколько больше розовых, чем белых пластиковых фламинго было там в полдень воскресенья?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many more pink flamingos there were than white ones in the afternoon of Sunday.\n\n1. **Initial Setup (Friday Morning):**\n   - Total flamingos: 18 (all pink)\n\n2. **Action on Saturday Morning:**\n   - Neighbors took away one-third of the flamingos: \\( \\frac{1}{3} \\times 18 = 6 \\) flamingos.\n   - They painted these 6 flamingos white and placed them back.\n   - Remaining pink flamingos: \\( 18 - 6 = 12 \\)\n   - Total flamingos now: \\( 12 \\) (pink) + \\( 6 \\) (white) = \\( 18 \\)\n\n3. **Action on Sunday Morning:**\n   - Neighbors added 18 more pink flamingos.\n   - Total pink flamingos: \\( 12 + 18 = 30 \\)\n   - Total white flamingos: 6\n   - Total flamingos now: \\( 30 \\) (pink) + \\( 6 \\) (white) = \\( 36 \\)\n\n4. **Final Count:**\n   - Pink flamingos: 30\n   - White flamingos: 6\n   - Difference: \\( 30 - 6 = 24 \\)\n\nSo, in the afternoon of Sunday, there were **24 more pink flamingos** than white ones.",
+        "ground_truth": 24,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 24,
+        "question": "Кайл купил книгу — бестселлер прошлого года за 19,50 $. Это со скидкой 25 % от изначальной цены. Какова была изначальная цена книги?\nAnswer in English.",
+        "generated_answer": "To find the original price of the book, we can use the formula for calculating the original price after a discount:\n\n\\[\n\\text{Original Price} = \\frac{\\text{Sale Price}}{1 - \\text{Discount Rate}}\n\\]\n\nGiven:\n- Sale Price = \\$19.50\n- Discount Rate = 25% = 0.25\n\nPlugging in the values:\n\n\\[\n\\text{Original Price} = \\frac{19.50}{1 - 0.25} = \\frac{19.50}{0.75} = 26\n\\]\n\nSo, the original price of the book was **\\$26**.",
+        "ground_truth": 26,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 158,
+        "question": "Рафаэль пошел купить кое-какие школьные принадлежности. Он купил 4 ручки по 1,5 $ каждая, 2 блокнота по 4 $ каждый и пачку плотной бумаги за 20 $. Сколько Рафаэль потратил на все?\nAnswer in English.",
+        "generated_answer": "To find out how much Rafael spent in total, we need to calculate the cost of each item he bought and then add them together.\n\n1. **Cost of the pens:**\n   - Rafael bought 4 pens at $1.50 each.\n   - Total cost for pens = 4 × $1.50 = $6.00.\n\n2. **Cost of the notebooks:**\n   - Rafael bought 2 notebooks at $4.00 each.\n   - Total cost for notebooks = 2 × $4.00 = $8.00.\n\n3. **Cost of the paper:**\n   - Rafael bought 1 pack of paper for $20.00.\n   - Total cost for paper = $20.00.\n\nNow, we add up the costs:\n- Total cost = Cost of pens + Cost of notebooks + Cost of paper\n- Total cost = $6.00 + $8.00 + $20.00 = $34.00.\n\nSo, Rafael spent **$34.00** in total.",
+        "ground_truth": 34,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 204,
+        "question": "У Дженет было 22 зеленых ручки и 10 желтых ручек. Затем она купила 6 пеналов с синими ручками и 2 пенала с красными ручками. В каждом пенале с синими ручками было 9 ручек, а в каждом пенале с красными ручками — 6 ручек. Сколько сейчас ручек у Дженет?\nAnswer in English.",
+        "generated_answer": "Let's calculate the total number of pens Janet has now.\n\n1. **Initial Pens:**\n   - Green pens: 22\n   - Yellow pens: 10\n   - **Total initial pens:** 22 + 10 = 32\n\n2. **Pens from Purchased Pencils:**\n   - Blue pens: 6 pencils × 9 pens each = 54 pens\n   - Red pens: 2 pencils × 6 pens each = 12 pens\n   - **Total pens from pencils:** 54 + 12 = 66\n\n3. **Total Pens Now:**\n   - Initial pens + Pens from pencils = 32 + 66 = 98\n\n**Final Answer:** Janet now has **98 pens**.",
+        "ground_truth": 98,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 64,
+        "question": "София думает совершить поездку на своей машине и хочет знать, сколько она может проехать на одном баке бензина. С последней заправки бака она проехала 100 миль, и ей потребовалось залить 4 галлона бензина, чтобы снова его заполнить. В инструкции по эксплуатации ее машины говорится, что в бак помещается 12 галлонов бензина. Сколько миль может проехать София на одном баке бензина?\nAnswer in English.",
+        "generated_answer": "To determine how many miles Sofia can drive on one full tank of gas, let's break down the information provided:\n\n1. **Distance per gallon of gas:**\n   - Sofia drove **100 miles** using **4 gallons** of gas.\n   - Therefore, the distance per gallon is:\n     \\[\n     \\text{Miles per gallon} = \\frac{100 \\text{ miles}}{4 \\text{ gallons}} = 25 \\text{ miles per gallon}\n     \\]\n\n2. **Total capacity of the tank:**\n   - The tank can hold **12 gallons** of gas.\n\n3. **Total distance on a full tank:**\n   - Multiply the miles per gallon by the total capacity of the tank:\n     \\[\n     \\text{Total miles} = 25 \\text{ miles per gallon} \\times 12 \\text{ gallons} = 300 \\text{ miles}\n     \\]\n\n**Final Answer:**  \nSofia can drive **300 miles** on one full tank of gas.",
+        "ground_truth": 300,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 136,
+        "question": "В мире осталось 27 единорогов. Треть из них находится в горах Шотландии. Две трети шотландских единорогов — женского пола. Сколько существует шотландских единорогов женского пола?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many Scottish unicorns are female.\n\n1. **Total unicorns in the world:**  \n   There are **27** unicorns in total.\n\n2. **Unicorns in the Scottish mountains:**  \n   A third of the unicorns are in the Scottish mountains.  \n   \\( \\frac{1}{3} \\times 27 = 9 \\) unicorns are in Scotland.\n\n3. **Female unicorns in Scotland:**  \n   Two-thirds of the Scottish unicorns are female.  \n   \\( \\frac{2}{3} \\times 9 = 6 \\) unicorns are female.\n\n**Final Answer:**  \nThere are **6** Scottish unicorns that are female.",
+        "ground_truth": 6,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 180,
+        "question": "В школе Сараи двое выдвинули свои кандидатуры на пост старосты класса. Если победитель получил 3/4 голосов, а всего в классе проголосовало 80 учеников, подсчитайте, сколько голосов получил проигравший.\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Given:**\n- Total number of students who voted: 80\n- Fraction of votes the winner received: \\( \\frac{3}{4} \\)\n- Let the number of votes the loser received be \\( x \\).\n\n**Step 1: Calculate the number of votes the winner received.**\n\\[\n\\text{Winner's votes} = \\frac{3}{4} \\times 80 = 60\n\\]\n\n**Step 2: Calculate the number of votes the loser received.**\n\\[\n\\text{Loser's votes} = 80 - 60 = 20\n\\]\n\n**Final Answer:**\n\\[\n\\boxed{20}\n\\]",
+        "ground_truth": 20,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 207,
+        "question": "У Джо в мешке с конфетами на Хэллоуин 25 шоколадных батончиков и 80 яблок в карамели. Каждый шоколадный батончик весит в два раза больше, чем каждое яблоко в карамели. Если каждый шоколадный батончик весит 40 г, сколько грамм весит мешок Джо с конфетами?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the total weight of Joe's bag of candies.\n\n### Given:\n- **Chocolate bars:**\n  - Number of chocolate bars = 25\n  - Weight of each chocolate bar = 40 grams\n- **Caramel apples:**\n  - Number of caramel apples = 80\n  - Each caramel apple weighs the same as a chocolate bar (40 grams).\n\n### Step 1: Calculate the total weight of the chocolate bars.\nEach chocolate bar weighs 40 grams, and there are 25 chocolate bars.\n\n\\[\n\\text{Total weight of chocolate bars} = 25 \\times 40 = 1000 \\text{ grams}\n\\]\n\n### Step 2: Calculate the total weight of the caramel apples.\nEach caramel apple weighs 40 grams, and there are 80 caramel apples.\n\n\\[\n\\text{Total weight of caramel apples} = 80 \\times 40 = 3200 \\text{ grams}\n\\]\n\n### Step 3: Calculate the total weight of the bag.\nAdd the total weight of the chocolate bars and the caramel apples.\n\n\\[\n\\text{Total weight of the bag} = 1000 + 3200 = 4200 \\text{ grams}\n\\]\n\n### Final Answer:\n\\[\n\\boxed{4200}\n\\]",
+        "ground_truth": 2600,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 154,
+        "question": "Каждый понедельник, среду и пятницу у студента колледжа Кимо три 1-часовых занятия. Каждый вторник и четверг у него два 2-часовых занятия. В одном семестре 16 учебных недель. Сколько часов Кимо проводит на занятиях за один семестр?\nAnswer in English.",
+        "generated_answer": "To determine how many hours Kimmo spends in class during one semester, we need to calculate the total number of hours he attends each week and then multiply that by the number of weeks in the semester.\n\n1. **Monday, Wednesday, and Friday:**\n   - Each day, Kimmo has 1 hour of class.\n   - Total hours per week for these days: \\(3 \\text{ days} \\times 1 \\text{ hour/day} = 3 \\text{ hours}\\).\n\n2. **Tuesday and Thursday:**\n   - Each day, Kimmo has 2 hours of class.\n   - Total hours per week for these days: \\(2 \\text{ days} \\times 2 \\text{ hours/day} = 4 \\text{ hours}\\).\n\n3. **Total hours per week:**\n   - Add the hours from Monday, Wednesday, and Friday to the hours from Tuesday and Thursday: \\(3 \\text{ hours} + 4 \\text{ hours} = 7 \\text{ hours/week}\\).\n\n4. **Total hours in the semester:**\n   - There are 16 weeks in the semester.\n   - Total hours in the semester: \\(7 \\text{ hours/week} \\times 16 \\text{ weeks} = 112 \\text{ hours}\\).\n\nTherefore, Kimmo spends **112 hours** in class during one semester.",
+        "ground_truth": 272,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 37,
+        "question": "Джон планирует продать все свои игрушки и потратить деньги на покупку видеоигр. У него есть 13 наборов Lego, и он продает их по 15 $ каждый. В итоге он покупает 8 видеоигр за 20 $ каждая, и у него остается 5 $. Сколько наборов Lego у него еще осталось?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many Lego sets John has left.\n\n1. **Calculate the total amount of money John earns from selling Lego:**\n   - John sells 13 Lego sets at $15 each.\n   - Total earnings = 13 × $15 = $195.\n\n2. **Calculate the total cost of the video games:**\n   - John buys 8 video games at $20 each.\n   - Total cost = 8 × $20 = $160.\n\n3. **Determine how much money John has left after buying the video games:**\n   - John has $5 left after the purchase.\n\n4. **Calculate how much money John spent on the video games:**\n   - Total earnings - Money left = $195 - $5 = $190.\n\n5. **Verify the cost of the video games:**\n   - $190 is indeed equal to 8 × $20, so the calculations are correct.\n\n6. **Determine how many Lego sets John has left:**\n   - John started with 13 Lego sets and spent $190 on video games.\n   - Since each Lego set is sold for $15, the number of Lego sets he sold is:\n     - Number of Lego sets sold = $190 ÷ $15 = 12.67.\n   - Since John can't sell a fraction of a Lego set, he sold 12 Lego sets.\n   - Therefore, he has 13 - 12 = 1 Lego set left.\n\n**Final Answer:** John has **1** Lego set left.",
+        "ground_truth": 2,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "Джон заводит собаку. Он отводит собаку к грумеру, что стоит 100 $. Грумер предлагает ему скидку в 30 % как новому клиенту. Сколько стоит груминг?\nAnswer in English.",
+        "generated_answer": "John takes his dog to a groomer, which costs $100. The groomer offers him a 30% discount as a new customer. \n\nTo calculate the discounted price:\n\n1. Calculate 30% of $100:  \n   \\( 30\\% \\times 100 = 0.30 \\times 100 = 30 \\)\n\n2. Subtract the discount from the original price:  \n   \\( 100 - 30 = 70 \\)\n\nSo, the cost of grooming is **$70**.",
+        "ground_truth": 70,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 25,
+        "question": "Мари заказала одно блюдо из курицы, которое стоит 12 $, 5 пакетов молока, которое стоит по 3 $ за каждый, 4 яблока, которые стоят по 1,50 $ за каждое, и несколько коробок пиццы. Всего Мари заплатила 50 $. Сколько коробок пиццы заказала Мари, если каждая коробка стоит 8,50 $?\nAnswer in English.",
+        "generated_answer": "To determine how many boxes of pizza Mari ordered, let's break down the costs:\n\n1. **Cost of the chicken dish:**  \n   \\( 1 \\text{ dish} \\times \\$12 = \\$12 \\)\n\n2. **Cost of the milk:**  \n   \\( 5 \\text{ packs} \\times \\$3 = \\$15 \\)\n\n3. **Cost of the apples:**  \n   \\( 4 \\text{ apples} \\times \\$1.50 = \\$6 \\)\n\n4. **Total cost of the known items:**  \n   \\( \\$12 + \\$15 + \\$6 = \\$33 \\)\n\n5. **Total amount paid:**  \n   \\( \\$50 \\)\n\n6. **Cost of the pizza boxes:**  \n   \\( \\$50 - \\$33 = \\$17 \\)\n\n7. **Number of pizza boxes:**  \n   \\( \\frac{\\$17}{\\$8.50} = 2 \\)\n\n**Answer:** Mari ordered **2** boxes of pizza.",
+        "ground_truth": 2,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 186,
+        "question": "Рассел работает в зоомагазине и раскладывает солому грызунам. Крыс содержат в 3 клетках в группах одинакового размера и выделяют на каждую крысу по 6 брикетов соломы. Есть 10 клеток с хомячками, которых содержат поодиночке, и на каждого хомячка выделяют по 5 брикетов соломы. Еще есть загон с кроликами, на которых выделяют 20 брикетов соломы. Больше нигде в магазине солома не используется. Если среди мелких грызунов распределили 160 брикетов соломы, сколько крыс содержится в каждой клетке?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many rats are in each cell.\n\n### Given:\n1. **Rats**:\n   - Number of cells: 3\n   - Each cell has the same number of rats.\n   - Each rat gets 6 bricks of straw.\n   - Total straw for rats: 160 bricks.\n\n2. **Hamsters**:\n   - Number of cells: 10\n   - Each hamster is in its own cell.\n   - Each hamster gets 5 bricks of straw.\n   - Total straw for hamsters: Not directly needed for the calculation.\n\n3. **Rabbits**:\n   - Number of cells: 1\n   - Total straw for rabbits: 20 bricks.\n   - Each rabbit gets 20 bricks (since there's only one rabbit).\n\n### Step 1: Calculate the total straw used by hamsters.\nSince each hamster gets 5 bricks and there are 10 hamsters:\n\\[\n\\text{Total straw for hamsters} = 10 \\times 5 = 50 \\text{ bricks}\n\\]\n\n### Step 2: Calculate the total straw used by rabbits.\nThere's only one rabbit, and it gets 20 bricks:\n\\[\n\\text{Total straw for rabbits} = 20 \\text{ bricks}\n\\]\n\n### Step 3: Determine the straw used by rats.\nThe total straw distributed in the store is 160 bricks. Subtract the straw used by hamsters and rabbits:\n\\[\n\\text{Total straw for rats} = 160 - 50 - 20 = 90 \\text{ bricks}\n\\]\n\n### Step 4: Find the number of rats per cell.\nEach rat gets 6 bricks, and there are 3 cells with the same number of rats. Let \\( r \\) be the number of rats per cell. Then:\n\\[\n3 \\times r \\times 6 = 90\n\\]\n\\[\n18r = 90\n\\]\n\\[\nr = \\frac{90}{18} = 5\n\\]\n\n### Final Answer:\nThere are **5 rats** in each cell.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 18,
+        "question": "Клер делает омлет из 3 яиц каждое утро на завтрак. Сколько дюжин яиц она съест за 4 недели?\nAnswer in English.",
+        "generated_answer": "To determine how many dozen eggs Claire will eat in 4 weeks, follow these steps:\n\n1. **Calculate the number of eggs per week:**\n   - Claire eats 3 eggs each morning.\n   - There are 7 days in a week.\n   - Total eggs per week = 3 eggs/day × 7 days/week = **21 eggs/week**.\n\n2. **Calculate the number of eggs in 4 weeks:**\n   - Total eggs in 4 weeks = 21 eggs/week × 4 weeks = **84 eggs**.\n\n3. **Convert eggs to dozens:**\n   - 1 dozen = 12 eggs.\n   - Total dozens = 84 eggs ÷ 12 eggs/dozen = **7 dozen**.\n\n**Final Answer:** Claire will eat **7 dozen eggs** in 4 weeks.",
+        "ground_truth": 7,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 175,
+        "question": "Хуан и его брат Карлос продают лимонад. Чтобы приготовить один галлон, они тратят 3 $ на лимоны и 2 $ на сахар. Они продают каждый стакан за 0,50 $ и получают по 20 стаканов из каждого галлона. Если они получили 25 $ прибыли, сколько они потратили на лимоны?\nAnswer in English.",
+        "generated_answer": "To determine how much Juan and Carlos spent on lemons, let's break down the problem step by step.\n\n1. **Calculate the total number of gallons sold:**\n   - They sold 20 stacks per gallon.\n   - They made a total profit of $25.\n   - Each gallon costs $5 in ingredients (3$ for lemons + 2$ for sugar).\n\n   Let \\( x \\) be the number of gallons sold. Then:\n   \\[\n   20 \\times x \\times 0.50 = 25\n   \\]\n   \\[\n   10x = 25\n   \\]\n   \\[\n   x = 2.5 \\text{ gallons}\n   \\]\n\n2. **Calculate the total cost of lemons:**\n   - Each gallon costs $3 for lemons.\n   - They sold 2.5 gallons.\n\n   \\[\n   \\text{Total cost of lemons} = 2.5 \\times 3 = 7.5 \\text{ dollars}\n   \\]\n\nSo, Juan and Carlos spent **$7.50** on lemons.",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 84,
+        "question": "Футбольная команда сыграла 22 игры. Они выиграли на 8 больше, чем проиграли. Сколько они выиграли?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Problem Statement:**\nA football team played 22 games. They won 8 more games than they lost. How many games did they win?\n\n**Solution:**\n\n1. **Define Variables:**\n   - Let \\( W \\) be the number of games won.\n   - Let \\( L \\) be the number of games lost.\n\n2. **Set Up the Equations:**\n   - The total number of games played is 22:\n     \\[\n     W + L = 22\n     \\]\n   - The team won 8 more games than they lost:\n     \\[\n     W = L + 8\n     \\]\n\n3. **Substitute and Solve:**\n   - Substitute the second equation into the first:\n     \\[\n     (L + 8) + L = 22\n     \\]\n   - Combine like terms:\n     \\[\n     2L + 8 = 22\n     \\]\n   - Subtract 8 from both sides:\n     \\[\n     2L = 14\n     \\]\n   - Divide by 2:\n     \\[\n     L = 7\n     \\]\n   - Now, substitute \\( L = 7 \\) back into the second equation to find \\( W \\):\n     \\[\n     W = 7 + 8 = 15\n     \\]\n\n4. **Conclusion:**\n   - The team won **15** games.\n\n**Final Answer:**\n\\[\n\\boxed{15}\n\\]",
+        "ground_truth": 15,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 120,
+        "question": "Мигель использует 2 блокнота в неделю для рисования. Если в блокноте 30 листов бумаги, сколько листов бумаги он расходует каждый месяц?\nAnswer in English.",
+        "generated_answer": "To determine how many sheets of paper Miguel uses each month, let's break down the problem step by step.\n\n1. **Sheets per week**:  \n   Miguel uses 2 block notes per week, and each block note has 30 sheets.  \n   \\[\n   \\text{Sheets per week} = 2 \\times 30 = 60 \\text{ sheets}\n   \\]\n\n2. **Sheets per month**:  \n   There are approximately 4 weeks in a month.  \n   \\[\n   \\text{Sheets per month} = 60 \\times 4 = 240 \\text{ sheets}\n   \\]\n\n**Final Answer**:  \n\\[\n\\boxed{240}\n\\]",
+        "ground_truth": 240,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 143,
+        "question": "Джон покупает молоко за 2 доллара, яйца за 3 доллара, лампочки за 3 доллара, чашки за 3 доллара и ловушки для тараканов за 4 доллара. Если на все непродовольственные товары начисляется налог в размере 10 %, сколько стоило все вместе.\nAnswer in English.",
+        "generated_answer": "To calculate the total cost including the 10% tax on non-food items, we first need to determine the subtotal for the non-food items and then add the tax.\n\nNon-food items:\n- Milk: $2\n- Eggs: $3\n- Light bulbs: $3\n- Cups: $3\n- Roach traps: $4\n\nSubtotal for non-food items:\n\\[ 2 + 3 + 3 + 3 + 4 = 15 \\text{ dollars} \\]\n\nNow, calculate the tax:\n\\[ 10\\% \\text{ of } 15 = 0.10 \\times 15 = 1.5 \\text{ dollars} \\]\n\nTotal cost including tax:\n\\[ 15 + 1.5 = 16.5 \\text{ dollars} \\]\n\nSo, the total cost for all items, including the 10% tax on non-food items, is **16.5 dollars**.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 215,
+        "question": "Лори хочет купить пару обуви за 320,00 $ и подходящий к ней пояс за 32,00 $. На своей работе с частичной занятостью она получает 8,00 $ в час. Сколько часов ей нужно будет работать, прежде чем она сможет совершить покупку?\nAnswer in English.",
+        "generated_answer": "To determine how many hours Lori needs to work to afford the shoes and belt, let's break down the costs and her hourly wage:\n\n1. **Total Cost:**\n   - Shoes: $320.00\n   - Belt: $32.00\n   - **Total:** $320.00 + $32.00 = **$352.00**\n\n2. **Hourly Wage:**\n   - $8.00 per hour\n\n3. **Calculation:**\n   - To find the number of hours needed, divide the total cost by her hourly wage:\n   \\[\n   \\text{Hours} = \\frac{\\text{Total Cost}}{\\text{Hourly Wage}} = \\frac{352}{8} = 44 \\text{ hours}\n   \\]\n\n**Answer:** Lori needs to work **44 hours** to afford the shoes and belt.",
+        "ground_truth": 44,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 90,
+        "question": "Тед Ти-Рекс планировал принести картофельный салат на пикник для динозавров. Он знает, что взрослый динозавр съест 10 фунтов картофельного салата, а детеныш съест вдвое меньше, чем взрослый. Если на пикнике будет 20 взрослых и 5 детенышей, сколько фунтов картофельного салата нужно принести Теду, если он хочет, чтобы хватило накормить каждого?\nAnswer in English.",
+        "generated_answer": "To determine how many pounds of potato salad Ted T-Rex needs to bring, let's break down the problem step by step.\n\n1. **Calculate the amount of potato salad consumed by adults:**\n   - Each adult eats **10 pounds** of potato salad.\n   - There are **20 adults** at the picnic.\n   - Total for adults: \\( 20 \\times 10 = 200 \\) pounds.\n\n2. **Calculate the amount of potato salad consumed by the young ones:**\n   - Each young one eats **half** of what an adult eats, so \\( \\frac{10}{2} = 5 \\) pounds.\n   - There are **5 young ones** at the picnic.\n   - Total for young ones: \\( 5 \\times 5 = 25 \\) pounds.\n\n3. **Add the amounts together to find the total:**\n   - Total potato salad needed: \\( 200 + 25 = 225 \\) pounds.\n\n**Final Answer:**  \nTed T-Rex needs to bring **225 pounds** of potato salad.",
+        "ground_truth": 225,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 111,
+        "question": "Когда Джулия была на озере, ее лодка дала течь. Пока она гребла назад к берегу, с каждыми десятью футами в лодке прибывало два литра воды. Двадцать футов она проплыла за шестнадцать секунд. До берега было 64 секунды. Сколько воды набралось в лодке к тому времени, когда Джулия достигла берега?\nAnswer in English.",
+        "generated_answer": "To determine how much water accumulated in Julia's boat by the time she reached the shore, we can break down the problem step by step.\n\n1. **Calculate the distance Julia covered in the first 16 seconds:**\n   - Julia covers 20 feet in 16 seconds.\n   - Therefore, the speed of the boat is \\( \\frac{20 \\text{ feet}}{16 \\text{ seconds}} = 1.25 \\text{ feet per second} \\).\n\n2. **Determine the total distance to the shore:**\n   - The total distance to the shore is 64 seconds.\n   - Using the speed calculated, the distance covered in 64 seconds is \\( 1.25 \\text{ feet per second} \\times 64 \\text{ seconds} = 80 \\text{ feet} \\).\n\n3. **Calculate the distance covered in the remaining time:**\n   - The remaining time is \\( 64 \\text{ seconds} - 16 \\text{ seconds} = 48 \\text{ seconds} \\).\n   - In 48 seconds, the boat covers \\( 1.25 \\text{ feet per second} \\times 48 \\text{ seconds} = 60 \\text{ feet} \\).\n\n4. **Determine the total distance covered:**\n   - The total distance covered is \\( 80 \\text{ feet} + 60 \\text{ feet} = 140 \\text{ feet} \\).\n\n5. **Calculate the amount of water that accumulated:**\n   - Water accumulates at a rate of 2 liters per 10 feet.\n   - Therefore, the total amount of water is \\( \\frac{2 \\text{ liters}}{10 \\text{ feet}} \\times 140 \\text{ feet} = 28 \\text{ liters} \\).\n\nThus, by the time Julia reached the shore, **28 liters** of water had accumulated in her boat.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 80,
+        "question": "Две девочки взяли каждая по 1/6 от 24 литров воды. Затем мальчик взял 6 литров воды. Сколько литров воды осталось?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Initial amount of water**: 24 liters.\n2. **Water taken by the two girls**: Each girl takes \\( \\frac{1}{6} \\) of 24 liters.\n   - \\( \\frac{1}{6} \\times 24 = 4 \\) liters per girl.\n   - Total water taken by two girls: \\( 4 \\times 2 = 8 \\) liters.\n3. **Water remaining after the girls took their share**:\n   - \\( 24 - 8 = 16 \\) liters.\n4. **Water taken by the boy**: 6 liters.\n5. **Final amount of water left**:\n   - \\( 16 - 6 = 10 \\) liters.\n\nSo, the final amount of water left is **10 liters**.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 156,
+        "question": "Служитель зоопарка кормит всех обезьян в зоопарке. Он заказывает все бананы на местной ферме каждые 2 месяца. Если мартышкам нужно 200 бананов, гориллам — 400 бананов, а бабуинам — 100 бананов каждый месяц, сколько бананов ему нужно заказать на 2 месяца?\nAnswer in English.",
+        "generated_answer": "To determine how many bananas the zookeeper needs to order for 2 months, let's break down the requirements:\n\n1. **Monthly Banana Consumption:**\n   - **Marmosets:** 200 bananas\n   - **Gorillas:** 400 bananas\n   - **Baboon:** 100 bananas\n\n2. **Total Monthly Bananas Needed:**\n   \\[\n   200 \\text{ (marmosets)} + 400 \\text{ (gorillas)} + 100 \\text{ (baboon)} = 700 \\text{ bananas per month}\n   \\]\n\n3. **Total Bananas for 2 Months:**\n   \\[\n   700 \\text{ bananas/month} \\times 2 \\text{ months} = 1400 \\text{ bananas}\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{1400}\n\\]",
+        "ground_truth": 1400,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 163,
+        "question": "В комнате есть разные игрушки: 5 красных машинок, 3 фигурки и кукла. Кукла стоит, как 3 фигурки, а одна красная машинка стоит 4 $. Сколько стоят все игрушки, если одна фигурка стоит 5 $?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the total cost of all the toys.\n\n1. **Identify the given information:**\n   - Number of red cars: 5\n   - Number of figurines: 3\n   - Number of dolls: 1\n   - Cost of one figurine: \\$5\n   - Value of the doll: 3 figurines\n   - Cost of one red car: \\$4\n\n2. **Calculate the cost of the doll:**\n   - Since the doll is worth 3 figurines, and one figurine costs \\$5, the doll costs:\n     \\[\n     3 \\times \\$5 = \\$15\n     \\]\n\n3. **Calculate the total cost of the red cars:**\n   - There are 5 red cars, each costing \\$4. So, the total cost for the red cars is:\n     \\[\n     5 \\times \\$4 = \\$20\n     \\]\n\n4. **Calculate the total cost of the figurines:**\n   - There are 3 figurines, each costing \\$5. So, the total cost for the figurines is:\n     \\[\n     3 \\times \\$5 = \\$15\n     \\]\n\n5. **Calculate the total cost of all the toys:**\n   - Add the costs of the red cars, figurines, and doll:\n     \\[\n     \\$20 \\ (\\text{red cars}) + \\$15 \\ (\\text{figurines}) + \\$15 \\ (\\text{doll}) = \\$50\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{50}\n\\]",
+        "ground_truth": 50,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 52,
+        "question": "Портфель становится для Юрайи слишком тяжелым. Ему нужно вытащить оттуда 15 фунтов. Его комиксы весят 1/4 фунта каждый, а игрушки — 1/2 фунта каждая. Если он вытащит 30 комиксов, сколько игрушек ему нужно будет вытащить?\nAnswer in English.",
+        "generated_answer": "To determine how many toys Yuray should remove to make his portfolio weigh 15 pounds, let's break down the problem step by step.\n\n1. **Calculate the total weight of the comics:**\n   - Each comic weighs \\( \\frac{1}{4} \\) pound.\n   - Yuray removes 30 comics.\n   - Total weight of comics: \\( 30 \\times \\frac{1}{4} = 7.5 \\) pounds.\n\n2. **Determine the remaining weight needed:**\n   - Total desired weight: 15 pounds.\n   - Weight already accounted for (comics): 7.5 pounds.\n   - Remaining weight: \\( 15 - 7.5 = 7.5 \\) pounds.\n\n3. **Calculate the number of toys to remove:**\n   - Each toy weighs \\( \\frac{1}{2} \\) pound.\n   - Number of toys to remove: \\( \\frac{7.5}{\\frac{1}{2}} = 15 \\) toys.\n\n**Final Answer:** Yuray needs to remove **15 toys** to make his portfolio weigh 15 pounds.",
+        "ground_truth": 15,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 141,
+        "question": "В улье 700 пчел. Рабочих пчел в два раза больше, чем куколок, а куколок в два раза больше, чем маток. Сколько рабочих пчел?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Define the Variables:**\n   - Let \\( M \\) be the number of **matrices** (queens).\n   - Let \\( C \\) be the number of **cuclillas** (cocooned bees, i.e., future workers and queens).\n   - Let \\( W \\) be the number of **workers** (adult worker bees).\n\n2. **Given Relationships:**\n   - The total number of bees is 700:\n     \\[\n     M + C + W = 700\n     \\]\n   - The number of workers is twice the number of cuclillas:\n     \\[\n     W = 2C\n     \\]\n   - The number of cuclillas is twice the number of matrices:\n     \\[\n     C = 2M\n     \\]\n\n3. **Substitute the Relationships into the Total Equation:**\n   \\[\n   M + 2C + 2C = 700\n   \\]\n   Simplify:\n   \\[\n   M + 4C = 700\n   \\]\n\n4. **Substitute \\( C = 2M \\) into the Equation:**\n   \\[\n   M + 4(2M) = 700\n   \\]\n   Simplify:\n   \\[\n   M + 8M = 700\n   \\]\n   \\[\n   9M = 700\n   \\]\n\n5. **Solve for \\( M \\):**\n   \\[\n   M = \\frac{700}{9} \\approx 77.78\n   \\]\n   Since the number of bees must be a whole number, we round to the nearest whole number:\n   \\[\n   M = 78\n   \\]\n\n6. **Find \\( C \\) and \\( W \\):**\n   \\[\n   C = 2M = 2 \\times 78 = 156\n   \\]\n   \\[\n   W = 2C = 2 \\times 156 = 312\n   \\]\n\n7. **Verify the Total:**\n   \\[\n   M + C + W = 78 + 156 + 312 = 700\n   \\]\n   The total matches the given number of bees.\n\n**Final Answer:**\n\\[\n\\boxed{312}\n\\]",
+        "ground_truth": 400,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 239,
+        "question": "Количество учеников в школьном зале равнялось 1000. В зале было 3 входа — A, B и C, которые также служили выходами. Если после собрания 30 % учеников вышли из здания через выход A, 3/5 оставшихся вышли через выход B, а остальные вышли через выход C, вычислите количество учеников, вышедших через выход C.\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Given:**\n- Total number of students initially in the hall: 1000\n- Students leave through exits A, B, and C.\n\n**Process:**\n1. **Exit A:** 30% of the students leave through exit A.\n   - Number of students who left through A: \\( 30\\% \\times 1000 = 0.30 \\times 1000 = 300 \\)\n\n2. **Remaining students after exit A:**\n   - \\( 1000 - 300 = 700 \\) students remain.\n\n3. **Exit B:** \\( \\frac{3}{5} \\) of the remaining students leave through exit B.\n   - Number of students who left through B: \\( \\frac{3}{5} \\times 700 = 420 \\)\n\n4. **Remaining students after exit B:**\n   - \\( 700 - 420 = 280 \\) students remain.\n\n5. **Exit C:** The remaining students leave through exit C.\n   - Number of students who left through C: \\( 280 \\)\n\n**Final Answer:**\n\\[\n\\boxed{280}\n\\]",
+        "ground_truth": 280,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 113,
+        "question": "Райан сажает 2 цветка в день в своем саду. Сколько у него будет цветов через 15 дней, если 5 не выросли?\nAnswer in English.",
+        "generated_answer": "Ryan plants 2 flowers per day in his garden. Over 15 days, he would plant a total of \\(2 \\times 15 = 30\\) flowers. However, 5 of these flowers did not grow. Therefore, the number of flowers that did grow is \\(30 - 5 = 25\\). So, Ryan will have 25 flowers after 15 days.",
+        "ground_truth": 25,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 133,
+        "question": "В понедельник Уолт прошел 4 мили. Во вторник он прошел в 6 раз больше, чем в понедельник. Всего с понедельника по среду он прошел 41 милю. Сколько миль он прошел в среду?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many miles Walt walked on Wednesday.\n\n1. **Monday:**\n   - Walt walked **4 miles**.\n\n2. **Tuesday:**\n   - He walked **6 times** what he walked on Monday.\n   - Calculation: \\( 6 \\times 4 = 24 \\) miles.\n\n3. **Total from Monday to Tuesday:**\n   - \\( 4 \\) (Monday) \\( + 24 \\) (Tuesday) \\( = 28 \\) miles.\n\n4. **Total from Monday to Wednesday:**\n   - Given as **41 miles**.\n\n5. **Wednesday:**\n   - Subtract the miles walked from Monday and Tuesday from the total.\n   - Calculation: \\( 41 - 28 = 13 \\) miles.\n\n**Final Answer:**  \nWalt walked \\(\\boxed{13}\\) miles on Wednesday.",
+        "ground_truth": 13,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 243,
+        "question": "У Джейсона телефонный тариф на 1000 минут в месяц. Каждый день он 15 минут разговаривает со своим руководителем, и в этом месяце у него было еще 300 минут звонков другим людям. Сколько минут осталось у Джейсона, если в этом месяце 30 дней?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many minutes are left for Jason.\n\n### **1. Total Minutes Allocated:**\nJason has a total of **1000 minutes** available per month.\n\n### **2. Minutes Spent on Daily Calls:**\n- **Daily calls to his manager:** 15 minutes\n- **Number of days in the month:** 30\n\n**Total minutes spent on daily calls:**\n\\[\n15 \\text{ minutes/day} \\times 30 \\text{ days} = 450 \\text{ minutes}\n\\]\n\n### **3. Additional Minutes Spent:**\n- **Additional calls to others:** 300 minutes\n\n### **4. Total Minutes Used:**\n\\[\n450 \\text{ minutes (daily calls)} + 300 \\text{ minutes (additional calls)} = 750 \\text{ minutes}\n\\]\n\n### **5. Minutes Remaining:**\n\\[\n1000 \\text{ minutes (total)} - 750 \\text{ minutes (used)} = 250 \\text{ minutes}\n\\]\n\n### **Final Answer:**\n\\[\n\\boxed{250}\n\\]",
+        "ground_truth": 250,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 15,
+        "question": "Коммерсант хочет сделать выбор между 2 планами закупок: ювелирные украшения на 5000 $ или электронные гаджеты на 8000 $. Его финансовый консультант предполагает, что рынок ювелирных украшений вырастет на 2,5 %, тогда как рынок электронных гаджетов вырастет на 1,2 % в том же месяце. Если коммерсант, делая выбор, хочет максимально увеличить прибыль в конце месяца, какую прибыль это составит?\nAnswer in English.",
+        "generated_answer": "To determine which option will maximize the commercialist's profit, we need to calculate the expected profit for each plan based on the projected market growth.\n\n### 1. **Jewellery Plan:**\n- **Initial Investment:** $5,000\n- **Market Growth:** 2.5%\n- **Projected Profit:** \\( 5000 \\times 0.025 = 125 \\)\n\n### 2. **Electronic Gadgets Plan:**\n- **Initial Investment:** $8,000\n- **Market Growth:** 1.2%\n- **Projected Profit:** \\( 8000 \\times 0.012 = 96 \\)\n\n### **Comparison:**\n- **Jewellery Profit:** $125\n- **Electronic Gadgets Profit:** $96\n\n### **Conclusion:**\nThe commercialist should choose the **jewellery plan**, as it will yield a higher profit of **$125** compared to the **$96** from the electronic gadgets plan.",
+        "ground_truth": 125,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 140,
+        "question": "Из 20 машин, доступных для проката, 12 машин имеют автоматическую коробку передач, 4 — ручную коробку передач, а остальные — полуавтоматы. Каков процент машин с полуавтоматом?\nAnswer in English.",
+        "generated_answer": "To determine the percentage of cars with a semi-automatic transmission, follow these steps:\n\n1. **Total number of cars available for rent:**  \n   \\( 20 \\)\n\n2. **Number of cars with automatic transmission:**  \n   \\( 12 \\)\n\n3. **Number of cars with manual transmission:**  \n   \\( 4 \\)\n\n4. **Number of cars with semi-automatic transmission:**  \n   Since the total number of cars is \\( 20 \\) and \\( 12 \\) have automatic and \\( 4 \\) have manual transmissions, the remaining cars must have semi-automatic transmissions.  \n   \\( 20 - 12 - 4 = 4 \\)\n\n5. **Calculate the percentage of semi-automatic cars:**  \n   \\[\n   \\text{Percentage} = \\left( \\frac{\\text{Number of semi-automatic cars}}{\\text{Total number of cars}} \\right) \\times 100 = \\left( \\frac{4}{20} \\right) \\times 100 = 20\\%\n   \\]\n\n**Final Answer:**  \n\\(\\boxed{20\\%}\\)",
+        "ground_truth": 20,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3,
+        "question": "Джеймс решает бегать по 3 спринта 3 раза в неделю. Он пробегает 60 метров за каждый спринт. Сколько всего метров он пробегает в неделю?\nAnswer in English.",
+        "generated_answer": "James runs 3 sprints 3 times a week, and each sprint is 60 meters.  \n\nTo find the total distance he runs in a week, we multiply the number of sprints per session by the distance per sprint and then by the number of sessions per week:  \n\n\\[\n\\text{Total distance} = 3 \\, \\text{sprints/session} \\times 60 \\, \\text{meters/sprint} \\times 3 \\, \\text{sessions/week}\n\\]  \n\n\\[\n\\text{Total distance} = 540 \\, \\text{meters/week}\n\\]  \n\nSo, James runs **540 meters** in a week.",
+        "ground_truth": 540,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 23,
+        "question": "Свеча тает на 2 сантиметра за каждый час горения. На сколько сантиметров короче станет свеча после горения с 13:00 до 17:00?\nAnswer in English.",
+        "generated_answer": "The candle melts at a rate of 2 centimeters per hour. From 13:00 to 17:00 is a total of 4 hours.\n\nSo, the candle will melt by 2 * 4 = 8 centimeters.\n\nTherefore, the candle will be 8 centimeters shorter after burning from 13:00 to 17:00.",
+        "ground_truth": 8,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 184,
+        "question": "Джерри кидает шестигранную игральную кость. Насколько более вероятно (в процентах) то, что у него выпадет число больше 3, чем то, что у него выпадет два четных числа подряд?\nAnswer in English.",
+        "generated_answer": "To determine how much more likely it is for Jerry to roll a number greater than 3 compared to rolling two even numbers in a row, we need to calculate the probabilities of each event and then find the ratio of these probabilities.\n\n### Step 1: Probability of rolling a number greater than 3\nA six-sided die has the numbers 1, 2, 3, 4, 5, and 6. The numbers greater than 3 are 4, 5, and 6. There are 3 favorable outcomes out of 6 possible outcomes.\n\n\\[\nP(\\text{number} > 3) = \\frac{3}{6} = \\frac{1}{2} = 50\\%\n\\]\n\n### Step 2: Probability of rolling two even numbers in a row\nFirst, identify the even numbers on a six-sided die: 2, 4, and 6. There are 3 even numbers out of 6 possible outcomes.\n\nThe probability of rolling an even number on the first roll is:\n\n\\[\nP(\\text{first even}) = \\frac{3}{6} = \\frac{1}{2} = 50\\%\n\\]\n\nAssuming the die is fair and the rolls are independent, the probability of rolling an even number on the second roll is also:\n\n\\[\nP(\\text{second even} \\mid \\text{first even}) = \\frac{3}{6} = \\frac{1}{2} = 50\\%\n\\]\n\nThe combined probability of rolling two even numbers in a row is:\n\n\\[\nP(\\text{two even numbers}) = P(\\text{first even}) \\times P(\\text{second even} \\mid \\text{first even}) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4} = 25\\%\n\\]\n\n### Step 3: Ratio of probabilities\nTo find how much more likely it is to roll a number greater than 3 compared to rolling two even numbers in a row, we calculate the ratio of the probabilities:\n\n\\[\n\\text{Ratio} = \\frac{P(\\text{number} > 3)}{P(\\text{two even numbers})} = \\frac{50\\%}{25\\%} = 2\n\\]\n\n### Conclusion\nIt is **twice as likely** for Jerry to roll a number greater than 3 compared to rolling two even numbers in a row.",
+        "ground_truth": 25,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 102,
+        "question": "Джону нравится выпивать стакан воды за завтраком, обедом и ужином. Кроме того, он также выпивает один стакан перед сном. Джон поступает так каждый будний день, но по выходным предпочитает расслабиться и вместо этого на ужин пьет содовую. Сколько стаканов воды Джон выпивает за неделю?\nAnswer in English.",
+        "generated_answer": "Let's break down John's water consumption:\n\n1. **Weekdays (Monday to Friday):**\n   - Breakfast: 1 glass\n   - Lunch: 1 glass\n   - Dinner: 1 glass\n   - Before bed: 1 glass\n   - Total per day: 4 glasses\n   - Total for 5 days: 4 × 5 = 20 glasses\n\n2. **Weekend (Saturday and Sunday):**\n   - Breakfast: 1 glass\n   - Lunch: 1 glass\n   - Dinner: Soda (0 glasses)\n   - Before bed: 1 glass\n   - Total per day: 3 glasses\n   - Total for 2 days: 3 × 2 = 6 glasses\n\n3. **Total for the week:**\n   - Weekdays: 20 glasses\n   - Weekend: 6 glasses\n   - Total: 20 + 6 = 26 glasses\n\nSo, John drinks **26 glasses of water** in a week.",
+        "ground_truth": 26,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 181,
+        "question": "Сандра, флорист в цветочном магазине у дома, очень огорчена тем, что Фред не полностью доставил заказ. Сандра заказала красных роз вчетверо больше, чем белых гвоздик. Кроме того, она заказала 200 розовых калл, что в пять раз больше, чем количество белых гвоздик. Сандра пригрозила, что сменит поставщика, если отсутствующие красные розы не будут доставлены к 5 часам вечере. Сколько красных роз должен доставить Фред к 5 часам вечера, чтобы сохранить бизнес Сандры?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many red roses Fred needs to deliver to keep Sandra's business.\n\n### Given:\n1. **Red roses**: Sandra ordered 4 times more red roses than white carnations.\n2. **White carnations**: Sandra ordered 200 white carnations, which is 5 times the number of red roses.\n3. **Constraint**: Fred must deliver the missing red roses by 5 PM to avoid Sandra changing her supplier.\n\n### Step 1: Find the number of red roses ordered.\nWe know that the number of white carnations (200) is 5 times the number of red roses. Let \\( R \\) be the number of red roses.\n\n\\[\n200 = 5 \\times R\n\\]\n\n\\[\nR = \\frac{200}{5} = 40\n\\]\n\nSo, Sandra ordered **40 red roses**.\n\n### Step 2: Determine how many red roses are missing.\nSince Fred has not delivered all the red roses, we need to find out how many are missing. However, the problem doesn't specify how many red roses have already been delivered. Without this information, we can only conclude that Fred needs to deliver **40 red roses** to fulfill the entire order.\n\n### Final Answer:\nFred must deliver **40 red roses** by 5 PM to keep Sandra's business.",
+        "ground_truth": 160,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 171,
+        "question": "Джейк прогуливается по энтомологическому музею. Он видит 80 пауков с 8 ногами каждый, 90 насекомых с 6 ногами каждое и 3 редких беспозвоночных мутанта с 10 ногами каждый. Сколько всего ног видит Джейк?\nAnswer in English.",
+        "generated_answer": "To determine the total number of legs Jake sees in the museum, we'll calculate the legs contributed by each group of creatures and then sum them up.\n\n1. **Calculate the legs from the spiders:**\n   - Number of spiders: 80\n   - Legs per spider: 8\n   - Total legs from spiders: \\( 80 \\times 8 = 640 \\)\n\n2. **Calculate the legs from the insects:**\n   - Number of insects: 90\n   - Legs per insect: 6\n   - Total legs from insects: \\( 90 \\times 6 = 540 \\)\n\n3. **Calculate the legs from the mutant creatures:**\n   - Number of mutant creatures: 3\n   - Legs per mutant creature: 10\n   - Total legs from mutants: \\( 3 \\times 10 = 30 \\)\n\n4. **Sum the legs from all creatures:**\n   - Total legs: \\( 640 + 540 + 30 = 1190 \\)\n\nSo, the total number of legs Jake sees is **1190**.",
+        "ground_truth": 1210,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 160,
+        "question": "В понедельник глубина воды в резервуаре составляет 17 футов. Во вторник в резервуаре прибавилось еще 7 футов воды. В среду глубина воды составляет две трети от того, что было во вторник. Какова глубина воды в резервуаре в среду?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Monday**: The depth of the water in the reservoir is **17 feet**.\n\n2. **Tuesday**: Water is added, increasing the depth by **7 feet**.  \n   So, the depth on Tuesday is:  \n   \\( 17 \\, \\text{feet} + 7 \\, \\text{feet} = 24 \\, \\text{feet} \\).\n\n3. **Wednesday**: The depth of the water is two-thirds of what it was on Tuesday.  \n   So, the depth on Wednesday is:  \n   \\( \\frac{2}{3} \\times 24 \\, \\text{feet} = 16 \\, \\text{feet} \\).\n\n**Final Answer**: The depth of the water in the reservoir on Wednesday is **16 feet**.",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 0,
+        "question": "Утки Дженет несут по 16 яиц в день. Она ест три на завтрак каждое утро и печет кексы для своих друзей каждый день, используя четыре. Остаток она каждый день продает на фермерском рынке по 2 $ за свежее утиное яйцо. Сколько в долларах она зарабатывает на фермерском рынке каждый день?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much Janet earns from selling her duck eggs each day.\n\n1. **Total Eggs Laid Daily:**\n   - Each duck lays **16 eggs** per day.\n   - If Janet has **D** ducks, the total eggs laid daily are:\n     \\[\n     16 \\times D\n     \\]\n\n2. **Eggs Used for Personal Consumption:**\n   - Janet eats **3 eggs** for breakfast each morning.\n   - Eggs used for baking kekse: **4 eggs** per day.\n   - Total eggs used daily:\n     \\[\n     3 \\text{ (breakfast)} + 4 \\text{ (baking)} = 7 \\text{ eggs}\n     \\]\n\n3. **Eggs Available for Selling:**\n   - Eggs left after personal use:\n     \\[\n     16D - 7\n     \\]\n\n4. **Eggs Sold at the Farmers' Market:**\n   - Each egg is sold for **\\$2**.\n   - Daily earnings from selling eggs:\n     \\[\n     (16D - 7) \\times 2 = 32D - 14\n     \\]\n\n5. **Final Answer:**\n   - Janet earns **\\$32D - \\$14** from selling duck eggs each day.\n\nSince the number of ducks (\\(D\\)) isn't specified, the answer is expressed in terms of \\(D\\). If \\(D\\) is known, you can substitute it to find the exact daily earnings. \n\n\\[\n\\boxed{32D - 14}\n\\]",
+        "ground_truth": 18,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 223,
+        "question": "Компания тратит 15 000 $ на рекламу за год, а затем тратит треть этой суммы на рекламу за еще один год. Какую общую сумму потратила компания на рекламу за эти два года?\nAnswer in English.",
+        "generated_answer": "The company spends $15,000 on advertising in the first year. In the second year, it spends a third of that amount, which is $15,000 / 3 = $5,000. \n\nThe total amount spent on advertising over the two years is $15,000 + $5,000 = $20,000.",
+        "ground_truth": 20000,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 126,
+        "question": "Дилану нужны были куриные и рыбные сосиски для сосисок в тесте на вечеринку. Он купил 38 куриных сосисок, а рыбных сосисок — на 6 больше, чем куриных. Сколько всего сосисок купил Дилан?\nAnswer in English.",
+        "generated_answer": "To find out how many sausages Dylan bought in total, we need to calculate the number of fish sausages and then add it to the number of chicken sausages.\n\n1. **Chicken sausages**: Dylan bought 38 chicken sausages.\n2. **Fish sausages**: He bought 6 more fish sausages than chicken sausages. So, the number of fish sausages is \\( 38 + 6 = 44 \\).\n\nNow, we add the number of chicken sausages and fish sausages together:\n\n\\[ 38 \\text{ (chicken sausages)} + 44 \\text{ (fish sausages)} = 82 \\]\n\nSo, Dylan bought a total of **82 sausages**.",
+        "ground_truth": 82,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 85,
+        "question": "Джин шьет одеяло из старых сувенирных футболок. У него есть по одной футболке из каждого отпуска, в котором он был. Каждая футболка представляет собой фрагмент одеяла. Каждый ряд состоит из фрагментов за один из годов отпуска. Он ездит в отпуск четыре раза в год с 23 лет. Сейчас ему 34. Сколько всего у него фрагментов одела?\nAnswer in English.",
+        "generated_answer": "To determine the total number of fragments in Jean's quilt, let's break down the problem step by step.\n\n1. **Number of Years in Vacation:**\n   - Jean has been going on vacation **4 times a year** since he was **23 years old**.\n   - He is currently **34 years old**, so the number of years he has been going on vacation is:\n     \\[\n     34 - 23 = 11 \\text{ years}\n     \\]\n\n2. **Fragments per Year:**\n   - Each year, Jean has **one fragment** from each of his vacation trips.\n   - Since he goes on vacation **4 times a year**, each year contributes **4 fragments**.\n\n3. **Total Fragments:**\n   - Multiply the number of years by the number of fragments per year:\n     \\[\n     11 \\text{ years} \\times 4 \\text{ fragments/year} = 44 \\text{ fragments}\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{44}\n\\]",
+        "ground_truth": 44,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 62,
+        "question": "Если Марси будет работать на одну и ту же компанию 40 лет, она получит годовую пенсию в размере 50 000 $ в год. После 20 лет она получает право на 5 % от величины пенсии в год. Если она уволится через 30 лет, какая у нее будет годовая пенсия?\nAnswer in English.",
+        "generated_answer": "If Marsie works for the same company for 40 years, she will receive an annual pension of $50,000. After 20 years, she qualifies for a 5% increase in her pension each year. \n\nHere's how the pension increases over time:\n\n1. **Years 1-20:** $50,000 per year.\n2. **Years 21-30:** $50,000 + 5% of $50,000 = $50,000 + $2,500 = $52,500 per year.\n3. **Years 31-40:** $52,500 + 5% of $52,500 = $52,500 + $2,625 = $55,125 per year.\n\nSo, if Marsie leaves after 30 years, her annual pension will be **$52,500**.",
+        "ground_truth": 25000,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 83,
+        "question": "Дэн сажает 3 куста роз. На каждом кусте 25 роз. У каждой розы 8 шипов. Сколько всего шипов?\nAnswer in English.",
+        "generated_answer": "Dan plants 3 rose bushes. Each bush has 25 roses. Each rose has 8 thorns.  \n\nTotal thorns = 3 bushes × 25 roses/bush × 8 thorns/rose = **600 thorns**",
+        "ground_truth": 600,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 220,
+        "question": "У Кармен уходит 10 минут на то, чтобы решить кроссворд, и 5 минут на то, чтобы решить судоку. За выходные она решила 3 кроссворда и 8 судоку. Сколько времени она провела, играя в эти игры?\nAnswer in English.",
+        "generated_answer": "To determine the total time Carmen spent solving crosswords and sudoku over the weekend, we can break it down as follows:\n\n1. **Time spent on crosswords:**\n   - Time per crossword: 10 minutes\n   - Number of crosswords solved: 3\n   - Total time for crosswords: \\( 10 \\text{ minutes} \\times 3 = 30 \\text{ minutes} \\)\n\n2. **Time spent on sudoku:**\n   - Time per sudoku: 5 minutes\n   - Number of sudoku solved: 8\n   - Total time for sudoku: \\( 5 \\text{ minutes} \\times 8 = 40 \\text{ minutes} \\)\n\n3. **Total time spent:**\n   - Add the time spent on crosswords and sudoku: \\( 30 \\text{ minutes} + 40 \\text{ minutes} = 70 \\text{ minutes} \\)\n\nSo, Carmen spent a total of **70 minutes** playing these games over the weekend.",
+        "ground_truth": 70,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 16,
+        "question": "Два поезда выезжают из Сан-Рафаэля одновременно. Они начинают двигаться на запад, оба проезжая 80 миль. На следующий день они движутся на север, преодолевая 150 миль. Какое расстояние прошел каждый поезд за эти два дня?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the total distance each train traveled over the two days.\n\n### Given:\n1. **Day 1:**\n   - Two trains start simultaneously from San Rafael.\n   - Both travel **80 miles west**.\n\n2. **Day 2:**\n   - Both trains continue moving.\n   - They travel **150 miles north**.\n\n### Assumptions:\n- The trains are moving in a straight line (no turns or changes in direction).\n- The distances traveled on Day 1 and Day 2 are in a straight line (no detours).\n\n### Calculations:\n1. **Day 1 Distance:**\n   - Both trains travel **80 miles west**.\n   - Since they are moving in the same direction (west), the total distance between them remains the same.\n   - Therefore, each train has traveled **80 miles** on Day 1.\n\n2. **Day 2 Distance:**\n   - Both trains travel **150 miles north**.\n   - Again, since they are moving in the same direction (north), the total distance between them remains the same.\n   - Therefore, each train has traveled **150 miles** on Day 2.\n\n### Total Distance for Each Train:\n- **Total distance for each train over two days:**\n  - Day 1: 80 miles\n  - Day 2: 150 miles\n  - **Total:** 80 + 150 = **230 miles**\n\n### Final Answer:\nEach train traveled a total of **230 miles** over the two days.",
+        "ground_truth": 230,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 48,
+        "question": "Трейси использовала кусок проволоки длиной 4 фута для поддержки помидоров в саду. Проволока была порезана на куски длиной 6 дюймов. Сколько кусков она получила?\nAnswer in English.",
+        "generated_answer": "To determine how many 6-inch pieces Tracy can get from a 4-foot wire, follow these steps:\n\n1. **Convert feet to inches**:  \n   Since 1 foot = 12 inches,  \n   \\( 4 \\text{ feet} \\times 12 \\text{ inches/foot} = 48 \\text{ inches} \\).\n\n2. **Divide the total inches by the length of each piece**:  \n   \\( \\frac{48 \\text{ inches}}{6 \\text{ inches/piece}} = 8 \\text{ pieces} \\).\n\n**Answer**: Tracy can get **8** pieces.",
+        "ground_truth": 8,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 145,
+        "question": "У Джона есть поле с ананасами в 10 гектаров. На одном гектаре растут 100 ананасов. Джон может снимать урожай ананасов каждые 3 месяца. Сколько ананасов в год может получить Джон?\nAnswer in English.",
+        "generated_answer": "John has a 10-hectare field of pineapples, with 100 pineapples growing on each hectare. He can harvest the pineapples every 3 months. To calculate how many pineapples John can get in a year, we can break it down as follows:\n\n1. **Total pineapples per harvest:**  \n   \\( 10 \\, \\text{hectares} \\times 100 \\, \\text{pineapples/hectare} = 1,000 \\, \\text{pineapples} \\)\n\n2. **Number of harvests per year:**  \n   Since John can harvest every 3 months, there are 4 harvests in a year (January, April, July, October).\n\n3. **Total pineapples in a year:**  \n   \\( 1,000 \\, \\text{pineapples/harvest} \\times 4 \\, \\text{harvests} = 4,000 \\, \\text{pineapples} \\)\n\nSo, John can get **4,000 pineapples in a year**.",
+        "ground_truth": 4000,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 56,
+        "question": "Питер планирует пойти в кино на этой неделе. Он всегда покупает билет за 7 $ и попкорн за 7 $. Если на этой неделе у него есть 42 доллара, сколько раз он может сходить в кино?\nAnswer in English.",
+        "generated_answer": "To determine how many times Peter can go to the movies this week, let's break down the costs:\n\n1. **Cost per visit:**\n   - Movie ticket: \\$7\n   - Popcorn: \\$7\n   - **Total per visit:** \\$7 + \\$7 = **\\$14**\n\n2. **Total money Peter has:** \\$42\n\n3. **Number of visits:**\n   - Divide the total money by the cost per visit: \\$42 ÷ \\$14 = **3**\n\nPeter can go to the movies **3 times** this week.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 61,
+        "question": "Дженет покупает брошь для своей дочери. Она платит 500 $ за материал для изготовления, а потом еще 800 $ ювелиру за изготовление. После этого она платит еще 10 % суммы за ее страхование. Сколько она заплатила?\nAnswer in English.",
+        "generated_answer": "To determine the total amount Janet paid for the brooch, we need to consider the costs for the material, the jeweler's work, and the insurance.\n\n1. **Cost of Material**: $500\n2. **Cost of Jeweler's Work**: $800\n3. **Insurance Cost**: 10% of the sum of the material and jeweler's costs.\n\nFirst, calculate the sum of the material and jeweler's costs:\n\\[ 500 + 800 = 1300 \\]\n\nNext, calculate the insurance cost:\n\\[ 10\\% \\text{ of } 1300 = 0.10 \\times 1300 = 130 \\]\n\nFinally, add up all the costs:\n\\[ 500 + 800 + 130 = 1430 \\]\n\nSo, Janet paid a total of **$1430**.",
+        "ground_truth": 1430,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 36,
+        "question": "Терри съедает по 2 йогурта в день. Сейчас они на распродаже по 5,00 $ за 4 йогурта. Сколько он тратит на йогурт за 30 дней?\nAnswer in English.",
+        "generated_answer": "Terry eats 2 yogurts per day. Currently, they are on sale for $5.00 for 4 yogurts. To find out how much he spends on yogurt in 30 days, we can follow these steps:\n\n1. **Calculate the cost per yogurt:**\n   - 4 yogurts for $5.00\n   - Cost per yogurt = $5.00 / 4 = $1.25\n\n2. **Calculate the total number of yogurts Terry eats in 30 days:**\n   - 2 yogurts per day\n   - Total yogurts = 2 yogurts/day * 30 days = 60 yogurts\n\n3. **Calculate the total cost:**\n   - Total cost = 60 yogurts * $1.25/yogurt = $75.00\n\nSo, Terry spends **$75.00** on yogurt in 30 days.",
+        "ground_truth": 75,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 139,
+        "question": "В автомате по продаже конфет розовых шариков жевательной резинки на 22 больше, чем количество синих шариков, умноженное на четыре. Если синих шариков жевательной резинки 12, то сколько розовых шариков?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Given:**\n- Number of blue gumballs = 12\n- Number of pink gumballs = (Number of blue gumballs × 4) + 22\n\n**Step 1: Calculate the number of pink gumballs.**\n\n\\[\n\\text{Number of pink gumballs} = (\\text{Number of blue gumballs} \\times 4) + 22\n\\]\n\n\\[\n\\text{Number of pink gumballs} = (12 \\times 4) + 22\n\\]\n\n\\[\n\\text{Number of pink gumballs} = 48 + 22\n\\]\n\n\\[\n\\text{Number of pink gumballs} = 70\n\\]\n\n**Final Answer:**\n\n\\[\n\\boxed{70}\n\\]",
+        "ground_truth": 70,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 114,
+        "question": "В телефоне Джамаля может храниться в 6 раз больше фотографий, чем в телефоне Бриттани. Максимальное количество фотографий в телефоне Бриттани в 50 раз больше количества птиц на фотографии уток, которую Джамаль сделал в зоопарке. Если в телефоне Джамаля может храниться 1800 фотографий, сколько уток можно увидеть на фотографии, которую Джамаль сделал в зоопарке?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the number of ducks on the photograph.\n\n1. **Define Variables:**\n   - Let \\( D \\) be the number of ducks on the photograph.\n   - Let \\( B \\) be the number of photos Britney has.\n   - Let \\( J \\) be the number of photos Jamal has.\n\n2. **Given Relationships:**\n   - Jamal's phone can store 6 times more photos than Britney's:\n     \\[\n     J = 6B\n     \\]\n   - Britney's phone can store 50 times the number of birds on the photograph:\n     \\[\n     B = 50D\n     \\]\n   - Jamal's phone can store 1800 photos:\n     \\[\n     J = 1800\n     \\]\n\n3. **Find Britney's Photos:**\n   Substitute \\( J = 1800 \\) into \\( J = 6B \\):\n   \\[\n   1800 = 6B \\implies B = \\frac{1800}{6} = 300\n   \\]\n\n4. **Find the Number of Ducks:**\n   Substitute \\( B = 300 \\) into \\( B = 50D \\):\n   \\[\n   300 = 50D \\implies D = \\frac{300}{50} = 6\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{6}\n\\]",
+        "ground_truth": 6,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 226,
+        "question": "Джеймс считает свои карточки с покемонами. У него 30 карточек огненного типа, 20 — травяного типа и 40 — водяного типа. Если он теряет 8 карточек водяного типа и покупает 14 карточек травяного типа, каков шанс в процентах (округленный до ближайшего целого числа), что случайно выбранная карточка будет водяного типа?\nAnswer in English.",
+        "generated_answer": "To determine the probability that a randomly selected card is of the Water type after the changes, we need to follow these steps:\n\n1. **Calculate the initial number of each type of card:**\n   - Water type: 40\n   - Grass type: 20\n   - Fire type: 30\n\n2. **Apply the changes:**\n   - Water type: 40 - 8 = 32\n   - Grass type: 20 + 14 = 34\n\n3. **Calculate the total number of cards after the changes:**\n   - Total cards = 32 (Water) + 34 (Grass) = 66\n\n4. **Calculate the probability of selecting a Water type card:**\n   - Probability = (Number of Water type cards) / (Total number of cards)\n   - Probability = 32 / 66\n\n5. **Convert the probability to a percentage and round to the nearest whole number:**\n   - Probability as a percentage = (32 / 66) * 100 ≈ 48.48%\n   - Rounded to the nearest whole number: 48%\n\nSo, the probability that a randomly selected card is of the Water type is approximately **48%**.",
+        "ground_truth": 33,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 20,
+        "question": "У меня есть 10 литров апельсинового напитка, которые на две трети состоят из воды, и я хочу добавить его к 15 литрам ананасового напитка, который на три пятых состоит из воды. Но когда я наливаю, то проливаю один литр апельсинового напитка. Сколько воды в оставшихся 24 литрах?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much water is in the remaining 24 liters of the mixed drink.\n\n### 1. **Determine the amount of water in the original 10 liters of orange drink:**\n- The orange drink is **2/3 water**.\n- Water in orange drink = \\( \\frac{2}{3} \\times 10 = \\frac{20}{3} \\approx 6.67 \\) liters.\n\n### 2. **Determine the amount of water in the original 15 liters of pineapple drink:**\n- The pineapple drink is **3/5 water**.\n- Water in pineapple drink = \\( \\frac{3}{5} \\times 15 = \\frac{45}{5} = 9 \\) liters.\n\n### 3. **Calculate the total water before any is spilled:**\n- Total water = Water in orange drink + Water in pineapple drink\n- Total water = \\( 6.67 + 9 = 15.67 \\) liters.\n\n### 4. **Account for the spilled orange drink:**\n- You spill **1 liter** of orange drink.\n- Since the spilled orange drink is **2/3 water**, the amount of water spilled = \\( \\frac{2}{3} \\times 1 = \\frac{2}{3} \\) liters.\n\n### 5. **Calculate the remaining water after the spill:**\n- Remaining water = Total water - Water spilled\n- Remaining water = \\( 15.67 - \\frac{2}{3} = 15.67 - 0.67 = 15 \\) liters.\n\n### 6. **Determine the total volume of the mixed drink:**\n- You mix the remaining orange drink (9 liters) with the pineapple drink (15 liters).\n- Total volume = \\( 9 + 15 = 24 \\) liters.\n\n### 7. **Calculate the total water in the 24-liter mixture:**\n- Total water = Remaining water + Water in pineapple drink\n- Total water = \\( 15 + 9 = 24 \\) liters.\n\n### **Final Answer:**\nThe remaining 24 liters of the mixed drink contain **24 liters of water**.",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 81,
+        "question": "У Чарли было 10 наклеек. Он купил 21 наклейку в магазине в торговом центре и 23 наклейки получил на день рождения. Затем Чарли отдал 9 наклеек своей сестре, а 28 использовал для украшения открытки. Сколько наклеек осталось у Чарли?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many stickers Charlie has left.\n\n1. **Initial Stickers:**\n   - Charlie starts with **10** stickers.\n\n2. **Stickers Purchased:**\n   - He buys **21** more stickers at the store.\n   - **Total after purchase:** \\( 10 + 21 = 31 \\) stickers.\n\n3. **Stickers Received as a Gift:**\n   - He receives **23** stickers for his birthday.\n   - **Total after receiving gift:** \\( 31 + 23 = 54 \\) stickers.\n\n4. **Stickers Given to His Sister:**\n   - He gives **9** stickers to his sister.\n   - **Total after giving to sister:** \\( 54 - 9 = 45 \\) stickers.\n\n5. **Stickers Used for the Card:**\n   - He uses **28** stickers to decorate a card.\n   - **Total after using for card:** \\( 45 - 28 = 17 \\) stickers.\n\n**Final Answer:**  \nCharlie has \\(\\boxed{17}\\) stickers left.",
+        "ground_truth": 17,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 242,
+        "question": "Майк дружил по переписке с 5 людьми. Он перестал дружить по переписке с 2 из них. Каждый из них отправляет 2 письма в неделю длиной в 5 страниц. Он отвечает тем же. Он может написать страницу за 6 минут. Сколько часов он проводит за написанием в неделю?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many hours Mike spends writing each week.\n\n### 1. **Initial Number of Correspondents**\nMike initially corresponded with **5 people**.\n\n### 2. **People He Stopped Corresponding With**\nHe stopped corresponding with **2 people**.\n\n### 3. **Number of Correspondents Remaining**\n\\[\n5 \\text{ (initial)} - 2 \\text{ (stopped)} = 3 \\text{ people}\n\\]\n\n### 4. **Letters Sent and Received**\n- Each of the **3 remaining correspondents** sends **2 letters per week**.\n- Each letter is **5 pages long**.\n- Mike responds to each letter, so he writes **2 letters per week** (one for each correspondent).\n\n### 5. **Total Letters Mike Writes**\n\\[\n3 \\text{ correspondents} \\times 2 \\text{ letters} = 6 \\text{ letters}\n\\]\n\n### 6. **Total Pages Mike Writes**\n\\[\n6 \\text{ letters} \\times 5 \\text{ pages} = 30 \\text{ pages}\n\\]\n\n### 7. **Time to Write One Page**\nMike can write **1 page in 6 minutes**.\n\n### 8. **Total Time to Write 30 Pages**\n\\[\n30 \\text{ pages} \\times 6 \\text{ minutes} = 180 \\text{ minutes}\n\\]\n\n### 9. **Convert Minutes to Hours**\n\\[\n180 \\text{ minutes} \\div 60 = 3 \\text{ hours}\n\\]\n\n### **Final Answer**\n\\[\n\\boxed{3}\n\\]",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 125,
+        "question": "Джулия готовилась к званому ужину у себя дома, на котором она собиралась подать рагу. Она заметила, что у нее закончились пластиковые ложки, поэтому купила новую упаковку ложек. Позже ее муж также купил упаковку из 5 новых ложек и отдал ее Джулии. Когда Джулия готовила рагу, она использовала три ложки, чтобы попробовать рагу. Позже, когда она сервировала стол, у нее оказалось всего 12 ложек. Сколько ложек было в упаковке, которую купила Джулия?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many spoons were in the original package Julia bought.\n\n1. **Initial Purchase:**\n   - Julia bought a new package of spoons. Let’s denote the number of spoons in this package as \\( x \\).\n\n2. **Additional Spoons:**\n   - Her husband bought another package of 5 spoons and gave it to her. So, the total number of spoons now is \\( x + 5 \\).\n\n3. **Using Spoons:**\n   - Julia used 3 spoons to taste the ragu.\n   - After tasting, she had \\( x + 5 - 3 = x + 2 \\) spoons left.\n\n4. **Final Count:**\n   - When she was setting the table, she had 12 spoons left. So, \\( x + 2 = 12 \\).\n\n5. **Solving for \\( x \\):**\n   \\[\n   x + 2 = 12 \\\\\n   x = 12 - 2 \\\\\n   x = 10\n   \\]\n\n**Answer:** The original package Julia bought contained \\(\\boxed{10}\\) spoons.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 27,
+        "question": "Синтия ест одну порцию мороженого каждый вечер. Она покупает коробки мороженого с 15 порциями мороженого на коробку по цене 4,00 $ за коробку. Через 60 дней сколько она потратит на мороженое?\nAnswer in English.",
+        "generated_answer": "To determine how much Synthia will spend on ice cream in 60 days, let's break down the problem step by step.\n\n1. **Calculate the number of boxes needed:**\n   - Synthia eats 1 serving of ice cream each evening.\n   - There are 60 days in the period.\n   - Therefore, she will need 60 servings of ice cream.\n\n2. **Determine the number of boxes required:**\n   - Each box contains 15 servings.\n   - To find out how many boxes are needed, divide the total number of servings by the number of servings per box:\n     \\[\n     \\frac{60 \\text{ servings}}{15 \\text{ servings/box}} = 4 \\text{ boxes}\n     \\]\n\n3. **Calculate the total cost:**\n   - Each box costs \\$4.00.\n   - For 4 boxes, the total cost is:\n     \\[\n     4 \\text{ boxes} \\times \\$4.00/\\text{box} = \\$16.00\n     \\]\n\n**Final Answer:**  \nSynthia will spend \\(\\boxed{16}\\) dollars on ice cream in 60 days.",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "Рэм использует много ручек. Он обнаружил, что может экономить деньги, смешивая чернила из пяти пустых ручек, чтобы сделать одну полную ручку. Если он купит 25 ручек и воспользуется ими, чтобы сделать новые ручки, когда чернила окажутся на исходе, сколько всего ручек у него будет?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many total pens Rэм will have after using the 25 pens he initially bought.\n\n### **Given:**\n- Rэм starts with **25 pens**.\n- He can **recycle** the ink from **5 empty pens** to make **1 full pen**.\n\n### **Steps:**\n\n1. **Initial Pens:**\n   - Rэм has **25 pens**.\n\n2. **Recycling Process:**\n   - **5 empty pens** → **1 full pen**.\n   - This means that for every **5 empty pens**, Rэм gets **1 additional full pen**.\n\n3. **Calculating Full Pens from Recycling:**\n   - Since Rэм starts with 25 pens, he can recycle the ink from:\n     \\[\n     \\frac{25 \\text{ pens}}{5} = 5 \\text{ sets of 5 pens}\n     \\]\n   - Each set of 5 empty pens gives him **1 full pen**, so:\n     \\[\n     5 \\text{ sets} \\times 1 \\text{ full pen} = 5 \\text{ full pens}\n     \\]\n\n4. **Total Pens After Recycling:**\n   - **Initial pens:** 25\n   - **Recycled pens:** 5\n   - **Total pens:**\n     \\[\n     25 + 5 = 30 \\text{ pens}\n     \\]\n\n### **Final Answer:**\n\\[\n\\boxed{30}\n\\]",
+        "ground_truth": 31,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 201,
+        "question": "Джон получает премию на работе. Премия состоит из однократного денежного вознаграждения в размере 5000 $ и прибавки к зарплате в размере 5 %. Если он зарабатывает 2000 в неделю в течение всего года и получил премию в первый день года, сколько денег он заработал в этот год?\nAnswer in English.",
+        "generated_answer": "To calculate John's total earnings for the year, we need to consider both his regular weekly salary and the additional money from the bonus and the 5% salary increase.\n\n1. **Regular Weekly Salary:**\n   - John earns $2,000 per week.\n   - There are 52 weeks in a year.\n   - Total regular earnings for the year: \\( 2000 \\times 52 = 104,000 \\) dollars.\n\n2. **Bonus:**\n   - John receives a one-time bonus of $5,000.\n\n3. **5% Salary Increase:**\n   - The 5% increase applies to his regular weekly salary.\n   - Increase per week: \\( 2000 \\times 0.05 = 100 \\) dollars.\n   - Total increase for the year: \\( 100 \\times 52 = 5,200 \\) dollars.\n\n4. **Total Earnings:**\n   - Regular earnings: $104,000\n   - Bonus: $5,000\n   - Increase: $5,200\n   - Total: \\( 104,000 + 5,000 + 5,200 = 114,200 \\) dollars.\n\nSo, John earned a total of **$114,200** in that year.",
+        "ground_truth": 114200,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 74,
+        "question": "У Арти есть прилавок с цветами на фермерском рынке. Он продает три вида цветов: бархатцы, петунии и бегонии. Обычно он продает бархатцы по 2,74 $ за горшок, петунии по 1,87 $ за горшок, а бегонии по 2,12 $ за горшок. Сегодня у Арти нет сдачи, поэтому он решил округлить все свои цены до ближайшего доллара. Если Арти продаст 12 горшков бархатцев, 9 горшков петуний и 17 горшков бегоний, сколько он заработает?\nAnswer in English.",
+        "generated_answer": "To determine how much Arty will earn today, we need to calculate the total revenue from each type of flower after rounding the prices to the nearest dollar.\n\n1. **Barberries:**\n   - Original price: $2.74 per pot\n   - Rounded price: $3.00 per pot\n   - Quantity sold: 12 pots\n   - Total revenue from barberries: \\( 12 \\times 3.00 = 36.00 \\) dollars\n\n2. **Petunias:**\n   - Original price: $1.87 per pot\n   - Rounded price: $2.00 per pot\n   - Quantity sold: 9 pots\n   - Total revenue from petunias: \\( 9 \\times 2.00 = 18.00 \\) dollars\n\n3. **Begonias:**\n   - Original price: $2.12 per pot\n   - Rounded price: $2.00 per pot\n   - Quantity sold: 17 pots\n   - Total revenue from begonias: \\( 17 \\times 2.00 = 34.00 \\) dollars\n\nNow, we sum up the total revenue from all the flowers:\n\\[ 36.00 + 18.00 + 34.00 = 88.00 \\]\n\nTherefore, Arty will earn **$88.00** today.",
+        "ground_truth": 88,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 31,
+        "question": "Гюнтер пытается сосчитать мармеладки в банке. Он спрашивает у друзей, сколько, как они думают, в банке. Один говорит, 80. Другой говорит, на 20 больше, чем половина того, что сказал первый. Третий говорит, на 25 % больше, чем сказал первый. Какова их средняя догадка?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the average of the friends' guesses.\n\n1. **First Friend's Guess:**\n   - The first friend guesses **80** marmalades.\n\n2. **Second Friend's Guess:**\n   - The second friend says **20 more than half** of the first friend's guess.\n   - Half of 80 is \\( \\frac{80}{2} = 40 \\).\n   - Adding 20: \\( 40 + 20 = 60 \\).\n   - So, the second friend guesses **60** marmalades.\n\n3. **Third Friend's Guess:**\n   - The third friend says **25% more** than the first friend's guess.\n   - 25% of 80 is \\( 0.25 \\times 80 = 20 \\).\n   - Adding 20 to 80: \\( 80 + 20 = 100 \\).\n   - So, the third friend guesses **100** marmalades.\n\n4. **Calculating the Average:**\n   - Sum of guesses: \\( 80 + 60 + 100 = 240 \\).\n   - Number of friends: 3.\n   - Average: \\( \\frac{240}{3} = 80 \\).\n\n**Final Answer:**\n\\[\n\\boxed{80}\n\\]",
+        "ground_truth": 80,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 195,
+        "question": "Ручка стоит столько же, сколько карандаш и резинка вместе взятые. Карандаш стоит 1,20 $, а резинка — 0,30 $. Сколько будут стоить 8 ручек?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Define the Variables:**\n   - Let \\( R \\) be the cost of one pencil.\n   - Let \\( C \\) be the cost of one pen.\n   - Let \\( E \\) be the cost of one eraser.\n\n2. **Given Information:**\n   - A pencil costs \\$1.20.\n   - An eraser costs \\$0.30.\n   - A pen costs as much as a pencil and an eraser together.\n\n3. **Set Up the Equation:**\n   \\[\n   C = C_{\\text{pencil}} + C_{\\text{eraser}}\n   \\]\n   \\[\n   C = 1.20 + 0.30 = 1.50\n   \\]\n   So, the cost of one pen is \\$1.50.\n\n4. **Calculate the Total Cost for 8 Pens:**\n   \\[\n   \\text{Total Cost} = 8 \\times C = 8 \\times 1.50 = 12.00\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{12}\n\\]",
+        "ground_truth": 12,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 192,
+        "question": "Том сажает по 10 деревьев в год. И каждый год он срубает по 2 дерева. Он начинает с 50 деревьев. Через 10 лет 30 % деревьев погибают. Сколько деревьев у него осталось?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many trees Tom has left after 10 years.\n\n### **1. Initial Number of Trees**\nTom starts with **50 trees**.\n\n### **2. Annual Tree Planting and Cutting**\n- **Planted each year:** 10 trees\n- **Cut each year:** 2 trees\n- **Net increase per year:** \\(10 - 2 = 8\\) trees\n\n### **3. Trees Over 10 Years**\nCalculate the total number of trees after 10 years:\n\\[\n\\text{Total trees} = \\text{Initial trees} + (\\text{Net increase per year} \\times \\text{Number of years})\n\\]\n\\[\n\\text{Total trees} = 50 + (8 \\times 10) = 50 + 80 = 130 \\text{ trees}\n\\]\n\n### **4. Trees That Die (30% of Total)**\nAfter 10 years, **30%** of the trees die:\n\\[\n\\text{Dead trees} = 0.30 \\times 130 = 39 \\text{ trees}\n\\]\n\n### **5. Trees Remaining**\nSubtract the dead trees from the total:\n\\[\n\\text{Remaining trees} = 130 - 39 = 91 \\text{ trees}\n\\]\n\n### **Final Answer**\n\\[\n\\boxed{91}\n\\]",
+        "ground_truth": 91,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 138,
+        "question": "Вчера Марк проходил тест, который состоял из 75 вопросов. Он выполнил тест со скоростью 5 вопросов в час. Сегодня он с такой же скоростью проходил другой тест, состоящий из 100 вопросов. Если у Марка было 8 часов на выполнение первого теста и 6 часов на выполнение второго, сколько вопросов он оставил без ответа?\nAnswer in English.",
+        "generated_answer": "To determine how many questions Mark left unanswered, we'll break down the problem into two parts: the first test and the second test.\n\n### First Test\n- **Total questions:** 75\n- **Time available:** 8 hours\n- **Speed:** 5 questions per hour\n\nFirst, calculate how many questions Mark could have answered in 8 hours:\n\\[\n\\text{Questions answered} = \\text{Speed} \\times \\text{Time} = 5 \\, \\text{questions/hour} \\times 8 \\, \\text{hours} = 40 \\, \\text{questions}\n\\]\n\nSince the test has 75 questions, the number of questions left unanswered is:\n\\[\n\\text{Questions left} = \\text{Total questions} - \\text{Questions answered} = 75 - 40 = 35\n\\]\n\n### Second Test\n- **Total questions:** 100\n- **Time available:** 6 hours\n- **Speed:** 5 questions per hour\n\nCalculate how many questions Mark could have answered in 6 hours:\n\\[\n\\text{Questions answered} = \\text{Speed} \\times \\text{Time} = 5 \\, \\text{questions/hour} \\times 6 \\, \\text{hours} = 30 \\, \\text{questions}\n\\]\n\nThe number of questions left unanswered is:\n\\[\n\\text{Questions left} = \\text{Total questions} - \\text{Questions answered} = 100 - 30 = 70\n\\]\n\n### Total Questions Left Unanswered\nAdd the unanswered questions from both tests:\n\\[\n\\text{Total questions left} = 35 + 70 = 105\n\\]\n\n**Final Answer:** Mark left a total of **105 questions** unanswered.",
+        "ground_truth": 105,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 202,
+        "question": "Джози выращивает виноград на своей ферме в 10 акров. Каждый акр приносит 5 тонн винограда в год, а из каждой тонны винограда получается 2 барреля вина. Сколько баррелей вина изготавливают на ее ферме за год?\nAnswer in English.",
+        "generated_answer": "To determine how many barrels of wine Jozy produces in a year, we can break down the problem step by step:\n\n1. **Total land area**: 10 acres\n2. **Yield per acre**: 5 tons of grapes\n3. **Total grapes produced**: \\( 10 \\text{ acres} \\times 5 \\text{ tons/acre} = 50 \\text{ tons} \\)\n4. **Barrel production per ton**: 2 barrels\n5. **Total barrels produced**: \\( 50 \\text{ tons} \\times 2 \\text{ barrels/ton} = 100 \\text{ barrels} \\)\n\nSo, Jozy produces **100 barrels of wine** in a year.",
+        "ground_truth": 100,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 218,
+        "question": "Возраст Адриана в три раза больше возраста Харриет, а Харриет вдвое младше Зака. Вычислите средний возраст троих через три года, если сейчас Харриет 21 год.\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the average age of Adrian, Harriet, and Zach three years from now.\n\n### Given:\n1. **Harriet's current age (H):** 21 years\n2. **Harriet is twice as young as Zach (Z):** This means Zach is twice as old as Harriet.\n   - \\( Z = 2 \\times H = 2 \\times 21 = 42 \\) years\n3. **Adrian's age (A) is three times Harriet's age:**\n   - \\( A = 3 \\times H = 3 \\times 21 = 63 \\) years\n\n### Ages three years from now:\n- **Harriet:** \\( H + 3 = 21 + 3 = 24 \\) years\n- **Zach:** \\( Z + 3 = 42 + 3 = 45 \\) years\n- **Adrian:** \\( A + 3 = 63 + 3 = 66 \\) years\n\n### Calculating the average age three years from now:\n\\[\n\\text{Average} = \\frac{\\text{Harriet} + \\text{Zach} + \\text{Adrian}}{3} = \\frac{24 + 45 + 66}{3} = \\frac{135}{3} = 45\n\\]\n\n### Final Answer:\n\\[\n\\boxed{45}\n\\]",
+        "ground_truth": 45,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 162,
+        "question": "Если мешочек шариков стоит 20 $ и цена каждые два месяца растет на 20 % от первоначальной, столько будет стоить мешочек шариков через 36 месяцев?\nAnswer in English.",
+        "generated_answer": "To determine the price of the bag of marbles after 36 months, we can use the formula for compound growth:\n\n\\[\n\\text{Final Price} = \\text{Initial Price} \\times (1 + \\text{Growth Rate})^{\\text{Number of Periods}}\n\\]\n\nGiven:\n- Initial Price = \\$20\n- Growth Rate = 20% = 0.20\n- Number of Periods = 36 months\n\nPlugging in the values:\n\n\\[\n\\text{Final Price} = 20 \\times (1 + 0.20)^{36}\n\\]\n\n\\[\n\\text{Final Price} = 20 \\times (1.20)^{36}\n\\]\n\nNow, calculate \\( (1.20)^{36} \\):\n\n\\[\n(1.20)^{36} \\approx 10.51\n\\]\n\nFinally, multiply by the initial price:\n\n\\[\n\\text{Final Price} = 20 \\times 10.51 = 210.20\n\\]\n\nSo, the bag of marbles will cost approximately **\\$210.20** after 36 months.",
+        "ground_truth": 92,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 150,
+        "question": "Стив и Тим решают посмотреть, кто сможет добраться домой из школы быстрее. Стив живет дальше, чем Тим, поэтому ему разрешено ехать на велосипеде. Стив живет в 3 милях от школы и может ехать на велосипеде со скоростью 440 футов в минуту. Тим живет в 2 милях от школы. Если Тим может ехать на скейтборде со скоростью 264 фута в минуту, как долго победитель будет ждать у своего дома, пока проигравший не завершит гонку?\nAnswer in English.",
+        "generated_answer": "To determine how long the winner will wait at their home for the loser to finish the race, we first need to calculate the time it takes for each of them to reach home.\n\n1. **Calculate the time it takes for Steve to reach home:**\n   - Distance: 3 miles\n   - Speed: 440 feet per minute\n\n   First, convert the distance from miles to feet:\n   \\[\n   3 \\text{ miles} \\times 5280 \\text{ feet/mile} = 15840 \\text{ feet}\n   \\]\n\n   Now, calculate the time:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{15840 \\text{ feet}}{440 \\text{ feet/minute}} = 36 \\text{ minutes}\n   \\]\n\n2. **Calculate the time it takes for Tim to reach home:**\n   - Distance: 2 miles\n   - Speed: 264 feet per minute\n\n   Convert the distance from miles to feet:\n   \\[\n   2 \\text{ miles} \\times 5280 \\text{ feet/mile} = 10560 \\text{ feet}\n   \\]\n\n   Now, calculate the time:\n   \\[\n   \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{10560 \\text{ feet}}{264 \\text{ feet/minute}} = 40 \\text{ minutes}\n   \\]\n\n3. **Determine the difference in arrival times:**\n   - Steve arrives in 36 minutes.\n   - Tim arrives in 40 minutes.\n\n   The difference in their arrival times is:\n   \\[\n   40 \\text{ minutes} - 36 \\text{ minutes} = 4 \\text{ minutes}\n   \\]\n\nTherefore, the winner (Steve) will wait **4 minutes** at his home for the loser (Tim) to finish the race.",
+        "ground_truth": 4,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 73,
+        "question": "Шила купила пять мобильных телефонов за 150 $ каждый в рассрочку на 3 месяца. За каждую единицу будет взиматься 2 % годовых. Сколько будет платить Шила каждый месяц на протяжении 3 месяцев?\nAnswer in English.",
+        "generated_answer": "To calculate the monthly payment for each mobile phone, we need to determine the total amount to be repaid and then divide it by the number of months.\n\n1. **Calculate the total cost of the phones:**\n   - Each phone costs $150.\n   - She bought 5 phones.\n   - Total cost = 5 × $150 = $750.\n\n2. **Calculate the total interest for 3 months:**\n   - The interest rate is 2% per year.\n   - For 3 months, the interest rate is 2%/4 = 0.5% per month.\n   - Total interest = $750 × 0.005 = $3.75.\n\n3. **Calculate the total amount to be repaid:**\n   - Total amount = Total cost + Total interest = $750 + $3.75 = $753.75.\n\n4. **Calculate the monthly payment:**\n   - Total amount to be repaid = $753.75.\n   - Number of months = 3.\n   - Monthly payment = $753.75 ÷ 3 = $251.25.\n\nSo, Shila will pay **$251.25** each month for 3 months.",
+        "ground_truth": 255,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 199,
+        "question": "Марк — редактор. Каждую неделю он редактирует одинаковое количество предложений для двух разных издательств, которые платят ему по разным ставкам за предложение. Издательство Б платит Марку в два раза больше, чем издательство А. Марк редактирует суммарно по 1000 предложений каждую неделю, и издательство А платит ему по 5 центов за предложение. Сколько центов зарабатывает Марк в неделю?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much Mark earns each week.\n\n1. **Total Proposals Edited:**\n   - Mark edits a total of **1000 proposals** each week.\n\n2. **Publishing Rates:**\n   - **Publishing A** pays **5 cents per proposal**.\n   - **Publishing B** pays **twice as much** as Publishing A, so **10 cents per proposal**.\n\n3. **Calculating Earnings:**\n   - **From Publishing A:**\n     \\[\n     1000 \\text{ proposals} \\times 5 \\text{ cents/proposal} = 5000 \\text{ cents}\n     \\]\n   - **From Publishing B:**\n     \\[\n     1000 \\text{ proposals} \\times 10 \\text{ cents/proposal} = 10000 \\text{ cents}\n     \\]\n\n4. **Total Weekly Earnings:**\n   \\[\n   5000 \\text{ cents} + 10000 \\text{ cents} = 15000 \\text{ cents}\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{15000}\n\\]",
+        "ground_truth": 7500,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 172,
+        "question": "В служебном вагоне четыре птицы. Салли Два на три года старше, чем Грэнни Ред. Грэнни Ред в два раза старше, чем Салли Четыре. Если Салли Четыре столько же лет, сколько и Салли Тридцать два, а Салли Тридцать два 8 лет, каков общий возраст этих четырех птиц?\nAnswer in English.",
+        "generated_answer": "Let's break down the information step by step to find the total age of the four birds.\n\n1. **Sally Four's Age:**\n   - Sally Four is 8 years old.\n\n2. **Sally Thirty-Two's Age:**\n   - Sally Thirty-Two is 8 years older than Sally Four.\n   - Therefore, Sally Thirty-Two is \\( 8 + 8 = 16 \\) years old.\n\n3. **Granny Red's Age:**\n   - Granny Red is twice as old as Sally Thirty-Two.\n   - Therefore, Granny Red is \\( 2 \\times 16 = 32 \\) years old.\n\n4. **Sally Two's Age:**\n   - Sally Two is three years younger than Granny Red.\n   - Therefore, Sally Two is \\( 32 - 3 = 29 \\) years old.\n\n5. **Total Age of the Four Birds:**\n   - Add up the ages of all four birds:\n     \\[\n     8 \\text{ (Sally Four)} + 16 \\text{ (Sally Thirty-Two)} + 32 \\text{ (Granny Red)} + 29 \\text{ (Sally Two)} = 85 \\text{ years}\n     \\]\n\nThus, the total age of the four birds is **85 years**.",
+        "ground_truth": 51,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 152,
+        "question": "Карл покупает десять упаковок печенья. В каждой упаковке шесть печений. Каждое печенье стоит 0,10 $. Сколько сдачи получит Карл, если заплатит купюрой 10 $?\nAnswer in English.",
+        "generated_answer": "To determine how much change Carl will receive, let's break down the problem step by step.\n\n1. **Calculate the total number of cookies:**\n   - Carl buys 10 packages.\n   - Each package contains 6 cookies.\n   - Total cookies = 10 packages × 6 cookies/package = **60 cookies**.\n\n2. **Calculate the total cost:**\n   - Each cookie costs $0.10.\n   - Total cost = 60 cookies × $0.10/cookie = **$6.00**.\n\n3. **Calculate the change:**\n   - Carl pays with a $10 bill.\n   - Change = $10.00 - $6.00 = **$4.00**.\n\n**Final Answer:**  \nCarl will receive **$4.00** in change.",
+        "ground_truth": 4,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 248,
+        "question": "Повар купил 4 мешка лука. Каждый мешок весит 50 фунтов. Фунт лука стоит 1,50 $. Сколько потратил повар?\nAnswer in English.",
+        "generated_answer": "The chef bought 4 bags of onions, each weighing 50 pounds. The cost per pound is $1.50.  \n\nTotal weight = 4 bags × 50 pounds/bag = **200 pounds**  \nTotal cost = 200 pounds × $1.50/pound = **$300**  \n\nThe chef spent **$300**.",
+        "ground_truth": 300,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 170,
+        "question": "Маршевый оркестр заказывает новые униформы. В комплект каждой униформы входит шляпа стоимостью 25 $, куртка, которая стоит в три раза дороже шляпы, и брюки, стоимость которых равна средней стоимости шляпы и куртки. Сколько всего стоит одна униформа?\nAnswer in English.",
+        "generated_answer": "Let's break down the costs step by step:\n\n1. **Cost of the hat (hat):**  \n   The hat costs **$25**.\n\n2. **Cost of the jacket (jacket):**  \n   The jacket costs **3 times** the cost of the hat.  \n   So, the jacket costs \\( 3 \\times 25 = \\$75 \\).\n\n3. **Cost of the pants (pants):**  \n   The pants cost the **average** of the hat and jacket.  \n   The average is calculated as:  \n   \\[\n   \\text{Average} = \\frac{\\text{Hat} + \\text{Jacket}}{2} = \\frac{25 + 75}{2} = \\$50\n   \\]\n   So, the pants cost **$50**.\n\n4. **Total cost of one uniform:**  \n   Add up the costs of the hat, jacket, and pants:  \n   \\[\n   \\text{Total} = \\text{Hat} + \\text{Jacket} + \\text{Pants} = 25 + 75 + 50 = \\$150\n   \\]\n\n**Final Answer:**  \n\\[\n\\boxed{150}\n\\]",
+        "ground_truth": 150,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

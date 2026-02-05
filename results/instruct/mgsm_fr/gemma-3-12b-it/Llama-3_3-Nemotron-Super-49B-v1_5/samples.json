@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth a emprunté 2 000 $ et a promis de les rendre avec un supplément de 10 % du montant. Si elle doit payer 165 $ par mois pendant 12 mois, combien d'argent restera-t-il à Janeth d'ici là ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total amount Janeth needs to pay back:**\n   * Janeth promised to pay back the original amount plus 10%, so the interest is 2000 * 0.10 = $200.\n   * The total amount to be repaid is 2000 + 200 = $2200.\n\n2. **Calculate the total amount Janeth will pay over 12 months:**\n   * Janeth pays $165 per month for 12 months, so she'll pay a total of 165 * 12 = $1980.\n\n3. **Calculate how much money Janeth will have left:**\n   * Janeth started with $2000 and will pay back $1980, so she will have 2000 - 1980 = $20 left.\n\n**Answer:** Janeth will have $20 left.\n",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "Des voitures sont coincées dans une file sur l'autoroute. Certaines voitures parviennent à avancer durant les 15 premières minutes de l'embouteillage, puis 20 autres voitures durant les 15 dernières. 5 voitures sortent de la file pour ne pas avoir à traverser l'embouteillage. Sachant qu'il y avait initialement 30 voitures sur l'autoroute, combien de voitures ont traversé l'embouteillage au cours des 15 premières minutes ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n*   **Cars that entered the jam:** 20 cars\n*   **Cars that left the jam:** 5 cars\n*   **Cars that initially were in the jam:** 30 cars\n*   **Cars that advanced in the first 15 minutes:** Let's call this number 'x'.\n\nThe total number of cars that passed through the jam is the initial number of cars plus the cars that entered minus the cars that left. We also know that the cars that advanced in the first 15 minutes are part of this total.\n\nSo, the equation is: 30 + 20 - 5 = x + (cars that advanced in the last 15 minutes)\n\nWe know 20 cars advanced in the last 15 minutes. So:\n\n30 + 20 - 5 = x + 20\n45 = x + 20\nx = 45 - 20\nx = 25\n\nTherefore, 25 cars advanced through the jam in the first 15 minutes.\n\n**Answer:** 25",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Violetta veut acheter de nouveaux crayons. Elle en a besoin dans 5 couleurs différentes et a prévu 20 $ pour cet achat. Sachant qu'un crayon coûte 2 $, combien aura-t-elle de monnaie ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n*   **Cost of crayons:** Violetta needs 5 crayons at $2 each, so the total cost is 5 * $2 = $10.\n*   **Change:** She has $20 and spends $10, so her change will be $20 - $10 = $10.\n\n**Answer:** Violetta will have $10 in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Pour son déjeuner, Chad a commandé un burrito à composer. Le burrito de base coûte 6,50 $. Il ajoute en supplément 2 $ de viande, 1,00 $ de fromage, 1,00 $ d'avocat et 2 sauces à 0,25 $ la sauce. Il choisit l'option premium pour 3,00 $ de plus, ce qui lui permet d'ajouter des frites et une boisson. Il possède une carte cadeau de 5,00 $ qu'il utilise à la caisse. Combien lui reste-t-il à payer ?\nAnswer in English.",
+        "generated_answer": "Okay, let's break down the cost of Chad's burrito:\n\n*   **Base Burrito:** $6.50\n*   **Meat:** $2.00\n*   **Cheese:** $1.00\n*   **Avocado:** $1.00\n*   **Sauces (2 x $0.25):** $0.50\n*   **Premium Option:** $3.00\n\n**Subtotal:** $6.50 + $2.00 + $1.00 + $1.00 + $0.50 + $3.00 = $14.00\n\n**Subtract Gift Card:** $14.00 - $5.00 = $9.00\n\n**Therefore, Chad has $9.00 left to pay.**",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Tous les soirs, Frankie regarde la télévision après avoir fait ses devoirs. Lundi et mardi derniers, il a regardé chaque soir un épisode de son émission préférée pendant 1 heure. Mercredi, il a regardé quelques épisodes d'une émission de 30 minutes. Jeudi, il a fini ses devoirs plus tôt et a regardé un épisode d'une heure et une émission de 30 minutes. Vendredi, il a pu veiller tard en raison du week-end, et a donc regardé deux épisodes d'une heure chacune. S'il a regardé en tout 7 heures de télévision, combien d'épisodes de 30 minutes a-t-il regardé mercredi ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n*   **Monday & Tuesday:** 2 nights * 1 hour/night = 2 hours\n*   **Friday:** 2 episodes * 1 hour/episode = 2 hours\n*   **Total time from known shows:** 2 hours + 2 hours = 4 hours\n*   **Time left for Wednesday & Thursday:** 7 hours (total) - 4 hours = 3 hours\n*   **Thursday's time:** 1 hour + 30 minutes = 1.5 hours\n*   **Time spent on Wednesday:** 3 hours - 1.5 hours = 1.5 hours\n*   **Number of 30-minute episodes on Wednesday:** 1.5 hours / 0.5 hours/episode = 3 episodes\n\n**Answer:** Frankie watched 3 episodes of 30 minutes on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un nouveau programme a été téléchargé 60 fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de 30 % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n*   **Month 2 downloads:** 60 downloads * 3 = 180 downloads\n*   **Month 3 downloads:** 180 downloads * 0.30 = 54 downloads decrease. 180 downloads - 54 downloads = 126 downloads\n*   **Total downloads:** 60 downloads + 180 downloads + 126 downloads = 366 downloads\n\n**Answer:** The program was downloaded a total of 366 times over the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant 5 joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n*   **Players per school:** Each school has 5 female players + 5 male players = 10 players\n*   **Total players:** 4 schools * 10 players/school = 40 players\n*   **Coaches:** 4 schools * 1 coach/school = 4 coaches\n*   **Total people:** 40 players + 4 coaches = 44 people\n\n**Answer:** The schools sent a total of 44 people.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "Isabelle a acheté des fournitures pour la fête d'anniversaire de sa petite sœur. Elle a dépensé 12 $ pour les ingrédients du gâteau, 43 $ pour les cadeaux d'anniversaire, 15 $ pour les décorations, 4 $ pour les invitations et 22 $ pour les sacs de goodies destinés aux invités. Elle a partagé le coût en trois, entre elle et ses deux parents. Combien chaque personne a-t-elle payé ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total cost:** $12 (cake) + $43 (gifts) + $15 (decorations) + $4 (invitations) + $22 (goodie bags) = $96\n\n2. **Divide the total cost by the number of people:** $96 / 3 people = $32 per person\n\n**Answer:** Each person paid $32.\n",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa embauche 60 saisonniers pour jouer les lutins dans le village du Père Noël de son grand magasin. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus, puis 10 des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Combien de lutins reste-t-il ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Lutins qui démissionnent à cause des vomissements:** 60 saisonniers / 3 = 20 lutins\n2. **Lutins restants après les vomissements:** 60 - 20 = 40 lutins\n3. **Lutins qui démissionnent à cause des coups de pied:** 10 lutins\n4. **Lutins restants après les coups de pied:** 40 - 10 = 30 lutins\n\n**Answer:** There are 30 elves remaining.\n",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie apporte une assistance au bureau de sa mère. Elle dispose d'une pile de 60 lettres à timbrer et d'une autre avec des lettres déjà timbrées. Elle tamponne un tiers des lettres à timbrer. S'il y a maintenant 30 lettres dans la pile de lettres timbrées, combien y en avait-il dans cette pile lorsque Jennie a commencé le travail ?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n*   **Letters Jennie stamped:** Jennie stamped 1/3 of the 60 letters, which is (1/3) * 60 = 20 letters.\n*   **Letters in the stamped pile after Jennie's work:** After stamping 20 letters, there were 30 letters in the stamped pile.\n*   **Letters in the stamped pile before Jennie started:** Since there were 30 letters after Jennie stamped 20, there were 30 - 20 = 10 letters in the stamped pile to begin with.\n\n**Answer:** There were 10 letters in the pile of stamped letters when Jennie started.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

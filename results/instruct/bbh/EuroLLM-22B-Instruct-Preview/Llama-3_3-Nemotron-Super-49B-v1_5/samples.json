@@ -1,0 +1,802 @@
+[
+    {
+        "id": 3155,
+        "question": "((-2 * 5 + -3 + 0) * (-9 + 2 + 5 * 4)) =",
+        "generated_answer": "Let's break this down systematically, following the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n### Step 1: Innermost Parentheses\nFirst, evaluate the expressions inside the innermost parentheses:\n\n1. **First Parentheses:** `(-2 * 5 + -3 + 0)`\n   - `-2 * 5 = -10`\n   - `-10 + (-3) = -13`\n   - `-13 + 0 = -13`\n\n2. **Second Parentheses:** `(-9 + 2 + 5 * 4)`\n   - `5 * 4 = 20`\n   - `-9 + 2 + 20 = 13`\n\n### Step 2: Multiplication\nNow, multiply the results from the parentheses:\n\n- `(-13) * (13) = -169`\n\n### Final Answer:\nThe result of the expression is **-169**.",
+        "ground_truth": "-169",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6209,
+        "question": "Question: Fletcher lies. Jerry says Fletcher lies. Raymond says Jerry lies. Conception says Raymond lies. Amberly says Conception tells the truth. Does Amberly tell the truth?",
+        "generated_answer": "To determine whether Amberly tells the truth, we need to analyze the statements made by each person and their consistency with the known facts.\n\n1. **Fletcher lies.**\n2. **Jerry says Fletcher lies.**\n   - If Jerry tells the truth, then Fletcher lies, which aligns with the known fact that Fletcher lies.\n   - If Jerry lies, then Fletcher tells the truth, which contradicts the known fact that Fletcher lies.\n\n3. **Raymond says Jerry lies.**\n   - If Jerry tells the truth, then Raymond lies.\n   - If Jerry lies, then Raymond tells the truth.\n\n4. **Conception says Raymond lies.**\n   - If Raymond tells the truth, then Conception lies.\n   - If Raymond lies, then Conception tells the truth.\n\n5. **Amberly says Conception tells the truth.**\n   - If Conception tells the truth, then Amberly lies.\n   - If Conception lies, then Amberly tells the truth.\n\nLet's consider the two possible scenarios:\n\n### Scenario 1: Jerry tells the truth\n- If Jerry tells the truth, then Fletcher lies, which is consistent with the known fact.\n- Raymond says Jerry lies, so Raymond must be lying.\n- Conception says Raymond lies, so Conception tells the truth.\n- Amberly says Conception tells the truth, so Amberly lies.\n\n### Scenario 2: Jerry lies\n- If Jerry lies, then Fletcher tells the truth, which contradicts the known fact.\n- Raymond says Jerry lies, so Raymond tells the truth.\n- Conception says Raymond lies, so Conception lies.\n- Amberly says Conception tells the truth, so Amberly tells the truth.\n\nSince the first scenario leads to a contradiction (Fletcher lying and telling the truth at the same time), the only consistent scenario is the second one.\n\nTherefore, **Amberly tells the truth**.",
+        "ground_truth": "Yes",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3445,
+        "question": "I have a yam, a cauliflower, a garlic, two lettuce heads, a head of broccoli, a potato, a stalk of celery, and an onion. How many vegetables do I have?",
+        "generated_answer": "Let's count the vegetables one by one:\n\n1. Yam\n2. Cauliflower\n3. Garlic\n4. Lettuce (two heads, so 2)\n5. Broccoli (one head)\n6. Potato\n7. Celery (one stalk)\n8. Onion\n\nAdding them up: 1 + 2 + 3 + 2 + 1 + 1 + 1 = **11 vegetables**.\n\nSo, you have **11 vegetables** in total.",
+        "ground_truth": "9",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 331,
+        "question": "How would a typical person answer each of the following questions about causation?\nTom has a huge garden and loves flowers. He employed two gardeners who take care of the plants on his 30 flower beds: Alex and Benni. Both can independently decide on their working hours and arrange who cares for which flower beds. Alex and Benni are very reliable and Tom is satisfied with their work. Nevertheless he wants to optimize the plant growth. Since Tom has read in a magazine that plants grow better when they are fertilized, he decides to let Alex and Benni fertilize his plants. The magazine recommends the use of the chemicals A X200R or B Y33R, since both are especially effective. However, Tom also read that it can damage plants when they are exposed to multiple different types of chemicals. Tom therefore decides that he only wants to use one fertilizer. He goes for A X200R. When Tom meets Alex in the garden shortly afterwards, he instructs him to buy the chemical A X200R and to use only this fertilizer. He also explicitly instructs him to tell Benni to only use A X200R. Alex volunteers to buy several bottles of this chemical for Benni and himself and to tell Benni about Tom's instruction. After a few weeks, Tom goes for a walk in his garden. He realizes that some of his plants are much prettier and bigger than before. However, he also realizes that some of his plants have lost their beautiful color and are dried up. That makes Tom very sad and reflective. He wonders whether the drying of his plants might have something to do with the fertilization. He wants to investigate this matter and talks to Alex and Benni. After some interrogation, Alex finally confesses that he had told Benni that Tom wanted them to buy and use the chemical B Y33R instead of A X200R. He wanted Benni to use the wrong fertilizer and to get fired because he wanted to have more working hours to earn more money. He himself only used A X200R. Benni tells Tom that Alex had told him that they were only supposed to use B Y33R. He therefore only used B Y33R without knowing that Tom actually intended both gardeners to use A X200R. Tom realizes that the plants dried up in the flower beds on which both A X200R and B Y33R were applied by the gardeners. Did the fertilization by Alex cause the plant to dry out?\nOptions:\n- Yes\n- No",
+        "generated_answer": "The correct answer is:  \n\n**No**  \n\n### Explanation:  \nThe question asks whether **Alex's fertilization** caused the plants to dry out. However, the plants dried up only in the flower beds where **both A X200R and B Y33R were applied**—not just A X200R. Since Alex used only A X200R, the damage was caused by Benni's use of B Y33R, not Alex's actions.  \n\nThus, **Alex's fertilization did not cause the plants to dry out**, even though his actions (misleading Benni) led to the incorrect use of both chemicals. The causal relationship here is between **B Y33R** and the plant damage, not A X200R.  \n\n### Key Points:  \n1. **Causation requires a direct link** between the action (A X200R) and the outcome (plant damage).  \n2. The plants were damaged only where **both chemicals were used**, meaning Benni's choice (B Y33R) was the actual cause.  \n3. Alex's actions (misleading Benni) were a **confounding factor** but not the direct cause of the damage.  \n\nThis is a classic case of **confounding variables**—where an unintended factor (B Y33R) is responsible for the outcome, not the intended action (A X200R).",
+        "ground_truth": "No",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2121,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: watermelons, apples, kiwis, cantaloupes, and mangoes. The cantaloupes are the second-cheapest. The mangoes are more expensive than the watermelons. The kiwis are less expensive than the apples. The kiwis are more expensive than the mangoes.\nOptions:\n(A) The watermelons are the most expensive\n(B) The apples are the most expensive\n(C) The kiwis are the most expensive\n(D) The cantaloupes are the most expensive\n(E) The mangoes are the most expensive",
+        "generated_answer": "To determine which fruit is the most expensive, let's analyze the given information step by step:\n\n1. **Cantaloupes are the second-cheapest.**  \n   This means the most expensive fruit is not a cantaloupe.\n\n2. **Mangoes are more expensive than watermelons.**  \n   This means mangoes are more expensive than watermelons, but not necessarily the most expensive.\n\n3. **Kiwis are less expensive than apples.**  \n   This means apples are more expensive than kiwis, but not necessarily the most expensive.\n\n4. **Kiwis are more expensive than mangoes.**  \n   This means kiwis are more expensive than mangoes, but not necessarily the most expensive.\n\nFrom the above, we can deduce the following order of prices:\n- **Kiwis** are more expensive than **mangoes**.\n- **Apples** are more expensive than **kiwis**.\n- **Cantaloupes** are the second-cheapest, so they are less expensive than both kiwis and apples.\n- **Watermelons** are less expensive than mangoes, but since mangoes are more expensive than watermelons, watermelons are the least expensive.\n\nNow, let's compare the remaining options:\n- **Kiwis** are more expensive than **mangoes**, but less expensive than **apples**.\n- **Apples** are more expensive than **kiwis**, but we don't have enough information to determine if they are the most expensive.\n- **Mangoes** are more expensive than **watermelons**, but less expensive than **kiwis**.\n- **Cantaloupes** are the second-cheapest, so they are less expensive than both kiwis and apples.\n- **Watermelons** are the least expensive.\n\nThe most expensive fruit must be either **kiwis** or **apples**. However, since **kiwis** are more expensive than **mangoes**, and **mangoes** are more expensive than **watermelons**, **kiwis** are the most expensive.\n\n**Answer:** (C) The kiwis are the most expensive.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4188,
+        "question": "Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\nOptions:\n(A) piqk floyd\n(B) pink flomyd\n(C) pink floyds\n(D) fink floyd",
+        "generated_answer": "The humorous edit of the artist or movie name \"Pink Floyd\" from the given options is:\n\n**(D) fink floyd**\n\nThe word \"fink\" is a playful and unexpected twist on \"floyd,\" making it the most humorous option.",
+        "ground_truth": "(D)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3980,
+        "question": "On the nightstand, you see the following things arranged in a row: a pink cup, an orange booklet, a turquoise necklace, and a mauve textbook. How many non-magenta things do you see to the left of the necklace?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+        "generated_answer": "To determine how many non-magenta things are to the left of the necklace, let's analyze the items in the row:\n\n1. **Pink cup** (magenta)\n2. **Orange booklet** (non-magenta)\n3. **Turquoise necklace** (non-magenta)\n4. **Mauve textbook** (non-magenta)\n\nThe necklace is the third item in the row. To the left of the necklace are the first two items: the pink cup and the orange booklet. Both of these items are non-magenta.\n\nThus, there are **two** non-magenta things to the left of the necklace.\n\n**Answer:** (C) two",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3317,
+        "question": "If you follow these instructions, do you return to the starting point? Take 10 steps. Take 2 steps. Take 3 steps. Turn around. Take 4 steps. Turn around. Take 4 steps.\nOptions:\n- Yes\n- No",
+        "generated_answer": "Let's break down the instructions step by step to determine if you return to the starting point:\n\n1. **Take 10 steps**: You move forward 10 steps.\n2. **Take 2 steps**: You move forward 2 more steps.\n3. **Take 3 steps**: You move forward 3 more steps.\n4. **Turn around**: You now face the opposite direction.\n5. **Take 4 steps**: You move backward 4 steps.\n6. **Turn around**: You now face the original direction again.\n7. **Take 4 steps**: You move forward 4 steps.\n\nNow, let's calculate your net movement:\n- You started at point A.\n- After 10 steps forward, you are at point B.\n- After 2 steps forward, you are at point C.\n- After 3 steps forward, you are at point D.\n- Turning around means you are now facing backward.\n- After 4 steps backward, you are at point C (since 10 - 2 - 3 - 4 = 1 step backward from point D).\n- Turning around again means you are now facing forward.\n- After 4 steps forward, you are at point B (since 10 - 2 - 3 + 4 = 11 steps forward from point C).\n\nYou end up at point B, which is the same point you started from. Therefore, you return to the starting point.\n\nThe answer is: **Yes**.",
+        "ground_truth": "No",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6420,
+        "question": "Sort the following words alphabetically: List: extempore gotten",
+        "generated_answer": "Here is the list sorted alphabetically:\n\n1. extempore\n2. gotten",
+        "ground_truth": "extempore gotten",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2484,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Mel, and Ada. Ada finished above Ana. Mel finished below Ana.\nOptions:\n(A) Ana finished first\n(B) Mel finished first\n(C) Ada finished first",
+        "generated_answer": "To determine which option is correct, let's analyze the information provided:\n\n1. **Ada finished above Ana**: This means Ada's finishing position is higher than Ana's.\n2. **Mel finished below Ana**: This means Mel's finishing position is lower than Ana's.\n\nFrom these two statements, we can deduce the following order:\n- Mel is below Ana.\n- Ada is above Ana.\n\nTherefore, the order of the golfers from first to third place is:\n1. **Mel** (since Mel is below Ana, and Ana is not first, Mel must be first).\n2. **Ana** (Ana is not first, and Ada is above Ana, so Ana is second).\n3. **Ada** (Ada is above Ana, so Ada is third).\n\nThus, the correct answer is:\n\n**(B) Mel finished first**",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 3904,
+        "question": "On the floor, I see a blue fidget spinner, a purple teddy bear, a yellow sheet of paper, a green crayon, and a pink notebook. What color is the teddy bear?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "generated_answer": "The color of the teddy bear is **purple**. \n\nSo, the correct answer is:\n\n**(P) purple**",
+        "ground_truth": "(Q)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2933,
+        "question": "Find a movie similar to The Fugitive, Willy Wonka & the Chocolate Factory, So I Married an Axe Murderer, Batman:\nOptions:\n(A) Seven\n(B) Meet the Spartans\n(C) Leprechaun 4 In Space\n(D) Harlem Nights",
+        "generated_answer": "The movie that is most similar to the ones you mentioned—**The Fugitive**, **Willy Wonka & the Chocolate Factory**, **So I Married an Axe Murderer**, and **Batman**—is **(A) Seven**.  \n\n### Why?  \n- **Seven** (1995) is a dark, psychological thriller with a mix of suspense, mystery, and supernatural elements, much like **The Fugitive** (action/drama).  \n- It has a whimsical yet eerie tone, similar to **Willy Wonka & the Chocolate Factory** (fantasy/dark comedy).  \n- The film’s quirky, morally complex villain (Kevin Spacey as John Doe) shares a similar vibe to **So I Married an Axe Murderer** (dark comedy/romance).  \n- The film’s blend of crime and surreal horror also echoes **Batman** (dark superhero themes).  \n\n### Why not the others?  \n- **Meet the Spartans** (B) is a crude, over-the-top parody (not similar).  \n- **Leprechaun 4 in Space** (C) is a low-budget horror-comedy (too far from the others).  \n- **Harlem Nights** (D) is a buddy-cop comedy (no thematic overlap).  \n\n**Final Answer: (A) Seven**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4779,
+        "question": "Is the following sentence plausible? \"Tom Brady converted the first down.\"",
+        "generated_answer": "The sentence \"Tom Brady converted the first down\" is plausible in the context of American football. In football, a first down is achieved when a team advances the ball past a certain point on the field, typically 10 yards, from the previous line of scrimmage. If Tom Brady, as a quarterback, successfully completes a pass, run, or other action that results in the team gaining those 10 yards, he would be credited with converting the first down.\n\nHowever, the phrasing \"converted the first down\" is not standard in football commentary. Typically, you would hear something like \"Tom Brady led the team to a first down\" or \"Tom Brady scored a first down.\" The term \"converted\" is more commonly used in basketball to describe making a free throw or a three-pointer, or in baseball to describe successfully hitting a base hit or a home run.\n\nSo, while the sentence is understandable and conveys the idea that Tom Brady helped his team gain 10 yards, it is not the most conventional way to express this in football.",
+        "ground_truth": "yes",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1789,
+        "question": "Which sentence has the correct adjective order:\nOptions:\n(A) lovely purple Pakistani rectangular new typing sweater\n(B) lovely new rectangular purple Pakistani typing sweater",
+        "generated_answer": "The correct sentence with the proper adjective order is:\n\n**(B) lovely new rectangular purple Pakistani typing sweater**\n\n### Explanation of Adjective Order:\nIn English, adjectives are typically ordered based on their semantic importance or specificity. The general order is:\n\n1. **Opinion** (subjective)  \n2. **Size**  \n3. **Age**  \n4. **Shape/Color**  \n5. **Origin/Nationality**  \n6. **Material**  \n7. **Purpose/Usage**  \n\nApplying this to the options:\n\n- **(A) lovely purple Pakistani rectangular new typing sweater**  \n  This order is incorrect because \"Pakistani\" (origin) comes before \"purple\" (color), which is not the standard order.  \n\n- **(B) lovely new rectangular purple Pakistani typing sweater**  \n  This follows the correct order:  \n  1. **Opinion** (\"lovely\")  \n  2. **Size** (\"new\")  \n  3. **Shape/Color** (\"rectangular purple\")  \n  4. **Origin** (\"Pakistani\")  \n  5. **Material** (implied by \"sweater\")  \n  6. **Purpose** (\"typing\" – though this is less common, it’s acceptable in this context)  \n\n### Note:\n- \"Typing\" is somewhat redundant here since a sweater is unlikely to be used for typing. If you omit \"typing,\" the sentence would be even more natural:  \n  **\"lovely new rectangular purple Pakistani sweater\"**  \n  (This is grammatically correct and more concise.)  \n\nBut if you must include all the adjectives, **(B)** is the best choice.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4134,
+        "question": "Which of the following is a humorous edit of this artist or movie name: 'new kids on the block'?\nOptions:\n(A) newgkids on the block\n(B) new kid on the block\n(C) new kids on the clock",
+        "generated_answer": "The humorous edit of the artist or movie name \"new kids on the block\" from the given options is:\n\n**(C) new kids on the clock**\n\nThis option plays on the similarity in sound between \"block\" and \"clock,\" creating a humorous and unexpected twist.",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1140,
+        "question": "Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ [ { } ] ]",
+        "generated_answer": "The sequence you provided is already correctly nested with all parentheses properly closed. Here's the completed sequence:\n\n```\n< [ [ { } ] ]\n```\n\n### Explanation:\n- The sequence starts with an opening angle bracket `<`.\n- It is followed by a left square bracket `[`.\n- Then comes a left curly brace `{`.\n- After that, there is another left curly brace `{`.\n- Finally, it ends with a right square bracket `]`.\n- The sequence is closed with a right curly brace `}`.\n\nSince all parentheses are properly closed, the sequence is complete and correct.",
+        "ground_truth": ">",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2308,
+        "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Joe, Dan, Ada, Amy, Rob, Mya, and Mel. Ada finished below Amy. Joe finished below Dan. Dan finished below Ada. Mel finished third-to-last. Amy finished third. Rob finished below Mya.\nOptions:\n(A) Joe finished third-to-last\n(B) Dan finished third-to-last\n(C) Ada finished third-to-last\n(D) Amy finished third-to-last\n(E) Rob finished third-to-last\n(F) Mya finished third-to-last\n(G) Mel finished third-to-last",
+        "generated_answer": "To determine which golfer finished third-to-last, let's analyze the given information step by step:\n\n1. **Ada finished below Amy**: This means Amy finished higher than Ada.\n2. **Joe finished below Dan**: This means Dan finished higher than Joe.\n3. **Dan finished below Ada**: This means Ada finished higher than Dan.\n4. **Mel finished third-to-last**: This is a direct statement.\n5. **Amy finished third**: This means Amy finished higher than the golfer who finished third-to-last (Mel) and lower than the golfer who finished second (since there are only seven golfers, the golfer who finished third must be higher than Amy).\n6. **Rob finished below Mya**: This means Mya finished higher than Rob.\n\nFrom the above points, we can deduce the following order:\n\n- Mel finished third-to-last.\n- Amy finished third.\n- Since Amy finished third, and Rob finished below Mya, and Dan finished below Ada, and Joe finished below Dan, the only golfer who could finish below Amy (and thus below Mel) is Joe. Therefore, Joe must have finished third-to-last.\n\nThus, the correct answer is:\n\n**(A) Joe finished third-to-last**",
+        "ground_truth": "(G)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1144,
+        "question": "Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ] { [ [ < { { { } } } > ] ] < [ { }",
+        "generated_answer": "To complete the sequence and ensure that the parentheses are closed properly, we need to make sure that every opening bracket or parenthesis has a corresponding closing one. Here's the corrected sequence:\n\n```\n[ ] { [ [ < { { { } } } > ] ] < [ { } ] }\n```\n\n### Explanation:\n1. **`[ ]`**: The opening and closing square brackets are balanced.\n2. **`{ [ [ < { { { } } } > ] ] < [ { } ] }`**:\n   - The opening curly brace `{` is balanced by the closing curly brace `}`.\n   - The opening square bracket `[` is balanced by the closing square bracket `]`.\n   - The opening angle bracket `<` is balanced by the closing angle bracket `>`.\n   - The opening and closing parentheses `( )` are balanced.\n\nThus, the sequence is now properly balanced with all parentheses and brackets closed.",
+        "ground_truth": "] > }",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6191,
+        "question": "Question: Jerry tells the truth. Jaymie says Jerry tells the truth. Elanor says Jaymie tells the truth. Helene says Elanor tells the truth. Sherrie says Helene tells the truth. Does Sherrie tell the truth?",
+        "generated_answer": "To determine whether Sherrie tells the truth, we need to analyze the statements made by each person and the logical consistency of the situation.\n\n1. **Jerry's Statement**: Jerry tells the truth.\n2. **Jaymie's Statement**: Jaymie says Jerry tells the truth.\n   - Since Jerry tells the truth, Jaymie's statement is true.\n3. **Elanor's Statement**: Elanor says Jaymie tells the truth.\n   - Since Jaymie tells the truth, Elanor's statement is true.\n4. **Helene's Statement**: Helene says Elanor tells the truth.\n   - Since Elanor tells the truth, Helene's statement is true.\n5. **Sherrie's Statement**: Sherrie says Helene tells the truth.\n   - Since Helene tells the truth, Sherrie's statement is true.\n\nIn this scenario, each person's statement is consistent with the truthfulness of the person they are referring to. Therefore, **Sherrie tells the truth**.",
+        "ground_truth": "Yes",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 776,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The practitioner made a house call for the patient because they felt gravely ill.\nOptions:\n(A) The practitioner felt ill\n(B) The patient felt ill\n(C) Ambiguous",
+        "generated_answer": "The antecedent of the pronoun \"they\" in the sentence is **(B) The patient felt ill**.\n\nThe pronoun \"they\" refers to \"the patient\" because the sentence states that the practitioner made a house call for the patient because they (the patient) felt gravely ill. The practitioner's condition is not mentioned, so it is clear that \"they\" refers to the patient. \n\nThus, the correct answer is **(B) The patient felt ill**.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5065,
+        "question": "Today, Emily went to the bakery. Between what times could they have gone?\nWe know that:\nEmily woke up at 5am.\nNancy saw Emily sitting on a rooftop from 6am to 7am.\nBetty saw Emily reading at the library from 7am to 8am.\nJason saw Emily buying lunch at the deli from 8am to 6pm.\nDavid saw Emily attending class at the school from 6pm to 7pm.\nSamantha saw Emily driving to the water park from 7pm to 10pm.\nThe bakery was closed after 10pm.\nBetween what times could Emily have gone to the bakery?\nOptions:\n(A) 5am to 6am\n(B) 8am to 6pm\n(C) 6pm to 7pm\n(D) 7am to 8am",
+        "generated_answer": "To determine the possible times Emily could have gone to the bakery, let's analyze the information provided:\n\n1. **Emily woke up at 5am.**\n2. **Nancy saw Emily sitting on a rooftop from 6am to 7am.**\n3. **Betty saw Emily reading at the library from 7am to 8am.**\n4. **Jason saw Emily buying lunch at the deli from 8am to 6pm.**\n5. **David saw Emily attending class at the school from 6pm to 7pm.**\n6. **Samantha saw Emily driving to the water park from 7pm to 10pm.**\n7. **The bakery was closed after 10pm.**\n\nFrom the above, we can deduce the following:\n\n- **5am to 6am:** Emily was asleep, so she couldn't have been at the bakery.\n- **6am to 7am:** Emily was on the rooftop, so she couldn't have been at the bakery.\n- **7am to 8am:** Emily was at the library, so she couldn't have been at the bakery.\n- **8am to 6pm:** Emily was buying lunch at the deli, so she couldn't have been at the bakery.\n- **6pm to 7pm:** Emily was attending class at the school, so she couldn't have been at the bakery.\n- **7pm to 10pm:** Emily was driving to the water park, so she couldn't have been at the bakery.\n\nThe only time Emily was not engaged in any of these activities is from **10pm onwards**, as the bakery was closed after 10pm.\n\nTherefore, the only possible time Emily could have gone to the bakery is **10pm or later**.\n\nHowever, since the options provided do not include 10pm or later, and given the constraints, the closest possible time that fits within the given options and the bakery's closing time is:\n\n**(D) 7am to 8am**\n\nThis is because Emily was reading at the library from 7am to 8am, which is the only time slot where she was not engaged in any of the other activities and the bakery was still open.\n\nSo, the answer is **(D) 7am to 8am**.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2052,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: loquats, peaches, pears, plums, and watermelons. The watermelons are the most expensive. The peaches are more expensive than the loquats. The plums are the second-cheapest. The pears are the third-most expensive.\nOptions:\n(A) The loquats are the cheapest\n(B) The peaches are the cheapest\n(C) The pears are the cheapest\n(D) The plums are the cheapest\n(E) The watermelons are the cheapest",
+        "generated_answer": "Let's analyze the information step by step:\n\n1. **Watermelons are the most expensive.**\n2. **Peaches are more expensive than loquats.**\n3. **Plums are the second-cheapest.**\n4. **Pears are the third-most expensive.**\n\nFrom these statements, we can deduce the following order:\n\n- **Watermelons** (most expensive)\n- **Peaches** (more expensive than loquats)\n- **Pears** (third-most expensive)\n- **Plums** (second-cheapest)\n- **Loquats** (cheapest)\n\nThus, the correct answer is:\n\n**(A) The loquats are the cheapest.**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4362,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Die Liste der Kulturgüter in Roggwil TG enthält alle Objekte in der Gemeinde Roggwil im Kanton Thurgau, die gemäss der Haager Konvention zum Schutz von Kulturgut bei bewaffneten Konflikten, dem Bundesgesetz vom 20.\nTranslation: The list of cultural assets in Roggwil TG contains all objects in the municipality of Roggwil in the canton of Thurgau, which, in accordance with the Prague Convention for the Protection of Cultural Property in the event of armed conflict, are protected by the Federal Act of 20 May 1898.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The error in the translation is related to **Named Entities**. Specifically, the original text mentions the **Haager Konvention** (Hague Convention), but the translation incorrectly refers to the **Prague Convention**. This is a change in the named entity, which is the error type **(D) Named Entities**. \n\nThe correct translation should refer to the **Haager Konvention** (Hague Convention), not the **Prague Convention**.",
+        "ground_truth": "(D)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5776,
+        "question": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Jamie, and Claire is dancing with Rodrigo.\nThroughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Alice and Bob switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Ophelia\n(B) Jamie\n(C) Rodrigo",
+        "generated_answer": "Let's break down the dance partners step by step:\n\n1. **Initial Setup:**\n   - Alice is with Ophelia.\n   - Bob is with Jamie.\n   - Claire is with Rodrigo.\n\n2. **First Swap: Bob and Claire switch partners.**\n   - Alice: Ophelia\n   - Bob: Claire\n   - Claire: Bob\n\n3. **Second Swap: Alice and Bob switch partners.**\n   - Alice: Jamie\n   - Bob: Ophelia\n   - Claire: Claire (no change)\n\n4. **Final Swap: Bob and Claire switch partners again.**\n   - Alice: Jamie\n   - Bob: Claire\n   - Claire: Bob\n\nAt the end of the dance, Bob is dancing with **Claire**.\n\nThe correct answer is **(C) Rodrigo**. \n\n(Note: There seems to be a mistake in the options provided. The correct answer should be \"Claire,\" not \"Rodrigo.\")",
+        "ground_truth": "(B)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4930,
+        "question": "Is the following sentence plausible? \"Anthony Davis beat the buzzer.\"",
+        "generated_answer": "The sentence \"Anthony Davis beat the buzzer\" is plausible in the context of basketball, but it depends on the specific situation being described. \n\n- **If \"beat the buzzer\" refers to a buzzer-beater shot**, it is plausible. Anthony Davis, a professional basketball player, has made several game-winning shots in the final seconds of games. For example, he famously hit a buzzer-beater in the 2019 NBA playoffs.\n\n- **If \"beat the buzzer\" refers to something else**, it may not make sense. The phrase \"beat the buzzer\" is commonly used in sports to describe a last-second action, such as a shot, a block, or a steal, that occurs just before the game clock expires.\n\nTo clarify, the sentence would be more specific if you provided additional context. For example:\n- \"Anthony Davis hit a buzzer-beater shot.\"\n- \"Anthony Davis blocked a shot at the buzzer.\"\n\nWithout more context, the sentence is plausible but somewhat ambiguous.",
+        "ground_truth": "yes",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1203,
+        "question": "\"Here comes a perfectly valid argument: To start with, whoever is an expert of BSC Young Boys is not an ex-fan of Real Betis Balompié. Now, whoever is a friend of FC Dynamo Kyiv is not an expert of BSC Young Boys. Hence, no friend of FC Dynamo Kyiv is an ex-fan of Real Betis Balompié.\"\nIs the argument, given the explicitly stated premises, deductively valid or invalid?\nOptions:\n- valid \n- invalid",
+        "generated_answer": "The argument is **valid**.\n\nHere's why:\n\n1. **Premise 1**: Whoever is an expert of BSC Young Boys is not an ex-fan of Real Betis Balompié.\n2. **Premise 2**: Whoever is a friend of FC Dynamo Kyiv is not an expert of BSC Young Boys.\n3. **Conclusion**: Hence, no friend of FC Dynamo Kyiv is an ex-fan of Real Betis Balompié.\n\nThe argument follows a valid logical structure known as **hypothetical syllogism**. It can be broken down as follows:\n\n- If someone is an expert of BSC Young Boys, they are not an ex-fan of Real Betis Balompié.\n- If someone is a friend of FC Dynamo Kyiv, they are not an expert of BSC Young Boys.\n- Therefore, if someone is a friend of FC Dynamo Kyiv, they are not an ex-fan of Real Betis Balompié.\n\nThe conclusion logically follows from the premises, making the argument **valid**.",
+        "ground_truth": "invalid",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2540,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a truck, a minivan, and a tractor. The truck is newer than the minivan. The minivan is newer than the tractor.\nOptions:\n(A) The truck is the newest\n(B) The minivan is the newest\n(C) The tractor is the newest",
+        "generated_answer": "To determine which option is correct, let's analyze the information provided in the paragraph:\n\n1. The truck is newer than the minivan.\n2. The minivan is newer than the tractor.\n\nFrom these two statements, we can deduce the following order of newness:\n- The truck is newer than the minivan.\n- The minivan is newer than the tractor.\n\nThis means the order from newest to oldest is:\n1. Minivan (since it is newer than the truck and the tractor)\n2. Truck (since it is newer than the minivan but older than the tractor)\n3. Tractor (since it is the oldest of the three)\n\nTherefore, the correct answer is:\n\n**(C) The tractor is the newest**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 809,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The cleaner called the guard and asked her to open the door.\nOptions:\n(A) Asked the cleaner\n(B) Asked the guard\n(C) Ambiguous",
+        "generated_answer": "The pronoun \"her\" in the sentence \"The cleaner called the guard and asked her to open the door\" refers to the guard. This is because the guard is the one being asked to perform the action of opening the door. Therefore, the antecedent of the pronoun \"her\" is the guard.\n\nSo, the correct answer is:\n(B) Asked the guard",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5978,
+        "question": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Izzi, Bob is dancing with Patrick, and Claire is dancing with Ophelia.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Izzi\n(B) Patrick\n(C) Ophelia",
+        "generated_answer": "Let's break down the dance partners step by step:\n\n1. **Initial Partners:**\n   - Alice: Izzi\n   - Bob: Patrick\n   - Claire: Ophelia\n\n2. **First Swap: Bob and Alice switch partners.**\n   - Alice: Patrick\n   - Bob: Izzi\n   - Claire: Ophelia\n\n3. **Second Swap: Claire and Bob switch partners.**\n   - Alice: Patrick\n   - Bob: Ophelia\n   - Claire: Izzi\n\n4. **Third Swap: Claire and Alice switch partners.**\n   - Alice: Ophelia\n   - Bob: Izzi\n   - Claire: Patrick\n\nAt the end of the dance, Alice is dancing with **Ophelia**.\n\n**Answer:** (C) Ophelia",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 604,
+        "question": "Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY?\nOptions:\n(A) 09/05/2003\n(B) 08/30/2003\n(C) 08/31/2074\n(D) 08/31/2003\n(E) 06/30/2004",
+        "generated_answer": "To determine the date one week ago from today, we need to subtract 7 days from the current date.\n\n1. **Identify the current date**: Today is 9/7/2003.\n2. **Subtract 7 days**:\n   - 9 - 7 = 2\n   - 7 - 7 = 0\n   - 2003 remains the same.\n   - The date one week ago is 2/0/2003.\n\nHowever, the options provided are in MM/DD/YYYY format, and the correct date one week ago from 9/7/2003 is 8/30/2003.\n\n**Answer:** (B) 08/30/2003",
+        "ground_truth": "(D)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5603,
+        "question": "Alice, Bob, Claire, Dave, Eve, Fred, and Gertrude are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing fullback, Bob is playing benchwarmer, Claire is playing right midfielder, Dave is playing striker, Eve is playing left winger, Fred is playing goalkeeper, and Gertrude is playing cheerleader.\nAs the game progresses, pairs of players occasionally swap positions. First, Eve and Bob trade positions. Then, Fred and Claire trade positions. Then, Bob and Fred trade positions. Then, Bob and Claire trade positions. Then, Eve and Alice trade positions. Then, Dave and Gertrude trade positions. Finally, Claire and Gertrude trade positions. At the end of the match, Dave is playing\nOptions:\n(A) fullback\n(B) benchwarmer\n(C) right midfielder\n(D) striker\n(E) left winger\n(F) goalkeeper\n(G) cheerleader",
+        "generated_answer": "To determine the final position of Dave, let's track the position changes step by step:\n\n1. **Initial Positions:**\n   - Alice: Fullback\n   - Bob: Benchwarmer\n   - Claire: Right midfielder\n   - Dave: Striker\n   - Eve: Left winger\n   - Fred: Goalkeeper\n   - Gertrude: Cheerleader\n\n2. **First Swap: Eve and Bob trade positions.**\n   - Eve: Benchwarmer\n   - Bob: Left winger\n\n3. **Second Swap: Fred and Claire trade positions.**\n   - Fred: Right midfielder\n   - Claire: Goalkeeper\n\n4. **Third Swap: Bob and Fred trade positions.**\n   - Bob: Goalkeeper\n   - Fred: Left winger\n\n5. **Fourth Swap: Bob and Claire trade positions.**\n   - Bob: Right midfielder\n   - Claire: Benchwarmer\n\n6. **Fifth Swap: Eve and Alice trade positions.**\n   - Eve: Fullback\n   - Alice: Left winger\n\n7. **Sixth Swap: Dave and Gertrude trade positions.**\n   - Dave: Cheerleader\n   - Gertrude: Striker\n\n8. **Seventh Swap: Claire and Gertrude trade positions.**\n   - Claire: Striker\n   - Gertrude: Right midfielder\n\nAfter all the swaps, Dave is now playing **striker**.\n\n**Final Answer:** (D) striker",
+        "ground_truth": "(G)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2704,
+        "question": "Find a movie similar to The Lion King, The Fugitive, Schindler's List, The Shawshank Redemption:\nOptions:\n(A) The Art of the Steal\n(B) Pulp Fiction\n(C) Battlestar Galactica The Plan\n(D) Breakin' All the Rules",
+        "generated_answer": "To find a movie similar to the ones you've listed, let's analyze the themes and genres of each:\n\n1. **The Lion King**: A family drama with elements of adventure and coming-of-age, set in a wildlife setting.\n2. **The Fugitive**: A thriller with elements of drama, focusing on a man's quest for justice and redemption.\n3. **Schindler's List**: A historical drama with elements of war and survival, dealing with the Holocaust.\n4. **The Shawshank Redemption**: A drama with elements of hope and friendship, set in a prison environment.\n\nNow, let's look at the options provided:\n\n- **(A) The Art of the Steal**: This is a crime thriller about art theft, which doesn't quite match the family drama, thriller, historical drama, or prison drama themes of the movies you listed.\n- **(B) Pulp Fiction**: This is a crime film with a non-linear narrative, focusing on various characters involved in criminal activities. It shares the thriller and crime elements with \"The Fugitive\" and \"Schindler's List\" but not the family drama or historical drama aspects.\n- **(C) Battlestar Galactica The Plan**: This is a science fiction film about a space opera, focusing on the Battlestar Galactica series' storyline. It doesn't align with the themes of the movies you listed.\n- **(D) Breakin' All the Rules**: This is a sports drama about a high school basketball coach and his team, dealing with personal and team challenges. It shares the drama and coming-of-age elements with \"The Lion King\" but not the thriller, historical, or prison drama aspects.\n\nGiven the variety of themes and genres in the movies you listed, **(B) Pulp Fiction** is the closest match in terms of sharing the thriller and crime elements with \"The Fugitive\" and \"Schindler's List,\" while also having a non-linear narrative that could be seen as a stylistic similarity to the way some of the themes in \"The Lion King\" and \"The Shawshank Redemption\" are explored. However, it's important to note that Pulp Fiction is more focused on crime and personal relationships in a modern setting, whereas the other films have more specific historical, adventure, or survival themes.\n\nIf you're looking for a movie that combines elements of adventure, family, and a coming-of-age story, similar to \"The Lion King,\" **(D) Breakin' All the Rules** might be a better fit, as it deals with personal and team challenges in a sports setting, which can be seen as a form of coming-of-age story.\n\nFor a historical drama with elements of survival and hope, similar to \"Schindler's List,\" **(C) Battlestar Galactica The Plan** doesn't quite fit, but a film like \"The Pianist\" or \"Life is Beautiful\" might be more appropriate.\n\nFor a thriller with a focus on justice and redemption, similar to \"The Fugitive,\" **(B) Pulp Fiction** shares the thriller aspect but not the specific theme of a man's quest for justice. A film like \"The Fugitive\" or \"The Silence of the Lambs\" would be more directly comparable.\n\nGiven the options and the need to find a movie that aligns with the themes of \"The Lion King,\" \"The Fugitive,\" \"Schindler's List,\" and \"The Shawshank Redemption,\" **(B) Pulp Fiction** is the most fitting choice among the provided options, despite not perfectly matching all aspects of each film.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3867,
+        "question": "On the desk, there is a turquoise pencil, a blue pen, a mauve sheet of paper, a grey paperclip, and a pink textbook. What color is the sheet of paper?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "generated_answer": "The color of the sheet of paper is **mauve**, as it is explicitly mentioned in the description. Therefore, the correct answer is:\n\n**(I) mauve**",
+        "ground_truth": "(I)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4585,
+        "question": "Which statement is sarcastic?\nOptions:\n(A) Just memeing about being racist, that's what keeps it okay\n(B) Just memeing about being racist, that's what keeps it toxic",
+        "generated_answer": "The sarcastic statement is:\n\n**(A) Just memeing about being racist, that's what keeps it okay**\n\nThis option uses sarcasm to imply that making jokes about racism is not okay, even if the speaker is framing it as \"just memeing.\" The tone suggests criticism or disapproval, which is characteristic of sarcasm.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 824,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The reporter and the chef will discuss his favorite dishes.\nOptions:\n(A) They will discuss the reporter's favorite dishes\n(B) They will discuss the chef's favorite dishes\n(C) Ambiguous",
+        "generated_answer": "The pronoun \"his\" in the sentence \"The reporter and the chef will discuss his favorite dishes\" is ambiguous. It is unclear whether \"his\" refers to the reporter or the chef. Both the reporter and the chef could be the one discussing their favorite dishes, so the antecedent is not clearly specified.\n\nTherefore, the correct answer is:\n(C) Ambiguous",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2898,
+        "question": "Find a movie similar to Star Wars Episode I - The Phantom Menace, The Sixth Sense, Independence Day, Fight Club:\nOptions:\n(A) Terminator 2 Judgment Day\n(B) A Field in England\n(C) Green Street Hooligans\n(D) Guardians of the Galaxy 2",
+        "generated_answer": "The movie most similar to *Star Wars Episode I: The Phantom Menace*, *The Sixth Sense*, *Independence Day*, and *Fight Club* is **(A) Terminator 2: Judgment Day**.  \n\nHere’s why:  \n- **Sci-Fi/Action Blend**: Like *Phantom Menace*, *Independence Day*, and *Fight Club*, *Terminator 2* combines sci-fi elements with intense action.  \n- **Mystery/Twist**: Similar to *The Sixth Sense*, *Terminator 2* has a shocking twist that redefines the story.  \n- **Epic Scale**: Both films feature large-scale battles (robots vs. humans in *Terminator 2*, aliens vs. Earth in *Independence Day*).  \n\nThe other options don’t fit as well:  \n- (B) *A Field in England* is a surreal, psychedelic horror film.  \n- (C) *Green Street Hooligans* is a gritty, violent sports drama.  \n- (D) *Guardians of the Galaxy 2* is a space adventure with a lighter tone.  \n\n**Best Answer: (A) Terminator 2: Judgment Day**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3556,
+        "question": "I have a clarinet, an accordion, a cabbage, two flutes, a piano, a drum, a trombone, a lettuce head, and two violins. How many musical instruments do I have?",
+        "generated_answer": "Let's count the musical instruments from your list:\n\n1. Clarinet  \n2. Accordion  \n3. Piano  \n4. Trombone  \n5. Two flutes (total of 2)  \n6. Two violins (total of 2)  \n\nAdding these up:  \n1 + 1 + 1 + 1 + 2 + 2 = **8**  \n\nYou have **8 musical instruments**.",
+        "ground_truth": "9",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2590,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.\nOptions:\n(A) The robin is the leftmost\n(B) The blue jay is the leftmost\n(C) The crow is the leftmost",
+        "generated_answer": "To determine the correct answer, let's analyze the given information step by step.\n\n1. **The robin is to the right of the crow.**\n2. **The robin is to the left of the blue jay.**\n\nFrom these two statements, we can deduce the following:\n\n- Since the robin is to the right of the crow, and the robin is also to the left of the blue jay, the crow must be to the right of the blue jay.\n- Therefore, the order from left to right is: blue jay, robin, crow.\n\nGiven this order, the **robin is the leftmost** bird.\n\nThe correct answer is:\n(A) The robin is the leftmost",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5004,
+        "question": "Is the following sentence plausible? \"Blake Snell hit a single.\"",
+        "generated_answer": "The sentence \"Blake Snell hit a single\" is **not plausible**. Here's why:\n\n1. **Blake Snell's Profession**: Blake Snell is a professional baseball pitcher, not a batter. Pitchers are responsible for throwing the ball to the batter, not hitting it themselves.\n\n2. **Context of the Sentence**: The phrase \"hit a single\" refers to a batter reaching base by hitting the ball and advancing to first base. This action is performed by the batter, not the pitcher.\n\n3. **Plausibility**: Since Snell is a pitcher, it would be highly unusual and incorrect to say he hit a single. The sentence would only make sense if Snell were a batter, which he is not.\n\nIn summary, the sentence is implausible because it attributes an action (hitting a single) to the wrong player (a pitcher) in the context of a baseball game.",
+        "ground_truth": "yes",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5246,
+        "question": "Today, Mark went to the clothing store. Between what times could they have gone?\nWe know that:\nMark woke up at 5am.\nAndrew saw Mark taking photos near the Eiffel Tower from 5am to 6am.\nWilliam saw Mark waiting at the train station from 9am to 6pm.\nAshley saw Mark buying a bike at the bike shop from 6pm to 10pm.\nThe clothing store was closed after 10pm.\nBetween what times could Mark have gone to the clothing store?\nOptions:\n(A) 5am to 6am\n(B) 6am to 9am\n(C) 9am to 6pm\n(D) 6pm to 10pm",
+        "generated_answer": "To determine the possible times Mark could have gone to the clothing store, let's analyze the information provided:\n\n1. **Mark woke up at 5am.**\n2. **Andrew saw Mark taking photos near the Eiffel Tower from 5am to 6am.**\n3. **William saw Mark waiting at the train station from 9am to 6pm.**\n4. **Ashley saw Mark buying a bike at the bike shop from 6pm to 10pm.**\n5. **The clothing store was closed after 10pm.**\n\nFrom the information, we can deduce the following:\n\n- Mark was not at the clothing store from **5am to 6am** because he was taking photos near the Eiffel Tower.\n- Mark was not at the clothing store from **6am to 9am** because he was waiting at the train station.\n- Mark was not at the clothing store from **9am to 6pm** because he was waiting at the train station.\n- Mark was not at the clothing store from **6pm to 10pm** because he was buying a bike at the bike shop.\n\nThe only time slot that does not conflict with any of the other activities is **6am to 9am**. During this time, Mark was not taking photos, waiting at the train station, or buying a bike. Therefore, he could have been at the clothing store during this period.\n\n**Answer:** (B) 6am to 9am",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1675,
+        "question": "This SVG path element <path d=\"M 57.00,45.00 L 16.00,45.00 L 16.00,31.00 L 57.00,31.00 L 57.00,45.00\"/> draws a\nOptions:\n(A) circle\n(B) heptagon\n(C) hexagon\n(D) kite\n(E) line\n(F) octagon\n(G) pentagon\n(H) rectangle\n(I) sector\n(J) triangle\n(K) trapezoid",
+        "generated_answer": "The given SVG path element `<path d=\"M 57.00,45.00 L 16.00,45.00 L 16.00,31.00 L 57.00,31.00 L 57.00,45.00\"/>` draws a **hexagon**.\n\nHere's the reasoning:\n\n1. The path starts at `M 57.00,45.00` and moves to `L 16.00,45.00`, creating a horizontal line.\n2. It then moves to `L 16.00,31.00`, creating a vertical line.\n3. Next, it moves to `L 57.00,31.00`, creating another vertical line.\n4. Finally, it returns to the starting point `L 57.00,45.00`, completing the hexagon.\n\nA hexagon has six sides, and this path creates a closed shape with six sides, making it a **hexagon**.\n\nSo, the correct answer is **(C) hexagon**.",
+        "ground_truth": "(K)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4526,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Das Ōtsuka-Kunstmuseum in Naruto, Präfektur Tokushima, Japan, ist ein Museum künstlerischer Reproduktionen.\nTranslation: The Art Museum in Naruto, Tokyo Prefecture, Japan, is a museum of artistic reproductions.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The error in the translation is related to **Named Entities**. Specifically, the translation incorrectly changes \"Präfektur Tokushima\" (Tokushima Prefecture) to \"Tokyo Prefecture.\" This is a significant change in the named entity, which is not accurate.\n\n**Answer:** (D) Named Entities",
+        "ground_truth": "(D)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3907,
+        "question": "On the desk, there are three turquoise plates, one pink plate, and three pink booklets. If I remove all the pink things from the desk, how many booklets remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "generated_answer": "Let's break down the problem step by step to find the correct answer.\n\n### Given:\n- **Turquoise plates**: 3\n- **Pink plates**: 1\n- **Pink booklets**: 3\n\n### Total items on the desk initially:\n\\[ 3 \\text{ (turquoise plates)} + 1 \\text{ (pink plate)} + 3 \\text{ (pink booklets)} = 7 \\text{ items} \\]\n\n### Removing all pink things:\n- **Pink plates**: 1 (removed)\n- **Pink booklets**: 3 (removed)\n\n### Items remaining on the desk:\n\\[ 3 \\text{ (turquoise plates)} + 0 \\text{ (pink plates)} + 0 \\text{ (pink booklets)} = 3 \\text{ items} \\]\n\n### Conclusion:\nAfter removing all the pink items, there are **3 booklets** remaining on the desk.\n\n### Correct Answer:\n\\boxed{D}",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 3626,
+        "question": "I have two cows, a snail, a fish, a mouse, a snake, and a frog. How many animals do I have?",
+        "generated_answer": "Let's count the animals one by one:\n\n1. Two cows\n2. One snail\n3. One fish\n4. One mouse\n5. One snake\n6. One frog\n\nIn total, you have **6 animals**.",
+        "ground_truth": "7",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4270,
+        "question": "Which of the following is a humorous edit of this artist or movie name: 'friday the 13th'?\nOptions:\n(A) xriday the 13th\n(B) fridays the 13th\n(C) friday the 12th\n(D) fribay the 13th",
+        "generated_answer": "The humorous edit of the artist or movie name \"Friday the 13th\" from the given options is:\n\n**(A) xriday the 13th**\n\nThis option replaces \"Friday\" with \"xriday,\" which is a playful and humorous alteration. The other options either change the day (\"fridays,\" \"friday,\" \"fribay\") or the number (\"12th\"), which doesn't quite capture the same humorous tone.",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2133,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a gray book, a red book, a yellow book, a blue book, and an orange book. The gray book is to the right of the yellow book. The orange book is to the right of the red book. The blue book is the rightmost. The gray book is to the left of the red book.\nOptions:\n(A) The gray book is the third from the left\n(B) The red book is the third from the left\n(C) The yellow book is the third from the left\n(D) The blue book is the third from the left\n(E) The orange book is the third from the left",
+        "generated_answer": "To determine the correct answer, let's analyze the given information step by step:\n\n1. **The gray book is to the right of the yellow book.**\n2. **The orange book is to the right of the red book.**\n3. **The blue book is the rightmost.**\n4. **The gray book is to the left of the red book.**\n\nFrom statement 3, we know the blue book is the rightmost, so it must be in the fifth position (the rightmost position).\n\nFrom statement 4, we know the gray book is to the left of the red book. Since the blue book is the rightmost, the gray and red books must be in the first and second positions, respectively.\n\nNow, let's consider statement 1: the gray book is to the right of the yellow book. This means the yellow book must be to the left of the gray book, which is consistent with the arrangement of the gray and red books in the first and second positions.\n\nFinally, statement 2 tells us the orange book is to the right of the red book. Since the red book is in the second position, the orange book must be in the third position.\n\nPutting it all together, the order from left to right is:\n1. Gray book\n2. Red book\n3. Orange book\n4. Yellow book\n5. Blue book\n\nThe gray book is the third from the left.\n\n**Answer:** (C) The gray book is the third from the left",
+        "ground_truth": "(B)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 510,
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date one week from today in MM/DD/YYYY?\nOptions:\n(A) 03/16/2012\n(B) 02/01/2012\n(C) 01/31/2012\n(D) 02/06/2012\n(E) 02/07/2014\n(F) 02/07/2012",
+        "generated_answer": "To determine the date one week from today (the last day of January 2012), let's break it down step by step:\n\n1. **Today's Date**: The last day of January 2012 is **01/31/2012**.\n\n2. **One Week from Today**: Add 7 days to the current date.\n\n   - January has 31 days, so adding 7 days to 31 brings us to **02/07/2012**.\n\n3. **Check the Options**:\n   - (A) 03/16/2012 → Incorrect (February has only 28 days in 2012).\n   - (B) 02/01/2012 → Incorrect (This is the first day of February, not one week later).\n   - (C) 01/31/2012 → Incorrect (This is today, not one week later).\n   - (D) 02/06/2012 → Incorrect (This is 6 days later, not one week).\n   - (E) 02/07/2014 → Incorrect (This is a different year).\n   - (F) 02/07/2012 → Correct.\n\n**Final Answer**: (F) 02/07/2012",
+        "ground_truth": "(D)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4494,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Die Liste öffentlicher Kunst in Güglingen zeigt die modernen und alten Kunstwerke, die in der Stadt Güglingen öffentlich zugänglich sind.\nTranslation: The list of public art in Güglingen shows the modern and old works of art that are never open to the public in the city of Güglingen.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The translation contains an error pertaining to **(A) Modifiers or Adjectives**. \n\nThe original German sentence states that the artworks are \"öffentlich zugänglich\" (publicly accessible), but the translation incorrectly changes this to \"never open to the public,\" which is a modification of the adjective \"öffentlich\" (public) and its meaning. This is a clear error in modifiers or adjectives. \n\nThe correct translation should be: \"The list of public art in Güglingen shows the modern and old works of art that are publicly accessible in the city of Güglingen.\"",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 115,
+        "question": "not ( True or False ) or True is",
+        "generated_answer": "Let's break down the expression step by step:\n\n1. **`True or False`**: This evaluates to `True` because `True` is the \"dominant\" value in the logical OR operation.\n\n2. **`not (True or False)`**: The `not` operator negates the result of `True or False`, so this becomes `not True`, which is `False`.\n\n3. **`False or True`**: This evaluates to `True` because `True` is the \"dominant\" value in the logical OR operation.\n\nSo, the final result is `True`.\n\n**Final Answer:** `True`",
+        "ground_truth": "True",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 764,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The technician told the customer that they could pay with cash.\nOptions:\n(A) The technician could pay\n(B) The customer could pay\n(C) Ambiguous",
+        "generated_answer": "The pronoun \"they\" in the sentence \"The technician told the customer that they could pay with cash\" refers to **the customer**. The sentence indicates that the customer has the option to pay with cash, not the technician.\n\n**Answer:** (B) The customer could pay",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5895,
+        "question": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a white present, and Claire has a orange ball.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) pink ball\n(B) white present\n(C) orange ball",
+        "generated_answer": "Let's break down the swaps step by step to determine which gift Claire ends up with.\n\n1. **Initial Gifts:**\n   - Alice: Pink ball\n   - Bob: White present\n   - Claire: Orange ball\n\n2. **First Swap (Bob and Alice):**\n   - Bob gives Alice his white present.\n   - Alice gives Bob her pink ball.\n   - New gifts:\n     - Alice: White present\n     - Bob: Pink ball\n     - Claire: Orange ball\n\n3. **Second Swap (Claire and Bob):**\n   - Claire gives Bob her orange ball.\n   - Bob gives Claire his pink ball.\n   - New gifts:\n     - Alice: White present\n     - Bob: Orange ball\n     - Claire: Pink ball\n\n4. **Third Swap (Alice and Claire):**\n   - Alice gives Claire her white present.\n   - Claire gives Alice her pink ball.\n   - New gifts:\n     - Alice: Pink ball\n     - Bob: Orange ball\n     - Claire: White present\n\nAt the end of the event, Claire has the **white present**.\n\n**Answer:** (B) white present",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3267,
+        "question": "If you follow these instructions, do you return to the starting point? Turn around. Turn left. Take 1 step. Take 2 steps. Turn around. Turn around. Turn around. Take 3 steps.\nOptions:\n- Yes\n- No",
+        "generated_answer": "Let's break down the instructions step by step to determine if you return to the starting point:\n\n1. **Turn around.**\n2. **Turn left.**\n3. **Take 1 step.**\n4. **Take 2 steps.**\n5. **Turn around.**\n6. **Turn around.**\n7. **Turn around.**\n8. **Take 3 steps.**\n\n### Step-by-Step Analysis:\n\n1. **Turn around.** (You face the opposite direction.)\n2. **Turn left.** (You now face a direction 90 degrees to the left of your original direction.)\n3. **Take 1 step.** (You move forward 1 step in this new direction.)\n4. **Take 2 steps.** (You move forward 2 more steps in the same direction.)\n5. **Turn around.** (You now face the opposite direction of your original direction.)\n6. **Turn around.** (You now face the same direction as your original direction.)\n7. **Turn around.** (You now face the opposite direction of your original direction.)\n8. **Take 3 steps.** (You move forward 3 steps in the opposite direction of your original direction.)\n\n### Final Position:\n- You started facing a certain direction.\n- After the first turn around, you faced the opposite direction.\n- After turning left, you faced a direction 90 degrees to the left.\n- After taking 1 and 2 steps, you moved forward in this new direction.\n- After the second turn around, you faced the same direction as your original direction.\n- After the third turn around, you faced the opposite direction again.\n- After taking 3 steps in this opposite direction, you are now 3 steps to the left of your original position.\n\n### Conclusion:\nYou do not return to the starting point. You end up 3 steps to the left of your starting point.\n\n**Answer:** No",
+        "ground_truth": "Yes",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5818,
+        "question": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a blue ball, and Claire has a pink ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) yellow ball\n(B) blue ball\n(C) pink ball",
+        "generated_answer": "Let's break down the game step by step to determine which ball Alice has at the end.\n\n1. **Initial Setup:**\n   - Alice: Yellow ball\n   - Bob: Blue ball\n   - Claire: Pink ball\n\n2. **First Swap: Claire and Alice**\n   - Claire gives her pink ball to Alice.\n   - Alice now has a pink ball.\n   - Claire now has a yellow ball.\n\n   Current state:\n   - Alice: Pink ball\n   - Bob: Blue ball\n   - Claire: Yellow ball\n\n3. **Second Swap: Alice and Bob**\n   - Alice gives her pink ball to Bob.\n   - Bob now has a pink ball.\n   - Alice now has a blue ball.\n\n   Current state:\n   - Alice: Blue ball\n   - Bob: Pink ball\n   - Claire: Yellow ball\n\n4. **Third Swap: Claire and Bob**\n   - Claire gives her yellow ball to Bob.\n   - Bob now has a yellow ball.\n   - Claire now has a pink ball.\n\n   Current state:\n   - Alice: Blue ball\n   - Bob: Yellow ball\n   - Claire: Pink ball\n\nAfter all the swaps, Alice has the **blue ball**.\n\n**Answer:** (B) blue ball",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6431,
+        "question": "Sort the following words alphabetically: List: thirteenth tinfoil thimble snuff ernie pow celebrity abuilding indiscoverable chigger burgher synchronous yap medlar exorcism newsboy",
+        "generated_answer": "Here is the list of words sorted alphabetically:\n\n1. Abuilding  \n2. Burgher  \n3. Chigger  \n4. Ernie  \n5. Exorcism  \n6. Indiscoverable  \n7. Medlar  \n8. Newsboy  \n9. Pow  \n10. Snuff  \n11. Synchronous  \n12. Tinfoil  \n13. Thimble  \n14. Thirteenth  \n15. Yap  \n\nLet me know if you need further assistance!",
+        "ground_truth": "abuilding burgher celebrity chigger ernie exorcism indiscoverable medlar newsboy pow snuff synchronous thimble thirteenth tinfoil yap",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5473,
+        "question": "Alice, Bob, Claire, Dave, and Eve are playing a game. At the start of the game, they are each holding a ball: Alice has a black ball, Bob has a blue ball, Claire has a orange ball, Dave has a pink ball, and Eve has a white ball.\nAs the game progresses, pairs of players trade balls. First, Eve and Bob swap balls. Then, Dave and Bob swap balls. Then, Dave and Alice swap balls. Then, Eve and Claire swap balls. Finally, Claire and Alice swap balls. At the end of the game, Dave has the\nOptions:\n(A) black ball\n(B) blue ball\n(C) orange ball\n(D) pink ball\n(E) white ball",
+        "generated_answer": "To determine which ball Dave has at the end of the game, let's follow the sequence of ball exchanges step by step.\n\n1. **Initial Setup:**\n   - Alice: Black ball\n   - Bob: Blue ball\n   - Claire: Orange ball\n   - Dave: Pink ball\n   - Eve: White ball\n\n2. **Eve and Bob swap balls:**\n   - Eve gets Bob's blue ball.\n   - Bob gets Eve's white ball.\n   - Current holdings:\n     - Alice: Black ball\n     - Bob: Blue ball (from Eve)\n     - Claire: Orange ball\n     - Dave: Pink ball\n     - Eve: White ball (from Bob)\n\n3. **Dave and Bob swap balls:**\n   - Dave gets Bob's blue ball.\n   - Bob gets Dave's pink ball.\n   - Current holdings:\n     - Alice: Black ball\n     - Bob: Blue ball (from Eve), Pink ball (from Dave)\n     - Claire: Orange ball\n     - Dave: Blue ball (from Bob)\n     - Eve: White ball (from Bob)\n\n4. **Dave and Alice swap balls:**\n   - Dave gets Alice's black ball.\n   - Alice gets Dave's blue ball.\n   - Current holdings:\n     - Alice: Black ball (from Dave)\n     - Bob: Blue ball (from Eve), Pink ball (from Dave)\n     - Claire: Orange ball\n     - Dave: Black ball (from Alice)\n     - Eve: White ball (from Bob)\n\n5. **Eve and Claire swap balls:**\n   - Eve gets Claire's orange ball.\n   - Claire gets Eve's white ball.\n   - Current holdings:\n     - Alice: Black ball (from Dave)\n     - Bob: Blue ball (from Eve), Pink ball (from Dave)\n     - Claire: White ball (from Eve)\n     - Dave: Black ball (from Alice)\n     - Eve: Orange ball (from Claire)\n\n6. **Claire and Alice swap balls:**\n   - Claire gets Alice's black ball.\n   - Alice gets Claire's white ball.\n   - Current holdings:\n     - Alice: White ball (from Claire)\n     - Bob: Blue ball (from Eve), Pink ball (from Dave)\n     - Claire: Black ball (from Alice)\n     - Dave: Black ball (from Alice)\n     - Eve: Orange ball (from Claire)\n\nAt the end of the game, Dave has the **black ball**.\n\nThe correct answer is **(A) black ball**.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5122,
+        "question": "Today, David went to the construction site. Between what times could they have gone?\nWe know that:\nDavid woke up at 7am.\nSarah saw David reading at the library from 7am to 8am.\nRichard saw David buying a bike at the bike shop from 12pm to 3pm.\nJames saw David sitting on a rooftop from 3pm to 4pm.\nAndrew saw David walking towards the Statue of Liberty from 4pm to 6pm.\nJessica saw David working out at the gym from 6pm to 10pm.\nThe construction site was closed after 10pm.\nBetween what times could David have gone to the construction site?\nOptions:\n(A) 8am to 12pm\n(B) 6pm to 10pm\n(C) 4pm to 6pm\n(D) 3pm to 4pm",
+        "generated_answer": "To determine the possible times David could have gone to the construction site, let's analyze the information provided:\n\n1. **David woke up at 7am.**\n2. **Sarah saw David reading at the library from 7am to 8am.**\n3. **Richard saw David buying a bike at the bike shop from 12pm to 3pm.**\n4. **James saw David sitting on a rooftop from 3pm to 4pm.**\n5. **Andrew saw David walking towards the Statue of Liberty from 4pm to 6pm.**\n6. **Jessica saw David working out at the gym from 6pm to 10pm.**\n7. **The construction site was closed after 10pm.**\n\nFrom the above, we can deduce the following:\n\n- **From 7am to 8am:** David was reading at the library.\n- **From 12pm to 3pm:** David was buying a bike at the bike shop.\n- **From 3pm to 4pm:** David was sitting on a rooftop.\n- **From 4pm to 6pm:** David was walking towards the Statue of Liberty.\n- **From 6pm to 10pm:** David was working out at the gym.\n\nGiven that the construction site was closed after 10pm, David could not have been at the construction site after 10pm.\n\nNow, let's look at the options:\n\n- **(A) 8am to 12pm:** David was reading at the library from 7am to 8am, so he could not have been at the construction site during this time.\n- **(B) 6pm to 10pm:** David was working out at the gym from 6pm to 10pm, so he could not have been at the construction site during this time.\n- **(C) 4pm to 6pm:** David was walking towards the Statue of Liberty from 4pm to 6pm, so he could not have been at the construction site during this time.\n- **(D) 3pm to 4pm:** David was sitting on a rooftop from 3pm to 4pm, so he could not have been at the construction site during this time.\n\nHowever, the question asks for the time David could have gone to the construction site, not the time he could not have been there. Since David was occupied with other activities during the times listed in options A, B, C, and D, the only time he could have gone to the construction site is when he was not doing anything else.\n\nGiven that David was reading at the library from 7am to 8am, the only time he could have gone to the construction site is **before 7am**.\n\nBut since the question specifies that David woke up at 7am, the only logical conclusion is that David could have gone to the construction site **before he woke up**, which is **before 7am**.\n\nHowever, the options provided do not include a time before 7am. Given the constraints, the closest possible time David could have gone to the construction site, based on the information provided, would be **before 7am**, but since this is not an option, the most reasonable answer from the given choices is:\n\n**(A) 8am to 12pm**\n\nThis is the only time frame where David was not engaged in any of the other activities mentioned.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 9,
+        "question": "not True or ( True or False ) is",
+        "generated_answer": "The expression `not True or ( True or False )` can be evaluated step by step:\n\n1. `True or False` evaluates to `True` because `True` is the dominant value in the logical OR operation.\n2. Now, the expression becomes `not True or True`.\n3. `not True` evaluates to `False` because the logical NOT of `True` is `False`.\n4. Finally, `False or True` evaluates to `True` because `True` is the dominant value in the logical OR operation.\n\nSo, the final result of the expression `not True or ( True or False )` is `True`.",
+        "ground_truth": "True",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5012,
+        "question": "Today, Emily went to the soccer field. Between what times could they have gone?\nWe know that:\nEmily woke up at 10am.\nLinda saw Emily waiting at the train station from 10am to 12pm.\nAshley saw Emily fixing their computer at the electronic store from 12pm to 1pm.\nJohn saw Emily walking towards the Statue of Liberty from 1pm to 2pm.\nThe soccer field was closed after 8pm.\nBetween what times could Emily have gone to the soccer field?\nOptions:\n(A) 12pm to 1pm\n(B) 10am to 12pm\n(C) 2pm to 8pm\n(D) 1pm to 2pm",
+        "generated_answer": "To determine the possible times Emily could have gone to the soccer field, let's analyze the information provided:\n\n1. **Emily woke up at 10am.**\n2. **Linda saw Emily waiting at the train station from 10am to 12pm.**\n3. **Ashley saw Emily fixing their computer at the electronic store from 12pm to 1pm.**\n4. **John saw Emily walking towards the Statue of Liberty from 1pm to 2pm.**\n5. **The soccer field was closed after 8pm.**\n\nFrom the information, we can deduce the following:\n\n- Emily was at the train station from 10am to 12pm.\n- From 12pm to 1pm, Emily was at the electronic store.\n- From 1pm to 2pm, Emily was walking towards the Statue of Liberty.\n\nGiven that the soccer field was closed after 8pm, Emily could not have been at the soccer field after 8pm. Therefore, the only time Emily could have been at the soccer field is between 12pm and 1pm, as this is the only time slot not occupied by the other activities.\n\nThus, the correct answer is:\n\n**(A) 12pm to 1pm**",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4043,
+        "question": "On the table, you see a blue booklet and a purple paperclip. How many things are neither blue nor black?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+        "generated_answer": "To solve this problem, let's break it down step by step:\n\n1. **Identify the items on the table:**\n   - A blue booklet\n   - A purple paperclip\n\n2. **Determine the colors of the items:**\n   - The blue booklet is blue.\n   - The purple paperclip is purple.\n\n3. **Identify the colors not mentioned:**\n   - The problem does not mention black as a color for any of the items.\n\n4. **Count the items that are neither blue nor black:**\n   - The blue booklet is blue.\n   - The purple paperclip is purple.\n   - Neither item is black.\n\n5. **Determine the number of items that are neither blue nor black:**\n   - Since both items are either blue or purple, and neither is black, the number of items that are neither blue nor black is zero.\n\nTherefore, the correct answer is:\n\n**(A) zero**",
+        "ground_truth": "(B)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2729,
+        "question": "Find a movie similar to Dances with Wolves, The Lion King, The Fugitive, The Shawshank Redemption:\nOptions:\n(A) Schindler's List\n(B) Day for Night\n(C) Man of the House\n(D) The Neon Demon",
+        "generated_answer": "The movie most similar to **Dances with Wolves, The Lion King, The Fugitive, and The Shawshank Redemption** is:\n\n**(A) Schindler's List**\n\n### Why?\n- **Dances with Wolves**: Both are character-driven epics with themes of transformation, survival, and cultural immersion.\n- **The Lion King**: Both are coming-of-age stories with strong emotional arcs and themes of redemption and growth.\n- **The Fugitive**: Both involve a protagonist on a journey of self-discovery and perseverance, facing moral and physical challenges.\n- **The Shawshank Redemption**: Both explore themes of hope, resilience, and the human spirit in the face of adversity.\n\n**Schindler's List** shares these themes of transformation, redemption, and the human condition, making it the most fitting choice. \n\nThe other options are less aligned:\n- **Day for Night** (B) is a French film about filmmaking, not a character-driven epic.\n- **Man of the House** (C) is a comedy with no thematic or emotional depth.\n- **The Neon Demon** (D) is a horror film focused on obsession and beauty, not redemption or cultural immersion.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1998,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a sedan, a convertible, a station wagon, a bus, and a motorcyle. The sedan is the second-newest. The station wagon is newer than the convertible. The sedan is older than the motorcyle. The bus is the oldest.\nOptions:\n(A) The sedan is the newest\n(B) The convertible is the newest\n(C) The station wagon is the newest\n(D) The bus is the newest\n(E) The motorcyle is the newest",
+        "generated_answer": "Let's analyze the information given in the paragraph:\n\n1. The sedan is the second-newest.\n2. The station wagon is newer than the convertible.\n3. The sedan is older than the motorcyle.\n4. The bus is the oldest.\n\nFrom statement 4, we know the bus is the oldest, so it must be the least new. From statement 1, the sedan is the second-newest, so it must be older than the bus but younger than the third-newest vehicle.\n\nFrom statement 3, the sedan is older than the motorcyle, so the motorcyle must be younger than the sedan.\n\nFrom statement 2, the station wagon is newer than the convertible, so the convertible must be older than the station wagon.\n\nCombining these, we can deduce the order of the vehicles from newest to oldest:\n\n1. The newest vehicle is either the convertible or the station wagon.\n2. The sedan is older than the motorcyle, so the motorcyle is the youngest.\n3. The bus is the oldest.\n\nGiven that the motorcyle is the youngest, the correct answer is:\n\n**(E) The motorcyle is the newest**",
+        "ground_truth": "(E)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5982,
+        "question": "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a white ball, and Claire has a red ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) blue ball\n(B) white ball\n(C) red ball",
+        "generated_answer": "Let's break down the game step by step to determine which ball Claire has at the end.\n\n1. **Initial Setup:**\n   - Alice: Blue ball\n   - Bob: White ball\n   - Claire: Red ball\n\n2. **First Swap (Claire and Bob):**\n   - Claire gives Bob her red ball.\n   - Alice: Blue ball\n   - Bob: Red ball\n   - Claire: White ball\n\n3. **Second Swap (Alice and Bob):**\n   - Alice gives Bob her blue ball.\n   - Alice: White ball\n   - Bob: Blue ball\n   - Claire: Red ball\n\n4. **Third Swap (Claire and Bob):**\n   - Claire gives Bob her red ball.\n   - Alice: White ball\n   - Bob: Blue ball\n   - Claire: Blue ball\n\nAt the end of the game, Claire has the **blue ball**.\n\n**Answer:** (A) blue ball",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2664,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and plums. The pears are less expensive than the plums. The pears are more expensive than the apples.\nOptions:\n(A) The apples are the most expensive\n(B) The pears are the most expensive\n(C) The plums are the most expensive",
+        "generated_answer": "Let's analyze the information given in the paragraph:\n\n1. The pears are less expensive than the plums.\n2. The pears are more expensive than the apples.\n\nFrom these two statements, we can deduce the following order of prices:\n- Apples < Pears < Plums\n\nThis means:\n- Apples are the least expensive.\n- Pears are more expensive than apples but less expensive than plums.\n- Plums are the most expensive.\n\nNow, let's look at the options:\n(A) The apples are the most expensive → This is incorrect because apples are the least expensive.\n(B) The pears are the most expensive → This is incorrect because plums are more expensive than pears.\n(C) The plums are the most expensive → This is correct because plums are the most expensive among the three.\n\nThe correct answer is (C) The plums are the most expensive.",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5764,
+        "question": "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Lola, and Claire is dancing with Ophelia.\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Helga\n(B) Lola\n(C) Ophelia",
+        "generated_answer": "Let's break down the dance partners step by step:\n\n1. **Initial Partners:**\n   - Alice is with Helga.\n   - Bob is with Lola.\n   - Claire is with Ophelia.\n\n2. **First Swap: Alice and Bob switch partners.**\n   - Alice is now with Lola.\n   - Bob is now with Helga.\n   - Claire remains with Ophelia.\n\n3. **Second Swap: Bob and Claire switch partners.**\n   - Alice is still with Lola.\n   - Bob is now with Ophelia.\n   - Claire is now with Lola.\n\n4. **Third Swap: Alice and Bob switch partners again.**\n   - Alice is now with Helga.\n   - Bob is now with Lola.\n   - Claire remains with Ophelia.\n\nAt the end of the dance, Alice is dancing with **Helga**.\n\n**Answer:** (A) Helga",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 515,
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date 24 hours later in MM/DD/YYYY?\nOptions:\n(A) 01/31/2012\n(B) 02/01/2016\n(C) 02/01/2079\n(D) 11/10/2011\n(E) 01/04/2012\n(F) 02/01/2012",
+        "generated_answer": "To determine the date 24 hours later from the last day of January 2012, let's break it down step by step:\n\n1. **Identify the last day of January 2012**:  \n   - January has 31 days, so the last day of January 2012 is **01/31/2012**.\n\n2. **Calculate the date 24 hours later**:  \n   - Adding 24 hours to **01/31/2012** moves us to the next day.  \n   - Since January has only 31 days, the next day is **02/01/2012**.\n\n3. **Verify the options**:  \n   - The correct answer is **(E) 01/04/2012**, as it is the only option that matches the calculation.\n\n**Final Answer:**  \n**(E) 01/04/2012**",
+        "ground_truth": "(F)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1565,
+        "question": "This SVG path element <path d=\"M 26.95,11.95 A 8.30,8.30 322.18 1,0 13.83,22.13 A 8.30,8.30 322.18 1,0 26.95,11.95\"/> draws a\nOptions:\n(A) circle\n(B) heptagon\n(C) hexagon\n(D) kite\n(E) line\n(F) octagon\n(G) pentagon\n(H) rectangle\n(I) sector\n(J) triangle\n(K) ellipse",
+        "generated_answer": "The given SVG path element is:\n\n```xml\n<path d=\"M 26.95,11.95 A 8.30,8.30 322.18 1,0 13.83,22.13 A 8.30,8.30 322.18 1,0 26.95,11.95\"/>\n```\n\nThis path consists of two `A` commands, which are used to draw elliptical arcs. The first `A` command draws an arc from the point `(26.95, 11.95)` to the point `(13.83, 22.13)`, and the second `A` command draws an arc from the point `(13.83, 22.13)` back to the point `(26.95, 11.95)`.\n\nThe `A` command takes the following parameters:\n- `x1, y1`: The starting point of the arc.\n- `x, y`: The ending point of the arc.\n- `rx`: The x-radius of the ellipse.\n- `ry`: The y-radius of the ellipse.\n- `rotation`: The rotation angle in degrees.\n- `large-arc-flag`: A boolean indicating whether the arc should be a large arc (1) or a small arc (0).\n- `sweep-flag`: A boolean indicating the direction of the arc (1 for clockwise, 0 for counterclockwise).\n\nIn this case, the `rx` and `ry` values are the same (8.30), which means the ellipse is a circle. The `rotation` angle is 322.18 degrees, which is equivalent to a rotation of 322.18 - 360 = -37.82 degrees. The `large-arc-flag` and `sweep-flag` are both 1, which means the arc should be a large arc in the clockwise direction.\n\nTherefore, the shape drawn by this SVG path element is a **circle**.\n\nThe correct answer is:\n\n**(A) circle**",
+        "ground_truth": "(K)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4649,
+        "question": "Which statement is sarcastic?\nOptions:\n(A) ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my up vote for being rational\n(B) ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my down vote for being rational",
+        "generated_answer": "The sarcastic statement is:\n\n**(B) ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my down vote for being rational**\n\nThis statement is sarcastic because it contradicts itself by saying \"Have my down vote for being rational,\" which is the opposite of what one would expect from someone who is rational. The use of \"Have my down vote\" implies a negative reaction, while \"being rational\" suggests a positive or neutral response, making the statement ironic and sarcastic.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1816,
+        "question": "Which sentence has the correct adjective order:\nOptions:\n(A) Mexican paper baby\n(B) paper Mexican baby",
+        "generated_answer": "The correct adjective order in English is **opinion**, **size**, **age**, **shape**, **color**, **origin**, **material**, **purpose**. \n\nLet's analyze the options:\n\n- **(A) Mexican paper baby**: This follows the correct order:  \n  - **Opinion**: (none)  \n  - **Size**: (none)  \n  - **Age**: (none)  \n  - **Shape**: (none)  \n  - **Color**: (none)  \n  - **Origin**: Mexican  \n  - **Material**: paper  \n  - **Purpose**: (none)  \n\n- **(B) paper Mexican baby**: This does not follow the correct order. The adjectives are out of sequence, and \"Mexican\" should come before \"paper\" to describe the origin before the material.\n\n**Answer:** (A) Mexican paper baby is the correct sentence.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1954,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a quail, an owl, a raven, a falcon, and a robin. The owl is the leftmost. The robin is to the left of the raven. The quail is the rightmost. The raven is the third from the left.\nOptions:\n(A) The quail is the second from the right\n(B) The owl is the second from the right\n(C) The raven is the second from the right\n(D) The falcon is the second from the right\n(E) The robin is the second from the right",
+        "generated_answer": "To determine the correct answer, let's analyze the given information step by step:\n\n1. **The owl is the leftmost.**\n   - This means the owl is in the first position.\n\n2. **The robin is to the left of the raven.**\n   - Since the owl is the leftmost, the robin must be in the second position, and the raven in the third position.\n\n3. **The quail is the rightmost.**\n   - This means the quail is in the fifth position.\n\n4. **The raven is the third from the left.**\n   - This confirms that the raven is in the third position.\n\nNow, let's arrange the birds based on the given information:\n\n1. **Owl**\n2. **Robin**\n3. **Raven**\n4. **Falcon**\n5. **Quail**\n\nWe need to determine which of the options correctly describes the position of the falcon.\n\n- **(A) The quail is the second from the right.**\n  - This is incorrect because the quail is the rightmost, not the second from the right.\n\n- **(B) The owl is the second from the right.**\n  - This is incorrect because the owl is the leftmost, not the second from the right.\n\n- **(C) The raven is the second from the right.**\n  - This is incorrect because the raven is the third from the left, not the second from the right.\n\n- **(D) The falcon is the second from the right.**\n  - This is correct because the falcon is in the fourth position, which is the second from the right.\n\n- **(E) The robin is the second from the right.**\n  - This is incorrect because the robin is in the second position, not the second from the right.\n\nTherefore, the correct answer is:\n\n**(D) The falcon is the second from the right.**",
+        "ground_truth": "(D)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1167,
+        "question": "Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ] [ ( [ [ ( ) ] ] ) < < [ ] > > < < >",
+        "generated_answer": "To complete the sequence and ensure the parentheses are closed properly, let's analyze the given input:\n\n```\n[ ] [ ( [ [ ( ) ] ] ) < < [ ] > > < < >\n```\n\n### Step-by-Step Solution:\n\n1. **Identify Opening and Closing Parentheses**:\n   - The sequence starts with `[ ]`, which is a valid opening and closing pair.\n   - The next part is `[ ( [ [ ( ) ] ] )`, which has multiple layers of parentheses.\n   - The last part is `< < [ ] > > < < >`, which is a mix of angle brackets and square brackets.\n\n2. **Closing Parentheses**:\n   - The sequence `[ ( [ [ ( ) ] ] )` has an opening square bracket `[` and a closing square bracket `]`.\n   - The innermost parentheses are `( )`, which are correctly closed.\n   - The next layer is `[ ( ) ]`, which is also correctly closed.\n   - The outermost layer is `[ [ ( ) ] ]`, which is correctly closed.\n\n3. **Angle Brackets**:\n   - The sequence `< < [ ] > > < < >` has angle brackets `<` and `>`.\n   - The angle brackets are correctly paired: `< < [ ] > > < < >`.\n\n4. **Square Brackets**:\n   - The sequence starts with `[ ]` and ends with `> > < < >`, which is not a valid sequence of square brackets.\n   - The correct sequence should end with `]` to close the initial `[ ]`.\n\n### Corrected Sequence:\nTo ensure the parentheses are closed properly and the square brackets are correctly paired, the corrected sequence should be:\n\n```\n[ ] [ ( [ [ ( ) ] ] ) < < [ ] ] > > < < >\n```\n\n### Explanation of Corrections:\n- Added a closing square bracket `]` at the end to match the opening `[ ]`.\n- The angle brackets `< < [ ] > > < < >` are already correctly paired, so no changes are needed there.\n\n### Final Answer:\n```\n[ ] [ ( [ [ ( ) ] ] ) < < [ ] ] > > < < >\n```",
+        "ground_truth": "> ]",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4448,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Erwin Schmidt ist ein österreichischer Jazzmusiker.\nTranslation: Erwin Schmidt is an Austrian hit musician.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The translation contains an error pertaining to **(D) Named Entities**. \n\nThe original text refers to Erwin Schmidt as a \"Jazzmusiker\" (jazz musician), but the translation incorrectly changes this to \"hit musician,\" which is not the same entity. This is a change in the named entity (type of musician) rather than a numerical value, modifier, negation, dropped content, or factual error. \n\n**Answer: (D) Named Entities**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 3669,
+        "question": "I have an orange, a grape, a strawberry, three apples, a plum, a banana, a raspberry, a blackberry, a nectarine, and three peaches. How many fruits do I have?",
+        "generated_answer": "Let's count the total number of fruits:\n\n- Orange: 1\n- Grape: 1\n- Strawberry: 1\n- Apples: 3\n- Plum: 1\n- Banana: 1\n- Raspberry: 1\n- Blackberry: 1\n- Nectarine: 1\n- Peaches: 3\n\nNow, add them all together:\n\n1 (orange) + 1 (grape) + 1 (strawberry) + 3 (apples) + 1 (plum) + 1 (banana) + 1 (raspberry) + 1 (blackberry) + 1 (nectarine) + 3 (peaches) = **17**\n\nSo, you have **17 fruits** in total.",
+        "ground_truth": "14",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 747,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The developer corrected the secretary because she better understood the problem.\nOptions:\n(A) The developer understood the problem\n(B) The secretary understood the problem\n(C) Ambiguous",
+        "generated_answer": "The antecedent of the pronoun \"she\" in the sentence is **(B) The secretary**. \n\nThe sentence implies that the secretary had a better understanding of the problem, which is why the developer corrected her. The pronoun \"she\" refers to the secretary, making the antecedent clear. \n\n**Answer:** (B) The secretary",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 659,
+        "question": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date a month ago in MM/DD/YYYY?\nOptions:\n(A) 12/02/2007\n(B) 12/03/2007\n(C) 01/02/2007\n(D) 11/18/2007\n(E) 11/04/2007\n(F) 12/02/1928",
+        "generated_answer": "To determine the date a month ago from their golden wedding anniversary, let's break it down step by step:\n\n1. **Golden Wedding Anniversary**: A golden wedding anniversary is celebrated after 50 years of marriage. Since Jane and John married on **Jan 2, 1958**, their golden anniversary would be on **Jan 2, 2008**.\n\n2. **Date a Month Ago**: To find the date a month ago from **Jan 2, 2008**, we subtract one month from January 2008. Since January has 31 days, January 2, 2008, would be the 2nd day of the month. Subtracting one month means moving to the previous month, which is **December 2007**.\n\n3. **Final Date**: The date a month ago from **Jan 2, 2008** is **Dec 2, 2007**.\n\nNow, let's match this with the given options:\n\n- **(A) 12/02/2007**: Incorrect, as the date should be December 2, not 12.\n- **(B) 12/03/2007**: Incorrect, as the date should be December 2, not 3.\n- **(C) 01/02/2007**: Incorrect, as the date is in the wrong year (2007 instead of 2008).\n- **(D) 11/18/2007**: Incorrect, as the date is in the wrong month (November instead of December).\n- **(E) 11/04/2007**: Incorrect, as the date is in the wrong month (November instead of December).\n- **(F) 12/02/1928**: Incorrect, as the date is in the wrong year (1928 instead of 2007).\n\nThe correct answer is **(C) 01/02/2007**, but this is incorrect because the date should be **Dec 2, 2007**. However, since **(C) 01/02/2007** is the only option that is partially correct (though incorrect in the year), and none of the other options are correct, the closest and most reasonable answer is:\n\n**(C) 01/02/2007** (Note: This is not the correct date, but it is the only option that is partially correct.)",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2621,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Dan, Mel, and Amy. Dan finished above Amy. Amy finished above Mel.\nOptions:\n(A) Dan finished last\n(B) Mel finished last\n(C) Amy finished last",
+        "generated_answer": "To determine which option is correct, let's analyze the information provided:\n\n1. **Dan finished above Amy**: This means Dan's position was higher than Amy's.\n2. **Amy finished above Mel**: This means Amy's position was higher than Mel's.\n\nFrom these two statements, we can deduce the following order:\n- Dan > Amy > Mel\n\nThis means:\n- Dan finished **first**.\n- Amy finished **second**.\n- Mel finished **third**.\n\nTherefore, the correct answer is:\n\n**(A) Dan finished last**\n\nThis is because Dan finished first, not last. The other options (Mel and Amy) finished higher than Dan.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4161,
+        "question": "Which of the following is a humorous edit of this artist or movie name: 'the departed'?\nOptions:\n(A) the deprarted\n(B) the dephrted\n(C) the dearted\n(D) the defarted",
+        "generated_answer": "The humorous edit of the artist or movie name \"The Departed\" from the given options is:\n\n**(B) the dephrted**\n\nThis option intentionally misspells the word \"Departed\" with a lowercase \"d\" and a double \"r,\" which creates a playful and humorous effect.",
+        "ground_truth": "(D)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4008,
+        "question": "On the floor, you see a set of things arranged in a row: a grey pen, a burgundy dog leash, a gold pencil, a pink plate, and a black envelope. How many non-purple things do you see to the right of the grey thing?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+        "generated_answer": "To determine how many non-purple things are to the right of the grey thing, let's analyze the items in the row:\n\n1. **Grey pen** (the grey thing)\n2. **Burgundy dog leash**\n3. **Gold pencil**\n4. **Pink plate**\n5. **Black envelope**\n\nThe grey thing is the **first item** in the row. We need to count the items to its **right** (i.e., the items after the grey pen).\n\n- **Burgundy dog leash** (non-purple)\n- **Gold pencil** (non-purple)\n- **Pink plate** (non-purple)\n- **Black envelope** (non-purple)\n\nThere are **four non-purple items** to the right of the grey thing.\n\nThe correct answer is **(D) three**.  \n*(Note: The options provided in the question are incorrect. The correct answer should be 4, not 3.)*",
+        "ground_truth": "(E)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 893,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The customer and the chef discussed his culinary training.\nOptions:\n(A) It was the customer's culinary training\n(B) It was the chef's culinary training\n(C) Ambiguous",
+        "generated_answer": "The antecedent of the pronoun \"his\" in the sentence \"The customer and the chef discussed his culinary training\" is **ambiguous**. \n\nThe pronoun \"his\" could refer to either the customer or the chef, as both are male and could plausibly be the one whose culinary training was discussed. Without additional context, it is unclear who the pronoun is referring to. \n\n**Answer: (C) Ambiguous**",
+        "ground_truth": "(B)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2469,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.\nOptions:\n(A) The motorcyle is the second-newest\n(B) The bus is the second-newest\n(C) The tractor is the second-newest",
+        "generated_answer": "Let's analyze the given information step by step:\n\n1. **The motorcyle is the oldest.**\n2. **The bus is newer than the tractor.**\n\nFrom these two statements, we can deduce the following order of age:\n- The motorcyle is the oldest.\n- The bus is newer than the tractor, which means the tractor is older than the bus.\n\nNow, let's evaluate the options:\n\n- **(A) The motorcyle is the second-newest.**\n  - This is incorrect because the motorcyle is explicitly stated to be the oldest, not the second-newest.\n\n- **(B) The bus is the second-newest.**\n  - This is correct because the bus is newer than the tractor, and the motorcyle is the oldest. Therefore, the bus must be the second-newest.\n\n- **(C) The tractor is the second-newest.**\n  - This is incorrect because the tractor is older than the bus, not the second-newest.\n\n**Final Answer:** (B) The bus is the second-newest.",
+        "ground_truth": "(C)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4515,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: St. Leonhard ist eine kleine Rotte in Vorarlberg zwischen dem Ortsteil Bings und Oberradin im Klostertal und gehört zur Gemeinde Bludenz und liegt etwa drei Kilometer von der Stadtgrenze von Bludenz entfernt.\nTranslation: St. Leonhard is a small town in Vorarlberg between the hamlet of Bings and Oberradin in the Klostertal valley and belongs to the municipality of Bludette and is located about three kilometers from the city limits of Bludenz.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The error in the translation is related to **Named Entities**. Specifically, the name \"Bludenz\" is incorrectly translated as \"Bludette,\" which is a different entity. This is a clear error in the translation of a named place.\n\n**Answer:** (D) Named Entities",
+        "ground_truth": "(D)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2384,
+        "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are seven vehicles: a truck, a motorcyle, a sedan, a minivan, a station wagon, a hatchback, and a tractor. The hatchback is newer than the truck. The sedan is the third-newest. The station wagon is the newest. The motorcyle is older than the truck. The minivan is newer than the sedan. The tractor is the third-oldest.\nOptions:\n(A) The truck is the newest\n(B) The motorcyle is the newest\n(C) The sedan is the newest\n(D) The minivan is the newest\n(E) The station wagon is the newest\n(F) The hatchback is the newest\n(G) The tractor is the newest",
+        "generated_answer": "Let's analyze the given information step by step to determine the correct order of the seven vehicles.\n\n1. **Given Statements:**\n   - The hatchback is newer than the truck.\n   - The sedan is the third-newest.\n   - The station wagon is the newest.\n   - The motorcyle is older than the truck.\n   - The minivan is newer than the sedan.\n   - The tractor is the third-oldest.\n\n2. **Key Observations:**\n   - The station wagon is the newest.\n   - The sedan is the third-newest.\n   - The tractor is the third-oldest.\n   - The motorcyle is older than the truck, so the motorcyle is older than the station wagon (since the station wagon is the newest).\n\n3. **Possible Order:**\n   - Since the station wagon is the newest, it must be at the 7th position (the newest).\n   - The sedan is the third-newest, so it must be at the 5th position.\n   - The tractor is the third-oldest, so it must be at the 4th position.\n   - The motorcyle is older than the truck, so it must be older than the station wagon. The only remaining positions for the motorcyle and truck are 2 and 3 (since the sedan is at 5 and the minivan must be newer than the sedan).\n   - The minivan is newer than the sedan, so it must be at the 6th position.\n   - The truck is older than the motorcyle, so it must be at the 3rd position.\n   - The hatchback is newer than the truck, so it must be at the 2nd position.\n\n4. **Final Order:**\n   - 1st: Hatchback\n   - 2nd: Truck\n   - 3rd: Motorcyle\n   - 4th: Tractor\n   - 5th: Sedan\n   - 6th: Minivan\n   - 7th: Station Wagon\n\n5. **Evaluating the Options:**\n   - (A) The truck is the newest → Incorrect (truck is 3rd newest).\n   - (B) The motorcyle is the newest → Incorrect (motorcyle is older than the station wagon).\n   - (C) The sedan is the newest → Incorrect (sedan is 3rd newest).\n   - (D) The minivan is the newest → Incorrect (minivan is 6th newest).\n   - (E) The station wagon is the newest → Incorrect (station wagon is the newest, but this is not the order of the vehicles).\n   - (F) The hatchback is the newest → Incorrect (hatchback is 2nd newest).\n   - (G) The tractor is the newest → Incorrect (tractor is 4th oldest).\n\n6. **Correct Answer:**\n   - None of the options (A-G) are correct based on the given information. The correct order is:\n     - 1st: Hatchback\n     - 2nd: Truck\n     - 3rd: Motorcyle\n     - 4th: Tractor\n     - 5th: Sedan\n     - 6th: Minivan\n     - 7th: Station Wagon\n\nHowever, since the question asks for the correct option, and none of the provided options match the correct order, the closest would be:\n\n**(E) The station wagon is the newest**  \n(Note: This is incorrect in the context of the order, but it is the only option that refers to the newest vehicle, which is the station wagon.)\n\nBut since the question asks for the correct order, the answer is that none of the options are correct. However, if forced to choose, the closest is:\n\n**(E) The station wagon is the newest**  \n(This is incorrect in the order, but it is the only option that refers to the newest vehicle.)",
+        "ground_truth": "(E)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5788,
+        "question": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a white present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Claire and Alice swap their gifts. Finally, Claire and Bob swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) pink ball\n(B) white present\n(C) blue present",
+        "generated_answer": "Let's break down the swaps step by step to determine which gift Alice ends up with.\n\n1. **Initial Gifts:**\n   - Alice: Pink ball\n   - Bob: White present\n   - Claire: Blue present\n\n2. **First Swap (Bob and Claire):**\n   - Bob gives his white present to Claire.\n   - Claire gives her blue present to Bob.\n   - After this swap:\n     - Bob: Blue present\n     - Claire: White present\n     - Alice: Pink ball\n\n3. **Second Swap (Claire and Alice):**\n   - Claire gives her white present to Alice.\n   - Alice gives her pink ball to Claire.\n   - After this swap:\n     - Bob: Blue present (unchanged)\n     - Claire: Pink ball\n     - Alice: White present\n\n4. **Third Swap (Claire and Bob):**\n   - Claire gives her pink ball to Bob.\n   - Bob gives his blue present to Claire.\n   - After this swap:\n     - Bob: Pink ball\n     - Claire: Blue present\n     - Alice: White present (unchanged)\n\nAt the end of the event, Alice still has the **white present**.\n\n**Answer:** (B) white present",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1022,
+        "question": "Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( ( { < > } )",
+        "generated_answer": "To complete the sequence and ensure the parentheses are closed properly, we need to make sure that every opening parenthesis has a corresponding closing parenthesis. The given input is:\n\n```\n< ( ( { < > } )\n```\n\nLet's analyze the sequence:\n\n1. The first character is `<`, which is an opening angle bracket.\n2. The second character is `(`, which is an opening parenthesis.\n3. The third character is `(`, which is another opening parenthesis.\n4. The fourth character is `{`, which is an opening curly brace.\n5. The fifth character is `<`, which is an opening angle bracket.\n6. The sixth character is `>`, which is a closing angle bracket.\n7. The seventh character is `}`, which is a closing curly brace.\n8. The eighth character is `)`, which is a closing parenthesis.\n\nThe sequence starts with an opening angle bracket `<`, followed by an opening parenthesis `(`, another opening parenthesis `(`, an opening curly brace `{`, an opening angle bracket `<`, a closing angle bracket `>`, a closing curly brace `}`, and ends with a closing parenthesis `)`.\n\nTo complete the sequence, we need to ensure that every opening parenthesis has a corresponding closing parenthesis. The sequence already has two opening parentheses `(` and one closing parenthesis `)`. To balance the parentheses, we need to add one more opening parenthesis to match the one closing parenthesis.\n\nHere is the completed sequence:\n\n```\n< ( ( { < > } ) )\n```\n\nThis sequence now has two opening parentheses `(` and two closing parentheses `)`, ensuring that every opening parenthesis is properly closed.",
+        "ground_truth": ") >",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4484,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Kloster Lehnin ist eine amtsfreie Gemeinde im Landkreis Potsdam-Mittelmark in Brandenburg.\nTranslation: Lehnin Abbey is a municipality in the district of Potsdam-Mittelmark Germany.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The translation contains an error pertaining to **(D) Named Entities**. \n\nThe original text refers to \"Kloster Lehnin\" (Lehnin Abbey), which is a specific place in Brandenburg, Germany. The translation incorrectly changes \"Kloster Lehnin\" to \"Lehnin Abbey,\" which is a different entity. Additionally, the translation incorrectly states \"Germany\" instead of \"Brandenburg,\" which is the correct administrative region. This indicates a change in the named entity (from a specific location to a broader country). \n\nThus, the error is a **Named Entity** error. \n\n**Answer: (D) Named Entities**",
+        "ground_truth": "(E)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2725,
+        "question": "Find a movie similar to Pulp Fiction, The Shawshank Redemption, Aladdin, The Lion King:\nOptions:\n(A) Terminator 2 Judgment Day\n(B) The Next Three Days\n(C) Detachment\n(D) Ruby Sparks",
+        "generated_answer": "To find a movie similar to *Pulp Fiction*, *The Shawshank Redemption*, *Aladdin*, and *The Lion King*, we need to consider the themes, tone, and style of these films. Here's a breakdown of each option:\n\n- **(A) Terminator 2: Judgment Day**: This is a sci-fi action film with a dark, intense tone and a focus on technology and survival. It doesn't align with the themes of redemption, fantasy, or coming-of-age found in the other films.\n- **(B) The Next Three Days**: This is a thriller/drama about a man planning to break his wife out of prison. While it has a dramatic and suspenseful tone, it lacks the broader themes and stylistic elements of the other films.\n- **(C) Detachment**: This is a drama about a disillusioned teacher working in a failing school. It has a serious, introspective tone but doesn't match the genre or style of the other films.\n- **(D) Ruby Sparks**: This is a romantic comedy about a man who falls in love with a fictional character who comes to life. It has a whimsical, fantastical tone and explores themes of creativity and relationships, making it the closest match to *Aladdin* and *The Lion King* in style and tone.\n\n**Final Answer: (D) Ruby Sparks**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4426,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Augustinus von Hippo, auch: Augustinus von Thagaste, Augustin oder Aurelius Augustinus war ein numidischer Kirchenlehrer.\nTranslation: Augustine of Hippo, also: Augustine of Thagaste, Augustine or Aurelius Augustine was a Dravidian church teacher.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The translation contains an error pertaining to **(D) Named Entities**. \n\nThe original text mentions \"Augustinus von Hippo\" (Augustine of Hippo), but the translation changes \"Hippo\" to \"Thagaste,\" which is incorrect. Additionally, \"numidischer\" (Numidian) is mistranslated as \"Dravidian,\" which is unrelated to the context. This indicates a change in named entities and modifiers, making **(D) Named Entities** the correct answer.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1664,
+        "question": "This SVG path element <path d=\"M 27.91,67.16 L 3.81,55.19 L 22.81,3.46 M 22.81,3.46 L 27.91,67.16\"/> draws a\nOptions:\n(A) circle\n(B) heptagon\n(C) hexagon\n(D) kite\n(E) line\n(F) octagon\n(G) pentagon\n(H) rectangle\n(I) sector\n(J) triangle",
+        "generated_answer": "The given SVG path element draws a **pentagon**. Here's the breakdown:\n\n- The path starts with `M 27.91,67.16`, which is the first point of the pentagon.\n- The next two points `L 3.81,55.19` and `L 22.81,3.46` define the other three sides of the pentagon.\n- The last `M 22.81,3.46` brings the path back to the starting point, completing the pentagon.\n\nThus, the correct answer is **(G) pentagon**.",
+        "ground_truth": "(J)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4941,
+        "question": "Is the following sentence plausible? \"Pete Alonso hit a triple in the World Series.\"",
+        "generated_answer": "Yes, the sentence \"Pete Alonso hit a triple in the World Series\" is plausible. \n\nPete Alonso, the New York Mets' first baseman, has played in the World Series. While he hasn't hit a triple in the World Series yet (as of the 2023 season), it is certainly possible for him to do so in the future. \n\nHere's why the sentence is plausible:\n1. **Pete Alonso's Career**: Alonso has been a key player for the Mets since his rookie season in 2019. He has been part of the team's playoff runs, including the 2022 National League Championship Series (NLCS) and the 2023 World Series.\n2. **Triple in Postseason**: While Alonso hasn't hit a triple in the World Series, he has hit triples in other postseason games. For example, he hit a triple in Game 3 of the 2022 NLDS against the San Francisco Giants.\n3. **Possibility in Future Games**: Given his offensive skills and the nature of the World Series, it is entirely plausible for Alonso to hit a triple in a future World Series game.\n\nSo, while the sentence hasn't happened yet, it is a realistic and plausible statement.",
+        "ground_truth": "yes",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4482,
+        "question": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Catherine Hayes war eine irische Opernsängerin.\nTranslation: Catherine Hayes was an British opera singer.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
+        "generated_answer": "The translation contains an error pertaining to **(D) Named Entities**. \n\nThe original text states that Catherine Hayes was an \"irische Opernsängerin\" (Irish opera singer), but the translation incorrectly changes \"irische\" to \"British,\" which is a different named entity. This is a direct error in the translation of a named entity.",
+        "ground_truth": "(A)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4813,
+        "question": "Is the following sentence plausible? \"Kevin Durant hit a walkoff homer.\"",
+        "generated_answer": "The sentence \"Kevin Durant hit a walkoff homer\" is **not plausible**. Here's why:\n\n1. **Kevin Durant is a basketball player**, not a baseball player. He is known for his basketball career, particularly as a professional basketball player in the NBA.\n\n2. **\"Hit a homer\"** refers to hitting a home run in baseball, which is a play where a batter hits the ball out of the playing field, resulting in an automatic run for the batter and any runners on base.\n\n3. **\"Walkoff homer\"** is a term used in baseball to describe a home run that wins the game for the team.\n\nSince Kevin Durant is not a baseball player, the sentence is not plausible. It would only make sense if Kevin Durant were a baseball player, which he is not.",
+        "ground_truth": "no",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2356,
+        "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are seven birds: a robin, a hummingbird, a raven, a blue jay, a crow, a cardinal, and a quail. The hummingbird is to the left of the crow. The cardinal is to the right of the quail. The blue jay is the fourth from the left. The robin is the second from the left. The quail is to the right of the crow. The raven is to the left of the robin.\nOptions:\n(A) The robin is the leftmost\n(B) The hummingbird is the leftmost\n(C) The raven is the leftmost\n(D) The blue jay is the leftmost\n(E) The crow is the leftmost\n(F) The cardinal is the leftmost\n(G) The quail is the leftmost",
+        "generated_answer": "To determine which bird is the leftmost, let's analyze the given information step by step:\n\n1. **The blue jay is the fourth from the left.**\n   - This means there are three birds to the left of the blue jay.\n\n2. **The robin is the second from the left.**\n   - This means there is one bird to the left of the robin.\n\n3. **The quail is to the right of the crow.**\n   - This means the crow is to the left of the quail.\n\n4. **The raven is to the left of the robin.**\n   - This means the raven is to the left of the robin, and since the robin is the second from the left, the raven must be the first bird from the left.\n\n5. **The hummingbird is to the left of the crow.**\n   - This means the hummingbird is to the left of the crow, and since the raven is to the left of the robin, the hummingbird must be to the left of the raven.\n\n6. **The cardinal is to the right of the quail.**\n   - This means the quail is to the left of the cardinal.\n\nFrom the above analysis, we can deduce the following order from left to right:\n\n- **Raven** (since it is to the left of the robin, and the robin is the second from the left)\n- **Hummingbird** (since it is to the left of the crow, and the crow is to the left of the quail, and the quail is to the right of the cardinal, which is to the right of the robin)\n- **Robin** (the second from the left)\n- **Quail** (to the right of the crow, and the crow is to the left of the quail)\n- **Blue Jay** (the fourth from the left)\n- **Crow** (to the left of the quail)\n- **Cardinal** (to the right of the quail)\n\nTherefore, the **raven** is the leftmost bird.\n\nThe correct answer is **(C) The raven is the leftmost**.",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3645,
+        "question": "I have a stove, a microwave, a couch, a lamp, a chair, an oven, a fridge, and three beds. How many objects do I have?",
+        "generated_answer": "Let's count the objects one by one:\n\n1. Stove\n2. Microwave\n3. Couch\n4. Lamp\n5. Chair\n6. Oven\n7. Fridge\n8. Bed 1\n9. Bed 2\n10. Bed 3\n\nTotal number of objects: **10**",
+        "ground_truth": "10",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 750,
+        "question": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: The patient was referred to the specialist because she is an expert on rare skin conditions.\nOptions:\n(A) The patient is an expert\n(B) The specialist is an expert\n(C) Ambiguous",
+        "generated_answer": "The antecedent of the pronoun \"she\" in the sentence is **(B) The specialist is an expert**.\n\nThe sentence states that the patient was referred to the specialist because the specialist is an expert on rare skin conditions. The pronoun \"she\" refers to the specialist, as it is the specialist who is described as an expert. The patient is not described as an expert, so option (A) is incorrect. The sentence does not provide enough information to determine if the patient is an expert, so option (C) is also incorrect.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4884,
+        "question": "Is the following sentence plausible? \"Joe Burrow gained five yards.\"",
+        "generated_answer": "Yes, the sentence \"Joe Burrow gained five yards\" is plausible. \n\nJoe Burrow is a professional American football quarterback, and \"gaining yards\" is a common phrase in football to describe the distance a player moves the ball forward during a play. If Joe Burrow gained five yards, it means he successfully advanced the ball by that distance during a play. \n\nSo, the sentence is both grammatically correct and contextually appropriate.",
+        "ground_truth": "yes",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3153,
+        "question": "((9 - 5 - 4 + -2) + (-9 + 1 - 1 - 9)) =",
+        "generated_answer": "Let's break this down step by step:\n\n1. **First Parentheses:**\n   \\[\n   (9 - 5 - 4 + (-2))\n   \\]\n   - Subtract 5 from 9: \\( 9 - 5 = 4 \\)\n   - Subtract 4 from 4: \\( 4 - 4 = 0 \\)\n   - Add \\(-2\\): \\( 0 + (-2) = -2 \\)\n\n2. **Second Parentheses:**\n   \\[\n   (-9 + 1 - 1 - 9)\n   \\]\n   - Add 1 to \\(-9\\): \\( -9 + 1 = -8 \\)\n   - Subtract 1 from \\(-8\\): \\( -8 - 1 = -9 \\)\n   - Subtract 9 from \\(-9\\): \\( -9 - 9 = -18 \\)\n\n3. **Final Addition:**\n   \\[\n   (-2) + (-18)\n   \\]\n   - Add \\(-2\\) and \\(-18\\): \\( -2 + (-18) = -20 \\)\n\n**Final Answer:**\n\\[\n\\boxed{-20}\n\\]",
+        "ground_truth": "-20",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2597,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, watermelons, and pears. The oranges are the second-most expensive. The pears are more expensive than the watermelons.\nOptions:\n(A) The oranges are the second-most expensive\n(B) The watermelons are the second-most expensive\n(C) The pears are the second-most expensive",
+        "generated_answer": "To determine the correct answer, let's analyze the information provided:\n\n1. **Oranges are the second-most expensive**: This directly matches option (A).\n2. **Pears are more expensive than watermelons**: This means pears are the most expensive, and watermelons are the least expensive.\n\nGiven this analysis, the correct answer is:\n\n**(A) The oranges are the second-most expensive**",
+        "ground_truth": "(A)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4715,
+        "question": "Which statement is sarcastic?\nOptions:\n(A) His reaction is understandable—he didn't get a reply in 2 years\n(B) His reaction is understandable—he didn't get a reply in 2 minutes",
+        "generated_answer": "The sarcastic statement is:\n\n**(B) His reaction is understandable—he didn't get a reply in 2 minutes**\n\nThis is sarcastic because it’s highly unlikely that someone would react strongly to not getting a reply in just 2 minutes, making the statement exaggerated and ironic.",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1983,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a blue jay, a cardinal, a hawk, a hummingbird, and a quail. The quail is to the left of the blue jay. The cardinal is the third from the left. The quail is the second from the left. The blue jay is to the left of the hummingbird.\nOptions:\n(A) The blue jay is the second from the left\n(B) The cardinal is the second from the left\n(C) The hawk is the second from the left\n(D) The hummingbird is the second from the left\n(E) The quail is the second from the left",
+        "generated_answer": "Let's analyze the given information step by step to determine the correct order of the five birds on the branch.\n\n### Given Statements:\n1. **Quail is to the left of the blue jay.**\n   - This means the quail is somewhere to the left of the blue jay.\n2. **Cardinal is the third from the left.**\n   - This means the cardinal is in the third position when counted from the left.\n3. **Quail is the second from the left.**\n   - This directly states that the quail is in the second position from the left.\n4. **Blue jay is to the left of the hummingbird.**\n   - This means the blue jay is somewhere to the left of the hummingbird.\n\n### Step-by-Step Analysis:\n- From statement 3, we know the quail is in the second position from the left.\n- From statement 1, the quail is to the left of the blue jay, so the blue jay must be to the right of the quail.\n- From statement 2, the cardinal is in the third position from the left.\n- From statement 4, the blue jay is to the left of the hummingbird, so the hummingbird must be to the right of the blue jay.\n\n### Possible Order:\nLet's try to arrange the birds based on the above information:\n\n1. **Quail (second from the left)**\n2. **Cardinal (third from the left)**\n3. **Blue jay (to the left of hummingbird, so between quail and cardinal)**\n4. **Hummingbird (to the right of blue jay)**\n5. **Hawk (remaining position, to the right of hummingbird)**\n\nThis arrangement satisfies all the given statements:\n- Quail is the second from the left.\n- Cardinal is the third from the left.\n- Quail is to the left of the blue jay.\n- Blue jay is to the left of the hummingbird.\n- Hawk is in the fifth position.\n\n### Evaluating the Options:\n- **(A) The blue jay is the second from the left**: This is incorrect because the quail is the second from the left.\n- **(B) The cardinal is the second from the left**: This is incorrect because the cardinal is the third from the left.\n- **(C) The hawk is the second from the left**: This is incorrect because the hawk is in the fifth position.\n- **(D) The hummingbird is the second from the left**: This is incorrect because the quail is the second from the left.\n- **(E) The quail is the second from the left**: This is correct.\n\n### Conclusion:\nThe correct answer is **(E) The quail is the second from the left**.",
+        "ground_truth": "(E)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2378,
+        "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells seven fruits: loquats, watermelons, oranges, kiwis, apples, plums, and peaches. The plums are the cheapest. The watermelons are the third-most expensive. The apples are more expensive than the oranges. The kiwis are the most expensive. The apples are less expensive than the peaches. The loquats are the third-cheapest.\nOptions:\n(A) The loquats are the fourth-most expensive\n(B) The watermelons are the fourth-most expensive\n(C) The oranges are the fourth-most expensive\n(D) The kiwis are the fourth-most expensive\n(E) The apples are the fourth-most expensive\n(F) The plums are the fourth-most expensive\n(G) The peaches are the fourth-most expensive",
+        "generated_answer": "To determine the correct answer, let's analyze the given information step by step:\n\n1. **Plums are the cheapest**: This means plums are the least expensive.\n2. **Watermelons are the third-most expensive**: This means watermelons are more expensive than plums, apples, and oranges but less expensive than kiwis and peaches.\n3. **Apples are more expensive than oranges**: This means apples are more expensive than oranges but less expensive than kiwis and peaches.\n4. **Kiwis are the most expensive**: This means kiwis are more expensive than all other fruits.\n5. **Apples are less expensive than peaches**: This means peaches are more expensive than apples but less expensive than kiwis.\n6. **Loquats are the third-cheapest**: This means loquats are more expensive than plums and oranges but less expensive than apples.\n\nFrom the above points, we can deduce the following order of prices from cheapest to most expensive:\n- Plums\n- Loquats\n- Oranges\n- Apples\n- Watermelons\n- Peaches\n- Kiwis\n\nGiven this order, the fourth-most expensive fruit is **oranges**.\n\nTherefore, the correct answer is:\n\n**(C) The oranges are the fourth-most expensive**",
+        "ground_truth": "(E)",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1506,
+        "question": "This SVG path element <path d=\"M 53.87,61.90 L 52.73,49.16 A 12.80,12.80 207.60 0,1 63.98,54.06 L 53.87,61.90\"/> draws a\nOptions:\n(A) circle\n(B) heptagon\n(C) hexagon\n(D) kite\n(E) line\n(F) octagon\n(G) pentagon\n(H) rectangle\n(I) sector\n(J) triangle",
+        "generated_answer": "The SVG path element provided is:\n\n```\n<path d=\"M 53.87,61.90 L 52.73,49.16 A 12.80,12.80 207.60 0,1 63.98,54.06 L 53.87,61.90\"/>\n```\n\nLet's break down the path:\n\n1. **M 53.87,61.90**: This is the starting point of the path.\n2. **L 52.73,49.16**: This draws a line from the starting point to the point (52.73, 49.16).\n3. **A 12.80,12.80 207.60 0,1 63.98,54.06**: This draws a circular arc. The parameters are:\n   - **12.80,12.80**: The x and y radii of the ellipse.\n   - **207.60**: The large arc flag (0 for start, 1 for end).\n   - **0,1**: The sweep flag (0 for clockwise, 1 for counter-clockwise).\n   - **63.98,54.06**: The center of the ellipse.\n4. **L 53.87,61.90**: This draws a line back to the starting point, closing the shape.\n\nThe shape described by this path is a **circle**. The arc is part of a full circle, and the lines connect the start and end points to form a closed shape.\n\n**Answer: (A) circle**",
+        "ground_truth": "(I)",
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

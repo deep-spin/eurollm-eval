@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": " <s>[INST]Janeth borrowed $2000 and promised to repay it with an additional 10% of the amount. If she is going to pay $165 per month for 12 months, what balance will Janeth have left to pay by then?\n\nStep 1: Calculate the total amount Janeth needs to repay.\nThe total amount to be repaid is the principal plus 10% interest.\nTotal amount = Principal + (Principal * Interest rate)\nTotal amount = $2000 + ($2000 * 0.10)\nTotal amount = $2000 + $200\nTotal amount = $2200\n\nStep 2: Calculate the total amount Janeth will pay over 12 months.\nTotal payments = Monthly payment * Number of months\nTotal payments = $165 * 12\nTotal payments = $1980\n\nStep 3: Calculate the remaining balance.\nRemaining balance = Total amount to be repaid - Total payments\nRemaining balance = $2200 - $1980\nRemaining balance = $220\n\nTherefore, Janeth will have a remaining balance of $220 to pay after 12 months.[/INST]",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"220\". The generated answer says remaining balance is $220. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": " <s>[OUT]Let's break down the problem step by step to find out how many cars passed through the traffic jam in the first 15 minutes.\n\n1. **Total Cars Initially**: There were originally 30 cars on the highway.\n\n2. **Cars Taking an Exit**: 5 cars took an exit to avoid the traffic jam. So, the number of cars that actually went through the traffic jam is:\n   \\[\n   30 \\text{ cars} - 5 \\text{ cars} = 25 \\text{ cars}\n   \\]\n\n3. **Cars Passing in the Last 15 Minutes**: 20 cars passed in the last 15 minutes of the traffic jam.\n\n4. **Cars Passing in the First 15 Minutes**: Let \\( x \\) be the number of cars that passed in the first 15 minutes. The total number of cars that went through the traffic jam is the sum of the cars that passed in the first 15 minutes and the last 15 minutes:\n   \\[\n   x + 20 = 25\n   \\]\n\n5. **Solving for \\( x \\)**:\n   \\[\n   x = 25 - 20 = 5\n   \\]\n\n**Final Answer**: 5 cars passed through the traffic jam in the first 15 minutes.[/OUT]",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"5\". Generated answer says 5 cars passed in first 15 minutes. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": " <s>[INST]Violeta wants to buy new crayons. She needs 5 different colors and has set aside $20 for this purchase. One crayon costs $2. How much change will she receive?\nAnswer in English.[/INST] <s>[INST]Violeta needs to buy 5 crayons at $2 each, so the total cost is 5 * $2 = $10. She has $20, so her change will be $20 - $10 = $10.\nAnswer in English.[/INST]",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". The generated answer includes the solution: change will be $10. So meaning matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": " <s>[INST]Chad ordered a customized burrito for lunch. The base burrito costs $6.50. He adds an extra beef for $2.00, an extra cheese for $1.00, avocado for $1.00, and 2 sauces at $0.25 each. He decides to upgrade his meal for an additional $3.00, which allows him to add fries and a drink. He has a $5.00 gift card that he uses to pay. How much money does he still owe?\n[/INST] <s>[INST]To determine how much Chad still owes, let's break down the costs step by step:\n\n1. **Base Burrito Cost**: $6.50\n2. **Extra Beef**: $2.00\n3. **Extra Cheese**: $1.00\n4. **Avocado**: $1.00\n5. **Sauces**: 2 sauces × $0.25 each = $0.50\n6. **Meal Upgrade**: $3.00\n\n**Total Cost Before Discount**:\n$6.50 (base) + $2.00 (beef) + $1.00 (cheese) + $1.00 (avocado) + $0.50 (sauces) + $3.00 (upgrade) = $14.00\n\n**Applying the Gift Card**:\nChad uses a $5.00 gift card, so the remaining amount to pay is:\n$14.00 - $5.00 = $9.00\n\n**Final Amount Owed**: $9.00\n[/INST]",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is just \"9\". The generated answer calculates $9.00 owed. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": " <s>[INST] Let's break down the problem step by step to find out how many 30-minute episodes Frankie watched on Wednesday.\n\n1. **Calculate the total time spent watching TV from Monday to Friday:**\n   - **Monday:** 1 episode of 1 hour = 1 hour\n   - **Tuesday:** 1 episode of 1 hour = 1 hour\n   - **Wednesday:** Let the number of 30-minute episodes be \\( x \\). So, total time = \\( 0.5x \\) hours\n   - **Thursday:** 1 episode of 1 hour + 1 episode of 30 minutes = 1 + 0.5 = 1.5 hours\n   - **Friday:** 2 episodes of 1 hour = 2 hours\n\n2. **Set up the equation for the total time:**\n   \\[\n   1 \\text{ (Monday)} + 1 \\text{ (Tuesday)} + 0.5x \\text{ (Wednesday)} + 1.5 \\text{ (Thursday)} + 2 \\text{ (Friday)} = 7 \\text{ hours}\n   \\]\n\n3. **Simplify the equation:**\n   \\[\n   1 + 1 + 0.5x + 1.5 + 2 = 7\n   \\]\n   \\[\n   5.5 + 0.5x = 7\n   \\]\n\n4. **Solve for \\( x \\):**\n   \\[\n   0.5x = 7 - 5.5\n   \\]\n   \\[\n   0.5x = 1.5\n   \\]\n   \\[\n   x = \\frac{1.5}{0.5} = 3\n   \\]\n\n**Final Answer:**\nFrankie watched \\(\\boxed{3}\\) episodes of 30 minutes on Wednesday.[/INST]",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"3\". Generated answer explains and concludes 3. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": " <s>[INST]\nLet's break down the problem step by step to find the total number of downloads over the three months.\n\n1. **First Month:**\n   - The program had **60 downloads** in the first month.\n\n2. **Second Month:**\n   - The number of downloads in the second month was **three times** the number of downloads in the first month.\n   - Calculation: \\( 3 \\times 60 = 180 \\) downloads.\n\n3. **Third Month:**\n   - The number of downloads in the third month was **reduced by 30%** compared to the second month.\n   - First, find 30% of the second month's downloads: \\( 0.30 \\times 180 = 54 \\) downloads.\n   - Subtract this from the second month's downloads to get the third month's downloads: \\( 180 - 54 = 126 \\) downloads.\n\n4. **Total Downloads Over Three Months:**\n   - Add the downloads from all three months: \\( 60 + 180 + 126 = 366 \\) downloads.\n\n**Final Answer:**\nThe program had a total of **366 downloads** over the three months.\n[/INST]",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"366\". Generated answer says total 366 downloads. That's equivalent. So Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": " <s>[INST]There are four schools competing in a basketball tournament. Each school has sent a women's basketball team and a men's basketball team, and each team consists of 5 players. Additionally, each school has sent a coach for each team. In total, how many people have all the schools sent?\n\nLet's break it down step by step:\n\n1. **Number of Schools**: 4\n2. **Teams per School**: Each school has 2 teams (1 women's and 1 men's).\n3. **Players per Team**: Each team has 5 players.\n4. **Coaches per Team**: Each team has 1 coach.\n\n**Calculations**:\n- **Total Teams**: 4 schools × 2 teams/school = 8 teams\n- **Total Players**: 8 teams × 5 players/team = 40 players\n- **Total Coaches**: 8 teams × 1 coach/team = 8 coaches\n- **Total People**: 40 players + 8 coaches = 48 people\n\n**Final Answer**: \\boxed{48}[/INST]",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"48\". Generated answer explains and gives final answer 48. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": " To determine how much each person paid, we first need to calculate the total amount Isabelle spent on the party items.\n\n1. **Calculate the total cost:**\n   - Ingredients for the cake: \\$12\n   - Birthday gifts: \\$43\n   - Decorations: \\$15\n   - Invitation cards: \\$4\n   - Bags with candies: \\$22\n\n   Total cost = \\$12 + \\$43 + \\$15 + \\$4 + \\$22\n   Total cost = \\$96\n\n2. **Divide the total cost equally among three people (Isabelle, her father, and her mother):**\n   Each person's share = Total cost / 3\n   Each person's share = \\$96 / 3\n   Each person's share = \\$32\n\n**Final Answer:** Each person paid \\boxed{32} dollars.",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"32\". Generated answer explains and gives 32 dollars each. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": " <s>Let's break down the problem step by step:\n\n1. **Initial Number of Elves:**\n   Nissa initially hires 60 elves.\n\n2. **First Resignation (One-third of the elves quit):**\n   - One-third of 60 is calculated as \\( \\frac{1}{3} \\times 60 = 20 \\).\n   - So, 20 elves quit after children vomited on them.\n   - Remaining elves: \\( 60 - 20 = 40 \\).\n\n3. **Second Resignation (10 more elves quit):**\n   - 10 elves quit after children kicked their shins.\n   - Remaining elves: \\( 40 - 10 = 30 \\).\n\n**Final Answer:**\n\\boxed{30} elves remain.</s>",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"30\". Generated answer explains and gives final answer 30 elves remain. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": " <s>[OUT]When Jennie started, there were 10 cards in the pile of cards that already had stamps.\n\nHere's the reasoning:\n\n1. Jennie starts with 60 cards that need stamps.\n2. She stamps 1/3 of these cards: 60 / 3 = 20 cards.\n3. After stamping, there are now 30 cards in the pile that already have stamps.\n4. This means that before she stamped the 20 cards, there were 30 - 20 = 10 cards that already had stamps.\n\nSo, the initial number of cards with stamps was 10.[/OUT]",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"10\". Generated answer says \"When Jennie started, there were 10 cards in the pile of cards that already had stamps.\" That's same. So True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

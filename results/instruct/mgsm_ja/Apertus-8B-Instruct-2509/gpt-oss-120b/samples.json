@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？\nAnswer in English.",
+        "generated_answer": "To calculate the remaining debt after 12 months, we need to first determine the total amount paid over the 12 months and then subtract that from the original $2,000 loan.\n\n1. Calculate the total amount paid over 12 months:\n   - Monthly payment: $165\n   - Number of months: 12\n   - Total amount paid = Monthly payment * Number of months\n   - Total amount paid = $165 * 12 = $1,980\n\n2. Subtract the total amount paid from the original loan:\n   - Original loan: $2,000\n   - Remaining debt = Original loan - Total amount paid\n   - Remaining debt = $2,000 - $1,980 = $20\n\nSo, after 12 months, the remaining debt is $20.",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？ Answer in English.\"\n\nInterpretation: Janes borrowed $2000, promised to repay with 10% increase (i.e., total owed = $2000 * 1.10 = $2200). Over 12 months paying $165 per month, total paid = $1980. Remaining debt = $2200 - $1980 = $220. So ground truth is 220. Generated answer computed remaining debt as $20, ignoring the 10% increase. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "車が高速道路に並んでいる。そのうちの何台かは、渋滞の最初の15分間を走り、次の20台は渋滞の残りの15分を走っている。列のうち、5台の車は渋滞を走らなくていいよう、出口から出た。もともと30台の車が高速道路にいたのなら、渋滞の最初の15分間を走った車は何台いる？\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break it down step by step.\n\n1. **Total number of cars initially**: 30\n2. **Cars that ran the first 15 minutes of the traffic**: Let's call this number \"x\". \n3. **Cars that ran the remaining 15 minutes of the traffic**: This number is 20 (since the problem states that the next 20 cars ran the remaining 15 minutes).\n4. **Cars that didn't run the traffic**: These are the 5 cars that left the traffic.\n\nNow, let's calculate the number of cars that ran the first 15 minutes of the traffic:\n\n- Total cars initially: 30\n- Cars that ran the first 15 minutes: x\n- Cars that ran the remaining 15 minutes: 20\n- Cars that didn't run the traffic: 5\n\nSince the total number of cars is 30, we can set up an equation:\n\nx + 20 + 5 = 30\n\nSimplifying the equation:\n\nx + 25 = 30\n\nSubtract 25 from both sides:\n\nx = 5\n\nSo, the number of cars that ran the first 15 minutes of the traffic is 5.",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"5\". Generated answer explains and concludes x = 5, stating number of cars that ran first 15 minutes is 5. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "バイオレッタは新しいクレヨンを購入したいです。彼女は5つの違う色が必要で、今回の購入のために$20用意しました。1本のクレヨンは$2です。彼女のおつりはいくらになりますか？\nAnswer in English.",
+        "generated_answer": "バイオレッタは5本のクレヨンを購入するために$20を使います。1本のクレヨンは$2なので、5本で$10になります。したがって、彼女は$20から$10を引いて、$10のおつりを受け取ります。",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". The question: \"How much change does she get?\" She has $20, each crayon $2, needs 5 crayons costing $10, so change $10. Ground truth is \"10\". Generated answer says: She uses $20 to buy 5 crayons, each $2, total $10, so change $10. That matches. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "チャドは自分で作るブリトーをランチに注文しました。基本のブリトーは$6.50です。追加の肉を$2.00、追加のチーズを$1.00、$1.00アボカド、$0.25のソースを2つ注文付けます。彼はランチに追加で$3.00払ってアップグレードし、ポテトチップスと飲み物を付けました。会計時に使える$5.00のギフトカードを持っています。彼の料金は今いくらになりますか？\nAnswer in English.",
+        "generated_answer": "First, let's calculate the cost of the basic burrito: $6.50.\n\nNext, let's add the additional items:\n- Meat: $2.00\n- Cheese: $1.00\n- Avocado: $1.00\n- Sauce: $0.25 (2 times) = $0.50\n\nThe total cost of the burrito with additional items is: $6.50 + $2.00 + $1.00 + $1.00 + $0.50 = $11.00\n\nThen, let's add the upgrade cost: $3.00\n\nSo, the total cost before applying the gift card is: $11.00 + $3.00 = $14.00\n\nNow, let's apply the gift card: $14.00 - $5.00 = $9.00\n\nTherefore, the final cost for the lunch is $9.00.",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"9\". The generated answer says final cost is $9.00. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "フランキーは毎晩宿題が終わった後にテレビを観ます。月曜日と火曜日、彼はそれぞれの日のお気に入りの番組の1時間のエピソードを観ました。水曜日、彼は30分のエピソードをいくつか観ました。木曜日、彼は宿題を早く終わらせて、1時間のエピソードと30分の番組を観ました。金曜日の週末、彼は遅くまで起きて、1時間のエピソードを2つ観ました。もしも彼が全部でテレビを7時間観たとすると、水曜日に彼は30分のエピソードをいくつ観ましたか？\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break down the information given:\n\n- Monday: 1 hour\n- Tuesday: 1 hour\n- Wednesday: x 30-minute episodes\n- Thursday: 1 hour + x 30-minute episodes\n- Friday: 2 hours\n\nWe know that the total time spent watching TV is 7 hours. So, we can set up the following equation:\n\n1 hour (Monday) + 1 hour (Tuesday) + x 30-minute episodes (Wednesday) + 1 hour + x 30-minute episodes (Thursday) + 2 hours (Friday) = 7 hours\n\nNow, let's convert all the time into hours for consistency:\n\n1 hour + 1 hour + x 0.5 hours (since 30 minutes is 0.5 hours) + 1 hour + x 0.5 hours + 2 hours = 7 hours\n\nCombine like terms:\n\n3 hours + x 0.5 hours + 3 hours + x 0.5 hours + 2 hours = 7 hours\n\nNow, let's simplify:\n\n7 hours + x 1 hour = 7 hours\n\nSince the equation balances out, we can conclude that x 1 hour = 0. This means that Frankie did not watch any 30-minute episodes on Wednesday. Therefore, the answer is:\n\n0",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: How many 30-minute episodes did he watch on Wednesday? Ground truth answer: 3. Generated answer says 0. So they differ. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "新規のプログラムが最初の月は60回ダウンロードされました。2か月目にはダウンロード回数は3倍に膨れ上がりましたが、3か月目は30%減少しました。3か月間でプログラムのダウンロード回数は合計何回だったでしょうか？\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads over the three months, we need to calculate the number of downloads for each month and then add them up.\n\n1. First month: 60 downloads\n2. Second month: 3 times the first month = 3 * 60 = 180 downloads\n3. Third month: 30% less than the second month = 180 * (1 - 0.3) = 180 * 0.7 = 126 downloads\n\nNow, let's add up the downloads for the three months:\n60 + 180 + 126 = 366\n\nSo, the total number of downloads over the three months is 366.",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is just \"366\". Generated answer explains and arrives at 366. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "バスケットボールの大会で、4校が競っている。各学校が女子バスケットボールチームと男子バスケットボールチームを参加させており、各チーム5人いる。各学校はまた、コーチも1人参加させている。すべての学校で、全部で何人の人間が参加しているか？\nAnswer in English.",
+        "generated_answer": "To determine the total number of people participating in the basketball tournament, we need to consider the number of players and coaches from each school.\n\nEach school has:\n- 1 team of 5 players (total of 5 players per school)\n- 1 coach\n\nSo, for each school, the total number of people is:\n5 players + 1 coach = 6 people\n\nSince there are 4 schools, we multiply the number of people per school by 4:\n6 people/school * 4 schools = 24 people\n\nTherefore, all schools together have 24 people participating in the tournament.",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: 4 schools, each has women's and men's basketball team, each team 5 people, plus 1 coach per school. So per school: women's team 5, men's team 5 = 10 players, plus 1 coach = 11. 4 schools => 44 players + 4 coaches = 48. Ground truth says 48. Generated answer says each school has 1 team of 5 players, ignoring gender split, so they got 6 per school, total 24. That's not equivalent. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "イザベルは妹の誕生日会に向けパーティー用品を購入しました。彼女はケーキの材料に$12、誕生日プレゼントに$43、飾り付けに$15、招待カードに$4、会に参加するゲストのお土産バッグに$22使いました。彼女は両親2人と、費用を均等に3等分します。それぞれ何ドル払いましたか？\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we first need to calculate the total cost of the party supplies.\n\nTotal cost = $12 (cake materials) + $43 (birthday present) + $15 (decorations) + $4 (invitation cards) + $22 (guest gift bags) = $96\n\nSince there are 4 people (Isabel and her parents), we divide the total cost by 4:\n\n$96 ÷ 4 = $24\n\nSo, each person paid $24.",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: Isabel bought items costing 12+43+15+4+22 = 96. She splits cost equally among 2 parents? Actually says \"彼女は両親2人と、費用を均等に3等分します。\" Means she and her two parents split equally into three parts. So each pays 96/3 = 32. Ground truth is 32. Generated answer says 4 people and each $24. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 130,
+        "question": "ニッサは、サンタビレッジの彼女のデパートでエルフを演じる60人の期間従業員を雇います。3分の1のエルフが子供が彼らに吐いた後、辞めます。それから残りの10人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to follow the steps below:\n\n1. Start with the total number of employees: 60\n2. 3分の1 of the employees quit after being spat on by a child. \n   - 3/1 * 60 = 18 employees quit.\n3. After the first round of quitting, 60 - 18 = 42 employees remain.\n4. Then, 10 of the remaining employees quit after being kicked on the shin by a child.\n   - 10 employees quit.\n5. After the second round of quitting, 42 - 10 = 32 employees remain.\n\nSo, the number of elves that remain is 32.",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"ニッサは、サンタビレッジの彼女のデパートでエルフを演じる60人の期間従業員を雇います。3分の1のエルフが子供が彼らに吐いた後、辞めます。それから残りの10人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？ Answer in English.\"\n\nInterpretation: 60 elves. One third quit after being spat on. One third of 60 is 20, not 18. The generated answer incorrectly computed 3/1 * 60 = 18 (they misread). Actually 1/3 of 60 = 20. Then remaining 40. Then 10 quit, leaving 30. Ground truth says 30. Generated answer says 32. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 124,
+        "question": "ジェニーは母親のオフィスで手伝いをしています。彼女には、切手が必要な60通の手紙の塊と、すでに切手が貼られた手紙の塊があります。切手が必要な手紙の3分の1に切手を貼ります。すでに切手を貼られた手紙の塊に今、30通の手紙があるとすると、ジェニーが作業を始めた時、その塊には何通の手紙がありました？\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break it down step by step.\n\n1. **Understand the given information:**\n   - There are 60 letters that need stamps.\n   - There is a bundle of letters that already have stamps.\n   - 30 letters in this bundle need stamps.\n   - 1/3 of the letters that need stamps will get stamps.\n\n2. **Calculate the number of letters that need stamps:**\n   - Since 30 letters in the bundle need stamps, and 1/3 of the 60 letters need stamps, we can set up a proportion:\n     \\[\n     \\frac{30}{60} = \\frac{1}{3}\n     \\]\n   - This confirms that 30 letters need stamps.\n\n3. **Determine the number of letters in the bundle with stamps:**\n   - Since 30 letters in the bundle need stamps, and the bundle has 30 letters, it means the entire bundle needs stamps.\n\n4. **Calculate the number of letters in the bundle when it was first given to Jenny:**\n   - Since 30 letters in the bundle need stamps, and the bundle has 30 letters, it means the bundle had 30 letters when it was first given to Jenny.\n\nTherefore, the number of letters in the bundle when Jenny started working is 30.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: Japanese: \"Jenny is helping at her mother's office. She has a pile of 60 letters that need stamps and a pile of letters that already have stamps. She puts stamps on one third of the letters that need stamps. If the pile of letters that already have stamps currently has 30 letters, how many letters were in that pile when Jenny started working?\" The answer is 10 (ground truth). The generated answer says 30. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

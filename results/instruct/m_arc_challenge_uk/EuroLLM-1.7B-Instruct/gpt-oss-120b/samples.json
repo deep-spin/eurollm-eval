@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Яке з наступних описує зміну води зі стану рідкого на стан твердого?\nA) утворення криги на озері\nB) утворення роси на траві\nC) танення снігу у калюжу\nD) випаровування води зі ставка\nAnswer in English.",
+        "generated_answer": "A) утворення криги на озері",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Which of the following describes the change of water from liquid to solid?\" Options: A) formation of ice on a lake, B) formation of dew on grass, C) melting snow into a puddle, D) evaporation of water from a pond. Correct answer is A. Ground truth: \"A\". Generated answer: \"A) утворення криги на озері\". That is the same as option A, matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Чоловік піднявся на верх гори. На вершині, він випив усю воду з пластикової пляшки і назад закрив кришечку. Коли він повернувся до табору у долині, то відкрив, що його пляшка стала плоскою. Що з наступного найкраще пояснює, чому це сталось?\nA) Температура в долині нижча, ніж на вершині гори.\nB) Температура в долині вища, ніж на вершині гори.\nC) Тиск повітря в долині менший, ніж на вершині гори.\nD) Тиск повітря в долині більший, ніж на вершині гори.\nAnswer in English.",
+        "generated_answer": "B) Температура в долині вища, ніж на вершині гори.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: which explanation best explains why bottle became flat after descending? Correct answer is D: pressure in valley higher than at summit, causing bottle to compress. Generated answer: B) temperature in valley higher than at summit. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Чому поливання рослин та трав уранці є способом збереження води?\nA) Вранці завжди більше води.\nB) У вологу прохолоду ранку випаровується менше води.\nC) Воду, використану вранці, можна відновити для використання в другій половині дня.\nD) Трава може поглинати воду лише вранці.\nAnswer in English.",
+        "generated_answer": "A) Вранці завжди більше води.\nB) У вологу прохолоду ранку випаровується менше води.\nC) Воду, використану вранці, можна відновити для використання в другій половині дня.\nD) Трава може поглинати воду лише вранці.\nAnswer in English.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The generated answer repeats all options A-D, not selecting one. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "Літосферні плити зрушуються, утворюючи земні формації на поверхні Землі. Яка з земних формацій утворюється в результаті згинання плит одна на одну?\nA) землетрус\nB) гірський хребет\nC) ріка\nD) вулкан\nAnswer in English.",
+        "generated_answer": "A) землетрус",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"Літосферні плити зрушуються, утворюючи земні формації на поверхні Землі. Яка з земних формацій утворюється в результаті згинання плит одна на одну? A) землетрус B) гірський хребет C) ріка D) вулкан Answer in English.\"\n\nCorrect answer: B) mountain ridge (гірський хребет). Ground truth: B.\n\nGenerated answer: \"A) землетрус\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1047,
+        "question": "Як відрізняються організми, класифіковані як Eukarya, від організмів, класифікованих як Archaea та Bacteria?\nA) Вони всі багатоклітинні.\nB) Вони всі розмножуються статево.\nC) Вони всі виробляють свою їжу.\nD) Вони всі мають ядра, оточені мембраною.\nAnswer in English.",
+        "generated_answer": "A) Вони всі багатоклітинні.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"Як відрізняються організми, класифіковані як Eukarya, від організмів, класифікованих як Archaea та Bacteria? A) ... B) ... C) ... D) ...\" The correct answer is D (they all have nuclei surrounded by membrane). Generated answer is \"A) Вони всі багатоклітинні.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 995,
+        "question": "Під час експерименту з аеробним клітинним диханням біолог обмежує кількість фосфору, доступну для клітинної культури. Як це може вплинути на клітину?\nA) Кількість клітинної енергії зменшиться.\nB) Кількість клітинної енергії збільшиться.\nC) Кількість виробленої глюкози збільшиться.\nD) Кількість виробленої глюкози зменшиться.\nAnswer in English.",
+        "generated_answer": "A) Кількість клітинної енергії зменшиться.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. Question: Ukrainian. The correct answer is A. Ground truth: \"A\". Generated answer: \"A) Кількість клітинної енергії зменшиться.\" That matches answer A. So meaning same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Організми мають безліч методів, що дозволяють їм виживати в зимових умовах. Який з наступних прикладів НЕ є прикладом того, як організм пристосовується до виживання в холодну зиму?\nA) Червонояруси летять з Мічигана до Джорджії восени.\nB) Хамелеони змінюють колір, щоб злитися з оточенням.\nC) Олені з білою підборіддям вирощують довшу волосся, яке порожнє зсередини.\nD) Карасі встають на дно ставка та прикривають себе болотом.\nAnswer in English.",
+        "generated_answer": "A) Червонояруси летять з Мічигана до Джорджії восени.\nB) Хамелеони змінюють колір, щоб злитися з оточенням.\nC) Олені з білою підборіддям вирощують довшу волосся, яке порожнє зсередини.\nD) Карасі встають на дно ставка та прикривають себе болотом.\nНайбільш відповідним прикладом того, як організм пристосовується до виживання в холодну зиму, є B) Хамелеони змінюють колір, щоб злитися з оточенням. Хамелеони мають здатність змінювати колір шкіри, щоб пристосуватися до змін у навколишньому середовищі. Вони можуть змінювати колір шкіри від зеленого до коричневого, щоб пристосуватися до різних умов навколишнього середовища.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The question asks which example is NOT an example of adaptation to survive cold winter. The correct answer is B (chameleons changing color). The generated answer lists all options and then says \"The most appropriate example of how organism adapts to survive cold winter is B)...\" It says B is the most appropriate example of adaptation, which is contradictory: the question asks which is NOT an example of adaptation to survive cold winter. The ground truth says B is the answer (i.e., B is NOT an example). The generated answer says B is an example of adaptation (i.e., says B is a correct adaptation). So the meaning is opposite. Also the generated answer includes extra content, not just \"B\". So it's not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "Який етап відбувається як у життєвому циклі дерева, так і у життєвому циклі жаби?\nA) зростання\nB) сплячість\nC) зимівля\nD) метаморфоза\nAnswer in English.",
+        "generated_answer": "A) зростання\nB) сплячість\nC) зимівля\nD) метаморфоза",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which stage occurs both in the life cycle of a tree and in the life cycle of a frog?\" Options: A) growth, B) hibernation, C) wintering, D) metamorphosis. The correct answer is likely \"growth\" (зростання). Ground truth answer: \"A\". So the correct answer is option A.\n\nGenerated answer just repeats the options list, not selecting any. It does not indicate which is correct. So it's not equivalent. Therefore answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "Сніг, дощ, град та туман - це всі форми\nA) газу.\nB) води.\nC) вітру.\nD) хмар.\nAnswer in English.",
+        "generated_answer": "B) вода.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Сніг, дощ, град та туман - це всі форми\" (Snow, rain, hail and fog are all forms of...). Options: A) gas, B) water, C) wind, D) clouds. The correct answer is B) water. Generated answer: \"B) вода.\" That's B) water. Ground truth: \"B\". So they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 733,
+        "question": "Як рослинні клітини відрізняються від тваринних клітин?\nA) Тільки рослинні клітини можуть рости.\nB) Тільки тваринні клітини можуть розмножуватися.\nC) Тільки тваринні клітини можуть зберігати енергію.\nD) Тільки рослинні клітини можуть виконувати фотосинтез.\nAnswer in English.",
+        "generated_answer": "A) Тільки рослинні клітини можуть рости.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equivalent in meaning to ground truth. Question: \"Як рослинні клітини відрізняються від тваринних клітин?\" (How do plant cells differ from animal cells?) Options given. Ground truth answer is D (only plant cells can perform photosynthesis). Generated answer is A (only plant cells can grow). Those are not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 447,
+        "question": "Два велосипедисти їхали на своїх велосипедах зі швидкістю 20 кілометрів за годину (км/г). Протягом наступної години вони помітили, що збільшили свою швидкість до 26 км/г. Яке було їхнє середнє прискорення?\nA) 0,2 км/г^2\nB) 3,0 км/г^2\nC) 6,0 км/г^2\nD) 12,0 км/г^2\nAnswer in English.",
+        "generated_answer": "B) 3,0 км/г^2\n\nДля того, щоб знайти середнє прискорення велосипедистів, потрібно обчислити середнє арифметичне швидкостей і прискорень.\n\nСереднє арифметичне швидкостей велосипедистів дорівнює:\n\n(20 + 26) / 2 = 46 / 2 = 23 км/г\n\nСереднє арифметичне прискорень велосипедистів дорівнює:\n\n(20 + 26) / 2 = 46 / 2 = 23 км/г^2\n\nСереднє прискорення велосипедистів дорівнює:\n\n23 км/г^2 / 2 = 11,666666666666666 км/г^2\n\nСереднє прискорення велосипедистів дорівнює 11,666666666666666 км/г^2.\n\nВідповідь: B) 3,0 км/г^2",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: two cyclists increased speed from 20 km/h to 26 km/h over one hour. What is average acceleration? Acceleration = (v_final - v_initial)/time = (26-20)/1 = 6 km/h^2. Wait units: km/h per hour = km/h^2. So answer should be 6 km/h^2, which corresponds to option C (6.0). But ground truth says D. Option D is 12.0 km/h^2. That seems wrong. However we must compare generated answer to ground truth, not to correct physics. Ground truth answer is \"D\". Generated answer says \"B) 3,0 km/h^2\". They are not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "Яка частина екосистеми ставка надає притулок маленьким рибам?\nA) камені\nB) вода\nC) жаби\nD) ґрунт\nAnswer in English.",
+        "generated_answer": "B) вода",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Ukrainian: \"Яка частина екосистеми ставка надає притулок маленьким рибам?\" Means \"Which part of a pond ecosystem provides shelter for small fish?\" Options: A) stones, B) water, C) frogs, D) soil. Correct answer likely \"stones\" (they hide among stones). Ground truth says \"A\". Generated answer: \"B) вода\" i.e., water. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 285,
+        "question": "Кінцевим результатом процесу фотосинтезу є вироблення цукру та кисню. Який етап сигналізує початок фотосинтезу?\nA) Хімічна енергія поглинається через корені.\nB) Світлова енергія перетворюється на хімічну енергію.\nC) Хлорофіл у листі збирає світлову енергію.\nD) Сонячне світло перетворюється на хлорофіл.\nAnswer in English.",
+        "generated_answer": "The correct answer is B) Light energy is converted into chemical energy.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". The generated answer says \"The correct answer is B) Light energy is converted into chemical energy.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 577,
+        "question": "Аріана використовує кульки для вивчення статичної електрики. Яке з наступного найкраще пояснює, що станеться, коли вона приведе дві позитивно заряджені кульки близько одна до одної?\nA) Кульки розійдуться.\nB) Одна кулька втратить свій заряд.\nC) Кульки зблизяться.\nD) Одна кулька набуде негативний заряд.\nAnswer in English.",
+        "generated_answer": "A) Кульки розійдуться.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Ukrainian about two positively charged balls. Which best explains what will happen when she brings two positively charged balls close? Correct answer: they will repel, i.e., \"Кульки розійдуться.\" That's option A. Ground truth answer: \"A\". Generated answer: \"A) Кульки розійдуться.\" That matches meaning: both indicate option A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "Яке з наступних найкраще відображатиме відсотки восьми найпоширеніших елементів в земній корі?\nA) лінійний графік\nB) кругова діаграма\nC) стовпчикова діаграма\nD) таблиця даних\nAnswer in English.",
+        "generated_answer": "Найкраще відображатиме відсотки восьми найпоширеніших елементів в земній корі кругова діаграма.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which of the following best will display percentages of eight most common elements in Earth's crust?\" Options: A line graph, B pie chart, C bar chart, D data table. The correct answer likely is a pie chart (B) because percentages. But ground truth says D (table). The generated answer says \"pie chart\". That does not match ground truth. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Миша знаходиться на одному кінці картонного лабіринту, в якому на іншому кінці знаходиться шматочок сиру. Миша відчуває запах сиру і навчається, як його знайти. Миша використовує\nA) набуту ознаку, щоб отримати успадковану ознаку.\nB) усадковану ознаку, щоб отримати набуту.\nC) набуту ознаку, щоб отримати ще одну набуту ознаку.\nD) усадковану ознаку, щоб отримати ще одну успадковану ознаку.\nAnswer in English.",
+        "generated_answer": "A) набуту ознаку, щоб отримати успадковану ознаку.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. Question is Ukrainian about mouse in maze, using... The ground truth answer is \"B\". The generated answer is \"A) набуту ознаку, щоб отримати успадковану ознаку.\" That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 513,
+        "question": "Яка умова необхідна для створення діамантів?\nA) висока висота\nB) інтенсивний тиск\nC) швидке охолодження\nD) низькі температури\nAnswer in English.",
+        "generated_answer": "A) висока висота",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What condition is necessary for creating diamonds?\" Options: A high altitude, B intense pressure, C rapid cooling, D low temperatures. Correct is B (intense pressure). Generated answer: \"A) висока висота\" i.e., high altitude. That's not same as B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1090,
+        "question": "Енергетичні компанії часто виробляють електроенергію з різних джерел. Використання якого ресурсу найбільше покращило б якість повітря?\nA) нафти\nB) газу\nC) вугілля\nD) вітру\nAnswer in English.",
+        "generated_answer": "B) газ",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Energy companies often produce electricity from various sources. Using which resource would most improve air quality? Options: A) oil, B) gas, C) coal, D) wind\". The correct answer is D (wind). Generated answer: \"B) газ\" i.e., gas. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "Ґрета кілька разів пройшлась гребінцем по волоссю. Потім вона поставила гребінець поруч з потоком води, що тікав з крана. Ґрета помітила, що потік води почав заламуватись біля гребінця. Як проходження гребінцем по волоссю зумовило заламування потоку води?\nA) зробивши гребінець більш водопоглинаючим\nB) заряджаючи гребінець електрикою\nC) збільшивши теплову енергію гребінця\nD) розриваючи деякі хімічні зв'язки в гребінці\nAnswer in English.",
+        "generated_answer": "A) зробивши гребінець більш водопоглинаючим",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"How did passing the comb through hair cause the water stream to bend?\" Options: A) making comb more water-absorbing, B) charging comb with electricity, C) increasing thermal energy, D) breaking chemical bonds. The correct answer is B (charging comb with electricity). Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "Кисень, водень і вода - це речовини. Які з цих речовин є елементами?\nA) кисень, водень і вода\nB) тільки кисень і водень\nC) тільки кисень\nD) тільки вода\nAnswer in English.",
+        "generated_answer": "A) кисень, водень і вода - це речовини. Які з цих речовин є елементами?",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Кисень, водень і вода - це речовини. Які з цих речовин є елементами? A) кисень, водень і вода B) тільки кисень і водень C) тільки кисень D) тільки вода\". The correct answer is B (only oxygen and hydrogen are elements). Ground truth is \"B\". Generated answer: \"A) кисень, водень і вода - це речовини. Які з цих речовин є елементами?\" That is not the same; it's just restating the question, not giving answer B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Чому швидкі зміни навколишнього середовища частіше призводять до вимирання, ніж повільні зміни?\nA) Повільні зміни дають час для пристосування.\nB) Швидкі зміни вимагають мало пристосування.\nC) Повільні зміни впливають тільки на невеликі регіони.\nD) Швидкі зміни мають глобальний ефект.\nAnswer in English.",
+        "generated_answer": "A) Повільні зміни дають час для пристосування.\nB) Швидкі зміни вимагають мало пристосування.\nC) Повільні зміни впливають тільки на невеликі регіони.\nD) Швидкі зміни мають глобальний ефект.\nAnswer in English.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Чому швидкі зміни навколишнього середовища частіше призводять до вимирання, ніж повільні зміни?\" Options given. The ground truth answer is \"A\". So correct answer is option A.\n\nGenerated answer repeats all options, not selecting one. It does not indicate which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 151,
+        "question": "Яким з наступних процесів головним чином передається теплова енергія від Сонця до Землі?\nA) провідність\nB) конвекція\nC) випаровування\nD) випромінювання\nAnswer in English.",
+        "generated_answer": "The process by which solar energy is mainly transferred to Earth is:\nA) conduction\nB) convection\nC) evaporation\nD) radiation",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which of the following processes mainly transfers thermal energy from Sun to Earth?\" Options A-D. Ground truth answer: D. The generated answer just repeats the question and options, but does not select an answer. It does not state D. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "Хімічна реакція відбувається, коли\nA) скло розбивається на шматки.\nB) тісто запікається в печі.\nC) морозиво перетворюється в рідину.\nD) електрика протікає через дріт.\nAnswer in English.",
+        "generated_answer": "A) скло розбивається на шматки.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"Хімічна реакція відбувається, коли\" (Chemical reaction occurs when). Options: A) glass breaks into pieces. B) dough bakes in oven. C) ice cream turns into liquid. D) electricity flows through wire. The correct answer is B (baking dough is a chemical reaction). Ground truth: B. Generated answer: \"A) скло розбивається на шматки.\" That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 966,
+        "question": "Студент вимірює прискорення кам'яного блоку на рівній поверхні, коли на блок діє відома сила. Що потрібно додатково знати, щоб точно розрахувати масу блоку?\nA) щільність блоку\nB) кількість тертя\nC) маса поверхні\nD) напрямок руху\nAnswer in English.",
+        "generated_answer": "D) напрямок руху",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: Ukrainian: \"Student measures acceleration of a stone block on a flat surface when a known force acts on the block. What else needs to be known to accurately calculate the block's mass?\" Options: A) density, B) friction amount, C) mass of surface, D) direction of motion. Correct answer is B (friction). Generated answer: D) direction of motion. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "Фермери використовують пестициди для боротьби з комахами. Іноді пестициди потрапляють у річки. Це є прикладом\nA) фермерів, які працюють для захисту довкілля.\nB) використання природних речовин для вирішення проблем.\nC) фермерів, які намагаються зменшити кількість врожаю.\nD) розв’язання однієї проблеми, створює іншу проблему.\nAnswer in English.",
+        "generated_answer": "A) фермерів, які працюють для захисту довкілля.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Ukrainian: \"Farmers use pesticides to fight insects. Sometimes pesticides get into rivers. This is an example of ...\" Options: D is \"solving one problem creates another problem.\" That's correct. Generated answer: \"A) фермерів, які працюють для захисту довкілля.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 206,
+        "question": "Домінік спостерігає за колонією вольвоксу та парамецією під мікроскопом. Він робить запис у своєму журналі, що колонія вольвоксу та парамеція подібні тим, що в них багато органел для руху. Що, ймовірно, Домінік помітив би щодо руху колонії вольвоксу та парамеції?\nA) Вони рухаються з однаковою швидкістю.\nB) Вони обидві віддаляються від світла.\nC) Вони обидві рухаються в одному напрямку.\nD) Вони обидві рухаються до джерела енергії.\nAnswer in English.",
+        "generated_answer": "B) Вони обидві віддаляються від світла.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Домінік спостерігає за колонією вольвоксу та парамецією під мікроскопом. Він робить запис у своєму журналі, що колонія вольвоксу та парамеція подібні тим, що в них багато органел для руху. Що, ймовірно, Домінік помітив би щодо руху колонії вольвоксу та парамеції? A) ... B) ... C) ... D) ...\"\n\nGround truth answer is D. That corresponds to \"Вони обидві рухаються до джерела енергії.\" (They both move toward the energy source). Generated answer is B) \"Вони обидві віддаляються від світла.\" (They both move away from light). That is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 724,
+        "question": "Яке з наступного найкраще описує зміну, яка є фізичною?\nA) нитки, що в'язані у светр\nB) запуск двигуна трактора\nC) метал на велосипеді покривається ржавчиною\nD) трава видобуває енергію з сонячного світла\nAnswer in English.",
+        "generated_answer": "A) нитки, що в'язані у светр",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Which of the following best describes a change that is physical?\" Options A-D. The correct answer is A? Wait physically change: physical change is change in state or form, not chemical. Options: A) threads knitted into a sweater (physical change). B) starting tractor engine (maybe chemical? engine combustion chemical). C) metal rusting (chemical). D) grass harvesting energy from sunlight (photosynthesis chemical). So correct is A. Ground truth answer: \"A\". Generated answer: \"A) нитки, що в'язані у светр\". That's basically the same as option A, describing the same. So meaning matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 889,
+        "question": "Енергія змінює форму або передається через дію сил. Прикладом зміни кінетичної енергії на потенційну є\nA) валун, що лежить на скелі\nB) людина, що біжить по доріжці\nC) автомобіль, який їде під гору і паркується\nD) гумка, яка розтягується та ламається\nAnswer in English.",
+        "generated_answer": "A) валун, що лежить на скелі",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Energy changes form or is transferred through action of forces. An example of change of kinetic energy to potential is ...\" Options: A) boulder lying on a cliff, B) person running on track, C) car driving up a hill and parking, D) rubber band stretching and breaking. Correct is C (car going uphill and parking). Generated answer: \"A) валун, що лежить на скелі\" which is option A. That does not match ground truth. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 647,
+        "question": "Припустимо, що 20 г рідинного перекису водню підігрівається так, що він повністю розкладається на рідину воду та кисень. Яке з наведених нижче тверджень найбільш точно описує загальну масу води та кисню, яка утворилася?\nA) більше, ніж 20 г, через додавання тепла\nB) більше, ніж 20 г, тому що тепер є дві речовини\nC) менше, ніж 20 г, оскільки газовий кисень є дуже легким\nD) 20 г, тому що жодна речовина не додана або видалена\nAnswer in English.",
+        "generated_answer": "A) більше, ніж 20 г, через додавання тепла",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: which statement most accurately describes total mass of water and oxygen formed from 20 g hydrogen peroxide decomposition. Mass is conserved, so total mass remains 20 g. So correct answer D. Generated answer is \"A) більше, ніж 20 г, через додавання тепла\" which is option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 418,
+        "question": "При якому типі маржів гірськобудівництво породжує гори, що складаються виключно з передіснуючого коркового матеріалу?\nA) розходяча межа між двома океанськими плитами\nB) розходяча межа між океанською та континентальною плитами\nC) колізійна межа між океанською та континентальною плитою\nD) колізійна межа між двома континентальними плитами\nAnswer in English.",
+        "generated_answer": "A) розходяча межа між двома океанськими плитами",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"При якому типі маржів гірськобудівництво породжує гори, що складаються виключно з передіснуючого коркового матеріалу?\" Which type of margins produce mountains composed exclusively of pre-existing crustal material? The answer is D: collisional boundary between two continental plates (continental-continental collision) creates mountains of crustal material (e.g., Himalayas). Generated answer: \"A) розходяча межа між двома океанськими плитами\" which is divergent boundary between two oceanic plates. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1131,
+        "question": "Під час спостережень в природі, який спосіб поведінки учнів є найкращим способом прояву поваги до навколишнього середовища?\nA) Залишатися на стежках.\nB) Не забирати зразки.\nC) Робити фотографії.\nD) Залишати територію без змін, як знайшли.\nAnswer in English.",
+        "generated_answer": "D) Залишати територію без змін, як знайшли.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Ukrainian. The ground truth answer is \"D\". The generated answer is \"D) Залишати територію без змін, як знайшли.\" That matches option D, same meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 906,
+        "question": "Червоний гігантська зірка відрізняється від зірок головної послідовності тим, що\nA) горить при меншій температурі.\nB) завжди більша за інші сонця.\nC) має більшу густину та гравітацію.\nD) зливає водень, щоб зробити гелій.\nAnswer in English.",
+        "generated_answer": "A) горить при меншій температурі.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question is Ukrainian: \"Червоний гігантська зірка відрізняється від зірок головної послідовності тим, що\" which translates: \"A red giant star differs from main sequence stars in that\". Options: A) burns at lower temperature. B) always larger than other suns. C) has higher density and gravity. D) fuses hydrogen to make helium.\n\nThe correct answer is A (lower temperature). The ground truth answer is \"A\". The generated answer is \"A) горить при меншій температурі.\" which is exactly option A in Ukrainian. That matches the ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1067,
+        "question": "Під час дня був залишений контейнер з рідкою водою на вулиці, коли температура становила 3°C. Вночі температура на вулиці знизилась до -2°C. Ймовірно, що ця зміна температури призвела до того, що вода стала\nA) сконденсуватись\nB) випаруватись\nC) залишитись рідкою\nD) становитись твердою\nAnswer in English.",
+        "generated_answer": "A) сконденсуватись",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"During the day a container with liquid water was left outside when temperature was 3°C. At night temperature dropped to -2°C. Likely this temperature change caused water to become ...\". Options: A) condense, B) evaporate, C) stay liquid, D) become solid. Correct is D (freeze). Generated answer: \"A) сконденсуватись\" which is \"condense\". That's not same as D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "В областях з підвищеним знесоленням добрив, всі гетеротрофи у харчовому ланцюзі озера можуть показати збільшення кількості. Після початкового збільшення популяції починають зменшуватися. Яка подія найбільш ймовірно призвела до зменшення популяцій?\nA) У водойму було введено більше хижаків.\nB) Вода була позбавлена таких поживних речовин, як азот.\nC) Сезон розмноження для організмів завершився.\nD) Розкладаючи водорості, знизилася кількість розчиненого кисню.\nAnswer in English.",
+        "generated_answer": "A) У водойму було введено більше хижаків.\nB) Вода була позбавлена таких поживних речовин, як азот.\nC) Сезон розмноження для організмів завершився.\nD) Розкладаючи водорості, знизилася кількість розчиненого кисню.\n\nПочаткове збільшення популяцій гетеротрофів у водоймі може бути пов'язане з додаванням добрив, які містять азот. Це може призвести до збільшення популяцій, оскільки азот є основним поживним речовиною для рослин. Однак, якщо кількість добрив буде надмірною, це може призвести до збільшення популяцій хижаків, які харчуються рослинами, і зменшення популяцій гетеротрофів.\n\nОскільки зменшення популяцій гетеротрофів у водоймі може бути пов'язане з кількома факторами, відповідь D є найбільш ймовірною.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". The generated answer includes a list of options and then says \"відповідь D є найбільш ймовірною.\" So it selects D as the answer. That matches ground truth. So meaning equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 127,
+        "question": "Яка планета в сонячній системі має найдовший рік?\nA) Планета, що знаходиться найближче до Сонця.\nB) Планета з найдовшим днем.\nC) Планета з найбільшою кількістю місяців.\nD) Планета, яка знаходиться найдалі від Сонця.\nAnswer in English.",
+        "generated_answer": "A) Планета, що знаходиться найближче до Сонця.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which planet in the solar system has the longest year?\" Correct answer: D (planet farthest from Sun). Generated answer: \"A) Планета, що знаходиться найближче до Сонця.\" That's opposite. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1123,
+        "question": "Мідь та золото мають схожі властивості реакції. На таблиці хімічних елементів ці елементи найімовірніше знаходяться у\nA) одній групі.\nB) одному періоді.\nC) майже однаковій масі.\nD) однаковій кількості протонів.\nAnswer in English.",
+        "generated_answer": "C) майже однаковій масі.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Ukrainian: \"Мідь та золото мають схожі властивості реакції. На таблиці хімічних елементів ці елементи найімовірніше знаходяться у\" Means: Copper and gold have similar reaction properties. In the periodic table these elements are most likely located in... Options: A) same group, B) same period, C) almost same mass, D) same number of protons. Correct answer is A (same group). Generated answer: \"C) майже однаковій масі.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 28,
+        "question": "Декілька студентів беруть участь у конкурсі з будівництва мостів, для якого потрібно використовувати палички для морозива та клей, щоб побудувати найміцніший міст. Мости повинні мати ширину 5 дюймів та пролягати довжиною 18 дюймів. Який з наступних тестів є найточнішим способом визначення найміцнішого дизайну для пролягання цих мостів?\nA) прокатувати іграшкові машини по кожному мосту до того, як він розпадеться\nB) покласти бетонні блоки на верх кожного мосту до того, як він розпадеться\nC) ставити монети на обох кінцях кожного мосту до того, як він розпадеться\nD) покласти батарейки D в центрі кожного мосту до того, як він розпадеться\nAnswer in English.",
+        "generated_answer": "A) прокатувати іграшкові машини по кожному мосту до того, як він розпадеться",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: which test is most accurate? Options A-D. Ground truth answer is D. Generated answer is A). They are not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "Вчені відкрили, що хоча інфекційні бактерії можуть розвивати імунітет до антибіотиків, деякі з них не можуть протистояти певним пептидам, які виступають як природні антибіотичні речовини всередині людського організму. Це відкриття призвело до розробки якої нової технології?\nA) штучних речовин, які імітують людські пептиди\nB) антибіотиків, які можна вбиратися через шкіру\nC) бактерій, які атакують антибіотиками-резистентні організми\nD) антибіотиків, які адаптуються відповідно до імунітету бактерій\nAnswer in English.",
+        "generated_answer": "A) штучних речовин, які імітують людські пептиди",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which new technology? Options given. Ground truth answer: A. Generated answer: \"A) штучних речовин, які імітують людські пептиди\". That is exactly option A in Ukrainian. So meaning matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 816,
+        "question": "Яка дія може змінити точку танення льоду?\nA) нагрівання води перед заморожуванням\nB) додавання солі у воду перед заморожуванням\nC) зміна кількості води для заморожування\nD) заміна контейнера для заморожування води\nAnswer in English.",
+        "generated_answer": "A) нагрівання води перед заморожуванням",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which action can change the melting point of ice?\" Options: A heating water before freezing, B adding salt to water before freezing, C changing amount of water, D changing container. Correct answer is B (adding salt). Generated answer is A (heating water before freezing). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2,
+        "question": "Яке з цих правил безпеки є важливим для дотримання при використанні хімічних речовин?\nA) Зв'язати довге волосся.\nB) Зберігати всі хімічні речовини в холодильнику.\nC) Правильно позначати всі пробірки та пляшки.\nD) Правильно утилізувати погашені сірники.\nAnswer in English.",
+        "generated_answer": "A) Зв'язати довге волосся.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which safety rule is important when using chemicals? Options: A) tie long hair, B) store all chemicals in fridge, C) correctly label all test tubes and bottles, D) correctly dispose of used matches. Correct answer is C. Generated answer: \"A) Зв'язати довге волосся.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1010,
+        "question": "Під якими обставинами адаптація, яка скорочує час метаморфози жабеняти, буде найбільш корисною?\nA) коли жабенятам потрібно відразу плавати\nB) коли в їхньому середовищі обмежений обсяг води\nC) коли зменшується кількість хижаків\nD) коли жабенятам потрібно злитися з оточенням\nAnswer in English.",
+        "generated_answer": "A) when tadpoles need to swim immediately",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Under what circumstances would adaptation that shortens metamorphosis time be most beneficial?\" Options: A, B, C, D. Ground truth answer is B. Generated answer is \"A) when tadpoles need to swim immediately\". That's not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "Лазери використовуються в хірургії для\nA) створення дрібних розтинів.\nB) освітлення поля операції.\nC) зшивання ран.\nD) дезінфекції інструментів.\nAnswer in English.",
+        "generated_answer": "A) створення дрібних розтинів.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Лазери використовуються в хірургії для\" (Lasers are used in surgery for). Options: A) creating small incisions. B) illumination. C) suturing. D) disinfecting instruments. The correct answer is A. Ground truth answer: \"A\". Generated answer: \"A) створення дрібних розтинів.\" That is the same as option A, i.e., \"creating small incisions\". So meaning matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 499,
+        "question": "Фермери в Вайомінгу хвилювалися, тому що деякі з їх курей стали жертвами яструбів, які мешкали в околицях їхніх ферм. Фермери об'єдналися та полювали на яструбів, доки тіл надалі не з'являлися в їхній області. Що, найімовірніше, трапиться далі?\nA) Популяція курей зменшиться.\nB) Популяція мишей та щурів збільшиться.\nC) Ще одна птах хижак може замінити яструба.\nD) У курей знизиться рівень захворюваності.\nAnswer in English.",
+        "generated_answer": "A) Популяція курей зменшиться.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Ukrainian: Farmers in Wyoming worried because some chickens were victims of hawks. Farmers hunted hawks until bodies no longer appeared. What is most likely to happen next? Options: A) Chicken population will decrease. B) Mouse and rat population will increase. C) Another bird of prey may replace the hawk. D) Chickens will have lower disease level. The ground truth answer is B. Generated answer is A). They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "Птахи мають різноманітне забарвлення, форми та розміри. Що зазвичай визначає забарвлення, форму та розмір птаха?\nA) час року, коли він народився\nB) тип їжі, яку їсть птах\nC) миграційні звички птаха\nD) що він успадкував від своїх батьків\nAnswer in English.",
+        "generated_answer": "A) час року, коли він народився",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Птахи мають різноманітне забарвлення, форми та розміри. Що зазвичай визначає забарвлення, форму та розмір птаха? A) час року, коли він народився B) тип їжі, яку їсть птах C) миграційні звички птаха D) що він успадкував від своїх батьків\". Correct answer is D (genetics). Generated answer is A) time of year born. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 128,
+        "question": "Чотири значно різні побутові прилади (блендер, міксер, тостер та кухонний комбайн) підключені до чотирьох розеток вздовж стільниці. Увімкнення або вимкнення одного або декількох з приладів не впливає на роботу інших приладів, оскільки всі чотири пристрої\nA) працюють на постійному струмі.\nB) підключені послідовно.\nC) підключені паралельно.\nD) працюють на змінному струмі.\nAnswer in English.",
+        "generated_answer": "A) працюють на постійному струмі.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which statement explains that turning on/off one doesn't affect others? Correct answer is C) connected in parallel. Ground truth is \"C\". Generated answer is \"A) працюють на постійному струмі.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 391,
+        "question": "Проводиться дослідження з використанням енергії від Сонця для розщеплення молекул води на водень та кисень. Кисень буде виведено в навколишнє середовище, а водень буде використовуватись як паливо. Яке твердження описує, як ця технологія сприятиме довкіллю?\nA) Властивості водню будуть краще зрозумілі.\nB) Збільшиться доступність чистих ресурсів.\nC) Атмосфера буде забезпечена киснем.\nD) Буде використовуватись велика кількість енергії, яку надає Сонце.\nAnswer in English.",
+        "generated_answer": "A) Властивості водню будуть краще зрозумілі.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which statement describes how this technology will benefit environment? Correct answer is B) increased availability of clean resources. Generated answer is A) properties of hydrogen will be better understood. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "Яке з перерахованого є прикладом фізичної зміни?\nA) розбивання об'єкта на менші шматочки за допомогою молотка\nB) залишення залізного ланцюга у солоній воді до його заржавіння\nC) нагрівання коричневої речовини до того часу, поки вона не перетвориться на сіру порошкоподібну речовину\nD) реакція оцту та пікантної соди, щоб отримати білу піну та газ\nAnswer in English.",
+        "generated_answer": "A) breaking an object into smaller pieces with a hammer\nB) leaving a piece of iron chain in salt water until it rusts\nC) heating brown substance until it turns into a gray powdery substance\nD) reacting vinegar and pickle juice to produce a white foam and gas",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which of the listed is an example of a physical change?\" Options A-D. The ground truth answer is \"A\". So correct answer is option A. The generated answer just repeats the options in English, not selecting any. It does not state which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 454,
+        "question": "Що з наступного відбувається під час запліднення у тварин?\nA) утворення сперми та яйця\nB) приєднання сперми до яйця\nC) розділення яйця\nD) розвиток ембріона\nAnswer in English.",
+        "generated_answer": "A) утворення сперми та яйця\nB) приєднання сперми до яйця\nC) розділення яйця\nD) розвиток ембріона",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"What of the following occurs during fertilization in animals?\" Options A-D. Correct answer is B. Ground truth: B. Generated answer lists all options A-D, not just B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 488,
+        "question": "Води біля Флорідських ключів забруднені. Це забруднення впливає на безліч морських екосистем, що знаходяться в Ключах. Яка дія може найбільш зменшити забруднення води?\nA) використання компосту як добрива для газонів та садів\nB) використання води з пральних машин для поливу газонів\nC) використання автомобілів, що розраховані на використання нафтопродуктів\nD) використання більше пластикових пляшок та викид їх на сміттєзвалища\nAnswer in English.",
+        "generated_answer": "A) використання компосту як добрива для газонів та садів\nB) використання води з пральних машин для поливу газонів\nC) використання автомобілів, що розраховані на використання нафтопродуктів\nD) використання більше пластикових пляшок та викид їх на сміттєзвалища",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Води біля Флорідських ключів забруднені... Яка дія може найбільш зменшити забруднення води?\" Options A-D. The correct answer is A (using compost as fertilizer). Ground truth answer: \"A\". Generated answer lists all options A) ... B) ... C) ... D) ... i.e., repeats the options, not selecting one. That does not convey same meaning as ground truth (which selects A). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 291,
+        "question": "Що несуть хвилі через об'єкти?\nA) звук\nB) світло\nC) енергію\nD) воду\nAnswer in English.",
+        "generated_answer": "C) енергію",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Що несуть хвилі через об'єкти?\" (What do waves carry through objects?) Options: A) sound, B) light, C) energy, D) water. Ground truth answer: \"C\". Generated answer: \"C) енергію\". That matches: both indicate option C, energy. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1112,
+        "question": "Учений стверджує, що він здійснив відкриття в лабораторії. Що потрібно мати ученому для того, щоб довести, що відкриття є валідним?\nA) діаграми, що показують кроки, використані в відкритті\nB) точні записи, що показують, що дані є послідовними\nC) документи, що свідчать про те, що вчений є відомою людиною\nD) доказ того, що обладнання, що використовується у відкритті, має високу якість\nAnswer in English.",
+        "generated_answer": "A) діаграми, що показують кроки, використані в відкритті\nB) точні записи, що показують, що дані є послідовними\nC) документи, що свідчать про те, що вчений є відомою людиною\nD) доказ того, що обладнання, що використовується у відкритті, має високу якість",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The generated answer lists all options A-D, i.e., repeats the multiple choice options, not selecting one. That does not convey same meaning. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 917,
+        "question": "Пішки на північ від екватора гарячі та вологі клімати змінюються на спекотні та сухі. Кордон між цими двома типами клімату визначається яким чинником?\nA) висота над рівнем моря\nB) типи місцевих рослинного покриву\nC) циркуляційні патерни регіональних повітряних мас\nD) відстань до найближчого гірського хребта\nAnswer in English.",
+        "generated_answer": "A) висота над рівнем моря",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Пішки на північ від екватора гарячі та вологі клімати змінюються на спекотні та сухі. Кордон між цими двома типами клімату визначається яким чинником?\" The correct answer is C: circulation patterns of regional air masses. Generated answer: A) altitude above sea level. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Якщо через воду (H_{2}O) пропустити електричний струм використовуючи спеціальний апарат, утворюються гази водень (H_{2}) та кисень (O_{2}). Як цю реакцію можна показати в хімічному рівнянні?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "The correct answer is A) H_{2}O -> H + O + H.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"B\". Generated answer says \"The correct answer is A) H_{2}O -> H + O + H.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 164,
+        "question": "Яка з цих ознак у спадковому плані, але значно впливає на неї середовище?\nA) здатність крутити язиком\nB) спортивна успішність\nC) мова\nD) колір очей\nAnswer in English.",
+        "generated_answer": "A) здатність крутити язиком",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Ukrainian: \"Which of these traits is hereditary, but environment significantly influences it?\" Options: A) ability to roll tongue, B) sports success, C) language, D) eye color. The correct answer likely is B) sports success (hereditary but environment influences). Ground truth is B. Generated answer is \"A) здатність крутити язиком\" i.e., option A. That's not same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "Деякі хімічні реакції поглинають енергію, тоді як інші віддають енергію. Які з хімічних реакцій - при спалюванні вугілля чи під час вибуху феєрверків - віддають енергію?\nA) Лише спалювання вугілля\nB) Лише вибух феєрверків\nC) Як спалювання вугілля, так і вибух феєрверків\nD) Ані спалювання вугілля, ані вибух феєрверків\nAnswer in English.",
+        "generated_answer": "A) Лише спалювання вугілля\nB) Лише вибух феєрверків\nC) Як спалювання вугілля, так і вибух феєрверків\nD) Ані спалювання вугілля, ані вибух феєрверків",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer lists all options A-D, not selecting one. It does not indicate which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1040,
+        "question": "Хамелеон може змінювати свої кольори, щоб відповідати навколишньому середовищу. Ця здатність допомагає хамелеонові вижити, оскільки він може\nA) залишатися теплим.\nB) знаходити партнера.\nC) шукати їжу.\nD) бути легко поміченим.\nAnswer in English.",
+        "generated_answer": "C) шукати їжу.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. Question: Ukrainian: \"Хамелеон може змінювати свої кольори, щоб відповідати навколишньому середовищу. Ця здатність допомагає хамелеонові вижити, оскільки він може ...\". Options: A) stay warm, B) find a partner, C) search for food, D) be easily noticed. The correct answer is C) шукати їжу. Ground truth answer: \"C\". Generated answer: \"C) шукати їжу.\" That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1002,
+        "question": "Який орган є найбільшим у людському тілі?\nA) шлунок\nB) мозок\nC) шкіра\nD) печінка\nAnswer in English.",
+        "generated_answer": "D) печінка",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which organ is the largest in the human body?\" Options: A) stomach, B) brain, C) skin, D) liver. Correct answer is skin (C). Ground truth answer is \"C\". Generated answer: \"D) печінка\" which is liver. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 223,
+        "question": "На якому етапі життєвого циклу метелика проводить найбільше часу, жуючи листя рослин?\nA) дорослий\nB) яйце\nC) личинка\nD) куколка\nAnswer in English.",
+        "generated_answer": "B) яйце",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Ukrainian: \"На якому етапі життєвого циклу метелика проводить найбільше часу, жуючи листя рослин?\" Means: At which stage of the butterfly life cycle does it spend the most time chewing plant leaves? Options: A adult, B egg, C larva, D pupa. Correct answer is larva (caterpillar). Ground truth: \"C\". Generated answer: \"B) яйце\" i.e., egg. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 617,
+        "question": "Яка найкраще ілюструє послідовність кроків, які повинні бути виконані при вирішенні технологічних проблем?\nA) Визначити проблему, оцінити рішення, розглянути можливі рішення та вибрати рішення.\nB) Визначити проблему, дослідити можливі рішення, вибрати рішення та оцінити рішення.\nC) Визначити проблему, вибрати рішення, дослідити можливі рішення та оцінити рішення.\nD) Визначити проблему, оцінити рішення, вибрати рішення та розглянути можливі рішення.\nAnswer in English.",
+        "generated_answer": "A) Визначити проблему, оцінити рішення, розглянути можливі рішення та вибрати рішення.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which best illustrates the sequence of steps that should be performed when solving technological problems?\" Options A-D given. Ground truth answer is B. Generated answer is \"A) ...\" So they are different. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1128,
+        "question": "Звичайна висота дорослої сходинкової сосни становить 100 футів, але в Онтонагоні, Мічиган, зріс до 150 футів сходинкова сосна. На скільки разів більше сходинкова сосна в Мічигані, ніж звичайна сходинкова сосна?\nA) 1,5 рази\nB) 2 рази\nC) 2,5 рази\nD) 3 рази\nAnswer in English.",
+        "generated_answer": "150 футів - це скільки?\n150 футів = 150/100 = 1,5\n1,5 рази більше сходинкової сосни в Мічигані, ніж звичайна сходинкова сосна.\nA) 1,5 рази",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"A\". That means answer is option A: 1.5 times. Generated answer says: \"150 футів - це скільки? 150 футів = 150/100 = 1,5 1,5 рази більше ... A) 1,5 рази\". So it gives same answer: 1.5 times, option A. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 596,
+        "question": "Денніс вважає, що земна кора рівномірно товста всюди навколо глобусу. Чарлі каже, що Денніс не правий, але він не знає жодних фактів, що допомогли б йому виграти аргумент. Який факт допоміг би Чарлі?\nA) Земля трохи здавлена на полюсах через своє обертання.\nB) Континенти - це масиви товстої скелі, навпаки, ніж океанські дна.\nC) У Землі є твердре сферичне ядро, в основному складене з заліза.\nD) Плити Землі постійно рухаються з дуже повільною швидкістю.\nAnswer in English.",
+        "generated_answer": "D) Плити Землі постійно рухаються з дуже повільною швидкістю.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which fact would help Charlie argue that Earth's crust is not uniformly thick? Options: A: Earth slightly flattened at poles due to rotation. B: Continents are thick rock masses, opposite of oceanic floors. C: Earth has solid spherical core. D: Tectonic plates move slowly.\n\nCorrect answer is B (continents have thicker crust than oceanic). Generated answer is D (plates move). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "Багато бактерій швидко ростуть при кімнатній температурі приблизно 20°C. Температуру в середині холодильника зазвичай підтримують на рівні близько 4°C. Яке твердження найкраще пояснює, як використання холодильника допомогло суспільству?\nA) Він знижує температуру в кухні влітку.\nB) Він забезпечує більше місця для зберігання їжі.\nC) Він дозволяє безпечніше вживати їжу протягом більш тривалих періодів.\nD) Він дозволяє безпечніше використовувати електрику на кухні.\nAnswer in English.",
+        "generated_answer": "A) Він знижує температуру в кухні влітку.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which statement best explains how using a refrigerator helped society? Correct answer is C: It allows safer consumption of food for longer periods. Generated answer: \"A) Він знижує температуру в кухні влітку.\" That's option A, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1121,
+        "question": "Усі природні ресурси на Землі є або відновлюваними, або не відновлюваними. Те, чи є ресурс відновлюваним чи ні, залежить від того, наскільки швидко або повільно ресурс замінюється. Яка дія показує використання не відновлюваного природного ресурсу?\nA) Група людей плаває в річці.\nB) Будівельна бригада будує залізничний міст.\nC) Фермер вирощує овочі для продажу на місцевому ринку.\nD) Особа пекає торт за електроенергією, яку виробляє гідроелектростанція.\nAnswer in English.",
+        "generated_answer": "A) Група людей плаває в річці.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which action shows use of non-renewable natural resource? Options: A swimming in river, B building railway bridge, C farmer grows vegetables, D person bakes cake using electricity from hydroelectric plant. Non-renewable resource usage likely B (construction uses minerals, metals, fossil fuels). Ground truth is B. Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 681,
+        "question": "У популяції павуків є три різних розміри: маленькі, середні і великі. Великі павуки легко помічаються хижаками. Маленькі павуки мають складнощі з пошуком їжі. Що найбільш імовірно станеться з популяцією після багатьох поколінь?\nA) Середні павуки будуть найбільш розповсюдженими.\nB) Великі павуки навчаться ховатися від хижаків.\nC) Малі та середні павуки будуть найменш розповсюдженими.\nD) Малі та великі павуки змусять мутувати.\nAnswer in English.",
+        "generated_answer": "A) Середній павук буде найбільш розповсюдженим.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. Question in Ukrainian, answer options. Ground truth answer is \"A\". Generated answer: \"A) Середній павук буде найбільш розповсюдженим.\" That corresponds to option A: \"Середні павуки будуть найбільш розповсюдженими.\" So yes, same meaning. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "Таня досліджує, до яких предметів у домогосподарстві притягуються магніти. Що допоможе їй зробити висновок?\nA) прогноз\nB) гіпотеза\nC) список принадлежностей\nD) таблиця результатів\nAnswer in English.",
+        "generated_answer": "D) таблиця результатів",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Таня досліджує, до яких предметів у домогосподарстві притягуються магніти. Що допоможе їй зробити висновок? A) прогноз B) гіпотеза C) список принадлежностей D) таблиця результатів Answer in English.\"\n\nGround truth answer: D (i.e., \"таблиця результатів\").\n\nGenerated answer: \"D) таблиця результатів\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 416,
+        "question": "Яке твердження пояснює, чому більшість лососів виходять з солоних вод і повертаються у прісноводні?\nA) Це вивчена поведінка, яка підтримує популяцію.\nB) Це вивчена поведінка, яка підтримує концентрацію солі.\nC) Це успадкована поведінка, яка підтримує популяцію.\nD) Це успадкована поведінка, яка підтримує концентрацію солі.\nAnswer in English.",
+        "generated_answer": "B) Це вивчена поведінка, яка підтримує концентрацію солі.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Ukrainian: \"Which statement explains why most salmon leave salt water and return to fresh water?\" Options: A) studied behavior supporting population, B) studied behavior supporting salt concentration, C) inherited behavior supporting population, D) inherited behavior supporting salt concentration. Correct is C (inherited behavior supporting population). Generated answer: \"B) Це вивчена поведінка, яка підтримує концентрацію солі.\" That's option B, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "Багато людей отримують прісну воду з колодязів, які досягають води, зберіганої під землею. Коли мало дощів, вода може почати вичерпуватися. Який крок найкращий, щоб вода тривала довше?\nA) використовуйте поливальники менше годин на тиждень\nB) мите автомобілі в середині дня\nC) розпилювати воду для очищення нафти з парковки\nD) дозволяти кранам працювати, коли чистите зуби\nAnswer in English.",
+        "generated_answer": "Найкраще рішення полягає в тому, щоб:\nA) використовувати поливальники менше годин на тиждень\nB) мити автомобілі в середині дня\nC) розпилювати воду для очищення нафти з парковки\nD) дозволяти кранам працювати, коли чистите зуби",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer repeats the options list, not selecting any. It says \"Найкраще рішення полягає в тому, щоб:\" then lists all options A-D. It does not pick A. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 589,
+        "question": "Яке найкраще описує те, як взаємодіють людська кровоносна та дихальна системи?\nA) Серце виводить відходи, що накопичуються в легенях.\nB) Кисень входить у кров прямо з носа.\nC) Кисень передається до крові, коли кров протікає повз легені.\nD) Серце помпує повітря у кров через легені.\nAnswer in English.",
+        "generated_answer": "A) Серце виводить відходи, що накопичуються в легенях.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Ukrainian: \"Which best describes how human circulatory and respiratory systems interact?\" Options: A, B, C, D. Correct is C. Generated answer: \"A) Серце виводить відходи, що накопичуються в легенях.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 911,
+        "question": "У лісовому екосистемі ніша популяції білок\nA) розкладати органічну речовину.\nB) опилювати квіти.\nC) рециклювати поживні речовини в ґрунті.\nD) збирати жолуді та ховати їх в ґрунті.\nAnswer in English.",
+        "generated_answer": "A) розкладати органічну речовину.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"У лісовому екосистемі ніша популяції білок\" which asks: In forest ecosystem, the niche of a population of squirrels. Options: A) decompose organic matter. B) pollinate flowers. C) recycle nutrients in soil. D) collect acorns and hide them in soil. Correct is D. Generated answer: \"A) розкладати органічну речовину.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 187,
+        "question": "Поживні води зі зливків потрапляють до Мексиканської затоки. Це призводить до блиску водоростей в океанському середовищі. Під час розкладання водоростей, вздовж узбережжя використовується велика кількість кисню. Що найбільш ймовірно станеться з цією областю в результаті цього?\nA) Азот замінює кисень в воді\nB) Температура води зростає.\nC) Хвильовий рух зносить мертві водорості.\nD) Мешканці дна помертві, а риби пливуть геть.\nAnswer in English.",
+        "generated_answer": "A) Азот замінює кисень в воді.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: Ukrainian text about nutrient waters from runoff entering Gulf of Mexico, leading to algal blooms, decomposition uses oxygen, what likely happens? Correct answer D: \"Мешканці дна помертві, а риби пливуть геть.\" (Bottom dwellers die, fish leave). Generated answer: \"A) Азот замінює кисень в воді.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "Студент розчиняє хлорид натрію, NaCl, у дистильованій воді. Яке слово найкраще описує воду в цій ситуації?\nA) реагент\nB) продукт\nC) розчинник\nD) розчин\nAnswer in English.",
+        "generated_answer": "D) розчин",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer and ground truth. Question: \"Студент розчиняє хлорид натрію, NaCl, у дистильованій воді. Яке слово найкраще описує воду в цій ситуації? A) реагент B) продукт C) розчинник D) розчин\". The correct answer is \"розчинник\" (solvent) actually? Wait: The water is the solvent. The question: \"What word best describes the water in this situation?\" The water is the solvent. So correct answer is C) розчинник. But ground truth says \"D\". That seems wrong. However we must compare generated answer to ground truth. Ground truth answer is \"D\". Generated answer is \"D) розчин\". That matches ground truth (both D). So they are equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 495,
+        "question": "Студент формулює гіпотезу, що тертя кульки на футболці, а потім її прикріплення на стіну призведе до прилипання через статичну електрику. Який найкращий спосіб довести надійність результатів після проведення експерименту?\nA) Записати результати експерименту.\nB) Повторити декілька разів такий самий експеримент.\nC) Сформулювати іншу гіпотезу про статичну електрику.\nD) Провести інший експеримент зі статичною електрикою.\nAnswer in English.",
+        "generated_answer": "A) Записати результати експерименту.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: best way to prove reliability after experiment. Correct answer is B (repeat experiment). Generated answer is A (record results). Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 594,
+        "question": "Яка природна подія відбувається найчастіше?\nA) схід сонця\nB) рівнодення\nC) повний місяць\nD) сонячне затемнення\nAnswer in English.",
+        "generated_answer": "A) схід сонця",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which natural event occurs most frequently?\" Options: A) sunrise, B) equinox, C) full moon, D) solar eclipse. The correct answer is sunrise (most frequent). Ground truth answer: \"A\". Generated answer: \"A) схід сонця\". That is the same meaning (option A). So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 376,
+        "question": "Який з цих описує властивість термічного ізолятора?\nA) блискучий\nB) в'язкий\nC) погано проводить тепло\nD) має низьку теплоємність\nAnswer in English.",
+        "generated_answer": "A) блискучий",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of these describes property of a thermal insulator?\" Options: A) shiny, B) viscous, C) poorly conducts heat, D) has low heat capacity. Correct is C. Ground truth: C. Generated answer: \"A) блискучий\" which is option A, shiny. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 387,
+        "question": "Яка з цих людських дій найбільш ймовірно допомогла виробити зниження озонового шару?\nA) будівництво гідроелектростанцій\nB) стік з польових культур, підживлених добривами\nC) спалювання викопного палива\nD) випуск хлорофторуглеводнів з аерозольних балончиків\nAnswer in English.",
+        "generated_answer": "A) будівництво гідроелектростанцій",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which human action most likely helped produce ozone layer depletion? Options: A, B, C, D. Correct is D (release of CFCs from aerosol cans). Generated answer: \"A) будівництво гідроелектростанцій\" i.e., option A. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 382,
+        "question": "Сенді проводить дослідження, щоб дізнатися, яка їжа найбільше подобається його собаці. Яка змінна маніпулюється в його дослідженні?\nA) Колір миски із їжею для його собаки\nB) Тип їжі, яку він дає своїй собаці\nC) Кількість їжі, яку він дає своїй собаці\nD) Час дня, коли він годує свою собаку\nAnswer in English.",
+        "generated_answer": "A) Колір миски із їжею для його собаки",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which variable is manipulated? Correct answer is B. Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 67,
+        "question": "Студенти вивчають, як температура речовини пов'язана зі швидкістю молекулярного руху. У яких речовинах молекули рухаються найшвидше?\nA) холодне молоко\nB) теплий суп\nC) вода, що тане з льоду\nD) пар, що піднімається від киплячої води\nAnswer in English.",
+        "generated_answer": "A) холодне молоко\nB) теплий суп\nC) вода, що тане з льоду\nD) пар, що піднімається від киплячої води",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A-D, not selecting one. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "Бріанна думає, що більші насіння гарбуза проростуть швидше, ніж менші. Вона досліджує це, висадивши по чотири насіння кожного розміру в тому самому контейнері. Який термін використовується для опису того, що Бріанна думає, що станеться?\nA) спроба\nB) результат\nC) змінна\nD) гіпотеза\nAnswer in English.",
+        "generated_answer": "B) результат",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What term is used to describe what Brianna thinks will happen?\" Answer should be \"hypothesis\" (D). Generated answer: \"B) результат\" which is \"result\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "Яке твердження щодо молекул в льоду та молекул в рідкій воді є правильним?\nA) Молекули в льоду мають більше енергії, ніж молекули в рідкій воді.\nB) Молекули в льоду містять різні атоми від молекул в рідкій воді.\nC) Молекули в льоду мають більше електричного заряду, ніж молекули в рідкій воді.\nD) Молекули в льоду менш вільні у русі, ніж молекули в рідкій воді.\nAnswer in English.",
+        "generated_answer": "A) Молекули в льоду мають більше енергії, ніж молекули в рідкій воді.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: Which statement about molecules in ice and liquid water is correct? Options A-D. Ground truth answer is D. Generated answer is A). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Коли і де кількість годин світла в кожний день буде найбільшою?\nA) взимку біля екватора\nB) влітку біля екватора\nC) взимку біля Північного полюса\nD) влітку біля Північного полюса\nAnswer in English.",
+        "generated_answer": "A) взимку біля екватора\nB) влітку біля екватора\nC) взимку біля Північного полюса\nD) влітку біля Північного полюса",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"When and where will the number of daylight hours each day be greatest?\" Options: A) winter near equator, B) summer near equator, C) winter near North Pole, D) summer near North Pole. The correct answer is D. Ground truth: D.\n\nGenerated answer lists all options A) ... D) ... i.e., repeats the options, not selecting one. That is not equivalent to D. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "Студенти хочуть порівняти розмір мікроорганізмів у зразках води об'ємом 500 мілілітрів з кожного з двох ставків. Який фактор найбільш імовірно вплине на точність їхніх спостережень?\nA) середня температура зразків води\nB) марка об'єктива мікроскопа\nC) підвищення збільшення мікроскопа\nD) правильна ідентифікація кожного мікроорганізму\nAnswer in English.",
+        "generated_answer": "B) марка об'єктива мікроскопа",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which factor most likely influences accuracy of observations? Options: A temperature, B microscope objective brand, C increased magnification, D correct identification. Ground truth answer is C. Generated answer is B. They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "Учень вивчав зростання рослин в різних ґрунтах. Найкращий спосіб організації даних - за\nA) датою та часом.\nB) датою та висотою рослин.\nC) висотою рослин та типом ґрунту.\nD) датою, висотою рослин та типом ґрунту.\nAnswer in English.",
+        "generated_answer": "Найкращий спосіб організації даних - за датою та часом.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Учень вивчав зростання рослин в різних ґрунтах. Найкращий спосіб організації даних - за\" options A-D. Ground truth answer is D (date, plant height, soil type). Generated answer says: \"Найкращий спосіб організації даних - за датою та часом.\" That's option A (date and time). Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 306,
+        "question": "Протягом тривалого періоду часу, проточна вода в річці еродує русло річки. Ця ерозія призводить до того, що річка стає\nA) перестає течію.\nB) створює хвилі.\nC) рухається швидше та чистіше.\nD) становиться глибшою та ширшою.\nAnswer in English.",
+        "generated_answer": "A) перестає течію.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Ukrainian: \"Протягом тривалого періоду часу, проточна вода в річці еродує русло річки. Ця ерозія призводить до того, що річка стає\" Options: A) перестає течію. (stops flowing) B) створює хвилі. (creates waves) C) рухається швидше та чистіше. (moves faster and cleaner) D) становиться глибшою та ширшою. (becomes deeper and wider). Correct is D. Generated answer: \"A) перестає течію.\" That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "Найкращим прикладом екзотермної реакції є\nA) двигун автомобіля.\nB) холодильник.\nC) сковорода.\nD) скляна пляшка.\nAnswer in English.",
+        "generated_answer": "Найкращим прикладом екзотермічної реакції є D) скляна пляшка.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Найкращим прикладом екзотермної реакції є\" which means \"The best example of an exothermic reaction is\". Options: A) car engine, B) refrigerator, C) frying pan, D) glass bottle. Ground truth answer: A. So correct answer is A (car engine). Generated answer says: \"Найкращим прикладом екзотермічної реакції є D) скляна пляшка.\" That's D, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1107,
+        "question": "Що забезпечує земну орбіту навколо Сонця?\nA) інерція місяця\nB) розташування земної орбіти\nC) швидкість обертання Землі\nD) гравітаційний тягар Сонця\nAnswer in English.",
+        "generated_answer": "A) інерція місяця",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What provides Earth's orbit around the Sun?\" Correct answer: D) gravitational pull of the Sun. Generated answer: \"A) інерція місяця\" which is \"inertia of the Moon\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 801,
+        "question": "Гравітація та магнетизм - обидві\nA) загальні сили\nB) природні цикли\nC) стану речовини\nD) форми енергії\nAnswer in English.",
+        "generated_answer": "A) загальні сили",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Ukrainian: \"Гравітація та магнетизм - обидві\" options: A) загальні сили (general forces), B) природні цикли (natural cycles), C) стану речовини (states of matter), D) форми енергії (forms of energy). The correct answer is A. Ground truth answer: \"A\". Generated answer: \"A) загальні сили\". That matches the same answer (option A). So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1074,
+        "question": "Шпажники - рослини, які мають значну кількість варіацій у генах кольору квітів. Коли біла квітка з'являється у популяції, яка не має гена, який відповідає за білий колір квітів, який найбільш імовірний джерело?\nA) генетична мутація\nB) селективного відбору\nC) дублювання геному\nD) статева рекомбінація\nAnswer in English.",
+        "generated_answer": "A) генетична мутація",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Шпажники - рослини, які мають значну кількість варіацій у генах кольору квітів. Коли біла квітка з'являється у популяції, яка не має гена, який відповідає за білий колір квіток, який найбільш імовірний джерело? A) генетична мутація B) селективного відбору C) дублювання геному D) статева рекомбінація Answer in English.\"\n\nGround truth answer: \"A\". Means answer is option A: genetic mutation. Generated answer: \"A) генетична мутація\". That's the same meaning (option A). So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "Яка теорія походження Місяця передбачає, що Місяць Землі утворився тим же процесом, що й Марс, Юпітер та Нептун?\nA) Теорія гігантського зіткнення\nB) Теорія розщеплення\nC) Теорія захоплення\nD) Теорія спільного нагромадження\nAnswer in English.",
+        "generated_answer": "A) Теорія гігантського зіткнення передбачає, що Місяць утворився внаслідок зіткнення Землі з великим небесним тілом.\nB) Теорія розщеплення передбачає, що Місяць утворився внаслідок розпаду великої планети, яка внаслідок зіткнення з іншою планетою розпалася на Місяць та інші небесні тіла.\nC) Теорія захоплення передбачає, що Місяць утворився внаслідок захоплення Землі іншим небесним тілом.\nD) Теорія спільного нагромадження передбачає, що Місяць утворився внаслідок нагромадження матеріалу з інших небесних тіл, які об'єдналися з Землею.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which theory of Moon origin predicts that the Moon of Earth formed by the same process as Mars, Jupiter and Neptune?\" Options: A) Giant impact, B) Fission, C) Capture, D) Co-accumulation (joint accumulation). The correct answer is D (the co-formation or co-accretion theory). Ground truth is \"D\". The generated answer lists all options with descriptions, but does not select one. It just describes each theory, not indicating which is correct. So it does not convey the same meaning as ground truth. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1068,
+        "question": "Нитка ДНК містить кодони, які складаються з послідовності трьох нуклеотидів. Що найкраще описує важливість кодонів, знайдених в послідовності ДНК?\nA) Вони містять код для РНК-послідовності.\nB) Вони сигналізують про початок мітотичного поділу клітин.\nC) Вони забезпечують правильне розмноження генетичного коду.\nD) Вони використовуються для збірки амінокислот для синтезу білків.\nAnswer in English.",
+        "generated_answer": "A) Вони містять код для РНК-послідовності.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. Question: importance of codons found in DNA sequence. Correct answer D: they are used for assembling amino acids for protein synthesis. Generated answer: A) They contain code for RNA sequence. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 482,
+        "question": "Вилучення вугілля з земної кори може змінити структуру кори, вивільнити метановий газ та забруднити підземні води важкими металами. Яка з підсистем землі найбільш ймовірно буде постраждати від усіх цих наслідків?\nA) атмосфера\nB) біосфера\nC) гідросфера\nD) літосфера\nAnswer in English.",
+        "generated_answer": "A) атмосфера",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer \"A) атмосфера\" (which is atmosphere) with ground truth \"B\" (which corresponds to biosphere). The question: removal of coal from Earth's crust can change crust structure, release methane gas, and pollute groundwater with heavy metals. Which subsystem will most likely be affected by all these consequences? Likely biosphere? Actually methane release affects atmosphere, groundwater pollution affects hydrosphere, structural changes affect lithosphere. But the ground truth says B (biosphere). The generated answer says A (atmosphere). They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "Iрені потрібно об'єднати дві дошки. Що НЕ буде використовуватися для з'єднання дошок?\nA) клей\nB) шурупи\nC) цвяхи\nD) пилка\nAnswer in English.",
+        "generated_answer": "C) цвяхи",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Iрені потрібно об'єднати дві дошки. Що НЕ буде використовуватися для з'єднання дошок?\" Means: \"Irene needs to join two boards. What will NOT be used for joining the boards?\" Options: A) glue, B) screws, C) nails, D) saw. The correct answer is D (saw) because you don't use a saw to join boards. The generated answer says \"C) цвяхи\" i.e., nails. That's not the same as D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "Який з наступних варіантів НЕ є шляхом транспортування?\nA) радіовежа\nB) дорога\nC) злітно-посадкова смуга\nD) трубопровід\nAnswer in English.",
+        "generated_answer": "A) радіовежа",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following options is NOT a means of transportation?\" Options: A) радіовежа (radio tower), B) дорога (road), C) злітно-посадкова смуга (runway), D) трубопровід (pipeline). The correct answer is A (radio tower). Ground truth answer: \"A\". Generated answer: \"A) радіовежа\". That conveys same meaning (option A). So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 563,
+        "question": "Які є найбільші спільні риси між стеблом дерева та стеблом квітки?\nA) Обидва є м'якими.\nB) Обидва мають колючки.\nC) Обидва підтримують рослину.\nD) Обидва мають деревинну кору.\nAnswer in English.",
+        "generated_answer": "A) Обидва є м'якими.\nB) Обидва мають колючки.\nC) Обидва підтримують рослину.\nD) Обидва мають деревинну кору.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer lists all options A-D. That is not equivalent; it's not just C. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "До недавнього часу відомо було тільки про малу частину людської ДНК, яка має певну функцію. Решта ДНК вважалась непотрібною. Нові докази вказують на те, що для певних генетичних функцій потрібна вся ДНК. Яке твердження найкраще відображає значимість цих нових доказів?\nA) Це спростить вивчення ДНК.\nB) Це доводить, що ДНК менш важлива, ніж вважалося раніше.\nC) Це доказує, що наукові результати не повинні бути викликані на виклик.\nD) Це демонструє, що наукові знання піддаються змінам.\nAnswer in English.",
+        "generated_answer": "A) Це спростить вивчення ДНК.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which statement best reflects significance of new evidence? Correct answer is D: \"It demonstrates that scientific knowledge is subject to change.\" Generated answer: \"A) Це спростить вивчення ДНК.\" That's \"This will simplify the study of DNA.\" That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1008,
+        "question": "Які альтернативні джерела енергії використовують гравітаційну енергію для виробництва електроенергії?\nA) припливна енергія та водна енергія\nB) геотермальна енергія та водна енергія\nC) вітрова енергія та припливна енергія\nD) геотермальна енергія та вітрова енергія\nAnswer in English.",
+        "generated_answer": "A) припливна енергія та водна енергія\nB) геотермальна енергія та водна енергія\nC) вітрова енергія та припливна енергія\nD) геотермальна енергія та вітрова енергія",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which alternative energy sources use gravitational energy to produce electricity?\" Options given. The correct answer is A (tidal and hydro). Ground truth: \"A\". Generated answer just repeats the options list, not selecting any. It does not indicate which is correct. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "Майже 100 років тому на південному тихоокеанському регіоні вивергся великий вулкан. У наступному році Бостон зафіксував випадіння снігу щомісяця протягом року, а більшість північної півкулі пережили холодне літо. Яке пояснення зв'язку цих двох подій науковці дали?\nA) Виверження підсилило парниковий ефект.\nB) Розлив лави з виверженням спричинив тимчасове збільшення загальної теплової енергії Землі.\nC) Виверження призвело до пошкодження озонового шару.\nD) Забруднення повітря, що виникло в результаті виверження, призвело до зниження кількості сонячної енергії, що доходила до Землі.\nAnswer in English.",
+        "generated_answer": "A) Виверження підсилило парниковий ефект.\nB) Розлив лави з виверженням спричинив тимчасове збільшення загальної теплової енергії Землі.\nC) Виверження призвело до пошкодження озонового шару.\nD) Забруднення повітря, що виникло в результаті виверження, призвело до зниження кількості сонячної енергії, що доходила до Землі.\n\nВідповідь: B",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The ground truth answer is D. The generated answer lists options and says \"Відповідь: B\". So generated answer says B, which is not D. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "15 жовтня 1997 року в чорній пустелі Невади Енді Ґрін на своєму реактивному автомобілі під назвою \"Thrust\" подолав певний відстань з середньою швидкістю 339 метрів на секунду. Енді був першою людиною, яка\nA) використовувала ефект Доплера.\nB) їздила на реактивно-рухомому автомобілі.\nC) перетнула Чорну пустелю Невади.\nD) перебив звуковий бар'єр на землі.\nAnswer in English.",
+        "generated_answer": "A) використовувала ефект Доплера.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian. It asks: \"On Oct 15 1997 in the black desert of Nevada Andy Green in his jet car 'Thrust' covered a certain distance at average speed 339 m/s. Andy was the first person who ...\". Options: A) used Doppler effect. B) rode a jet-powered car. C) crossed the Black Desert of Nevada. D) broke the sound barrier on land. Correct answer is D. Generated answer: \"A) використовувала ефект Доплера.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 664,
+        "question": "Сила об'єкта з певною масою, що прискорюється з певною швидкістю, може бути визначена за допомогою наведеного нижче рівняння. Сила = маса x прискорення. Який об'єкт матиме найбільшу силу?\nA) Об'єкт масою 5 кг, що прискорюється зі швидкістю 10 м/с^2\nB) Об'єкт масою 5 кг, що прискорюється зі швидкістю 20 м/с^2\nC) Об'єкт масою 20 кг, що прискорюється зі швидкістю 4 м/с^2\nD) Об'єкт масою 20 кг, що прискорюється зі швидкістю 3 м/с^2\nAnswer in English.",
+        "generated_answer": "A) Об'єкт масою 5 кг, що прискорюється зі швидкістю 10 м/с^2\nB) Об'єкт масою 5 кг, що прискорюється зі швидкістю 20 м/с^2\nC) Об'єкт масою 20 кг, що прискорюється зі швидкістю 4 м/с^2\nD) Об'єкт масою 20 кг, що прискорюється зі швидкістю 3 м/с^2",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: which object will have greatest force? Options given. Ground truth answer: B. The generated answer just repeats the list of options, not selecting any. It does not state which is correct. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "Фермер має три великих поля, де він планує вирощувати трави для збору на сіножаті. Трави слід збирати лише після двох років росту. Що міг би зробити фермер, щоб мати врожай сіна щороку?\nA) Саджати кожне поле з різницею в один рік.\nB) Саджати трави якомога ближче один до одного.\nC) Садити всі поля в один час, але на кожному з них з іншими видами трав.\nD) Садити теплолюбні і холоднолюбні трави одночасно в кожному полі.\nAnswer in English.",
+        "generated_answer": "A) Саджати кожне поле з різницею в один рік.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian. The correct answer is A. Ground truth: \"A\". Generated answer: \"A) Саджати кожне поле з різницею в один рік.\" That's essentially the same as answer A. So they are equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 996,
+        "question": "У Австралії, південна температура може підніматися до понад 110 °F (43 °C). Щоб тримати свої тіла холодними, кенгуру облизують свої руки, покриваючи їх густим шаром слини. При випаровуванні, слина діє як механізм охолодження і знижує температуру тіла кенгуру. Який термін найкраще описує цю діяльність?\nA) природний відбір\nB) захисний механізм\nC) структурна пристосованість\nD) поведінкова пристосованість\nAnswer in English.",
+        "generated_answer": "C) структурна пристосованість",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: Ukrainian text about kangaroo licking hands to cool down. Which term best describes this activity? Options: A natural selection, B protective mechanism, C structural adaptation, D behavioral adaptation. Correct is D behavioral adaptation. Ground truth: D. Generated answer: C) structural adaptation. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

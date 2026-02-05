@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "在经历失去后更容易出现抑郁的人是那些\nA) 拥有强大社交支持网络的人\nB) 没有精神健康问题病史的人\nC) 以前没有经历过抑郁的人\nD) 收入较高的人\nE) 结婚不到一年的人\nF) 年轻的幸存者\nG) 身体健康的人\nH) None\nI) None\nJ) None\nAnswer in English.",
+        "generated_answer": "经历过重大损失后更容易出现抑郁症的人是那些：\n\nE) 结婚不到一年的人\n\n解释：研究表明，最近结婚（不到一年）的人在经历重大损失（如配偶去世）后更容易出现抑郁症。这是因为他们可能仍在适应婚姻的变化，并可能没有建立起强大的支持网络来应对损失。\n\n其他选项不正确，因为：\n\nA) 拥有强大社交支持网络的人实际上在应对损失时更有韧性。\n\nB) 没有精神健康问题史的人可能仍然容易患抑郁症，尤其是在经历重大损失时。\n\nC) 以前没有经历过抑郁的人仍然可能在经历重大损失后发展成抑郁症。\n\nD) 收入较高的人可能仍然容易患抑郁症，尤其是在经历重大损失时。\n\nF) 年轻的幸存者可能更容易经历抑郁，但这并不是一个决定因素。\n\nG) 身体健康的人可能仍然容易患抑郁症，尤其是在经历重大损失时。\n\nH、I 和 J 不是正确答案，因为选项 E 是正确答案。",
+        "ground_truth": "F",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"在经历失去后更容易出现抑郁的人是那些\" options list includes F) 年轻的幸存者. Ground truth answer: F. Generated answer says answer is E) 结婚不到一年的人. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "假设工会有足够的实力谈判获得5%的名义工资增长。你认为物价会上涨多少？在美国，生产率平均每年增长2%。工人们的实际收益会提高多少？\nA) 2%\nB) 0%，如果工资增长完全被生产率增长所抵消\nC) 7%，假设工资增长与生产率增长差距显著导致通胀加剧\nD) 5%\nE) 4%，考虑其他导致物价上涨的经济因素\nF) 2.5%，考虑工资增长略微超过生产率增长和通胀因素的综合影响\nG) 3%\nH) 6%，假设其他通胀压力导致物价涨幅超过工资增长\nI) 1%\nJ) 工人们没有实际收益；物价上涨5%，抵消了工资增长\nAnswer in English.",
+        "generated_answer": "要确定工人的实际收益，我们需要考虑名义工资增长、生产率增长和通货膨胀之间的关系。\n\n1. **名义工资增长**：5%\n2. **生产率增长**：2% 每年。这意味着经济可以在不导致通货膨胀的情况下吸收高达2%的名义工资增长，因为生产率的提高可以弥补成本增加。\n\n假设工会谈判的5%的名义工资增长超过了2%的生产率增长，这意味着有3%的差额可能会转化为通货膨胀（因为它超过了可以被生产率增长吸收的部分）。然而，这个简单的计算并没有考虑到经济中可能影响通货膨胀的其他因素。\n\n**选项分析**：\n\n- **A) 2%**：这表明工资增长完全被生产率增长抵消，这是不正确的，因为生产率增长无法完全吸收5%的名义工资增长。\n- **B) 0%**：这意味着工资增长完全被生产率增长抵消，这与上述分析不符。\n- **C) 7%**：这假设工资增长与生产率增长之间的差距会导致显著的通胀，但没有理由认为通胀会超过3%的差距。\n- **D) 5%**：这意味着工资增长完全转化为通胀，这忽略了生产率增长的影响。\n- **E) 4%**：这考虑了其他经济因素，但没有明确的理由说明为什么通胀会比工资增长与生产率增长之间的差距更高。\n- **F) 2.5%**：这考虑了工资增长略高于生产率增长和通胀因素的综合影响，这是一个合理的估计，考虑到生产率增长可以吸收一部分工资增长。\n- **G) 3%**：这直接反映了工资增长与生产率增长之间的差额，假设所有超出生产率增长的部分都会转化为通胀。\n- **H) 6%**：这假设有额外的通胀压力，但没有明确的理由说明为什么通胀会超过工资增长与生产率增长之间的差距。\n- **I) 1%**：这低估了工资增长与生产率增长之间的差距。\n- **J) 工人没有实际收益；价格上涨5%，抵消了工资增长**：这意味着所有的工资增长都会转化为通胀，这忽略了生产率增长的影响。\n\n**最合理的答案** 是 **F) 2.5%**，因为它考虑到了工资增长略高于生产率增长以及可能影响通胀的其他因素的综合影响。然而，根据提供的信息，**G) 3%** 也是一个合理的估计，假设所有超过生产率增长的部分都会转化为通胀。 \n\n最终答案是F。",
+        "ground_truth": "G",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"G\". The question asks: \"假设工会有足够的实力谈判获得5%的名义工资增长。你认为物价会上涨多少？在美国，生产率平均每年增长2%。工人们的实际收益会提高多少？\" Options include G) 3%. The ground truth selects G (3%). The generated answer says the most reasonable answer is F) 2.5%, but also mentions G) 3% is also reasonable, and final answer is F. So generated answer picks F, not G. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "殖民地饼干公司按计件工资支付，每件工资为80美分。贝特夫人上周完成的合格产品数量如下：周一45件，周二41件，周三49件，周四47件，周五43件。她这周的总收入是多少？\nA) $160\nB) $195\nC) $220\nD) $185\nE) $175\nF) $200\nG) $225\nH) $210\nI) $165\nJ) $180\nAnswer in English.",
+        "generated_answer": "要找到Mrs. Bet的总收入，我们需要将她每天完成的产品数量相加，然后将总数乘以每件产品的工资。\n\n周一：45件\n星期二：41件\n星期三：49件\n星期四：47件\n星期五：43件\n总计：45 + 41 + 49 + 47 + 43 = 225件\n\n每件产品的工资为80美分。要找到总收入，我们将总件数乘以每件产品的工资：\n225件 × 0.80美元/件 = 180美元\n\n因此，贝特夫人本周的总收入为 180 美元。\n\n正确答案是：\nJ) $180",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"J\". The generated answer says total income is $180, correct answer is J) $180. So they match. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4242,
+        "question": "一个缓冲溶液由等浓度的弱酸及其共轭碱组成。通过加水使缓冲溶液体积加倍会对其pH值产生什么影响？\nA) 导致pH值不可预测地波动\nB) 导致pH值与水的pH值趋于相等\nC) 导致pH值变得极碱性\nD) 完全中和pH值\nE) 显著降低pH值\nF) 影响很小\nG) 显著增加pH值\nH) 使pH值加倍\nI) 使pH值渐近地变化到酸的pKa值\nJ) 导致pH值变得极酸性\nAnswer in English.",
+        "generated_answer": "缓冲溶液的pH由以下方程给出：\n\npH = pKa + log([A-]/[HA])\n\n其中[A-]是共轭碱的浓度，[HA]是弱酸的浓度，pKa是酸的解离常数。\n\n当缓冲溶液的体积加倍时，[A-]和[HA]的浓度都会减半，但它们的比率保持不变。因此，pH值保持不变。\n\n因此，正确答案是：\n\nF) 影响很小\n\n通过加水使缓冲溶液的体积加倍不会对其pH值产生显著影响，因为pH值由酸的pKa和共轭碱与酸的比率决定，而这些值保持不变。",
+        "ground_truth": "F",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"F\". The generated answer says that pH remains unchanged, so answer is F) 影响很小. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8376,
+        "question": "如果我们想要确保包含分布中至少50%的数据，我们必须从平均值出发至少偏离多少个标准差？\nA) 3.1\nB) 2.1\nC) 1.9\nD) 2.0\nE) 0.5\nF) 2.5\nG) 0.67\nH) 3.5\nI) 1.0\nJ) 1.4\nAnswer in English.",
+        "generated_answer": "要确定从平均值偏离多少个标准差才能覆盖分布中的至少50%的数据，我们可以使用68-95-99.7规则，该规则指出：\n\n* 大约68%的数据点在平均值的1个标准差内\n* 大约95%的数据点在平均值的2个标准差内\n* 大约99.7%的数据点在平均值的3个标准差内\n\n由于我们想要覆盖至少50%的数据，我们需要找到最小的标准差数，使得该百分比大于或等于50%。\n\n从平均值的一个标准差内，大约有68%的数据点，这已经超过了50%。然而，这个选项不在列表中。\n\n从平均值的两倍标准差范围内，大约有95%的数据点，这也超过了50%。然而，我们正在寻找最小的标准差数。\n\n从平均值的一个标准差范围内，大约有84.13%的数据点在平均值的一标准差范围内（34.13%在平均值的一标准差范围内，50%在平均值两侧），这超过了50%。然而，这个选项不在列表中。\n\n从平均值的1.0个标准差范围内，大约有84.13%的数据点在平均值的1.0个标准差范围内（34.13%在平均值的一个标准差范围内，50%在平均值两侧），这超过了50%。\n\n因此，正确答案是：\n\nI) 1.0\n\n注意：其他选项要么太高，要么不在列表中。",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"J\". That corresponds to option J) 1.4. The generated answer says the correct answer is I) 1.0. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "当$\\lim_{x \\to c}((x^2 - 5x - 6) / (x - c))$存在时，c的值是多少？\nA) [0, 5]\nB) [2, 8]\nC) [1, 7]\nD) [3, 9]\nE) [1, 5]\nF) [-3, 3]\nG) [-4, 2]\nH) [0, 6]\nI) [-2, 4]\nJ) [-1, 6]\nAnswer in English.",
+        "generated_answer": "为了找到 $c$ 的值，使得 $\\lim_{x \\to c} \\frac{x^2 - 5x - 6}{x - c}$ 存在，我们需要考虑分子和分母的因式分解。\n\n分子 $x^2 - 5x - 6$ 可以分解为 $(x - 6)(x + 1)$。分母 $x - c$ 已经是分解形式。\n\n现在，为了使极限存在，分母不能趋近于零，除非分子也趋近于零。这意味着，当 $x$ 趋近于 $c$ 时，$x - c$ 趋近于零，分子 $(x - 6)(x + 1)$ 也必须趋近于零。\n\n这发生在 $c$ 等于分子的根之一时，即 $c = 6$ 或 $c = -1$。但是，$c$ 不能等于 $6$，因为这会使分母 $x - c$ 在 $x$ 趋近于 $c$ 时趋近于零，而分子不会趋近于零（除非 $c$ 也等于 $6$，但这是一个单独的点，不是我们寻找的区间）。\n\n因此，$c$的值必须是$-1$，使得分子和分母在$x$趋近于$c$时都趋近于零。\n\n但是，我们被要求提供 $c$ 的值范围，而不是单个值。由于问题陈述要求我们从选项中选择一个范围，我们需要找到一个包含 $c = -1$ 的范围。\n\n查看选项，我们发现只有一个选项包含 $-1$：$\\boxed{[-1, 6]}$。但是，这个选项不在列表中。最接近的选项是：\n\nJ) [-1, 6]\n\n最终答案是J。",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"J\". Generated answer concludes final answer is J. So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "在简单循环流动模型中能否存在经济增长？\nA) 简单循环流动模型中的经济增长取决于外部因素\nB) 如果模型内的人口增加，就可以出现经济增长\nC) 是的，如果模型包含国际贸易，则可以出现经济增长\nD) 经济增长由模型内的消费者信心决定\nE) 该模型仅通过增加投资才能实现经济增长\nF) 是的，在简单循环流动模型中可以存在经济增长\nG) 简单循环流动模型自动导致经济增长\nH) 只有当模型包含技术进步时才可能出现经济增长\nI) 通过增加模型内的政府支出可以实现经济增长\nJ) 不，在简单循环流动模型中不可能存在任何经济增长\nAnswer in English.",
+        "generated_answer": "正确答案是J) 不，在简单循环流动模型中不可能存在任何经济增长。\n\n简单循环流动模型是一个基本的经济模型，描述了货币在经济体内的流动。它假设经济体中只有家庭和企业，家庭向企业提供劳动力并从企业购买商品和服务。该模型假设经济体中没有储蓄、投资或技术进步。\n\n由于简单循环流动模型不考虑任何增长因素，如人口增长、技术进步或投资，因此在这种模型中不可能实现经济增长。经济将处于停滞状态，总产出和收入保持不变。\n\n其他选项都是不正确的，因为：\n\n* A) 外部因素可能会影响经济增长，但它们不是简单循环流动模型的一部分。\n* B) 人口增长可能会导致经济增长，但这不是简单循环流动模型的一部分。\n* C) 国际贸易不是简单循环流动模型的一部分。\n* D) 消费者信心不是简单循环流动模型中的一个因素。\n* E) 投资不是简单循环流动模型的一部分。\n* F) 正如所解释的，简单循环流动模型中不可能出现经济增长。\n* G) 简单循环流动模型不会自动导致经济增长。\n* H) 技术进步不是简单循环流动模型的一部分。\n* I) 政府支出不是简单循环流动模型的一部分。",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"J\". The generated answer says \"正确答案是J) 不，在简单循环流动模型中不可能存在任何经济增长。\" So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "从一开始，我写作就是为了向自己解释我的人生，我邀请任何选择与我同行的读者在高空走钢丝时陪伴我。我会在没有安全网的情况下工作，也不会被人群的喧嚣所干扰。高处的视野令人眩晕，却富有教益。我并非完全按照事物呈现给我的样子记录世界，而是通过我一路收集的奇妙故事这个棱镜来转化它。我收集故事的方式就像蝴蝶学家收藏稀有飞蛾或哥斯达黎加甲虫的氯仿标本一样。故事就像容器，我用它们来向自己诠释这个世界。——帕特·康罗伊 以下哪项最好地描述了这段文字的组织方式？\nA) 作者解释了讲故事在理解世界中的重要性\nB) 作者叙述了一系列事件但没有提供任何解释\nC) 作者将自己的工作方法与同行进行对比\nD) 作者描述了导致其当前工作的一系列事件\nE) 作者使用类比来解释他对某个特定行为的体验\nF) 作者讨论了他的职业对个人生活的影响\nG) 作者记述了他在某一领域工作的各个阶段\nH) 作者用个人经历来批评社会规范\nI) 作者将自己的经历与同行的经历进行比较\nJ) 作者为采取某种行动提供了几种解释\nAnswer in English.",
+        "generated_answer": "正确答案是：\n\nA) 作者解释了讲故事在理解世界中的重要性\n\n这段文字是帕特·康罗伊写作风格和目的的反思性和哲学性描述。作者解释说，他们通过讲故事来理解世界，使用类比和隐喻来说明他们的方法。作者没有叙述一系列事件，也没有描述导致其当前工作的事件，而是提供了对其写作过程和目的的深刻思考。因此，选项A是最合适的描述。",
+        "ground_truth": "E",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"E\". Generated answer says \"A) 作者解释了讲故事在理解世界中的重要性\". That's not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7808,
+        "question": "一个数y减36等于13，下列哪个方程正确？\nA) 13 + y = 36\nB) 13 - y = 36\nC) y = 13 - 36\nD) 36 - y = 13\nE) 13 = y + 36\nF) y = 36 - 13\nG) y + 36 = 13\nH) y - 36 = 13\nI) 36 + y = -13\nJ) 36 = y + 13\nAnswer in English.",
+        "generated_answer": "The correct equation is:\n\nH) y - 36 = 13\n\nThis equation represents the statement \"a number y minus 36 equals 13\". To solve for y, you would add 36 to both sides, resulting in y = 49.",
+        "ground_truth": "H",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"H\". Generated answer says \"The correct equation is: H) y - 36 = 13\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5866,
+        "question": "肠道乳糖酶缺乏会导致乳糖消化不良，进而可能引起乳糖不耐受，即引起临床症状。婴幼儿通常表达足够的乳糖酶水平，不会出现临床症状。总的来说，成年人可以分为乳糖酶持续型或乳糖酶非持续型。全球范围内乳糖酶非持续型的人群比例大约是多少？\nA) 30%-35%\nB) 80%-85%\nC) 90%-95%\nD) 55%-60%\nE) 5%-10%\nF) 45%-50%\nG) 60%-65%\nH) 10%-15%\nI) 20%-25%\nJ) 70%-75%\nAnswer in English.",
+        "generated_answer": "The correct answer is D) 65% of the global population is lactase non-persistent, but among the options given, the closest one is  B) 65% is not available, so the closest one is  B) 80%-85%  and C) 90%-95% and D) 55%-60% are also not the exact answer, but among the given options, the closest one to the actual answer is not available, but the closest one to the actual answer is  B) 80%-85% and C) 90%-95%. However, the actual answer is around 65%, which is not among the options. \n\nHowever, I will choose B) 80%-85% and C) 90%-95% are not the exact answer, but among the given options, the closest one to the actual answer is not available, but the closest one to the actual answer is B) 80%-85%. \n\nSo, The best answer is B.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"J\". That corresponds to option J) 70%-75% (since list shows J) 70%-75%). So correct answer is 70-75%.\n\nGenerated answer is a messy text: says \"The correct answer is D) 65% of the global population is lactase non-persistent, but among the options given, the closest one is B) 65% is not available, so the closest one is B) 80%-85% and C) 90%-95% and D) 55%-60% are also not the exact answer, but among the given options, the closest one to the actual answer is not available, but the closest one to the actual answer is B) 80%-85% and C) 90%-95%. However, the actual answer is around 65%, which is not among the options. However, I will choose B) 80%-85% and C) 90%-95% are not the exact answer, but among the given options, the closest one to the actual answer is not available, but the closest one to the actual answer is B) 80%-85%. So, The best answer is B.\"\n\nThus generated answer says best answer is B (80-85%). Ground truth says J (70-75%). They do not match. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

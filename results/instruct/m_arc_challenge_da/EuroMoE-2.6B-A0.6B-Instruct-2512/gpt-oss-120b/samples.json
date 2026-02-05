@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Hvilket beskriver en kemisk forandring?\nA) sukker, der opløses i te\nB) solens varme på fortorvet\nC) saks, der klipper papir i stykker\nD) syre i maven, der fordøjer mad\nAnswer in English.",
+        "generated_answer": "D) syre i maven, der fordøjer mad",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which describes a chemical change?\" Options A-D. Ground truth answer: D. Generated answer: \"D) syre i maven, der fordøjer mad\". That's the same option D. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Hvilket af følgende er en korrekt skrevet kemisk ligning, der demonstrerer massebevarelse?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) H₂O + CO₂ -> H₂CO₃**.\n\n### Explanation:\n- **Mass balance** in a chemical reaction means that the total mass of the reactants equals the total mass of the products.\n- **Option B**:  \n  $$\n  \\text{H}_2\\text{O} + \\text{CO}_2 \\rightarrow \\text{H}_2\\text{CO}_3\n  $$  \n  This equation shows that **1 mole of H₂O (water) reacts with 1 mole of CO₂ (carbon dioxide)** to produce **1 mole of H₂CO₃ (carbonic acid)**. Since the number of moles of each reactant is the same on both sides, the **mass of water and carbon dioxide is conserved**, demonstrating **mass balance**.\n\n- **Other options**:  \n  - **A**: Mg + HCl → H₂ + MgCl₂ → Mass of Mg is not conserved (Mg is reduced).  \n  - **C**: KClO₃ → KCl + O₂ → Mass of KCl is not conserved (K is oxidized).  \n  - **D**: H₂ + O₂ → H₂O → Mass of H₂ is not conserved (H₂ is consumed).  \n\nThus, **only option B** correctly demonstrates mass balance in a chemical reaction.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". The generated answer says the correct answer is B, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 82,
+        "question": "Hvorfor er vanding af planter og græsplæner om morgenen en måde at spare vand på?\nA) Der er altid mere vand om morgenen.\nB) Mindre mængder vand fordamper om morgenen, når det er køligt.\nC) Vand, der bruges om morgenen, kan genanvendes til eftermiddagsbrug.\nD) Græs kan kun absorbere vand om morgenen.\nAnswer in English.",
+        "generated_answer": "C) Vand, der bruges om morgenen, kan genanvendes til eftermiddagsbrug.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Why is watering plants and lawns in the morning a way to save water?\" Options: B is correct: \"Less water evaporates in the morning when it's cool.\" Generated answer chose C: \"Water used in the morning can be reused for afternoon use.\" That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "Hvilke ændringer vil være skadelige for en egernes levested?\nA) ny plantevækst\nB) ændring af årstiderne\nC) fældning af træer for at bygge huse\nD) plantning af fyrretræ frøplanter\nAnswer in English.",
+        "generated_answer": "C) fældning af træer for at bygge huse",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvilke ændringer vil være skadelige for en egernes levested?\" Options A-D. Ground truth answer: \"C\". Generated answer: \"C) fældning af træer for at bygge huse\". That is the same as option C. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "Hvad er mest sandsynligt det første skridt for elever at gøre for et genbrugsprojekt?\nA) brænd materialerne i et bål\nB) tag materialerne til en losseplads\nC) smid materialerne i en affaldsspand\nD) sorter materialerne efter plastik, papir og dåser\nAnswer in English.",
+        "generated_answer": "C) smid materialerne i en affaldsspand",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What is most likely the first step for students to do for a recycling project?\" Options: A burn, B take to landfill, C throw in trash bin, D sort materials by plastic, paper, cans. Correct is D. Generated answer says C. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 995,
+        "question": "I Australien kan middagstemperaturerne stige til over 110°F (43°C). For at holde deres kroppe kølige slikker kænguruer deres arme og dækker dem med et tykt lag af spyt. Når spytet fordamper, fungerer det som en kølingsmekanisme og sænker kænguruens kropstemperatur. Hvilken term beskriver bedst denne aktivitet?\nA) naturlig udvælgelse\nB) forsvars mekanisme\nC) strukturel tilpasning\nD) adfærdsmæssig tilpasning\nAnswer in English.",
+        "generated_answer": "D) adfærdsmæssig tilpasning",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". Generated answer: \"D) adfærdsmæssig tilpasning\". That's the same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Når en person springer ud fra et fly med faldskærm, bevæger hun sig med cirka 67 meter per sekund. Når hun trækker i snoren, og hendes faldskærm åbner sig, bremses hun til cirka 3 meter per sekund. Hvis hastigheden og accelerationen overvejes som positive, før faldskærmen åbnes, hvordan ændres hendes hastighed og acceleration så, når faldskærmen åbnes?\nA) Hastigheden og accelerationen forbliver begge positive.\nB) Hastigheden og accelerationen bliver begge negative.\nC) Hastigheden forbliver positiv, men accelerationen bliver negativ.\nD) Hastigheden bliver negativ, men accelerationen forbliver positiv.\nAnswer in English.",
+        "generated_answer": "Hvis en person springer ud fra et fly med faldskærm, bevæger hun sig med en hastighed på **67 meter per sekund**, før hun trækker i snoren og åbner faldskærmen. Da hastigheden er positiv, ændres den ikke, når faldskærmen åbnes.\n\nNår faldskærmen åbnes, bremses personen til en hastighed på **3 meter per sekund**. Da hastigheden er negativ, ændres den også.\n\n**Besvarelse:**  \n**A) Hastigheden og accelerationen forbliver begge positive.**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". The generated answer says: It gives some nonsense, then says \"A) Hastigheden og accelerationen forbliver begge positive.\" That's not C. So it's false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "Nogle frøarter vil begrave sig selv i mudder, hvis miljøet bliver meget tørt. Frøerne går i en slags dvale. Hvad ville være det mest sandsynlige signal for frøerne til at dukke op fra mudderet?\nA) en decrease i dagslys timer\nB) en stigning i lufttemperatur\nC) en stigning i nedbør\nD) et fald i lufttrykket\nAnswer in English.",
+        "generated_answer": "C) en stigning i nedbør",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: multiple choice, answer is C. Generated answer: \"C) en stigning i nedbør\". Ground truth: \"C\". Both indicate option C. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 976,
+        "question": "Et lag af sten indeholder et fossilt af en fisk og et fossilt af en dinosaur, som levede på land, meget tæt på hinanden. Hvad er den mest sandsynlige forklaring på dette?\nA) Fisken og dinosauren boede begge tæt på en kystlinje.\nB) Fisken blev båret langt ind i landet af en enorm bølge. // (behold originalteksten)\nC) Fisken og dinosauren blev forstenet på meget forskellige tidspunkter.\nD) Dinosauren var på vej fra en kontinent til en anden svømmende, da den døde.\nAnswer in English.",
+        "generated_answer": "C) Fisken og dinosauren blev forstenet på meget forskellige tidspunkter.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Danish: \"Et lag af sten indeholder et fossilt af en fisk og et fossilt af en dinosaur, som levede på land, meget tæt på hinanden. Hvad er den mest sandsynlige forklaring på dette?\" Options A-D. Ground truth answer is A. Generated answer is C. They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "Hvilken af følgende metoder er den mest effektive måde at transportere store mængder kul fra en mine i Kentucky til et kraftværk i Arizona?\nA) med skib\nB) med tog\nC) med lastbil\nD) med fly\nAnswer in English.",
+        "generated_answer": "The most effective method to transport large quantities of coal from a mine in Kentucky to a power plant in Arizona is:\n\n**D) with a truck**\n\n### Explanation:\n- **Transport by truck** is the most efficient and cost-effective option for long-distance transportation of bulk materials like coal. Trucks can carry large quantities of coal at once, reducing transportation costs and minimizing the risk of damage compared to other methods (e.g., rail or ship).\n- **Shipping by ship** is impractical for this distance due to the high cost and limited capacity of ships for bulk cargo.\n- **Railway or train** is also viable but may be more expensive than truck transportation for long distances.\n- **Air freight** is unnecessary for this relatively short distance (Kentucky to Arizona is ~1,200 miles).\n\nThus, **D) with a truck** is the best choice.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". The generated answer says \"D) with a truck\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 447,
+        "question": "Hvor mange kromosomer indeholder en guldfinnes kønscelle, når hver af dens kropsceller indeholder 94 kromosomer?\nA) 23\nB) 47\nC) 94\nD) 188\nAnswer in English.",
+        "generated_answer": "The question asks for the number of chromosomes in a **goldfish** (a species of fish) that contains **94 chromosomes** in its **body cells**.\n\n### Key Points:\n1. **Goldfish (Carassius auratus)** are **anadromous**, meaning they migrate between freshwater and saltwater.\n2. **Body cells** (somatic cells) contain **94 chromosomes**, while **gametes** (sperm and eggs) contain **46 chromosomes** (half from each parent).\n3. Since the question specifies \"body cells\" and goldfish are **anadromous**, the answer is **94**.\n\n### Final Answer:\n**C) 94**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvor mange kromosomer indeholder en guldfinnes kønscelle, når hver af dens kropsceller indeholder 94 kromosomer?\" Means: How many chromosomes does a goldfish's gamete contain, given each of its body cells contains 94 chromosomes? The correct answer: half of 94 = 47. So ground truth is B (47). Generated answer says C) 94, and also says gametes contain 46 (incorrect) and final answer 94. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "En 20 N genstand placeres på en overflade og begynder at glide. Hvad er den mest sandsynlige årsag til, at genstanden begynder at bevæge sig?\nA) Tyngdekraften påvirker genstanden med en afbalanceret kraft.\nB) En ubalanceret kraft forårsager acceleration.\nC) Friktion påvirkes af genstanden.\nD) Kræfterne, der virker på genstanden, er i ligevægt.\nAnswer in English.",
+        "generated_answer": "I dette spørgsmål drejer det sig om en genstand, der bevæger sig på en glat overflade, og vi spørger, hvad der er den mest sandsynlige årsag til, at den begynder at bevæge sig.\n\nFor at forstå årsagen til, at en genstand begynder at bevæge sig, er det vigtigt at overveje, hvordan kraften påvirker den. I dette tilfælde er der tale om en ubalanceret kraft, der forårsager acceleration.\n\nEn ubalanceret kraft er en kraft, der ikke er i ligevægt med den tilsvarende modkraft. I dette tilfælde er der en ubalanceret kraft, der forårsager acceleration af genstanden.\n\nDerfor er den mest sandsynlige årsag til, at en genstand begynder at bevæge sig, en ubalanceret kraft, der forårsager acceleration.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". The generated answer explains that the cause is an unbalanced force causing acceleration, which corresponds to option B. So meaning matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 285,
+        "question": "Slutresultatet i processen med fotosyntese er produktionen af sukker og oxygen. Hvilket trin signalerer begyndelsen af fotosyntese?\nA) Kemisk energi absorberes gennem rødderne.\nB) Lysenergi omdannes til kemisk energi.\nC) Chlorophyll i bladet fanger lysenergi.\nD) Sollys omdannes til chlorophyll.\nAnswer in English.",
+        "generated_answer": "C) Chlorophyll i bladet fanger lysenergi.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer: \"C) Chlorophyll i bladet fanger lysenergi.\" That's the same answer, just with text. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 577,
+        "question": "Hvad bedst forklarer hvad forskere refererer til, når de bruger ordet bevarelse?\nA) ikke-levende dele af miljøet\nB) levende organismer i miljøet\nC) sundhed for de levende organismer i miljøet\nD) beskyttelse, styring og fornyelse af ressourcer\nAnswer in English.",
+        "generated_answer": "D) beskyttelse, styring og fornyelse af ressourcer",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvad bedst forklarer hvad forskere refererer til, når de bruger ordet bevarelse?\" Options given. Ground truth answer: D. Generated answer: \"D) beskyttelse, styring og fornyelse af ressourcer\". That matches D. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "Hvilken af følgende vil bedst vise procentdelen af ​​de otte mest almindelige elementer i jordskorpen?\nA) linjegraf\nB) cirkeldiagram\nC) søjlediagram\nD) datatabeller\nAnswer in English.",
+        "generated_answer": "C) søjlediagram",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following will best show the percentage of the eight most common elements in the Earth's crust?\" Options: A line graph, B pie chart, C bar chart, D data tables. The correct answer likely is a pie chart (percentage). But ground truth says D (data tables). Generated answer says C (bar chart). They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "En mus er placeret i den ene ende af en pap-maze hvor der er en ost i den anden ende. Musen lugter osten og lærer hvordan man finder den. Musen bruger en\nA) erhvervet egenskab til at opnå en arvelig egenskab.\nB) arvelig egenskab til at opnå en erhvervet egenskab.\nC) erhvervet egenskab til at opnå en anden erhvervet egenskab.\nD) arvelig egenskab til at opnå en anden arvelig egenskab.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) arvelig egenskab til at opnå en erhvervet egenskab.**  \n\nHere’s the reasoning:  \n- The question describes a scenario where a **mouse** (an animal) is in one end of a **maze** (a physical structure) and a **cheese** (an object) is in the other end.  \n- The mouse **learns** how to find the cheese through **experience** (observing the maze and the cheese).  \n- This process involves **learning** an **acquired** (not inherited) trait (the ability to find the cheese).  \n- The question asks how the **mouse** (an animal) learns this trait, not how a **human** (or another animal) learns it.  \n\nThus, the correct answer is **B**, as it aligns with the idea that the mouse learns an **acquired** trait through **experience**.  \n\n**Answer in English:**  \n**B) Arvelig egenskab til at opnå en erhvervet egenskab.**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"B\". Generated answer says \"The correct answer is B) arvelig egenskab til at opnå en erhvervet egenskab.\" That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 513,
+        "question": "Hvad er nødvendigt i alle stadier af sommerfuglens livscyklus?\nA) Vinger\nB) Øjne\nC) Jord\nD) Luft\nAnswer in English.",
+        "generated_answer": "**A) Vinger**  \n\nI sommerfuglens livscyklus er vinger et af de mest kritiske stadier. Vinger er nødvendige for:  \n- **Flyvning** (for at undslippe rovdyr og finde føde).  \n- **Parring** (hunnens vinger bruges til at lokke hanner).  \n- **Æggelægning** (æggene lægges på planter, og vingerne er afgørende for at undslippe).  \n\n**Andre stadier** (som larver, pupper eller jord) er ikke direkte relateret til vinger.  \n\n**Besvarelsen: A) Vinger**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Hvad er nødvendigt i alle stadier af sommerfuglens livscyklus?\" Means \"What is necessary in all stages of the butterfly's life cycle?\" Options: A) Wings, B) Eyes, C) Soil, D) Air. Correct answer is D (air) because butterflies need air at all stages (respiration). Generated answer says A) Vinger (wings). That's not same as D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1090,
+        "question": "Studerende vil udføre et eksperiment for at finde ud af, hvor lang tid det tager for 2 g salt at opløse sig i 50 mL vand. Hvilken eksperimentel metode vil give de mest præcise resultater?\nA) én studerende tager tidsmålinger for ét eksperiment\nB) to studerende tager tidsmålinger for ét eksperiment\nC) én studerende tager tidsmålinger for tre identiske eksperimenter\nD) tre studerende tager tidsmålinger for to identiske eksperimenter\nAnswer in English.",
+        "generated_answer": "The most precise method to determine how long it takes for 2 g of salt to dissolve in 50 mL of water would be **Option D**:  \n\n**D) three students take time measurements for two identical experiments.**  \n\n### Explanation:  \n1. **Accuracy**: Using multiple students reduces random errors (e.g., slight variations in timing or concentration).  \n2. **Reproducibility**: If each student measures the same experiment twice, the average time can be more reliable than a single student's measurement.  \n3. **Scalability**: For a larger volume (e.g., 500 mL), three students could measure the same experiment multiple times, ensuring consistency.  \n\n### Why not the others?  \n- **A (One student)**: Unreliable due to individual variability.  \n- **B (Two students)**: May average out errors, but one student might be slightly faster/slower, leading to less precise results.  \n- **C (One student for three experiments)**: Unlikely to yield consistent results due to differing conditions (e.g., different volumes, temperatures).  \n\nThus, **D** is the optimal choice for high precision.  \n\n**Answer: D**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says \"Option D\" and says answer D. So they do not match. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "En studerende undersøger virkningerne af gødning på majsplanter ved at udføre følgende trin. 1. Plant grupper af majsplanter i samme type og mængde jord i fuld solskin. 2. Tilsæt samme mængde forskellige mærker af gødning til hver gruppe. 3. Vandes planterne i 5 minutter hver dag. 4. Mål højden på planterne hver dag. Hvad er den uafhængige variabel i denne undersøgelse?\nA) planteart\nB) højden på planten\nC) mængden af ​​gødning\nD) type gødning\nAnswer in English.",
+        "generated_answer": "The independent variable in this study is:\n\n**C) mængden af ​​gødning**\n\n### Forklaring:\n- **Uafhængig variabel (Variable de control):** Dette er den faktor, der ændres eller kontrolleres af forskeren for at se, hvordan den påvirker den afhængige variabel (dependent variable). I dette tilfælde er den afhængige variabel **højden på planterne**, da forskeren ændrer mængden af ​​gødning tilføjet til hver gruppe planter.\n- **Andre variabler:**\n  - **Plant type (A):** Dette er en anden variabel, der kan variere mellem grupper, men det er ikke den variable, der ændres af forskeren.\n  - **Tid (B):** Dette er en anden variabel, der kan variere, men det er ikke den variable, der kontrolleres af forskeren.\n  - **Type af gødning (D):** Dette er en anden variabel, der kan variere, men det er ikke den variable, der ændres af forskeren.\n\nDerfor er **mængden af ​​gødning** den uafhængige variabel, da den er den faktor, der forskeren ændrer for at se, hvordan den påvirker den afhængige variabel (højden på planterne).",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth says answer is D (type gødning). Generated answer says C (mængden af gødning). They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "En legetøjslastbil kører over en jævn overflade. Hvis overfladen er dækket med sand, vil lastbilen mest sandsynligt køre\nA) langsommere\nB) hurtigere\nC) med samme hastighed\nD) None\nAnswer in English.",
+        "generated_answer": "C) med samme hastighed",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"En legetøjslastbil kører over en jævn overflade. Hvis overfladen er dækket med sand, vil lastbilen mest sandsynligt køre\" Options: A) langsommere (slower), B) hurtigere (faster), C) med samme hastighed (same speed), D) None. Answer in English. Ground truth: A (slower). Generated answer: \"C) med samme hastighed\" (same speed). They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Hvorfor er miljøændringer, der sker hurtigt, mere tilbøjelige til at forårsage udryddelse end langsomt forekommende ændringer?\nA) Langsomme ændringer giver tid til tilpasning.\nB) Hurtige ændringer kræver lidt tilpasning.\nC) Langsomme ændringer påvirker kun små områder.\nD) Hurtige ændringer har en global effekt.\nAnswer in English.",
+        "generated_answer": "C) Langsomme ændringer påvirker kun små områder.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Why are rapid environmental changes more likely to cause extinction than slow changes? Correct answer is A) Slow changes give time to adapt. Ground truth is A. Generated answer is C) \"Langsomme ændringer påvirker kun små områder.\" That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 151,
+        "question": "Hvilken proces overfører primært varmeenergi fra Solen til Jorden?\nA) ledning\nB) konvektion\nC) fordampning\nD) stråling\nAnswer in English.",
+        "generated_answer": "D) stråling",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvilken proces overfører primært varmeenergi fra Solen til Jorden? A) ledning B) konvektion C) fordampning D) stråling Answer in English.\" Ground truth: \"D\". Generated answer: \"D) stråling\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 676,
+        "question": "To ens kun ens, identiske ark papir bruges i et eksperiment; én er krøllet sammen til en bold, og den anden er flad. Hvad vil formentlig ske, når de begge kastes ned fra samme højde på samme tid?\nA) Den flade ark vil falde på sin kant.\nB) Begge vil falde med samme hastighed.\nC) Krøllet ark vil falde hurtigere.\nD) Krøllet ark vil bevæge sig vandret.\nAnswer in English.",
+        "generated_answer": "C) Krøllet ark vil falde hurtigere.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer: \"C) Krøllet ark vil falde hurtigere.\" That's the same choice C. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 966,
+        "question": "Kira bemærker, at planter i skolehaven er grønne og vokser om sommeren, men er brune i december. Hvorfor vokser planter mere om sommeren end om vinteren?\nA) Jorden er tættere på solen om sommeren.\nB) Jorden roterer hurtigere om sommeren.\nC) Jordens kerne er tættere på overfladen om sommeren.\nD) Den nordlige halvdel af Jorden hælder mod solen om sommeren.\nAnswer in English.",
+        "generated_answer": "C) Jordens kerne er tættere på overfladen om sommeren.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: Why do plants grow more in summer than winter? Correct answer is D: The northern hemisphere tilts toward the sun in summer. Generated answer: C) Earth's core is closer to the surface in summer. That's incorrect and not same meaning. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "Et atom ville tabe den mindste mængde masse, hvis det mistede\nA) en proton.\nB) en neutron.\nC) en kerne.\nD) en elektron.\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) a nucleus**.  \n\n**Explanation:**  \n- **A) A proton** is a subatomic particle with a positive charge, but it is not the smallest constituent of an atom.  \n- **B) A neutron** is a neutral particle, but it is not the smallest constituent of an atom.  \n- **C) A nucleus** is the central core of an atom, where protons and neutrons are packed together, making it the smallest stable structure.  \n- **D) An electron** is a subatomic particle with a negative charge, but it is not the smallest constituent of an atom.  \n\nThus, the nucleus is the smallest mass component in an atom.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Et atom ville tabe den mindste mængde masse, hvis det mistede A) en proton. B) en neutron. C) en kerne. D) en elektron.\" Means: \"An atom would lose the smallest amount of mass if it lost ...\". The smallest mass loss would be electron (lightest). So correct answer is D. Ground truth is D. Generated answer says C) a nucleus. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 206,
+        "question": "Dominic observerer en volvox koloni og en paramecium under et mikroskop. Han noterer i sin journal, at volvox kolonien og parameciumet er ens, fordi de har mange organeller til bevægelse. Hvad ville Dominic mest sandsynligt lægge mærke til ved bevægelsen af en volvox koloni og en paramecium?\nA) De bevæger sig begge med samme hastighed.\nB) De bevæger sig begge væk fra lyset.\nC) De bevæger sig begge i samme retning.\nD) De bevæger sig begge mod en energikilde.\nAnswer in English.",
+        "generated_answer": "Dominic vil mest sandsynligt bemærke, at både en Volvox-koloni og en paramecium bevæger sig med samme hastighed, fordi de begge er encellede organismer, der er i stand til at bevæge sig selvstændigt.  \n\n**Besvarelse:**  \nA) De bevæger sig begge med samme hastighed.  \n\n*Hvorfor?*  \n- Volvox-kolonien består af mange celler, der arbejder sammen for at danne en koloni.  \n- Paramecium bevæger sig med ciliære bølger, der hjælper dem med at bevæge sig fremad.  \n- Bortset fra ciliære bølger er deres bevægelser ens, da de begge er protister (en type encellede organismer).  \n\nDette er en af de mest almindelige observationer i mikroskopi, da begge organismer er primitive og har lignende bevægelsesmønstre.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". The question: \"What would Dominic most likely notice about the movement of a Volvox colony and a paramecium?\" Options A-D. Ground truth says D) They both move toward an energy source. The generated answer says A) They both move at same speed. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 724,
+        "question": "Hvad af følgende er lavet af atomer?\nA) tyngdekraft\nB) lys\nC) varme\nD) luft\nAnswer in English.",
+        "generated_answer": "**C) varme**  \n\nAtomer er de grundlæggende byggesten i alt stof, og de udgør de fleste af materialerne i vores verden. Varme er en form for energi, der opstår, når atomer bevæger sig hurtigt og kolliderer med hinanden.  \n\n**Besvarelsen:**  \n**C) varme**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Hvad af følgende er lavet af atomer? A) tyngdekraft B) lys C) varme D) luft\". Which is made of atoms? The correct answer is D) luft (air). Ground truth says D. Generated answer says C) varme (heat). That's not the same. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 889,
+        "question": "Energi ændrer form eller overføres gennem virkningen af kræfter. Et eksempel på kinetisk energi, der ændrer sig til potentiel energi, er\nA) en sten, der sidder på en klippe\nB) en person, der løber rundt om en bane\nC) en bil, der køres op ad en bakke og parkeres\nD) en elastik, der bliver strakt og brudt\nAnswer in English.",
+        "generated_answer": "**C) en bil, der køres op ad en bakke og parkeres**  \n\n**Forklaring:**  \nNår en bil køres op ad en bakke, udfører den arbejde mod tyngdekraften. Dette arbejde omdannes til potentiel energi (oplagret energi) i bilen. Når bilen parkeres, frigives denne potentielle energi, da tyngdekraften ikke længere påvirker den.  \n\n**Andre muligheder:**  \n- **A)** En sten på en klippe bevarer sin kinetiske energi (bevægelse), men ændrer ikke form.  \n- **B)** En person løber rundt om en bane, men bevæger sig ikke opad – der er ingen ændring i form eller potentiale.  \n- **D)** En elastik strækkes og brudt ændrer form, men ikke potentiale.  \n\n**Rigtige svar:**  \n**C) en bil, der køres op ad en bakke og parkeres**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says \"**C) en bil, der køres op ad en bakke og parkeres**\" and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 647,
+        "question": "Hvilket ville sandsynligvis have mindst indvirkning på globale klimaændringer?\nA) at producere energi ved hjælp af vandkraftværker\nB) at producere energi ved hjælp af kul\nC) at producere energi ved hjælp af olie\nD) at producere energi ved hjælp af naturgas\nAnswer in English.",
+        "generated_answer": "B) at producere energi ved hjælp af kul",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which would likely have the least impact on global climate change?\" Options: A hydro, B coal, C oil, D natural gas. Correct answer is A (hydro). Generated answer: B (coal). They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 418,
+        "question": "En lærer udfører en undersøgelse ved hjælp af særligt udstyr til at holde en magnesium (Mg) bånd over flammen fra en Bunsenbrænder. Hvilken observation indikerer, at en kemisk reaktion fandt sted?\nA) Temperaturen på magnesiumbåndet steg.\nB) Formen på magnesiumbåndet ændrede sig.\nC) Det brændende magnesium producerede lys.\nD) Magnesiumen syntes at fordampe.\nAnswer in English.",
+        "generated_answer": "A) Temperaturen på magnesiumbåndet steg.  \n\n**Forklaring:**  \nNår magnesium (Mg) brændes i en Bunsenbrænder, reagerer det med ilt (O₂) fra luften for at danne magnesiumoxid (MgO) og frigive ilt (O₂). Denne reaktion frigiver varme, hvilket fører til en stigning i temperaturen på magnesiumbåndet. Dette er en typisk indikator for en kemisk reaktion.  \n\n**Andre mulige observationer:**  \n- **B) Formen på magnesiumbåndet ændrede sig:** Dette kan indikere, at reaktionen har dannet et nyt stof (som magnesiumoxid), men det er ikke den primære indikator for en kemisk reaktion.  \n- **C) Det brændende magnesium producerede lys:** Dette er en kemisk reaktion, men det er ikke den mest direkte indikator for en kemisk reaktion sammenlignet med temperaturstigningen.  \n- **D) Magnesiumen syntes at fordampe:** Dette kan være en kemisk reaktion (f.eks. redoxreaktion), men det er ikke den mest almindelige indikator for en kemisk reaktion i denne sammenhæng.  \n\n**Konklusion:**  \nDen mest almindelige og direkte indikator for en kemisk reaktion er **temperaturstigningen** på magnesiumbåndet.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which observation indicates a chemical reaction? Correct answer is C: The burning magnesium produced light. Generated answer says A: temperature rise is the indicator. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1131,
+        "question": "Mennesker uden adgang til drikkevand kan få en sygdom kaldet dysenteri. Dysenteri skyldes en type amøbe, der lever inde i kroppen. Læger kan finde disse amøber ved at se på kropsprøver under et mikroskop. Hvilken egenskab ved amøber forklarer bedst, hvorfor læger bruger mikroskoper til at finde dysenteri-amøber?\nA) Amøber kan ændre deres form.\nB) Amøber har brug for mennesker for at overleve.\nC) Amøber ser præcis ud som menneskeceller.\nD) Amøber består af kun én celle.\nAnswer in English.",
+        "generated_answer": "C) Amøber ser præcis ud som menneskeceller.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which property best explains why doctors use microscopes to find dysentery amoebas? Correct answer: D) Amoebas consist of only one cell (i.e., they are unicellular, need microscope). Generated answer: C) Amoebas look exactly like human cells. That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 906,
+        "question": "Hvilken menneskelig aktivitet påvirker direkte kvaliteten af ferskvandsressourcer?\nA) at udtømme ozonlaget\nB) at brænde benzin i bilmotorer\nC) at smide affald ud af bilvinduer\nD) at tillade afstrømning fra landbrugsarealer\nAnswer in English.",
+        "generated_answer": "D) at tillade afstrømning fra landbrugsarealer",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which human activity directly affects quality of freshwater resources? Options A-D. Ground truth answer: D. Generated answer: \"D) at tillade afstrømning fra landbrugsarealer\". That's the same as D. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1067,
+        "question": "En DNA-streng indeholder kodoner, som består af en sekvens af tre nukleotider. Hvad beskriver bedst betydningen af kodoner fundet i sekvensen af DNA?\nA) De indeholder koden til messenger RNA.\nB) De signalerer starten på mitotisk cellesplitning.\nC) De sikrer korrekt replikering af den genetiske kode.\nD) De bruges til at samle aminosyrer til proteinsyntese.\nAnswer in English.",
+        "generated_answer": "C) De sikrer korrekt replikering af den genetiske kode.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which describes best meaning of codons in DNA sequence? Correct answer is D. Generated answer says C. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "Et bestemt atom har 20 elektroner, 21 neutroner og 20 protoner. Hvad er atommassen af ​​atomet?\nA) 20\nB) 21\nC) 41\nD) 61\nAnswer in English.",
+        "generated_answer": "The atom in question has **20 protons**, **21 neutrons**, and **20 electrons**.  \n\n- **Atom mass** = (number of protons + number of neutrons) = (20 + 21) = **41**.  \n\nThus, the correct answer is **C) 41**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"C\". Generated answer says answer is C) 41, which matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 127,
+        "question": "Hvilken planet i solsystemet har det længste år?\nA) Planeten tættest på solen.\nB) Planeten med den længste dag.\nC) Planeten med flest måner.\nD) Planeten længst fra solen.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) The planet farthest from the Sun**.\n\n### Explanation:\n- **A)** The planet closest to the Sun (Mercury) has the shortest year (about 88 Earth days).  \n- **B)** The planet with the longest day (Venus) has the shortest year (about 225 Earth days).  \n- **C)** The planet with the most moons (Jupiter) has the longest year (about 12 Earth years).  \n- **D)** The planet farthest from the Sun (Neptune) has the longest year (about 165 Earth years).  \n\nThus, **D** is the correct choice.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". Generated answer says correct answer is D) The planet farthest from the Sun. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1123,
+        "question": "Hvilken gruppe på det periodiske system indeholder elementer, der er mindst reaktive?\nA) gruppe 1 (1A)\nB) gruppe 3 (3B)\nC) gruppe 16 (6A)\nD) gruppe 18 (8A)\nAnswer in English.",
+        "generated_answer": "The group on the periodic table that contains the least reactive elements is **Group 18 (8A)**.  \n\nThis group includes noble gases such as **helium (He)**, **neon (Ne)**, **argon (Ar)**, **krypton (Kr)**, **xenon (Xe)**, and **radon (Rn)**. These elements are highly unreactive due to their full valence electron shells, making them ideal for applications like lighting, medical imaging, and as shielding materials in nuclear reactors.  \n\nThe other groups are more reactive:  \n- **Group 1 (1A)**: Alkali metals (e.g., sodium, potassium) are highly reactive.  \n- **Group 2 (2A)**: Alkaline earth metals (e.g., magnesium, calcium) are reactive.  \n- **Group 16 (6A)**: Oxygen, sulfur, and selenium are reactive.  \n\nThus, **D) Group 18 (8A)** is the correct answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". The generated answer says the correct answer is Group 18 (8A), which corresponds to D. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 28,
+        "question": "Flere studerende deltager i en brobygningskonkurrence, der kræver brug af ispind og lim til at konstruere den stærkeste bro muligt. Broerne skal være 5 tommer bred og strække sig over en længde på 18 tommer. Hvilken af følgende test er den mest nøjagtige måde at bestemme den stærkeste spændingsdesign til disse broer?\nA) Rul legetøjsbiler over hver bro indtil den kollapser\nB) Placere betonbygningsblokke på toppen af hver bro, indtil den kollapser\nC) Stable mønter på begge ender af hver bro, indtil den kollapser\nD) Placer D-celle batterier i midten af hver bro, indtil den kollapser\nAnswer in English.",
+        "generated_answer": "The most accurate way to determine the strongest stress design for these bridges, which require spandex and glue to construct the strongest possible bridge, is **D) Place D-cell batteries in the middle of each bridge until it collapses**.  \n\n### Explanation:  \n1. **Roller Legetøjsbiler**: This test is not a reliable way to measure stress in real bridges, as it does not simulate the dynamic loads (e.g., wind, traffic) that bridges experience.  \n2. **Betonbygningsblokke**: This test is impractical for real bridges, as it requires precise placement and may not accurately represent the stress distribution in a real structure.  \n3. **Stable Mønter**: This test is irrelevant, as it involves metal objects (coins) and does not test the structural integrity of a bridge.  \n4. **D-cell Batteries**: This test is highly relevant, as it simulates the dynamic loads that bridges experience (e.g., wind, traffic). The collapse of a bridge under these loads is a direct measure of its strength.  \n\nThus, **D** is the best choice for determining the strongest stress design.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"D\". Generated answer says the most accurate way is D) Place D-cell batteries... So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 191,
+        "question": "Forskere har opdaget, at selvom infektiøse bakterier kan udvikle resistens over for antibiotika, kan visse peptider, som fungerer som naturlige antibiotika i kroppen, forhindre denne resistens i visse bakterier. Denne opdagelse har ført til udviklingen af hvilken ny teknologi?\nA) kunstige stoffer, der efterligner menneskelige peptider\nB) antibiotika, der kan absorberes gennem huden\nC) bakterier, der angriber antibiotikaresistente organismer\nD) antibiotika, der tilpasser sig i respons til bakteriel resistens\nAnswer in English.",
+        "generated_answer": "C) bakterier, der angriber antibiotikaresistente organismer",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which new technology? Ground truth: A) artificial substances that mimic human peptides. Generated answer: C) bacteria that attack antibiotic-resistant organisms. They are different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 816,
+        "question": "En ingeniør bruger en computer til at designe en bro. Hvilken test er den vigtigste med henblik på sikkerhed?\nA) maksimal belastning broen kan bære\nB) omkostningerne ved de materialer, der anvendes til at bygge broen\nC) procentdelen af materialer, der kan genanvendes\nD) hastigheden, hvormed broen kan opføres\nAnswer in English.",
+        "generated_answer": "The most important test for the safety of a bridge designed by an engineer is:\n\n**A) Maximum load the bridge can bear**  \nThis test ensures the bridge can withstand expected loads without failure, which is critical for structural integrity.\n\n**B) Cost of materials used to build the bridge**  \nWhile cost is important, it is not the primary safety concern.\n\n**C) Percentage of materials that can be recycled**  \nRecycling is a sustainability consideration but not the most critical safety test.\n\n**D) Speed of construction**  \nSpeed is important for project timelines but not directly related to safety.\n\n**Answer: A**",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer says answer: A, and explains that A is most important. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2,
+        "question": "Hvilken af disse er en vigtig sikkerhedsregel at følge, når man bruger kemikalier?\nA) Sæt langt hår op.\nB) Opbevar alle kemikalier i køleskab.\nC) Mærk alle reagensglas og flasker korrekt.\nD) Bortskaf slukkede tændstikker korrekt.\nAnswer in English.",
+        "generated_answer": "C) Mærk alle reagensglas og flasker korrekt.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which is important safety rule when using chemicals? Options A-D. Correct is C. Generated answer: \"C) Mærk alle reagensglas og flasker korrekt.\" Ground truth: \"C\". They match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1010,
+        "question": "En elev satte en levende grøn plante i en lufttæt, gennemsigtig beholder fyldt med luft fra lokalet. Beholderen blev udsat for sollys i en uge. Ved ugens slutning skulle eleven bestemme, hvilke gasser der var øget i koncentration. Under forudsætning af, at tilstrækkeligt med vand og kuldioxid var tilgængeligt for den korrekte vækst af planten, hvilken gas ville du forvente at være til stede i øget koncentration?\nA) C\nB) NO_{2}\nC) O_{2}\nD) CO\nAnswer in English.",
+        "generated_answer": "To forudsætninger er vigtige for at besvare spørgsmålet korrekt:\n\n1. **Plantens vækst**: En levende plante kræver CO₂ (kuldioxid) og O₂ (ilt) til fotosyntese. Hvis der ikke er tilstrækkeligt med CO₂, kan planten ikke producere nok sukker, hvilket kan hæmme dens vækst.\n\n2. **Lufttæt beholder**: En lufttæt beholder forhindrer fordampning af vand og CO₂, hvilket er nødvendigt for at undgå, at planten dehydrerer. Dette er også vigtigt for at undgå, at gasser frigives fra planten, hvilket kan forstyrre målingerne.\n\n**Analysen**:\n- **CO₂**: Hvis der er tilstrækkeligt med CO₂ i beholderen, vil planten kunne optage det gennem bladene og vokse normalt.\n- **O₂**: Hvis der er tilstrækkeligt med O₂, vil planten kunne optage det gennem bladene og vokse normalt.\n- **NO₂**: Dette er en luftforurenende gas, der ofte frigives fra udstødningsgasser af biler og industrier. Det kan ikke optages af planter og kan derfor ikke være til stede i øget koncentration i en levende plante.\n\n**Konklusion**:\nGassen, der **forventes at være til stede i øget koncentration**, er **NO₂**, da den er en luftforurenende gas, der ikke er nødvendig for plantens vækst.\n\n**Rigtige svar**:  \n**B) NO₂**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". That corresponds to option C) O2. The generated answer says the gas expected to be increased is NO2, option B. So they do not match. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "Producenter kan bruge fotosyntese til at fange energi til fødevæv i de fleste økosystemer. I hvilket økosystem skal producenter fange energi fra gasser såsom metan og brint sulfid?\nA) koralrev\nB) høj ørken\nC) oceanisk grøft\nD) eviggrøn skov\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) eviggrøn skov**.  \n\n### Explanation:  \n- **Producenter** i et økosystem er autotrofe organismer (f.eks. planter, alger, visse bakterier) som fanger energi fra sollys og omdanner det til organisk stof (f.eks. sukker).  \n- **Metan (CH₄)** og **brint sulfid (H₂S)** er gasser, der ikke er direkte tilgængelige for fotosyntese.  \n- **Eviggrøn skov** (f.eks. regnskov eller boreale skove) er en type økosystem, hvor planter (f.eks. træer) fanger energi fra sollys gennem fotosyntese.  \n- **Høj ørken** (f.eks. Sahara) er et andet økosystem, hvor fotosyntese ikke er mulig på grund af ekstremt lavt lys og temperatur.  \n- **Oceanisk grøft** (f.eks. Marianergrøften) er et dybhavsøkosystem, hvor fotosyntese ikke forekommer på grund af manglende lys.  \n\n**D) eviggrøn skov** er det mest sandsynlige sted for fotosyntese at finde sted, da det er et økosystem, hvor planter kan fange energi fra gasser som metan og brint sulfid.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Producenter kan bruge fotosyntese til at fange energi til fødevæv i de fleste økosystemer. I hvilket økosystem skal producenter fange energi fra gasser såsom metan og brint sulfid? A) koralrev B) høj ørken C) oceanisk grøft D) eviggrøn skov Answer in English.\"\n\nGround truth answer: C (oceanic trench). The generated answer says D (evergreen forest). They are not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 499,
+        "question": "Gulf-sturgeoner, en fiskeart, lever i saltvand langs Golfkysten i Florida. De svømmer op ad floden for at avle i rent ferskvand. Efter flere år migrerer de unge sturgeoner ned ad floden til kystnære saltvandsmiljøer. Hvilken virkning er mest sandsynlig på gulf-sturgeoner, hvis der blev bygget dæmninger langs disse floder?\nA) Gulf-sturgeoner vil over tid ændre sig til en ny art.\nB) Gulf-sturgeoner vil flytte fra kystnære floder til havet.\nC) Gulf-sturgeonpopulationen vil falde på grund af tab af levested.\nD) Gulf-sturgeonpopulationen vil tilpasse sig avl i saltvand.\nAnswer in English.",
+        "generated_answer": "The most likely effect of damming the Gulf-sturgeon's rivers is that the population will decline due to loss of habitat.  \n\n**Explanation:**  \n- **Gulf-sturgeon** (A. texana) is a freshwater species that migrates from the ocean to rivers to spawn. Dams block this migration, preventing them from accessing their traditional breeding grounds.  \n- **Cutthroat trout** (B. spp.) and other fish species that rely on the same rivers for spawning may also be affected, but the primary impact is the loss of the Gulf-sturgeon's habitat.  \n- **Option A (new species)** is unlikely, as hybridization between species is rare and not a direct result of damming.  \n- **Option C (population decline)** is plausible, as habitat loss directly reduces survival rates.  \n- **Option D (adaptation)** is improbable, as dams disrupt natural migration patterns.  \n\nThus, the correct answer is **C**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The generated answer says: \"The most likely effect ... is that the population will decline due to loss of habitat... Thus, the correct answer is C.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 666,
+        "question": "Kobber er et grundstof, der bruges i elektriske ledninger. Hvad er den mindste enhed af kobber, der stadig opretholder karakteristika af kobber?\nA) atomet\nB) elektronen\nC) kernen\nD) protonen\nAnswer in English.",
+        "generated_answer": "The smallest unit of copper that still maintains its characteristic properties is the **electron**.  \n\n**Explanation:**  \n- **Atom (A):** Copper is an element, not a compound, so it doesn’t have a defined \"smallest unit.\"  \n- **Electron (B):** The electron is a fundamental particle in an atom, not a unit of copper.  \n- **Kern (C):** The nucleus of an atom is too large to be considered a \"unit\" of copper.  \n- **Proton (D):** Protons are in the nucleus and are not the smallest unit of copper.  \n\nThe **electron** is the correct answer because it is the smallest constituent of copper that retains its electrical and physical properties.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Kobber er et grundstof, der bruges i elektriske ledninger. Hvad er den mindste enhed af kobber, der stadig opretholder karakteristika af kobber? A) atomet B) elektronen C) kernen D) protonen Answer in English.\"\n\nGround truth answer: \"A\" (the atom). The generated answer says the smallest unit is the electron (option B). That's not the same. So answer is false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 128,
+        "question": "Fire markant forskellige husholdningsapparater (blender, mixer, brødrister og foodprocessor) er tilsluttet fire stikkontakter langs en bordplade. At tænde eller slukke for en eller flere af apparaterne påvirker ikke ydeevnen af de andre apparater, fordi de fire apparater\nA) kører på jævnstrøm.\nB) er tilsluttet i serie.\nC) er tilsluttet i parallel.\nD) kører på vekselstrøm.\nAnswer in English.",
+        "generated_answer": "The four appliances are connected to four separate outlets on a table, and turning one or more appliances on or off does not affect the performance of the other appliances. This is because they are connected in **parallel**, not in series.\n\n**Answer:**  \n**C) are connected in parallel.**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer says \"they are connected in parallel\" and selects C). That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 391,
+        "question": "Hvad er spændingen i en kreds med en strøm på 3 ohm og en samlet modstand på 12?\nA) 0,25 V\nB) 4 V\nC) 15 V\nD) 36 V\nAnswer in English.",
+        "generated_answer": "The total resistance in a series circuit is the sum of the individual resistances. Given that the total resistance is 12 Ω and the current (I) is 3 A, the formula for total resistance (R_total) is:\n\n\\[\nR_{\\text{total}} = \\frac{V}{I}\n\\]\n\nwhere \\( V \\) is the voltage and \\( I \\) is the current.\n\nSubstituting the known values:\n\n\\[\n12 \\, \\Omega = \\frac{V}{3 \\, \\text{A}}\n\\]\n\nSolving for \\( V \\):\n\n\\[\nV = 12 \\, \\Omega \\times 3 \\, \\text{A} = 36 \\, \\text{V}\n\\]\n\nThus, the voltage in the circuit is **36 V**.\n\n**Answer:** \\boxed{D}",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". The generated answer says voltage is 36 V, answer D. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1162,
+        "question": "Når en blanding af ilt og brint antændes i en reagensglas, sker den viste reaktion. Brint + ilt -> Vand + Energi Hvad sker der med den samlede masse af indholdet af reagensglasset?\nA) Den samlede masse øges.\nB) Den samlede masse falder.\nC) Den samlede masse forbliver den samme.\nD) En del af massen bliver ændret til varmeenergi.\nAnswer in English.",
+        "generated_answer": "C) Den samlede masse forbliver den samme.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Generated answer: \"C) Den samlede masse forbliver den samme.\" Ground truth: \"C\". Both indicate option C, same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 454,
+        "question": "En elev undersøger Newtons anden bevægelseslov ved at ændre kraften, der virker på et objekt, og observere den resulterende acceleration. Hvis kraften på objektet blev øget fire gange, hvor meget ville accelerationen så øge?\nA) 2 gange\nB) 4 gange\nC) 8 gange\nD) 16 gange\nAnswer in English.",
+        "generated_answer": "To ændre kraften på et objekt har en direkte virkning på dets acceleration. Newtons anden lov siger, at **accelerationen \\( a \\) er proportional med den resulterende kraft \\( F \\)**, og at den er omvendt proportional med massen \\( m \\) af objektet:\n\n\\[\nF = m \\cdot a\n\\]\n\nHvis kraften \\( F \\) fordobles, mens massen \\( m \\) forbliver den samme, vil accelerationen \\( a \\) også fordobles:\n\n\\[\na = \\frac{F}{m} = 2 \\cdot \\frac{F}{m} = 2 \\cdot a\n\\]\n\n**Svar:**  \n**B) 4 gange**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". The question: If force increased four times, how much would acceleration increase? Answer: 4 times, which is choice B. The generated answer: It explains proportionality, says if force doubles acceleration doubles, then says **Svar:** **B) 4 gange**. It says answer B) 4 times. That matches ground truth. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 488,
+        "question": "Bernice undersøgte nogle organismer, der lever sammen i en mark. På hvilken måde er en kanin lignende den plante, den spiser?\nA) De har begge brug for energi for at overleve.\nB) De forbruger begge andre organismer.\nC) De begge absorberer vand fra jorden.\nD) De producerer begge deres egen mad fra sollys.\nAnswer in English.",
+        "generated_answer": "C) De begge absorberer vand fra jorden.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Bernice studied some organisms that live together in a field. In what way is a rabbit similar to the plant it eats?\" Options: A) Both need energy to survive. B) Both consume other organisms. C) Both absorb water from the soil. D) Both produce their own food from sunlight. Correct answer is A (both need energy). Generated answer says C. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 291,
+        "question": "Hvad bærer bølger gennem objekter?\nA) lyd\nB) lys\nC) energi\nD) vand\nAnswer in English.",
+        "generated_answer": "**D) vand**  \n\nBølger, der bevæger sig gennem vand, bærer energi gennem det. Dette skyldes, at vandmolekyler vibrerer og skaber en række af bølger, der transporterer energi fra en bølgefront til en anden. Dette er en grundlæggende egenskab ved vand som medium for lyd og bølger.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Hvad bærer bølger gennem objekter?\" Means \"What do waves carry through objects?\" Options: A) sound, B) light, C) energy, D) water. Correct is C) energy. Ground truth is C. Generated answer says D) vand (water). That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1112,
+        "question": "Hvilket udsagn beskriver bedst en egenskab ved vand?\nA) Flydende vand holder sin form.\nB) Vand omdannes til en gas når det koger.\nC) Is bliver til flydende form når det fryser.\nD) Fast is skifter form med sin beholder.\nAnswer in English.",
+        "generated_answer": "C) Is bliver til flydende form når det fryser.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which statement best describes a property of water?\" Options: A) Liquid water keeps its shape. B) Water turns to gas when it boils. C) Ice becomes liquid when it freezes. D) Solid ice changes shape with its container. The correct answer is B (water becomes gas when boiled). Generated answer says C) Is becomes liquid when it freezes. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 917,
+        "question": "En mand på 60 kg og en dreng på 25 kg, begge på rulleskøjter, skubber sig væk fra hinanden ved at bruge deres hænder. Hvad beskriver bevægelsen af de to personer?\nA) Manden bevæger sig længere og hurtigere end drengen.\nB) Drengen bevæger sig længere og hurtigere end manden.\nC) Manden bevæger sig længere, men med samme hastighed som drengen.\nD) Drengen bevæger sig hurtigere, men med samme afstand som manden.\nAnswer in English.",
+        "generated_answer": "C) Manden bevæger sig længere, men med samme hastighed som drengen.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Generated says option C. Ground truth is B. They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Når en elektrisk strøm passerer igennem vand (H_{2}O) ved hjælp af en specifik apparat, dannes hydrogen (H_{2}) og oxygen (O_{2}) gasser. Hvordan kan denne reaktion vises i en kemisk ligning?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "The correct chemical equation for the electrolysis of water (H₂O) is:\n\n**B) 2H₂O(l) → 2H₂(g) + O₂(g)**\n\n### Explanation:\n1. **Electrolysis of Water**:  \n   - When an electric current is passed through water (H₂O), it dissociates into hydrogen (H₂) and oxygen (O₂) gases.  \n   - The balanced chemical equation for this process is:  \n     \\[\n     2H_2O(l) \\rightarrow 2H_2(g) + O_2(g)\n     \\]\n\n2. **Key Points**:  \n   - The reaction is **exothermic** (releases energy in the form of heat and light).  \n   - The oxygen gas (O₂) is produced at the cathode (reduction site).  \n   - The hydrogen gas (H₂) is produced at the anode (oxidation site).  \n\n3. **Why Not the Other Options?**  \n   - **A)** (H₂O → H + O + H) is the reverse reaction and does not represent the electrolysis process.  \n   - **C)** (H₂O → H₂O) is incorrect because it implies no net reaction, but electrolysis produces gases.  \n   - **D)** (H₂O(l) → 2H(g) + O(g)) is the overall reaction for the electrolysis of water, not a single step.  \n\nThus, **B** is the correct and standard representation of the reaction.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct equation is B) 2H2O(l) → 2H2(g) + O2(g). That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 164,
+        "question": "Hvilken af disse egenskaber arves, men er stor påvirket af miljøet?\nA) evne til at rulle tungen\nB) atletisk præstation\nC) sprog\nD) øjenfarve\nAnswer in English.",
+        "generated_answer": "**C) sprog**  \n\n**Forklaring:**  \nSprog er et komplekst træk, der arves genetisk (f.eks. via gener for sprogproduktion) og påvirkes af miljøet gennem læring, eksponering og kultur. Mens evnen til at rulle tungen (A) er en fysisk færdighed, der primært arves, er sprog en kulturelt og socialt betinget evne, der kan udvikles gennem miljøet. Øjenfarve (D) er et fysisk træk, der arves, men miljøet har kun en minimal indvirkning på dens udseende. Derfor er **sprog** den egenskab, der både arves og er stærkt påvirket af omgivelserne.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which of these traits is inherited but strongly influenced by environment?\" Options A-D. Ground truth answer is B. Generated answer says C. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "Skyer bringer regn og sne til Jordens overflade. Hvordan understøtter regn og sne mest liv på Jorden?\nA) De køler landoverfladen.\nB) De transporterer syrer ind i jorden.\nC) De bringer ferskvand til landbaserede organismer.\nD) De bygger bjerge op.\nAnswer in English.",
+        "generated_answer": "Skyer bringer regn og sne til Jordens overflade. Hvordan understøtter regn og sne mest liv på Jorden?\n\n**C) De bringer ferskvand til landbaserede organismer.**  \n\nRegn og sne indeholder vand, som er en essentiel ressource for alle landbaserede organismer. Ferskvand er livsvigtigt for planter, dyr og mikroorganismer, da det bruges til vækst, fordøjelse og stofskifte. Regn og sne bidrager også til at tilføre næringsstoffer til jorden, hvilket støtter plantevækst og dermed hele fødekæden.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". The generated answer selects C and explains it. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1040,
+        "question": "Sten viser nogle gange beviser på gamle gletsjere. Hvad er det bedste tegn på, at gletsjere engang dækkede et område?\nA) Sten har mange ridser.\nB) Sten indeholder fossiler.\nC) Sten er dækket af mos.\nD) Sten er dybt under jorden.\nAnswer in English.",
+        "generated_answer": "The best sign that glaciers once covered an area is **B) Sten indeholder fossiler**.  \n\nHere’s why:  \n- **Fossiler** are remnants of ancient life, often found in sedimentary rocks formed by glacial activity.  \n- Glaciers er known to transport and deposit these fossils over time, making them a clear indicator of past glacial coverage.  \n\nOther options are less direct:  \n- **A) Ridser** can occur from abrasion or erosion but are not exclusive to glaciers.  \n- **C) Moss** is a plant that thrives in moist environments, not a direct geological marker.  \n- **D) Deep underground** is irrelevant to surface glaciers.  \n\nThus, **B** is the most reliable answer.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Sten viser nogle gange beviser på gamle gletsjere. Hvad er det bedste tegn på, at gletsjere engang dækkede et område? A) Sten har mange ridser. B) Sten indeholder fossiler. C) Sten er dækket af mos. D) Sten er dybt under jorden.\" The ground truth answer is \"A\". So correct answer is A. Generated answer says B. So they do not match. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1002,
+        "question": "Hvilket sæt af elementer indeholder kun metaller?\nA) jod, jern, nikkel\nB) helium, kulstof, guld\nC) natrium, krom, kobber\nD) fosfor, kvælstof, ilt\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) sodium, chromium, copper**.  \n\n**Explanation:**  \n- **Metals** are elements that have high electrical and thermal conductivity, malleability, and ductility.  \n- **Sodium (Na)**, **chromium (Cr)**, and **copper (Cu)** are all metals.  \n- **Iron (Fe)**, **nickel (Ni)**, and **gold (Au)** are also metals, but the question specifies **only** metals.  \n- **Helium (He), carbon (C), and gold (Au)** are non-metals.  \n\nThus, the answer is **C**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"C\". Generated answer says correct answer is C) sodium, chromium, copper. That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "I hvilket stadie af dens livscyklus bruger en sommerfugl mest tid på at spise plantblade?\nA) voksen\nB) æg\nC) larve\nD) puppe\nAnswer in English.",
+        "generated_answer": "C) larve",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"I hvilket stadie af dens livscyklus bruger en sommerfugl mest tid på at spise plantblade?\" Means: In which stage of its life cycle does a butterfly spend most time eating plant leaves? Options: A) adult, B) egg, C) larva, D) pupa. Answer: larva. Ground truth: \"C\". Generated answer: \"C) larve\". That's same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 617,
+        "question": "Hvad sker der med en træstamme, når den brændes?\nA) Den bliver fuldstændig ødelagt.\nB) Den bliver fuldstændig ændret til varmeenergi.\nC) Den ændrer sig til andre former for materie og energi.\nD) Den ændrer fysisk form til den gassiske fase.\nAnswer in English.",
+        "generated_answer": "C) Den ændrer sig til andre former for materie og energi.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvad sker der med en træstamme, når den brændes?\" Options A-D. Ground truth answer: C. Generated answer: \"C) Den ændrer sig til andre former for materie og energi.\" That matches option C. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1128,
+        "question": "Vand i fast form har en krystalstruktur, som holder molekylerne længere fra hinanden end vand ved visse temperaturer i flydende form. Denne sammenhæng forklarer hvilken egenskab?\nA) tilstedeværelsen af flere urenheder i is end i flydende vand\nB) evnen af is til at flyde på flydende vand\nC) frigivelsen af varme, når flydende vand bliver til is\nD) afkølingen af flydende vand, når det strømmer over is\nAnswer in English.",
+        "generated_answer": "C) frigivelsen af varme, når flydende vand bliver til is  \n\n**Forklaring:**  \nVand har en højere smeltepunkt (0°C) end is (0°C), hvilket gør det muligt for vandmolekyler at holde sig tættere adskilt i flydende form end i fast form. Dette skyldes, at vandmolekylerne danner en tættere krystalstruktur (is) i fast form, hvilket begrænser deres bevægelse og dermed deres evne til at flyde.  \n\n**Hvorfor ikke de andre muligheder?**  \n- **A)** Tilstedeværelsen af flere urenheder i isen øger densiteten, hvilket gør den tungere og dermed mere tilbøjelig til at synke ned i flydende vand.  \n- **B)** Is flyder på flydende vand, fordi densiteten er lavere end vandets, men dette er en fysisk egenskab, ikke en kemisk forklaring på krystalstrukturen.  \n- **D)** Afkøling af flydende vand over is skyldes, at isen har en lavere temperatur end vandet, hvilket begrænser vandets evne til at absorbere varme.  \n\n**Rigtige svar:**  \nC) frigivelsen af varme, når flydende vand bliver til is.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is B. Generated answer says C. So they do not match. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 596,
+        "question": "Hvad er potentiel energi?\nA) Energi, som et objekt har på grund af dets bevægelse.\nB) Energi, som et objekt har på grund af dets position.\nC) Energi, der øger objektets masse.\nD) Energi, der øger objektets temperatur.\nAnswer in English.",
+        "generated_answer": "C) Energi, der øger objektets masse.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Hvad er potentiel energi?\" Options: A) kinetic, B) due to position, C) increases mass, D) increases temperature. Ground truth is B. Generated answer is C. They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "Mange bakterier vokser hurtigt ved stuetemperatur på cirka 20°C. Temperaturen inde i et køleskab holdes normalt på cirka 4°C. Hvilken udsagn forklarer bedst, hvordan brugen af køleskab har hjulpet samfundet?\nA) Det holder køkkenerne køligere om sommeren.\nB) Det giver mere plads til opbevaring af mad.\nC) Det gør maden mere sikker at spise i længere perioder.\nD) Det gør elektricitet sikrere at anvende i køkkenet.\nAnswer in English.",
+        "generated_answer": "C) Det gør maden mere sikker at spise i længere perioder.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"C\". Generated answer: \"C) Det gør maden mere sikker at spise i længere perioder.\" That's the same as option C. So meaning matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1121,
+        "question": "Kobber og guld har lignende reaktive egenskaber. På det periodiske system er disse elementer mest tilbøjelige til at\nA) være i samme gruppe.\nB) være i samme periode.\nC) have næsten samme masse.\nD) have det samme antal protoner.\nAnswer in English.",
+        "generated_answer": "C) have almost same mass.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Kobber og guld har lignende reaktive egenskaber. På det periodiske system er disse elementer mest tilbøjelige til at\" (Copper and gold have similar reactive properties. In the periodic table these elements are most likely to...). Options: A) be in same group. B) same period. C) have almost same mass. D) have same number of protons. The correct answer is A (same group). Generated answer says C) have almost same mass. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 681,
+        "question": "Laser anvendes i kirurgi til\nA) at lave fine snit.\nB) at oplyse operationsfelter.\nC) at sy sår.\nD) at desinficere instrumenter.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) to illuminate operating fields**.\n\n**Explanation:**  \nLaser is widely used in surgery for several reasons:  \n- **A)** It allows for precise incisions, reducing tissue damage and improving healing.  \n- **B)** It provides bright, focused light that illuminates the surgical area, enhancing visibility.  \n- **C)** Lasers can be used to coagulate blood vessels or remove tissue, which is particularly useful in procedures like dermatology or ophthalmic surgery.  \n- **D)** Lasers can be sterilized and used for disinfection, reducing the risk of infection.  \n\nThus, the primary purpose of laser in surgery is **illumination**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Laser anvendes i kirurgi til\" (Laser is used in surgery for). Options A) at lave fine snit. B) at oplyse operationsfelter. C) at sy sår. D) at desinficere instrumenter. The ground truth answer is \"A\". So correct answer is A) to make fine cuts. The generated answer says B) to illuminate operating fields. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1106,
+        "question": "Hvad holder Jorden i bane omkring Solen?\nA) Månens træghed\nB) Jordens bane placering\nC) Jordens rotationshastighed\nD) Solen's tyngdekraftige tiltrækning\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) Jordens bane placering**.  \n\nHere’s the breakdown:  \n- **A) Månens træghed**: Månens bane er stabil og præcis, men den er ikke den primære årsag til Jordens bane omkring Solen.  \n- **B) Jordens bane placering**: Jordens bane er en af de faktorer, der bestemmer, hvornår vi ser Månen fra Jorden (f.eks. nymåne).  \n- **C) Jordens rotationshastighed**: Jordens rotation (ca. 24 timer) påvirker nat- og dagcyklus, men den er ikke den primære årsag til Jordens bane.  \n- **D) Solens tyngdekraftige tiltrækning**: Solens tyngdekraft er den primære kraft, der holder planeter i bane, men den virker på hele solsystemet, ikke kun Jorden.  \n\n**B)** er den mest præcise forklaring.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Question: \"Hvad holder Jorden i bane omkring Solen?\" (What keeps Earth in orbit around the Sun?) Correct answer is D) Solen's gravitational attraction. Ground truth is D. Generated answer says correct answer is B) Jordens bane placering, and explains that D is primary but says B is most precise. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 416,
+        "question": "En studerende skubber en 20-kilograms boks op ad en rampe. Hvordan kan studerenden mindske den nødvendige kraft for at skubbe boksen op ad rampen?\nA) øge boksens masse\nB) formindske længden af rampen\nC) formindske stejlheden af rampen\nD) øge friktionen på overfladen af boksen\nAnswer in English.",
+        "generated_answer": "Hvis studerende skubber en 20-kilograms boks op ad en 20-meter lang rampe, kan studerende mindske den nødvendige kraft for at skubbe boksen op ad rampen på følgende måde:\n\n**A) Øge boksens masse**  \n*Hvorfor?* Hvis studerende øger boksenes masse, øges friktionskraften (friction force), hvilket gør det sværere at skubbe boksen op ad rampen.\n\n**B) Formindske længden af rampen**  \n*Hvorfor?* Længden af rampen påvirker ikke friktionskraften, så det er ikke en effektiv løsning.\n\n**C) Formindske stejlheden af rampen**  \n*Hvorfor?* Støtten til boksen (friction force) afhænger af rampenes hældning, ikke af rampenes stejlhed.\n\n**D) Øge friktionen på overfladen af boksen**  \n*Hvorfor?* Friktion er en modstandskraft, der modvirker bevægelse. Hvis friktionen øges, bliver det sværere at skubbe boksen op ad rampen.\n\n**Den korrekte løsning er**:  \n**A) Øge boksens masse**  \n\nDette reducerer friktionskraften, hvilket letter skubbet.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The question: \"En studerende skubber en 20-kilograms boks op ad en rampe. Hvordan kan studerenden mindske den nødvendige kraft for at skubbe boksen op ad rampen? A) øge boksens masse B) formindske længden af rampen C) formindske stejlheden af rampen D) øge friktionen på overfladen af boksen\". The correct answer is C (reduce steepness). The generated answer says the correct solution is A) increase box mass, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "Hvilken udsagn beskriver bedst alle typer af energioverførsler?\nA) De kan måles.\nB) De er 100% effektive.\nC) De falder i en konstant hastighed.\nD) De resulterer i en formindskelse af brugbar energi.\nAnswer in English.",
+        "generated_answer": "C) De falder i en konstant hastighed.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which statement best describes all types of energy transfers?\" Options: A) They can be measured. B) They are 100% efficient. C) They fall at a constant rate. D) They result in a reduction of usable energy. The correct answer is D. Generated answer says C. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 589,
+        "question": "Visse træer, såsom hundebrønd, kan blive beboet af en svamp, der ødelægger deres blade. Hvad beskriver bedst forholdet mellem træet og svampen?\nA) parasitisme\nB) saprofytisme\nC) mutualisme\nD) kommensalisme\nAnswer in English.",
+        "generated_answer": "The best description of the relationship between the tree and the fungus is:\n\n**D) commensalism**\n\n### Explanation:\n- **Parasitism** (A) involves one organism benefiting at the expense of another, which is not the case here.  \n- **Saprophytism** (B) involves a fungus decomposing dead organic matter, but the tree is not directly involved in this process.  \n- **Mutualism** (C) involves both organisms benefiting, which is not the case.  \n- **Commensalism** (D) involves one organism benefiting while the other is neither helped nor harmed, which fits the relationship where the tree is unaffected by the fungus.  \n\nThus, the fungus benefits by decomposing the tree, but the tree is neither helped nor harmed, making **commensalism** the most accurate description.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". That corresponds to parasitism. Generated answer says D) commensalism. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 911,
+        "question": "Ved hvilken temperatur fryser vand?\nA) 0 grader Celsius\nB) 32 grader Celsius\nC) 100 grader Celsius\nD) 212 grader Celsius\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) 32 degrees Celsius**.  \n\nWater freezes at **32 degrees Celsius (0°C)** under standard atmospheric pressure. Below this temperature, water remains in a liquid state.  \n\nThe other options (A, C, D) are incorrect because:  \n- **A) 0°C** is the freezing point of water, not the temperature at which it freezes.  \n- **C) 100°C** is the boiling point of water, not the freezing point.  \n- **D) 212°C** is the boiling point of water, not the freezing point.  \n\nThus, the answer is **B**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ved hvilken temperatur fryser vand?\" (In Norwegian: At what temperature does water freeze?) Options: A) 0°C, B) 32°C, C) 100°C, D) 212°C. The correct answer is 0°C (or 32°F). Ground truth answer: \"A\". So correct answer is option A (0°C). Generated answer says correct answer is B) 32 degrees Celsius, which is wrong. So meaning not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 187,
+        "question": "Næringsstoffer, der kommer fra kraftig regn, strømmer ud i Mexico Golfen. Dette producerer en algeblomstring i havmiljøet. Når algerne henfalder, bruger de store mængder af ilt langs kysten. Hvad er mest sandsynligt, at der vil ske med området som et resultat heraf?\nA) Kvælstof erstatter ilt i vandet.\nB) Vandets temperatur stiger.\nC) Bølgebevægelse transporterer den døde alger væk.\nD) Bundlevende organismer dør, og fisk svømmer væk.\nAnswer in English.",
+        "generated_answer": "C) Bølgebevægelse transporterer den døde alger væk.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is D. Generated answer is C. They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "Hvilket spørgsmål om tulipaner kunne bedst besvares ved videnskabelig forskning?\nA) Er tulipaner bedre end andre blomster?\nB) Hvilke gener bestemmer tulipanblomsters farve?\nC) Hvorfor kan mennesker lide at kigge på tulipaner?\nD) Hvilken farve tulipaner er smukkest?\nAnswer in English.",
+        "generated_answer": "C) Hvorfor kan mennesker lide at kigge på tulipaner?  \n\n**Besvarelse:**  \n\n**A) Er tulipaner bedre end andre blomster?**  \n- **Forkert.** Tulipaner er ikke nødvendigvis \"bedre\" end andre blomster. De er kendt for deres farver, former og kulturelle betydning, men deres værdi som blomster afhænger af individuelle præferencer.  \n\n**B) Hvilke gener bestemmer tulipanblomsters farve?**  \n- **Forkert.** Tulipanblomsters farve er bestemt af gener, der påvirker pigmentering (f.eks. anthocyaniner), men ikke af et enkelt \"gener\" som i planter.  \n\n**C) Hvorfor kan mennesker lide at kigge på tulipaner?**  \n- **Forkert.** Tulipaner er ikke designet til at tiltrække mennesker; de er primært en biologisk interesse. Mennesker kan måske foretrække dem pga. deres farver, men dette er ikke en biologisk forklaring.  \n\n**D) Hvilken farve tulipaner er smukkest?**  \n- **Forkert.** Tulipanens farve afhænger af genetik og miljø, ikke af en \"smukkeste\" farve. Mennesker kan have forskellige præferencer, men det er ikke en biologisk forklaring.  \n\n**Beste svar:**  \n- **A) Er tulipaner bedre end andre blomster?**  \n- **B) Hvilke gener bestemmer tulipanblomsters farve?**  \n- **C) Hvorfor kan mennesker lide at kigge på tulipaner?**  \n- **D) Hvilken farve tulipaner er smukkest?**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". The question: Which question about tulips could best be answered by scientific research? Options A-D. Correct is B (genes determining color). The generated answer: It lists options and says each is \"Forkert\" (incorrect) and then says \"Beste svar:\" and lists all options A, B, C, D. It does not select B. It actually says all are best? It's contradictory. So it does not match ground truth. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 495,
+        "question": "Lysbølger, der krydser fra et luftmedium til et vandmedium, vil\nA) blive fokuseret til en lige linje.\nB) miste energi og sprede sig.\nC) ændre længde og retning.\nD) reflektere fra vandets overflade.\nAnswer in English.",
+        "generated_answer": "Lysbølger, der krydser fra et luftmedium til et vandmedium, vil  \n\n**C) ændre længde og retning**  \n\n### Forklaring:  \n- **Lysbølger** (som vandbølger) er elektromagnetiske bølger, der bevæger sig med en bestemt hastighed i et medium (her vand).  \n- Når lysbølger krydser fra et luftmedium (hvor hastigheden er høj) til et vandmedium (hvor hastigheden er lavere), vil lysets retning ændre sig, men **længden forbliver den samme** (den såkaldte **Snell's lov**).  \n- **Energitabetning** ændres ikke, da lysets energi (og dermed hastighed) er uafhængig af mediumets densitet.  \n- **Refleksion** kan forekomme, hvis lyset rammer en skarp kant (som en vandoverflade), men det er ikke det primære fænomen ved lysbølger, der krydser mellem medier.  \n\n**Rigtige svar:**  \n- A) bliver fokuseret til en lige linje.  \n- C) ændre længde og retning.  \n- D) reflektere fra vandets overflade.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"C\". The generated answer says: \"Lysbølger ... vil C) ændre længde og retning\". However the generated answer also includes extra statements that are contradictory: It says \"længden forbliver den samme\" which contradicts \"ændre længde\". Also lists multiple \"Rigtige svar\": A, C, D. So the generated answer is not equivalent to just \"C\". It is not matching. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 594,
+        "question": "Studerende undersøger, hvordan jordens og solens positioner påvirker ændringer på jorden. Efter at fire årstider er gået på jorden, hvad er der så sket?\nA) Jorden har fuldført en rotation om månen.\nB) Jorden har fuldført en revolution om solen.\nC) Solen har fuldført en revolution omkring jorden.\nD) Månen har fuldført en revolution omkring jorden.\nAnswer in English.",
+        "generated_answer": "C) Solen har fuldført en revolution omkring jorden.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: After four seasons have passed on Earth, what has happened? Correct answer: Earth has completed a revolution around the Sun (B). Generated answer: C) Sun has completed a revolution around the Earth. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 376,
+        "question": "Forstenede palmetræer findes i sedimentære bjergarter nær gletsjere. Tilstedeværelsen af de forstenede palmetræer giver sandsynligvis bevis for hvilken påstand?\nA) Der var engang mere vand i området.\nB) Området var engang græsland.\nC) Klimaet i området var engang tropisk.\nD) Der er aktive fejl i området.\nAnswer in English.",
+        "generated_answer": "The presence of petrified palm trees in sedimentary rocks near glaciers provides evidence for the claim that the area was once **tropical**. Here’s why:\n\n- **Petrification** occurs when trees are replaced by minerals over time, preserving their structure.\n- **Tropical** climates are characterized by high temperatures, consistent rainfall, and dense vegetation, which aligns with the conditions described in the question.\n- The presence of palm trees in glacial deposits suggests that the area was once warm and humid, supporting the idea of a tropical environment.\n\nOther options are less likely:\n- **A)** More water in the area doesn’t directly explain the presence of petrified palms.\n- **B)** Grassland is not a typical environment for petrified palms.\n- **D)** Active faulting is unrelated to the preservation of petrified trees.\n\nThus, the most plausible answer is **C)**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The generated answer says the most plausible answer is C) (climate was tropical). That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 387,
+        "question": "En prognose for \"vinterblanding\" indikerer, at damp i luften vil danne både regn og sne. Hvilken af ​​disse principper er illustreret korrekt af denne begivenhed?\nA) Der er lidt vand i atmosfæren på Jorden.\nB) Mest vand på Jorden findes som damp.\nC) Vand findes i alle tre tilstande på Jorden.\nD) Vand på Jorden har tendens til at danne en fast form over tid.\nAnswer in English.",
+        "generated_answer": "C) Vand findes i alle tre tilstande på Jorden.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer: \"C) Vand findes i alle tre tilstande på Jorden.\" That's the same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 382,
+        "question": "En genstand tiltrækkes af en magnet. Når magneten fjernes fra genstanden, vil den magnetiske kraft på genstanden\nA) formindskes\nB) øges\nC) forblive den samme\nD) None\nAnswer in English.",
+        "generated_answer": "When a magnet is removed from a metal object, the magnetic field inside the metal weakens because the material's magnetic domains align with the external magnetic field, reducing the internal magnetic flux. This is a fundamental principle of **magnetism**, where the material's own magnetic field opposes the external field.\n\nThus, the correct answer is:\n\n**A) formindskes**",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The generated answer says the correct answer is A) formindskes. So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 67,
+        "question": "Studerende undersøger, hvordan temperaturen på en substans er relateret til hastigheden af ​​molekylær bevægelse. Hvilke molekyler bevæger sig hurtigst i denne substans?\nA) kold mælk\nB) varm suppe\nC) vand der smelter fra is\nD) damp stigende fra kogende vand\nAnswer in English.",
+        "generated_answer": "C) vand der smelter fra is",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Students investigate how temperature of a substance relates to speed of molecular motion. Which molecules move fastest in this substance? Options: A cold milk, B hot soup, C water melting from ice, D steam rising from boiling water.\" Correct answer is D (steam). Generated answer says C (water melting from ice). That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "Omkring områder med øget gødningsudledning kan alle heterotrofer inden for en sø fødekæde vise en stigning i antallet. Efter den første stigning begynder populationerne at falde. Hvad var den begivenhed, der mest sandsynligt fik populationerne til at falde?\nA) Flere rovdyr blev introduceret i søen.\nB) Vandet blev udtømt for næringsstoffer som kvælstof.\nC) Parringssæsonen for organismerne sluttede.\nD) Nedbrydende alger sænkede mængden af opløst ilt.\nAnswer in English.",
+        "generated_answer": "The most likely event that caused populations of heterotrophs in a lake to decline after an initial increase is:\n\n**B) Vandet blev udtømt for næringsstoffer som kvælstof.**\n\n### Forklaring:\n- **Heterotrofer** er organismer, der ikke kan producere deres egen energi (f.eks. dyr, svampe, bakterier) og derfor er afhængige af at indtage organisk stof fra andre organismer (f.eks. plankton, alger, dyr).\n- **Næringsstoffer** (som kvælstof, fosfor, ilt) er essentielle for deres vækst og reproduktion.\n- **Nedbrydende alger** (f.eks. cyanobakterier) kan udvaske næringsstoffer fra vandet, hvilket fører til eutrofiering (overskud af næringsstoffer). Dette kan forårsage **algeblomstring** (algeoverskud), der kan føre til iltunderskud (hypoxi) og død af organismer, der er afhængige af ilt.\n- **Parringssæsonen** (C) kan også påvirke reproduktion, men den er ikke nødvendigvis den primære årsag til den umiddelbare nedgang.\n- **Rovdyr** (A) kan reducere nogle populationer, men de påvirker ikke nødvendigvis hele fødekæden.\n- **Opløst ilt** (D) kan være et resultat af nedbrydende alger, men det er ikke den umiddelbare årsag til nedgangen.\n\n**B) er den mest sandsynlige begivenhed, da det er en almindelig årsag til eutrofiering i ferskvand.**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". The generated answer says the most likely event is B) \"Vandet blev udtømt for næringsstoffer som kvælstof.\" So that's B, not D. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "Sne, regn, hagl og tåge er alle former for\nA) gas.\nB) vand.\nC) vind.\nD) skyer.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) skyer.**  \n\nHere’s the breakdown:  \n- **Sne** (snowflakes) and **regn** (rain) are forms of **water**.  \n- **Hagl** (hail) is a form of **ice**.  \n- **Tåge** (fog) is a form of **water vapor**.  \n\nThe other options (**gas**, **wind**, **skyer**) do not fit the context of the question.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". The question: \"Sne, regn, hagl og tåge er alle former for\" which translates to \"Snow, rain, hail and fog are all forms of\". The correct answer is \"water\" (B). The generated answer says D) skyer (clouds). That's incorrect. So they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Hvornår og hvor ville antallet af dagslys timer hver dag være størst?\nA) om vinteren nær ækvator\nB) om sommeren nær ækvator\nC) om vinteren nær Nordpolen\nD) om sommeren nær Nordpolen\nAnswer in English.",
+        "generated_answer": "The number of daylight hours per day is **greatest** in **B) during summer near the North Pole**.  \n\n### Explanation:  \n- **Northern Hemisphere summer** (June–August) brings longer days and more direct sunlight at the poles.  \n- The **North Pole** experiences **24-hour daylight** in summer, while other latitudes (e.g., equator, mid-latitudes) have shorter daylight hours.  \n- **Option A (winter)**: Days are shorter, and the North Pole is in darkness.  \n- **Option C (winter near North Pole)**: Days are shorter, but the North Pole is in darkness.  \n- **Option D (summer near North Pole)**: Days are longer, and the North Pole is in daylight.  \n\nThus, **B)** is the correct answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvornår og hvor ville antallet af dagslys timer hver dag være størst?\" Options A-D. Ground truth answer: D. That is \"om sommeren nær Nordpolen\". The generated answer says: \"The number of daylight hours per day is greatest in B) during summer near the North Pole.\" Wait B is \"om sommeren nær ækvator\". But they claim B is summer near North Pole, which is contradictory. They also say \"Thus, B) is the correct answer.\" So generated answer says B is correct, but ground truth says D. So they do not match. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "Studerende ønsker at sammenligne størrelsen af mikroorganismer i 500 milliliter vandprøver fra hver af to damme. Hvilken faktor vil sandsynligvis have indflydelse på nøjagtigheden af deres observationer?\nA) gennemsnitstemperaturen af vandprøverne\nB) mærket på mikroskoplæderne, der blev brugt\nC) forstørrelseskraften af mikroskopet\nD) den korrekte identifikation af hver mikroorganisme\nAnswer in English.",
+        "generated_answer": "The factor that would likely have an impact on the accuracy of the observations is:\n\n**C) forstørrelseskraften af mikroskopet**\n\n### Forklaring:\n- **A) gennemsnitstemperaturen af vandprøverne**: Temperatur kan påvirke vækstrater for mikroorganismer, men det er ofte en sekundær faktor sammenlignet med andre faktorer som vækstbetingelser.\n- **B) mærket på mikroskoplæderne, der blev brugt**: Et forkert mærke kan føre til forkerte målinger af mikroorganismers størrelse.\n- **C) forstørrelseskraften af mikroskopet**: En for stor forstørrelse kan oversimplificere eller forvrænge observationer af mikroorganismer, især små eller flygtige arter.\n- **D) den korrekte identifikation af hver mikroorganisme**: En fejlagtig identifikation kan føre til forkerte målinger af størrelsen af mikroorganismer.\n\n**Faktor C** er den mest direkte og sandsynlige årsag til fejl i målingerne.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". Generated answer says the factor is C) forstørrelseskraften af mikroskopet. So yes matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 266,
+        "question": "En elev undersøgte væksten af planter i forskellige typer jord. Den bedste måde at organisere dataene er ved at\nA) dato og tidspunkt.\nB) dato og plantehøjde.\nC) plantehøjde og jordtype.\nD) dato, plantehøjde og jordtype.\nAnswer in English.",
+        "generated_answer": "The best way to organize the data is by combining **plant height** and **soil type**.  \n\n**Explanation:**  \n- **Plant height** is a measurable variable that can be compared across different plant species or soil types.  \n- **Soil type** (e.g., sandy, clay, loamy) affects how plants grow, so it should be included in the analysis.  \n\nOther options (A, B, C) are less effective because:  \n- **A (date and time)** is irrelevant to the comparison.  \n- **B (date and plant height)** is not a standard way to analyze soil effects.  \n- **C (plant height and soil type)** is redundant since soil type is already included in the data.  \n\nThus, **D** is the most logical choice.  \n\n**Answer:**  \n\\boxed{D}",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". Generated answer says best way is by combining plant height and soil type, then says \"Thus, D is the most logical choice.\" It selects D. So meaning matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 306,
+        "question": "Hvilket viser et eksempel på en fysisk ændring og et eksempel på en kemisk ændring?\nA) kogende vand og smeltende voks\nB) rustende jern og bager en kage\nC) opløsning af pulver og makulering af papir\nD) frysning af vand og forbrænding af kul\nAnswer in English.",
+        "generated_answer": "C) opløsning af pulver og makulering af papir",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which shows an example of a physical change and an example of a chemical change?\" Options given. Ground truth answer is D. Generated answer is C. They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "En exotherm reaktion kan bedst demonstreres med en\nA) bilmotor.\nB) køleskab.\nC) stegepande.\nD) glasflaske.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) køleskab.**  \n\n### Explanation:  \n- **A) Bilmotor**: En forbrændingsmotor (exotherm) omdanner kemisk energi til mekanisk energi, men den er ikke en \"køleskab\" i traditionel forstand.  \n- **B) Køleskab**: Et termisk system (exotherm) bruger elektricitet til at overføre varme fra en kold til en varm side, hvilket er en direkte analogi.  \n- **C) Stegepande**: En eksoterm reaktion (f.eks. madlavning) frigiver varme, men det er ikke en \"køleskab\" i samme forstand.  \n- **D) Glasflaske**: En eksoterm reaktion (f.eks. glasbrydning) frigiver varme, men det er ikke en \"køleskab\" i samme kontekst.  \n\n**Køleskabet** er det bedste eksempel på en eksoterm reaktion, da det bruger elektricitet til at overføre varme fra en kold til en varm side.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"En exotherm reaktion kan bedst demonstreres med en\" (Which best demonstrates an exothermic reaction). Options: A) bilmotor, B) køleskab, C) stegepande, D) glasflaske. Ground truth answer: A (bilmotor). Generated answer says correct answer is B (køleskab). That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1107,
+        "question": "Hvilken sætning kunne ikke forklare hvorfor den førstepladsvinder var hurtigere end den andenpladsvinder?\nA) Vinderen oplevede mindre vandmodstand.\nB) Der var mere tyngdekraft på vinderen.\nC) Friktion bremste den andenpladsvinder.\nD) Der var mere kraft i vinderens spark og strøg.\nAnswer in English.",
+        "generated_answer": "C) Friktion bremste den andenpladsvinder.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which sentence could NOT explain why the first-place winner was faster than the second-place winner?\" Options A-D. The correct answer is B according to ground truth. Generated answer says \"C) Friktion bremste den andenpladsvinder.\" That's option C, not B. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 801,
+        "question": "Ifølge celleklassifikationen adskilles prokaryote celler fra eukaryote celler. Hvilken egenskab bruges ofte til at adskille prokaryote celler fra eukaryote celler?\nA) livsprocesser\nB) størrelsesforskelle\nC) plasmamembraner\nD) energimolekyler\nAnswer in English.",
+        "generated_answer": "C) plasmamembraner",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Danish: \"According to cell classification, prokaryotic cells are separated from eukaryotic cells. Which characteristic is often used to separate prokaryotic cells from eukaryotic cells? Options: A) life processes, B) size differences, C) plasma membranes, D) energy molecules\". The correct answer is B (size differences). Generated answer says \"C) plasmamembraner\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "Hvilken af følgende er en kemisk reaktion?\nA) Element 1 poleres for at danne en glat overflade.\nB) Element 2 opvarmes og fordamper.\nC) Element 3 udvikler en hvid, pudret overflade efter at have stået i luften.\nD) Element 4 adskilles fra en blanding ved filtrering.\nAnswer in English.",
+        "generated_answer": "C) Element 3 udvikler en hvid, pudret overflade efter at have stået i luften.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer: \"C) Element 3 udvikler en hvid, pudret overflade efter at have stået i luften.\" That is essentially selecting option C. So they convey same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "Anna løb 100 meter på 20 sekunder. Hvad var hendes gennemsnitlige hastighed?\nA) 2 m/s\nB) 5 m/s\nC) 20 m/s\nD) 25 m/s\nAnswer in English.",
+        "generated_answer": "To find Anna's average speed, we use the formula:\n\n$$\n\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}\n$$\n\nSince Anna ran **100 meters**, the total distance is:\n\n$$\n\\text{Total Distance} = 100 \\, \\text{meters}\n$$\n\nHer time was **20 seconds**, so the total time is:\n\n$$\n\\text{Total Time} = 20 \\, \\text{seconds}\n$$\n\nSubstituting the values into the formula:\n\n$$\n\\text{Average Speed} = \\frac{100 \\, \\text{meters}}{20 \\, \\text{seconds}} = 5 \\, \\text{m/s}\n$$\n\n**Answer:**  \n$\\boxed{A)}$",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Anna ran 100 m in 20 s, average speed = 5 m/s. Options: A)2, B)5, C)20, D)25. Correct is B)5 m/s. Ground truth answer: B. Generated answer calculates 5 m/s but then says \"Answer: A)\". That's wrong label. So meaning: generated says answer is A) which corresponds to 2 m/s, but they computed 5 m/s. The meaning is contradictory. The ground truth says B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1068,
+        "question": "Hvilket af følgende sæt indeholder kun objekter, der skinner som et resultat af reflekteret lys?\nA) måner, planeter og kometer\nB) måner, kometer og stjerner\nC) planeter, stjerner og kometer\nD) planeter, stjerner og måner\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) måner, kometer og stjerner**.  \n\nHere’s the reasoning:  \n- **Måner** (og andre små legemer) skinner **gennem refleksion** af sollys, da de reflekterer solens stråler.  \n- **Planeter** og **stjerner** skinner **gennem direkte refleksion** af deres egen lys, da de reflekterer deres egen stråling.  \n- **Kometer** skinner **gennem en blanding af refleksion og direkte refleksion** af sollys og stjernelys.  \n\nThus, the only objects that **only** skinner due to reflected light are **Måner, kometer, og stjerner**.  \n\n**Answer: B**",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which set contains only objects that shine as a result of reflected light? Options given. The correct answer according to ground truth is A. Generated answer says B. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 482,
+        "question": "Alt i følgende kan findes på en mad ernæringsmærkning undtagen\nA) anbefalet serveringsstørrelse.\nB) kalorier per servering.\nC) en foreslået måltidsplan.\nD) en liste over ingredienser.\nAnswer in English.",
+        "generated_answer": "**Answer in English:**  \nThe correct answer is **D) a list of ingredients**.  \n\n**Explanation:**  \n- **A) recommended servering size** is typically not listed on food nutrition labels.  \n- **B) caloric content per serving** is usually not provided on standard nutrition labels.  \n- **C) a proposed meal plan** is not a standard component of nutrition labels.  \n- **D) a list of ingredients** is explicitly required by law (e.g., FDA regulations) and is a key part of food labeling.  \n\nThus, the only option that is **not** a standard component of food nutrition labels is **D**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Alt i følgende kan findes på en mad ernæringsmærkning undtagen\" which means \"All of the following can be found on a food nutrition label except\". Options A, B, C, D. Ground truth answer is C. So the correct answer is C. The generated answer says the correct answer is D. That's not matching. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "I en laboratorieprocedure observerer en elev forskellige størrelser af jordpartikler. Hvilket værktøj er bedst egnet til undersøgelsen?\nA) en håndlup med 1X forstørrelse\nB) et mikroskop med 40X forstørrelse\nC) et lysmikroskop med 100X forstørrelse\nD) et dissekeringsmikroskop med 4X forstørrelse\nAnswer in English.",
+        "generated_answer": "The best tool for observing different sizes of soil particles in a laboratory procedure is a **microscope with 40X or higher magnification**. Here's why:\n\n- **A) Handheld loupe with 1X magnification**: This is too low-powered to resolve small particles (e.g., sand grains are ~0.063 mm in diameter).  \n- **B) Microscope with 40X or higher magnification**: This allows detailed observation of particles (e.g., soil texture, mineral composition) at a reasonable size.  \n- **C) Light microscope with 100X magnification**: While it can show some details, it lacks the resolution needed for fine particle analysis.  \n- **D) Dissecting microscope with 4X magnification**: This is designed for biological samples (e.g., cells) and is not suitable for soil particles.  \n\nThus, the correct answer is **B**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"I en laboratorieprocedure observerer en elev forskellige størrelser af jordpartikler. Hvilket værktøj er bedst egnet til undersøgelsen? A) en håndlup med 1X forstørrelse B) et mikroskop med 40X forstørrelse C) et lysmikroskop med 100X forstørrelse D) et dissekeringsmikroskop med 4X forstørrelse Answer in English.\"\n\nGround truth answer: D (dissekeringsmikroskop med 4X). The generated answer says the correct answer is B (microscope with 40X). So they differ. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "Nye teknologier har gjort det muligt for bilproducenter at markedsføre brændstofeffektive hybridbiler, men bortskaffelse af hybridbiler i slutningen af deres levetid præsenterer et problem. Hvilket spørgsmål repræsenterer et bortskaffelsesproblem, der er unikt for hybridkøretøjer?\nA) Hvad vil der blive gjort for at genanvende batterierne?\nB) Hvad vil der ske med kølemidlet i airconditionanlægget?\nC) Hvad vil der ske med væskerne i gastanken, radiatoren og batterierne?\nD) Hvad vil der ske med plastmaterialerne i køretøjerne?\nAnswer in English.",
+        "generated_answer": "C) Hvad vil der ske med væskerne i gastanken, radiatoren og batterierne?",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"Which question represents a disposal problem unique to hybrid vehicles?\" Options: A) recycling batteries, B) coolant, C) fluids in gas tank, radiator, batteries, D) plastics. The correct answer likely is A (recycling batteries) because that's unique to hybrids. The generated answer says C). That is not same as ground truth. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 563,
+        "question": "Hvilken teori om månens oprindelse foreslår, at Jorden måne blev dannet ved samme proces, som dannede Mars, Jupiter og Neptun?\nA) Den kolossale sammenstøds teori\nB) Fissionsteorien\nC) Capture-teorien\nD) Co-akreationsteorien\nAnswer in English.",
+        "generated_answer": "C) Capture-teorien",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which theory about moon's origin suggests that Earth's moon was formed by same process that formed Mars, Jupiter, Neptune? Options: A) giant impact, B) fission, C) capture, D) co-accretion. Correct is D (co-accretion). Generated answer says C) Capture theory. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "Hvorfor har konvergente marginer tendens til at forårsage dannelse af sedimentære bassiner?\nA) Konvergente marginer skaber depressioner.\nB) Konvergente marginer forårsager vulkanske udbrud.\nC) Konvergente marginer komprimerer og transformerer sten.\nD) Konvergente marginer cykler sedimenter ned i asthenosfæren.\nAnswer in English.",
+        "generated_answer": "Konvergente marginer, der opstår ved pladegrænser, fører til dannelse af sedimentære bassiner på grund af deres evne til at komprimere og omdanne sten. Dette sker, fordi pladegrænser ofte er dækket af lag af sedimenter, som gradvist bliver presset sammen og omdannet til mere kompakt materiale. Dette kan resultere i dannelsen af dybe, flade bassiner, der ofte er fyldt med aflejringer fra tidligere geologiske perioder.\n\n**Relevante faktorer:**\n- **A) Konvergente marginer skaber depressioner.**  \n  Dette er korrekt, da pladegrænser ofte skaber depressioner, der kan fylde med sedimenter.\n\n- **C) Konvergente marginer komprimerer og transformerer sten.**  \n  Dette er også korrekt, da komprimering og omdannelse af sten er en almindelig proces i forbindelse med pladegrænser.\n\n- **D) Konvergente marginer cykler sedimenter ned i asthenosfæren.**  \n  Dette er ikke en typisk forklaring på dannelsen af sedimentære bassiner. Konvergente marginers rolle i sedimenttransport er mere relateret til erosion og transport af sedimenter, ikke til cykling af dem ned i asthenosfæren.\n\n**Konklusion:**  \nDe to mest korrekte svar er **A** og **C**, da de begge beskriver mekanismer, der fører til dannelsen af sedimentære bassiner. **A** er mere specifik for depressioner, mens **C** dækker den bredere proces af komprimering og omdannelse af sten.\n\n**Rejsende svar:**  \nKonvergente marginer skaber depressioner, hvilket fører til dannelse af sedimentære bassiner.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth answer. Ground truth is simply \"A\". The question: \"Hvorfor har konvergente marginer tendens til at forårsage dannelse af sedimentære bassiner?\" Options A-D. Ground truth says answer is A. The generated answer says that both A and C are correct, concluding that two most correct answers are A and C, but then says \"De to mest korrekte svar er A og C\". That does not match ground truth which is only A. So meaning is not equivalent. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1008,
+        "question": "En elev opløser sukker i vand for at lave slik. Hun bemærker, at der dannes sukkerklumper i bunden af panden. Hvad kunne hun gøre for at få mere af sukkeret til at opløse sig?\nA) varm opløsningen op\nB) køl opløsningen ned\nC) tilføj mere sukker til panden\nD) tag noget vand ud af panden\nAnswer in English.",
+        "generated_answer": "C) tilføj mere sukker til panden",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Danish: \"A student dissolves sugar in water to make candy. She notices that sugar lumps form at the bottom of the pan. What could she do to get more of the sugar to dissolve? Options: A) warm the solution, B) cool it, C) add more sugar, D) take some water out. The correct answer is A) warm the solution. Generated answer says C) add more sugar. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "Et lille vaskerum har flere hylder over vaskemaskinen. Disse hylder er et eksempel på\nA) at gøre væggen stærkere.\nB) at bruge opbevaringspladsen effektivt.\nC) at bruge en maskine til mere end ét formål.\nD) at løse behovet for ly i en kreativ måde.\nAnswer in English.",
+        "generated_answer": "**C) at bruge en maskine til mere end ét formål**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is B (which corresponds to \"at bruge opbevaringspladsen effektivt.\"). Generated answer says \"C) at bruge en maskine til mere end ét formål\". That's different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "Den 15. oktober 1997 kørte Andy Green i en jetdrevet bil kaldet \"Thrust\" en målt distance med en gennemsnitlig hastighed på 339 meter pr. sekund i Nevadas sorte ørken. Andy var den første person til\nA) at bruge Doppler-effekten.\nB) at køre i en jetdrevet bil.\nC) at krydse Nevadas sorte ørken.\nD) at bryde lydmuren på jorden.\nAnswer in English.",
+        "generated_answer": "C) at krydse Nevadas sorte ørken.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is D. Generated answer is C). They are not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 664,
+        "question": "Hvilken vedvarende ressource genereres af luftkonvektionsstrømme?\nA) vindenergi\nB) solenergi\nC) fossilbrændselenergi\nD) geotermisk energi\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) vindenergi**.\n\n**Explanation:**  \nAir convection is a process where warm air rises and cooler air sinks, creating wind currents. This movement generates **wind energy**, which is a renewable and continuous source of power. Unlike fossil fuels or nuclear energy, wind energy is not depleted and is available as long as the sun shines.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"A\". Generated answer says correct answer is A) vindenergi. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "En bonde har tre store marker, hvor han planlægger at dyrke græs til høhøst. Græs skal kun høstes efter to års vækst. Hvad kunne bonden gøre for at sikre sig en høst af hø hvert år?\nA) Plant hver mark med et års mellemrum.\nB) Plant græsserne så tæt sammen som muligt.\nC) Plant alle markerne på samme tid, men med forskellige typer græsser.\nD) Plant varme sæson græsser og kølige sæson græsser samtidigt i hver mark.\nAnswer in English.",
+        "generated_answer": "C) Plant alle markerne på samme tid, men med forskellige typer græsser.\n\n**Forklaring:**  \nFor at sikre en høst af hø hvert år er det vigtigt at dyrke græsser, der har en lang vækstsæson, så de kan høstes flere gange. Her er en analyse af de mulige løsninger:\n\n1. **A) Planlægning med to års mellemrum**  \n   - Dette sikrer, at markerne ikke er for tæt sammen, hvilket kan reducere høstfrekvensen.  \n   - **Ulempe:** Risiko for dårlig vækst og lavere høst.\n\n2. **B) Plantning tæt sammen**  \n   - Hvis markerne er tættere, kan græsserne konkurrere om ressourcer, hvilket kan nedsætte høstens kvalitet.  \n   - **Ulempe:** Risiko for sygdomme og lavere produktivitet.\n\n3. **C) Planter på samme tid, men forskellige typer**  \n   - Dette giver mulighed for at høste græsser med forskellige høstperioder, men det kræver en ensartet kvalitet og kan være dyrt.  \n   - **Ulempe:** Manglende fleksibilitet i høst.\n\n4. **D) Planter kølige og varme sæson græsser samtidigt**  \n   - Dette giver mulighed for at høste græsser i forskellige perioder, men det kræver en præcis planlægning og kan være dyrt.  \n   - **Ulempe:** Kompleksitet og behov for overvågning.\n\n**Den bedste løsning:**  \n**A)** Planlægning med to års mellemrum sikrer en jævn høst og forhindrer konkurrence mellem marker.  \n\n**Besvarelsen:**  \nA) Plant hver mark med et års mellemrum.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". Generated answer says \"C) Plant alle markerne på samme tid, men med forskellige typer græsser.\" Then later says best solution A, but final answer says \"A) Plant hver mark med et års mellemrum.\" Actually the generated answer includes contradictory statements: It first states C as answer, then later says best solution A, and final line says \"A) Plant hver mark med et års mellemrum.\" The question: \"Your task is to determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer.\" The generated answer overall is confusing, but the final answer given is A. The ground truth is A. So does the generated answer convey same meaning? The generated answer includes both C and A, but final line is A. The answer is ambiguous. The instruction: respond only with True if they convey same meaning. Since the generated answer is contradictory, not clearly matching. Likely considered not equivalent. I'd say False.assistantfinalAnswer: False",
+        "match": 1
+    },
+    {
+        "id": 996,
+        "question": "Hvorfor vokser de fleste blade af skovtræer øverst på træet?\nA) for at sprede frøene\nB) for at opsamle sollys\nC) for at skygge træstammen\nD) for at samle vand\nAnswer in English.",
+        "generated_answer": "C) for at skygge træstammen",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Hvorfor vokser de fleste blade af skovtræer øverst på træet?\" Means \"Why do most leaves of forest trees grow at the top of the tree?\" Options: A) to spread seeds, B) to collect sunlight, C) to shade the trunk, D) to collect water. Correct answer is B (collect sunlight). Generated answer says \"C) for at skygge træstammen\" which is option C, shading the trunk. That does not match ground truth. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

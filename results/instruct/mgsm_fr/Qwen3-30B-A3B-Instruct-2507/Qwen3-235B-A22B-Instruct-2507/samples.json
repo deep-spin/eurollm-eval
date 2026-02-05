@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth a emprunté 2 000 $ et a promis de les rendre avec un supplément de 10 % du montant. Si elle doit payer 165 $ par mois pendant 12 mois, combien d'argent restera-t-il à Janeth d'ici là ?\nAnswer in English.",
+        "generated_answer": "Janeth borrowed $2,000 and promised to repay it with an additional 10% interest.\n\nFirst, calculate the total amount she must repay:\n\n10% of $2,000 = 0.10 × 2,000 = $200  \nTotal repayment = $2,000 + $200 = **$2,200**\n\nShe will pay $165 per month for 12 months:\n\n165 × 12 = **$1,980**\n\nNow, subtract what she pays from the total amount owed:\n\n$2,200 - $1,980 = **$220**\n\nSo, **$220** will still be left to pay after 12 months.\n\n✅ Final answer: **$220** remains to be paid.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Des voitures sont coincées dans une file sur l'autoroute. Certaines voitures parviennent à avancer durant les 15 premières minutes de l'embouteillage, puis 20 autres voitures durant les 15 dernières. 5 voitures sortent de la file pour ne pas avoir à traverser l'embouteillage. Sachant qu'il y avait initialement 30 voitures sur l'autoroute, combien de voitures ont traversé l'embouteillage au cours des 15 premières minutes ?\nAnswer in English.",
+        "generated_answer": "We are given the following information:\n\n- Initially, there were **30 cars** on the highway (in the traffic jam).\n- During the **first 15 minutes**, some cars managed to advance through the jam.\n- During the **last 15 minutes**, **20 more cars** advanced through the jam.\n- **5 cars** left the line (did not go through the jam).\n- We are to find how many cars **traversed the jam during the first 15 minutes**.\n\nLet’s define:\n\n- Let \\( x \\) be the number of cars that passed through the jam in the **first 15 minutes**.\n- Then, in the **last 15 minutes**, **20 cars** passed through.\n- Total number of cars that **successfully traversed** the jam: \\( x + 20 \\).\n- But **5 cars left** the queue before finishing — they didn't go through.\n\nNow, the total number of cars that were originally in the jam is 30. These 30 cars either:\n- Passed through the jam (either in first or second 15-minute period), or\n- Left the jam (5 of them).\n\nSo, the total number of cars that either passed through or left is 30.\n\nTherefore:\n\\[\n(\\text{cars that passed through}) + (\\text{cars that left}) = 30\n\\]\n\\[\n(x + 20) + 5 = 30\n\\]\n\\[\nx + 25 = 30\n\\]\n\\[\nx = 5\n\\]\n\n### ✅ Answer: **5 cars** traversed the jam during the first 15 minutes.\n\n---  \n**Final Answer: 5**",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violetta veut acheter de nouveaux crayons. Elle en a besoin dans 5 couleurs différentes et a prévu 20 $ pour cet achat. Sachant qu'un crayon coûte 2 $, combien aura-t-elle de monnaie ?\nAnswer in English.",
+        "generated_answer": "Violetta wants to buy pencils in 5 different colors.  \nEach pencil costs $2.  \n\nSo, the total cost for 5 pencils is:  \n5 × 2 = 10 dollars.\n\nShe has planned to spend 20 dollars.  \nSo, her change (monnaie) will be:  \n20 − 10 = 10 dollars.\n\n**Answer: 10 dollars.**",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Pour son déjeuner, Chad a commandé un burrito à composer. Le burrito de base coûte 6,50 $. Il ajoute en supplément 2 $ de viande, 1,00 $ de fromage, 1,00 $ d'avocat et 2 sauces à 0,25 $ la sauce. Il choisit l'option premium pour 3,00 $ de plus, ce qui lui permet d'ajouter des frites et une boisson. Il possède une carte cadeau de 5,00 $ qu'il utilise à la caisse. Combien lui reste-t-il à payer ?\nAnswer in English.",
+        "generated_answer": "Let's break down the costs step by step:\n\n1. **Base burrito**: $6.50  \n2. **Add-ons**:\n   - Meat: $2.00  \n   - Cheese: $1.00  \n   - Avocado: $1.00  \n   - 2 sauces at $0.25 each: 2 × $0.25 = $0.50  \n3. **Premium option**: $3.00 (includes fries and a drink)\n\nNow, add all these together:\n\n$$\n6.50 + 2.00 + 1.00 + 1.00 + 0.50 + 3.00 = 14.00\n$$\n\nTotal cost before discount: **$14.00**\n\nChad uses a **$5.00 gift card**, so subtract that:\n\n$$\n14.00 - 5.00 = 9.00\n$$\n\n### Final Answer: **$9.00** remains to be paid. ✅",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Tous les soirs, Frankie regarde la télévision après avoir fait ses devoirs. Lundi et mardi derniers, il a regardé chaque soir un épisode de son émission préférée pendant 1 heure. Mercredi, il a regardé quelques épisodes d'une émission de 30 minutes. Jeudi, il a fini ses devoirs plus tôt et a regardé un épisode d'une heure et une émission de 30 minutes. Vendredi, il a pu veiller tard en raison du week-end, et a donc regardé deux épisodes d'une heure chacune. S'il a regardé en tout 7 heures de télévision, combien d'épisodes de 30 minutes a-t-il regardé mercredi ?\nAnswer in English.",
+        "generated_answer": "Let's break down how much television Frankie watched each day and use the total of **7 hours** to find out how many **30-minute episodes** he watched on **Wednesday**.\n\n---\n\n### Monday:\n- 1 episode × 1 hour = **1 hour**\n\n### Tuesday:\n- 1 episode × 1 hour = **1 hour**\n\n### Wednesday:\n- Let’s say he watched **x episodes** of 30 minutes each.\n- So, time spent = **0.5x hours**\n\n### Thursday:\n- 1 episode of 1 hour + 1 episode of 30 minutes\n- = 1 + 0.5 = **1.5 hours**\n\n### Friday:\n- 2 episodes × 1 hour = **2 hours**\n\n---\n\n### Total time:\nAdd all the times:\n\n$$\n1\\ (\\text{Mon}) + 1\\ (\\text{Tue}) + 0.5x\\ (\\text{Wed}) + 1.5\\ (\\text{Thu}) + 2\\ (\\text{Fri}) = 7\n$$\n\n$$\n(1 + 1 + 1.5 + 2) + 0.5x = 7\n$$\n\n$$\n5.5 + 0.5x = 7\n$$\n\nSubtract 5.5 from both sides:\n\n$$\n0.5x = 1.5\n$$\n\nDivide by 0.5:\n\n$$\nx = 3\n$$\n\n---\n\n### ✅ Answer:\nFrankie watched **3 episodes of 30 minutes** on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un nouveau programme a été téléchargé 60 fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de 30 % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **First month:**  \n   The program was downloaded **60 times**.\n\n2. **Second month:**  \n   The number of downloads was **three times** the first month:  \n   \\( 3 \\times 60 = 180 \\) downloads.\n\n3. **Third month:**  \n   The number of downloads **decreased by 30%** from the second month.  \n   A 30% decrease means it's 70% of the second month's downloads:  \n   \\( 0.7 \\times 180 = 126 \\) downloads.\n\n4. **Total downloads over three months:**  \n   Add all three months:  \n   \\( 60 + 180 + 126 = 366 \\)\n\n### ✅ Final Answer:\n\\[\n\\boxed{366}\n\\]",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant 5 joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?\nAnswer in English.",
+        "generated_answer": "We are given the following:\n\n- There are **4 schools**.\n- Each school sent:\n  - **1 female team** with **5 players**\n  - **1 male team** with **5 players**\n  - **1 coach**\n\nLet’s calculate the total number of people sent by each school:\n\n- Female team: 5 players  \n- Male team: 5 players  \n- Coach: 1 person  \n\nTotal per school = 5 + 5 + 1 = **11 people**\n\nNow, for 4 schools:\n\n4 schools × 11 people per school = **44 people**\n\n✅ Final answer: **44**",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "Isabelle a acheté des fournitures pour la fête d'anniversaire de sa petite sœur. Elle a dépensé 12 $ pour les ingrédients du gâteau, 43 $ pour les cadeaux d'anniversaire, 15 $ pour les décorations, 4 $ pour les invitations et 22 $ pour les sacs de goodies destinés aux invités. Elle a partagé le coût en trois, entre elle et ses deux parents. Combien chaque personne a-t-elle payé ?\nAnswer in English.",
+        "generated_answer": "Isabelle bought supplies for her little sister's birthday party:\n\n- Cake ingredients: $12  \n- Birthday gifts: $43  \n- Decorations: $15  \n- Invitations: $4  \n- Goodie bags: $22  \n\n**Total cost:**  \n$12 + $43 + $15 + $4 + $22 = **$96**\n\nShe shared the cost equally among **herself and her two parents**, so **3 people**.\n\n$$\n\\frac{96}{3} = 32\n$$\n\nEach person paid **$32**.\n\n✅ **Answer: $32**",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa embauche 60 saisonniers pour jouer les lutins dans le village du Père Noël de son grand magasin. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus, puis 10 des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Combien de lutins reste-t-il ?\nAnswer in English.",
+        "generated_answer": "Nissa initially hires **60** seasonal workers to play elves.\n\n1. **One-third** of the elves quit after children vomited on them:  \n   \\[\n   \\frac{1}{3} \\times 60 = 20 \\text{ elves quit}\n   \\]  \n   So, remaining elves:  \n   \\[\n   60 - 20 = 40\n   \\]\n\n2. Then, **10 more** elves quit after being kicked in the tibia:  \n   \\[\n   40 - 10 = 30\n   \\]\n\n✅ Therefore, the number of elves remaining is **30**.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie apporte une assistance au bureau de sa mère. Elle dispose d'une pile de 60 lettres à timbrer et d'une autre avec des lettres déjà timbrées. Elle tamponne un tiers des lettres à timbrer. S'il y a maintenant 30 lettres dans la pile de lettres timbrées, combien y en avait-il dans cette pile lorsque Jennie a commencé le travail ?\nAnswer in English.",
+        "generated_answer": "Jennie has a pile of 60 letters to stamp. She stamps one-third of them.\n\nSo, the number of letters she stamped is:\n\n$$\n\\frac{1}{3} \\times 60 = 20\n$$\n\nThese 20 stamped letters are now added to the pile of already stamped letters.\n\nAfter she adds them, the pile of stamped letters has 30 letters.\n\nLet $ x $ be the number of stamped letters **before** Jennie started.\n\nThen:\n\n$$\nx + 20 = 30\n$$\n\nSolving for $ x $:\n\n$$\nx = 30 - 20 = 10\n$$\n\n### ✅ Answer:\n$$\n\\boxed{10}\n$$\n\nThere were **10** stamped letters in the pile when Jennie began.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

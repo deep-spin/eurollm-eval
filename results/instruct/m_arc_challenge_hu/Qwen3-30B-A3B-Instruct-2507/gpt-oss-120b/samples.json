@@ -1,0 +1,82 @@
+[
+    {
+        "id": 788,
+        "question": "Melyik írja le a kémiai reakciót?\nA) cukor feloldása a teában\nB) napsugár melegítő a járdán\nC) olló darabokra vágja a papírt\nD) az emésztőrendszerben lévő sav emészti a táplálékot\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n**D) az emésztőrendszerben lévő sav emészti a táplálékot**\n\nExplanation:  \nA chemical reaction involves a change in the molecular composition of substances. Let's analyze each option:\n\n- **A) Cukor feloldása a teában** (Sugar dissolving in tea) – This is a physical change, not chemical. The sugar molecules remain unchanged; they just disperse in water.\n- **B) Napsugár melegítő a járdán** (Sunlight heating the pavement) – This is a physical process involving energy transfer (heat), no chemical change occurs.\n- **C) Olló darabokra vágja a papírt** (Scissors cutting paper into pieces) – This is a physical change; the paper is just being cut, not chemically altered.\n- **D) Az emésztőrendszerben lévő sav emészti a táplálékot** (Stomach acid digests food in the digestive system) – This is a chemical reaction. Enzymes and acids break down food molecules (like proteins, fats, carbohydrates) into simpler substances through chemical changes.\n\n✅ Therefore, **D** is the only option that describes a chemical reaction.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". Generated answer says the correct answer is D, with explanation. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Melyik az alábbi megadott kémiai egyenlet, amely helyesen mutatja be a tömegmegmaradás törvényét?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "To determine which chemical equation correctly represents the **law of conservation of mass**, we need to check whether the number of atoms of each element is the same on both sides of the equation (i.e., the equation is balanced).\n\nLet’s analyze each option:\n\n---\n\n**A) Mg + HCl → H₂ + MgCl₂**\n\nLeft side:  \n- Mg: 1  \n- H: 1  \n- Cl: 1  \n\nRight side:  \n- H: 2 (in H₂)  \n- Mg: 1  \n- Cl: 2 (in MgCl₂)\n\n→ Not balanced (H and Cl atoms don’t match).  \n❌ Incorrect.\n\n---\n\n**B) H₂O + CO₂ → H₂CO₃**\n\nLeft side:  \n- H: 2  \n- O: 1 (from H₂O) + 2 (from CO₂) = 3  \n- C: 1\n\nRight side (H₂CO₃):  \n- H: 2  \n- C: 1  \n- O: 3\n\n→ All atoms are balanced.  \n✅ Correct.\n\n---\n\n**C) KClO₃ → KCl + O₂**\n\nLeft side:  \n- K: 1  \n- Cl: 1  \n- O: 3\n\nRight side:  \n- K: 1 (in KCl)  \n- Cl: 1 (in KCl)  \n- O: 2 (in O₂)\n\n→ Oxygen: 3 on left, only 2 on right → not balanced.  \nThe correct balanced form would be:  \n2KClO₃ → 2KCl + 3O₂  \nSo this version is unbalanced.  \n❌ Incorrect.\n\n---\n\n**D) H₂ + O₂ → H₂O**\n\nLeft side:  \n- H: 2  \n- O: 2\n\nRight side:  \n- H: 2  \n- O: 1\n\n→ Oxygen is not balanced (2 vs 1).  \nCorrect balanced equation: 2H₂ + O₂ → 2H₂O  \nSo this one is unbalanced.  \n❌ Incorrect.\n\n---\n\n✅ Only **B) H₂O + CO₂ → H₂CO₃** is balanced and obeys the law of conservation of mass.\n\n### ✅ Final Answer: **B**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"B\". Generated answer explains and concludes that only B is correct. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 82,
+        "question": "Miért jelent ez energiamegtakarítást, ha a növényeket és a füvet kora reggel öntözik?\nA) Reggel több víz áll rendelkezésre.\nB) A hűvös reggelen kevesebb víz párolog el.\nC) Kora reggel felhasznált víz újrahasznosítható az délutáni öntözéshez.\nD) A fű csak reggel tud vizet felvenni.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n**B) The cooler morning temperature means less water evaporates.**\n\nExplanation:  \nWatering plants and grass early in the morning reduces evaporation because the air is cooler and humidity is higher. This means more water reaches the roots, leading to better water efficiency and energy savings (since less water is wasted). Therefore, this practice results in water and energy conservation.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B and explains. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 530,
+        "question": "A litoszféra lemezek mozgása földi tájakat alakít ki. Melyik földi táj keletkezik, ha a lemezek egymásra hajolnak?\nA) egy földrengés\nB) egy hegylánc\nC) egy folyó\nD) egy vulkán\nAnswer in English.",
+        "generated_answer": "When tectonic plates collide, they push against each other, causing the crust to fold and uplift. This process leads to the formation of mountain ranges.\n\nCorrect answer: **B) a mountain range**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"B\". Generated answer says: \"When tectonic plates collide... leads to formation of mountain ranges. Correct answer: B) a mountain range\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "Mi a legvalószínűbb első lépés diákoknak, ha újrahasznosítási projektbe kezdenek?\nA) égetjék el az anyagokat tábortüzesben\nB) szállítsák az anyagokat szemétlerakóba\nC) dobják az anyagokat egy szemetesbe\nD) rendszerezzék az anyagokat műanyagokra, papírokra és konzervekre\nAnswer in English.",
+        "generated_answer": "The most likely first step for students starting a recycling project is:  \nD) organize the materials into categories such as plastics, paper, and cans.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"D\". Generated answer says \"The most likely first step ... is: D) organize the materials into categories such as plastics, paper, and cans.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Ausztráliában délben a hőmérséklet akár 110°F (43°C) fölé is emelkedhet. Ahhoz, hogy testüket hűvösen tartsák, a kenguruk nyalogatják karjukat, vastag nyálréteggel vonják be azt. Ahogy a nyál elpárolog, hűtőmechanizmusként működik és csökkenti a kenguru testhőmérsékletét. Melyik kifejezés írja le legjobban ezt a tevékenységet?\nA) természetes kiválasztódás\nB) védelmi mechanizmus\nC) szerkezeti alkalmazkodás\nD) viselkedési alkalmazkodás\nAnswer in English.",
+        "generated_answer": "The best expression describing this behavior is:\n\n**D) behavioral adaptation**\n\nExplanation: The kangaroo's act of licking its arms to cool down by evaporative cooling is a learned or instinctive behavior used to regulate body temperature in response to environmental conditions. This is not a physical (structural) change, nor is it related to natural selection directly, nor is it primarily a defense mechanism. Instead, it is a specific behavior that helps the animal survive in a hot environment—making **behavioral adaptation** the most accurate choice.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". The generated answer says the best expression is D) behavioral adaptation, and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Amikor egy személy ejtőernyőzik egy repülőgépből, kb. 67 méter / másodperces sebességgel halad. Amikor kihúzza a kötelet, és kinyílik a siklóernyője, kb. 3 méter / másodperc sebességre lassul. Ha a sebességet és az gyorsulást pozitívnak tekintjük mielőtt kinyílik a siklóernyője, hogyan változik a sebessége és az gyorsulása, amikor kinyílik a siklóernyője?\nA) A sebesség és az gyorsulás is pozitív marad.\nB) A sebesség és az gyorsulás is negatív lesz.\nC) A sebesség pozitív marad, de az gyorsulás negatívvá válik.\nD) A sebesség negatívvá válik, de az gyorsulás pozitív marad.\nAnswer in English.",
+        "generated_answer": "When the parachute opens, the skydiver rapidly slows down from about 67 m/s to about 3 m/s. Since we are considering downward motion as positive (as stated: \"we consider velocity and acceleration positive before the parachute opens\"), then:\n\n- The **velocity** remains **positive** because the skydiver is still moving downward, just much slower.\n- However, since the skydiver is **slowing down**, the **acceleration** must be in the **opposite direction** to the velocity — that is, **upward**.\n\nBecause upward is opposite to the positive (downward) direction, the **acceleration becomes negative**.\n\nSo:\n- Velocity: remains **positive** (still going down)\n- Acceleration: becomes **negative** (due to deceleration)\n\n✅ Correct answer: **C) The velocity remains positive, but the acceleration becomes negative.**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". The generated answer says the correct answer is C, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 621,
+        "question": "Néhány béka faj annak érdekében, hogy elkerülje a kiszáradást, beszalad a sárba maga alá. A békák hibernációs állapotba kerülnek. Melyik lenne a legvalószínűbb jel arra, hogy a békák előbújjanak a sárból?\nA) az órák számának csökkenése\nB) a levegő hőmérsékletének emelkedése\nC) a csapadékmennyiség növekedése\nD) a légnyomás csökkenése\nAnswer in English.",
+        "generated_answer": "The most likely sign that frogs are emerging from the mud is:\n\n**B) the increase in air temperature**\n\nExplanation: Frogs enter a hibernation-like state in mud to avoid drying out and freezing during cold periods. As spring approaches, rising air temperatures signal the end of winter and trigger physiological changes in frogs, prompting them to emerge from their muddy shelters to breed and feed. While other factors like rainfall (C) can play a role, especially for breeding, the primary cue for exiting hibernation is warming temperatures.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says \"B) the increase in air temperature\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "Egy kőréteget találtak, amelyben egy hal és egy szárazföldi dinoszaurusz fosszíliája nagyon közel található egymáshoz. Mi a legvalószínűbb magyarázat erre?\nA) A hal és a dinoszaurusz mindketten egy part közelében éltek.\nB) Az óriási hullám messze szállította a halat a szárazföldre.\nC) A hal és a dinoszaurusz nagyon különböző időpontokban lettek fosszilizálva.\nD) A dinoszaurusz úszott egyik kontinensről a másikra, amikor meghalt.\nAnswer in English.",
+        "generated_answer": "The most likely explanation for a fish and a terrestrial dinosaur fossil being found very close together in a rock layer is:\n\n**B) The giant wave carried the fish far onto the land.**\n\n**Explanation:**  \nFish fossils are typically found in aquatic environments, while terrestrial dinosaurs lived on land. If both are found together in the same rock layer, it suggests a sudden, catastrophic event that transported the fish from water to land. A massive wave—such as a tsunami or flood—could have swept the fish from a nearby body of water and deposited it alongside the remains of a dinosaur that died nearby. This kind of event can mix organisms from different habitats into the same sediment layer.\n\nOption A is less likely because fish and land dinosaurs wouldn’t normally live so close together.  \nOption C contradicts the premise that they are found in the same rock layer (which implies similar timing).  \nOption D is biologically implausible—dinosaurs did not swim across oceans.\n\nThus, **B** is the best answer.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The generated answer says the correct answer is B. So they do not match. Therefore answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "Melyik lehet a legjobb módja annak, hogy nagy mennyiségű szenet szállítsunk egy kentuckyi bányából egy arizonai erőműbe?\nA) hajóval\nB) vonattal\nC) teherautóval\nD) repülővel\nAnswer in English.",
+        "generated_answer": "The best way to transport a large quantity of coal from a mine in Kentucky to a power plant in Arizona is:\n\n**B) by train**\n\nExplanation:  \n- **Trains** are the most efficient and cost-effective method for transporting large volumes of heavy goods like coal over long distances across the United States. The U.S. has an extensive rail network specifically designed for freight, including coal.\n- **Hauling by ship (A)** is not feasible because there is no navigable water route connecting Kentucky to Arizona—both are landlocked states.\n- **Trucks (C)** can be used for shorter distances or local distribution but are too expensive and inefficient for such a long haul.\n- **Airplanes (D)** are completely impractical due to extremely high costs and low capacity for bulk cargo.\n\nThus, **train transport (B)** is the most logical and widely used method for this kind of long-distance coal shipment.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". The generated answer says the best way is B) by train, explaining. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

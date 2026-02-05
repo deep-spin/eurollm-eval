@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total amount to be repaid:**\n   * Interest = $2000 * 10% = $200\n   * Total repayment = $2000 + $200 = $2200\n\n2. **Calculate the total amount paid over 12 months:**\n   * Total paid = $165/month * 12 months = $1980\n\n3. **Calculate the remaining debt:**\n   * Remaining debt = $2200 - $1980 = $220\n\n**Answer:** Janis will have $220 remaining on her debt.",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"220\". The generated answer says remaining debt is $220. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "汽车在高速公路上排起长龙。有些车在堵车的前 15 分钟就开过去了，然后又有 20 辆车在堵车的剩下 15 分钟里开过去。排队的车中有 5 辆车驶出了高速出口，所以他们不需要从堵车的地方开过去。如果高速公路上最早有 30 辆车，前 15 分钟有多少辆车从堵车的地方开过去？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n* **Total cars that passed the congestion:** 20 cars\n* **Cars that left via the exit:** 5 cars\n* **Cars that passed *before* the exit cars left:** We know some cars passed in the first 15 minutes, and those cars didn't use the exit.  The problem states that \"some cars...passed the congestion in the first 15 minutes\".\n* **Total cars initially on the highway:** 30 cars\n\nThe problem states that 20 cars passed during the *remaining* 15 minutes. It also states that 5 cars exited. This means that the 20 cars that passed in the last 15 minutes are *in addition* to the cars that passed in the first 15 minutes and the 5 that exited.\n\nThe question asks how many cars passed in the *first* 15 minutes. The problem states that \"some cars...passed the congestion in the first 15 minutes\". However, it doesn't give us a specific number.\n\nThe information about the 30 cars initially on the highway and the 5 cars exiting is a distraction. The problem focuses on the 20 cars that passed in the second 15 minutes.\n\nSince the problem doesn't give us a number for the first 15 minutes, we can't determine the exact number of cars that passed during that time.\n\n**However, the problem states \"Some cars in the first 15 minutes passed the congestion\". The problem also states that 20 cars passed in the remaining 15 minutes. Therefore, the answer must be greater than 0.**\n\n**Without more information, we cannot give a definitive numerical answer.**\n",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"5\". The generated answer says we cannot determine exact number, says answer must be greater than 0, cannot give definitive numeric answer. That does not match \"5\". So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "维奥莱塔想买新的蜡笔。她需要 5 种不同颜色的蜡笔，并为这次购买准备了 20 美元。一支蜡笔 2 美元。她会收到多少零钱？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n* **Cost of the crayons:** 5 crayons * $2/crayon = $10\n* **Change:** $20 - $10 = $10\n\nVioletta will receive $10 in change.\n",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"10\". The generated answer says Violetta will receive $10 in change. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "查德点了一个自制卷饼当午餐。基础卷饼为 6.50 美元。他额外添加了 2.00 美元的肉、1.00 美元的奶酪、1.00 美元的牛油果和 2 份各 0.25 美元的酱汁。他决定多花 3.00 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 5.00 美元的礼品卡可在结账时使用。他还需付多少？\nAnswer in English.",
+        "generated_answer": "Here's how to break down the cost of Chad's meal:\n\n* **Base burrito:** $6.50\n* **Meat:** $2.00\n* **Cheese:** $1.00\n* **Avocado:** $1.00\n* **Sauce (2 x $0.25):** $0.50\n* **Upgrade (fries & drink):** $3.00\n\n**Total cost before gift card:** $6.50 + $2.00 + $1.00 + $1.00 + $0.50 + $3.00 = $14.00\n\n**Cost after gift card:** $14.00 - $5.00 = $9.00\n\n**Answer:** Chad still needs to pay $9.00.",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"9\". The generated answer says \"Chad still needs to pay $9.00.\" That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "弗兰基每天晚上做完作业后看电视。周一和周二，他每晚看一集自己最喜欢的节目，一集 1 小时。周三，他看了几集每集 30 分钟的节目。周四，他提早做完了作业，看了一集每集 1 小时的节目和一集每集 30 分钟的节目。周五，因为有周末，他可以熬夜，所以他看了 2 集每集 1 小时的节目。如果他一共看了 7 小时的电视，他在周三看了多少集每集 30 分钟的节目？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Calculate TV time on Monday and Tuesday:** 2 nights * 1 hour/night = 2 hours\n2. **Calculate TV time on Thursday:** 1 hour + 0.5 hours = 1.5 hours\n3. **Calculate TV time on Friday:** 2 hours * 1 hour/show = 2 hours\n4. **Calculate total TV time for Monday, Tuesday, Thursday, and Friday:** 2 hours + 1.5 hours + 2 hours = 5.5 hours\n5. **Calculate TV time on Wednesday:** 7 hours (total) - 5.5 hours = 1.5 hours\n6. **Calculate the number of 30-minute shows watched on Wednesday:** 1.5 hours / 0.5 hours/show = 3 shows\n\n**Answer:** Frankie watched 3 episodes of the 30-minute show on Wednesday.\n",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"3\". Generated answer says \"Frankie watched 3 episodes of the 30-minute show on Wednesday.\" That's the same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "一款新程序在第一个月被下载了 60 次，第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载次数减少了 30%。三个月来，这款程序一共被下载了多少次？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n* **Month 2 downloads:** 60 downloads * 3 = 180 downloads\n* **Month 3 decrease:** 180 downloads * 0.30 = 54 downloads\n* **Month 3 downloads:** 180 downloads - 54 downloads = 126 downloads\n* **Total downloads:** 60 downloads + 180 downloads + 126 downloads = 366 downloads\n\n**Answer:** The program was downloaded a total of 366 times over the three months.\n",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"366\". Generated answer gives explanation and says total downloads 366. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "有四间学校在争夺篮球锦标赛的桂冠。每间学校都派出一支女子篮球队和一支男子篮球队，而且每支球队有 5 名球员。每间学校还为自己的每支球队派出一位教练。这些学校一共派出了多少人？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n* **Players:** 4 schools * 2 teams/school * 5 players/team = 40 players\n* **Coaches:** 4 schools * 2 teams/school * 1 coach/team = 8 coaches\n* **Total:** 40 players + 8 coaches = 48 people\n\n**Answer:** There are a total of 48 people.\n",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"48\". Generated answer: explains calculation and says total 48 people. Same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "伊莎贝尔为她妹妹的生日派对买了派对用品。她花 12 美元买了蛋糕的原材料，43 美元买了生日礼物，15 美元买了装饰品，4 美元买了邀请函，22 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total cost:**\n   $12 (cake) + $43 (gift) + $15 (decorations) + $4 (invitations) + $22 (party favors) = $96\n\n2. **Divide the total cost by the number of people:**\n   $96 / 3 people = $32 per person\n\n**Answer:** Each person paid $32.",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"32\". Generated answer says each person paid $32. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Elves who quit after being spit on:** (1/3) * 60 elves = 20 elves\n2. **Elves remaining after the first resignations:** 60 elves - 20 elves = 40 elves\n3. **Elves who quit after being kicked:** 10 elves\n4. **Elves remaining after the second resignations:** 40 elves - 10 elves = 30 elves\n\n**Answer:** There are 30 elves remaining.\n",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"30\". Generated answer explains steps and concludes \"There are 30 elves remaining.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "珍妮在她妈妈的办公室帮忙。她有一沓 60 封需要贴邮票的信和一沓已经贴好邮票的信。她在需要贴邮票的信的三分之一上贴上邮票。如果现在那堆已经贴好邮票的信中有 30 封信，当珍妮开始贴邮票时，那堆信中有多少封信？\nAnswer in English.",
+        "generated_answer": "Let $N$ be the number of letters in the pile of letters that need stamps.\nLet $M$ be the number of letters in the pile of letters that already have stamps.\nWe are given that $N = 60$.\nWe are also given that Jenny puts stamps on one-third of the letters that need stamps.\nSo, the number of letters that Jenny puts stamps on is $\\frac{1}{3} \\times N = \\frac{1}{3} \\times 60 = 20$.\nAfter Jenny puts stamps on 20 letters, these letters are moved from the pile of letters that need stamps to the pile of letters that already have stamps.\nThe number of letters in the pile that already have stamps is now $M + 20$.\nWe are given that the number of letters in the pile that already have stamps is 30.\nSo, $M + 20 = 30$.\nThis means that $M = 30 - 20 = 10$.\nThe total number of letters at the beginning is the sum of the number of letters that need stamps and the number of letters that already have stamps.\nTotal number of letters = $N + M = 60 + 10 = 70$.\nTherefore, when Jenny started putting stamps on the letters, there were 70 letters in the pile.\n\nNow we write out the argument and find the final answer.\nLet $N$ be the number of letters that need stamps, so $N = 60$.\nLet $M$ be the number of letters that already have stamps.\nJenny puts stamps on $\\frac{1}{3}$ of the letters that need stamps, which is $\\frac{1}{3} \\times 60 = 20$ letters.\nAfter Jenny puts stamps on 20 letters, the number of letters that already have stamps is $M + 20$.\nWe are given that the number of letters that already have stamps is 30, so $M + 20 = 30$.\nSolving for $M$, we get $M = 30 - 20 = 10$.\nThe total number of letters at the beginning is the sum of the letters that need stamps and the letters that already have stamps, which is $N + M = 60 + 10 = 70$.\nTherefore, when Jenny started putting stamps on the letters, there were 70 letters in the pile.\n\nFinal Answer: The final answer is $\\boxed{70}$",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"珍妮在她妈妈的办公室帮忙。她有一沓 60 封需要贴邮票的信和一沓已经贴好邮票的信。她在需要贴邮票的信的三分之一上贴上邮票。如果现在那堆已经贴好邮票的信中有 30 封信，当珍妮开始贴邮票时，那堆信中有多少封信？ Answer in English.\"\n\nInterpretation: She has a pile of 60 letters needing stamps, and a pile of already stamped letters. She stamps one-third of the need-stamp letters. If now the pile of already stamped letters has 30 letters, how many letters were in that pile when she started? So initially there were some M, after adding 20 (one-third of 60) it becomes 30, so M = 10. So answer is 10. Ground truth: 10.\n\nGenerated answer says 70 letters total at beginning (sum of both piles). That's not the same as asking \"how many letters were in the already stamped pile when she started?\" The generated answer misinterprets and gives total letters 70, not 10. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

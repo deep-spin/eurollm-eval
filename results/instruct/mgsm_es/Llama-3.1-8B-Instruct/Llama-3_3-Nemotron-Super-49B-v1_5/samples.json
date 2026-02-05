@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": "Para encontrar el monto total que Janeth pagará, podemos multiplicar el monto mensual por el número de meses:\n\n$165/mes x 12 meses = $1980\n\nEl monto total que Janeth pagará es $1980. Sin embargo, ella también debe devolver el monto original prestado, que es $2000, más un 10% de interés.\n\nEl 10% de $2000 es $200 (10% de $2000 = 0,10 x $2000 = $200).\n\nEntonces, el monto total que Janeth debe pagar es:\n\n$2000 (monto original) + $200 (interés) = $2200\n\nComo Janeth pagará $1980, le quedará un saldo de:\n\n$2200 (monto total) - $1980 (monto pagado) = $220\n\nPor lo tanto, Janeth tendrá un saldo de $220 por pagar después de 12 meses.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": "Para resolver este problema, podemos comenzar identificando la cantidad total de autos que atravesaron el embotellamiento. Sabemos que originalmente había 30 autos y 5 tomaron una salida, por lo que 30 - 5 = 25 autos atravesaron el embotellamiento.\n\nSe nos da que 20 autos pasaron en los 15 minutos restantes del embotellamiento. Para encontrar la cantidad de autos que pasaron en los primeros 15 minutos, podemos restar 20 de la cantidad total de autos que atravesaron el embotellamiento:\n\n25 (total de autos que atravesaron el embotellamiento) - 20 (autos que pasaron en los 15 minutos restantes) = 5\n\nPor lo tanto, 5 autos pasaron en los primeros 15 minutos del embotellamiento.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": "Violeta necesita comprar 5 crayones diferentes, y cada crayón cuesta $2. Para saber cuánto gastará, multiplicamos el número de crayones por el precio de cada uno:\n\n5 crayones x $2/crayón = $10\n\nVioleta tiene $20 para gastar. Para saber cuánto cambio recibirá, restamos el monto que gastará del monto que tiene:\n\n$20 - $10 = $10\n\nEntonces, Violeta recibirá $10 de cambio.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": "Para calcular el costo total del burrito personalizado, debemos sumar los costos de cada ingrediente y la mejora:\n\n- Burrito base: $6,50\n- Carne de res: $2,00\n- Queso: $1,00\n- Palta: $1,00\n- 2 salsas: 2 x $0,25 = $0,50\n- Mejora: $3,00\n\nEl costo total del burrito es: $6,50 + $2,00 + $1,00 + $1,00 + $0,50 + $3,00 = $13,00\n\nChad tiene una tarjeta de regalo de $5,00, por lo que le quedan $13,00 - $5,00 = $8,00.\n\nLa respuesta final es $8.00.",
+        "ground_truth": 9,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": "Analicemos la información proporcionada:\n\n* Lunes: 1 episodio de 1 hora = 1 hora\n* Martes: 1 episodio de 1 hora = 1 hora\n* Miércoles: x episodios de 30 minutos (queremos encontrar el valor de x)\n* Jueves: 1 episodio de 1 hora + 1 programa de 30 minutos = 1,5 horas\n* Viernes: 2 episodios de 1 hora = 2 horas\n\nEn total, Frankie miró 7 horas de televisión. Podemos establecer una ecuación para representar esto:\n\n1 + 1 + x + 1,5 + 2 = 7\n\nCombina términos semejantes:\n\n5,5 + x = 7\n\nResta 5,5 de ambos lados:\n\nx = 1,5\n\nComo x representa el número de episodios de 30 minutos, y cada episodio dura 30 minutos, podemos convertir x a horas multiplicándolo por 0,05 (ya que hay 30 minutos en una hora):\n\nx = 1,5 horas\n\nSin embargo, el problema pregunta por el número de episodios de 30 minutos, no por el tiempo en horas. Como cada episodio dura 30 minutos, podemos convertir 1,5 horas a episodios de 30 minutos dividiendo por 0,5 (ya que hay 30 minutos en una hora):\n\nx = 1,5 / 0,5\nx = 3\n\nLa respuesta final es 3.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": "Para resolver este problema, necesitamos calcular el número de descargas en cada mes y luego sumarlos.\n\nEn el primer mes, el programa tuvo 60 descargas.\n\nEn el segundo mes, el número de descargas fue tres veces más que en el primer mes, por lo que hubo 3 x 60 = 180 descargas.\n\nEn el tercer mes, el número de descargas se redujo un 30% con respecto al segundo mes. Para calcular esto, necesitamos encontrar el 30% de 180 y restarlo de 180.\n\n30% de 180 es 0,30 x 180 = 54.\n\nEntonces, el número de descargas en el tercer mes fue 180 - 54 = 126.\n\nAhora, sumamos el número de descargas en cada mes para encontrar el total:\n\n60 (primer mes) + 180 (segundo mes) + 126 (tercer mes) = 366\n\nLa respuesta final es 366.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": "Para encontrar el número total de personas que han enviado todas las escuelas, debemos calcular el número de jugadores y entrenadores de cada escuela y luego sumarlos.\n\nCada escuela ha enviado 2 equipos (femenino y masculino), cada uno con 5 jugadores, por lo que cada escuela ha enviado 2 x 5 = 10 jugadores.\n\nAdemás, cada escuela ha enviado 2 entrenadores (uno para cada equipo), por lo que cada escuela ha enviado 2 entrenadores.\n\nEn total, cada escuela ha enviado 10 jugadores + 2 entrenadores = 12 personas.\n\nComo hay 4 escuelas, el número total de personas que han enviado todas las escuelas es 4 x 12 = 48.\n\nLa respuesta final es 48.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": "Para encontrar el costo total de la fiesta, debemos sumar todos los gastos:\n\n$12 (pastel) + $43 (regalos) + $15 (decoraciones) + $4 (tarjetas de invitación) + $22 (bolsas con golosinas) = $96\n\nAhora, dividamos el costo total entre 3 personas (Isabelle y sus padres):\n\n$96 ÷ 3 = $32\n\nCada persona pagó $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": "Para resolver este problema, primero debemos encontrar cuántos elfos renunciaron después de que los niños les vomitaran encima. Un tercio de los 60 elfos es 60 / 3 = 20. Entonces, 20 elfos renunciaron.\n\nQuedan 60 - 20 = 40 elfos.\n\nLuego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. Entonces, quedan 40 - 10 = 30 elfos.\n\nLa respuesta final es 30.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": "Para resolver este problema, necesitamos saber cuántas cartas tiene Jennie después de colocar estampillas a un tercio de las cartas que necesitan estampillas.\n\nSabemos que Jennie tiene 60 cartas que necesitan estampillas. Un tercio de 60 es 60/3 = 20. Entonces, Jennie coloca estampillas a 20 cartas.\n\nDespués de colocar estampillas a 20 cartas, la pila de cartas que necesitan estampillas tiene 60 - 20 = 40 cartas.\n\nSabemos que ahora hay 30 cartas en la pila de cartas que ya tienen estampillas. Para saber cuántas había en esa pila cuando Jennie comenzó, necesitamos saber cuántas cartas se han movido de la pila de cartas que necesitan estampillas a la pila de cartas que ya tienen estampillas.\n\nComo Jennie colocó estampillas a 20 cartas, 20 cartas se han movido de la pila de cartas que necesitan estampillas a la pila de cartas que ya tienen estampillas.\n\nEntonces, la cantidad de cartas que había en la pila de cartas que ya tienen estampillas cuando Jennie comenzó es 30 - 20 = 10.\n\nLa respuesta final es 10.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

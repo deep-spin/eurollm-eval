@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Дженет заняла 2000 $ и пообещала вернуть их с дополнительными 10 % от суммы. Если Дженет будет выплачивать 165 $ в месяц в течение 12 месяцев, сколько составит остаток средств Дженет к тому моменту?\nAnswer in English.",
+        "generated_answer": "To calculate the remaining amount Janet will have after paying 165$ per month for 12 months, we first need to determine the total amount she will pay and then subtract that from the original 2000$.\n\n1. Calculate the total amount Janet will pay:\n   - Monthly payment: 165$\n   - Number of months: 12\n   - Total payment = 165 * 12 = 1980$\n\n2. Calculate the remaining amount:\n   - Original amount: 2000$\n   - Total payment: 1980$\n   - Remaining amount = 2000 - 1980 = 20$\n\nSo, the remaining amount Janet will have is 20$.",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "Машины выстроились на автостраде. Несколько машин проехали в первые 15 минут дорожной пробки, затем еще 20 машин проехали в оставшиеся 15 минут пробки. 5 машин из очереди съехали с дороги, поэтому им не нужно ехать через дорожную пробку. Если с самого начала на автостраде было 30 машин, сколько машин проехало через дорожную пробку в первые 15 минут?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many cars passed through the traffic jam in the first 15 minutes.\n\n1. **Initial number of cars**: 30\n2. **Cars that passed through in the first 15 minutes**: Let's call this number \"x\".\n3. **Cars that left the queue in the first 15 minutes**: 5\n4. **Remaining cars after the first 15 minutes**: x - 5\n\nSince the remaining cars after the first 15 minutes are still in the queue and will eventually pass through the traffic jam, we need to consider the total number of cars that will pass through the traffic jam.\n\nThe total number of cars that will pass through the traffic jam is the initial number of cars minus the 5 cars that left the queue.\n\nTotal cars passing through = Initial number of cars - Cars that left the queue\nTotal cars passing through = 30 - 5\nTotal cars passing through = 25\n\nSo, 25 cars passed through the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Виолетта хочет купить новые цветные карандаши. Ей нужны 5 разного цвета, и она приготовила для этой покупки 20 $. Один карандаш стоит 2 $. Сколько сдачи она получит?\nAnswer in English.",
+        "generated_answer": "To determine how much change Violetta will receive, we need to calculate the total cost of the 5 different colored pencils and then subtract that from the $20 she has.\n\n1. Calculate the total cost of the pencils:\n   - Each pencil costs $2.\n   - Violetta needs 5 pencils.\n   - Total cost = 5 pencils * $2/pencil = $10.\n\n2. Subtract the total cost from the amount of money Violetta has:\n   - Violetta has $20.\n   - Change = $20 - $10 = $10.\n\nSo, Violetta will receive $10 in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Чед заказал на обед собери-свой-буррито. Базовый буррито стоит 6,50 $. Он добавляет дополнительное мясо за 2,00 $, дополнительный сыр за 1,00 $, авокадо за 1,00 $ и 2 соуса за 0,25 $ каждый. Он решает улучшить еду за дополнительные 3,00 $, что добавит чипсы и напиток. У него есть подарочная карта на 5,00 $, которую он использует при оплате. Сколько он еще должен?\nAnswer in English.",
+        "generated_answer": "To calculate how much Chead still needs to pay, we need to calculate the total cost of his burrito and then subtract the amount covered by his gift card.\n\n1. **Base Burrito Cost**: $6.50\n2. **Additional Meat**: $2.00\n3. **Additional Cheese**: $1.00\n4. **Avocado**: $1.00\n5. **Two Sauces**: $0.50 (since 2 x $0.25 = $0.50)\n6. **Upgrade Cost**: $3.00 (for chips and a drink)\n\n**Total Cost Before Upgrade**: \n$6.50 (base) + $2.00 (meat) + $1.00 (cheese) + $1.00 (avocado) + $0.50 (sauces) + $3.00 (upgrade) = $14.00\n\n**Total Cost After Upgrade**: $14.00 (before upgrade) + $3.00 (upgrade) = $17.00\n\n**Amount Covered by Gift Card**: $5.00\n\n**Amount Still Owed**: \n$17.00 (total cost) - $5.00 (gift card) = $12.00\n\nSo, Chead still needs to pay $12.00.",
+        "ground_truth": 9,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 107,
+        "question": "Фрэнки смотрит телевизор каждый вечер после того, как сделает домашнее задание. Вечером в понедельник и вторник он посмотрел 1-часовую серию своего любимого шоу. В среду он посмотрел несколько серий 30-минутного шоу. В четверг он рано закончил домашнее задание и посмотрел 1-часовую серию и 30-минутное шоу. В пятницу он мог поздно лечь спать перед выходными, поэтому посмотрел две 1-часовых серии. Если он смотрел телевизор всего 7 часов, сколько 30-минутных серий он посмотрел в среду?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to calculate the total time Frenky spent watching TV and then determine how much of that time was spent on 30-minute shows.\n\n1. **Monday and Tuesday:**\n   - Frenky watched 1-hour show each night.\n   - Total time for Monday and Tuesday = 2 hours.\n\n2. **Wednesday:**\n   - Frenky watched several 30-minute shows.\n   - Let's denote the number of 30-minute shows as x.\n   - Total time for Wednesday = 30 minutes * x.\n\n3. **Thursday:**\n   - Frenky watched 1-hour show and 1 30-minute show.\n   - Total time for Thursday = 1 hour + 30 minutes = 1.5 hours.\n\n4. **Friday:**\n   - Frenky watched 2 1-hour shows.\n   - Total time for Friday = 2 hours.\n\n5. **Total time spent watching TV:**\n   - Total time = 2 hours (Monday and Tuesday) + 1.5 hours (Thursday) + 2 hours (Friday) = 5.5 hours.\n\n6. **Given total time:**\n   - Frenky watched TV for 7 hours.\n   - This means there is a discrepancy of 1.5 hours (5.5 hours - 7 hours).\n\n7. **Determine the number of 30-minute shows watched on Wednesday:**\n   - Let's denote the number of 30-minute shows as x.\n   - We know that 30 minutes * x = 1.5 hours.\n   - To find x, we can divide 1.5 hours by 30 minutes.\n   - 1.5 hours / 0.5 hours (30 minutes) = 3.\n\nSo, Frenky watched 3 30-minute shows on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "У новой программы было 60 загрузок за первый месяц. Количество загрузок за второй месяц было в три раза больше, чем загрузок за первый месяц, но затем снизилось на 30 % в третьем месяце. Сколько всего загрузок было у программы за три месяца?\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads over three months, we need to calculate the number of downloads for each month and then add them up.\n\n1. First month: 60 downloads\n2. Second month: 3 times the first month = 3 * 60 = 180 downloads\n3. Third month: 30% less than the second month = 180 - (180 * 30 / 100) = 180 - 54 = 126 downloads\n\nNow, let's add up the downloads for all three months:\n60 (first month) + 180 (second month) + 126 (third month) = 366\n\nSo, the total number of downloads over three months is 366.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "В турнире по баскетболу соревнуются четыре школы. Каждая школа отправила баскетбольную команду девочек и баскетбольную команду мальчиков, и в каждой команде по 5 игроков. Каждая школа также отравила тренера для каждой команды. В общей сложности сколько человек отправили все школы?\nAnswer in English.",
+        "generated_answer": "To determine the total number of people sent by all schools, we need to calculate the number of players and coaches for each school and then multiply by the number of schools.\n\nEach school has:\n- 1 team of 5 players (devo girls and devo boys)\n- 2 coaches (1 for each team)\n\nSo, each school sends:\n- 5 players (2 devo girls + 3 devo boys)\n- 2 coaches\n\nTotal per school: 5 players + 2 coaches = 7 people\n\nSince there are 4 schools, the total number of people sent by all schools is:\n4 schools * 7 people/school = 28 people\n\nSo, all schools together sent 28 people to the tournament.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "Изабель купила праздничные принадлежности для праздника в честь дня рождения ее младшей сестры. Она потратила 12 $ на ингредиенты для торта, 43 $ на подарки ко дню рождения, 15 $ на украшения, 4 $ на приглашения и 22 $ на мешочки со сладостями для гостей праздника. Она разделила стоимость поровну на три части со своими двумя родителями. Сколько заплатил каждый человек?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the items Iza bought. \n\nTotal cost = $12 (ingredients) + $43 (gifts) + $15 (decorations) + $4 (invitations) + $22 (sweet bags) = $96.\n\nSince Iza divided the cost equally among her two parents, each parent paid:\n\n$96 / 3 = $32.\n\nSo, each parent paid $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Нисса нанимает 60 сезонных рабочих на роль эльфов в деревне Санты в ее универсаме. Треть эльфов увольняются после того, как детей рвет на них, затем 10 эльфов из оставшихся увольняются после того, как дети пинают их по ногам. Сколько эльфов остается?\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break it down step by step:\n\n1. Initially, Nissa hires 60 seasonal workers to play the role of elves in Santa's village in her store.\n2. A third of the elves (which is 60 / 3 = 20) leave after the children throw up on them.\n3. This leaves 60 - 20 = 40 elves.\n4. Then, 10 of the remaining elves (which is 40 / 10 = 4) leave after the children kick them.\n5. This leaves 40 - 4 = 36 elves.\n\nSo, there are 36 elves left.",
+        "ground_truth": 30,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 124,
+        "question": "Дженни помогает у мамы в офисе. У нее есть пачка из 60 писем, на которые нужно приклеить марки, и пачка писем с уже наклеенными марками. Она приклеила марки на одну треть писем без марок. Если теперь в пачке с уже наклеенными марками 30 писем, то сколько было в этой пачке, когда Дженни приступила к работе?\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break it down step by step.\n\n1. **Total number of letters**: 60\n2. **Letters with already attached stamps**: 30\n3. **Letters without stamps**: 60 - 30 = 30\n\nSince Djenni attached stamps to one-third of the letters without stamps, we can calculate the number of letters she attached stamps to:\n\nOne-third of 30 letters = 30 / 3 = 10 letters\n\nSo, Djenni attached stamps to 10 letters.\n\nNow, let's determine the initial number of letters in the package with already attached stamps. Since 30 letters are already in this package, and Djenni added 10 more, the initial number of letters in this package must have been:\n\nInitial number of letters = 30 (already in the package) + 10 (added by Djenni) = 40\n\nTherefore, there were 40 letters in the package with already attached stamps when Djenni started working.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

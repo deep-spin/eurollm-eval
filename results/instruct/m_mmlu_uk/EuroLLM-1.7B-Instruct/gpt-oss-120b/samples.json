@@ -1,0 +1,802 @@
+[
+    {
+        "id": 6311,
+        "question": "Живильні речовини можуть становити загрозу для здоров'я:\n\nA) Коли вживання перевищує встановлені верхні рівні (Upper Levels)\nB) На будь-якому рівні, який вищий за рекомендований рівень споживання на їжу\nC) Лише тоді, коли вживання менше, ніж те, що потрібне для отримання корисних речовин\nD) При вживанні в звичайних умовах загроз немає\nAnswer in English.",
+        "generated_answer": "Живильні речовини можуть становити загрозу для здоров'я:\n\nA) Коли вживання перевищує встановлені верхні рівні (Upper Levels)\nB) На будь-якому рівні, який вищий за рекомендований рівень споживання на їжу\nC) Лише тоді, коли вживання менше, ніж те, що потрібне для отримання корисних речовин\nD) При вживанні в звичайних умовах загроз немає",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question asks: \"Живильні речовини можуть становити загрозу для здоров'я:\" with options A-D. The ground truth answer is \"A\". The generated answer repeats the whole question and options, not selecting any. It does not indicate the correct answer. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12418,
+        "question": "Яке було народжене ім'я борця за права людини Малкольма?\nA) Майкл Браун\nB) Малкольм Літтл\nC) Малкольм Лінкольн\nD) Майкл Ллойд\nAnswer in English.",
+        "generated_answer": "D) Майкл Ллойд",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Ukrainian: \"Яке було народжене ім'я борця за права людини Малкольма?\" Means \"What was the birth name of the human rights activist Malcolm?\" Options: A) Майкл Браун (Michael Brown), B) Малкольм Літтл (Malcolm Little), C) Малкольм Лінкольн (Malcolm Lincoln), D) Майкл Ллойд (Michael Lloyd). The correct answer is B: Malcolm Little (Malcolm X's birth name). Ground truth is B. Generated answer is D) Майкл Ллойд. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Лікар доручає медичному асистенту заповнити форму запиту на рентгенівське дослідження фібули. На якій з наступних структур буде проведено процедуру?\nA) Стопа\nB) Нижня нога\nC) Пальці стопи\nD) Стегно\nAnswer in English.",
+        "generated_answer": "C) Пальці стопи",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Ukrainian: \"Лікар доручає медичному асистенту заповнити форму запиту на рентгенівське дослідження фібули. На якій з наступних структур буде проведено процедуру?\" Means: The doctor asks to fill form for X-ray of the fibula. Which structure will the procedure be performed on? Options: A) Foot, B) Lower leg, C) Toes of foot, D) Thigh. The fibula is the lateral bone of the lower leg, so answer is \"lower leg\". That's option B. Ground truth is B. Generated answer: \"C) Пальці стопи\" which is \"toes of foot\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "Вас підведено до депозиції, щоб дати свідчення про колишнього клієнта. Під час депозиції адвокат особи-противника просять надати конфіденційну інформацію про клієнта. Ви повинні:\nA) відмовитись надавати інформацію без судового наказу.\nB) використати привілей, якщо клієнт не підписав відмову.\nC) надати інформацію, якщо ви вважаєте, що вона стосується справи.\nD) надати інформацію, оскільки привілей у цій ситуації вважається знятим.\nAnswer in English.",
+        "generated_answer": "A) відмовитись надавати інформацію без судового наказу.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: multiple choice, correct answer is B according to ground truth. Generated answer: \"A) відмовитись надавати інформацію без судового наказу.\" That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Деякі спостерігачі стверджують, що обмеження офіційної безробітності полягає в тому, що вона недооцінює справжній рівень безробіття, оскільки не включає наступне:\nA) Новачків на ринку праці\nB) Людей, які були звільнені з роботи і шукають нову роботу\nC) Розчарованих людей, які відмовилися від пошуку роботи\nD) Студентів, які шукають роботу на часткову зайнятість\nAnswer in English.",
+        "generated_answer": "A) Новачків на ринку праці\nB) Людей, які були звільнені з роботи і шукають нову роботу\nC) Розчарованих людей, які відмовилися від пошуку роботи\nD) Студентів, які шукають роботу на часткову зайнятість",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer lists all options A) B) C) D). That is not equivalent; it's not just C. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "22-річна жінка звернулася в офіс через кропив’янку. Це її перший епізод кропив’янки, який відбувся та зник кілька разів за останній тиждень. Історія та фізичний обстеження не виявляють жодних аномалій. Який з наступних варіантів дій є найбільш відповідним?\nA) Визначити концентрацію сироваткового IgE\nB) Визначити загальну кількість еозинофілів\nC) Направити її до алерголога\nD) Лікуйте симптоми\nAnswer in English.",
+        "generated_answer": "A) Визначити концентрацію сироваткового IgE\nB) Визначити загальну кількість еозинофілів\nC) Направити її до алерголога\nD) Лікуйте симптоми",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D) i.e., repeats the options, not selecting one. That is not equivalent to selecting D. So answer is false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "У теорії Маркса 'режим виробництва' означає:\nA) спосіб виготовлення продуктів на заводі\nB) середню міру продуктивності за капіталізму\nC) організацію технічних та людських ресурсів суспільства\nD) невід'ємну частину надбудови суспільства\nAnswer in English.",
+        "generated_answer": "A) спосіб виготовлення продуктів на заводі",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In Marxist theory, \"mode of production\" means: options A-D. Ground truth is C. Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "У AdaBoost ваги неправильно класифікованих прикладів збільшуються на той самий мультиплікативний множник. В у AdaBoost, зважена помилка навчання e_t schwacher класифікатор  на t навчальних даних з вагами D_t нахиляється до збільшення як функції t.\nA) Правда, правда\nB) Неправда, неправда\nC) Правда, неправда\nD) Неправда, правда\nAnswer in English.",
+        "generated_answer": "C) Правда, неправда",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question is in Ukrainian: It asks about statements: \"In AdaBoost, weights of misclassified examples increase by the same multiplicative factor. In AdaBoost, the weighted training error e_t of weak classifier on t training data with weights D_t tends to increase as a function of t.\" Then options: A) True, true; B) False, false; C) True, false; D) False, true. Answer in English.\n\nGround truth answer: \"A\". That means both statements are true. Generated answer: \"C) Правда, неправда\" which means \"True, false\". That's not the same as \"A\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 1
+    },
+    {
+        "id": 12841,
+        "question": "Одного ранку працівник прийшов на роботу та знайшов свого начальника без свідомості на підлозі свого офісу. Працівник визначив, що його начальнику не дихає, негайно надав ШВЛ його начальнику та вдалося його оживити. Після цього працівник викликав швидку допомогу, яка забрала його начальника до лікарні. Через два тижні начальник повернувся на роботу. Завдяки швидкій дії працівника у врятуванні його життя, начальник сказав працівнику: «Ти матимеш роботу зі мною на все життя». Яке з наступних найкраще характеризує правовий зв'язок між начальником та працівником на ту дату?\nA) Згідно з усною обіцянкою начальника, працівник мав виконувати договір про працевлаштування на все життя.\nB) У зв'язку з тим що працівник врятував життя його начальника, той повинен оплатити резоновану компенсацію працівнику, на підставі підтекстового договору.\nC) Дія працівника зі врятовування життя його начальника була достатньою минулою згодою для втілення у життя подальшої обіцянки.\nD) Оскільки працівник надав безкоштовну допомогу начальникові, було недостатньо згоди, щоб підтримати наступну обіцянку начальника на надання працівнику роботи на все життя.\nAnswer in English.",
+        "generated_answer": "A) Згідно з усною обіцянкою начальника, працівник мав виконувати договір про працевлаштування на все життя.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question asks: which best characterizes the legal relationship on that date? Options A-D. Ground truth answer is D. Generated answer is A (the text of option A). That is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "У порівнянні з реплікацією ДНК-вірусу, реплікація РНК-вірусу більш схильна до мутацій тому що\nA) Реплікація РНК відбувається у цитоплазмі, тоді як реплікація ДНК відбувається в ядрі.\nB) РНК-віруси реплікуються набагато швидше, ніж ДНК-віруси.\nC) РНК-віруси використовують урацил замість тиміну.\nD) Реплікація РНК не має функції перевірки на помилки, які характерні для реплікації ДНК.\nAnswer in English.",
+        "generated_answer": "A) Реплікація РНК відбувається у цитоплазмі, тоді як реплікація ДНК відбувається в ядрі.\nB) РНК-віруси реплікуються набагато швидше, ніж ДНК-віруси.\nC) РНК-віруси використовують урацил замість тиміну.\nD) Реплікація РНК не має функції перевірки на помилки, які характерні для реплікації ДНК.\nAnswer in English.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question asks: \"In comparison to DNA virus replication, RNA virus replication is more prone to mutations because ...\" Options given. The correct answer is D: \"RNA replication lacks proofreading function.\" The ground truth answer is \"D\". The generated answer just repeats all options A-D, not selecting one. It does not convey the same meaning; it's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7808,
+        "question": "Це місце, де виробництво, закупівля та споживання можуть відбуватися в різні моменти часу.\nA) Часова корисність.\nB) Корисність власності.\nC) Доступність.\nD) Корисність інформації.\nAnswer in English.",
+        "generated_answer": "C) Доступність.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Ukrainian: \"This is a place where production, procurement and consumption can occur at different times.\" Options: A) Temporal utility. B) Property utility. C) Availability. D) Information utility. The correct answer likely \"Temporal utility\" (Часова корисність). Ground truth is A. Generated answer is C) Доступність (Availability). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "77-річна жінка звернулася до лікаря через синкопальний припадок, що трапився, коли вона ходила. Кардіологічне обстеження виявило градацію 3/6 систолічного шуму, який найкраще чути в верхньому правому стернумі. Шум іррадіюється в шию. Ймовірно, що вальвулярна аномалія, що спричинила цей припадок, є\nA) недостатність аорти\nB) стеноз аорти\nC) мітральний недостатність\nD) стеноз мітрального клапана\nAnswer in English.",
+        "generated_answer": "A) недостатність аорти",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: 77-year-old woman with syncope, systolic murmur grade 3/6 best heard at upper right sternal border, radiates to neck. Likely valvular anomaly causing syncope is aortic stenosis. So correct answer B. Generated answer: \"A) недостатність аорти\" which is aortic insufficiency, not aortic stenosis. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9558,
+        "question": "Згідно з Санделем, евгеніка та генетичне покращення можна вважати неправильними з секулярного погляду, оскільки вони призведуть до небажаних змін у\nA) скромності.\nB) відповідальності.\nC) солідарності.\nD) всі вищезазначені.\nAnswer in English.",
+        "generated_answer": "Відповідь: D) всі вищезазначені.\n\nСандель стверджує, що евгеніка та генетичне покращення можуть призвести до небажаних змін у скромності, відповідальності та солідарності. Сандель стверджує, що евгеніка та генетичне покращення можуть призвести до небажаних змін у скромності, відповідальності та солідарності.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"D\". The generated answer says \"Відповідь: D) всі вищезазначені.\" which matches D. So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3578,
+        "question": "Який з наступних білків не бере участі у всмоктуванні холестерину в тонкому кишечнику?\n\nA) NPC1L1\nB) Рецептор LDL\nC) ACAT2\nD) ABCG5/G8\nAnswer in English.",
+        "generated_answer": "A) NPC1L1",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Which of the following proteins does NOT participate in cholesterol absorption in the small intestine?\" Options: A) NPC1L1, B) LDL receptor, C) ACAT2, D) ABCG5/G8. The correct answer is B (LDL receptor) because NPC1L1, ACAT2, ABCG5/G8 are involved. Generated answer: \"A) NPC1L1\". That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8268,
+        "question": "Який найбільш отруйний риба у світі?\nA) Скорпенова риба\nB) Левова риба\nC) Каменева риба\nD) Фуга\nAnswer in English.",
+        "generated_answer": "A) Скорпенова риба",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"Which is the most poisonous fish in the world?\" Options A) Скорпенова риба, B) Левова риба, C) Каменева риба, D) Фуга. Ground truth answer: \"C\". So correct answer is option C (Каменева риба). Generated answer: \"A) Скорпенова риба\". That's not same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2281,
+        "question": "Згідно з Альтманом, які з наведених видів шкоди мають найкращі шанси на успіх, коли обґрунтовуються кодекси мовленнєвої поведінки?\nA) причинна шкода\nB) експресивна шкода\nC) як причинна, так і експресивна шкода\nD) допоміжна шкода\nAnswer in English.",
+        "generated_answer": "A) причинна шкода",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"According to Altman, which of the listed types of harm have the best chances of success when justifying speech behavior codes?\" Options: A causal harm, B expressive harm, C both, D auxiliary harm. Ground truth answer is D. Generated answer is \"A) причинна шкода\" i.e., option A. That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4617,
+        "question": "Яке з наведених вказує на появу нових використань рослин під час середньостатейської доби?\nA) використання насіння як природного інсектициду у печерах Альтаміри на південному заході Європи\nB) рослинні матеріали, такі як квіти, у похованнях авріньяцької культури на півдні Франції\nC) рослинні матеріали, що використовувались для облицювання підлоги печери Сібуду в Південній Африці\nD) використання деревини в традиції граветтіан, щоб виготовляти кидати-килі і каної\nAnswer in English.",
+        "generated_answer": "A) use of seeds as a natural insecticide in caves of Altamira in southwestern Europe\nB) plant materials such as flowers in Aurignacian burials in southern France\nC) plant materials used for the flooring of the Sibudu cave in South Africa\nD) use of wood in the Graetian tradition to make quivers and canyons",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer lists all options A-D, not selecting one. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2289,
+        "question": "Обов'язкові резерви\nA) можуть використовуватися банками для видачі позик або купівлі інвестицій.\nB) можуть зберігатися в сейфі банку або на його рахунку у Федеральній резервній системі.\nC) мають бути зберігатися в сейфі банку.\nD) мають бути використані для видачі позик.\nAnswer in English.",
+        "generated_answer": "A) можуть використовуватися банками для видачі позик або купівлі інвестицій.\nB) можуть зберігатися в сейфі банку або на його рахунку у Федеральній резервній системі.\nC) мають бути зберігатися в сейфі банку.\nD) мають бути використані для видачі позик.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Обов'язкові резерви\" (required reserves). Options A-D. The correct answer is B. Ground truth is \"B\". Generated answer lists all options A-D, not just B. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12383,
+        "question": "____________ є розладом комунікації, який характеризується труднощами у регулюванні темпу, ритму, висоти тона та гучності мовлення.\nA) Дисартрія\nB) ПараФазія\nC) Диспрозодія\nD) Адинамія\nAnswer in English.",
+        "generated_answer": "D) Адинамія",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: fill in blank: \"_____ is a communication disorder characterized by difficulties in regulating tempo, rhythm, pitch, and loudness of speech.\" Options: A) Dysarthria, B) Paraphasia, C) Dysprosody, D) Adynamia. The correct answer is C) Dysprosody (disprosodia). Ground truth says \"C\". Generated answer says \"D) Адинамія\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1553,
+        "question": "Коли австралійські аборигени населяли жорстокий внутрішній світ Австралії?\nA) 10,000-12,000 років тому\nB) 20,000-25,000 років тому\nC) 35,000-40,000 років тому\nD) 40,000-45,000 років тому\nAnswer in English.",
+        "generated_answer": "A) 10,000-12,000 років тому\nAnswer in Russian.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"When did Australian aborigines inhabit the harsh interior of Australia?\" Options given. Ground truth answer: B (20,000-25,000 years ago). Generated answer: \"A) 10,000-12,000 років тому Answer in Russian.\" That's different option (A) and also says answer in Russian, not English. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10131,
+        "question": "Збільшення індексу споживчих цін часто називають\nA) економічним зростанням.\nB) інфляцією.\nC) безробіттям.\nD) розчарованими працівниками.\nAnswer in English.",
+        "generated_answer": "A) економічним зростанням.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Збільшення індексу споживчих цін часто називають\" which means \"Increase in consumer price index is often called\". Correct answer: B) інфляцією (inflation). Ground truth is B. Generated answer: \"A) економічним зростанням.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4104,
+        "question": "Було взято три зразки наблизз 0,10 М фенолу, C6H5OH, Ка = 1,0 × 10^-10 об’ємом близько 25,00 мл зі скляної посудини та поміщено в окремі склянки об’ємом 250 мл. Зразки титрували стандартним розчином гідроксиду калію, KOH. Індикатором кислотно-основної титрації був крезол червоний. Для досягнення еквівалентної точки титрації потрібно було 31,75, 32,38 та 41,75 мл розчину. Що з наступного може пояснити, чому один з зразків вимагав суттєво більше основи для досягнення еквівалентної точки?\nA) Індикатор було додано занадто пізно.\nB) Було використано хибний індикатор.\nC) В склянці було забруднено базу.\nD) В склянці було забруднено кислоту.\nAnswer in English.",
+        "generated_answer": "A) Індикатор було додано занадто пізно.\nB) Було використано хибний індикатор.\nC) В склянці було забруднено базу.\nD) В склянці було забруднено кислоту.\n\nВідповідь: B) Було використано хибний індикатор.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"D\". The generated answer says: lists options and then says \"Відповідь: B) Було використано хибний індикатор.\" So it says answer B, not D. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8725,
+        "question": "Двухлетньої хлопчик терміново потрібна допомога. Швидка допомога запросила його на екстрену хірургію через 30 хвилин після виникнення дихальної недостатності. Швидка допомога повідомила, що бабуся доглядає за дитиною останній рік, а сама опікунка - 15-річна дівчина. Хворий мав нежить і насморк з вчорашнього дня, але після денного сну став видавати кашельковий голос і відчутну потужність при диханні. Опікунка не знає, чи є у хлопчика деякі хвороби, які він може переживати, і чи приймає він які-небудь ліки на постійній основі. Хворий здивувався і сів на колена в дівчинки на колінах. Спостерігаючи його, було помічено підвищення температури - 38,7°C (101,7°F), пульс - 110/хв, частота дихання - 28/хв і ускладнена, кров'яний тиск - 85/50 мм рт. ст. Пульсоксиметр показує насиченість киснем на повітрі - 89%. При фізичному обстеженні виявлено дихальний стридор. Шия безболісна, барабанна перепонка нормальна, а з носових проходів випливає обильний відхід щільної консистенції. При вивченні глотки виявлені аномалії відсутні. При аускультації грудей повітря проникає обидві з боків без перепонок. Решта обстеження показало відсутність аномалій. Лікування 40% киснем через вентури-маску та внутрішньовенною інфузією товариських рідин розпочате. Незважаючи на продовження додаткових кисневих інгаляцій та гідровитратів, дитина залишається тахіпномічною та затрудненою диханням у спокої. Насиченість киснем на повітрі тепер становить 93%. Окрім введення рацемічного епінефрину через небулайзер, який з наступних варіантів є найбільш доцільним?\nA) Внутрішньовенна терапія амінофіліном\nB) Внутрішня антибіотикотерапія\nC) Інтубація\nD) Оральна терапія дексаметазоном\nAnswer in English.",
+        "generated_answer": "A) Внутрішньовенна терапія амінофіліном",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: which option is most appropriate? Ground truth answer: D (oral dexamethasone). Generated answer: A (IV aminophylline). They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11553,
+        "question": "Лев Толстой каже, що мистецтво - це _____.\nA) вираження\nB) форма\nC) представлення\nD) абстрактне\nAnswer in English.",
+        "generated_answer": "L. Tolstoy says that art is _____.\nA) expression\nB) form\nC) representation\nD) abstract",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Лев Толстой каже, що мистецтво - це _____.\" Options A) вираження (expression), B) форма (form), C) представлення (representation), D) абстрактне (abstract). Ground truth answer: A (expression). The generated answer: It repeats the question in English, listing options, but does not provide a selected answer. It just repeats the question and options, no answer selected. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9861,
+        "question": "Для якої з цих двох ситуацій головний герой (який використовує Я / мене / мій) вчинив щось чітко неморальне згідно зі звичайними моральними стандартами у США на 2020 рік? Сценарій 1 | Коли я пішов в банк, я прикрив обличчя маскою, щоб уникнути підхоплення вірусу. Сценарій 2 | Коли я проходив дорожній блок, я дав поліцейському своє ID.\nA) Неправильно, неправильно\nB) Неправильно, не неправильно\nC) Не неправильно, неправильно\nD) Не неправильно, не неправильно\nAnswer in English.",
+        "generated_answer": "A) Неправильно, неправильно",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: choose among options A-D. Ground truth answer is D. Generated answer is \"A) Неправильно, неправильно\". That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2407,
+        "question": "Які шляхи спростування концепції екологічної безпеки?\nA) Аналіз екологічної безпеки розуміється як цілісність всієї екологічної системи, головною загрозою якої є людська діяльність. Однак це радикально ставить на заваді мисленню про безпеку, оскільки вимагає зміни причини дії від інтересу національної безпеки до добробуту всієї суспільно-екологічної системи планети.\nB) Екологічна безпека стверджує, що головна загроза цілісності екологічної системи - це людська діяльність і, отже, людей можна захистити у тій мірі, у якій добробут забезпечується на внутрішньому рівні. Причину дії можна знайти в індивідуальних і національних інтересах.\nC) Перехресний прояв загальних проблем безпеки малоймовірний, оскільки не всі проблеми є справді глобальними. Не всі держави несуть однакову відповідальність за екологічні проблеми, немає такої річі, як рівність ризику. Системна взаємозалежність не здатна відповідати за ці області безпеки.\nD) Дієвість екологічної безпеки та людської безпеки не змушує спільноту безпеки розглядати альтернативні об'єкти безпеки. Екологічна безпека відображає сталість основних інтерпретацій безпеки, які зазвичай централізують безпеку держави.\nAnswer in English.",
+        "generated_answer": "A) An analysis of ecological security is understood as the integrity of the entire ecological system, the main threat to which is human activity. However, this radically hinders thinking about security, as it requires changing the cause of action from the national security interest to the well-being of the entire socio-ecological system of the planet.\nB) Ecological security claims that the main threat to the integrity of the ecological system is human activity, and therefore people can be protected to the extent that the well-being is ensured at the internal level. The cause of action can be found in individual and national interests.\nC) The intersection of general security problems is unlikely, as not all problems are truly global. Not all states bear equal responsibility for ecological problems, there is no such thing as equality of risk. Systematic interdependence is not capable of answering for these areas of security.\nD) The effectiveness of ecological security and human security does not force the community of security to consider alternative security objects. Ecological security reflects the stability of the basic interpretations of security, which usually centralize the security of the state.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth answer. The ground truth answer is just \"A\". The generated answer is a full translation of options A-D. The question: \"Які шляхи спростування концепції екологічної безпеки?\" (Which ways to refute the concept of ecological security?). The ground truth answer is \"A\". So the correct answer is option A. The generated answer lists all options A-D, not just selecting A. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5081,
+        "question": "Який головний мета Пенса в його статті «Чи шкодить клонування людей?»\nA) використовувати наслідкові аргументи, щоб показати, що клонування є не моральним\nB) бути проти наслідкових аргументів проти клонування\nC) використовувати формулювання Канта про людяність, щоб показати, що клонування є не моральним\nD) використовувати формулювання Канта про людяність, щоб показати, що клонування морально прийнятне\nAnswer in English.",
+        "generated_answer": "A) використовувати наслідкові аргументи, щоб показати, що клонування є не моральним",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"What is the main aim of Pence in his article 'Does cloning humans cause harm?'\" Options A-D. Ground truth answer is B. Generated answer is A). They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1618,
+        "question": "Поглинання холестерину клітинами відбувається шляхом інтерналізації комплексів холестерину з ліпопротеїнами низької щільності. Поглинання холестерину не включає в себе наступне\nA) рецептори на поверхні клітин\nB) адгезійний пласт\nC) утворення ендосом\nD) рецепторно-медійоване ендоцитоз\nAnswer in English.",
+        "generated_answer": "A) рецептори на поверхні клітин",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Поглинання холестерину клітинами відбувається шляхом інтерналізації комплексів холестерину з ліпопротеїнами низької щільності. Поглинання холестерину не включає в себе наступне\" which translates: \"Cholesterol uptake by cells occurs via internalization of cholesterol complexes with low-density lipoproteins. Cholesterol uptake does not include the following\". Options: A) receptors on cell surface, B) adhesion plate, C) formation of endosomes, D) receptor-mediated endocytosis. The correct answer (ground truth) is B (adhesive plate). The generated answer says \"A) рецептори на поверхні клітин\". That's not the same. So answer is false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11957,
+        "question": "У рамках консультування та психотерапії тренд з 1980-го року полягає в тому, щоб\nA) більше використовувати методи поведінки\nB) домінуванні аналітичних моделей\nC) зростанні доказів того, що теоретична позиція терапевта визначає ефективність\nD) більшому прийнятті еклектики\nAnswer in English.",
+        "generated_answer": "A) більше використовувати методи поведінки",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Ukrainian: \"У рамках консультування та психотерапії тренд з 1980-го року полягає в тому, щоб\" which translates: \"Within counseling and psychotherapy, the trend since 1980 has been to\". Options: A) use more behavioral methods, B) dominance of analytic models, C) increase evidence that therapist's theoretical position determines effectiveness, D) greater acceptance of eclecticism. The correct answer is D (greater acceptance of eclecticism). Generated answer: \"A) більше використовувати методи поведінки\" i.e., option A. That does not match D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1208,
+        "question": "На островах Андрос в Багамах популяції москітних риб Gambusia hubbsi заселили ряд ставків. Ці ставки більше не пов'язані один з одним. Однак середовище у них дуже схоже, крім того, що деякі ставки містять хижі риби, а інші - ні. У ставках з високим рівнем хижих риб відбулася селекція, що сприяла еволюції форми тіла, яка дозволяє швидкі вибухи швидкості. У ставках з низьким рівнем хижих риб сприятливіший інший тип тіла - той, що добре пристосований до плавання на тривалий час.\nA) Репродуктивна ізоляція викликала географічну ізоляцію.\nB) Репродуктивна ізоляція не була повною.\nC) Алопатрична ізоляція призвела до репродуктивної ізоляції.\nD) Симпатрична ізоляція призвела до репродуктивної ізоляції.\nAnswer in English.",
+        "generated_answer": "A) Репродуктивна ізоляція і географічна ізоляція викликали географічну ізоляцію.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"C\". The generated answer is \"A) Репродуктивна ізоляція і географічна ізоляція викликали географічну ізоляцію.\" That's not \"C\". It's also nonsensical and not matching. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11206,
+        "question": "Пасажирка в метрополітені поклала свою жіночу сумочку на сидінні поруч з собою і почала застібати куртку. Підсудний стояв перед пасажиркою, тримаючись за поручень. Побачивши залишену без нагляду сумочку, він раптово схопив її і намагався втекти. Коли це сталося, пасажирка дуже налякалась і впала назад. Вона вдарилась головою об вікно і втратила свідомість. У шумі та гамі підсудний випустив сумочку і поспішно вийшов з метрополітену з порожніми руками. Підсудному слід знайти винним у\nA) крадіжці.\nB) спробі крадіжки.\nC) нападі.\nD) ограбуванні.\nAnswer in English.",
+        "generated_answer": "A) крадіжці.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which crime? Options A) theft, B) attempted theft, C) assault, D) robbery. The scenario: He grabbed bag, tried to run, she got scared, fell, hit head, lost consciousness. He let go bag and left. Likely theft? He took bag but didn't succeed? He grabbed and tried to escape, but released bag. Did he actually take? He attempted theft. Also she got injured, maybe assault? But likely attempted theft. However ground truth says \"A\". That is \"крадіжці\" i.e., theft. Generated answer: \"A) крадіжці.\" Same as ground truth. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5409,
+        "question": "Який ділянці головного мозку можна пошкодити, щоб у людини із психічним ураженням виникали складнощі з м'язової координації для точного висловлювання?\nA) Область Верніке\nB) Гіппокамп\nC) Область Броки\nD) Амігдала\nAnswer in English.",
+        "generated_answer": "A) Область Верніке",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Ukrainian: \"Which area of the brain can be damaged so that a person with mental impairment has difficulties with muscle coordination for precise speech?\" Options: A) Wernicke area, B) Hippocampus, C) Broca's area, D) Amygdala. Correct is Broca's area (C). Ground truth: \"C\". Generated answer: \"A) Область Верніке\" i.e., Wernicke area. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7735,
+        "question": "Які переконання Мілтона Фрідмана щодо єдиної відповідальності бізнесу?\nA) Єдина соціальна відповідальність бізнесу - перед його акціонерами\nB) Менеджери повинні діяти таким чином, щоб вирівняти інтереси суспільства та акціонерів\nC) Основна відповідальність організацій полягає в її співробітниках\nD) Основна відповідальність організацій полягає в її стейкхолдерах\nAnswer in English.",
+        "generated_answer": "A) Єдина соціальна відповідальність бізнесу - перед його акціонерами\nB) Менеджери повинні діяти таким чином, щоб вирівняти інтереси суспільства та акціонерів\nC) Основна відповідальність організацій полягає в її співробітниках\nD) Основна відповідальність організацій полягає в її стейкхолдерах",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"What are Milton Friedman's beliefs regarding the single responsibility of business?\" Options A-D. The ground truth answer is \"A\". So correct answer is option A. The generated answer lists all options A-D, i.e., repeats the options, not selecting one. That does not convey same meaning as ground truth (which selects A). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9171,
+        "question": "Компанія володіла нічним клубом, що був побудований на пірсі, який виступав у велику русло річки. Декілька місяців деякі ділянки будівлі помітно коливалися, особливо в несприятливу погоду, коли річка б'ють ще більш сильно проти структури. Декілька працівників і клієнтів скаржились, але генеральний директор не реагував. Одну вітряну ніч ділянка пірсу зруйнувалася в річку, внаслідок чого загинуло 28 клієнтів і працівників. Виявилося, що посадові особи на кілька разів порушували застосовні правила безпеки в клубі. Поліція затримала генерального директора і звинуватила в непридуманому вбивстві. Він захистився на тому, що його пропуски дій були юридично недостатніми для встановлення факту непридуманого вбивства. Що вирішить суд?\nA) Це не є непридумане вбивство, оскільки пропуск реагування на зауваження щодо безпеки недостатньо для встановлення високого ступеня кримінальної недбалості, який потрібен.\nB) Невчинення менш провинно, ніж активна безвідповідальність і, отже, недостатньо доказів, щоб звинуватити у непридуманому вбивстві.\nC) Корпоративний працівник не може бути притягнутий до відповідальності за злочин непридуманого вбивства з приводу виконання або невиконання своїх обов'язків в ім'я корпорації.\nD) Звинувачення у непридуманому вбивстві юридично досить, оскільки пропуски менеджера були безвідповідальні та незаконні в даних умовах.\nAnswer in English.",
+        "generated_answer": "A) Це не є непридумане вбивство, оскільки пропуск реагування на зауваження щодо безпеки недостатньо для встановлення високого ступеня кримінальної недбалості, який потрібен.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"D\". The generated answer is \"A) Це не є непридумане вбивство, оскільки пропуск реагування на зауваження щодо безпеки недостатньо для встановлення високого ступеня кримінальної недбалості, який потрібен.\"\n\nSo generated picks option A, while ground truth is D. They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1649,
+        "question": "Це питання стосується наступної інформації.\nПрочитайте документи нижче.\nДжерело 1\nЯкщо тоді, за допомогою машин, виробництво бавовни, товару, який ми імпортуємо та отримуємо з інших країн, і який можна отримати скрізь за однакових умов, зустріло такий великий успіх, чи не можна розумно очікувати більших переваг від максимального розвитку виробництва шерсті, продукту нашого власного острова, товару, який популярний в усіх країнах, майже універсального одягу людства?\nУ виробництві шерсті, фабрика для обробки вовни, прядильна рама та летючий шаттл зменшили ручну працю майже на третину, і кожна з них, коли була вперше введена, налякала робітників, але кожна з них дала свій внесок у підвищення заробітної платні та збільшення торгівлі, так що якщо зараз була б зроблена спроба позбавити нас використання їх, немає сумніву, що кожна людина, зайнята в бізнесі, докладе зусиль, щоб захистити їх.\n—Заява ткачів з Лідса, 1791\nДжерело 2\nПрочання, хлопці-вирізувальники відомих здібностей,\nХто любить пити добре коричневе пиво,\nІ кидати кожного зарозумілого тирана,\nЗ топором, пікою і рушницею!\nО, для мене хлопці-вирізувальники,\nДля мене галантні хлопці,\nХто з пружним ударом\nЗламав рами для стрижки,\nХлопці-вирізувальники для мене!\nТе, що спеціалісти все ще йдуть вперед,\nІ солдати ночами між нами крокують;\nХлопці-вирізувальники все ще ведуть танок,\nЗ топором, пікою і рушницею!\nО, для мене хлопці-вирізувальники,\nДля мене галантні хлопці,\nХто з пружним ударом\nЗламав рами для стрижки,\nХлопці-вирізувальники для мене!\n—Пісня Луддитів, Пісня Вирізувальника, бл. 1812\nЯку з наступних економічних теорій підтримує джерело 1 на користь розширення та використання машин?\nA) Капіталізм лаіссе-фер\nB) Меркантилізм\nC) Індустріалізація\nD) Булліонізм\nAnswer in English.",
+        "generated_answer": "The source 1 supports the following economic theory in favor of the expansion and use of machines:\nA) Classical laissez-faire\nB) Mercantilism\nC) Industrialization\nD) Bullionism",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which of the following economic theories does source 1 support in favor of expansion and use of machines?\" Options A-D. Ground truth answer: B (Mercantilism). The generated answer lists all options? It says: \"The source 1 supports the following economic theory in favor of the expansion and use of machines: A) Classical laissez-faire B) Mercantilism C) Industrialization D) Bullionism\". That is not selecting one; it's just restating the options, not giving a specific answer. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5796,
+        "question": "Вік, з якого можна отримати повну пільгу від соціального забезпечення\nA) Це 62\nB) Це 65\nC) Зростає\nD) Ніколи не зміниться\nAnswer in English.",
+        "generated_answer": "C) Зростає",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. Question: \"Вік, з якого можна отримати повну пільгу від соціального забезпечення\" (Age from which you can get full benefit from social security). Options: A) 62, B) 65, C) Зростає (increases), D) Ніколи не зміниться (never changes). The ground truth answer is \"C\". The generated answer is \"C) Зростає\". That matches option C. So meaning same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7113,
+        "question": "В четверг утром двое полицейских в гражданской одежде были застрелены при попытке задержать грабителя банка, который только что ограбил банк. После убийств полиция объявила розыск 40-летнего европейца (рост 6 футов; вес 150-155 фунтов), которого видели рядом с местом ограбления банка. В пятницу охранник местного универмага гулял по улице Мэйн, когда заметил высокого афроамериканца, который соответствовал описанию подозреваемого в ограблении банка по возрасту, росту и весу. Охранник подошел к человеку (и, считая его грабителем банка), вытащил оружие и арестовал его. Охранник удерживал человека под стражей, пока через некоторое время не прибыла полиция. Полицейский сообщил охраннику, что он арестовал неправильного человека. Человек сказал охраннику, что он не тот, кто ограбил банк и застрелил полицейских. Человек пострадал от ложного ареста. Если этот человек предъявит претензии по обвинению о нападении на охранника, он\nA) победит, если человек увидел, как охранник нацелил на него оружие.\nB) победит, если ошибочное убеждение охранника было неразумным.\nC) не победит, потому что охранник не намеревался причинить вред человеку.\nD) не победит, потому что человек не пострадал от действий охранника.\nAnswer in English.",
+        "generated_answer": "D) не победит, потому что человек не пострадал от действий охранника.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer is \"D) не победит, потому что человек не пострадал от действий охранника.\" That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5180,
+        "question": "Ціле число c є спільним дільником двох цілих чисел x та y, якщо і тільки якщо c є дільником x і c є дільником y. Який з наступних наборів цілих чисел можливо може бути набором усіх спільних дільників двох цілих чисел?\nA) {-6,-2, -1, 1, 2, 6}\nB) {-6, -2, -1, 0, 1, 2, 6}\nC) {-6, -3, -2, -1, 1, 2, 3, 6}\nD) {-6, -3, -2, -1, 0, 1, 2, 3, 6}\nAnswer in English.",
+        "generated_answer": "The answer is C) {-6, -3, -2, -1, 1, 2, 3, 6}.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer says \"The answer is C) {...}\". That conveys same answer. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10008,
+        "question": "Під час скорочення м'яза взаємодії між міозином та актином дозволяють скорочення кожного саркомеру. Окрім силового удару, який інший процес скорочення м'яза потребує АТФ?\nA) Взаємодія тропоміозину-тропоніну\nB) Взаємодія міозину-актину\nC) Взаємодія кальцію-тропоніну\nD) Від'єднання міозину-актину\nAnswer in English.",
+        "generated_answer": "D) Від'єднання міозину-актину",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian. The correct answer is D. Ground truth: \"D\". Generated answer: \"D) Від'єднання міозину-актину\". That matches D. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10492,
+        "question": "Яка з наступних умов характеризує некомпетентність зігнивного сфінктера?\nA) Хвороба Крона\nB) Варикоз підшлункової залози\nC) Гастроезофагеальна рефлюксна хвороба\nD) Стеноз пілорусу\nAnswer in English.",
+        "generated_answer": "A) Хвороба Крона",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following conditions characterizes incompetence of the sphincter of Oddi?\" Options A-D. Ground truth answer is C (which is \"Гастроезофагеальна рефлюксна хвороба\" i.e., gastroesophageal reflux disease). Generated answer is \"A) Хвороба Крона\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3350,
+        "question": "Підрядна будівельна компанія подала позов про порушення контракту у федеральний суд проти власника будинку, який найняв компанію для будівництва квартири над існуючою гаражем. Спір пішов про обсяг робіт, передбачених контрактом. Підрядник і власник будинку були єдиними свідками на процесі, і вони значно розходилися у своїх поглядах на обсяг робіт. По закінченню судового процесу суддя зробив висновки фактів на записі, але ніколи не видав письмової думки. Жодна зі сторін не звернулася проти висновків. Суддя вирішив на користь власника будинку, і підрядник подав апеляцію. Чи ймовірно, що апеляційний суд скасує висновки?\nA) Ні, тому що апеляційний суд повинен поважати можливість судді першої інстанції визначити достовірність свідка.\nB) Ні, тому що підрядник не звернув уваги на висновки, коли суддя оголосив їх в суді.\nC) Так, тому що суддя повинен встановити факти в письмовому висновку або рішенні.\nD) Так, тому що були суперечливі питання факту на судовому процесі.\nAnswer in English.",
+        "generated_answer": "A) Ні, тому що апеляційний суд повинен поважати можливість судді першої інстанції визначити достовірність свідка.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer is \"A) Ні, тому що апеляційний суд повинен поважати можливість судді першої інстанції визначити достовірність свідка.\" That corresponds to option A. So it's the same. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9052,
+        "question": "У векторному просторі скінченної вимірності будь-який лінійно незалежний набір векторів міститься в базисі. Якщо В₁ та В₂ — базиси одного й того ж векторного простору, то |В₁| = |В₂|.\nA) Правда, Правда\nB) Неправда, Неправда\nC) Правда, Неправда\nD) Неправда, Правда\nAnswer in English.",
+        "generated_answer": "C) Правда, Неправда",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: It's a multiple choice about two statements: first statement: \"In a finite-dimensional vector space any linearly independent set of vectors is contained in a basis.\" That's true. Second: \"If B1 and B2 are bases of the same vector space, then |B1| = |B2|.\" That's also true. So both true => answer A) Правда, Правда. Ground truth is A. Generated answer is C) Правда, Неправда, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7815,
+        "question": "Згідно з теорією воріт, яка умова, як правило, закриває ворота?\nA) тривожність\nB) депресія\nC) фокусування на болі\nD) електрична стимуляція\nAnswer in English.",
+        "generated_answer": "A) тривожність",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"According to gate theory, which condition usually closes the gate?\" Options: A anxiety, B depression, C focusing on pain, D electrical stimulation. Correct is D. Ground truth is D. Generated answer: \"A) тривожність\" which is option A anxiety. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7253,
+        "question": "Яке з наступних рівнянь є рівнянням тангенсної лінії до графіку функції y = x + e^x при x = 0?\nA) y = 2x + 1\nB) y = 2x\nC) y = x + 2\nD) y = x + 1\nAnswer in English.",
+        "generated_answer": "Найкраще відповідає правилу дев'яти:\nA) y = 2x + 1\nB) y = 2x\nC) y = x + 2\nD) y = x + 1\nAnswer in English.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Which equation is tangent line to y = x + e^x at x=0? Options A-D. Ground truth answer: A. So correct answer is option A.\n\nGenerated answer: \"Найкраще відповідає правилу дев'яти:\nA) y = 2x + 1\nB) y = 2x\nC) y = x + 2\nD) y = x + 1\nAnswer in English.\"\n\nThe generated answer just repeats the options, says \"Найкраще відповідає правилу дев'яти:\" which is nonsense, does not select any option. It does not state which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8541,
+        "question": "Жінці 42 років звернулась до лікаря через інтермітентну нудоту та біль в животі, які виникають через 20-30 хвилин після їжі. Біль поширюється від епігаструму до правого верхнього квадранту і часом відчувається під правим лопатковим відростком; він триває близько 30 хвилин і не пом’якшується антацидами. Останній епізод стався після їди гамбургера та картоплі фрі. Вона не страждала від блювоти. Наразі вона не має симптомів. Вона має зріст 165 см (5 футів 5 дюймів) та важить 104 кг (230 фунтів); ІМТ складає 38 кг/м2 . Обстеження не виявило інших аномалій. Який з наступних кроків є найбільш відповідним у керуванні цього стану?\nA) Ультразвукове дослідження черевної порожнини правого верхнього квадранту\nB) Верхньо-шлункова серія з дослідженням тонкої кишки\nC) Комп’ютерна томографія черевної порожнини\nD) Ендоскопічна ретроградна холангіопанкреатографія\nAnswer in English.",
+        "generated_answer": "A) Ультразвукове дослідження черевної порожнини правого верхнього квадранту",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer is \"A) Ультразвукове дослідження черевної порожнини правого верхнього квадранту\". That corresponds to option A, same as ground truth. So they match. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4267,
+        "question": "Усі наступні є електромагнітними хвилями, ОКРІМ\nA) мікрохвиль\nB) світлових хвиль\nC) рентгенівських променів\nD) Немає таких, які не належать до сім'ї електромагнітних хвиль\nAnswer in English.",
+        "generated_answer": "A) мікрохвиль",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"All of the following are electromagnetic waves, EXCEPT\". Options: A) microwaves, B) light waves, C) X-rays, D) None that are not part of EM wave family. The correct answer is D (i.e., all listed are EM waves). Ground truth says D. Generated answer says \"A) мікрохвиль\". That says microwaves are not EM waves, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1020,
+        "question": "Яке з наступних не є аргументом за обмеженням торгівлі?\nA) Захист молодих промислових підприємств\nB) Заохочення зайнятості\nC) Боротьба з інфляцією\nD) Заохочення різноманіття галузей\nAnswer in English.",
+        "generated_answer": "A) Захист молодих промислових підприємств",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which of the following is not an argument for trade restriction?\" Options: A) Protection of young industrial enterprises, B) Encouragement of employment, C) Fight inflation, D) Encouragement of industry diversity. The correct answer is C (fight inflation). Ground truth is \"C\". Generated answer: \"A) Захист молодих промислових підприємств\" i.e., option A. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8989,
+        "question": "Це запитання стосується наступної інформації.\n\"Коли португальці відправляються з Макао в Китай до Японії, вони беруть із собою багато білого шовку, золота, мускусу та фарфору: а вони із Японії беруть тільки срібло. Вони мають великого корабля, який ходить туди щорічно, і він приносить близько шестисот монет. І всі ці срібні монети з Японії, а також ще двісті тисяч монет срібла, які вони щорічно привозять з Індії, вони використовують на свою велику користь в Китаї, а звідти вони привозять золото, мускус, шовк, мідь, фарфор і багато інших дуже коштовних і золотих речей.\nКоли португальці прибувають до г.Каньон у Китаї, щоб здійснювати торгівлю, вони повинні залишатися там лише на певну кількість днів: і коли вони входять в браму міста, вони повинні занести свої імена в книгу, а коли вони виходять вночі, вони повинні замовкнути. Вони не можуть переночувати в місті, а повинні спати у своїх човнах за містом. І коли їхній час закінчується і якщо хтось залишається там, його ув'язнюють.\"\nРальф Фітч, звіт про його подорожі до Сходу, 1599 рік н.е.\nКрім джерел срібла, які згадані в першому абзаці, найбільший обсяг додаткового срібла в Китай прибував з однієї з наступних територій?\nA) Центральна Азія\nB) Європа\nC) Близький Схід\nD) Новий Світ\nAnswer in English.",
+        "generated_answer": "B) Європа",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks: \"Крім джерел срібла, які згадані в першому абзаці, найбільший обсяг додаткового срібла в Китай прибував з однієї з наступних територій? A) Central Asia B) Europe C) Near East D) New World\". Ground truth answer is D (New World). Generated answer: \"B) Європа\" i.e., Europe. That's not same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 230,
+        "question": "На столі лежать підручники з математики та фізики, зв’язані разом за допомогою вузького шнура. З одного з країв столу м’яко відштовхують один з підручників, а інший на ньому залишається. В результаті падіння одного з підручників, інший перетягується горизонтально по поверхні столу. Якщо знехтувати силою тертя, прискорення підручників буде\nA) нуль\nB) g/2\nC) g\nD) значення між нулем та g\nAnswer in English.",
+        "generated_answer": "A) нуль",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: physics problem about two textbooks tied, one pushed, other slides, neglect friction, acceleration? Likely acceleration is g/2? Actually think: two masses tied, one pulled off table? But they are on table, push one, other slides horizontally, no friction, internal tension? The system's center of mass accelerates? Actually push one, other moves due to tension, but no external horizontal forces, so center of mass stays, but internal forces cause opposite accelerations? If push one, you apply external impulse, so both accelerate? The question likely answer D (value between 0 and g). Ground truth says D. Generated answer: \"A) нуль\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1528,
+        "question": "Яке з наступних найкраще описує 'субальтерн' у постколоніальній критиці?\nA) Субальтерн відноситься до тих, хто знаходиться географічно на південній півкулі.\nB) Термін субальтерн застосовується до певної групи вчених з глобального півдня.\nC) Субальтерн відноситься до населення, яке перебуває на маргіналізованій позиції або знаходиться за межами гегемонної структури влади.\nD) Субальтерн відноситься до південної частини Індії.\nAnswer in English.",
+        "generated_answer": "A) Субальтерн відноситься до тих, хто знаходиться географічно на південній півкулі.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is C: \"Subaltern refers to population that is marginalized or outside hegemonic power structures.\" Generated answer is A: \"Subaltern refers to those who are geographically in the southern hemisphere.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11791,
+        "question": "Для стабілізації, підтримки та захисту доходів та цін на фермерські продукти було створено федеральне агентство. Агентство має право укладати та виконувати договори та угоди, які необхідні для проведення своєї діяльності. Експортна компанія уклала контракт з федеральним агентством на транспортування різноманітних товарів за кордон. Однак федеральне агентство підозрювало експортну компанію в можливому зловживанні офіційними сертифікатами перевірки, що стосуються експорту товарів за кордон. Під час розслідування, що стосувалося звинувачення, президент експортної компанії представив інформацію федеральному агентству. Пізніше президента звинуватили в порушенні федерального статуту, який говорить: \"Будь-яка особа, яка звертається до федерального агентства з питання, що потрапляє в його юрисдикцію, вчиняючи міркування, що є неправдивими, вчиняє злочин.\" На суді управління представило докази, що президент фальсифікував коносаменти і розкрадав понад 500 000 доларів зайвих комодитетів для експорту. Президент свідчив, що не знає про те, що веде бізнес з федеральним агентством, і, отже, уряд США не міг мати юрисдикції над контрактом його компанії з федеральним агентством. Щодо значення незнання президента суд повинен поінформувати журі, що воно може засудити президента\nA) якщо воно встановить, що президент знав, що він веде бізнес з федеральним агентством.\nB) якщо воно встановить, що президент був свідомий того, що він, можливо, веде бізнес з федеральним агентством.\nC) якщо розумна людина була б свідома того, що вона може вести бізнес з федеральним агентством.\nD) навіть якщо не було жодних підстав думати, що президент веде бізнес з федеральним агентством.\nAnswer in English.",
+        "generated_answer": "A) якщо воно встановить, що президент знав, що він веде бізнес з федеральним агентством.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: \"Regarding the meaning of the president's ignorance, the court should inform the jury that it may convict the president ...\" Options A, B, C, D. The ground truth answer is D. The generated answer is \"A) якщо воно встановить, що президент знав, що він веде бізнес з федеральним агентством.\" That's option A, not D. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6534,
+        "question": "У одному дослідженні про вплив споживання м'ясних продуктів на рівень ваги, SRS з 500 суб'єктів, які визнали, що харчуються м'ясом щонайменше раз на день, були порівняні за вагою з іншою незалежною SRS з 500 осіб, які твердили, що є вегетаріанцями. У другому дослідженні, SRS з 500 суб'єктів щодня отримували щонайменше одну м'ясну страву на протязі 6 місяців, тоді як незалежна SRS з 500 інших була обрана, щоб протягом 6 місяців отримувати строго вегетаріанську дієту, з подальшим порівнянням ваги після 6 місяців.\nA) Перша ​​дослідження - це контрольний експеримент, а другий - спостережливий експеримент.\nB) Перше дослідження - це спостережливий експеримент, а друге - контрольний експеримент.\nC) Обидва дослідження - це контрольні експерименти.\nD) Обидва дослідження - це спостережливі експерименти.\nAnswer in English.",
+        "generated_answer": "A) Перша ​​дослідження - це контрольний експеримент, а другий - спостережливий експеримент.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question asks to choose correct answer among A-D. Ground truth is B. Generated answer is A). So they differ. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11636,
+        "question": "Люди, які приєднуються до політичної партії, відмінної від тієї, до якої належать їхні батьки, найчастіше це роблять через\nA) тиск ровесників\nB) економічні питання\nC) релігійні переконання\nD) тиск з боку роботодавців\nAnswer in English.",
+        "generated_answer": "People who join a political party different from their parents' party usually do so because:\nA) peer pressure\nB) economic issues\nC) religious beliefs\nD) pressure from employers",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question asks: \"Люди, які приєднуються до політичної партії, відмінної від тієї, до якої належать їхні батьки, найчастіше це роблять через ...\". Options A-D. The ground truth answer is \"B\". So the correct answer is \"economic issues\". The generated answer just repeats the options, not selecting one. It does not state which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12862,
+        "question": "Яка є невідкладна причина катетеризації пацієнта?\nA) Гострий затримка сечі.\nB) Інфекція сечових шляхів.\nC) Недержання сечі.\nD) Тому що вони просили.\nAnswer in English.",
+        "generated_answer": "A) Гострий затримка сечі.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Яка є невідкладна причина катетеризації пацієнта?\" Options: A) Гострий затримка сечі. B) Інфекція сечових шляхів. C) Недержання сечі. D) Тому що вони просили. The ground truth answer is \"A\". The generated answer: \"A) Гострий затримка сечі.\" That matches option A. So meaning same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10947,
+        "question": "Призначення термінової роботи з відомим терміном здачі передбачає ___________ графік посилення.\nA) VI\nB) FI\nC) FR\nD) VR\nAnswer in English.",
+        "generated_answer": "C) FR",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer \"C) FR\" is equivalent in meaning to ground truth \"B\". They are different options. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10244,
+        "question": "Банк вилучив з будинку покупця іпотеку. Після того, як власність була продана на аукціоні за $50,000, банк повідомив покупця про заборгованість у розмірі $10,000. Проте у первинній угоді сума, яку може стягнути банк, була обмежена $50,000 або вище. Відповіді не було, і банк виніс рішення про заборгованість у розмірі $10,000. Коли він розпочав процедуру виконання щодо стягнення $ 10,000, ​​відповідачі почали захист, стверджуючи, що банку дозволяється стягнути лише $ 50,000 або вище. Рішення на $10,000 було недійсним і неможливим до виконання. Чи дозволить суд стягнення за заборгованість у розмірі $10,000?\nA) Так, суд виконає рішення, оскільки обмеження в первинній угоді є піддающим дії та залежить від порушення умов іпотеки.\nB) Так, суд виконає рішення, оскільки достатньо попередження покупця, щоб не дотримуватися обмежень в первинній угоді.\nC) Ні, суд заборонить вводження рішення про заборгованість, оскільки обмежувальна умова все ще піддається дії та забороняється загалом публічною політикою проти рішень про заборгованість.\nD) Ні, рішення не буде виконано, оскільки рішення про заборгованість визнано неконституційними Верховним Судом Сполучених Штатів.\nAnswer in English.",
+        "generated_answer": "A) Так, суд виконає рішення, оскільки обмеження в первинній угоді є піддаючим дії та залежить від порушення умов іпотеки.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"C\". The generated answer is \"A) ...\" which is a different option. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "Згідно з Гоббсом, у ситуації, коли становище людини є станом війни всіх проти всіх, кожен чоловік має право на _____.\nA) декілька речей\nB) законну поведінку\nC) належний процес\nD) все\nAnswer in English.",
+        "generated_answer": "A) декілька речей",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: According to Hobbes, in situation of war of all against all, each man has right to _____. Options: A) several things, B) lawful behavior, C) due process, D) everything. Correct is D (everything). Generated answer: \"A) декілька речей\" which is \"several things\". That does not match D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10025,
+        "question": "Яке з наступних не містить кисню?\nA) Альдегід\nB) Алкан\nC) Алкоголь\nD) Ефір\nAnswer in English.",
+        "generated_answer": "D) Ефір",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Which of the following does not contain oxygen?\" Options: A) Aldehyde, B) Alkane, C) Alcohol, D) Ether. Correct answer is B (alkane) because alkanes are hydrocarbons with only C and H, no oxygen. Generated answer says D) Ether. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8086,
+        "question": "Для якої з цих двох ситуацій головний герой (який використовує Я/мені/моє) вчинив явно морально неправильно відповідно до звичайних моральних стандартів у США на 2020 рік? Сценарій 1 | Я помив машину і отримав зарплату. Сценарій 2 | Під час знесення будинку я вдарив у стіну, дивлячись на нього.\nA) Неправильно, неправильно\nB) Неправильно, не неправильно\nC) Не неправильно, неправильно\nD) Не неправильно, не неправильно\nAnswer in English.",
+        "generated_answer": "A) Неправильно, неправильно",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which scenario is morally wrong? Options: A) both wrong, B) first wrong second not, C) first not second wrong, D) both not wrong. The ground truth answer is D (both not wrong). Generated answer is \"A) Неправильно, неправильно\" i.e., both wrong. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5458,
+        "question": "Який час знадобиться автомобілю, рухаючись відносно спокою та рівномірно прискорюючись прямолінійним рухом з прискоренням 5м/с^2, щоб подолати відстань 200 м?\nA) 9.0 с\nB) 10,5 с\nC) 12.0 с\nD) 15,5 с\nAnswer in English.",
+        "generated_answer": "A) 9.0 с",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"What time will be needed for a car moving relative to rest and uniformly accelerating with acceleration 5 m/s^2 to cover distance 200 m? Options...\". Ground truth answer: \"A\". Means option A (9.0 s). Generated answer: \"A) 9.0 с\". That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3996,
+        "question": "Упередження або необґрунтована погляду проти людей похилого віку називається\nA) віковим шовінізмом\nB) віковою дискримінацією\nC) віковим лицемірством\nD) старечністю\nAnswer in English.",
+        "generated_answer": "A) віковим шовінізмом",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Упередження або необґрунтована погляду проти людей похилого віку називається\" which means \"Prejudice or unfounded view against elderly is called\". Options: A) age chauvinism, B) age discrimination, C) age hypocrisy, D) old age. The correct answer is likely \"age discrimination\" (віковою дискримінацією). But ground truth says \"A\". So ground truth says answer is A) віковим шовінізмом. Generated answer: \"A) віковим шовінізмом\". That matches exactly. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11964,
+        "question": "На якого анімованого персонажа закохана Маленька Руда Дівчинка?\nA) Річі Рич\nB) Чарлі Браун\nC) Багз Банні\nD) Джонні Квест\nAnswer in English.",
+        "generated_answer": "D) Джонні Квест",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"На якого анімованого персонажа закохана Маленька Руда Дівчинка?\" Means \"Which animated character is Little Red Girl in love with?\" Options A-D. Ground truth answer is B. That corresponds to \"Чарлі Браун\". Generated answer is D) Джонні Квест. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5328,
+        "question": "Корпорація з житлового будівництва мала власні земельні ділянки та підготувала план розвитку, щоб розділити землю на 100 ділянок і створити житлову спільноту на земельній ділянці. Декларація ковенантів створила спільноту асоціацію, як адміністративний орган, до якого власники ділянок житлової спільноти будуть сплачувати внески, а також якій підпорядковуватимуться та яка забезпечуватиме виконання правил і обмежень, зазначених у ковенантах. Одне з обмежень, викладених у Декларації ковенантів, передбачає, що ділянки можна використовувати лише для одноповерхового проживання, і що в будь-якій будівлі на ділянці не можна проводити жодної торгівлі, комерційної діяльності або бізнесу. У Декларації ковенантів спільнота асоціації має право надавати всі свої права, повноваження, заголовки, пільги та права нерухомості, надані їй у Декларації ковенантів. Асоціація спільноти передала «всі права, повноваження, заголовки, елементи та права нерухомості, надані чи наділені їй Декларацією ковенантів» муніципальній корпорації, місту. Після цього асоціацію спільноти ліквідували. Шеф, власник ділянки № 18 у житловому комплексі, пропонує перетворити своє житло з одноповерхового на масажний салон. Муніципалітет подає позов проти шефа, щоб відновити грошові збитки. Який з наступних аргументів найкраще підходить для шефа?\nA) Обмеження у розпоряджанні його земельної ділянки недійсні.\nB) Муніципалітет не перебуває у правоздатному відношенні з спільнотою асоціації.\nC) Прибуток є загальним, отже, обтяження не може бути передане.\nD) Обтяження є загальним, отже, прибуток не може бути переданий.\nAnswer in English.",
+        "generated_answer": "B) Муніципалітет не перебуває у правоздатному відношенні з спільнотою асоціації.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"B\". Generated answer: \"B) Муніципалітет не перебуває у правоздатному відношенні з спільнотою асоціації.\" That is essentially the same answer: option B. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11528,
+        "question": "На слуханнях у Конгресі було зазначено, що щороку тисячі пожилі громадяни помирають через те, що вони не можуть дозволити собі належну медичну і лікарняну допомогу. На основі доказів, які були представлені на цих слуханнях, сенатор бажає внести законопроект, забезпечуючи безкоштовну медичну і лікарняну допомогу для всіх громадян віком 70 років і старше. Однак, сенатор планує включити до законопроекту положення, що забороняє такі медичні і лікарняні переваги іноземцям (в тій же віковій категорії), якщо вони не були законно прийняті для постійного проживання в США. Сенатор звернувся до вас для отримання порад щодо його запропонованого законопроекту. Розуміючи важливість правопорядку, вам хотілося б переконатися у законності цього положення щодо іноземців. Який з наступних аргументів є найбільш переконливим щодо конституційності положення, яке виключає іноземців з отримання медичної та лікарняної допомоги?\nA) Оскільки медичні та лікарняні послуги будуть оплачені урядом, то вони є привілеєм, а не правом, і, отже, не потрапляють під визначення П'ятої поправки.\nB) Положення, що виключає, не завдає надмірного тягаря ні міжштатній торгівлі, ні праву іноземців на вільний пересування зі штату в штат.\nC) Принципи рівної охорони застосовуються проти держав, а не проти федерального уряду.\nD) Положення, що виключає, є реально пов'язаним з законними конгресовими цілями на основі імміграційних, громадянських і фінансових прав.\nAnswer in English.",
+        "generated_answer": "D) Положення, що виключає, є реально пов'язаним з законними конгресовими цілями на основі імміграційних, громадянських і фінансових прав.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"D\". Generated answer is \"D) Положення, що виключає, є реально пов'язаним з законними конгресовими цілями на основі імміграційних, громадянських і фінансових прав.\" That corresponds to option D, same as ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1031,
+        "question": "За Фейнбергом, хороша моральна освіта:\nA) не використовує задоволення або біль як санкції.\nB) буде ґрунтуватися виключно на використанні задоволення та болю як санкцій.\nC) призведе до того, що людина робитиме правильні речі через підлеглість авторитету.\nD) призведе до того, що людина робитиме правильні речі просто тому, що це є правильним.\nAnswer in English.",
+        "generated_answer": "Для Фейнберга моральна освіта:\nA) не використовує задоволення або біль як санкції.\nB) буде ґрунтуватися виключно на використанні задоволення та болю як санкцій.\nC) призведе до того, що людина робитиме правильні речі через підлеглість авторитету.\nD) призведе до того, що людина робитиме правильні речі просто тому, що це є правильним.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer repeats the options list, not selecting any. It does not indicate which option is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3130,
+        "question": "Випадкова змінна X нормально розподілена з середнім значенням 25 та стандартним відхиленням 4. Який з наступних варіантів є приблизним міжквартильним діапазоном для цього розподілу?\nA) 25,00 – 22,30 = 2,70\nB) 27,70 – 22,30 = 5,40\nC) 27,70 ÷ 22,30 = 1,24\nD) 2,00(4,00) = 8,00\nAnswer in English.",
+        "generated_answer": "The approximate interquartile range for this distribution is:\n\nA) 25,00 – 22,30 = 2,70\nB) 27,70 – 22,30 = 5,40\nC) 27,70 ÷ 22,30 = 1,24\nD) 2,00(4,00) = 8,00\n\nThe interquartile range (IQR) is the range between the first quartile (Q1) and the third quartile (Q3). Q1 is the median of the lower half of the data, and Q3 is the median of the upper half of the data.\n\nFor this distribution, Q1 is the median of the lower half of the data (25) and Q3 is the median of the upper half of the data (22).\n\nThe IQR is calculated as:\n\nIQR = Q3 - Q1 = 22 - 25 = -1\n\nSince the IQR is negative, the interquartile range is negative as well. Therefore, the approximate interquartile range for this distribution is 2,70.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". The generated answer lists all options and then says IQR is negative and then says approximate IQR is 2,70. That does not match \"B\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9298,
+        "question": "Основною метою реалістичного огляду робіт є:\nA) збільшити число заявників на роботу.\nB) розробити точний опис роботи.\nC) зменшити конфлікти на робочому місці між керівниками та працівниками.\nD) зменшити незадоволеність працівників та звільнення.\nAnswer in English.",
+        "generated_answer": "A) збільшити число заявників на роботу.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Основною метою реалістичного огляду робіт є:\" Options A-D. Ground truth answer is D. Generated answer is \"A) збільшити число заявників на роботу.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3632,
+        "question": "Альберт Бандура та соціально-когнітивні теоретики особистості вірять, що особистість формується в результаті взаємодії наступних факторів:\nA) генетика, підсвідоме та соціальне\nB) ід, его і супер-его\nC) нагороди, покарання та посилення\nD) риси, оточення та поведінка\nAnswer in English.",
+        "generated_answer": "A) генетика, підсвідоме та соціальне\nB) ід, его і супер-его\nC) нагороди, покарання та посилення\nD) риси, оточення та поведінка",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D). That is not equivalent; it's not just D. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3909,
+        "question": "Чому пацієнт не може говорити, якщо манжета в надутому стані?\nA) Вони не можуть достатньо вдихнути.\nB) Вони не можуть правильно ковтати.\nC) Це занадто втомлююче.\nD) Вони не можуть пропускати повітря через свої голосові зв'язки.\nAnswer in English.",
+        "generated_answer": "A) Вони не можуть достатньо вдихнути.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Чому пацієнт не може говорити, якщо манжета в надутому стані?\" Options A-D. Ground truth answer is D. Generated answer is \"A) Вони не можуть достатньо вдихнути.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2334,
+        "question": "Який добуток 32 x 67?\nA) 1,824\nB) 1,934\nC) 2,044\nD) 2,144\nAnswer in English.",
+        "generated_answer": "B) 1,934",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Який добуток 32 x 67?\" Means \"What is the product of 32 x 67?\" Options given. Compute 32*67 = 2144? Let's calculate: 30*67=2010, 2*67=134, sum=2144. So correct answer is D) 2,144. Ground truth says D (presumably D). Generated answer says B) 1,934, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8896,
+        "question": "Розвиток ___________ привів до того, що маркетинг еволюціонував від ієрархічної односторонньої моделі масової комунікації до більш участьницьких технологій (наприклад, соціальних мереж та онлайн-спільнот).\nA) Веб-сайт.\nB) Соціальні медіа.\nC) Веб 1.0.\nD) Веб-платформа.\nAnswer in English.",
+        "generated_answer": "B) Social media.\nC) Web 1.0.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: fill blank: \"Розвиток ___________ привів до того, що маркетинг еволюціонував...\" The correct answer is B) Social media. Ground truth: B. Generated answer: \"B) Social media. C) Web 1.0.\" It includes extra answer C, which is not correct. The generated answer is not equivalent; it's not just B. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7339,
+        "question": "Які з наведених не є бобовими?\nA) боби\nB) горох\nC) редис\nD) арахіс\nAnswer in English.",
+        "generated_answer": "A) боби\nB) горох\nC) редис\nD) арахіс",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following are not legumes?\" Options: A) beans, B) peas, C) radish, D) peanuts. The correct answer is C (radish). Ground truth: \"C\". Generated answer repeats all options: \"A) боби B) горох C) редис D) арахіс\". That is not equivalent; it's just listing options, not indicating which is not a legume. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1494,
+        "question": "Правління державного університету прийняло наступне правило щодо вимог до місця проживання: \"Студент буде вважатися законним резидентом держави з метою реєстрації в університеті, якщо така особа має понад 21 рік та встановила законне місце проживання в державі не менше одного року перед останнім днем реєстрації за кредит. \"Студент переїхав до держави і тут же зареєструвався у державному університеті. Оскільки він не відповів вимогам університету щодо місця проживання, то йому довелося сплачувати 1800 доларів за кожен семестр, що на 400 доларів більше, ніж плата за навчання резидентів держави. Під час судового розгляду скарги студента на конституційність положення, що визначає місце проживання з метою встановлення різниці в оплаті для студентів з інших штатів, ймовірно, суд визначить, що положення\nA) неконституційне, оскільки порушує клозу про рівний захист у розділі чотирнадцятому поправки до Конституції.\nB) неконституційне, оскільки порушує клозу про привілеї та імунітети статті IV, розділу 2.\nC) конституційне, оскільки диференціація плати сприяє важливому державному інтересу.\nD) конституційне, оскільки положення не викликає суворої перевірки.\nAnswer in English.",
+        "generated_answer": "A) неконституційне, оскільки порушує клозу про рівний захист у розділі чотирнадцятому поправки до Конституції.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer is \"A) неконституційне, оскільки порушує клозу про рівний захист у розділі чотирнадцятому поправки до Конституції.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1318,
+        "question": "Чому ми не можемо бачити корону Сонця, окрім під час повних сонячних затемнень?\nA) Корона складається переважно з заряджених частинок, які не світяться.\nB) Вона надто прохолодна, щоб виділяти видиме світло.\nC) Ми не можемо бачити магнітні поля.\nD) Вона занадто дифузна\nAnswer in English.",
+        "generated_answer": "A) Корона складається переважно з заряджених частинок, які не світяться.\nB) Вона надто прохолодна, щоб виділяти видиме світло.\nC) Ми не можемо бачити магнітні поля.\nD) Вона занадто дифузна",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D). That's not equivalent; it's not just D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5243,
+        "question": "Великий брат і маленька сестра можуть балансувати на балансирі через рівновагу.\nA) сили\nB) моменти сил\nC) енергії\nD) Все вищезазначене\nAnswer in English.",
+        "generated_answer": "A) сили",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Великий брат і маленька сестра можуть балансувати на балансирі через рівновагу.\" Means \"The big brother and little sister can balance on a balance beam due to equilibrium.\" Options: A) forces, B) moments of forces, C) energies, D) all of the above. The correct answer is B (moments of forces). Generated answer: \"A) сили\" i.e., forces. That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8322,
+        "question": "Яке з наступних тверджень не є причиною використання тетраметилсилану як точки ​​відліку хімічного зсуву 1H.\nA) Його 1Н спектр є синглетом.\nB) Його протони досить сильно екранировані.\nC) Він розчиняється в більшості органічних розчинників.\nD) Більшість органічних сполук не містять атомів кремнію.\nAnswer in English.",
+        "generated_answer": "A) Його 1Н спектр є синглетом.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which statement is NOT a reason for using tetramethylsilane as reference point for 1H chemical shift. Options A-D. Ground truth says D is correct. Generated answer says \"A) Його 1Н спектр є синглетом.\" i.e., option A. That's not same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8016,
+        "question": "Які найвищі дерева на Землі?\nA) Береза червона\nB) Пихта Дугласа\nC) Велетенський секвойя\nD) Сосна сітчаста\nAnswer in English.",
+        "generated_answer": "Найвищі дерева на Землі:\nA) Береза червона\nB) Пихта Дугласа\nC) Велетенський секвойя\nD) Сосна сітчаста",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Which are the tallest trees on Earth?\" Options given. Ground truth answer: \"A\". That means the correct answer is option A: Береза червона (Red birch). The generated answer lists all options, not selecting one. It says \"Найвищі дерева на Землі:\" then lists all four options. That does not convey that the correct answer is A. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1786,
+        "question": "У якому з наступних варіантів правильно відображені інтермолекулярні притягувальні сили від найсильнішої до найслабшої?\nA) Індукований диполь < диполь-диполь < воднева зв'язок\nB) Воднева зв'язок < диполь-диполь < індукований диполь\nC) Індукований диполь < воднева зв'язок < диполь-диполь\nD) Диполь-диполь < воднева зв'язок < індукований диполь\nAnswer in English.",
+        "generated_answer": "The correct answer is:\nA) Induced dipole < dipole-dipole < hydrogen bond\nB) Hydrogen bond < dipole-dipole < induced dipole\nC) Dipole-dipole < hydrogen bond < induced dipole\nD) Dipole-dipole < hydrogen bond < induced dipole",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"У якому з наступних варіантів правильно відображені інтермолекулярні притягувальні сили від найсильнішої до найслабшої?\" Means: Which option correctly lists intermolecular attractive forces from strongest to weakest? Options A-D given. The ground truth answer is B. So correct option is B: \"Воднева зв'язок < диполь-диполь < індукований диполь\"? Wait need to check: The options list order from strongest to weakest. Option B says \"Воднева зв'язок < диполь-диполь < індукований диполь\". But the arrow \"<\" maybe indicates less than? Usually they'd list from strongest to weakest, so strongest first. If they use \"<\" maybe they mean \"stronger < weaker\"? Actually ambiguous. But ground truth says B.\n\nNow generated answer: It lists all four options with some ordering, but seems to be just restating the options, not selecting one. It says:\n\n\"The correct answer is:\nA) Induced dipole < dipole-dipole < hydrogen bond\nB) Hydrogen bond < dipole-dipole < induced dipole\nC) Dipole-dipole < hydrogen bond < induced dipole\nD) Dipole-dipole < hydrogen bond < induced dipole\"\n\nThis is not selecting B; it lists all options, and also repeats C and D same. It does not state which is correct. The ground truth is B. The generated answer does not convey that B is correct; it just repeats options. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4938,
+        "question": "SO2Cl2 → SO2(g) + Cl2(g) При 600 К SO2Cl2 розкладається на діоксид сульфуру та хлор за допомогою зазначеної рівняння. Якщо реакцію виявлено першого порядку, то яка з наступних дій призведе до збільшення часу напіврозкладу SO2Cl2?\nA) Збільшення початкової концентрації SO2Cl2\nB) Збільшення температури, при якій відбувається реакція\nC) Зниження загального тиску в контейнері\nD) Жодна з них не збільшить напіврозклад\nAnswer in English.",
+        "generated_answer": "A) Збільшення початкової концентрації SO2Cl2\nB) Збільшення температури, при якій відбувається реакція\nC) Зниження загального тиску в контейнері\nD) Жодна з них не збільшить напіврозклад",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A, B, C, D, i.e., repeats the multiple choice options, not selecting one. It does not indicate which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9031,
+        "question": "\" _Ad novitatem_ \" - це\nA) аргументування тим, що те, що є істинним для декількох членів класу, є істинним для всіх членів класу.\nB) доходження висновку, застосовуючи невідповідні критерії до предмета\nC) заміна індивідуальних історій більшим зразком як доказом твердження\nD) аргументування тим, що щось повинно бути хорошим, оскільки воно нове, або має бути поганим, оскільки воно старе.\nAnswer in English.",
+        "generated_answer": "\" _Ad novitatem_ \" - це A) аргументування тим, що те, що є істинним для декількох членів класу, є істинним для всіх членів класу.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"Ad novitatem\" is which? The correct answer is D. Generated answer says it's A. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4769,
+        "question": "Футбольний м'яч, що знаходиться на землі, відштовхується з початковою швидкістю 10 м/с під кутом 30 градусів до горизонту. Обрахуйте загальний час польоту, припускаючи, що опір повітря знехтується.\nA) 0,5 с\nB) 1 с\nC) 2 с\nD) 4 с\nAnswer in English.",
+        "generated_answer": "B) 1 с",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: compute total flight time, options A-D. Ground truth answer: B. Generated answer: \"B) 1 с\". That matches option B. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11576,
+        "question": "Припустимо, що вам надали EM-алгоритм, який знаходить оцінки максимальної правдоподібності для моделі з латентними змінними. Вас просять змінити алгоритм таким чином, щоб він знаходив оцінки MAP замість цього. Який крок або кроки потрібно змінити?\nA) Очікування\nB) Максимізація\nC) Зміна не потрібна\nD) Обидва\nAnswer in English.",
+        "generated_answer": "A) Очікування",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which step(s) need to be changed to get MAP instead of MLE? The correct answer is B (Maximization). Generated answer: \"A) Очікування\" (Expectation). That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2044,
+        "question": "Абрахам Маслоу запропонував ідею, що деякі мотиви більш важливі для виживання, ніж інші. Який з наступних підходів це виражає?\nA) Регулювання гомеостазу\nB) Встановлення цілей\nC) Очікувано-ціннісний\nD) Ієрархія потреб\nAnswer in English.",
+        "generated_answer": "A) Регулювання гомеостазу",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which approach expresses Maslow's idea? Correct answer D (Hierarchy of needs). Generated answer: \"A) Регулювання гомеостазу\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8969,
+        "question": "Для Платона звичайні чуттєві об'єкти існують і їх можна пізнати як приклади або екземпляри Ідей або \"Форм\", які не існують у нашому звичайному чуттєвому світі. Форми не існують у чуттєвому світі, так як:\nA) в звичайному світі можуть бути відомі тільки математичні об'єкти (наприклад, трикутники), за допомогою гіпотез, які можуть бути згадані, коли ми отримуємо правильний вид запитань.\nB) на відміну від усього в чуттєвому світі, Форми не є окремими речами, а універсальні сутності або природи, за допомогою яких конкретні речі є тим, чим вони є, та відомі.\nC) ніщо в чуттєвому, досвідченому світі не могло б існувати або бути ідентифіковане як одна з різних речей, якщо б не існувала \"Світ Chуттєвих Форм\" (наприклад, Форма краси або правосуддя).\nD) чуттєвий світ складається зі змінних Форм, які існують і їх можна пізнати у термінах інших змінних Форм, які, з свого боку, існують і пізнаються у термінах інших в незкінченному регресі.\nAnswer in English.",
+        "generated_answer": "For Plato, ordinary sensory objects exist and can be known as examples or instances of Ideas or \"Forms\" that do not exist in our ordinary sensory world. Forms do not exist in the sensory world, as:\nA) in the ordinary world, only mathematical objects can be known (e.g., triangles), using hypotheses that can be mentioned when we get the right kind of questions.\nB) unlike everything in the sensory world, Forms are universal essences or natures by which particular things are what they are and are known.\nC) nothing in the sensory world could exist or be identified as one of the different things if there were no \"World of Forms\" (e.g., the Form of beauty or justice).\nD) the sensory world consists of changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Forms that exist and can be known in terms of other changing Form",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"B\". The question asks: \"Forms do not exist in the sensory world, as:\" and options A-D. The correct answer is B. The generated answer is a long paragraph restating all options A-D, not selecting one. It does not indicate that B is the correct answer. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5451,
+        "question": "Різні компоненти пам'яті повинні розглядатися як\nA) Дуже незалежні\nB) Працюючи один за раз\nC) Працюючи як система\nD) Чергуючись\nAnswer in English.",
+        "generated_answer": "D) Чергуючись",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Різні компоненти пам'яті повинні розглядатися як\" (Ukrainian) options: A) Very independent, B) Working one at a time, C) Working as a system, D) Alternating. The ground truth answer is C (Working as a system). Generated answer is D) Чергуючись (alternating). That is not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8852,
+        "question": "Який з наступних економічних ресурсів не є дефіцитним?\nA) Труд\nB) Капітал\nC) Людські потреби\nD) Земля\nAnswer in English.",
+        "generated_answer": "C) Людські потреби",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following economic resources is not scarce?\" Options A) Labor, B) Capital, C) Human needs, D) Land. The correct answer is C) Human needs (they are unlimited? Actually human needs are unlimited, not scarce). Ground truth answer: \"C\". Generated answer: \"C) Людські потреби\". That matches. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3329,
+        "question": "Популярний співак висловив зацікавленість в виконанні музичної продукції театрального продюсера. Продюсер і співак домовилися, що між ними не буде жодних зобов'язань, що можуть бути здійснені до укладання остаточного підписаного контракту. Потім вони почали переговори щодо умов контракту. Під час переговорів продюсер почав витрачати гроші на виробництво. Коли сторони не могли домовитись про умови остаточного контракту, продюсер зробив розумні, але неуспішні спроби найняти іншого співака, перш ніж покинути виробництво. Якщо продюсер подасть на співака позов, то що йому вдасться отримати?\nA) Компенсація за очікувані збитки у вигляді прибутку, який могла б отримати продукція, якби її відбулася.\nB) Індемнізація у вигляді реальних витрат, зроблених продюсером під час переговорів із співаком.\nC) Стягнення шкоди за будь-які збитки, заподіяні репутації продюсера, коли виробництво було припинено.\nD) Нічого, оскільки було нерозумним очікувати відшкодування витрат, зроблених продюсером, коли він знав, що співак не зобов'язаний до підписання остаточної угоди.\nAnswer in English.",
+        "generated_answer": "A) Компенсація за очікувані збитки у вигляді прибутку, який могла б отримати продукція, якби її відбулася.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: If producer sues singer, what will he obtain? Options A-D. Ground truth answer is D. Generated answer is \"A) ...\" i.e., option A. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9882,
+        "question": "Функціоналісти, такі як Вільям Джеймс, більше за все цікавилися\nA) ціллю поведінкових дій\nB) визначенням найменшої одиниці поведінки\nC) базовими елементами свідомості\nD) навчанням внутрішнього спостереження\nAnswer in English.",
+        "generated_answer": "A) ціллю поведінкових дій",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. Question: Ukrainian: \"Functionalists, such as William James, were most interested in ...\" Options. The ground truth answer is \"A\". The generated answer: \"A) ціллю поведінкових дій\". That is option A, same. So they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8965,
+        "question": "Чоловік подав скаргу на компанію автобусного перевезення в федеральний суд з метою отримання компенсації за травми, які він отримав унаслідок аварії під час поїздки автобусом, що належить компанії. Чоловік вимагав судового засідання з присяжними. Після проведення обстеження можливих присяжних та обговорення їх викликань, було відібрано шість присяжних та два запасних присяжних. Під час судового процесу двоє присяжних захворіли і їх замінили запасні присяжні. В кінці процесу третій присяжний також захворів і суд виключив його з процесу. Адвокати сторін домовилися поверненню вердикту від п'ятичленного присяжного складу. Присяжні обговорили його та повернули вердикт на користь компанії. Чоловік вчасно подав заявку на проведення нового судового процесу, стверджуючи, що п'ятичлений присяжний склад недостатньо великий для повернення вердикту. Чи має суд задовольнити заявку?\nA) Ні, оскільки суд належним чином виключив трьох присяжних через їх захворювання.\nB) Ні, оскільки сторони домовилися щодо вердикту від складу присяжних менше за шість осіб.\nC) Так, оскільки у федеральному суді повинно бути не менше шести присяжних у цивільному процесі.\nD) Так, оскільки у федеральному суді повинно бути не менше дванадцяти присяжних у цивільному процесі.\nAnswer in English.",
+        "generated_answer": "A) Ні, оскільки суд належним чином виключив трьох присяжних через їх захворювання.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks which answer is correct (multiple choice). Ground truth answer is \"B\". Generated answer is \"A) ...\". They are not the same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9627,
+        "question": "Згідно з Ціцероном, корисно бути:\nA) справедливим.\nB) щедрим.\nC) добрим.\nD) всім вищезгаданим.\nAnswer in English.",
+        "generated_answer": "A) справедливим.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"According to Cicero, it is useful to be: A) just. B) generous. C) good. D) all of the above.\" Ground truth answer is D (all of the above). Generated answer is \"A) справедливим.\" which is just option A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4712,
+        "question": "Для якої з цих двох ситуацій головний герой (який використовує Я / мені / мій) вчиняє щось чітко морально неправильне згідно зі стандартами моралі в США на 2020 рік? Сценарій 1 | На листівці до дня народження моєї мами я написав, що вона виглядає так молодо. Сценарій 2 | Я отримав хорошу оцінку на тесті тому, що побачив аркуш з відповідями.\nA) Неправильно, Неправильно\nB) Неправильно, Не неправильно\nC) Не неправильно, Неправильно\nD) Не неправильно, Не неправильно\nAnswer in English.",
+        "generated_answer": "A) Неправильно, Неправильно",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which scenario is morally wrong? Scenario1: writing on birthday card that mother looks young – that's not morally wrong. Scenario2: cheating on test – morally wrong. So answer should be \"Not wrong, Wrong\" which corresponds to option C: \"Не неправильно, Неправильно\". Ground truth is C. Generated answer: \"A) Неправильно, Неправильно\". That's \"Wrong, Wrong\". That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7290,
+        "question": "Для створення тапісерії традиційно необхідно займатися якою діяльністю?\nA) Ткацтво\nB) Скульптура\nC) Пекарство\nD) Спів\nAnswer in English.",
+        "generated_answer": "D) Спів",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"Для створення тапісерії традиційно необхідно займатися якою діяльністю?\" Means: \"For creating tapestry traditionally, one must engage in which activity?\" Options: A) Weaving, B) Sculpture, C) Baking, D) Singing. Correct answer is A) Weaving. Ground truth is \"A\". Generated answer is \"D) Спів\" which is singing. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1501,
+        "question": "Загальна користь від сардин максимізується, коли їх купують до того моменту, поки\nA) маргінальна користь дорівнює нулю\nB) маргінальна користь дорівнює маргінальній вартості\nC) споживчий надлишок дорівнює нулю\nD) дистрибутивна ефективність досягнута\nAnswer in English.",
+        "generated_answer": "A) маргінальна користь дорівнює нулю",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Загальна користь від сардин максимізується, коли їх купують до того моменту, поки ...\" Options. The correct answer is A) marginal utility equals zero. Ground truth answer: \"A\". Generated answer: \"A) маргінальна користь дорівнює нулю\". That's the same as option A. So they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9769,
+        "question": "Твердження 1 | 4x - 2 нерозкладний над Z. Твердження 2 | 4x - 2 нерозкладний над Q.\nA) Правда, Правда\nB) Хибно, Хибно\nC) Правда, Хибно\nD) Хибно, Правда\nAnswer in English.",
+        "generated_answer": "C) Правда, Хибно",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer \"C) Правда, Хибно\" with ground truth \"D\". The question: statements about irreducibility over Z and Q. The correct answer is D (presumably \"Хибно, Правда\"). The generated answer is C, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6306,
+        "question": "Спортсмен сподівався підписати контракт з професійною бейсбольною командою для виступу у бейсболі. Він постійно змагався і уклав угоду на прослуховування на тренувальних майданчиках бейсбольної команди в сусідньому штаті. З приводу нестачі коштів та необхідності добратися до тренувальних майданчиків, спортсмен звернувся до свого друга та сказав: \"Якщо ви підвезете мене до тренувальних майданчиків команди і забезпечите проживання та харчування протягом нашого перебування, то я передам вам 10% моїх доходів першого року виступів.\" Друг погодився і підвіз спортсмена до тренувальних майданчиків. Після прослуховування бейсбольна команда запропонувала спортсмену контракт на виступи у бейсболі у команді за $ 100 000 на рік. Коли друг запитав, коли він отримав свої 10%, спортсмен відповів, що $10 000 - це набагато більше, ніж заслуговує друг, і що він заплатить другу $ 1 000 за його зусилля. Друг подав на спортсмена позов про зміцнення передачі прав. Якщо суд визнає передачу недійсною, то найбільш застосовним правовим принципом буде\nA) фактична передача права очікуваного виникнення по контракту, якого ще не існує, дійсна тільки як обіцянка передачі права за настання умов та як можливість змушення виконати таке зобов'язання.\nB) контракт на майбутню передачу права не є виконуваним.\nC) друг не заподіяв шкоди на підставі передачі прав до спроби відкликання передачі права спортсменом.\nD) безоплатна передача права є змінною, а право забезпечення закінчується з звільненням від зобов'язань передачі від передавача.\nAnswer in English.",
+        "generated_answer": "A) фактична передача права очікуваного виникнення по контракту, якого ще не існує, дійсна тільки як обіцянка передачі права за настання умов та як можливість змушення виконати таке зобов'язання.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is simply \"A\". The generated answer is a long Ukrainian text: \"A) фактична передача права очікуваного виникнення по контракту, якого ще не існує, дійсна тільки як обіцянка передачі права за настання умов та як можливість змушення виконати таке зобов'язання.\"\n\nThat corresponds to option A description. The ground truth says answer is A. The generated answer includes \"A) ...\" which matches option A. So meaning is same: selects A. Therefore equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5194,
+        "question": "Мікроскопічна брудна речовина у воді зазвичай робить воду\nA) більш щільною\nB) менш щільною\nC) класнішою\nD) теплішою\nAnswer in English.",
+        "generated_answer": "C) класнішою",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Ukrainian: \"Мікроскопічна брудна речовина у воді зазвичай робить воду\" which translates: \"Microscopic dirty substance in water usually makes water ...\" Options: A) more dense, B) less dense, C) classier, D) warmer. The correct answer is A (more dense). Generated answer: \"C) класнішою\" which is option C, not A. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9431,
+        "question": "Яке з наступних тверджень щодо функції розподілу χ2 НЕ є правдою?\nA) Площа під кривою χ2 дорівнює 1.\nB) χ2 визначено лише для невід'ємних значень змінної.\nC) Для малих ступенів свободи крива має високу правосторонню асиметрію.\nD) За тієї ж значущості (α), зі збільшенням ступенів свободи критичне значення для зони відхилення зменшується.\nAnswer in English.",
+        "generated_answer": "A) Площа під кривою χ2 дорівнює 1.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Which statement about chi-square distribution is NOT true? Options A, B, C, D. Ground truth answer: D. Generated answer: \"A) Площа під кривою χ2 дорівнює 1.\" That says option A is not true. That's not same as D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3966,
+        "question": "Виберіть найкращий англійський переклад даного аргументу в предикативній логіці.\nWn ∨ Wm\n(∀x)[Lx ⊃ (Dx ⊃ ~Wx)]\nLn • Dn\t/ ~(∀x)~Wx\nA) Або Ненсі, або Марвін на роботі. Усі адвокати не на роботі, якщо вони обідають. Ненсі - адвокат і обідає. Тож не все не на роботі.\nB) Або Ненсі, або Марвін на роботі. Усі адвокати обідають, якщо вони не на роботі. Ненсі - адвокат і обідає. Тож не все не на роботі.\nC) Або Ненсі, або Марвін на роботі. Усі адвокати обідають, якщо вони не на роботі. Ненсі - адвокат і обідає. Тож не все на роботі.\nD) Або Ненсі, або Марвін на роботі. Усі адвокати не на роботі, якщо вони обідають. Ненсі - адвокат і обідає. Тож не все на роботі.\nAnswer in English.",
+        "generated_answer": "A) A or Nancy, or Marvin is at work. All lawyers are not at work if they have lunch. Nancy is a lawyer and has lunch. So not all are at work.\nB) A or Nancy, or Marvin is at work. All lawyers are not at work if they have no lunch. Nancy is a lawyer and has lunch. So not all are at work.\nC) A or Nancy, or Marvin is at work. All lawyers are not at work if they have no lunch. Nancy is a lawyer and has lunch. So not all are at work.\nD) A or Nancy, or Marvin is at work. All lawyers are not at work if they have no lunch. Nancy is a lawyer and has lunch. So not all are at work.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is just \"A\". The generated answer lists four options with descriptions, not just \"A\". It does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4756,
+        "question": "У світлі денного світла предмети, які відображають всі довжини хвиль світла, здаються\nA) чорними\nB) білими\nC) матовими\nD) ультрафіолетовими\nAnswer in English.",
+        "generated_answer": "A) чорними",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: In daylight, objects that reflect all wavelengths appear what? Correct answer is white (B). Ground truth is \"B\". Generated answer: \"A) чорними\" which means \"black\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3012,
+        "question": "Лактат та іони водню покидають м'яз:\nA) через ко-транспортний механізм з карносином.\nB) через активний транспортний механізм.\nC) через молекулу білкового транспортера.\nD) шляхом простої дифузії.\nAnswer in English.",
+        "generated_answer": "A) через ко-транспортний механізм з карносином.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"Лактат та іони водню покидають м'яз:\" options A-D. Ground truth answer is \"C\". That means correct answer is option C: \"через молекулу білкового транспортера.\" The generated answer is \"A) через ко-транспортний механізм з карносином.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

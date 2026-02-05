@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?\nAnswer in English.",
+        "generated_answer": "Here's how to solve this problem:\n\n**1. Calculate the total amount to be repaid:**\n\n* Janeth borrowed $2000 and promised to repay 10% more, so she needs to repay $2000 + (10% of $2000) = $2000 + $200 = $2200.\n\n**2. Calculate the total amount paid over 12 months:**\n\n* Janeth pays $165 per month for 12 months, so she will pay a total of $165 * 12 = $1980.\n\n**3. Calculate the remaining balance:**\n\n* Subtract the total amount paid from the total amount to be repaid: $2200 - $1980 = $220.\n\n\n**Answer:** Janeth's remaining balance will be $220.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\nInitially, there are 30 cars on the highway.\n\nIn the first 15 minutes, some cars pass through the traffic jam. Let's call the number of cars that pass through in the first 15 minutes \"x\".\n\nIn the remaining 15 minutes, another 20 cars pass through the traffic jam.\n\nHowever, 5 cars leave the line, so they don't have to pass through the traffic jam.\n\nWe know that the total number of cars that pass through the traffic jam is 30 - 5 = 25.\n\nWe can set up an equation to represent the situation:\n\nx + 20 = 25\n\nSolving for x, we get:\n\nx = 5\n\nSo, 5 cars pass through the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violetta will neue Farbstifte kaufen. Sie braucht sie in 5 verschiedenen Farben und sie legte 20 $ für diesen Kauf bereit. Ein Farbstift kostet 2 $. Wie viel Wechselgeld wird sie bekommen?\nAnswer in English.",
+        "generated_answer": "Violetta will buy new crayons. She needs them in 5 different colors and she set aside $20 for this purchase. One crayon costs $2. How much change will she get?",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 227,
+        "question": "Chad bestellte Mach-deinen-eigenen-Burrito zum Mittagessen. Der einfache Burrito kostet 6,50 $. Er fügt extra Fleisch für 2,00 $, extra Käse für 1,00 $, Avocado für 1,00 $ und 2 Saucen für jeweils 0,25 $ hinzu. Er beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen. Er hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Wie viel schuldet er noch?\nAnswer in English.",
+        "generated_answer": "Here's how to calculate how much Chad still owes:\n\n* **Starting price:** $6.50\n* **Extra add-ons:**\n    * Meat: $2.00\n    * Cheese: $1.00\n    * Avocado: $1.00\n    * Sauces: $0.50 (2 x $0.25)\n* **Total cost with add-ons:** $6.50 + $2.00 + $1.00 + $1.00 + $0.50 = $11.50\n* **Price with upgrade:** $11.50 + $3.00 = $14.50\n* **Credit card:** $14.50 - $5.00 = $9.50\n\nChad still owes **$9.50**.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Frankie sieht jeden Abend, nachdem er seine Hausaufgaben gemacht hat, fern. Am Montag und am Dienstag hat er jeweils eine 1-stündige Folge seiner Lieblingssendung angeschaut. Am Mittwoch hat er einige Folgen einer 30-minütigen Sendung angeschaut. Am Donnerstag hatte er seine Hausaufgaben früher erledigt und eine 1-stündige Folge und eine 30-minütige Show angeschaut. Am Freitag durfte er wegen des Wochenendes später aufbleiben und hat zwei 1-stündige Folgen angeschaut. Wenn er insgesamt 7 Stunden ferngesehen hat, hat er am Mittwoch wie viele 30 Minuten lange Folgen angeschaut?\nAnswer in English.",
+        "generated_answer": "Let's break down Frankie's TV watching for each day:\n\n* **Monday and Tuesday:** 1 hour each = 2 hours\n* **Wednesday:** 1 hour + 30 minutes = 1.5 hours\n* **Thursday:** 1 hour + 30 minutes = 1.5 hours\n* **Friday:** 2 hours\n\n**Total time:** 2 + 1.5 + 1.5 + 2 = 7 hours\n\nSince Frankie watched a total of 7 hours, and we know how much he watched on each day except Wednesday, we can figure out how much he watched on Wednesday by subtracting the known times from the total:\n\n7 hours - (2 hours + 1.5 hours + 1.5 hours + 2 hours) = 7 hours - 6.5 hours = 0.5 hours\n\nSince 0.5 hours is equal to 30 minutes, Frankie watched **30 minutes** of the 30-minute show on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "Ein neues Programm wurde 60-mal im ersten Monat heruntergeladen. Im zweiten Monat lag die Anzahl der Downloads dreimal so hoch wie die Anzahl der Downloads im ersten Monat, brach dann aber im dritten Monat um 30 % ein. Wie oft wurde das Programm insgesamt während dieser drei Monate heruntergeladen?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to calculate the number of downloads for each month and then add them up.\n\n**Month 1:**\nThe program was downloaded 60 times.\n\n**Month 2:**\nThe number of downloads was three times the number of downloads in Month 1, so:\n3 * 60 = 180 downloads\n\n**Month 3:**\nThe number of downloads dropped by 30% from Month 2:\n180 - (0.30 * 180) = 180 - 54 = 126 downloads\n\n**Total Downloads:**\nNow, we add up the downloads for all three months:\n60 + 180 + 126 = 366\n\nSo, the program was downloaded a total of **366** times during these three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Vier Schulen treten in einem Basketballturnier gegeneinander an. Jede Schule hat ein Mädchenbasketballteam und ein Jungenbasketballteam geschickt und jedes Team hat 5 Spieler. Alle Schulen haben auch einen Trainer für jedes Team mitgeschickt. Wie viele Personen haben die Schulen insgesamt geschickt?\nAnswer in English.",
+        "generated_answer": "To find the total number of people sent by the schools, we need to calculate the number of players and coaches for each team and then add them up.\n\nEach school has a girls' team and a boys' team, and each team has 5 players. So, for each school, there are 5 girls and 5 boys, making a total of 10 players per school.\n\nAdditionally, each school has a coach for each team. So, for each school, there are 2 coaches (one for the girls' team and one for the boys' team).\n\nSince there are 4 schools, we can calculate the total number of people sent by multiplying the number of players and coaches per school by 4:\n\n10 players per school * 4 schools = 40 players\n2 coaches per school * 4 schools = 8 coaches\n\nAdding the players and coaches together, we get:\n40 players + 8 coaches = 48 people\n\nTherefore, the schools have sent a total of 48 people to the basketball tournament.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle kaufte Partyzubehör für die Geburtstagsparty ihrer kleinen Schwester. Sie gab 12 $ für Kuchenzutaten, 43 $ für Geburtstagsgeschenke, 15 $ für Dekorationen, 4 $ für Einladungen und 22 $ für Tüten mit Leckereien für die Partygäste aus. Sie teilt die Kosten zu gleichen Teilen mit ihren beiden Eltern durch drei. Wie viel Dollar zahlte jede Person?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the party supplies. \n\nThe total cost is $12 (for cake ingredients) + $43 (for birthday gifts) + $15 (for decorations) + $4 (for invitations) + $22 (for treat bags) = $96.\n\nSince Isabelle is sharing the cost with her two parents, we divide the total cost by 3. \n\n$96 / 3 = $32.\n\nSo, each person, including Isabelle and her parents, paid $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa stellt 60 Saisonarbeiter ein, damit sie im Weihnachtsdorf ihres Kaufhauses die Elfen spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben, dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?\nAnswer in English.",
+        "generated_answer": "Let's break this down step by step:\n\n**Initially, Nissa hires 60 elves.**\n\n* **One-third quit:** 60 / 3 = 20 elves quit. So, 60 - 20 = 40 elves remain.\n* **10 more quit:** 40 - 10 = 30 elves remain.\n\n\nSo, **30 elves are still working**.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie hilft im Büro ihrer Mutter. Sie hat einen Stapel mit 60 Briefen, die frankiert werden müssen und einen bereits frankierten Briefstapel. Sie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Wenn sich jetzt in dem Stapel mit den bereits frankierten Briefen 30 Briefe befinden, waren wie viele Briefe in dem Stapel, als Jennie angefangen hat?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\nWe know that Jennie has a stack of 60 letters that need to be stamped and a stack of already stamped letters. She puts stamps on one-third of the letters that need to be stamped.\n\nLet's call the number of letters that need to be stamped \"x\". Then, one-third of x is (1/3)x.\n\nWe know that (1/3)x + 30 = 60 - (1/3)x, because the number of letters that need to be stamped is 60 minus the number of already stamped letters.\n\nSimplifying the equation, we get:\n\n(1/3)x + (1/3)x = 60 - 30\n\nCombine like terms:\n\n2(1/3)x = 30\n\nDivide both sides by 2:\n\n(1/3)x = 15\n\nMultiply both sides by 3:\n\nx = 45\n\nSo, Jennie started with 45 letters that needed to be stamped.\n\nThe answer is: 45",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

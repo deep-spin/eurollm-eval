@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": "Správnou možností je:\n\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\n\nPreloženie:\n\n\"Niektoré zvieratá sú zanedbávané krutými ľuďmi.\"\n\n- \"Niektoré zvieratá\" sa preložilo do predikátového jazyka ako \"∃x(Ax)\" (existuje niekto, kto je zviera).\n- \"sú\" je preložené ako \"•\" (a).\n- \"krutými ľuďmi\" sa preložilo ako \"Cx • Px\" (existuje niekto, kto je krutý a zároveň osoba).\n- \"zanedbávané\" sa preložilo ako \"∃y(Py • Nyx)\" (existuje niekto, kto je osoba a zanedbáva x).\n\nTakže celkové preloženie je: \"Existuje niekto, kto je zviera a zároveň krutý, a existuje niekto, kto je osoba a zanedbáva tohto zvieratá.\"",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": "Správnou možností je C) Bje~. \n\nPreloženie do predikátového jazyka sa vykonáva tak, že sa preložia jednotlivé predikáty a funkčné slová. \n\n- \"Zem\" sa preloži na \"e\"\n- \"nie je väčšia ako\" sa preloži na \"~\"\n- \"Jupiter\" sa preloži na \"j\"\n- \"Bxy\" sa preloži na \"Bx y\"\n\nZákladná forma: Bej\nPreloženie predikátu: ~Bje\nTeda výsledok: Bje~",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": "The correct answer is A) odpor.\n\nIn analogy between force and current, the electrical analog of a damper (tlumič) is resistance (odpor).",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": "Správnou odpoveďou je B) Plánovanie programu. \n\nV pláne sa definujú ciele, ktoré sa majú dosiahnuť, a tiež sa určujú kroky, ktoré sú potrebné k ich dosiahnutiu. Táto fáza je základom celého plánovacieho procesu a zabezpečuje, že ciele sú jasné a dosiahnuteľné.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": "Správna odpoveď je C) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\n\nTáto odpoveď sa zaoberá etickou argumentáciou, ktorá sa nazýva \"prerogatíva matky\". Prerogatíva matky tvrdí, že matka má právo rozhodovať o tom, či sa jej plod bude narodiť alebo ne. Táto prerogatíva sa často zdôrazňuje v diskusiach o potrateľnosti a je často považovaná za základ pre argumenty v prospech potratu.\n\nOdpoveď C) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený, sa zaoberá tým, že potrat je v zásade morálne nesprávny, ale existujú prípady, kedy môže byť povolený. Tieto prípady môžu zahrnovať situácie, ako napríklad ohrozenie života matky alebo závažné genetické poruchy plodu.\n\nOdpoveď A) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu, je nevhodná, pretože prerogatíva matky sa týka právomoci matky rozhodovať o tom, či sa jej plod bude narodiť alebo ne, a nie o akceptovaní radikálnych zmenách v našom praktickom identite.\n\nOdpoveď B) potrat je absolútne morálne nesprávny, je zjednodušená a nepokrýva kompleksitu etických otázok, ktoré sú spojené s prerogatívou matky.\n\nOdpoveď D) neexistuje jasná odpoveď na otázku morálneho statusu potratu, je pravdivá, ale nie je najpresnejšia odpoveď na danú otázku.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": "Správnou odpoveďou je C) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy.\n\nKeďže Zem bola presunutá na obežnú dráhu trikrát ďalej od Slnka, jej obežná dráha sa rozšírila. Dĺžka roka sa však nezmieni iba vtedy, ak sa sklon jej obežnej dráhy nezmieni. Ak sa sklon obežnej dráhy zmieni, tak aj dĺžka roka sa zmieni.\n\nPreto je potrebné vedieť, aký sklon má nová obežná dráha Zeme, aby sa dalo určiť, ako dlho by trval jeden rok.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": "Správnou odpoveďou je B) Intenzívna distribúcia.\n\nIntenzívna distribúcia je marketingová strategia, ktorá zahrňuje umiestnenie produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu produkt alebo službu. Táto strategia je vhodná pre produkty alebo služby, ktoré sú veľmi populárne a majú vysokú poptávku.\n\nExkluzívna distribúcia (A) je opak toho, čo je intenzívna distribúcia. Exkluzívna distribúcia zahrňuje umiestnenie produktu alebo služby v omezenom množstve prevádzok alebo lokalít, aby sa zvýšila jeho hodnotu a znižila konkurenciu.\n\nSelektívna distribúcia (C) je tiež opak intenzívnej distribúcie. Selektívna distribúcia zahrňuje umiestnenie produktu alebo služby v vybraných prevádzokach alebo lokalitách, ktoré majú vysokú poptávku po danom produktu alebo službe.\n\nPriama distribúcia (D) je spôsob distribúcie, ktorý zahrňuje predaj produktu alebo služby priamo od výrobcu alebo dodávateľa k zákazníkovi, bez zásahu tretích strán. Táto distribúcia nie je vždy vhodná pre produkty alebo služby, ktoré majú vysokú poptávku a vyžadujú širokú dostupnosť.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "Správnou odpoveďou je C) hypotonická dysfunkcia maternice.\n\nHypotonická dysfunkcia maternice sa vyznačuje slabými a občasnými kontrakciami, ktoré sú nedostatočné na podporu aktivného pôrodu. Táto porucha môže spôsobiť zablokovanie pôrodu a potrebu podania liekov proti bolesti. V tomto prípade je u pacientky zaznamenaná slabá a občasná kontrakcia, čo je typické pre hypotonickú dysfunkciu maternice.\n\nBraxton-Hicksove kontrakcie (A) sú charakterizované silnými, ale neefektívnymi kontrakciami, ktoré sú často spojené s vysokým krevným tlakom a srdcovými rytmusmi plodu. V tomto prípade sú kontrakcie slabé a občasné, čo sa nezhoduje s Braxton-Hicksovými kontrakciami.\n\nDolný sťahovací okruh maternice (B) je charakterizovaný silnými a efektívnymi kontrakciami, ktoré sú spojené s postupným sťahovaním krčku maternice. V tomto prípade je krček maternice už na 7 cm, čo naznačuje, že pôrodu sa blíži, ale kontrakcie sú slabé a občasné, čo sa nezhoduje s dolným sťahovacím okruhom.\n\nPrimárna dysfunkčná práca (D) je charakterizovaná slabými a neefektívnymi kontrakciami, ktoré sú spojené s nedostatočnou aktivitou pôrodu. V tomto prípade je u pacientky zaznamenaná slabá a občasná kontrakcia, čo je typické pre primárnu dysfunkčnú prácu.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": "Správnou odpoveďou je D) Diskriminácia. Diskriminácia je behaviorálna zložka negatívnych postojov voči určitým skupinám, ktoré sa týka diskriminujúcej správy, chovania a zachádzania s členmi danej skupiny.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": "Správna odpoveď je A) Postupnosť dejov. \n\nUčiteľ použil obrázkové karty, aby študentom ukázal postupnosť udalostí v príbehu. Tieto karty zobrazujú scény z začiatku, stredu a konca príbehu, čo pomáha žiakom porozumieť, ako sa príbeh rozvíja a ako sa udalosti postupujú. Táto metóda pomáha žiakom vnímať časový rozmer a súvislosti medzi jednotlivými udalosťami v príbehu.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": "To determine the remaining balance Janeth will have to pay, we first need to calculate the total amount she will pay over 12 months, including the 10% additional amount.\n\n1. Calculate the total amount Janeth will pay over 12 months:\n   - Monthly payment: $165\n   - Total payments over 12 months: $165 * 12 = $1980\n\n2. Calculate the total amount Janeth will pay, including the 10% additional amount:\n   - Total amount paid: $1980\n   - Additional amount (10% of $1980): $1980 * 0.10 = $198\n   - Total amount Janeth will pay: $1980 + $198 = $2178\n\n3. Calculate the remaining balance Janeth will have to pay:\n   - Total amount Janeth borrowed: $2000\n   - Remaining balance: $2178 - $2000 = $178\n\nSo, the remaining balance Janeth will have to pay after 12 months is $178.",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many cars passed through the bottleneck in the first 15 minutes.\n\n1. **Initial number of cars**: 30\n2. **Cars that pass in the first 15 minutes**: Let's denote this number as \\( x \\).\n3. **Cars that pass in the remaining 15 minutes**: 20\n4. **Cars that take a different exit**: 5\n\nWe know that the total number of cars that passed through the bottleneck is the initial number of cars minus the 5 cars that took a different exit. Therefore, the total number of cars that passed through the bottleneck is:\n\n\\[ 30 - 5 = 25 \\]\n\nNow, we need to determine how many cars passed through in the first 15 minutes. We know that 20 cars passed through in the remaining 15 minutes. To find the number of cars that passed through in the first 15 minutes, we can set up an equation:\n\nLet \\( x \\) be the number of cars that passed through in the first 15 minutes. Then:\n\n\\[ x + 20 = 25 \\]\n\nSolving for \\( x \\):\n\n\\[ x = 25 - 20 \\]\n\\[ x = 5 \\]\n\nSo, 5 cars passed through the bottleneck in the first 15 minutes.\n\nThe answer is 5.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": "Violeta needs 5 different colors of crayons. She has separated $20 for this purchase. Each crayon costs $2. To find out how much change she will receive, we need to calculate the total cost of the crayons and subtract it from the amount she has.\n\nTotal cost of 5 crayons = 5 crayons * $2 per crayon = $10\n\nChange = Total amount - Total cost = $20 - $10 = $10\n\nSo, Violeta will receive $10 in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": "To calculate the total cost of Chad's customized burrito, we need to add up the cost of the base burrito, the additional ingredients, and the upgrades.\n\nBase burrito: $6.50\nAdditional ingredients:\n- Carne de res: $2.00\n- Queso: $1.00\n- Palta: $1.00\n- 2 salsas: $0.25 * 2 = $0.50\nTotal additional ingredients: $2.00 + $1.00 + $1.00 + $0.50 = $4.50\nUpgrades:\n- Patatas: $3.00\n- Bebida: $3.00\nTotal upgrades: $3.00 + $3.00 = $6.00\n\nTotal cost before applying the $5.00 gift card: $6.50 (base) + $4.50 (additional ingredients) + $6.00 (upgrades) = $17.00\n\nApplying the $5.00 gift card: $17.00 - $5.00 = $12.00\n\nTherefore, Chad still needs to pay $12.00.",
+        "ground_truth": 9,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to calculate the total number of hours Frankie watched TV and then determine how many 30-minute episodes he watched on Wednesday.\n\n1. **Calculate the total hours watched:**\n   - Monday and Tuesday: 2 nights * 1 hour = 2 hours\n   - Wednesday: Let's denote the number of 30-minute episodes as x. Since each episode is 0.5 hours, x episodes would be x * 0.5 hours.\n   - Thursday: 1 hour + 0.5 hours = 1.5 hours\n   - Friday: 2 hours\n\n   Total hours watched = 2 + 1.5 + 2 = 5.5 hours\n\n2. **Set up the equation:**\n   - We know the total hours watched is 7 hours.\n   - Let x be the number of 30-minute episodes watched on Wednesday.\n   - Then, x * 0.5 = 5.5 (since each episode is 0.5 hours)\n\n3. **Solve for x:**\n   - x * 0.5 = 5.5\n   - x = 5.5 / 0.5\n   - x = 11\n\nSo, Frankie watched 11 episodes of 30 minutes on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads, we need to calculate the number of downloads for each month and then add them up.\n\nFirst month: 60 downloads\n\nSecond month: Three times the first month = 3 * 60 = 180 downloads\n\nThird month: 30% less than the second month = 180 - (180 * 30 / 100) = 180 - 54 = 126 downloads\n\nTotal downloads = 60 + 180 + 126 = 366\n\nSo, the program had a total of 366 downloads during the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": "To determine the total number of people sent by all the schools, we need to calculate the number of players and coaches for each team and then add them up.\n\nEach team consists of 5 players and 1 coach, making a total of 6 people per team. Since there are 4 schools and each school has both a women's and a men's team, we can calculate the total number of people as follows:\n\n4 schools * 2 teams per school * 6 people per team = 48 people\n\nSo, all the schools have sent a total of 48 people to the tournament.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the items Isabelle bought. \n\nTotal cost = $12 (ingredients) + $43 (gifts) + $15 (decorations) + $4 (cards) + $22 (bags with treats) = $96\n\nSince Isabelle divided the cost equally among her father and mother, we need to divide the total cost by 3.\n\nCost per person = $96 / 3 = $32\n\nSo, each person (Isabelle's father and mother) paid $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to follow these steps:\n\n1. Calculate the number of elves that initially worked.\n2. Calculate the number of elves that left after the first incident.\n3. Calculate the number of elves that left after the second incident.\n4. Calculate the final number of elves remaining.\n\n1. Initially, Nissa hired 60 elves.\n2. A third of the elves left after the first incident. So, 60 / 3 = 20 elves left.\n3. Then, 10 of the remaining elves left after the second incident. So, 20 - 10 = 10 elves left.\n4. Therefore, the final number of elves remaining is 10.\n\nSo, there are 10 elves left.",
+        "ground_truth": 30,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine the initial number of stamped cards and then use that information to find the initial number of unstamped cards.\n\n1. **Determine the number of stamped cards after Jennie places stamps:**\n   - Jennie places stamps on a third of the cards that need stamps.\n   - There are 60 cards that need stamps.\n   - A third of 60 is 60 / 3 = 20.\n   - So, after placing stamps, there are 20 stamped cards.\n\n2. **Determine the number of unstamped cards after Jennie places stamps:**\n   - Initially, there are 60 cards that need stamps.\n   - After placing stamps, there are 60 - 20 = 40 unstamped cards.\n\n3. **Determine the initial number of stamped cards:**\n   - We know that there are 30 stamped cards after Jennie places stamps.\n   - Since the number of stamped cards remains constant (20), the initial number of stamped cards is also 20.\n\n4. **Determine the initial number of unstamped cards:**\n   - Initially, there are 60 cards that need stamps.\n   - We know that after placing stamps, there are 40 unstamped cards.\n   - To find the initial number of unstamped cards, we can use the fact that the total number of cards remains the same (60).\n   - Let's denote the initial number of stamped cards as S and the initial number of unstamped cards as U.\n   - We know that S + U = 60.\n   - We also know that after placing stamps, the number of stamped cards is 20, and the number of unstamped cards is 40.\n   - Since the number of stamped cards remains constant, the initial number of stamped cards (S) is 20.\n   - Therefore, the initial number of unstamped cards (U) is 60 - 20 = 40.\n\nSo, the initial number of unstamped cards was 40.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

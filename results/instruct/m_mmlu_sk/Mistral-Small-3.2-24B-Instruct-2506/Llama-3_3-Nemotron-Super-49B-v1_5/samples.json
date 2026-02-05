@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": " <s>[INST]The correct translation into predicate logic is:\n\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\n\nThis translates to: \"There exists an x such that x is cruel and x is a person, and there exists a y such that y is an animal and x neglects y.\"\n\nThis matches the original statement: \"Some animals are neglected by cruel people.\" The other options either misrepresent the relationships or the quantifiers.[/INST]",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": " <s>[INST]The correct translation of the statement \"Zem nie je väčšia ako Jupiter\" into predicate logic is:\n\n\"Zem nie je väčšia ako Jupiter\" translates to \"Earth is not larger than Jupiter.\"\n\nGiven the predicates:\n- e: Earth\n- j: Jupiter\n- Bxy: x is larger than y\n\nThe correct logical expression is: ~Bje (read as \"not B of j and e\"), which means \"Earth is not larger than Jupiter.\"\n\nSo the correct answer is:\nA) ~Bje[/INST]",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": " <s>[INST]The electrical analog quantity for a damper in the analogy between force and current is\nA) resistance.\nB) conductance.\nC) inductance.\nD) capacitance.\nThe correct answer is A) resistance.\nIn the analogy between mechanical and electrical systems, force is analogous to current, velocity is analogous to voltage, mass is analogous to inductance, stiffness (spring constant) is analogous to the inverse of capacitance, and damping (damper) is analogous to resistance. Therefore, the electrical analog for a damper is resistance.[/INST]",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": " <s>[INST] In which phase of the planning process are goals decided?\nA) Program definition\nB) Program planning\nC) Taking steps and implementing ideas\nD) Program evaluation[/INST] <s>[INST] The correct answer is A) Program definition. In the program definition phase, the goals and objectives of the program are established. This phase involves identifying the problem or need that the program aims to address, defining the target population, and setting clear and measurable goals. The other phases involve planning how to achieve these goals (B), implementing the planned activities (C), and assessing the outcomes and impact of the program (D).[/INST]",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": " <s>[INST] The correct answer is C) Abortion is presumptively morally wrong, but may be permitted in some extreme cases.\n\nLittle argues that we should accept the prerogative of mothers to terminate a pregnancy before the fetus is a person. This aligns with the view that abortion is presumptively morally wrong but may be permitted in certain extreme circumstances, such as when the mother's life is at risk or in cases of severe fetal abnormalities. This position acknowledges the moral weight of the fetus's potential personhood while allowing for exceptions based on compelling reasons.\n\nOption A is incorrect because it does not directly address the moral status of abortion. Option B is too absolute and does not reflect Little's nuanced position. Option D is incorrect because Little does provide a framework for evaluating the morality of abortion, even if it is not absolute.\n\nThus, the best answer is C.[/INST]",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": " <s>[INST] Imagine that the Earth was instantly moved to an orbit three times farther from the Sun. How long would one year last?\n\nA) exactly 3 times longer\nB) about 5.2 times longer\nC) There is not enough information. It will depend on the inclination of the new orbit.\nD) The length of the year will not change, as the mass of the Earth remains the same.\n\nThe correct answer is B) about 5.2 times longer.\n\nExplanation:\nAccording to Kepler's Third Law of planetary motion, the square of the orbital period (T) of a planet is proportional to the cube of the semi-major axis (a) of its orbit. Mathematically, this is expressed as:\n\nT² ∝ a³\n\nIf the Earth is moved to an orbit three times farther from the Sun, the semi-major axis (a) of its new orbit will be 3 times larger. Therefore, the new orbital period (T_new) can be calculated as follows:\n\n(T_new / T_original)² = (a_new / a_original)³\n(T_new / T_original)² = 3³\n(T_new / T_original)² = 27\nT_new / T_original = √27 ≈ 5.2\n\nThus, the new year would be approximately 5.2 times longer than the original year.\n\nThe other options are incorrect:\n- A) Incorrect, because the relationship is not linear but follows Kepler's Third Law.\n- C) Incorrect, because the inclination of the orbit does not affect the orbital period.\n- D) Incorrect, because the length of the year is determined by the orbital period, not the mass of the Earth.[/INST]",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": " <s>The correct answer is:\n\nB) Intenzívna distribúcia.\n\nIntenzívna distribúcia (also known as intensive distribution) involves placing a product or service in as many outlets or locations as possible to maximize the chances that customers will find and purchase it. This strategy is commonly used for convenience goods and everyday items where widespread availability is crucial.\n\nThe other options are:\nA) Exkluzívna distribúcia (Exclusive distribution) - Limiting the product to a few select outlets to maintain exclusivity.\nC) Selektívna distribúcia (Selective distribution) - Choosing a limited number of outlets based on specific criteria.\nD) Priama distribúcia (Direct distribution) - Selling directly to consumers without intermediaries.\n\nThus, the best answer is B) Intenzívna distribúcia.[/s]",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "The most likely diagnosis in this scenario is:\n\n**C) Hypotonic uterine dysfunction**\n\n### Explanation:\n- **Braxton-Hicks contractions (A)**: These are \"practice\" contractions that do not lead to progressive cervical dilation or effacement. The patient is in active labor (cervix dilated to 7 cm), so this is unlikely.\n- **Lower uterine segment rupture (B)**: This is a rare and serious complication, typically associated with risk factors like prior uterine surgery, excessive uterine distension, or the use of uterotonic drugs. The patient's history and clinical presentation do not suggest this.\n- **Hypotonic uterine dysfunction (C)**: This is characterized by weak, infrequent, or ineffective contractions, leading to prolonged labor without adequate cervical dilation. The patient's contractions are described as \"occaional and weak,\" and she has received pain medication, which can further inhibit contractions. The cervix is dilated to 7 cm but not progressing, fitting this diagnosis.\n- **Primary dysfunctional labor (D)**: This is a broader term that includes both hypotonic and hypertonic uterine dysfunction. However, since the contractions are weak and infrequent, hypotonic dysfunction is the more specific and likely diagnosis.\n\nThus, the best answer is **C) Hypotonic uterine dysfunction**.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": " <s>The correct answer is:\n\nA) Prejudice\n\nPrejudice refers to the behavioral aspect of negative attitudes toward certain groups, often based on stereotypes and preconceived notions. The other options are not primarily behavioral:\n- B) Conditionalism (Podmienkovanie) refers to a philosophical or psychological approach that emphasizes the role of conditions in shaping behavior or thought.\n- C) Catharsis (Katarzia) refers to the process of releasing strong emotions through expression or action.\n- D) Discrimination refers to the act of treating someone unfairly based on their membership in a particular group, but it is not the same as the behavioral aspect of negative attitudes.\n\nThus, the best answer is A) Prejudice.</s>",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": " The teacher is helping students understand the concept of **sequence of events** (A) by showing them images that represent the beginning, middle, and end of the story. This activity helps students recognize the order in which events occur in the narrative.\n\nThe other options are not the primary focus of this activity:\n- **Point of view (B)** refers to the perspective from which the story is told, which is not emphasized here.\n- **Character development (C)** involves how a character changes over the course of the story, which is not the main focus of the images shown.\n- **Setting (D)** refers to the time and place of the story, which is not the primary concept being taught in this activity.\n\nThus, the correct answer is:\n**A) Sequence of events**",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

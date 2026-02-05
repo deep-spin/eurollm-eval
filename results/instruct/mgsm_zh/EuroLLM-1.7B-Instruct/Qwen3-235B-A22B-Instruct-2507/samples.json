@@ -1,0 +1,802 @@
+[
+    {
+        "id": 216,
+        "question": "珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？\nAnswer in English.",
+        "generated_answer": "珍妮丝借了 2,000 美元并承诺额外返还 10% 的金额。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？\n\n珍妮丝的借款额为 2,000 美元，她承诺额外返还 10% 的金额，因此她需要支付 2,000 * 10% = 200 美元。\n\n珍妮丝的月付款额为 165 美元，到 12 个月后，她的剩余欠款为 200 美元 - 165 美元 = 35 美元。",
+        "ground_truth": 220,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nThe question asks for the remaining debt after 12 months of monthly payments. The total amount to be repaid is the principal ($2,000) plus 10% interest:  \n$2,000 + (10% of $2,000) = $2,000 + $200 = $2,200.\n\nJanice pays $165 per month for 12 months:  \n$165 × 12 = $1,980.\n\nTherefore, the remaining debt is:  \n$2,200 − $1,980 = $220.\n\nThe GENERATED ANSWER incorrectly calculates the remaining debt as $35 by subtracting a single payment from the interest only, which is a fundamental error in reasoning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "汽车在高速公路上排起长龙。有些车在堵车的前 15 分钟就开过去了，然后又有 20 辆车在堵车的剩下 15 分钟里开过去。排队的车中有 5 辆车驶出了高速出口，所以他们不需要从堵车的地方开过去。如果高速公路上最早有 30 辆车，前 15 分钟有多少辆车从堵车的地方开过去？\nAnswer in English.",
+        "generated_answer": "If there are 30 cars on the highway, and the first 15 minutes have 5 cars leaving the highway, then the remaining 15 minutes have 25 cars leaving. So, 25 cars left the highway during the remaining 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "The question asks: \"How many cars passed through the traffic jam in the first 15 minutes?\"\n\nFrom the GROUND TRUTH, the correct answer is **5**.\n\nNow, analyzing the scenario:\n- Initially, there are 30 cars.\n- In the first 15 minutes, some cars pass through the traffic jam.\n- Then, in the next 15 minutes, 20 more cars pass through.\n- Additionally, 5 cars exit the highway and do not go through the jam.\n\nSince the total number of cars that eventually go through the jam must be the initial 30 minus the 5 that exited, that gives 25 cars passing through the jam in total.\n\nOut of these 25:\n- 20 passed through in the remaining 15 minutes,\n- So, 5 must have passed through in the first 15 minutes.\n\nThus, the correct answer is 5.\n\nThe GENERATED ANSWER incorrectly states that 25 cars left during the remaining 15 minutes, which contradicts the information that only 20 did. It also misunderstands the timeline and misinterprets who left when. The generated answer claims 25 cars left in the last 15 minutes, which is false.\n\nTherefore, the GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "维奥莱塔想买新的蜡笔。她需要 5 种不同颜色的蜡笔，并为这次购买准备了 20 美元。一支蜡笔 2 美元。她会收到多少零钱？\nAnswer in English.",
+        "generated_answer": "Violetta wants to buy new crayons. She needs 5 different colors of crayons, and she has prepared 20 dollars for this purchase. One crayon costs 2 dollars. How much money will she have after receiving the crayons?",
+        "ground_truth": 10,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH. Instead of providing the amount of change (which is 10 dollars), it reformulates the question and does not give a numerical answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 227,
+        "question": "查德点了一个自制卷饼当午餐。基础卷饼为 6.50 美元。他额外添加了 2.00 美元的肉、1.00 美元的奶酪、1.00 美元的牛油果和 2 份各 0.25 美元的酱汁。他决定多花 3.00 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 5.00 美元的礼品卡可在结账时使用。他还需付多少？\nAnswer in English.",
+        "generated_answer": "The cost of the original breakfast is 6.50 USD. The additional cost for the meat, cheese, butter, and sauce is 2.00 USD, 1.00 USD, 1.00 USD, and 2.00 USD, respectively. The total cost of the upgraded meal is 3.00 USD. The customer has a gift card worth 5.00 USD to use at the end of the transaction. How much does the customer owe?",
+        "ground_truth": 9,
+        "assessment": "The GENERATED ANSWER does not provide a numerical result or final amount that Chad owes. Instead, it reformulates the question and lists costs without calculating the total amount due after all additions and the gift card deduction. The GROUND TRUTH is \"9\", which is the correct final amount Chad must pay.\n\nSince the GENERATED ANSWER fails to compute or state the correct final amount (9 USD), it is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 107,
+        "question": "弗兰基每天晚上做完作业后看电视。周一和周二，他每晚看一集自己最喜欢的节目，一集 1 小时。周三，他看了几集每集 30 分钟的节目。周四，他提早做完了作业，看了一集每集 1 小时的节目和一集每集 30 分钟的节目。周五，因为有周末，他可以熬夜，所以他看了 2 集每集 1 小时的节目。如果他一共看了 7 小时的电视，他在周三看了多少集每集 30 分钟的节目？\nAnswer in English.",
+        "generated_answer": "If he watched 2 episodes of 1-minute long programs on Wednesday, he watched 2 episodes of 30-minute programs on Thursday, and 2 episodes of 1-minute long programs on Friday, then he watched 2 episodes of 30-minute programs on Friday. So, he watched 2 episodes of 30-minute programs on Friday.",
+        "ground_truth": 3,
+        "assessment": "The GENERATED ANSWER is completely incorrect and incoherent. It mentions \"1-minute long programs,\" which is not part of the original problem, and it confuses the days and durations. It fails to calculate how many 30-minute episodes Franky watched on Wednesday. Instead, it incorrectly discusses Friday and repeats false information.\n\nThe GROUND TRUTH is \"3\", meaning Franky watched 3 episodes of 30-minute programs on Wednesday.\n\nSince the GENERATED ANSWER does not match the correct answer and is factually and logically wrong, it is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "一款新程序在第一个月被下载了 60 次，第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载次数减少了 30%。三个月来，这款程序一共被下载了多少次？\nAnswer in English.",
+        "generated_answer": "Let's analyze the data step by step:\n\n1. In the first month, the program is downloaded 60 times.\n2. In the second month, the download rate is three times the first month's rate. So, the program is downloaded 60 * 3 = 180 times in the second month.\n3. In the third month, the download rate is reduced by 30%. So, the program is downloaded 180 * (1 - 0.3) = 180 * 0.7 = 126 times in the third month.\n\nNow, let's add up the total number of downloads for each month:\n\n1. First month: 60\n2. Second month: 180\n3. Third month: 126\n\nTotal downloads in the first three months: 60 + 180 + 126 = 366\n\nSo, the program was downloaded 366 times in total.",
+        "ground_truth": 366,
+        "assessment": "The GENERATED ANSWER provides a detailed step-by-step calculation and concludes that the program was downloaded 366 times in total over the three months. The GROUND TRUTH is \"366\", which matches the final result of the GENERATED ANSWER. Despite the difference in format (explanation vs. number only), the meaning—the total number of downloads—is equivalent.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "有四间学校在争夺篮球锦标赛的桂冠。每间学校都派出一支女子篮球队和一支男子篮球队，而且每支球队有 5 名球员。每间学校还为自己的每支球队派出一位教练。这些学校一共派出了多少人？\nAnswer in English.",
+        "generated_answer": "There are four schools competing for the basketball championship. Each school sends a women's basketball team and a men's basketball team, and each team has 5 players. Each school also sends a coach for each team. In total, how many people are sent to these schools?",
+        "ground_truth": 48,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or any calculation. Instead, it reformulates the question in English without answering it. The GROUND TRUTH is \"48\", which is the correct total number of people (4 schools × 2 teams per school × (5 players + 1 coach) = 4 × 2 × 6 = 48).\n\nSince the GENERATED ANSWER fails to provide the correct numerical result or any equivalent meaning to \"48\", it is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 130,
+        "question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？\nAnswer in English.",
+        "generated_answer": "妮莎雇用了 60 名季节性工人在她的百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。所以，剩下的精灵有 50 名。",
+        "ground_truth": 30,
+        "assessment": "首先分析问题：\n\n妮莎最初雇用了 60 名工人。\n\n第一步：三分之一的精灵辞职。  \n1/3 × 60 = 20 名辞职。  \n剩下：60 - 20 = 40 名。\n\n第二步：剩下的精灵中有 10 人辞职。  \n40 - 10 = 30 名剩下。\n\n因此，正确答案是 30。\n\n生成的答案说“剩下的精灵有 50 名”，这是错误的。计算过程明显不对（可能是误解了题意或计算错误）。\n\n所以，生成答案与真实答案在语义上不一致。\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 124,
+        "question": "珍妮在她妈妈的办公室帮忙。她有一沓 60 封需要贴邮票的信和一沓已经贴好邮票的信。她在需要贴邮票的信的三分之一上贴上邮票。如果现在那堆已经贴好邮票的信中有 30 封信，当珍妮开始贴邮票时，那堆信中有多少封信？\nAnswer in English.",
+        "generated_answer": "珍妮在需要贴邮票的信的三分之一上贴上邮票，所以她需要贴邮票 30 封信。如果现在那堆已经贴好邮票的信中有 30 封信，那么珍妮需要贴邮票的信有多少封信？",
+        "ground_truth": 10,
+        "assessment": "The question asks how many letters were in the already-stamped pile when Jenny started.\n\nGiven:\n- There are 60 unstamped letters.\n- Jenny stamps one-third of them: (1/3) × 60 = 20 letters stamped by her.\n- The total number of letters in the now-stamped pile is 30.\n- Therefore, the original number in the already-stamped pile = 30 (current total) − 20 (newly stamped) = 10.\n\nGround truth: 10\n\nGenerated answer:\nIt states that she needs to stamp 30 letters, which is incorrect — it should be 20 (one-third of 60). Then it poses a question instead of answering how many were originally in the already-stamped pile. It does not provide the number 10 or any correct reasoning.\n\nThus, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 103,
+        "question": "一片雾堤从海洋蔓延到覆盖城市。它每覆盖城市的 3 英里需要 10 分钟。如果这座城市从沿海地带到对面的内陆边缘的距离是 42 英里，雾堤覆盖整座城市需要多少分钟？\nAnswer in English.",
+        "generated_answer": "The foggy barrier covers the entire city in 10 minutes. If the distance from the coastal area to the inland edge of the city is 42 miles, it takes the foggy barrier 42 minutes to cover the entire city.",
+        "ground_truth": 140,
+        "assessment": "The question states that the fog advances 3 miles every 10 minutes. The city is 42 miles wide. To find the total time, we calculate: (42 ÷ 3) × 10 = 14 × 10 = 140 minutes.\n\nThe GENERATED ANSWER claims it takes 42 minutes to cover the city, which is incorrect. It incorrectly assumes 1 mile per minute, which contradicts the given rate of 3 miles per 10 minutes.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH of 140 minutes.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 235,
+        "question": "约翰点了一些披萨和他的朋友分享。一共有 20 位朋友，约翰想确保每个人都能吃到 4 块。披萨只能切成 8 块出售。约翰需要点多少披萨？\nAnswer in English.",
+        "generated_answer": "John wants to make sure that each of his 20 friends gets to eat 4 pieces of pizza. Pizza can only be cut into 8 pieces for sale. How many pizzas does John need to order?",
+        "ground_truth": 10,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or solution to the problem. Instead, it reformulates the question in English, which is not equivalent in meaning to the GROUND TRUTH answer \"10\". The GROUND TRUTH provides the correct number of pizzas John needs to order, while the GENERATED ANSWER merely restates the question.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 200,
+        "question": "巴尔德尔从井里打水。他每天上午打 5 桶水，每天下午打 6 桶水。如果每桶有 5 升水，他每天获得多少升水？\nAnswer in English.",
+        "generated_answer": "巴尔德尔每天打水 5 桶，每桶有 5 升水。如果每桶有 5 升水，他每天获得 5 升水。所以，巴尔德尔每天获得 5 升水。",
+        "ground_truth": 55,
+        "assessment": "The question asks for the total amount of water Belder collects each day in liters. According to the problem:\n\n- He collects 5 buckets in the morning and 6 buckets in the afternoon, totaling 11 buckets per day.\n- Each bucket contains 5 liters.\n- Therefore, total water collected per day is: (5 + 6) × 5 = 11 × 5 = 55 liters.\n\nThe GROUND TRUTH answer is \"55\", which correctly represents the total liters of water.\n\nThe GENERATED ANSWER states that he collects 5 buckets per day and concludes he gets 5 liters per day, which is incorrect on multiple levels:\n- It ignores the 6 buckets collected in the afternoon.\n- It incorrectly calculates the total (5 buckets × 5 liters = 25 liters, not 5).\n- It ultimately claims he gets only 5 liters per day, which is wrong.\n\nThus, the GENERATED ANSWER is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 212,
+        "question": "加里喜欢沿着当地公园的边缘散步，这是一座 1.5 英里乘 6 英里的矩形公园。如果他以 3 英里/小时的速度散步，他散步花了多少小时？\nAnswer in English.",
+        "generated_answer": "If he walks at a speed of 3 miles per hour, it will take him 1.5 miles / 3 miles per hour = 0.5 hours to walk the entire park.",
+        "ground_truth": 5,
+        "assessment": "The question asks for the time it takes Gary to walk along the edge of a rectangular park that is 1.5 miles by 6 miles. This implies walking around the perimeter of the rectangle.\n\nPerimeter = 2 × (length + width) = 2 × (1.5 + 6) = 2 × 7.5 = 15 miles.\n\nWalking at 3 miles per hour, the time required is:\n\nTime = Distance / Speed = 15 miles / 3 mph = 5 hours.\n\nThe GROUND TRUTH is \"5\", which matches this correct calculation.\n\nThe GENERATED ANSWER incorrectly assumes Gary walks only 1.5 miles, failing to account for the full perimeter. It calculates 0.5 hours, which is wrong.\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 77,
+        "question": "假设雷蒙德的洗衣量是莎拉的一半，而莎拉的洗衣量是大卫的 4 倍，如果莎拉的洗衣量为 400 磅，则请计算雷蒙德和大卫的洗衣量差数。\nAnswer in English.",
+        "generated_answer": "If Raymond's laundry load is half of Sarah's, and Sarah's laundry load is four times David's, then if Sarah's laundry load is 400 pounds, then the difference between Raymond and David's laundry loads is 400 pounds.",
+        "ground_truth": 100,
+        "assessment": "The question asks for the difference between Raymond's and David's laundry loads. Given that Sarah's laundry load is 400 pounds:\n\n- Raymond's load is half of Sarah's: 400 / 2 = 200 pounds.\n- Sarah's load is 4 times David's, so David's load is 400 / 4 = 100 pounds.\n- The difference between Raymond and David is: 200 - 100 = 100 pounds.\n\nThe GROUND TRUTH is 100, which is correct.\n\nHowever, the GENERATED ANSWER claims the difference is 400 pounds, which is incorrect.\n\nTherefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 122,
+        "question": "莎蒂周一睡了 8 小时。接下来两天她各少睡了 2 小时，因为她必须完成一些任务。如果在这周剩下的时间里，她比那两天多睡 1 小时，她在整个星期一共睡了多少个小时？\nAnswer in English.",
+        "generated_answer": "莎蒂在周一睡了 8 小时。接下来两天她各少睡了 2 小时，所以她在这周剩下的时间里，比两天多睡了 2 小时，共睡了 8 - 2 = 6 小时。\n如果在这周剩下的时间里，她比两天多睡 1 小时，她在整个星期一共睡了 6 + 1 = 7 小时。",
+        "ground_truth": 48,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nExplanation:\n- The question states that Shayti slept 8 hours on Monday.\n- For the next two days (Tuesday and Wednesday), she slept 2 hours less each day: 8 - 2 = 6 hours per day.\n- For the remaining 4 days of the week (Thursday to Sunday), she slept 1 hour more than she did on those previous two days, i.e., 6 + 1 = 7 hours per day.\n- Total sleep = Monday (8) + Tuesday (6) + Wednesday (6) + Thursday to Sunday (4 × 7) = 8 + 6 + 6 + 28 = 48 hours.\n\nThe GENERATED ANSWER incorrectly calculates the total by stating she slept only 7 hours in total for the entire week, which is wrong. It misunderstands the phrasing and fails to sum over all days.\n\nThus, the generated answer is incorrect and does not match the ground truth of 48.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 91,
+        "question": "珍的宠物数量是玛西亚的三倍，而玛西亚的宠物数量比辛迪多两只。如果辛迪有四只宠物，则她们三个人一共有多少只宠物？\nAnswer in English.",
+        "generated_answer": "珍的宠物数量是玛西亚的三倍，所以珍的宠物数量是3*3=9。\n玛西亚的宠物数量比辛迪多两只，所以玛西亚的宠物数量是9+2=11。\n辛迪有四只宠物，所以辛迪的宠物数量是11-4=7。\n三个人一共有7+7=14只宠物。\nAnswer in English.",
+        "ground_truth": 28,
+        "assessment": "The GENERATED ANSWER contains multiple errors in reasoning and calculations:\n\n1. It incorrectly states that Marcia has 3 pets to calculate Jenna’s pets as 3*3=9, but according to the GROUND TRUTH logic, Cindy has 4 pets.\n2. Since Marcia has 2 more pets than Cindy, Marcia should have 4 + 2 = 6 pets.\n3. Jenna has three times as many pets as Marcia, so Jenna has 3 * 6 = 18 pets.\n4. Total pets: 4 (Cindy) + 6 (Marcia) + 18 (Jenna) = 28.\n\nHowever, the generated answer:\n- Says Marcia has 11 pets (wrong),\n- Claims Cindy has 7 pets (contradicting the given 4),\n- Performs inconsistent and incorrect arithmetic (e.g., 7+7=14 for total pets).\n\nThe final number of total pets is 14 in the generated answer, while the correct total (GROUND TRUTH) is 28.\n\nThus, the meaning is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 149,
+        "question": "查理的 Facebook 好友人数是桃乐丝的 3 倍。詹姆斯的 Facebook 好友人数是桃乐丝的 4 倍。如果查理有 12 位 Facebook 好友，则詹姆斯有多少位 Facebook 好友？\nAnswer in English.",
+        "generated_answer": "If Charlie has 12 Facebook friends, then James has 4 times the number of Facebook friends.\n\nSo, James has 12 * 4 = 48 Facebook friends.",
+        "ground_truth": 16,
+        "assessment": "The question states that Charlie has 3 times as many Facebook friends as Dorothy. Since Charlie has 12 friends, we can calculate Dorothy's number of friends:\n\n12 = 3 × Dorothy → Dorothy = 12 / 3 = 4.\n\nJames has 4 times as many friends as Dorothy:  \nJames = 4 × 4 = 16.\n\nThe generated answer incorrectly assumes James has 4 times as many friends as Charlie, but the problem says James has 4 times as many as Dorothy. The correct answer is 16, but the generated answer claims 48, which is wrong.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 228,
+        "question": "凯琳达正和她的妈妈一起拼一幅 360 块的拼图。凯琳达正常情况下每分钟可以拼好 4 块。她妈妈每分钟可以拼好的块数通常为凯琳达的一半。她们拼好这幅拼图需要多少小时？\nAnswer in English.",
+        "generated_answer": "It seems that the question is asking for the time it takes for Kailynda and her mother to complete a 360-piece puzzle. Kailynda can usually complete 4 pieces per minute, while her mother can usually complete half of that. To find out how long it takes for them to complete the puzzle, we need to find the time it takes for Kailynda to complete 360 pieces and then divide that by her mother's rate.\n\nLet's assume that it takes Kailynda 30 minutes to complete 360 pieces. Her mother can complete half of that, so it takes her 180 minutes (30 minutes x 2).\n\nSo, it takes Kailynda and her mother 180 minutes to complete the puzzle.",
+        "ground_truth": 1,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nThe reasoning in the generated answer is flawed. It incorrectly assumes that Kailynda takes 30 minutes to complete 360 pieces (which would require her to place 12 pieces per minute, not 4). In reality, Kailynda places 4 pieces per minute, and her mother places half of that, which is 2 pieces per minute. Together, they place 4 + 2 = 6 pieces per minute.\n\nTime to complete 360 pieces:  \n360 ÷ 6 = 60 minutes, which is 1 hour.\n\nThe GROUND TRUTH is \"1\", meaning 1 hour.\n\nAlthough the correct final answer should be 1 hour, the generated answer arrives at 180 minutes (3 hours) due to incorrect calculations and logic, so it does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 55,
+        "question": "吉恩有 30 根棒棒糖。吉恩吃掉了其中 2 根棒棒糖。对于剩下的棒棒糖，吉恩想 2 根装一包。吉恩能装几包？\nAnswer in English.",
+        "generated_answer": "Gion has 30 sticks of candy. Gion ate 2 sticks of candy. For the remaining sticks of candy, Gion wants to put 2 sticks in one bag. How many bags can Gion put them in?",
+        "ground_truth": 14,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH. Instead of providing the numerical answer (14), the GENERATED ANSWER merely restates the question in English without solving it.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 129,
+        "question": "一家医院每天接诊 500 人。每位患者的看诊时长平均为 24 分钟。医生对医院收费每小时 150 美元，医院对患者收费每小时 200 美元。医院从这些就诊中获得多少利润？\nAnswer in English.",
+        "generated_answer": "The hospital receives a profit of $150 per hour from each patient's visit, and the hospital charges $200 per hour for the patient's visit. The hospital earns a total profit of $150 x 500 = $75,000 per day. Therefore, the hospital earns a profit of $75,000 x 24 = $1,800,000 per year.",
+        "ground_truth": 10000,
+        "assessment": "The GENERATED ANSWER is incorrect and does not match the GROUND TRUTH in meaning.\n\nLet’s analyze:\n\n- The hospital charges patients $200 per hour, but the doctor costs the hospital $150 per hour. So, the profit per hour per patient is $200 - $150 = $50.\n- Each patient takes 24 minutes, which is 0.4 hours.\n- Profit per patient = $50/hour × 0.4 hours = $20.\n- Total daily profit = 500 patients × $20 = $10,000.\n\nThus, the correct answer (GROUND TRUTH) is 10000 (dollars).\n\nThe GENERATED ANSWER incorrectly states:\n- That the hospital receives a profit of $150 per hour (wrong; that's the doctor’s cost).\n- It then multiplies $150 by 500 to get $75,000 per day.\n- Then incorrectly scales it to yearly by multiplying by 24, getting $1,800,000.\n- This reasoning and result are entirely wrong.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 35,
+        "question": "迈克打乒乓球打了 40 分钟。在前 20 分钟里，他取得了 4 分。在后 20 分钟里，他的得分提高了 25%。他的总得分是多少？\nAnswer in English.",
+        "generated_answer": "在前 20 分钟里，迈克打了 4 分。所以，他在前 20 分钟里打了 40 - 4 = 36 分钟。\n在后 20 分钟里，他的得分提高了 25%。所以，他在后 20 分钟里打了 40 - 25 = 15 分钟。\n总得分是 40 + 36 + 15 = 91 分。",
+        "ground_truth": 9,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nThe question states that Mike played table tennis for 40 minutes. In the first 20 minutes, he scored 4 points. In the next 20 minutes, his scoring rate improved by 25%. The task is to find his total score.\n\nCorrect interpretation:\n- First 20 minutes: 4 points.\n- Scoring rate in first 20 minutes: 4 points / 20 minutes = 0.2 points per minute.\n- Improved rate by 25%: 0.2 * 1.25 = 0.25 points per minute.\n- Points in next 20 minutes: 0.25 * 20 = 5 points.\n- Total points: 4 + 5 = 9 points.\n\nThe GENERATED ANSWER incorrectly interprets \"scored 4 points\" as \"played for 4 minutes\", and then subtracts from 40, which makes no sense. It confuses time with score and performs incorrect arithmetic, resulting in a total of 91, which is wrong.\n\nThus, the generated answer is incorrect and does not match the ground truth of 9.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 72,
+        "question": "汤米正在通过卖布朗尼蛋糕（每块 3 美元）和芝士蛋糕（每块 4 美元）为自己的慈善组织筹款。如果汤米卖出了 43 块布朗尼蛋糕和 23 块芝士蛋糕，他筹到了多少钱？\nAnswer in English.",
+        "generated_answer": "汤米卖出了 43 块布朗尼蛋糕和 23 块芝士蛋糕，他筹集了 66 美元。",
+        "ground_truth": 221,
+        "assessment": "The question asks for the total amount of money Tommy raised by selling 43 brownies at $3 each and 23 cheesecakes at $4 each.\n\nCalculating:\n- Brownies: 43 × $3 = $129\n- Cheesecakes: 23 × $4 = $92\n- Total: $129 + $92 = $221\n\nThe GROUND TRUTH is 221, which matches the correct calculation.\n\nThe GENERATED ANSWER states that Tommy raised 66 dollars, which is incorrect.\n\nTherefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 229,
+        "question": "一间西瓜农场结了 120 个小西瓜。阿什琳两个月后去了这间农场，发现 30% 的西瓜已经可以摘了，所以她把它们带回了家。当她两周后回来时，剩下的瓜中有 3/4 都熟了，所以她把它们都摘了。这两周后有多少瓜还没有成熟？\nAnswer in English.",
+        "generated_answer": "在两周后，阿什琳把剩下的 1/4 熟的西瓜都摘了。所以，有 1/4 + 1/4 = 3/4 成熟的西瓜。",
+        "ground_truth": 21,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nExplanation:\n\n- The QUESTION asks: \"How many watermelons were still not ripe after two weeks?\"\n- The GROUND TRUTH answer is \"21\", which is a specific number representing the count of unripe watermelons.\n- The GENERATED ANSWER incorrectly states that \"1/4 + 1/4 = 3/4 matured\", which is mathematically and logically incorrect. It also fails to calculate the actual number of unripe watermelons. In fact, it suggests that more than half became ripe in the second round (which is true), but misrepresents the fractions and does not arrive at the correct count of unripe瓜.\n\nCorrect calculation:\n- Total watermelons: 120\n- 30% picked initially: 0.3 × 120 = 36\n- Remaining: 120 - 36 = 84\n- After two weeks, 3/4 of remaining 84 are ripe: (3/4) × 84 = 63 picked\n- Still unripe: 84 - 63 = 21\n\nSo the correct answer is 21.\n\nThe generated answer does not give 21 or any correct numerical result, and contains logical errors.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 193,
+        "question": "苏住在一个有趣的街区。有个周末，邻居们决定对苏恶作剧。周五上午，邻居们把 18 只粉色塑料火烈鸟放在苏的前院。周六上午，邻居们拿回三分之一的火烈鸟，把它们涂成白色，然后把这些刚涂成白色的火烈鸟放回到苏的前院。然后，周日上午，他们给这群火烈鸟中再加入 18 只粉色塑料火烈鸟。周日中午，粉色塑料火烈鸟比白色塑料火烈鸟多出多少只？\nAnswer in English.",
+        "generated_answer": "On Friday morning, the neighbors decided to play a prank on Su. On Saturday morning, they took one-third of the fireflies and painted them white, then put them back in Su's front yard. On Sunday morning, they added 18 more fireflies of the same color. How many more fireflies did they add on Sunday morning compared to Saturday morning?",
+        "ground_truth": 24,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates a question and contains inaccuracies. It refers to \"fireflies\" instead of \"flamingos,\" misrepresents the scenario, and fails to calculate the difference between pink and white flamingos on Sunday at noon. The GROUND TRUTH is the number 24, which correctly answers how many more pink plastic flamingos there are than white ones.\n\nSince the GENERATED ANSWER is not equivalent in meaning to the GROUND TRUTH, the correct evaluation is:\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 24,
+        "question": "凯尔花了 19.50 美元买了一本去年的畅销书，购买价是原价的七五折。这本书的原价是多少？\nAnswer in English.",
+        "generated_answer": "The book cost 19.50 dollars to buy, which is 75% off the original price. The original price of the book is how much?",
+        "ground_truth": 26,
+        "assessment": "The GENERATED ANSWER does not provide the original price of the book; instead, it reformulates the question without answering it. The GROUND TRUTH is \"26\", which is the correct numerical answer representing the original price in dollars.\n\nSince the GENERATED ANSWER does not contain the value 26 or any equivalent expression of the correct answer, it is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 158,
+        "question": "拉斐尔去买一些学校用品。他买了 4 根笔（每根 1.5 美元）、2 本笔记本（每本 4 美元）和一令铜版纸（20 美元）。拉斐尔买所有用品花了多少钱？\nAnswer in English.",
+        "generated_answer": "拉斐尔花了 20 美元购买所有学校用品。",
+        "ground_truth": 34,
+        "assessment": "The question asks for the total amount of money Rafael spent on school supplies. The ground truth is 34, which is the correct total calculated as follows:\n\n- 4 pens at $1.5 each: 4 × 1.5 = $6  \n- 2 notebooks at $4 each: 2 × 4 = $8  \n- One ream of photo paper: $20  \nTotal: 6 + 8 + 20 = $34\n\nThe generated answer states that Rafael spent $20, which only accounts for the photo paper and omits the cost of the pens and notebooks. Therefore, the generated answer is incorrect and does not match the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 204,
+        "question": "珍妮特有 22 根绿色笔和 10 根黄色笔。然后她买了 6 包蓝色笔和 2 包红色笔。每包蓝色笔里面有 9 根笔，每包红色笔里面有 6 根笔。珍妮特现在有多少根笔？\nAnswer in English.",
+        "generated_answer": "珍妮特有 22 根绿色笔和 10 根黄色笔。然后她买了 6 包蓝色笔和 2 包红色笔。每包蓝色笔里面有 9 根笔，每包红色笔里面有 6 根笔。\n\n珍妮特现在有 22 + 10 = 32 根笔。",
+        "ground_truth": 98,
+        "assessment": "The GENERATED ANSWER does not provide the total number of pens Janet has. It only calculates the sum of green and yellow pens (22 + 10 = 32) but fails to include the blue and red pens she bought.\n\nCorrect calculation:\n- Green pens: 22\n- Yellow pens: 10\n- Blue pens: 6 packs × 9 pens = 54\n- Red pens: 2 packs × 6 pens = 12  \nTotal: 22 + 10 + 54 + 12 = 98\n\nThe GROUND TRUTH is 98, which is the correct total. The GENERATED ANSWER stops at 32 and is incomplete.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 64,
+        "question": "索菲亚正在考虑自驾游，她想知道一罐汽油能行驶多长距离。自上次加油以来，她已经行驶了 100 英里，而且她需要加 4 加仑的汽油才能再次把油箱装满。根据她汽车使用手册的说明，她汽车的油箱能装 12 加仑汽油。一罐汽油能让索菲亚行驶多长距离？\nAnswer in English.",
+        "generated_answer": "Sophia is considering a road trip and wants to know how far she can travel with a certain amount of gasoline. She has already driven 100 miles since the last refueling, and she needs to refuel with 4 gallons of gasoline to fill up her tank again. According to her car's manual, her car's gas tank can hold 12 gallons of gasoline. Based on this information, how far can Sophia travel with the given amount of gasoline?",
+        "ground_truth": 300,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or directly state how far Sophia can travel with a full tank of gasoline. Instead, it reformulates the question and restates the problem without solving it. The GROUND TRUTH is \"300\", which represents the total distance Sophia can travel on a full 12-gallon tank, calculated from her fuel efficiency (100 miles / 4 gallons = 25 mpg; 25 mpg × 12 gallons = 300 miles).\n\nSince the GENERATED ANSWER fails to provide the correct numerical result or an equivalent meaning (i.e., that one full tank allows 300 miles of travel), it is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 136,
+        "question": "世界上剩下 27 只独角兽，其中三分之一在苏格兰高地。苏格兰高地的独角兽的三分之二是雌性。苏格兰雌性独角兽有多少只？\nAnswer in English.",
+        "generated_answer": "There are 27 unicorns left in the world, and one-third of them are in the Scottish Highlands. Two-thirds of the unicorns in the Scottish Highlands are female. How many female unicorns are there in the Scottish Highlands?",
+        "ground_truth": 6,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead rephrases the question in English. The GROUND TRUTH is \"6\", which is the correct calculated number of female unicorns in the Scottish Highlands.\n\nTo compute:\n- 1/3 of 27 unicorns = 9 unicorns in the Scottish Highlands.\n- 2/3 of those 9 = (2/3) × 9 = 6 female unicorns.\n\nThe GENERATED ANSWER fails to state this result and instead repeats the question. Therefore, it is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 180,
+        "question": "在撒莱的学校，两名候选人正在竞选班级代表。如果当选者获得 3/4 的票，而且班级内投票的学生总数是 80 人，请计算落选者获得的票数。\nAnswer in English.",
+        "generated_answer": "If the two candidates are elected as class representatives, the number of votes they receive is 3/4 of the total number of students in the class. The total number of students in the class is 80. So, the number of votes they receive is 3/4 * 80 = 60.\n\nThe number of votes the loser receives is the number of votes the winner receives minus the number of votes the loser receives: 60 - 30 = 30.",
+        "ground_truth": 20,
+        "assessment": "The GENERATED ANSWER states that the winner receives 60 votes (which is correct, as 3/4 of 80 is 60). However, it then incorrectly calculates the loser's votes as 30 by subtracting 30 from 60 without justification. The correct number of votes the loser receives is 80 - 60 = 20.\n\nAlthough the reasoning mentions \"60 - 30 = 30\", it introduces an unjustified number (30) and arrives at the wrong result. The GROUND TRUTH is 20, which is the correct answer.\n\nTherefore, the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 207,
+        "question": "乔的万圣节糖果包里面有 25 根巧克力棒和 80 颗糖渍苹果。每根巧克力棒的重量是每颗糖渍苹果的两倍。如果每根巧克力棒重 40 克，乔的糖果包重多少克？\nAnswer in English.",
+        "generated_answer": "乔的糖果包里有 25 根巧克力棒和 80 颗糖渍苹果。每根巧克力棒的重量是每颗糖渍苹果的两倍，所以每根巧克力棒的重量是 2 * 80 = 160 克。\n如果每根巧克力棒重 40 克，乔的糖果包重 160 克。",
+        "ground_truth": 2600,
+        "assessment": "The GENERATED ANSWER contains incorrect reasoning and calculations. It incorrectly states that each chocolate bar weighs 2 * 80 = 160 grams, which misinterprets the problem. The correct information is that each chocolate bar weighs 40 grams, and this is twice the weight of a candy apple, so each candy apple weighs 20 grams. \n\nCorrect total weight:\n- 25 chocolate bars × 40 g = 1000 g\n- 80 candy apples × 20 g = 1600 g\n- Total = 1000 + 1600 = 2600 g\n\nThe GROUND TRUTH is 2600 grams, but the GENERATED ANSWER claims the total weight is 160 grams due to serious calculation errors.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 154,
+        "question": "周一、周三和周五，大学生基莫每天有 3 节 1 小时的课。周二和周四，他每天有 2 节 2 小时的课。一个学期中有 16 周的上学时间。在一个学期中，基莫用多少时间上课？\nAnswer in English.",
+        "generated_answer": "基莫每天有 3 节 1 小时的课，所以在一个学期中有 16 个星期。\n在一个星期中，有 7 个星期，所以基莫每天有 7 节 1 小时的课。\n在一个星期中，有 7 个星期，所以基莫每天有 7 节 2 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 1 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 2 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 3 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 4 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 5 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 6 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 7 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 8 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 9 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 10 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 11 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 12 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 13 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 14 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 15 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 16 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 17 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 18 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 19 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 20 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 21 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 22 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 23 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 24 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 25 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 26 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 27 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 28 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 29 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 30 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 31 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 32 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 33 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 34 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 35 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 36 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 37 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 38 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 39 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 40 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 41 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 42 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 43 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 44 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 45 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 46 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 47 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 48 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 49 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 50 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 51 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 52 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 53 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 54 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 55 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 56 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 57 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 58 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 59 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 60 小时的课。\n在一个学期中有 16 个星期，所以基莫每天有 16 节 61 小时的课。\n在一个学期中有 16 个星期",
+        "ground_truth": 272,
+        "assessment": "The GENERATED ANSWER does not provide a clear or correct calculation of the total class time. Instead, it contains repetitive and nonsensical statements such as \"基莫每天有 16 节 X 小时的课\" for hours ranging from 1 to 61, which are logically and factually incorrect. It fails to compute the actual total hours based on the schedule described in the QUESTION.\n\nCorrect calculation based on the QUESTION:\n- Monday, Wednesday, Friday: 3 classes × 1 hour = 3 hours per day × 3 days = 9 hours per week\n- Tuesday and Thursday: 2 classes × 2 hours = 4 hours per day × 2 days = 8 hours per week\n- Total per week: 9 + 8 = 17 hours\n- Over 16 weeks: 17 × 16 = 272 hours\n\nThe GROUND TRUTH is \"272\", which is the correct total number of hours.\n\nThe GENERATED ANSWER does not state 272 or any equivalent expression of the correct result. Therefore, it is not equivalent in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 37,
+        "question": "约翰打算卖掉自己的所有玩具，然后用这笔钱购买电子游戏。他有 13 套乐高，每套卖 15 美元。他最后买了 8 款电子游戏，每款 20 美元，并且他还剩下 5 美元。他还剩下多少套乐高？\nAnswer in English.",
+        "generated_answer": "John has 13 sets of Lego, and each set costs $15. He bought 8 electronic games, each costing $20. He also has $5 left. How many sets of Lego does he have left?",
+        "ground_truth": 2,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or state that John has 2 sets of Lego left. Instead, it reformulates the question without solving it. The GROUND TRUTH is \"2\", which is the correct number of Lego sets remaining after calculations.\n\nSince the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH (it does not give the correct answer of 2), the equivalence is false.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "约翰收养了一条狗。他把狗带去美容，美容价格是 100 美元。因为他是新顾客，所以宠物美容师给他打了七折。这次美容花了多少钱？\nAnswer in English.",
+        "generated_answer": "John bought a dog. He took the dog to the beauty salon, and the price of the beauty treatment was $100. Since he is a new customer, the beauty salon gave him a 70% discount. How much did the dog cost after the discount?",
+        "ground_truth": 70,
+        "assessment": "The GENERATED ANSWER does not provide the numerical result of the discounted price. Instead, it reformulates the question and asks how much the dog cost after the discount, which is incorrect because the question is about the grooming cost, not the dog's cost, and it fails to give the answer \"70\". The GROUND TRUTH is \"70\", meaning the grooming cost after a 30% discount (not 70% off) would be $70. However, the generated response misunderstands the discount (interpreting it as 70% off instead of 30% off, since \"gave him a 70% discount\" means he pays 30%, not 70%) and does not compute the correct final amount.\n\nAdditionally, the generated answer ends with a question rather than providing the solution. Therefore, it is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 25,
+        "question": "玛丽订购了一份 12 美元的鸡肉饭、5 盒牛奶（每盒 3 美元）、4 颗苹果（每颗 1.50 美元）和几盒披萨。Marie 一共支付了 50 美元。如果每盒披萨 8.50 美元，Marie 订购了多少盒？\nAnswer in English.",
+        "generated_answer": "Marie 订购了 4 盒披萨。\n\nMary 订购了一份 12 美元的鸡肉饭、5 盒牛奶（每盒 3 美元）、4 颗苹果（每颗 1.50 美元）和几盒披萨。Marie 一共支付了 50 美元。如果每盒披萨 8.50 美元，Marie 订购了多少盒？",
+        "ground_truth": 2,
+        "assessment": "The question asks how many boxes of pizza Marie ordered, given the total amount paid and the prices of the items.\n\nLet's calculate:\n\n- Chicken meal: $12  \n- 5 boxes of milk at $3 each: 5 × $3 = $15  \n- 4 apples at $1.50 each: 4 × $1.50 = $6  \n- Let the number of pizza boxes be x, each costing $8.50 → cost = 8.50x  \n- Total paid: $50  \n\nEquation:\n12 + 15 + 6 + 8.50x = 50  \n33 + 8.50x = 50  \n8.50x = 17  \nx = 17 / 8.50 = 2\n\nSo, Marie ordered 2 boxes of pizza.\n\nThe GENERATED ANSWER says \"Marie 订购了 4 盒披萨\" (Marie ordered 4 boxes of pizza), which is incorrect.\n\nThe GROUND TRUTH is 2.\n\nTherefore, the generated answer does not match the correct answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "罗素在一家宠物店工作，并且正在给啮齿动物分配秸秆。老鼠以每组相同的数量关在 3 个笼子里，每只老鼠分到 6 根秸秆。仓鼠单独关在 10 个笼子里，每只仓鼠分到 5 根秸秆。此外还有一笼兔子，它们分到了 20 根秸秆。宠物店里的任何其他地方都不使用秸秆。如果 160 根秸秆分给了小啮齿动物，每个笼子里有多少只老鼠？\nAnswer in English.",
+        "generated_answer": "如果 160 根秸秆分给了小啮齿动物，每个笼子里有 160 根秸秆。",
+        "ground_truth": 5,
+        "assessment": "The question asks how many mice are in each cage. The ground truth answer is \"5\", meaning there are 5 mice in each cage.\n\nThe generated answer states: \"If 160 straws were given to small rodents, there are 160 straws in each cage.\" This is incorrect and nonsensical—it misinterprets the question and provides a statement about straw count rather than the number of mice. It does not give the correct number of mice per cage and contains logical errors.\n\nTherefore, the generated answer is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "克莱尔每天早上用 3 颗鸡蛋做一份煎蛋饼当早餐。四周内她能吃多少打鸡蛋？\nAnswer in English.",
+        "generated_answer": "Clara eats 3 eggs for one fried egg pancake every morning. How many eggs can she eat in the next four weeks?",
+        "ground_truth": 7,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or state that Claire eats 7 dozen eggs. Instead, it reformulates the question and asks how many eggs she can eat, without answering it. It fails to compute or express the correct quantity in dozens as required.\n\nThe GROUND TRUTH is \"7\", which represents the number of dozens of eggs Claire consumes in four weeks (3 eggs/day × 28 days = 84 eggs = 7 dozen).\n\nSince the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH, it is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 175,
+        "question": "胡安和弟弟卡洛斯正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 3 美元的柠檬和 2 美元的糖。他们每加仑能做出 20 杯，每杯卖 0.50 美元。如果他们的利润是 25 美元，他们花了多少钱买柠檬？\nAnswer in English.",
+        "generated_answer": "胡安和卡洛斯每次制作一加仑的柠檬水，需要用掉 3 美元的柠檬和 2 美元的糖。他们每加仑能做出 20 杯，每杯卖 0.50 美元。如果他们的利润是 25 美元，他们花了多少钱买柠檬？\n\nLet x 表示柠檬的价格，y 表示糖的价格，z 表示柠檬的数量，和 表示柠檬的价格，以及糖的价格。\n\n根据问题，我们可以得到以下的等式：\n\nx + y + z = 3\n2x + 2y + z = 2\n\n我们可以将这些等式转化为等式：\n\nx + y + z = 3\n2x + 2y + z = 2\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 25 美元，那么我们可以得到以下的等式：\n\n25 = 3x + 2y + z\n\n现在我们可以根据利润和柠檬的价格来解决这个问题。\n\n如果利润是 2",
+        "ground_truth": 15,
+        "assessment": "The GENERATED ANSWER does not provide a correct or coherent solution to the problem. It repeats the same incorrect equation \"25 = 3x + 2y + z\" multiple times without solving it properly, and it fails to calculate the actual amount spent on lemons. The question asks specifically for how much money was spent on lemons given a profit of $25.\n\nCorrect reasoning based on the GROUND TRUTH:\n- Cost per gallon: $3 (lemons) + $2 (sugar) = $5\n- Revenue per gallon: 20 cups × $0.50 = $10\n- Profit per gallon: $10 - $5 = $5\n- To make a $25 profit, they need to sell $25 / $5 = 5 gallons\n- Cost of lemons for 5 gallons: 5 × $3 = $15\n\nThus, the amount spent on lemons is $15, which matches the GROUND TRUTH.\n\nThe GENERATED ANSWER does not arrive at $15 or any numerical answer; instead, it loops through an invalid setup and provides no final result.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 84,
+        "question": "一支足球队参加了 22 场比赛。他们获胜的比赛比输掉的比赛多 8 场。他们赢了多少场比赛？\nAnswer in English.",
+        "generated_answer": "The team won 16 games.",
+        "ground_truth": 15,
+        "assessment": "The question states that a team played 22 games and won 8 more games than they lost. Let W be the number of wins and L be the number of losses. Then:\n\nW + L = 22  \nW = L + 8\n\nSubstituting the second equation into the first:\n\n(L + 8) + L = 22  \n2L + 8 = 22  \n2L = 14  \nL = 7\n\nThen W = 7 + 8 = 15\n\nSo the correct number of wins is 15.\n\nThe GENERATED ANSWER says \"16\", which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 120,
+        "question": "米盖尔每周用 2 叠纸画画。如果一叠纸有 30 张纸，他每个月用掉多少张纸？\nAnswer in English.",
+        "generated_answer": "米盖尔每周用 2 叠纸画画。如果一叠纸有 30 张纸，他每个月用掉多少张纸？\n\n米盖尔每周用 2 叠纸画画，每叠纸有 30 张纸。因此，每个月他用掉的纸数量是 2 叠纸 * 30 张纸 = 60 张纸。",
+        "ground_truth": 240,
+        "assessment": "The GENERATED ANSWER calculates that Miguel uses 2 stacks of paper per week, with each stack containing 30 sheets, so 2 * 30 = 60 sheets per week. However, it incorrectly assumes that this weekly usage (60 sheets) is the monthly usage, without accounting for the number of weeks in a month.\n\nThe GROUND TRUTH is 240, which suggests the correct calculation: 2 stacks/week * 30 sheets/stack = 60 sheets/week, and assuming 4 weeks in a month, 60 * 4 = 240 sheets per month.\n\nSince the GENERATED ANSWER states 60 sheets per month instead of 240, it is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 143,
+        "question": "约翰花 2 美元买牛奶，花 3 美元买鸡蛋，花 3 美元买灯泡，花 3 美元买杯子，花 4 美元买蟑螂诱捕器。如果所有非食品类商品需缴纳 10% 的税收，全部商品多少钱?\nAnswer in English.",
+        "generated_answer": "John spends 2 dollars on milk, 3 dollars on eggs, 3 dollars on a light bulb, 3 dollars on a cup, and 4 dollars on a cockroach trap. If all non-food items need to pay 10% tax, the total cost of all items is:\n\n2 + 3 + 3 + 3 + 4 = 14 dollars\n\nSo, the total cost of all items is 14 dollars.",
+        "ground_truth": 16,
+        "assessment": "The GENERATED ANSWER calculates the total cost of all items as 14 dollars without applying the 10% tax on non-food items. However, according to the question, a 10% tax applies to all non-food items.\n\nLet's break it down:\n\n- Food items: milk (2 USD), eggs (3 USD) → total food = 5 USD\n- Non-food items: light bulb (3 USD), cup (3 USD), cockroach trap (4 USD) → total non-food = 10 USD\n- Tax on non-food items: 10% of 10 USD = 1 USD\n- Total cost: 5 (food) + 10 (non-food) + 1 (tax) = 16 USD\n\nThe GROUND TRUTH is 16, which includes the tax. The GENERATED ANSWER fails to include the tax and incorrectly states the total as 14 dollars.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 215,
+        "question": "洛莉想买一双 320.00 美元的鞋子和一条 32.00 美元的配套皮带。她的兼职工作每小时挣 8.00 美元。她需要工作多少小时才能购买？\nAnswer in English.",
+        "generated_answer": "To find out how many hours it will take Lorrie to buy the shoes and the belt, we need to calculate the total cost of the items and the cost of her work per hour.\n\nFirst, let's find the cost of the shoes:\n320.00 USD = 320 * $0.01 USD/USD\n\nNext, let's find the cost of the belt:\n32.00 USD = 32 * $0.01 USD/USD\n\nNow, let's add the cost of the shoes and the belt to find the total cost:\n320.00 USD + 32.00 USD = 352.00 USD\n\nFinally, let's find out how many hours Lorrie needs to work to cover the total cost:\n352.00 USD / $0.08 USD/hour = 4,600 hours\n\nSo, Lorrie needs to work 4,600 hours to buy the shoes and the belt.",
+        "ground_truth": 44,
+        "assessment": "The GENERATED ANSWER calculates that Lorrie needs to work 4,600 hours, which is incorrect. The correct calculation should be:\n\nTotal cost = $320 (shoes) + $32 (belt) = $352  \nHourly wage = $8.00  \nHours needed = $352 ÷ $8 = 44 hours\n\nThe GROUND TRUTH is 44, which is the correct number of hours. The generated answer provides a detailed explanation but contains a critical error in the division step (using $0.08 instead of $8.00 per hour), leading to an incorrect result.\n\nThus, the meaning of the GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 90,
+        "question": "霸王龙泰德计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 10 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的一半。如果野餐上有 20 只成年恐龙和 5 只未成年恐龙，而且泰德希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？\nAnswer in English.",
+        "generated_answer": "Ted the Tyrannosaurus Rex plans to go to a dinosaur picnic with potato salad. He knows that each adult dinosaur will eat 10 pounds of potato salad, and half of that amount for each under-aged dinosaur. If there are 20 adult dinosaurs and 5 under-aged dinosaurs at the picnic, and Ted wants enough potato salad for each dinosaur, how much potato salad does he need to bring?",
+        "ground_truth": 225,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH. Instead of providing a numerical answer (225 pounds), it repeats the question in English without solving it. Therefore, it does not convey the same meaning as the correct answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 111,
+        "question": "朱丽叶在湖上时，她的船漏水了。她朝着岸边每划 10 英尺，船就进水 2 升。她用 16 秒划了20 英尺。到达岸边需要 64 秒。当朱丽叶到达岸边时，船的进水量是多少？\nAnswer in English.",
+        "generated_answer": "在湖上时，朱丽叶的船漏水了。她每划 10 英尺，船就进水 2 升。她用 16 秒划了 20 英尺。到达岸边需要 64 秒。当朱丽叶到达岸边时，船的进水量是多少？\nLet's solve this problem step by step:\n1. We know that the boat leaks 2 liters of water per 10 feet of water.\n2. When the boat is 20 feet away from the shore, it has leaked 2 liters of water.\n3. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n4. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n5. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n6. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n7. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n8. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n9. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n10. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n11. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n12. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n13. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n14. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n15. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n16. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n17. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n18. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n19. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n20. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n21. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n22. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n23. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n24. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n25. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n26. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n27. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n28. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n29. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n30. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n31. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n32. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n33. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n34. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n35. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n36. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n37. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n38. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n39. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n40. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n41. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n42. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n43. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n44. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n45. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n46. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n47. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n48. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n49. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n50. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n51. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n52. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n53. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n54. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n55. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n56. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n57. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n58. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n59. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n60. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n61. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n62. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n63. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n64. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n65. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n66. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n67. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n68. At 20 feet away from the shore, the boat has leaked 4 liters of water.\n69. To find the total amount of water the boat has leaked, we need to add the amount of water it leaked at each distance.\n70. At 10 feet away from the shore, the boat has leaked 2 liters of water.\n71",
+        "ground_truth": 16,
+        "assessment": "The GENERATED ANSWER does not provide a final numerical answer. Instead, it repeats the same reasoning steps over and over without reaching a conclusion. Although it starts with restating the problem and attempts a step-by-step approach, it fails to calculate the total water intake when Juliet reaches the shore.\n\nCorrect reasoning based on the GROUND TRUTH:\n- Juliet takes 16 seconds to row 20 feet.\n- Total time to reach shore: 64 seconds.\n- Number of 16-second intervals in 64 seconds: 64 / 16 = 4.\n- Distance covered: 4 × 20 feet = 80 feet.\n- Leak rate: 2 liters per 10 feet.\n- Total water leaked: (80 / 10) × 2 = 8 × 2 = 16 liters.\n\nThus, the correct answer is **16**, which matches the GROUND TRUTH.\n\nHowever, the GENERATED ANSWER never states this result — it gets stuck in a loop and ends abruptly at \"71\", with no final answer.\n\nTherefore, the generated answer is **not equivalent** to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 80,
+        "question": "两个女孩各得到 24 升水的 1/6。然后一位男孩得到了 6 升水。还剩下多少升水？\nAnswer in English.",
+        "generated_answer": "两个女孩各得到 24 升水的 1/6，所以他们共得到 24 * 1/6 = 48 升水。\n然后一位男孩得到了 6 升水。\n所以剩下的水量是 48 - 6 = 42 升水。\nAnswer in English.",
+        "ground_truth": 10,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nThe question states that two girls each get 1/6 of 24 liters of water.  \nSo each girl gets: (1/6) × 24 = 4 liters.  \nTogether, they get 4 × 2 = 8 liters.\n\nTotal initial water is 24 liters.  \nA boy then gets 6 liters.  \nSo total distributed water is 8 + 6 = 14 liters.  \nRemaining water is 24 - 14 = 10 liters.\n\nThe GROUND TRUTH answer is 10, which is correct.\n\nHowever, the GENERATED ANSWER incorrectly calculates the amount the girls received as 24 × 1/6 = 48 liters (which is mathematically wrong — 24 × 1/6 is 4, not 48), and then doubles it erroneously to 48 liters total. Then subtracts 6 to get 42. This is incorrect.\n\nThus, the meaning is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 156,
+        "question": "动物园管理员喂养动物园里的所有猿。他每 2 个月从一家当地农场订购所有香蕉。如果猴子每个月需要 200 根香蕉，大猩猩每个月需要 400 根香蕉，狒狒每个月需要 100 根香蕉，则他需要订购多少根香蕉才能维持 2 个月？\nAnswer in English.",
+        "generated_answer": "The animal keeper needs to order 200 banana for the monkeys every month, 400 banana for the gorillas every month, and 100 banana for the baboons every month. To maintain 2 months, he needs to order 200 + 400 + 100 = 700 banana.",
+        "ground_truth": 1400,
+        "assessment": "The GENERATED ANSWER calculates the total number of bananas needed for one month (200 for monkeys + 400 for gorillas + 100 for baboons = 700) but then incorrectly uses this sum for two months without doubling it. However, the question asks for the number of bananas needed to maintain 2 months, so the correct calculation should be (200 + 400 + 100) × 2 = 1400.\n\nThe GROUND TRUTH is 1400, while the GENERATED ANSWER states 700, which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 163,
+        "question": "在一个房间里有各种不同的玩具：5 辆红色玩具车、3 个玩具人和一个洋娃娃。洋娃娃的价格相当于 3 个玩具人的价格，而 1 辆玩具车 4 美元。如果一个玩具人 5 美元，所有玩具值多少钱？\nAnswer in English.",
+        "generated_answer": "在这个房间里，有 5 辆红色玩具车、3 个玩具人和一个洋娃娃。洋娃娃的价格相当于 3 个玩具人的价格，而 1 辆玩具车 4 美元。如果一个玩具人 5 美元，所有玩具的价值是 5 美元。",
+        "ground_truth": 50,
+        "assessment": "The GENERATED ANSWER states that the total value of all toys is 5 USD, which is incorrect. Let's verify the correct calculation based on the GROUND TRUTH and the details in the question:\n\n- 5 red toy cars: 5 × 4 USD = 20 USD  \n- 3 action figures: 3 × 5 USD = 15 USD  \n- 1 doll: price equals 3 action figures = 3 × 5 USD = 15 USD  \n\nTotal value: 20 + 15 + 15 = 50 USD  \n\nThe GROUND TRUTH is \"50\", which matches this correct total. However, the GENERATED ANSWER claims the total is 5 USD, which is wrong.\n\nTherefore, the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 52,
+        "question": "乌利亚的书包对他来说太重了。他需要把书包减轻 15 磅。他的漫画书每本重 1/4 磅，他的玩具每件重 1/2 磅。如果他拿掉 30 本漫画书，他还需要拿掉多少件玩具？\nAnswer in English.",
+        "generated_answer": "乌利亚需要减轻 15 磅的书包，所以他需要拿掉 15 磅的漫画书。如果他拿掉 30 本漫画书，他还需要拿掉 30 磅的玩具。所以他需要拿掉 30 磅的玩具。",
+        "ground_truth": 15,
+        "assessment": "The question asks how many toys (each weighing 1/2 pound) Uría needs to remove after removing 30 comic books (each weighing 1/4 pound), in order to reduce the total weight by 15 pounds.\n\nLet’s analyze:\n\n- Weight of 30 comic books = 30 × 1/4 = 7.5 pounds\n- Total weight to be reduced = 15 pounds\n- Remaining weight to be removed via toys = 15 − 7.5 = 7.5 pounds\n- Each toy weighs 1/2 pound, so number of toys = 7.5 ÷ 0.5 = 15\n\nThus, the correct answer is 15.\n\nNow, the GENERATED ANSWER says:\n\"乌利亚需要减轻 15 磅的书包，所以他需要拿掉 15 磅的漫画书.\" — This is incorrect; he removes 30 comic books, which is 7.5 pounds, not 15.\nThen it says: \"如果他拿掉 30 本漫画书，他还需要拿掉 30 磅的玩具.\" — This is wrong. He only needs to remove 7.5 more pounds, not 30.\nFinally: \"所以他需要拿掉 30 磅的玩具.\" — Again, incorrect.\n\nThe generated answer incorrectly states that 30 pounds of toys need to be removed, which is not equivalent to the ground truth of 15 toys.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "蜂巢中有 700 只蜜蜂。工蜂的数量是幼蜂的两倍，幼蜂的数量是蜂后的两倍。工蜂有多少只？\nAnswer in English.",
+        "generated_answer": "There are 700 bees in the hive. The number of worker bees is twice the number of nurse bees, and the number of nurse bees is twice the number of queen bees. How many bees are there in the hive?",
+        "ground_truth": 400,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates the question and repeats part of the problem statement. It fails to calculate or state that the number of worker bees is 400, which is the correct solution based on the relationships given in the problem.\n\nTherefore, the GENERATED ANSWER is not equivalent in meaning to the GROUND TRUTH, which is \"400\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 239,
+        "question": "一间学校礼堂里的学生人数为 1,000。礼堂有 3 个入口 A、B 和 C，同时也充当出口。如果在一次会议后，30% 的学生从 A 出口出去了，剩下的有 3/5 从 B 出口出去了，余下的从 C 出口出去了，计算从 C 出口出去的学生人数。\nAnswer in English.",
+        "generated_answer": "In a school auditorium, there are 1,000 students. The auditorium has 3 entrances A, B, and C, and it also serves as an exit. If 30% of the students left from the A entrance after a meeting, 3/5 of the remaining students left from the B entrance, and the remaining students left from the C entrance, then the number of students leaving from the C entrance is:\n\n30% of 1,000 = 0.3 * 1,000 = 300 students\n3/5 of 300 = 0.3 * 300 = 90 students\n\nSo, the number of students leaving from the C entrance is 90.",
+        "ground_truth": 280,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nExplanation:\n- Total students = 1,000\n- 30% left from A: 0.3 × 1,000 = 300 students\n- Remaining after A: 1,000 - 300 = 700 students\n- 3/5 of the remaining left from B: (3/5) × 700 = 420 students\n- Remaining after B: 700 - 420 = 280 students\n- Therefore, 280 students left from C\n\nThe correct number of students leaving from C is 280.\n\nHowever, the GENERATED ANSWER incorrectly calculates \"3/5 of the remaining\" as 3/5 of 300 (which is wrong — it should be 3/5 of 700), and then states that only 90 students left from C, which is incorrect.\n\nThus, the generated answer is mathematically wrong.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 113,
+        "question": "莱恩每天在他的花园里种下 2 棵花。如果 5 棵不长，15 天后，他有多少棵花？\nAnswer in English.",
+        "generated_answer": "Liam planted 2 trees in his garden every day. If 5 trees did not grow, he had 15 days later how many trees he had?",
+        "ground_truth": 25,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or solve the problem. Instead, it reformulates the question incorrectly (referring to \"trees\" instead of \"flowers\") and does not compute the result. The GROUND TRUTH is \"25\", which is the correct number of flowers after 15 days minus the 5 that did not grow: (2 × 15) − 5 = 30 − 5 = 25.\n\nSince the GENERATED ANSWER fails to provide the correct meaning or solution, it is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 133,
+        "question": "周一，沃尔特步行了 4 英里。周二，他的步行距离是他周一步行距离的 6 倍。从周一到周三，他的总里程数是 41 英里。他在周三一共步行了多少英里？\nAnswer in English.",
+        "generated_answer": "周一，沃尔特步行了 4 英里。周二，他的步行距离是周一距离的 6 倍，所以他步行了 2 * 4 = 8 英里。从周一到周三，他的总里程数是 41 英里。所以，他在周三一共步行了 8 + 41 = 49 英里。",
+        "ground_truth": 13,
+        "assessment": "The GENERATED ANSWER contains multiple errors in calculation and logic:\n\n1. It incorrectly states that 6 times Monday's distance (4 miles) is 2 * 4 = 8 miles, which is wrong. It should be 6 * 4 = 24 miles for Tuesday.\n2. It then adds 8 + 41 to get Wednesday's distance, which is incorrect. The total from Monday to Wednesday is 41 miles, so Wednesday's distance should be:  \n   Total - (Monday + Tuesday) = 41 - (4 + 24) = 13 miles.\n3. Instead, the generated answer claims Wednesday’s distance is 49 miles, which is not only incorrect but exceeds the total.\n\nThe GROUND TRUTH is 13, which is correct.\n\nThe GENERATED ANSWER is therefore not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 243,
+        "question": "杰森每月有 1,000 分钟的手机套餐。他每天都要和老板打 15 分钟的电话，这个月他已经与其他人额外通话了 300 分钟。如果这个月有 30 天，杰森还剩多少分钟？\nAnswer in English.",
+        "generated_answer": "杰森每月有 1,000 分钟的手机套餐。他每天都要和老板打 15 分钟的电话，这个月他已经与其他人额外通话了 300 分钟。如果这个月有 30 天，杰森还有 1,000 - 300 = 700 分钟的手机套餐。\n假设这个月有 31 天，那么杰森还有 700 - 300 = 400 分钟的手机套餐。",
+        "ground_truth": 250,
+        "assessment": "The GENERATED ANSWER is incorrect and does not match the GROUND TRUTH.\n\nLet’s analyze:\n\n- Jason has 1,000 minutes per month.\n- He talks to his boss 15 minutes every day.\n- The month has 30 days → 15 × 30 = 450 minutes used for boss calls.\n- He already used an additional 300 minutes for other calls.\n- Total used = 450 + 300 = 750 minutes.\n- Remaining = 1,000 - 750 = 250 minutes.\n\nThe GROUND TRUTH is 250, which is correct.\n\nThe GENERATED ANSWER:\n- Incorrectly calculates only 300 minutes used (ignoring the boss calls for most of the month).\n- Then incorrectly assumes 31 days without justification.\n- Arrives at wrong remaining minutes (400), never mentions 250.\n\nThus, the meaning is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 15,
+        "question": "一个商人想要在两种购买计划中做出购买选择：价值 5,000 美元的珠宝和价值 8,000 美元的电子产品。他的财务顾问推测，珠宝市场将上涨 2.5%，而电子产品市场在同一个月内也将上涨 1.2%。如果这个商人期望通过做出选择，在本月末获得最大的利润，则利润会是多少？\nAnswer in English.",
+        "generated_answer": "If the merchant expects to make the most profit by making a choice in the month of the highest market growth, the profit would be 5,000 + 8,000 = 13,000 dollars.",
+        "ground_truth": 125,
+        "assessment": "The GENERATED ANSWER calculates the total value of both items combined (5,000 + 8,000 = 13,000), which is incorrect. The question asks for the maximum profit based on the expected market growth: 2.5% on jewelry (5,000 × 0.025 = 125) and 1.2% on electronics (8,000 × 0.012 = 96). The higher profit is $125 from the jewelry.\n\nThe GROUND TRUTH is 125, which matches this correct calculation. The GENERATED ANSWER is not equivalent in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 140,
+        "question": "在 20 辆可供出租的汽车中，有 12 辆是自动挡汽车，4 辆是手动挡汽车，其余的是半自动挡汽车。半自动挡汽车的百分比是多少？\nAnswer in English.",
+        "generated_answer": "There are 12 automatic cars out of 20 available for rent, 4 manual cars out of 20, and the remaining are semi-automatic cars. The percentage of semi-automatic cars is 12/20 * 4/20 = 12/40 = 32/100.",
+        "ground_truth": 20,
+        "assessment": "The GENERATED ANSWER attempts to calculate the percentage of semi-automatic cars but does so incorrectly. It multiplies the fractions 12/20 and 4/20, which is not the correct method. The correct approach is:\n\nTotal cars = 20  \nAutomatic = 12  \nManual = 4  \nSemi-automatic = 20 - 12 - 4 = 4  \n\nPercentage of semi-automatic cars = (4 / 20) × 100 = 20%.\n\nThe GROUND TRUTH is \"20\", which matches the correct percentage.\n\nHowever, the GENERATED ANSWER computes an incorrect value (32/100 = 32%) using a wrong method, and thus does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3,
+        "question": "詹姆斯决定每周跑 3 次 3 段冲刺，每段冲刺跑 60 米。他每周一共跑多少米？\nAnswer in English.",
+        "generated_answer": "詹姆斯每周跑 3 次 3 段冲刺，每段冲刺跑 60 米。因此，每周他跑 3 次 * 3 段冲刺 * 60 米 = 900 米。",
+        "ground_truth": 540,
+        "assessment": "The GENERATED ANSWER calculates the total distance as 3 times * 3 sprints * 60 meters = 900 meters. However, this is incorrect because the multiplication should be: 3 sessions per week * 3 sprints per session * 60 meters per sprint = 540 meters.\n\nThe GROUND TRUTH is 540 meters, but the GENERATED ANSWER states 900 meters, which is not equivalent in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 23,
+        "question": "一根蜡烛每燃烧一小时就融化 2 厘米。一根蜡烛从下午 1:00 燃烧到下午 5:00，会变短多少厘米？\nAnswer in English.",
+        "generated_answer": "The length of the candle will decrease by 2 cm each hour.\n\nIf the candle burns from 1:00 PM to 5:00 PM, the length of the candle will decrease by 2 cm each hour.",
+        "ground_truth": 8,
+        "assessment": "The question asks for the total decrease in length of the candle when burned from 1:00 PM to 5:00 PM, given that it decreases by 2 cm per hour. The time duration is 4 hours (from 1:00 PM to 5:00 PM), so the total decrease is 4 × 2 = 8 cm.\n\nThe GENERATED ANSWER explains that the candle decreases by 2 cm each hour and repeats this fact, but it does not calculate or state the total decrease of 8 cm. Therefore, it does not provide the correct numerical answer required.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 184,
+        "question": "杰瑞正在摇一颗六面骰子。他摇出一个大于 3 的数字的可能性比连续摇出两个偶数的可能性大多少（以百分比表达）？\nAnswer in English.",
+        "generated_answer": "杰瑞摇了一颗六面骰子，他摇出的数字大于 3 的可能性比连续摇出两个偶数的可能性大。\n\n首先，我们需要计算连续摇出两个偶数的可能性。我们知道，一个六面骰子有 6 个面，其中 2 个面是 1 和 6，另外 4 个面是 2 和 5。因此，连续摇出两个偶数的可能性为：\n\n(1/6) * (1/6) * (1/6) * (1/6) * (1/6) = 1/36\n\n现在，我们需要计算杰瑞摇出的数字大于 3 的可能性。我们知道，一个六面骰子有 6 个面，其中 2 个面是 1 和 6，另外 4 个面是 2 和 5。因此，杰瑞摇出的数字大于 3 的可能性为：\n\n(1/6) * (1/6) * (1/6) * (1/6) * (1/6) = 1/36\n\n所以，杰瑞摇出的数字大于 3 的可能性为 1/36。\n\n总之，杰瑞摇出的数字大于 3 的可能性比连续摇出两个偶数的可能性大 1/36。",
+        "ground_truth": 25,
+        "assessment": "The GENERATED ANSWER attempts to solve the problem but contains multiple errors in reasoning and calculation.\n\n1. The probability of rolling a number greater than 3 on a six-sided die:\n   - Numbers greater than 3: 4, 5, 6 → 3 outcomes\n   - Probability = 3/6 = 1/2 = 50%\n\n2. The probability of rolling two even numbers in a row:\n   - Even numbers on a die: 2, 4, 6 → 3 outcomes\n   - Probability of one even number = 3/6 = 1/2\n   - Probability of two evens in a row = (1/2) × (1/2) = 1/4 = 25%\n\n3. The question asks \"how much greater\" the first probability is than the second, in percentage points:\n   - Difference = 50% - 25% = 25%\n\nThus, the correct answer is 25, which matches the GROUND TRUTH.\n\nHowever, the GENERATED ANSWER:\n- Incorrectly calculates both probabilities.\n- Claims both are 1/36, which is wrong.\n- Does not compute the difference in percentages.\n- Ultimately states the difference is 1/36, which is not 25.\n\nTherefore, despite starting to address the question, the generated answer is mathematically incorrect and does not yield 25 as the final numerical answer.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 102,
+        "question": "约翰喜欢在吃早餐、午餐和晚餐时喝一杯水。最后，他睡前也会喝一杯水。约翰在每个工作日这样做，但是在周末，他喜欢放松一下，吃晚餐时喝苏打水。约翰一周喝多少杯水？\nAnswer in English.",
+        "generated_answer": "John drinks one cup of water every morning, lunch, and dinner. He also drinks one cup of water before bed. However, on weekends, he likes to relax and have a lighter meal, so he drinks one cup of soda water instead of water. How many cups of water does John drink in a week?",
+        "ground_truth": 26,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates the question and describes John's drinking habits. It fails to calculate or state that John drinks 26 cups of water in a week, which is the correct answer provided in the GROUND TRUTH.\n\nAlthough the description of John’s routine is mostly accurate (water on weekdays for breakfast, lunch, dinner, and before bed; soda instead of water at dinner on weekends), the GENERATED ANSWER does not conclude with the correct quantity of water consumed weekly. Therefore, it is not equivalent in meaning to the GROUND TRUTH, which is simply \"26\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 181,
+        "question": "桑德拉是拐角一家花店的店主，她对弗莱德没有完成订单配送非常不满意。桑德拉订购的红玫瑰数量是白色康乃馨的 4 倍。她还订购了 200 支粉色马蹄莲，这个数量是白色康乃馨的 5 倍。桑德拉威胁道，如果漏送的红玫瑰没有在下午 5 点前送到，她就更换供应商。为了留住桑德拉的业务，弗莱德必须在下午 5 点前送来多少支红玫瑰？\nAnswer in English.",
+        "generated_answer": "Floyd needs to deliver 50 red roses before 5 PM to keep the business with Sandra.",
+        "ground_truth": 160,
+        "assessment": "The question states that Sandra ordered 4 times as many red roses as white carnations, and that the 200 pink anthuriums she ordered are 5 times the number of white carnations.  \n\nFrom this:  \n- Pink anthuriums = 200 = 5 × (white carnations) → white carnations = 200 / 5 = 40  \n- Red roses = 4 × (white carnations) = 4 × 40 = 160  \n\nTherefore, the number of red roses that must be delivered is 160.  \n\nThe GENERATED ANSWER says \"50 red roses\", which is incorrect.  \n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 171,
+        "question": "杰克正在参观昆虫博物馆。他看到 80 只蜘蛛（每只有 8 条腿）、90 只昆虫（每只有 6 条腿）和 3 只珍稀的突变无脊椎动物（每只有 10 条腿）。杰克一共看到多少条腿？\nAnswer in English.",
+        "generated_answer": "在昆虫博物馆参观时，杰克看到 80 只蜘蛛（每只蜘蛛只有 8 条腿）、90 只昆虫（每只昆虫只有 6 条腿）和 3 只珍稀的突变无脊椎动物（每只动物只有 10 条腿）。杰克一共看到多少条腿？\n答案：10条腿",
+        "ground_truth": 1210,
+        "assessment": "The GENERATED ANSWER repeats the question and then incorrectly states the answer as \"10条腿\" (10 legs), which is not only factually wrong but also inconsistent with the correct total number of legs. The GROUND TRUTH is 1210, which is the correct sum:\n\n- Spiders: 80 × 8 = 640 legs  \n- Insects: 90 × 6 = 540 legs  \n- Mutant invertebrates: 3 × 10 = 30 legs  \nTotal: 640 + 540 + 30 = 1210 legs\n\nThe GENERATED ANSWER clearly does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 160,
+        "question": "周一，一个水箱水深 17 英尺。周二，这个水箱里的水又深了 7 英尺。周三，水的深度是周二水的深度的三分之二。周三水箱里的水有多深？\nAnswer in English.",
+        "generated_answer": "On Monday, the depth of the water in the tank was 17 feet. On Tuesday, the depth of the water in the tank was 7 feet deeper. On Wednesday, the depth of the water in the tank was three-quarters of the depth of the water on Tuesday. How deep is the water in the tank on Wednesday?",
+        "ground_truth": 16,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates the question with incorrect information (claiming \"three-quarters\" instead of \"two-thirds\"). The GROUND TRUTH is \"16\", which is the correct depth in feet on Wednesday based on the original problem.\n\nSince the GENERATED ANSWER neither computes the correct result nor matches the meaning of the GROUND TRUTH (and also alters the fraction in the problem), it is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 0,
+        "question": "珍妮特的鸭子每天下 16 颗蛋。她每天早上早餐时吃 3 颗，每天用 4 颗为自己的朋友做松饼。剩下的鸭蛋她每天拿去农贸市场卖，每颗新鲜鸭蛋卖 2 美元。她每天在农贸市场赚多少钱？\nAnswer in English.",
+        "generated_answer": "珍妮特每天早上吃 3 颗蛋，用 4 颗蛋做松饼，剩下的鸭蛋卖给农贸市场。她每天赚 2 美元。所以，每周她赚 24 美元。",
+        "ground_truth": 18,
+        "assessment": "The question asks how much Janet earns **each day** at the farmers' market.\n\n- The ducks lay 16 eggs per day.\n- Janet eats 3 and uses 4 for muffins, so she uses 3 + 4 = 7 eggs.\n- That leaves 16 - 7 = 9 eggs to sell.\n- She sells each egg for $2, so she earns 9 × $2 = $18 per day.\n\nThe GROUND TRUTH is \"18\", which correctly represents her daily earnings in dollars.\n\nThe GENERATED ANSWER states:  \n\"She earns $2 per day. So, weekly she earns $24.\"  \nThis is incorrect on multiple levels:\n- It says she earns $2 per day (wrong — that’s the price per egg, not total).\n- It incorrectly calculates weekly earnings as $24 (which would be 12 eggs per week, inconsistent with daily production).\n\nThus, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 223,
+        "question": "一家公司一年花了 15,000 美元在广告上，又花了该金额的三分之一在另一年的广告上。这家公司这两年花在广告上的总金额是多少？\nAnswer in English.",
+        "generated_answer": "The company spent 15,000 dollars on advertising in one year and three-quarters of that amount on advertising in the following year. The total amount spent on advertising in both years is 15,000 dollars.",
+        "ground_truth": 20000,
+        "assessment": "The GENERATED ANSWER states that the company spent $15,000 in the first year and \"three-quarters of that amount\" in the second year, which is incorrect according to the QUESTION. The QUESTION says the company spent one-third of $15,000 in the second year, not three-quarters. Additionally, the GENERATED ANSWER claims the total is $15,000, which is wrong. The correct total should be $15,000 + $5,000 (one-third of $15,000) = $20,000, matching the GROUND TRUTH of 20000.\n\nThus, the GENERATED ANSWER misrepresents both the calculation and the final amount.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 126,
+        "question": "迪伦需要鸡肉肠和鱼肠，以在派对上做香肠面包。他买了 38 根鸡肉肠，并且比鸡肉肠多买了 6 根鱼肠。迪伦一共买了多少根香肠？\nAnswer in English.",
+        "generated_answer": "迪伦需要鸡肉肠和鱼肠，以在派对上做香肠面包。他买了 38 根鸡肉肠，并且比鸡肉肠多买了 6 根鱼肠。因此，迪伦一共买了 38 + 6 = 44 根香肠。",
+        "ground_truth": 82,
+        "assessment": "The question states that Dylan bought 38 chicken sausages and 6 more fish sausages than chicken sausages. This means he bought 38 + 6 = 44 fish sausages. The total number of sausages is therefore 38 (chicken) + 44 (fish) = 82.\n\nThe generated answer incorrectly calculates the total as 38 + 6 = 44, failing to recognize that 6 more fish sausages than chicken sausages means 38 + 6 = 44 fish sausages, and then adding that to the 38 chicken sausages for a total of 82.\n\nThus, the generated answer is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 85,
+        "question": "吉恩正在用旧的纪念 T 恤缝制一条被子。他每次度假都有一件 T 恤。每件 T 恤都是被子的一片拼布。每行都由每年不同假期的拼布缝成。他每年度假 4 次，并且从 23 岁起就一直这样做。他现在 34 岁。他一共有多少片被子拼布？\nAnswer in English.",
+        "generated_answer": "每次度假，吉恩都会缝制一件 T 恤，每件 T 恤都是被子的一片拼布。每行都由每年不同假期的拼布缝成。他每年度假 4 次，并且从 23 岁起一直这样做。现在他 34 岁。他一共有多少片被子拼布？\n每次度假，吉恩缝制一件 T 恤，每件 T 恤都是被子的一片拼布。每行都由每年不同假期的拼布缝成。他每年度假 4 次，并且从 23 岁起一直这样做。现在他 34 岁。他一共有多少片被子拼布？\n答案：100片",
+        "ground_truth": 44,
+        "assessment": "The GENERATED ANSWER repeats the question twice and then provides an answer of \"100 pieces\". However, the GROUND TRUTH is \"44\".\n\nTo verify:  \n- Gene has been making quilts from T-shirts collected on vacations.\n- He goes on vacation 4 times per year.\n- He started at age 23 and is now 34.\n- The number of years he has been doing this: 34 - 23 = 11 years.\n- Total T-shirts (quilt pieces) = 4 vacations/year × 11 years = 44 pieces.\n\nThus, the correct number of quilt pieces is 44, not 100.\n\nThe GENERATED ANSWER gives \"100\", which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 62,
+        "question": "如果玛茜在同一家公司工作了 40 年，她能获得每年 50,000 美元的年度养老金。从 20 年后开始，她有权获得每年养老金价值的 5%。如果她在 30 年后辞职，那时她的年度退休金是多少？\nAnswer in English.",
+        "generated_answer": "If Marcy worked at the same company for 40 years, she would be eligible for an annual retirement pension of $50,000. Starting from the year after 20 years, she would be entitled to an annual pension worth 5% of the pension value. If she resigns after 30 years, her annual retirement pension would be $50,000.",
+        "ground_truth": 25000,
+        "assessment": "The GROUND TRUTH states that the annual retirement pension after 30 years is $25,000. The GENERATED ANSWER incorrectly claims it would be $50,000.\n\nLet’s analyze:  \n- Full pension ($50,000) is only available after 40 years.  \n- Starting from year 21 (after 20 years), she gets 5% of the pension value per additional year worked.  \n- From year 21 to year 30 is 10 years.  \n- 10 years × 5% = 50% of the full pension.  \n- 50% of $50,000 = $25,000.\n\nThus, the correct answer is $25,000, which matches the GROUND TRUTH. The GENERATED ANSWER says $50,000, which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 83,
+        "question": "丹种下了 3 个玫瑰丛。每个玫瑰丛有 25 棵玫瑰。每棵玫瑰有 8 根刺。一共有多少根刺？\nAnswer in English.",
+        "generated_answer": "There are 3 rose bushes planted. Each rose bush has 25 roses. Each rose has 8 thorns. In total, there are 3 x 25 = 75 thorns.",
+        "ground_truth": 600,
+        "assessment": "The generated answer calculates 3 × 25 = 75 thorns, but this is incorrect because it fails to multiply by the number of thorns per rose (8). The correct calculation is 3 × 25 × 8 = 600 thorns. The ground truth is 600, but the generated answer states 75, which is not equivalent in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 220,
+        "question": "卡门完成一个填字游戏需要 10 分钟，完成一个数独游戏需要 5 分钟。周末她完成了 3 个填字游戏和 8 个数独游戏。她玩这些游戏花了多少时间？\nAnswer in English.",
+        "generated_answer": "Carmen completed 10 minutes for each of the 3 fill-in-the-blank games and 5 minutes for each of the 8 numbered games. She spent a total of 10 minutes + 5 minutes = 15 minutes playing these games.",
+        "ground_truth": 70,
+        "assessment": "The GENERATED ANSWER states that Carmen spent a total of 15 minutes playing the games, which is incorrect. The correct calculation should be:  \n3 fill-in-the-blank games × 10 minutes = 30 minutes  \n8 sudoku games × 5 minutes = 40 minutes  \nTotal time = 30 + 40 = 70 minutes  \n\nThe GROUND TRUTH is \"70\", which represents the correct total time in minutes. The GENERATED ANSWER provides an incorrect total due to miscalculation and misunderstanding of how to sum the time for multiple games.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 16,
+        "question": "两列火车同时离开圣拉斐尔。它们开始向西行驶，并且都行驶了 80 英里。第二天，它们向北行驶，行驶了 150 英里。在这两天中，每列火车行驶了多长距离？\nAnswer in English.",
+        "generated_answer": "In the first day, both trains traveled 80 miles each.\nOn the second day, both trains traveled 150 miles each.\nSo, in total, they traveled 80 + 150 = 230 miles in the two days.",
+        "ground_truth": 230,
+        "assessment": "The GENERATED ANSWER explains that each train traveled 80 miles on the first day and 150 miles on the second day, resulting in a total of 230 miles over the two days. This matches the GROUND TRUTH, which is \"230\", as it represents the total distance each train traveled.\n\nBoth the GENERATED ANSWER and the GROUND TRUTH convey that each train traveled a total of 230 miles during the two days.\n\nAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 48,
+        "question": "翠西用一条长 4 英尺的金属丝给做菜园里的番茄做支撑。金属丝被剪成小段，每段长 6 英寸。她得到了多少段？\nAnswer in English.",
+        "generated_answer": "翠西剪下 6 英寸长的金属丝，每段长 4 英尺。因此，她得到了 6 英尺的金属丝。",
+        "ground_truth": 8,
+        "assessment": "The GENERATED ANSWER states that Trish cut 6-inch pieces from a 4-foot wire, but then incorrectly claims she ended up with 6 feet of wire, which is illogical and factually wrong. It also confuses the length of each segment (6 inches) with the total or number of segments. The GROUND TRUTH is \"8\", meaning she got 8 segments from the 4-foot wire (since 4 feet = 48 inches, and 48 ÷ 6 = 8). The generated answer does not provide the correct number of segments and contains clear factual and logical errors.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 145,
+        "question": "约翰有 10 公顷的菠萝地。每公顷有 100 棵菠萝。约翰每 3 个月收割菠萝一次。约翰一年内能收割多少菠萝？\nAnswer in English.",
+        "generated_answer": "John has 10 hectares of pineapple land. Each hectare has 100 pineapples. John harvests pineapples every 3 months. How many pineapples can John harvest in a year?",
+        "ground_truth": 4000,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates the question in English. The GROUND TRUTH is \"4000\", which is the correct calculated result (10 hectares × 100 pineapples per hectare = 1,000 pineapples per harvest; 4 harvests per year since every 3 months = 4 times a year; 1,000 × 4 = 4,000). Since the GENERATED ANSWER does not contain the number 4000 or any equivalent expression of the solution, it is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 56,
+        "question": "彼得计划这周去看电影。他总是花 7 美元买一张票，花 7 美元买一份爆米花。如果他这周有 42 美元，他能去看几次电影？\nAnswer in English.",
+        "generated_answer": "If Peter has 42 dollars this week, he can go to the movies 42 times.",
+        "ground_truth": 3,
+        "assessment": "The question states that Peter spends $7 on a movie ticket and $7 on popcorn each time he goes to the movies, totaling $14 per visit. With $42, the number of times he can go is 42 ÷ 14 = 3.\n\nThe generated answer claims he can go 42 times, which is incorrect. The ground truth is 3.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 61,
+        "question": "珍妮特为她的女儿买了一根胸针。她付了 500 美元的胸针材料费，再付 800 美元的制作费给珠宝师。之后，她付了总额的 10% 为胸针投保。她一共付了多少钱？\nAnswer in English.",
+        "generated_answer": "珍妮特付了 500 美元的胸针材料费，再付了 800 美元的制作费给珠宝师。之后，她付了总额的 10% 为胸针投保。她一共付了多少钱？\n\nFirst, let's find out how much she paid for the material:\n500 + 800 = 1300\n\nNext, let's find out how much she paid for the insurance:\n10% of 1300 = 1300 * 0.1 = 130\n\nNow, let's add up the costs:\n500 + 130 = 630\n\nSo, Janet paid a total of 630 dollars.",
+        "ground_truth": 1430,
+        "assessment": "The GENERATED ANSWER calculates the total cost incorrectly. It correctly computes the sum of material and labor costs (500 + 800 = 1300) and the insurance cost (10% of 1300 = 130). However, it then adds only 500 + 130 = 630, which is wrong. The correct total should be 1300 (material + labor) plus 130 (insurance), which equals 1430.\n\nThe GROUND TRUTH is 1430, but the GENERATED ANSWER states 630, which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 36,
+        "question": "特里每天吃 2 份酸奶。现在酸奶打折销售，4 份酸奶只需 5.00 美元。他 30 天花了多少钱买酸奶？\nAnswer in English.",
+        "generated_answer": "Try asking, \"How much does it cost to buy 30 cans of yogurt with a 40% discount?\"",
+        "ground_truth": 75,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or directly address the cost for 30 days. Instead, it suggests rephrasing the question with unrelated details (e.g., \"30 cans\" and \"40% discount\"), which changes the original problem. The GROUND TRUTH is \"75\", meaning $75, which is the correct total cost based on the given scenario.\n\nThe GENERATED ANSWER is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 139,
+        "question": "在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的四倍多 22 颗。如果有 12 颗蓝色口香糖球，粉色口香糖球有多少颗？\nAnswer in English.",
+        "generated_answer": "There are 22 more pink gumballs than blue gumballs in the machine. If there are 12 blue gumballs, there are 22 - 12 = 10 pink gumballs.",
+        "ground_truth": 70,
+        "assessment": "The question states that the number of pink gumballs is 22 more than four times the number of blue gumballs. Given that there are 12 blue gumballs, the correct calculation is:\n\n4 × 12 + 22 = 48 + 22 = 70.\n\nThe generated answer incorrectly interprets the relationship, claiming there are only 22 more pink gumballs than blue ones (without multiplying the blue count by 4), and then performs an incorrect subtraction (22 - 12 = 10). This leads to a wrong result of 10 pink gumballs.\n\nThe ground truth is 70, which is correct.\n\nThus, the generated answer does not match the meaning or value of the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 114,
+        "question": "贾马尔的手机能容纳的照片数量是布列塔尼手机的 6 倍。布列塔尼的手机能容纳的最大照片数量是贾马尔在动物园拍摄的鸭子照片中鸭子数量的 50 倍。如果贾马尔的手机能容纳 1,800 张照片，贾马尔在动物园拍摄的照片中能看到多少只鸭子？\nAnswer in English.",
+        "generated_answer": "If Jamal's phone can hold 1,800 photos, then the maximum number of photos that Jamal's phone can hold is 1,800 x 50 = 90,000 photos. If Jamal's phone can hold 6 times the photos that can be held by Brittany's phone, then Brittany's phone can hold 6 x 1,800 = 10,400 photos. If Jamal's phone can hold 1,800 photos, then the number of ducks he can see is 1,800 x 90,000 = 15,400,000 ducks.",
+        "ground_truth": 6,
+        "assessment": "The generated answer is incorrect and does not match the ground truth.\n\nLet’s analyze:\n\nQuestion (translated and interpreted correctly):\n- Jamal's phone can hold 6 times as many photos as Brittany's phone.\n- Brittany's phone can hold up to 50 times the number of ducks Jamal photographed at the zoo.\n- Jamal's phone can hold 1,800 photos.\n- We are to find how many ducks Jamal saw (i.e., the number of duck photos).\n\nStep-by-step correct logic:\n- Let D = number of ducks (duck photos).\n- Then Brittany's phone capacity = 50 × D.\n- Jamal's phone capacity = 6 × Brittany's capacity = 6 × (50 × D) = 300 × D.\n- But we are told Jamal's phone can hold 1,800 photos.\n- So: 300 × D = 1,800 → D = 1,800 / 300 = 6.\n\nThus, the correct answer is 6.\n\nGenerated answer:\n- Says Jamal's phone can hold 1,800 × 50 = 90,000 — this is wrong; misapplies the multiplier.\n- Says Brittany's phone holds 6 × 1,800 = 10,400 — also wrong; it should be less than Jamal’s, not more.\n- Then multiplies 1,800 × 90,000 to get over 15 million ducks — completely incorrect.\n\nThe generated answer is mathematically nonsensical and arrives at 15,400,000 ducks instead of 6.\n\nTherefore, it is not equivalent to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 226,
+        "question": "詹姆斯正在数他的宝可梦卡牌。他有 30 张火系、20 张草系和 40 张水系。如果他丢失了 8 张水系且购买了 14 张草系，一张随机选择的卡牌为水系的几率是多少（四舍五入到最接近的整数）？\nAnswer in English.",
+        "generated_answer": "If James lost 8 cards of the water type and bought 14 cards of the grass type, the probability of a randomly selected card being of the water type is approximately 4/5 (rounded to the nearest whole number).",
+        "ground_truth": 33,
+        "assessment": "The GENERATED ANSWER states that the probability is \"approximately 4/5 (rounded to the nearest whole number)\", which is 80% when converted to a percentage. However, this is incorrect.\n\nLet’s compute the correct probability:\n\n- Initial counts:\n  - Fire: 30\n  - Grass: 20\n  - Water: 40\n\n- After changes:\n  - Water: 40 - 8 = 32\n  - Grass: 20 + 14 = 34\n  - Fire: still 30\n\n- Total cards now: 30 + 34 + 32 = 96\n\n- Probability of selecting a water card: 32 / 96 = 1/3 ≈ 0.3333 → 33.33%, which rounds to **33%**.\n\nThe GROUND TRUTH is **33**, meaning 33%.\n\nThe GENERATED ANSWER says approximately 4/5 (i.e., 80%), which is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 20,
+        "question": "我有 10 升橙汁饮料，其中三分之二为水，而且我想把它加到 15 升菠萝汁饮料中（其中五分之三为水），但我在倒饮料时，洒掉了一升橙汁饮料。剩下的 24 升饮料中含有多少水？\nAnswer in English.",
+        "generated_answer": "I have 10 liters of orange juice drink, where two-thirds of it is water, and I want to add it to 15 liters of pineapple juice drink (where five-thirds of it is water). However, I spilled one liter of orange juice drink while pouring it. How much water is there in the remaining 24 liters of drink?",
+        "ground_truth": 15,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or calculate the amount of water in the remaining drink. Instead, it reformulates the question in English, which is not equivalent to the GROUND TRUTH answer \"15\", a numerical solution to the problem.\n\nTherefore, the GENERATED ANSWER is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 81,
+        "question": "查理有 10 张贴纸。他从商场的商店买了 21 张贴纸，并在生日上收到了 23 张贴纸。然后查理把其中 9 张贴纸给了他妹妹，并用 28 张贴纸装饰贺卡。查理还剩下多少张贴纸？\nAnswer in English.",
+        "generated_answer": "查理有 10 张贴纸。他从商场的商店买了 21 张贴纸，并在生日上收到了 23 张贴纸。然后，他把其中 9 张贴纸给了他妹妹，并用 28 张贴纸装饰贺卡。查理还剩下多少张贴纸？\n10 - 9 = 1\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸 = 1张\n查理有 1 张贴纸。\n1张贴纸",
+        "ground_truth": 17,
+        "assessment": "The GENERATED ANSWER incorrectly calculates the number of stickers Charlie has left. It only performs \"10 - 9 = 1\", which is wrong because it ignores the stickers bought (21) and received as gifts (23), and also fails to account for using 28 stickers for cards.\n\nCorrect calculation:\nStart: 10  \n+ Bought: 21 → 10 + 21 = 31  \n+ Received: 23 → 31 + 23 = 54  \n- Gave to sister: 9 → 54 - 9 = 45  \n- Used for cards: 28 → 45 - 28 = 17\n\nSo, Charlie has 17 stickers left.\n\nThe GROUND TRUTH is 17, but the GENERATED ANSWER claims 1, which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 242,
+        "question": "迈克曾是 5 个人的笔友。他和其中 2 个不再是笔友了。他们每个人每周寄 2 封 5 页长的信。他以相同的方式回应。他每 6 分钟能写一页。他一周花多少小时写信？\nAnswer in English.",
+        "generated_answer": "根据问题描述，我们可以计算出迈克一周写信的时间。\n\n首先，我们需要计算每周写 5 页的信需要的时间。每页 5 页，每周 5 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每周 25 页，每",
+        "ground_truth": 3,
+        "assessment": "The GENERATED ANSWER does not provide a correct or coherent solution to the problem. It contains a long, repetitive, and nonsensical sequence of phrases (\"每周 25 页\") without completing the calculation or converting minutes into hours. Although it starts with a reasonable premise, it fails to compute the final answer correctly.\n\nThe GROUND TRUTH is \"3\", which represents the number of hours Mike spends writing letters per week. To verify:\n\n- Mike is currently pen pals with 5 - 2 = 3 people.\n- Each person sends 2 letters per week, each 5 pages long → 2 × 5 = 10 pages received per person.\n- Mike responds to each letter → he writes 2 × 5 = 10 pages per person per week.\n- For 3 pen pals: 3 × 10 = 30 pages per week.\n- Writing speed: 6 minutes per page → 30 × 6 = 180 minutes.\n- 180 minutes = 180 / 60 = 3 hours.\n\nThus, the correct answer is 3 hours.\n\nThe GENERATED ANSWER does not reach this conclusion and instead degenerates into repetition. Therefore, it is not equivalent in meaning to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 125,
+        "question": "朱丽叶正在为在她家里举办的晚餐聚会做准备，她打算在晚餐上提供炖菜。她注意到塑料勺子用完了，所以她买了一包新勺子。后来，她的丈夫也买了一包 5 把新勺子，并把它们拿给朱丽叶。当朱丽叶做炖菜时，她用了 3 把勺子来试吃炖菜。后来，当她在摆放餐具时，一共有 12 把勺子。朱丽叶买的那包勺子里面有多少把勺子？\nAnswer in English.",
+        "generated_answer": "In the dinner party, Juliet is preparing a stew. She noticed that the plastic spoons were running out, so she bought a new set of spoons. Later, her husband also bought a new set of 5 spoons, and Juliet gave them to her. When Juliet was making the stew, she used 3 spoons to taste it. Later, when she was arranging the dishes, she had 12 spoons. How many spoons did Juliet buy?",
+        "ground_truth": 10,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates the question and asks how many spoons Juliet bought. The GROUND TRUTH is \"10\", which is the correct numerical solution to the problem. Since the GENERATED ANSWER fails to state the number of spoons Juliet bought and instead repeats the question, it does not convey the same meaning as the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 27,
+        "question": "辛西娅每天晚上吃一份冰淇淋。她买了数盒冰淇淋，每盒有 15 份冰淇淋，每盒 4.00 美元。60 天后，她买冰淇淋花了多少钱？\nAnswer in English.",
+        "generated_answer": "辛西娅每天晚上吃一份冰淇淋，每盒有 15 份冰淇淋，每盒 4.00 美元。如果她每天吃冰淇淋 60 天，那么她在 60 天内吃了 60 * 15 = 900 份冰淇淋。\n每盒冰淇淋的价格是 4.00 美元，那么她在 60 天内花了 900 * 4.00 = 3600 美元。\n因此，辛西娅在 60 天内花了 3600 美元。\nAnswer in English.",
+        "ground_truth": 16,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nThe question asks how much money Cynthia spent on ice cream after 60 days. She eats one serving per night, so she needs 60 servings in total. Each box contains 15 servings and costs $4.00. Therefore, she needs 60 / 15 = 4 boxes. The total cost is 4 * $4.00 = $16.00.\n\nThe GENERATED ANSWER incorrectly calculates that she ate 900 servings (60 * 15), which is wrong — it confuses servings per box with number of days. Then it multiplies 900 by $4.00, arriving at $3600, which is incorrect.\n\nThe correct answer is $16, which matches the GROUND TRUTH of \"16\".\n\nThus, the generated answer is false.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "拉姆使用很多钢笔。他发现他可以通过将五支空钢笔的墨水混合做成一支满墨的钢笔来省钱。如果他买了 25 支钢笔，然后在墨水快用完时用它们来制作新的钢笔，他会获得多少支满墨的钢笔？\nAnswer in English.",
+        "generated_answer": "If Ram buys 25 pens, and he uses them to make new pens when the ink runs out, he will get how many full pens?",
+        "ground_truth": 31,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or solve the problem. Instead, it reformulates the question without giving the correct result, which is 31 full pens based on the recycling process described in the QUESTION. Therefore, it does not match the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 201,
+        "question": "约翰在工作中获奖了。这个奖项包括 5,000 美元的 1 倍现金奖励和 5% 的加薪。如果他每周赚 2,000（一年中的每周），并且他在一年中的第一天获奖，则他在这一年赚多少钱？\nAnswer in English.",
+        "generated_answer": "John will earn $5,000 in cash bonus and a 5% raise. If he earns $2,000 per week (for the whole year), and he wins the award on the first day of the year, he will earn $5,000 in the first week of the year.",
+        "ground_truth": 114200,
+        "assessment": "The GENERATED ANSWER states that John will earn $5,000 in the first week of the year, which is incorrect. The $5,000 is a one-time cash bonus, not his weekly earnings. Additionally, the answer fails to calculate his total annual earnings.\n\nThe correct calculation based on the GROUND TRUTH should be:\n- Weekly salary: $2,000\n- Annual salary before raise: $2,000 × 52 = $104,000\n- 5% raise applies for the entire year since he got the award on the first day, so new weekly salary: $2,000 × 1.05 = $2,100\n- Annual salary after raise: $2,100 × 52 = $109,200\n- Plus $5,000 cash bonus\n- Total: $109,200 + $5,000 = $114,200\n\nThe GENERATED ANSWER does not compute the total annual income and incorrectly implies that he earns only $5,000 for the first week. It does not match the GROUND TRUTH value of 114200.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 74,
+        "question": "亚提在农贸市场有一个花卉摊位。他卖三种花：万寿菊、矮牵牛花和秋海棠。他通常一盆万寿菊卖 2.74 美元，一盆矮牵牛花 1.87 美元，一盆秋海棠 2.12 美元。亚提今天没有零钱，所以他决定对所有价格进行四舍五入处理。如果亚提卖出 12 盆万寿菊、9 盆矮牵牛花和 17 盆秋海棠，他会赚多少钱？\nAnswer in English.",
+        "generated_answer": "亚提今天没有零钱，所以他决定对所有价格进行四舍五入处理。如果亚提卖出 12 盆万寿菊、9 盆矮牵牛花和 17 盆秋海棠，他会赚多少钱？\n\n1. 假设亚提每盆万寿菊卖 2.74 美元，每盆矮牵牛花 1.87 美元，每盆秋海棠 2.12 美元。\n2. 假设亚提今天没有零钱，所以他决定对所有价格进行四舍五入处理。\n3. 假设亚提卖出 12 盆万寿菊、9 盆矮牵牛花和 17 盆秋海棠，他会赚多少钱？\n\n根据以上假设，亚提今天卖出 12 盆万寿菊、9 盆矮牵牛花和 17 盆秋海棠，他将赚到 12 盆万寿菊 * 2.74 美元（每盆万寿菊） + 9 盆矮牵牛花 * 1.87 美元（每盆矮牵牛花） + 17 盆秋海棠 * 2.12 美元（每盆秋海棠） = 100 美元。",
+        "ground_truth": 88,
+        "assessment": "The GENERATED ANSWER does not provide the correct calculation based on the rounding rule described in the question. The problem states that Ati has no change and decides to **round all prices**, implying rounding to the nearest whole dollar. However, the generated answer simply multiplies the original unrounded prices and claims the total is 100 USD, which is both mathematically incorrect and ignores the key instruction about rounding.\n\nLet’s analyze:\n\n- Price of marigold: $2.74 → rounds to $3\n- Price of petunia: $1.87 → rounds to $2\n- Price of begonia: $2.12 → rounds to $2\n\nNow calculate:\n- 12 marigolds × $3 = $36\n- 9 petunias × $2 = $18\n- 17 begonias × $2 = $34  \nTotal = $36 + $18 + $34 = **$88**\n\nThe GROUND TRUTH is **88**, which matches this correct rounded calculation.\n\nThe GENERATED ANSWER calculates using unrounded prices (and even miscalculates: 12×2.74 + 9×1.87 + 17×2.12 ≈ 91.19, not 100), and fails to apply rounding as specified. Therefore, it is not equivalent in meaning or result.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 31,
+        "question": "甘特试图数清罐子里的果冻豆的数量。他问自己的朋友们，他们认为罐子里有多少颗果冻豆。第一个人说有 80 颗。第二个人说的数量比第一个人说的数量的一半多 20 颗。第三个人说的数量比第一个人说的数量多 25%。他们猜测的数量的平均数是多少?\nAnswer in English.",
+        "generated_answer": "Gatte is trying to count the number of jellybeans in the jar. He asks his friends how many jellybeans are in the jar. The first person says there are 80 jellybeans. The second person says there are 20 more jellybeans than the first person's number, which is half the number the first person said. The third person says there are 25 more jellybeans than the second person's number. They guessed the average number of jellybeans in the jar is how many they thought there are.",
+        "ground_truth": 80,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer and instead rephrases the question incorrectly. It misrepresents the statements of the second and third persons:\n\n- The second person should say: \"20 more than half of the first person's guess\" → 20 + (80 / 2) = 20 + 40 = 60.\n- The third person should say: \"25% more than the first person's guess\" → 80 × 1.25 = 100.\n- The average of 80, 60, and 100 is (80 + 60 + 100) / 3 = 240 / 3 = 80.\n\nThe GROUND TRUTH correctly identifies that the average is 80.\n\nHowever, the GENERATED ANSWER fails to compute or state this. It incorrectly says the third person guessed 25 more than the second person, which is wrong. It also does not conclude with the correct average.\n\nTherefore, the meaning is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 195,
+        "question": "一支钢笔的价格是一支铅笔和一块橡皮擦的总价。一支铅笔 1.20 美元，一块橡皮擦 0.30 美元。8 根钢笔多少钱？\nAnswer in English.",
+        "generated_answer": "The price of a pen is the sum of the price of a pencil and a piece of eraser. A pencil costs 1.20 dollars, and a piece of eraser costs 0.30 dollars. How much does 8 pencils cost?",
+        "ground_truth": 12,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer but instead reformulates the question incorrectly, asking about the cost of 8 pencils instead of 8 pens. Furthermore, it fails to compute the correct value as required by the original question.\n\nThe GROUND TRUTH is \"12\", which correctly represents the total cost of 8 pens:  \n- Price of one pen = 1.20 (pencil) + 0.30 (eraser) = 1.50 dollars  \n- 8 pens = 8 × 1.50 = 12 dollars\n\nSince the GENERATED ANSWER does not match the meaning or the correct solution, it is not equivalent to the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 192,
+        "question": "汤姆每年种 10 棵树。他每年还砍掉 2 棵树。他从 50 棵树开始种。10 年后，30% 的树死亡。他剩下多少棵树？\nAnswer in English.",
+        "generated_answer": "汤姆从 50 棵树开始种树。他每年种 10 棵树，所以他种了 50 + 10 = 60 棵树。他每年砍掉 2 棵树，所以他种了 60 + 2 = 62 棵树。10 年后，30% 的树死亡，所以剩下 62 * 0.30 = 18 棵树。",
+        "ground_truth": 91,
+        "assessment": "The GENERATED ANSWER contains multiple errors in reasoning:\n\n1. It incorrectly calculates the total number of trees planted over 10 years. The correct calculation is:  \n   Starting trees: 50  \n   Trees planted over 10 years: 10 × 10 = 100  \n   Trees cut down over 10 years: 2 × 10 = 20  \n   So, net trees after 10 years: 50 + 100 - 20 = 130  \n\n2. Then, 30% of the trees die, so 70% remain:  \n   130 × 0.70 = 91 trees remaining.\n\nHowever, the GENERATED ANSWER:\n- Only adds one year’s planting and cutting instead of accounting for 10 years.\n- Incorrectly adds trees when cutting (should subtract, not add).\n- Applies 30% as the surviving portion instead of the dying portion.\n\nThus, the final answer in the GENERATED ANSWER (18) is wrong both in logic and result.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 138,
+        "question": "马克昨天参加了一场由 75 道题构成的测验。他以每小时完成 5 道题的速度完成了这场测验。今天，他以同样的速度参加了另一场 100 道题的测验。如果马克有 8 小时的时间完成第一场测验，并且有 6 小时的时间完成第二场测验，则他有多少道题没有作答？\nAnswer in English.",
+        "generated_answer": "Mark has 8 hours to complete the first test and 6 hours to complete the second test. If he completes the first test in 5 hours, he has 8 hours - 5 hours = 3 hours left for the second test. Therefore, he has 100 - 8 - 3 = 87 questions left to answer.",
+        "ground_truth": 105,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH.\n\nExplanation:\n\n- The question asks how many questions Mark did *not* answer across both tests, given his speed and time limits.\n- Mark works at 5 questions per hour.\n- First test: 75 questions. Time needed = 75 / 5 = 15 hours. But he only has 8 hours → He can answer 8 × 5 = 40 questions → 75 - 40 = 35 unanswered on first test.\n- Second test: 100 questions. Time available = 6 hours → Can answer 6 × 5 = 30 questions → 100 - 30 = 70 unanswered.\n- Total unanswered = 35 + 70 = 105.\n- The GROUND TRUTH is 105.\n- The GENERATED ANSWER calculates 87 incorrectly, using flawed logic (e.g., subtracting hours from question counts).\n\nThus, the meaning is not the same.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "乔茜在她 10 英亩的农场里种植葡萄。每英亩每年产出 5 吨葡萄，每吨葡萄产出 2 桶葡萄酒。她的农场每年产出多少桶葡萄酒？\nAnswer in English.",
+        "generated_answer": "乔茜的农场每年产出 10 英亩的葡萄，每英亩每年产出 5 吨葡萄，每吨葡萄产出 2 桶葡萄酒。因此，乔茜的农场每年产出 50 吨葡萄酒。",
+        "ground_truth": 100,
+        "assessment": "The GENERATED ANSWER states that Josie's farm produces 50 tons of wine per year, but the question asks for the number of barrels of wine produced, not tons. The calculation should be:\n\n10 acres × 5 tons per acre = 50 tons of grapes  \n50 tons × 2 barrels per ton = 100 barrels\n\nThe GROUND TRUTH is 100 (barrels), which is correct. However, the GENERATED ANSWER incorrectly reports 50 tons (a wrong unit and value) and does not give the correct number of barrels. Therefore, it is not equivalent in meaning to the ground truth.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 218,
+        "question": "阿德里安的年龄是哈丽特年龄的三倍，哈丽特的年龄是扎克的一半。如果哈丽特现在 21 岁，计算三年之后这三个人的平均年龄。\nAnswer in English.",
+        "generated_answer": "If Adrian is three times older than Harriet, and Harriet is half as old as Zack, then Harriet is 21 years old.\nIf Harriet is 21 years old, then the average age of the three people is 21 years.",
+        "ground_truth": 45,
+        "assessment": "The GROUND TRUTH is 45, which represents the average age of Adrian, Harriet, and Zack three years in the future.\n\nLet’s break it down:\n\n- Harriet is currently 21 years old.\n- Adrian is three times Harriet's age: 3 × 21 = 63 years old.\n- Harriet is half as old as Zack, so Zack is 2 × 21 = 42 years old.\n\nCurrent ages:\n- Harriet: 21\n- Adrian: 63\n- Zack: 42\n\nIn three years:\n- Harriet: 24\n- Adrian: 66\n- Zack: 45\n\nAverage age in three years: (24 + 66 + 45) / 3 = 135 / 3 = 45\n\nSo the correct answer is 45.\n\nNow, the GENERATED ANSWER claims that \"the average age of the three people is 21 years,\" which is incorrect. It fails to account for the future ages and miscalculates the average entirely.\n\nTherefore, the GENERATED ANSWER does not match the GROUND TRUTH in meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 162,
+        "question": "如果一袋大理石 20 美元，而且价格每两个月比原价上涨 20%。在 36 个月后，一袋大理石多少钱？\nAnswer in English.",
+        "generated_answer": "If a bag of marble costs $20, and the price increases by 20% every two months. After 36 months, how much does a bag of marble cost?",
+        "ground_truth": 92,
+        "assessment": "The GENERATED ANSWER does not provide a numerical answer or solve the problem. Instead, it reformulates the question without computing the final price after 36 months. The GROUND TRUTH is \"92\", which is the correct final cost after calculating the compounded price increases.\n\nSince the GENERATED ANSWER does not convey the same meaning as the GROUND TRUTH (it does not give the value 92 or any equivalent expression of the result), it is not equivalent.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 150,
+        "question": "史蒂夫和蒂姆决定看看谁能最快从学校回到家。史蒂夫比蒂姆住得远，所以他被允许骑自行车。史蒂夫住的地方离学校 3 英里，而且他骑自行车的速度为每分钟 440 英尺。蒂姆住的地方离学校 2 英里。如果蒂姆能以每分钟 264 英尺的速度骑滑板，则在失败者完成比赛前，获胜者将在自己家里等多长时间？\nAnswer in English.",
+        "generated_answer": "If Tim can ride his bike at a speed of 264 feet per minute, then he will be at his home in 1 minute and 264 feet. If Steve can ride his bike at a speed of 440 feet per minute, then he will be at his home in 1 minute and 440 feet. Therefore, the winner will be at his home in 1 minute and 264 feet before Tim's bike reaches his home.",
+        "ground_truth": 4,
+        "assessment": "The GENERATED ANSWER is incorrect and does not match the GROUND TRUTH.\n\nFirst, the problem involves calculating how long each person takes to get home and then finding the difference in their travel times (i.e., how long the winner waits before the loser finishes).\n\nLet’s analyze:\n\n- Steve: 3 miles from school = 3 × 5280 = 15,840 feet  \n  Speed: 440 feet per minute  \n  Time = 15,840 / 440 = 36 minutes\n\n- Tim: 2 miles from school = 2 × 5,280 = 10,560 feet  \n  Speed: 264 feet per minute  \n  Time = 10,560 / 264 = 40 minutes\n\nSo Steve arrives in 36 minutes, Tim in 40 minutes. Steve wins.\n\nThe time Steve waits = 40 - 36 = 4 minutes.\n\nThus, the correct answer is 4.\n\nThe generated answer incorrectly calculates the times (e.g., \"1 minute and 264 feet\" is not a valid time unit), misunderstands the speeds, and gives a nonsensical explanation. It does not yield the value 4 or an equivalent meaning.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 73,
+        "question": "席拉买了 5 部手机，每部 150 美元。她采用了 3 个月分期付款，每期的利率为 2%。在这三个月，席拉每个月要支付多少钱？\nAnswer in English.",
+        "generated_answer": "席拉购买了 5 部手机，每部 150 美元。她采用了 3 个月分期付款，每期的利率为 2%。在这三个月，席拉每个月要支付 150 * 3 = 450 美元。",
+        "ground_truth": 255,
+        "assessment": "The GENERATED ANSWER states that Xiaola will pay $450 per month, which is incorrect. It incorrectly calculates the monthly payment as 150 * 3 = 450, without accounting for the total cost of the phones (5 phones at $150 each = $750), nor does it correctly apply the 2% interest per period over 3 months. Furthermore, it claims she pays $450 *per month*, which is far above the total principal and inconsistent with any standard installment calculation.\n\nThe GROUND TRUTH is \"255\", which likely represents the correct total or monthly payment amount after proper calculation (though contextually it may be the monthly payment including interest, based on correct amortization or simple interest on the total).\n\nEven if the exact method isn't shown, the GENERATED ANSWER is clearly wrong in both logic and result. It misunderstands the problem entirely—calculating neither the correct total nor the correct monthly payment.\n\nTherefore, the GENERATED ANSWER does not match the meaning or correctness of the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 199,
+        "question": "马克是一位文字编辑。他每周为两个不同的出版商编辑相同数量的句子，而他们各以不同的每句价格付给他费用。出版商乙付给马克的费用是出版商甲支付的费用的两倍。马克每周编辑总数 1,000 个句子，出版商甲每个句子付给他 5 美分。马克每周赚多少美分？\nAnswer in English.",
+        "generated_answer": "Mark earns 5 cents for each sentence he edits. He edits 1,000 sentences per week, and he earns 5 cents for each sentence. Therefore, Mark earns 500 cents per week.",
+        "ground_truth": 7500,
+        "assessment": "The GENERATED ANSWER states that Mark earns 500 cents per week by only considering the rate from publisher A and applying it to all 1,000 sentences. However, the GROUND TRUTH is 7500 cents, which indicates that the correct calculation must account for both publishers.\n\nAccording to the question:\n- Mark edits 1,000 sentences total per week, split equally between two publishers → 500 sentences for publisher A and 500 for publisher B.\n- Publisher A pays 5 cents per sentence → 500 × 5 = 2500 cents.\n- Publisher B pays twice what publisher A pays → 10 cents per sentence → 500 × 10 = 5000 cents.\n- Total earnings: 2500 + 5000 = 7500 cents.\n\nThe GENERATED ANSWER incorrectly assumes all sentences are paid at 5 cents and ignores the higher rate from publisher B. Therefore, it does not match the GROUND TRUTH.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 172,
+        "question": "守车上有 4 只鸟。莎莉二号比瑞德奶奶大 3 岁。瑞德奶奶的年龄是莎莉四号的两倍。如果莎莉四号和莎莉三十二号一样大，而莎莉三十二号 8 岁，则 4 只鸟一共多少岁？\nAnswer in English.",
+        "generated_answer": "莎莉二号比瑞德奶奶大 3 岁，所以莎莉二号的年龄是 3 + 2 = 5 岁。\n莎莉四号的年龄是 5 + 2 = 7 岁。\n莎莉三十二号的年龄是 7 + 8 = 15 岁。\n因此，4 只鸟一共 15 + 4 = 19 岁。\nAnswer in English.",
+        "ground_truth": 51,
+        "assessment": "The question asks for the total age of 4 birds, but no information in the narrative provides the ages of the birds. The details about Sally II, Grandma Reed, Sally IV, and Sally XXXII are unrelated to the birds' ages. The generated answer fabricates calculations based on incorrect interpretations of the relationships and incorrectly assigns an age to the birds.\n\nThe ground truth is \"51\", but there is no logical path from the given information to determine the birds' ages, and the generated answer does not match this value nor provide a valid reasoning.\n\nAdditionally, the generated answer concludes with \"19 years\", which is not equivalent to the ground truth \"51\".\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 152,
+        "question": "卡尔买了 10 包曲奇饼。每包曲奇饼里面有 6 片曲奇饼。每片曲奇饼 0.10 美元。如果卡尔用 10 美元的钞票付款，他会收到多少零钱？\nAnswer in English.",
+        "generated_answer": "卡尔买了 10 包曲奇饼，每包曲奇饼里面有 6 片曲奇饼。每片曲奇饼 0.10 美元。如果卡尔用 10 美元的钞票付款，他会收到多少零钱？\n\n首先，我们需要计算卡尔花费的总金额。10 美元的钞票可以购买 10 个 0.10 美元的零钱。\n\n因此，卡尔花费的总金额是：\n\n10 美元（钞票） * 10 个零钱（0.10 美元） = 10 美元 * 0.10 美元 = 1 美元\n\n所以，卡尔收到的零钱是 1 美元。",
+        "ground_truth": 4,
+        "assessment": "The GENERATED ANSWER calculates the total cost incorrectly. It claims that 10 dollars times 0.10 dollars equals 1 dollar, which is mathematically and logically wrong. The correct calculation should be:\n\n- 10 packs × 6 cookies per pack = 60 cookies\n- 60 cookies × $0.10 per cookie = $6.00 total cost\n- $10.00 (paid) − $6.00 (cost) = $4.00 change\n\nThe GROUND TRUTH is \"4\", meaning $4.00 in change.\n\nThe GENERATED ANSWER states the change is $1, which is incorrect.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 248,
+        "question": "一位厨师买了 4 袋洋葱。每袋重 50 磅。一磅洋葱售价 1.50 美元。这位厨师花了多少钱？\nAnswer in English.",
+        "generated_answer": "这位厨师买了 4 袋洋葱，每袋重 50 磅。一磅洋葱售价 1.50 美元。因此，这位厨师花了 20 美元。",
+        "ground_truth": 300,
+        "assessment": "The question asks how much money the chef spent. The chef bought 4 bags, each weighing 50 pounds, so the total weight is:\n\n4 × 50 = 200 pounds.\n\nAt $1.50 per pound, the total cost is:\n\n200 × 1.50 = $300.\n\nThe generated answer states that the chef spent $20, which is incorrect. The correct answer (ground truth) is 300.\n\nAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 170,
+        "question": "军乐队正在订购新制服。每套制服由帽子、外套和长裤构成，每顶帽子 25 美元，每件外套的价格是帽子的三倍，每条长裤的价格是帽子和外套的平均价格。每套制服一共多少钱？\nAnswer in English.",
+        "generated_answer": "The cost of each set of uniform is $25. The price of each hat is three times the price of the hat, and the price of each coat is the average of the price of the hat and the price of the coat. The total cost of each set of uniform is $25. How much does each set of uniform cost?",
+        "ground_truth": 150,
+        "assessment": "The GENERATED ANSWER is not equivalent to the GROUND TRUTH. The generated answer incorrectly states that the cost of each set of uniform is $25, which contradicts the given information (each hat is $25, and other items cost more). It also repeats a nonsensical statement: \"the price of each hat is three times the price of the hat,\" which is illogical. Furthermore, it ends with a question instead of providing a numerical answer. The GROUND TRUTH is 150, which is the correct total cost of a uniform set based on the problem's logic:\n\n- Hat: $25  \n- Coat: 3 × $25 = $75  \n- Pants: average of $25 and $75 = ($25 + $75)/2 = $50  \n- Total: $25 + $75 + $50 = $150\n\nThe generated answer does not compute or state this correctly.\n\nAnswer: False",
+        "match": 0
+    }
+]

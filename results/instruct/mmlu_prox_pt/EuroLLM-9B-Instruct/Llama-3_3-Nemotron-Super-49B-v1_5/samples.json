@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Aqueles com maior probabilidade de experimentar depressão após uma perda são aqueles que\nA) Têm uma forte rede de apoio social\nB) Não têm histórico anterior de problemas de saúde mental\nC) Não experimentaram depressão anteriormente\nD) Têm uma renda alta\nE) Estão casados há menos de um ano\nF) São sobreviventes jovens\nG) Estão com boa saúde\nH) None\nI) None\nJ) None\nAnswer in English.",
+        "generated_answer": "The correct answer is B) Not having a history of previous mental health issues.",
+        "ground_truth": "F",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Suponha que os sindicatos sejam fortes o suficiente para negociar um aumento de 5% nos salários nominais. Quanto você espera que os preços aumentem? Nos Estados Unidos, a produtividade aumenta em média 2% por ano. Quanto os trabalhadores estão em melhor situação?\nA) 2%\nB) 0%, se o aumento salarial for completamente compensado por um aumento igual na produtividade\nC) 7%, assumindo uma diferença significativa entre o aumento salarial e o crescimento da produtividade, levando a uma inflação mais alta\nD) 5%\nE) 4%, considerando outros fatores econômicos que podem contribuir para um aumento de preços\nF) 2,5%, considerando um cenário onde o aumento salarial supera ligeiramente o efeito combinado do crescimento da produtividade e outros fatores inflacionários\nG) 3%\nH) 6%, assumindo que os preços sobem mais que o aumento salarial devido a outras pressões inflacionárias\nI) 1%\nJ) Os trabalhadores não estão em melhor situação; os preços sobem 5%, anulando o aumento salarial\nAnswer in English.",
+        "generated_answer": "The correct answer is C) 7%, assuming a significant difference between the wage increase and productivity growth, leading to higher inflation.\n\nThe reasoning behind this answer is as follows:\n\n- The unions negotiate a 5% increase in nominal wages.\n- The average annual productivity growth in the United States is 2%.\n- If the wage increase is not completely offset by productivity growth, it will lead to higher prices, as the increased labor costs will be passed on to consumers.\n- Assuming a significant difference between the wage increase and productivity growth, the price increase will be higher than the wage increase, resulting in a net loss for the workers.\n\nTherefore, the correct answer is C) 7%, as the workers are not in a better situation due to the higher inflation caused by the wage increase.",
+        "ground_truth": "G",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "A Companhia Colonial de Biscoitos paga por peça produzida à taxa de 80 centavos por peça. A Sra. Batter completou o seguinte número de peças aceitáveis na semana passada: segunda-feira 45, terça-feira 41, quarta-feira 49, quinta-feira 47 e sexta-feira 43. Qual foi o total de seus ganhos na semana?\nA) $160\nB) $195\nC) $220\nD) $185\nE) $175\nF) $200\nG) $225\nH) $210\nI) $165\nJ) $180\nAnswer in English.",
+        "generated_answer": "To find the total earnings, we need to calculate the earnings for each day and then add them up.\n\nThe earnings for each day are:\n- Monday: 45 pieces * $0.80/piece = $36\n- Tuesday: 41 pieces * $0.80/piece = $32.80\n- Wednesday: 49 pieces * $0.80/piece = $39.20\n- Thursday: 47 pieces * $0.80/piece = $37.60\n- Friday: 43 pieces * $0.80/piece = $34.40\n\nNow, let's add up the earnings for each day:\n$36 + $32.80 + $39.20 + $37.60 + $34.40 = $185\n\nThe total earnings for the week are $185.\n\nThe correct answer is D) $185.",
+        "ground_truth": "J",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Uma solução tampão é feita a partir de concentrações iguais de um ácido fraco e sua base conjugada. Qual é o efeito sobre seu pH ao dobrar o volume da solução tampão adicionando água?\nA) Faz o pH flutuar de forma imprevisível\nB) Faz o pH se igualar ao pH da água\nC) Faz o pH se tornar extremamente básico\nD) Neutraliza completamente o pH\nE) Diminui significativamente o pH\nF) Tem pouco efeito\nG) Aumenta significativamente o pH\nH) Dobra o valor do pH\nI) Altera o pH assintoticamente para o pKa do ácido\nJ) Faz o pH se tornar extremamente ácido\nAnswer in English.",
+        "generated_answer": "The correct answer is F) Has little effect.\n\nWhen the volume of a buffer solution is doubled by adding water, the pH of the solution will not change significantly. This is because the buffer capacity of the solution remains the same, as the ratio of the acid to its conjugate base remains constant. The addition of water will dilute the solution, but the pH will not be drastically affected.",
+        "ground_truth": "F",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8376,
+        "question": "Qual é o menor número de desvios padrão da média que devemos considerar se quisermos garantir que temos pelo menos 50% dos dados de uma distribuição?\nA) 3,1\nB) 2,1\nC) 1,9\nD) 2,0\nE) 0,5\nF) 2,5\nG) 0,67\nH) 3,5\nI) 1,0\nJ) 1,4\nAnswer in English.",
+        "generated_answer": "The answer is **B) 2.1**. Here's why:\n\n* **Standard Deviation (SD) and Percentiles:** The standard deviation measures the spread of data from the mean. A common rule of thumb is that about 68% of data falls within 1 SD of the mean, 95% within 2 SDs, and 99.7% within 3 SDs.\n\n* **50% Confidence:** To be 50% confident that at least 50% of the data falls within a certain range, we need to consider the tail of the distribution. This is where the 2.1 SD comes in.\n\n* **Calculating 2.1 SD:**  Since 50% is halfway between 25% and 75%, we can use the 25th and 75th percentiles (Q1 and Q3) as a rough estimate. The interquartile range (IQR) is Q3 - Q1.  \n\n* **Relating IQR to SD:**  The IQR is roughly 1.35 times the standard deviation.  Therefore, 2.1 SD would be approximately 2.1 * 1.35 = 2.81 SD.\n\n* **Rounding:**  Since we can't have a fraction of a standard deviation, we round up to the nearest whole number.\n\n\n\nLet me know if you'd like to explore more about standard deviation and percentiles!",
+        "ground_truth": "J",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "$\\lim_{x \\to c}((x^2 - 5x - 6) / (x - c))$ existe. Qual é o valor de c?\nA) [0, 5]\nB) [2, 8]\nC) [1, 7]\nD) [3, 9]\nE) [1, 5]\nF) [-3, 3]\nG) [-4, 2]\nH) [0, 6]\nI) [-2, 4]\nJ) [-1, 6]\nAnswer in English.",
+        "generated_answer": "To find the value of c, we need to determine the behavior of the function as x approaches c.\n\nThe function is:\n\nf(x) = (x^2 - 5x - 6) / (x - c)\n\nWe can factor the numerator:\n\nf(x) = ((x - 6)(x + 1)) / (x - c)\n\nNow, we can see that the function has a hole at x = c, unless c = 6 or c = -1.\n\nIf c = 6, the function becomes:\n\nf(x) = ((x - 6)(x + 1)) / (x - 6)\n\nThis function is not defined at x = 6, so c = 6 is not a valid option.\n\nIf c = -1, the function becomes:\n\nf(x) = ((x - 6)(x + 1)) / (x + 1)\n\nThis function is defined for all x, so c = -1 is a valid option.\n\nTherefore, the value of c is -1.\n\nThe correct answer is:\n\nJ) [-1, 6]",
+        "ground_truth": "J",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "Pode haver algum crescimento econômico no modelo simples de fluxo circular?\nA) O crescimento econômico no modelo simples de fluxo circular depende de fatores externos\nB) O crescimento econômico pode ocorrer se a população dentro do modelo aumentar\nC) Sim, se o modelo for ajustado para incluir comércio internacional\nD) O crescimento econômico é determinado pela confiança do consumidor dentro do modelo\nE) O modelo permite o crescimento econômico apenas através do aumento do investimento\nF) Sim, pode haver crescimento econômico no modelo simples de fluxo circular\nG) O modelo simples de fluxo circular automaticamente leva ao crescimento econômico\nH) O crescimento econômico só é possível se o modelo incluir avanços tecnológicos\nI) O crescimento econômico pode ocorrer com o aumento dos gastos governamentais dentro do modelo\nJ) Não, não pode haver crescimento econômico no modelo simples de fluxo circular\nAnswer in English.",
+        "generated_answer": "The correct answer is F) Yes, can be growth economic in the simple model of circular flow. This is because the model allows for growth through increased investment, which can lead to increased production and economic activity.",
+        "ground_truth": "J",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "Desde o início, eu escrevi para explicar minha própria vida para mim mesmo, e convidei quaisquer leitores que escolhessem fazer a jornada comigo para me acompanhar na corda bamba. Eu trabalharia sem rede e sem o barulho da multidão para me perturbar. A vista lá de cima é vertiginosa, instrutiva. Eu não registro o mundo exatamente como ele vem até mim, mas o transformo fazendo-o passar por um prisma de histórias fabulosas que coletei pelo caminho. Eu reúno histórias como um lepidopterista acumula seus espécimes cloroformizados de mariposas raras ou besouros da Costa Rica. As histórias são como recipientes que uso para interpretar o mundo para mim mesmo. ----------Pat Conroy Qual das seguintes alternativas melhor descreve a organização do texto?\nA) O autor explica a importância da narrativa para compreender o mundo.\nB) O autor narra uma série de eventos sem fornecer qualquer interpretação.\nC) O autor contrasta seus métodos de trabalho com outros de sua profissão.\nD) O autor descreve uma sequência de eventos que levam ao seu trabalho atual.\nE) O autor usa analogias para explicar sua experiência de uma ação específica.\nF) O autor discute o impacto de sua profissão em sua vida pessoal.\nG) O autor relata as várias fases de seu trabalho em uma disciplina específica.\nH) O autor usa suas experiências pessoais para criticar normas sociais.\nI) O autor faz uma comparação entre suas próprias experiências e as de outros em sua profissão.\nJ) O autor fornece várias explicações para tomar um determinado curso de ação.\nAnswer in English.",
+        "generated_answer": "The text is best described as a personal reflection on the author's approach to storytelling and how it helps them understand the world. The author uses a metaphor of a lepidopterist collecting rare specimens to describe how they gather and interpret stories, which are then used to \"interpret the world for myself.\" This suggests that the author is using storytelling as a tool for self-discovery and understanding.\n\nThe correct answer is E) The author uses analogies to explain his experience of a specific action.",
+        "ground_truth": "E",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 7808,
+        "question": "Qual equação representa 36 menos que um número, y, é igual a 13?\nA) 13 + y = 36\nB) 13 - y = 36\nC) y = 13 - 36\nD) 36 - y = 13\nE) 13 = y + 36\nF) y = 36 - 13\nG) y + 36 = 13\nH) y - 36 = 13\nI) 36 + y = –13\nJ) 36 = y + 13\nAnswer in English.",
+        "generated_answer": "The correct answer is D) 36 - y = 13.\n\nTo find the correct equation, let's analyze the given statement: \"36 less than a number, y, is equal to 13.\" This means that if we subtract y from 36, we get 13. Therefore, the correct equation is 36 - y = 13.",
+        "ground_truth": "H",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "A deficiência de lactase intestinal leva à má digestão da lactose, que posteriormente pode levar à intolerância à lactose, ou seja, causando sintomas clínicos. Bebês e crianças normalmente expressam níveis suficientes de lactase para não apresentar sintomas clínicos. Em geral, os adultos podem ser classificados como persistentes da lactase ou não persistentes da lactase. Qual é a porcentagem aproximada de não persistentes da lactase em todo o mundo?\nA) 30%-35%\nB) 80%-85%\nC) 90%-95%\nD) 55%-60%\nE) 5%-10%\nF) 45%-50%\nG) 60%-65%\nH) 10%-15%\nI) 20%-25%\nJ) 70%-75%\nAnswer in English.",
+        "generated_answer": "The correct answer is B) 80%-85%. \n\nThis is because lactase persistence is a genetic trait that varies in frequency across different populations. In general, lactase persistence is more common in populations with a history of dairy farming, such as Europeans and some African populations. In contrast, lactase non-persistence is more common in populations with a history of limited dairy consumption, such as many Asian and Native American populations.",
+        "ground_truth": "J",
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

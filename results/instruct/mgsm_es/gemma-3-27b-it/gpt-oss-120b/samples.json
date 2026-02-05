@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total amount to be repaid:** Janeth borrowed $2000 and needs to pay back an additional 10%, so the extra amount is $2000 * 0.10 = $200.  The total amount to repay is $2000 + $200 = $2200.\n\n2. **Calculate the total amount paid over 12 months:** Janeth pays $165 per month for 12 months, so she pays a total of $165 * 12 = $1980.\n\n3. **Calculate the remaining balance:** Subtract the total amount paid from the total amount to be repaid: $2200 - $1980 = $220.\n\n**Answer:** Janeth will have a balance of $220 left to pay after 12 months.\n",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"220\". The generated answer says remaining balance is $220 left to pay after 12 months. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Total cars that passed:** 20 cars passed in the second 15 minutes.\n2. **Cars remaining after exit:** Since 5 cars exited, the number of cars that passed through the congestion plus the 5 cars that exited must equal the original number of cars.\n3. **Let 'x' be the number of cars that passed in the first 15 minutes.**  So, x + 20 + 5 = 30\n4. **Solve for x:** x + 25 = 30  =>  x = 30 - 25 => x = 5\n\n**Answer:** 5 cars passed through the congestion in the first 15 minutes.\n",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"5\". Generated answer says \"5 cars passed through the congestion in the first 15 minutes.\" That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n* **Cost of the crayons:** Violeta needs 5 crayons at $2 each, so they will cost 5 * $2 = $10.\n* **Change:** She has $20 and the crayons cost $10, so her change will be $20 - $10 = $10.\n\n**Answer:** Violeta will receive $10 in change.\n",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"10\". Generated answer says Violeta will receive $10 in change. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": "Here's how to break down the cost of Chad's burrito:\n\n* **Base burrito:** $6.50\n* **Extra beef:** $2.00\n* **Extra cheese:** $1.00\n* **Guacamole:** $1.00\n* **Sauces (2 x $0.25):** $0.50\n* **Upgrade:** $3.00\n* **Total cost:** $6.50 + $2.00 + $1.00 + $1.00 + $0.50 + $3.00 = $14.00\n* **Gift card:** -$5.00\n* **Amount still owed:** $14.00 - $5.00 = $9.00\n\nChad still owes $9.00.",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"9\". The question: \"¿Cuánto dinero debe todavía?\" Answer in English. So answer should be $9. The generated answer says \"Chad still owes $9.00.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Calculate TV time on Monday and Tuesday:** Frankie watched 1 hour/night * 2 nights = 2 hours.\n\n2. **Calculate TV time on Thursday:** Frankie watched 1 hour + 30 minutes = 1.5 hours.\n\n3. **Calculate TV time on Friday:** Frankie watched 1 hour/episode * 2 episodes = 2 hours.\n\n4. **Calculate total TV time from Monday, Tuesday, Thursday, and Friday:** 2 hours + 1.5 hours + 2 hours = 5.5 hours.\n\n5. **Calculate TV time on Wednesday:** Frankie watched a total of 7 hours - 5.5 hours = 1.5 hours on Wednesday.\n\n6. **Calculate the number of 30-minute episodes on Wednesday:** Frankie watched 1.5 hours / 0.5 hours/episode = 3 episodes.\n\n**Answer:** Frankie watched 3 episodes of the 30-minute show on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"3\". Generated answer says \"Frankie watched 3 episodes of the 30-minute show on Wednesday.\" That's the same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n*   **Second month downloads:** 60 downloads * 3 = 180 downloads\n*   **Reduction in third month:** 180 downloads * 0.30 = 54 downloads\n*   **Third month downloads:** 180 downloads - 54 downloads = 126 downloads\n*   **Total downloads:** 60 downloads + 180 downloads + 126 downloads = 366 downloads\n\n**Answer:** The program had a total of 366 downloads during the three months.",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"366\". Generated answer says total downloads 366, with explanation. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": "Here's how to break down the calculation:\n\n* **Players per school:** 5 female players + 5 male players = 10 players\n* **Total players:** 10 players/school * 4 schools = 40 players\n* **Coaches per school:** 1 female coach + 1 male coach = 2 coaches\n* **Total coaches:** 2 coaches/school * 4 schools = 8 coaches\n* **Total people:** 40 players + 8 coaches = 48 people\n\nTherefore, all the schools have sent a total of **48** people.\n",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"48\". Generated answer explains and arrives at 48. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total cost:** $12 + $43 + $15 + $4 + $22 = $96\n2. **Divide the total cost by the number of people:** $96 / 3 = $32\n\n**Answer:** Each person paid $32.",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"32\". Generated answer says each person paid $32, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Elves who quit after being vomited on:** 60 elves * (1/3) = 20 elves\n2. **Elves remaining after the first round of quitting:** 60 elves - 20 elves = 40 elves\n3. **Elves who quit after being kicked:** 10 elves\n4. **Elves remaining after the second round of quitting:** 40 elves - 10 elves = 30 elves\n\n**Answer:** There are 30 elves left.",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"30\". Generated answer explains steps and concludes \"There are 30 elves left.\" That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": "Let $N$ be the number of letters that need stamps initially.\nLet $S$ be the number of letters that already have stamps initially.\nWe are given that $N = 60$.\nJennie puts stamps on one-third of the letters that need stamps. So, the number of letters she stamps is $\\frac{1}{3} \\times N = \\frac{1}{3} \\times 60 = 20$.\nAfter Jennie puts stamps on the letters, the number of letters that need stamps is $N - 20 = 60 - 20 = 40$.\nThe number of letters that have stamps is $S + 20$.\nWe are given that the number of letters that have stamps after Jennie puts stamps on some letters is 30.\nSo, $S + 20 = 30$.\nSubtracting 20 from both sides, we get $S = 30 - 20 = 10$.\nTherefore, there were 10 letters in the pile that already had stamps when Jennie started.\n\nFinal Answer: The final answer is $\\boxed{10}$",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". Generated answer explains and concludes 10. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

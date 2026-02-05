@@ -1,0 +1,82 @@
+[
+    {
+        "id": 788,
+        "question": "Melyik írja le a kémiai reakciót?\nA) cukor feloldása a teában\nB) napsugár melegítő a járdán\nC) olló darabokra vágja a papírt\nD) az emésztőrendszerben lévő sav emészti a táplálékot\nAnswer in English.",
+        "generated_answer": "A kémiai reakciót a D) az emésztőrendszerben lévő sav emészti a táplálékot válasz írja le. \n\nMagyarázat: \nEgy kémiai reakció olyan folyamat, amelynek során az anyagok kémiai kötéseket képeznek vagy bontanak, és új anyagok keletkeznek. Az emésztőrendszerben a savak és enzimek lebontják a táplálékot, ami kémiai reakciókat eredményez. \n\nA többi válasz nem ír le kémiai reakciót:\nA) A cukor feloldása a teában fizikai változás, mivel a cukor molekulái eloszlanak a vízben, de nem alakulnak át új anyaggá.\nB) A napsugár melegítő hatása a járdára hőátadás, ami fizikai folyamat.\nC) Az olló darabokra vágja a papírt mechanikai folyamat, amely a papír fizikai állapotának megváltozását eredményezi, de nem kémiai reakciót.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". Generated answer says: \"A kémiai reakciót a D) ... válasz írja le.\" So it selects D. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Melyik az alábbi megadott kémiai egyenlet, amely helyesen mutatja be a tömegmegmaradás törvényét?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "A helyes válasz A) Mg + 2HCl -> H_{2} + MgCl_{2}. \n\nA kémiai egyenletnek kiegyensúlyozottnak kell lennie, azaz a reagensek és a termékek atomjainak száma azonosnak kell lennie. Az A) egyenletben a magnézium (Mg) és a hidrogén (H) atomok száma megegyezik a reagensek és a termékek oldalán, a klór (Cl) atomok száma is megegyezik. \n\nA B) egyenletben a hidrogén (H) és az oxigén (O) atomok száma megegyezik, de a szén (C) atomok száma csak a termékek oldalán jelenik meg. \n\nA C) egyenletben a klór (Cl) és az oxigén (O) atomok száma nem egyezik meg a reagensek és a termékek oldalán. \n\nA D) egyenletben a hidrogén (H) atomok száma megegyezik, de az oxigén (O) atomok száma nem. \n\nEzért az A) egyenlet a helyes válasz, de figyelembe véve a tömegmegmaradás törvényét, a helyes egyenlet Mg + 2HCl -> H_{2} + MgCl_{2}.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which equation correctly shows law of conservation of mass? Options A-D. Ground truth answer: B. Generated answer says correct answer is A (with correction to Mg + 2HCl...). So it's not same. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Miért jelent ez energiamegtakarítást, ha a növényeket és a füvet kora reggel öntözik?\nA) Reggel több víz áll rendelkezésre.\nB) A hűvös reggelen kevesebb víz párolog el.\nC) Kora reggel felhasznált víz újrahasznosítható az délutáni öntözéshez.\nD) A fű csak reggel tud vizet felvenni.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nB) A hűvös reggelen kevesebb víz párolog el.\n\nThis is because during the early morning hours, the temperature is typically cooler, and the sun's radiation is less intense, resulting in less evaporation of water. As a result, more water is absorbed by the plants and grass, reducing the amount of water lost to evaporation. This leads to water conservation and more efficient use of water resources.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B and explains why. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 530,
+        "question": "A litoszféra lemezek mozgása földi tájakat alakít ki. Melyik földi táj keletkezik, ha a lemezek egymásra hajolnak?\nA) egy földrengés\nB) egy hegylánc\nC) egy folyó\nD) egy vulkán\nAnswer in English.",
+        "generated_answer": "The correct answer is B) egy hegylánc.\n\nWhen tectonic plates converge, or move towards each other, they can collide and push up the Earth's crust to form mountains. This process is known as orogenesis, and it can create mountain ranges such as the Himalayas or the Rocky Mountains.\n\nSo, the correct answer is B) egy hegylánc, which is Hungarian for \"a mountain range\".",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"B\". Generated answer says \"The correct answer is B) egy hegylánc.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "Mi a legvalószínűbb első lépés diákoknak, ha újrahasznosítási projektbe kezdenek?\nA) égetjék el az anyagokat tábortüzesben\nB) szállítsák az anyagokat szemétlerakóba\nC) dobják az anyagokat egy szemetesbe\nD) rendszerezzék az anyagokat műanyagokra, papírokra és konzervekre\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nD) Rendezzék az anyagokat műanyagokra, papírokra és konzervekre.\n\nMagyarul: A legvalószínűbb első lépés diákoknak, ha újrahasznosítási projektbe kezdenek, az, hogy rendszerezzék az anyagokat különböző kategóriákba, például műanyagok, papírok és konzervek. Ez segít abban, hogy azonosítsák, mely anyagok újrahasznosíthatók, és melyek nem, és hogy megtervezzék a további lépéseket az újrahasznosítási folyamatban.\n\nA többi opció helytelen, mert:\n\nA) Az anyagok tábortűzben való elégetése nem megfelelő és káros lehet a környezetre.\n\nB) Az anyagok szemétlerakóba szállítása nem újrahasznosítás, hanem hulladéklerakás.\n\nC) Az anyagok szemetesbe dobása semmilyen újrahasznosítási erőfeszítést nem jelent.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says correct answer is D, explains it. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Ausztráliában délben a hőmérséklet akár 110°F (43°C) fölé is emelkedhet. Ahhoz, hogy testüket hűvösen tartsák, a kenguruk nyalogatják karjukat, vastag nyálréteggel vonják be azt. Ahogy a nyál elpárolog, hűtőmechanizmusként működik és csökkenti a kenguru testhőmérsékletét. Melyik kifejezés írja le legjobban ezt a tevékenységet?\nA) természetes kiválasztódás\nB) védelmi mechanizmus\nC) szerkezeti alkalmazkodás\nD) viselkedési alkalmazkodás\nAnswer in English.",
+        "generated_answer": "The correct answer is D) viselkedési alkalmazkodás (behavioral adaptation).\n\nThis is because the kenguru's behavior of licking its arms and covering them with a thick layer of saliva is an example of a behavioral adaptation, which is a learned or instinctual behavior that helps an organism survive and thrive in its environment. In this case, the kenguru's behavior helps to regulate its body temperature and prevent overheating in the hot Australian climate.\n\nThe other options are not correct because:\n\n* A) Természetes kiválasztódás (natural selection) refers to the process by which populations evolve over time through the survival and reproduction of individuals with favorable traits.\n* B) Védelmi mechanizmus (defense mechanism) refers to a physical or behavioral trait that helps an organism protect itself from predators or other threats, but it doesn't necessarily relate to temperature regulation.\n* C) Szerkezeti alkalmazkodás (structural adaptation) refers to a physical trait or characteristic that helps an organism survive and thrive in its environment, such as the development of thick fur or a waterproof coat. In this case, the kenguru's behavior is not a physical trait, but rather a learned behavior.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"D\". The generated answer says the correct answer is D) behavioral adaptation, explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Amikor egy személy ejtőernyőzik egy repülőgépből, kb. 67 méter / másodperces sebességgel halad. Amikor kihúzza a kötelet, és kinyílik a siklóernyője, kb. 3 méter / másodperc sebességre lassul. Ha a sebességet és az gyorsulást pozitívnak tekintjük mielőtt kinyílik a siklóernyője, hogyan változik a sebessége és az gyorsulása, amikor kinyílik a siklóernyője?\nA) A sebesség és az gyorsulás is pozitív marad.\nB) A sebesség és az gyorsulás is negatív lesz.\nC) A sebesség pozitív marad, de az gyorsulás negatívvá válik.\nD) A sebesség negatívvá válik, de az gyorsulás pozitív marad.\nAnswer in English.",
+        "generated_answer": "A válasz C) A sebesség pozitív marad, de az gyorsulás negatívvá válik. \n\nIndoklás: Amikor a személy ejtőernyőzik, a sebessége pozitív, mivel lefelé halad. Amikor kinyílik a siklóernyője, a levegőellenállás hatására a sebessége csökken, de továbbra is lefelé halad, tehát a sebessége továbbra is pozitív marad. Azonban az gyorsulása, amely a sebességváltozás mértéke, negatívvá válik, mivel a sebessége csökken. Ez azt jelenti, hogy a személy sebessége továbbra is pozitív, de az gyorsulása negatívvá válik, mivel a sebessége csökken.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says \"A válasz C) A sebesség pozitív marad, de az gyorsulás negatívvá válik.\" That's essentially answer C. So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 621,
+        "question": "Néhány béka faj annak érdekében, hogy elkerülje a kiszáradást, beszalad a sárba maga alá. A békák hibernációs állapotba kerülnek. Melyik lenne a legvalószínűbb jel arra, hogy a békák előbújjanak a sárból?\nA) az órák számának csökkenése\nB) a levegő hőmérsékletének emelkedése\nC) a csapadékmennyiség növekedése\nD) a légnyomás csökkenése\nAnswer in English.",
+        "generated_answer": "The correct answer is C) a csapadékmennyiség növekedése.\n\nMany frog species, such as the African clawed frog and the American bullfrog, burrow into the mud to escape desiccation and enter a state of dormancy or torpor. The most likely cue for these frogs to emerge from the mud is an increase in precipitation, which would signal the presence of water and make it safe for them to come out and start foraging and breeding.\n\nThe other options are less likely to trigger the frogs' emergence:\n\nA) A decrease in daylight hours would actually signal the approach of winter, which would not be a cue for the frogs to emerge.\n\nB) An increase in air temperature might be a cue for some frog species, but it's not as direct a cue as the presence of water.\n\nD) A decrease in atmospheric pressure might be associated with changing weather patterns, but it's not a direct cue for the frogs to emerge from the mud.\n\nSo, the correct answer is C) a csapadékmennyiség növekedése, or an increase in precipitation.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". The generated answer says the correct answer is C) a csapadékmennyiség növekedése. That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 976,
+        "question": "Egy kőréteget találtak, amelyben egy hal és egy szárazföldi dinoszaurusz fosszíliája nagyon közel található egymáshoz. Mi a legvalószínűbb magyarázat erre?\nA) A hal és a dinoszaurusz mindketten egy part közelében éltek.\nB) Az óriási hullám messze szállította a halat a szárazföldre.\nC) A hal és a dinoszaurusz nagyon különböző időpontokban lettek fosszilizálva.\nD) A dinoszaurusz úszott egyik kontinensről a másikra, amikor meghalt.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\nA) A hal és a dinoszaurusz mindketten egy part közelében éltek.\n\nThis is the most likely explanation because it is common for fossils of different species to be found together in the same rock layer if they lived in the same environment. In this case, the presence of both a fish and a terrestrial dinosaur in the same rock layer suggests that they lived in a coastal or riverine environment, where the water met the land. This would have allowed them to coexist and eventually become fossilized together.\n\nThe other options are less likely:\n\n* B) Az óriási hullám messze szállította a halat a szárazföldre: While it's possible that a large wave could have carried a fish onto land, it's unlikely that the fish would have ended up in the same rock layer as a dinosaur fossil.\n* C) A hal és a dinoszaurusz nagyon különböző időpontokban lettek fosszilizálva: If the fish and dinosaur were fossilized at different times, it's unlikely that they would have ended up in the same rock layer.\n* D) A dinoszaurusz úszott egyik kontinensről a másikra, amikor meghalt: This is highly unlikely, as dinosaurs were not capable of swimming long distances, and it's unlikely that a dinosaur would have been able to swim between continents.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says the correct answer is A, with explanation. So they match. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 733,
+        "question": "Melyik lehet a legjobb módja annak, hogy nagy mennyiségű szenet szállítsunk egy kentuckyi bányából egy arizonai erőműbe?\nA) hajóval\nB) vonattal\nC) teherautóval\nD) repülővel\nAnswer in English.",
+        "generated_answer": "A legjobb válasz B",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth: \"B\". Generated answer: \"A legjobb válasz B\". That means \"The best answer is B\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

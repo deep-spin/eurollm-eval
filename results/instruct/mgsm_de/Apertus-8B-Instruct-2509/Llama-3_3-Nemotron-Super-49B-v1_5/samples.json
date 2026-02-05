@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?\nAnswer in English.",
+        "generated_answer": "To calculate Janeth's remaining balance after 12 months, we first need to determine the total amount she owes, including the 10% interest.\n\n1. Calculate the total amount owed:\n   - Principal amount: $2000\n   - Interest rate: 10%\n   - Total amount owed = Principal amount + (Principal amount * Interest rate)\n   - Total amount owed = $2000 + ($2000 * 0.10)\n   - Total amount owed = $2000 + $200\n   - Total amount owed = $2200\n\n2. Calculate the total amount paid over 12 months:\n   - Monthly payment: $165\n   - Total payments over 12 months = Monthly payment * 12\n   - Total payments over 12 months = $165 * 12\n   - Total payments over 12 months = $1980\n\n3. Calculate the remaining balance:\n   - Remaining balance = Total amount owed - Total payments over 12 months\n   - Remaining balance = $2200 - $1980\n   - Remaining balance = $220\n\nSo, Janeth's remaining balance after 12 months will be $220.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many cars have passed through the traffic jam in the first 15 minutes.\n\n1. **Initial number of cars**: 30\n2. **Cars passing through in the first 15 minutes**: 20\n3. **Cars that exit the traffic jam**: 5\n\nTo find the number of cars that have passed through the traffic jam in the first 15 minutes, we subtract the number of cars that exited from the total number of cars.\n\nNumber of cars passing through = Total cars - Cars exiting\n= 30 - 5\n= 25\n\nSo, 25 cars have passed through the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Violetta will neue Farbstifte kaufen. Sie braucht sie in 5 verschiedenen Farben und sie legte 20 $ für diesen Kauf bereit. Ein Farbstift kostet 2 $. Wie viel Wechselgeld wird sie bekommen?\nAnswer in English.",
+        "generated_answer": "Violetta will 5 different colored pencils. She has 20 dollars for this purchase. Each pencil costs 2 dollars. To find out how much change she will get, we need to calculate the total cost of the pencils and subtract it from the amount she has.\n\nTotal cost of 5 pencils = 5 * 2 = 10 dollars\n\nChange = 20 - 10 = 10 dollars\n\nSo, Violetta will get 10 dollars in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad bestellte Mach-deinen-eigenen-Burrito zum Mittagessen. Der einfache Burrito kostet 6,50 $. Er fügt extra Fleisch für 2,00 $, extra Käse für 1,00 $, Avocado für 1,00 $ und 2 Saucen für jeweils 0,25 $ hinzu. Er beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen. Er hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Wie viel schuldet er noch?\nAnswer in English.",
+        "generated_answer": "To calculate how much Chad still owes, we need to add up the cost of his burrito and the extra items he added.\n\n1. The base cost of the burrito is $6.50.\n2. He added extra meat for $2.00.\n3. He added extra cheese for $1.00.\n4. He added avocado for $1.00.\n5. He added 2 sauces for $0.50 (2 x $0.25).\n6. He added a $3.00 upgrade for chips and a drink.\n\nNow, let's add up all these costs:\n$6.50 (burrito) + $2.00 (meat) + $1.00 (cheese) + $1.00 (avocado) + $0.50 (sauces) + $3.00 (upgrade) = $14.00\n\nChad has a $5.00 gift card, so we subtract that from the total:\n$14.00 (total cost) - $5.00 (gift card) = $9.00\n\nTherefore, Chad still owes $9.00.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Frankie sieht jeden Abend, nachdem er seine Hausaufgaben gemacht hat, fern. Am Montag und am Dienstag hat er jeweils eine 1-stündige Folge seiner Lieblingssendung angeschaut. Am Mittwoch hat er einige Folgen einer 30-minütigen Sendung angeschaut. Am Donnerstag hatte er seine Hausaufgaben früher erledigt und eine 1-stündige Folge und eine 30-minütige Show angeschaut. Am Freitag durfte er wegen des Wochenendes später aufbleiben und hat zwei 1-stündige Folgen angeschaut. Wenn er insgesamt 7 Stunden ferngesehen hat, hat er am Mittwoch wie viele 30 Minuten lange Folgen angeschaut?\nAnswer in English.",
+        "generated_answer": "To solve this, let's break down the information given:\n\n- Monday and Tuesday: 1 hour each\n- Wednesday: some 30-minute shows\n- Thursday: 1 hour and some 30-minute shows\n- Friday: 2 hours\n\nThe total time spent watching TV is 7 hours. We need to find out how many 30-minute shows Frankie watched on Wednesday.\n\nLet's calculate the total time spent watching TV on the other days:\n\n- Monday: 1 hour\n- Tuesday: 1 hour\n- Thursday: 1 hour (1-hour show) + some 30-minute shows\n- Friday: 2 hours\n\nNow, let's add up these times:\n\n1 hour (Monday) + 1 hour (Tuesday) + 1 hour (Thursday) + 2 hours (Friday) = 5 hours\n\nSince the total time spent watching TV is 7 hours, the remaining time must be from Wednesday:\n\n7 hours total - 5 hours from other days = 2 hours\n\nSince each 30-minute show is 0.5 hours, we can divide the remaining 2 hours by 0.5 to find out how many 30-minute shows Frankie watched on Wednesday:\n\n2 hours / 0.5 hours per show = 4 shows\n\nSo, Frankie watched 4 30-minute shows on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "Ein neues Programm wurde 60-mal im ersten Monat heruntergeladen. Im zweiten Monat lag die Anzahl der Downloads dreimal so hoch wie die Anzahl der Downloads im ersten Monat, brach dann aber im dritten Monat um 30 % ein. Wie oft wurde das Programm insgesamt während dieser drei Monate heruntergeladen?\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break it down step by step:\n\n1. **First Month:** The program was downloaded 60 times.\n2. **Second Month:** The number of downloads was three times the first month. So, 60 * 3 = 180 downloads.\n3. **Third Month:** The number of downloads was 30% less than the second month. To find this, we calculate 180 * 0.7 = 126 downloads.\n\nNow, let's add up the total number of downloads over the three months:\n60 (first month) + 180 (second month) + 126 (third month) = 366\n\nSo, the program was downloaded a total of 366 times during these three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Vier Schulen treten in einem Basketballturnier gegeneinander an. Jede Schule hat ein Mädchenbasketballteam und ein Jungenbasketballteam geschickt und jedes Team hat 5 Spieler. Alle Schulen haben auch einen Trainer für jedes Team mitgeschickt. Wie viele Personen haben die Schulen insgesamt geschickt?\nAnswer in English.",
+        "generated_answer": "To determine the total number of people sent by the schools, we need to consider both the teams and the trainers.\n\nEach school has:\n- 1 Mädchenbasketballteam with 5 players\n- 1 Jungenbasketballteam with 5 players\n- 1 Trainer for the Mädchenbasketballteam\n- 1 Trainer for the Jungenbasketballteam\n\nSo, each school sends:\n- 5 players (Mädchen + Jungen)\n- 2 trainers (1 for each team)\n\nTotal per school: 5 + 2 = 7 people\n\nSince there are 4 schools, we multiply the total per school by 4:\n4 schools * 7 people/school = 28 people\n\nTherefore, the schools have sent a total of 28 people to the tournament.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "Isabelle kaufte Partyzubehör für die Geburtstagsparty ihrer kleinen Schwester. Sie gab 12 $ für Kuchenzutaten, 43 $ für Geburtstagsgeschenke, 15 $ für Dekorationen, 4 $ für Einladungen und 22 $ für Tüten mit Leckereien für die Partygäste aus. Sie teilt die Kosten zu gleichen Teilen mit ihren beiden Eltern durch drei. Wie viel Dollar zahlte jede Person?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we first need to calculate the total cost of the party supplies.\n\nTotal cost = $12 (Kuchenzutaten) + $43 (Geburtstagsgeschenke) + $15 (Dekorationen) + $4 (Einladungen) + $22 (Tüten mit Leckereien) = $96\n\nIsabelle wants to split the cost equally with her two parents, so there are three people in total. To find out how much each person paid, we divide the total cost by 3:\n\n$96 ÷ 3 = $32\n\nSo each person paid $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa stellt 60 Saisonarbeiter ein, damit sie im Weihnachtsdorf ihres Kaufhauses die Elfen spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben, dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to follow the steps of the process described.\n\n1. Initially, Nissa hires 60 Elves.\n2. A third of the Elves (60 / 3 = 20) quit after being spit on by children.\n3. This leaves 60 - 20 = 40 Elves.\n4. Then, 10 of the remaining Elves (40 / 10 = 4) quit after being kicked by children.\n5. This leaves 40 - 4 = 36 Elves.\n\nSo, there are 36 Elves still working in the Christmas village.",
+        "ground_truth": 30,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 124,
+        "question": "Jennie hilft im Büro ihrer Mutter. Sie hat einen Stapel mit 60 Briefen, die frankiert werden müssen und einen bereits frankierten Briefstapel. Sie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Wenn sich jetzt in dem Stapel mit den bereits frankierten Briefen 30 Briefe befinden, waren wie viele Briefe in dem Stapel, als Jennie angefangen hat?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine the initial number of letters in the stack that needed to be franked.\n\n1. Jennie has a stack of 60 letters that need to be franked.\n2. She puts a stamp on one-third of these letters.\n3. The stack of already franked letters has 30 letters.\n\nLet's calculate the number of letters that needed to be franked:\n\nOne-third of 60 letters is:\n\\[ \\frac{60}{3} = 20 \\text{ letters} \\]\n\nSo, 20 letters needed to be franked. \n\nSince the stack of already franked letters has 30 letters, the remaining letters must be the ones that were already franked. Therefore, the initial number of letters that needed to be franked is 20.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

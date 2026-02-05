@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to calculate the total amount of money that Janice will pay over 12 months and then subtract that from the original amount she borrowed plus the 10% interest.\n\n1. Calculate the total amount Janice will pay over 12 months:\n   Janice plans to pay $165 per month for 12 months.\n   Total amount paid = $165 * 12 = $1,980\n\n2. Calculate the 10% interest on the original amount borrowed:\n   Original amount borrowed = $2,000\n   10% interest = $2,000 * 0.10 = $200\n\n3. Add the interest to the original amount borrowed to get the total amount Janice needs to pay:\n   Total amount to pay = $2,000 + $200 = $2,200\n\n4. Subtract the total amount paid over 12 months from the total amount to pay to find the remaining balance:\n   Remaining balance = $2,200 - $1,980 = $220\n\nSo, after 12 months of paying $165 per month, Janice will still owe $220. \n\nThe answer is $220.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "汽车在高速公路上排起长龙。有些车在堵车的前 15 分钟就开过去了，然后又有 20 辆车在堵车的剩下 15 分钟里开过去。排队的车中有 5 辆车驶出了高速出口，所以他们不需要从堵车的地方开过去。如果高速公路上最早有 30 辆车，前 15 分钟有多少辆车从堵车的地方开过去？\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many cars passed through the congested area in the first 15 minutes.\n\n1. We know that 5 cars exited the highway via an off-ramp and thus did not pass through the congested area.\n2. We also know that 20 cars passed through the congested area in the remaining 15 minutes.\n3. To find out how many cars passed through the congested area in the first 15 minutes, we need to subtract the 5 cars that exited the highway from the total number of cars that passed through the congested area in the entire 30-minute period.\n\nLet's denote the total number of cars that passed through the congested area as \"T\". We know that T = 20 (cars in the remaining 15 minutes) + 5 (cars that exited the highway and thus did not pass through the congested area in the first 15 minutes).\n\nSo, T = 20 + 5 = 25 cars.\n\nNow, to find out how many cars passed through the congested area in the first 15 minutes, we subtract the 5 cars that exited the highway:\n\nCars in the first 15 minutes = Total cars that passed through the congested area - Cars that exited the highway\n= 25 - 5\n= 20 cars.\n\nTherefore, 20 cars passed through the congested area in the first 15 minutes. \n\nThe answer is 20.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "维奥莱塔想买新的蜡笔。她需要 5 种不同颜色的蜡笔，并为这次购买准备了 20 美元。一支蜡笔 2 美元。她会收到多少零钱？\nAnswer in English.",
+        "generated_answer": "To determine how much change Violetta will receive, we first need to calculate the total cost of the 5 different colored crayons.\n\nEach crayon costs $2, so for 5 crayons, the total cost would be:\n5 crayons * $2 per crayon = $10\n\nVioletta has $20 to spend, so we need to subtract the total cost from her budget to find out how much change she will receive:\n$20 (budget) - $10 (total cost) = $10\n\nTherefore, Violetta will receive $10 in change. \n\nSo, the answer is 10 dollars.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "查德点了一个自制卷饼当午餐。基础卷饼为 6.50 美元。他额外添加了 2.00 美元的肉、1.00 美元的奶酪、1.00 美元的牛油果和 2 份各 0.25 美元的酱汁。他决定多花 3.00 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 5.00 美元的礼品卡可在结账时使用。他还需付多少？\nAnswer in English.",
+        "generated_answer": "To calculate the total cost of Chad's lunch, we need to add up the cost of the base taco, the additional items, and the upgrade, then subtract the value of the gift card.\n\n1. Base taco: $6.50\n2. Additional items:\n   - Meat: $2.00\n   - Cheese: $1.00\n   - Avocado: $1.00\n   - Sauce (2 x $0.25): $0.50\n   Total additional items: $2.00 + $1.00 + $1.00 + $0.50 = $4.50\n\n3. Upgrade: $3.00 (for fries and a drink)\n\n4. Total cost before gift card: $6.50 (base taco) + $4.50 (additional items) + $3.00 (upgrade) = $14.00\n\n5. Gift card value: $5.00\n\n6. Total cost after using gift card: $14.00 (total cost before gift card) - $5.00 (gift card value) = $9.00\n\nSo, Chad needs to pay $9.00 for his lunch.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "弗兰基每天晚上做完作业后看电视。周一和周二，他每晚看一集自己最喜欢的节目，一集 1 小时。周三，他看了几集每集 30 分钟的节目。周四，他提早做完了作业，看了一集每集 1 小时的节目和一集每集 30 分钟的节目。周五，因为有周末，他可以熬夜，所以他看了 2 集每集 1 小时的节目。如果他一共看了 7 小时的电视，他在周三看了多少集每集 30 分钟的节目？\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to calculate the total hours of TV Frank watched each day and then use that information to determine how many 30-minute episodes he watched on Wednesday.\n\n**Step 1: Calculate total hours watched each day**\n\n- **Monday and Tuesday**: 1 hour per night, so 2 nights = 2 hours\n- **Wednesday**: He watched 30-minute episodes. Since 1 hour = 60 minutes, 30 minutes = 0.5 hours. Let's say he watched x episodes. So, 0.5x hours.\n- **Thursday**: 1 hour (1-hour episode) + 0.5 hours (30-minute episode) = 1.5 hours\n- **Friday**: 2 hours (2 1-hour episodes)\n\n**Step 2: Set up the equation for total hours watched**\n\nTotal hours = 2 (Monday and Tuesday) + 0.5x (Wednesday) + 1.5 (Thursday) + 2 (Friday)\n\nTotal hours = 2 + 0.5x + 1.5 + 2\n\nTotal hours = 5.5 + 0.5x\n\n**Step 3: Solve for x (number of 30-minute episodes watched on Wednesday)**\n\nWe know Frank watched a total of 7 hours of TV. So, we set up the equation:\n\n5.5 + 0.5x = 7\n\nSubtract 5.5 from both sides:\n\n0.5x = 1.5\n\nDivide both sides by 0.5:\n\nx = 3\n\nSo, Frank watched 3 episodes of 30 minutes each on Wednesday.\n\n**Answer**: Frank watched 3 episodes of 30 minutes each on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "一款新程序在第一个月被下载了 60 次，第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载次数减少了 30%。三个月来，这款程序一共被下载了多少次？\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads over the three months, we need to calculate the downloads for each month and then add them up.\n\n1. First month: 60 downloads\n2. Second month: 3 times the first month's downloads = 3 * 60 = 180 downloads\n3. Third month: 30% less than the second month's downloads. 30% of 180 is 0.3 * 180 = 54. So, the third month's downloads are 180 - 54 = 126 downloads.\n\nNow, we add up the downloads for all three months:\n60 (first month) + 180 (second month) + 126 (third month) = 366 downloads\n\nSo, the total number of downloads over the three months is 366.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "有四间学校在争夺篮球锦标赛的桂冠。每间学校都派出一支女子篮球队和一支男子篮球队，而且每支球队有 5 名球员。每间学校还为自己的每支球队派出一位教练。这些学校一共派出了多少人？\nAnswer in English.",
+        "generated_answer": "To calculate the total number of people from all the schools, we need to consider both the players and the coaches.\n\nEach school has 2 teams (1 for women and 1 for men), and each team has 5 players. So, for each school, the total number of players is 2 teams * 5 players/team = 10 players.\n\nSince there are 4 schools, the total number of players from all schools is 4 schools * 10 players/school = 40 players.\n\nEach school also has 1 coach for each team, so for each school, the total number of coaches is 2 coaches (1 for each team). \n\nFor all 4 schools, the total number of coaches is 4 schools * 2 coaches/school = 8 coaches.\n\nTherefore, the total number of people from all the schools (players + coaches) is 40 players + 8 coaches = 48 people.\n\nSo, the answer is 48.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "伊莎贝尔为她妹妹的生日派对买了派对用品。她花 12 美元买了蛋糕的原材料，43 美元买了生日礼物，15 美元买了装饰品，4 美元买了邀请函，22 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the party supplies.\n\nTotal cost = 12 (cake ingredients) + 43 (birthday gift) + 15 (decorations) + 4 (invitation cards) + 22 (party favor bags)\nTotal cost = 12 + 43 + 15 + 4 + 22\nTotal cost = 96 dollars\n\nSince the cost is shared among three people (Isabelle and her parents), we divide the total cost by 3:\n\n96 / 3 = 32 dollars\n\nSo, each person paid 32 dollars.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？\nAnswer in English.",
+        "generated_answer": "To find out how many elves are left, we need to follow these steps:\n\n1. First, we know that 1/3 of the 60 elves quit after being spat on by children. \n   So, the number of elves who quit after being spat on is 60 * 1/3 = 60/3 = 20 elves.\n\n2. After 20 elves quit, there are 60 - 20 = 40 elves left.\n\n3. Then, 10 more elves quit after being kicked by children.\n   So, the number of elves left after 10 more quit is 40 - 10 = 30 elves.\n\nTherefore, there are 30 elves left. \n\nSo, the answer is 30.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "珍妮在她妈妈的办公室帮忙。她有一沓 60 封需要贴邮票的信和一沓已经贴好邮票的信。她在需要贴邮票的信的三分之一上贴上邮票。如果现在那堆已经贴好邮票的信中有 30 封信，当珍妮开始贴邮票时，那堆信中有多少封信？\nAnswer in English.",
+        "generated_answer": "To find out how many letters were in the stack of letters that needed stamps, we need to work backwards from the information given.\n\n1. We know that 30 letters are already stamped.\n2. Jenny stamped 1/3 of the letters that needed stamps.\n\nLet's denote the total number of letters that needed stamps as \"x\". \n\nSince Jenny stamped 1/3 of these letters, the number of letters she stamped is x/3.\n\nWe are also given that the number of stamped letters is 30. Therefore, we can set up the equation:\n\nx/3 = 30\n\nTo solve for x, we multiply both sides by 3:\n\nx = 30 * 3\nx = 90\n\nSo, there were 90 letters that needed stamps when Jenny started. \n\nTherefore, the answer is 90.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

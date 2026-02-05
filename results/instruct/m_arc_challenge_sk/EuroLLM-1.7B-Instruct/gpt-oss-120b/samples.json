@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Ktorý popisuje chemickú zmenu?\nA) rozpúšťanie cukru v čaji\nB) slnečné žiarenie ohrievajúce chodník\nC) nožnice strihajúce papier na kúsky\nD) kyselina v žalúdku tráviaca potravu\nAnswer in English.",
+        "generated_answer": "D) kyselina v žalúdku tráviaca potravu",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which describes a chemical change?\" Options A-D. Ground truth answer: D. Generated answer: \"D) kyselina v žalúdku tráviaca potravu\". That is the same answer D. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "Ktorá z nasledujúcich rovníc predstavuje správne napísanú chemickú rovnicu preukazujúcu zachovanie hmotnosti?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "A) Mg + HCl -> H_{2} + MgCl_{2}",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which equation correctly shows conservation of mass? Options A-D. Ground truth answer is B. Generated answer says \"A) Mg + HCl -> H_{2} + MgCl_{2}\". That's not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Prečo je polievanie rastlín a trávy skoro ráno spôsob šetrenia vody?\nA) Ráno je vždy viac vody.\nB) Menšie množstvá vody vyparujú v chladnom ráne.\nC) Voda použitá zrána môže byť recyklovaná na popoludňajšie použitie.\nD) Tráva môže vodu absorbovať len zrána.\nAnswer in English.",
+        "generated_answer": "A) Ráno je vždy viac vody.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Prečo je polievanie rastlín a trávy skoro ráno spôsob šetrenia vody?\" (Why is watering plants and grass early in the morning a way to save water?) Options: A) Ráno je vždy viac vody. (Morning always has more water.) B) Menšie množstvá vody vyparujú v chladnom ráne. (Less water evaporates in the cool morning.) C) Voda použitá zrána môže byť recyklovaná na popoludňajšie použitie. (Water used in the morning can be recycled for afternoon use.) D) Tráva môže vodu absorbovať len zrána. (Grass can only absorb water in the morning.)\n\nGround truth answer is B. Generated answer is A. They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "Ktorá zmena by bola škodlivá pre prostredie veverice?\nA) nový rast rastlín\nB) zmena ročných období\nC) šírenie domov stavbou za použitia pokosenia stromov\nD) zasadzovanie semien borovice\nAnswer in English.",
+        "generated_answer": "D) zasadzovanie semien borovice",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ktorá zmena by bola škodlivá pre prostredie veverice?\" Means \"Which change would be harmful to the squirrel's environment?\" Options: A new plant growth, B change of seasons, C spreading homes by building using tree cutting, D planting pine seeds. The correct answer is C (spreading homes by building using tree cutting). Generated answer says D) planting pine seeds. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1047,
+        "question": "Ako sa organizmy klasifikované ako Eukarya líšia od organizmov klasifikovaných ako Archaea a Bacteria?\nA) Všetky sú viacbuňaté.\nB) Všetky sa rozmnožujú pohlavne.\nC) Všetky samy vytvárajú svoju stravu.\nD) Všetky majú jadrá obalené membránou.\nAnswer in English.",
+        "generated_answer": "D) Všetky majú jadrá obalené membránou.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ako sa organizmy klasifikované ako Eukarya líšia od organizmov klasifikovaných ako Archaea a Bacteria?\" Options given. The correct answer is D) \"Všetky majú jadrá obalené membránou.\" Ground truth answer is \"D\". Generated answer: \"D) Všetky majú jadrá obalené membránou.\" That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Pri experimente na aeróbnej bunkovej dýchanie obmedzí biológ množstvo fosforu dostupného pre kultúru buniek. Ako môže toto ovplyvniť bunku?\nA) Množstvo bunkovej energie by sa znížilo.\nB) Množstvo bunkovej energie by sa zvýšilo.\nC) Množstvo vyprodukovaného glukózy by sa zvýšilo.\nD) Množstvo vyprodukovaného glukózy by sa znížilo.\nAnswer in English.",
+        "generated_answer": "A) Množstvo bunkovej energie by sa znížilo.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question is in Slovak: \"Pri experimente na aeróbnej bunkovej dýchanie obmedzí biológ množstvo fosforu dostupného pre kultúru buniek. Ako môže toto ovplyvniť bunku? A) Množstvo bunkovej energie by sa znížilo. B) ...\"\n\nGround truth answer: \"A\". That means the correct choice is A. Generated answer: \"A) Množstvo bunkovej energie by sa znížilo.\" That's essentially the same as answer A. So they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Keď človek skáče s padákom z lietadla, pohybuje sa rýchlosťou približne 67 metrov za sekundu. Keď si vytiahne záchranný šnúru a jeho padák sa otvorí, spomalí na rýchlosť približne 3 metre za sekundu. Ak sa rýchlosť aj zrýchlenie považujú za kladné pred otvorením padáku, ako sa zmení jeho rýchlosť a zrýchlenie pri otvorení padáku?\nA) Rýchlosť a zrýchlenie ostanú kladné.\nB) Rýchlost aj zrýchlenie sa stanú zápornými.\nC) Rýchlosť zostáva kladná, ale zrýchlenie sa stáva záporným.\nD) Rýchlosť sa stáva zápornou, ale zrýchlenie zostáva kladné.\nAnswer in English.",
+        "generated_answer": "A) Rýchlosť a zrýchlenie ostanú kladné.\n\nKeď človek skáče s padákom z lietadla, pohybuje sa rýchlosťou približne 67 metrov za sekundu. Keď si vytiahne záchranný šnúru a jeho padák sa otvorí, spomalí na rýchlosť približne 3 metre za sekundu. Ak sa rýchlosť aj zrýchlenie považujú za kladné pred otvorením padáku, rýchlosť padáku po otvorení padáku zostane kladná. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za sekundu. Rýchlosť padáku po otvorení padáku je teda 67 metrov za",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"C\". The question: which option? The correct is C: speed remains positive, acceleration becomes negative. The generated answer says \"A) Rýchlosť a zrýchlenie ostanú kladné.\" So it selects A, not C. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "Niektoré druhy žiab sa zakopú do bahna, ak sa prostredie veľmi vysuší. Žaby vstupujú do druhu spánku. Aký signál by bol pre žaby najpravdepodobnejší na to, aby sa dostali z bahna?\nA) zníženie hodín denného svetla\nB) nárast teploty vzduchu\nC) nárast zrážok\nD) zníženie atmosférického tlaku\nAnswer in English.",
+        "generated_answer": "A) zníženie hodín denného svetla",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which signal most likely for frogs to get out of mud? Options: A decrease daylight hours, B increase air temperature, C increase precipitation, D decrease atmospheric pressure. Correct is C (increase rainfall). Generated answer: \"A) zníženie hodín denného svetla\" i.e., option A. That's not same as C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "Sneh, dážď, krúpy a hmly sú všetky formy\nA) plynu.\nB) vody.\nC) vetra.\nD) oblakov.\nAnswer in English.",
+        "generated_answer": "C) Vetra.\nD) oblakov.\nAnswer in English.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Sneh, dážď, krúpy a hmly sú všetky formy\" (Slovak) meaning \"Snow, rain, hail and fog are all forms of\". Options: A) gas, B) water, C) wind, D) clouds. Correct answer is B (water). Ground truth is B.\n\nGenerated answer: \"C) Vetra. D) oblakov. Answer in English.\" That lists two options C and D, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "Ktorá z nasledujúcich možností je najefektívnejším spôsobom prepravy veľkého množstva uhlia z bane v Kentucky do elektrárne v Arizone?\nA) loďou\nB) vlakom\nC) nákladným autom\nD) lietadlom\nAnswer in English.",
+        "generated_answer": "D) lietadlom",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following options is the most efficient way to transport a large amount of coal from a mine in Kentucky to a power plant in Arizona?\" Options: A) by ship, B) by train, C) truck, D) airplane. The correct answer is B (by train). Generated answer: \"D) lietadlom\" which is \"by airplane\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 447,
+        "question": "Koľko chromozómov sa nachádza v pohlavnej bunke zlatého kaporu, keď každá bunka jeho tela obsahuje 94 chromozómov?\nA) 23\nB) 47\nC) 94\nD) 188\nAnswer in English.",
+        "generated_answer": "A) 23\nChromozómov v pohlavnej bunke zlatého kapra je 23.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"How many chromosomes are in the gamete (sex cell) of gold carp, when each body cell contains 94 chromosomes?\" So gamete would have half: 47. So correct answer is B (47). Ground truth says \"B\". Generated answer says \"A) 23\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "Ktorá časť ekosystému rybníka poskytuje malým rybám úkryt?\nA) kamene\nB) voda\nC) žaby\nD) pôda\nAnswer in English.",
+        "generated_answer": "D) pôda",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Slovak: \"Which part of the pond ecosystem provides shelter for small fish?\" Options: A) stones, B) water, C) frogs, D) soil. The correct answer likely is \"stones\" (A) because small fish hide among stones. Ground truth says \"A\". Generated answer: \"D) pôda\" which is soil. That's not same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 285,
+        "question": "Ako sa nazýva krok, ktorý signalizuje začiatok fotosyntézy, ktorej výsledkom je produkcia cukru a kyslíka?\nA) Chemická energia sa absorbuje cez korene.\nB) Svetelná energia sa mení na chemickú energiu.\nC) Chlorofyl v listoch zachytáva svetelnú energiu.\nD) Slnečné svetlo sa mení na chlorofyl.\nAnswer in English.",
+        "generated_answer": "A) Chemická energia sa absorbuje cez korene.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What is the step called that signals the start of photosynthesis, whose result is production of sugar and oxygen?\" Options given. The correct answer is C: \"Chlorophyll in leaves captures light energy.\" Ground truth is \"C\". Generated answer is \"A) Chemická energia sa absorbuje cez korene.\" That's option A, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 577,
+        "question": "Čo najlepšie vysvetľuje, na čo odkazujú vedci, keď používajú termín ochrana?\nA) neživé časti prostredia\nB) živé organizmy v prostredí\nC) zdravie živých organizmov v prostredí\nD) ochrana, riadenie a obnova zdrojov\nAnswer in English.",
+        "generated_answer": "D) ochrana, riadenie a obnova zdrojov",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Čo najlepšie vysvetľuje, na čo odkazujú vedci, keď používajú termín ochrana?\" Options given. Ground truth answer: D. Generated answer: \"D) ochrana, riadenie a obnova zdrojov\". That matches D. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "Ktorá z nasledujúcich možností najlepšie zobrazí percentá osem najbežnejších prvkov v zemskej kôre?\nA) graf línií\nB) kruhový graf\nC) stĺpcový graf\nD) tabuľka údajov\nAnswer in English.",
+        "generated_answer": "D) tabuľka údajov",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following options best displays percentages of the eight most common elements in the Earth's crust?\" Options: A line graph, B pie chart, C bar chart, D data table. The correct answer likely is a pie chart (percentages). But ground truth says D. So ground truth says D (data table). Generated answer: \"D) tabuľka údajov\". That matches D. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Myš je umiestnená na jednom konci kartónového bludiska, ktoré má kúsok syra na opačnom konci. Myš cíti zápach syra a naučí sa, ako ho nájsť. Myš používa\nA) nadobudnutú vlastnosť k získaniu zdedenej vlastnosti.\nB) zdedenú vlastnosť k získaniu nadobudnutej vlastnosti.\nC) nadobudnutú vlastnosť k získaniu ďalšej nadobudnutej vlastnosti.\nD) zdedenú vlastnosť k získaniu ďalšej zdedenej vlastnosti.\nAnswer in English.",
+        "generated_answer": "C) nadobudnutú vlastnosť k získaniu ďalšej nadobudnutej vlastnosti.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question is in Slovak about mouse learning to find cheese. Options A-D. Ground truth answer is B. Generated answer is C). They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 513,
+        "question": "Ktorý zo týchto prvokov je potrebný vo všetkých fázach životného cyklu motýľa?\nA) Krídla\nB) Oči\nC) Pôda\nD) Vzduch\nAnswer in English.",
+        "generated_answer": "A) Krídla",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of these elements is needed in all stages of the butterfly life cycle?\" Options: A) Wings, B) Eyes, C) Soil, D) Air. Correct is D (air). Generated answer: \"A) Krídla\" i.e., wings. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1090,
+        "question": "Energetické spoločnosti často vyrábajú elektrinu z rôznych zdrojov. Aký zdroj by najviac vylepšil kvalitu ovzdušia?\nA) ropa\nB) plyn\nC) uhlí\nD) vietor\nAnswer in English.",
+        "generated_answer": "A) ropa",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Energetické spoločnosti často vyrábajú elektrinu z rôznych zdrojov. Aký zdroj by najviac vylepšil kvalitu ovzdušia? A) ropa B) plyn C) uhlí D) vietor Answer in English.\" The correct answer is D (wind). Generated answer: \"A) ropa\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "Študent skúma účinky hnojiva na kukuričné rastliny vykonaním nasledujúcich krokov. 1. Vysaďte skupiny kukuričných rastlín na rovnaký typ a množstvo pôdy na plnom slnku. 2. Pridajte do každej skupiny rovnaké množstvo rôznych značiek hnojiva. 3. Každý deň zavlažujte rastliny po dobu 5 minút. 4. Každý deň merajte výšky rastlín. Aká je nezávislá premenná v tejto štúdii?\nA) typ rastliny\nB) výška rastliny\nC) množstvo hnojiva\nD) typ hnojiva\nAnswer in English.",
+        "generated_answer": "A) typ rastliny",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: independent variable? Steps: they add different brands of fertilizer to each group. So independent variable is type of fertilizer (brand). Ground truth: D. Generated answer: \"A) typ rastliny\" which is type of plant. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "Hračka kamión sa valcuje po hladkej ploche. Ak je plocha pokrytá pieskom, kamión sa bude najpravdepodobnejšie valcovať\nA) pomaly\nB) rýchlejšie\nC) rovnakou rýchlosťou\nD) None\nAnswer in English.",
+        "generated_answer": "C) rovnakou rýchlosťou",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question in Slovak: \"Hračka kamión sa valcuje po hladkej ploche. Ak je plocha pokrytá pieskom, kamión sa bude najpravdepodobnejšie valcovať\" which translates: \"A toy truck rolls on a smooth surface. If the surface is covered with sand, the truck will most likely roll ...\" Options: A) slowly, B) faster, C) same speed, D) None. The ground truth answer is A (slowly). Generated answer: \"C) rovnakou rýchlosťou\" which is option C (same speed). That does not match ground truth. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Prečo sú rýchlo sa dejúce zmeny životného prostredia pravdepodobnejšie vedú k vymieraniu než pomaly prebiehajúce zmeny?\nA) Pomaly sa dejúce zmeny umožňujú čas pre adaptáciu.\nB) Rýchlo sa dejúce zmeny vyžadujú malú adaptáciu.\nC) Pomaly prebiehajúce zmeny ovplyvňujú iba malé oblasti.\nD) Rýchlo sa dejúce zmeny majú globálny dopad.\nAnswer in English.",
+        "generated_answer": "A) Pomaly sa dejúce zmeny umožňujú čas pre adaptáciu.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer is \"A) Pomaly sa dejúce zmeny umožňujú čas pre adaptáciu.\" That is essentially the same as answer A. So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 151,
+        "question": "Akým procesom sa primárne prenáša slnečná tepelná energia na Zem?\nA) vedením\nB) konvekciou\nC) vyparovanim\nD) žiarením\nAnswer in English.",
+        "generated_answer": "A) vedením",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Akým procesom sa primárne prenáša slnečná tepelná energia na Zem?\" Means \"By which process is solar thermal energy primarily transferred to Earth?\" Options: A) conduction, B) convection, C) evaporation, D) radiation. Correct answer is D (radiation). Generated answer: \"A) vedením\" which is conduction. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "V pokuse sa použijú dve identické listy papiera; jeden je zhrnutý do guľky a druhý je rovný. Čo sa najpravdepodobnejšie stane, keď budú z rovnakej výšky zároveň upustené?\nA) Rovný papier spadne na svoju hranu.\nB) Oba padnú rovnakou rýchlosťou.\nC) Zhrnutý papier padne rýchlejšie.\nD) Zhrnutý papier sa bude pohybovať horizontálne.\nAnswer in English.",
+        "generated_answer": "A) Rovný papier spadne na svoju hranu.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: which outcome most likely? Ground truth answer is C (Zhrnutý papier padne rýchlejšie). Generated answer: \"A) Rovný papier spadne na svoju hranu.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 966,
+        "question": "Študent meria zrýchlenie kameňa na rovine, keď naň pôsobí známa sila. Aké ďalšie informácie sú potrebné na presné vypočítanie hmotnosti bloku?\nA) hustota bloku\nB) množstvo trenia\nC) hmotnosť povrchu\nD) smer pohybu\nAnswer in English.",
+        "generated_answer": "A) hustota bloku\nB) množstvo trenia\nC) hmotnosť povrchu\nD) smer pohybu\n\nTo je správna odpoveď. Hustota bloku je dôležitá, pretože zrýchlenie kameňa závisí od jeho hmotnosti. Ak chcete vypočítať hmotnosť bloku, musíte poznať jeho hustotu a hmotnosť.\n\nTo je správna odpoveď. Hmotnosť povrchu je dôležitá, pretože zrýchlenie kameňa závisí od jeho povrchu. Ak chcete vypočítať hmotnosť povrchu, musíte poznať jeho hmotnosť a plochu.\n\nTo je správna odpoveď. Smer pohybu kameňa je dôležitý, pretože zrýchlenie kameňa závisí od smeru jeho pohybu. Ak chcete vypočítať zrýchlenie kameňa, musíte poznať smer jeho pohybu.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The ground truth answer is \"B\". The generated answer lists all options A-D with explanations, not just B. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "Zemepolnohospodári používajú pesticídy na kontrolu hmyzu. Niekedy sa pesticídy dostávajú do potokov. Toto je príklad\nA) zemepolnohospodárom, ktorí sa snažia chrániť životné prostredie.\nB) použitia prírodných látok na riešenie problémov.\nC) snahy zemepolnohospodárov znížiť množstvo plodín.\nD) rješení jedného problému vytváranie iného problému.\nAnswer in English.",
+        "generated_answer": "D) riešenie jedného problému vytváranie iného problému.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: multiple choice, correct answer D. Generated answer: \"D) riešenie jedného problému vytváranie iného problému.\" That's essentially the same as D. Ground truth: \"D\". So yes, equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 206,
+        "question": "Dominic pozoruje kolóniu volvoxov a parymeceum pod mikroskopom. Zapisuje si do svojho denníka, že kolónia volvoxov a parymeceum sú podobní, pretože majú mnoho organel pre pohyb. Čo by zrejme Dominic najviac zbadal ohľadom pohybu kolónie volvoxov a parymecea?\nA) Oba sa pohybujú rovnakou rýchlosťou.\nB) Oba sa pohybujú od svetla.\nC) Oba sa pohybujú v rovnakom smere.\nD) Oba sa pohybujú smerom k zdroju energie.\nAnswer in English.",
+        "generated_answer": "B) Oba sa pohybujú od svetla.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks: \"What would Dominic most likely observe regarding movement of colony of volvox and paramecium?\" Options: A same speed, B move away from light, C same direction, D move towards energy source. The correct answer is D (move towards energy source). Generated answer: \"B) Oba sa pohybujú od svetla.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 724,
+        "question": "Ktorá z nasledujúcich je tvorená atómami?\nA) gravitácia\nB) svetlo\nC) teplo\nD) vzduch\nAnswer in English.",
+        "generated_answer": "D) vzduch",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following is formed by atoms?\" Options: A) gravity, B) light, C) heat, D) air. Correct answer is D) air. Ground truth answer: \"D\". Generated answer: \"D) vzduch\". That's equivalent (both indicate D). So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 889,
+        "question": "Energia mení formu alebo sa prenáša pomocou pôsobenia síl. Príkladom prechodu kinetickéj energie na potenciálnu energiu je\nA) balvan ležiaci na útese\nB) osoba behajúca okolo dráhy\nC) auto, ktoré sa pohybuje nahor kopcom a potom parkuje\nD) gumička, ktorá sa ťahá a potom sa praskne\nAnswer in English.",
+        "generated_answer": "A) balvan ležiaci na útese\nB) osoba behajúca okolo dráhy\nC) auto, ktoré sa pohybuje nahor kopcom a potom parkuje\nD) gumička, ktorá sa ťahá a potom sa praskne",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer lists all options A-D, i.e., repeats the options, not selecting one. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 647,
+        "question": "Ktoré by najmenej pravdepodobne ovplyvnilo globálne klimatické zmeny?\nA) produkcia energie pomocou hydroelektrických zariadení\nB) produkcia energie pomocou uhlia\nC) produkcia energie pomocou ropy\nD) produkcia energie pomocou zemného plynu\nAnswer in English.",
+        "generated_answer": "A) produkcia energie pomocou hydroelektrických zariadení",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Which would least likely affect global climate change?\" Options A-D. The correct answer is A (hydroelectric). Ground truth answer: \"A\". Generated answer: \"A) produkcia energie pomocou hydroelektrických zariadení\". That matches: it's option A, same meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 418,
+        "question": "Učiteľ uskutočňuje skúmanie pomocou špeciálneho vybavenia, ktoré drží magnetickú pásku (Mg) nad plameňom plynového horáku. Ktoré pozorovanie naznačuje, že došlo k chemickému reakcii?\nA) Teplota magnetskej pásky stúpla.\nB) Tvar magnetskej pásky sa zmenil.\nC) Horúci magnézium vyžaroval svetlo.\nD) Magnézium sa zdalo, že vyprcháva.\nAnswer in English.",
+        "generated_answer": "D) Magnézium sa zdalo, že vyprcháva.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which observation indicates a chemical reaction? Options: A, B, C, D. Ground truth answer is C. Generated answer is D) Magnézium sa zdalo, že vyprcháva. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1131,
+        "question": "Aké je najlepšie spôsob, ako môžu študenti prejaviť úctu voči prírode pri pozorovaní v prírode?\nA) Zostaňte na cestách.\nB) Neberte vzorky.\nC) Fotografujte.\nD) Opustite oblasť presne tak, ako ste ju našli.\nAnswer in English.",
+        "generated_answer": "A) Zostaňte na cestách.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What is the best way for students to show respect to nature while observing in nature?\" Options: A) Stay on trails. B) Don't take samples. C) Photograph. D) Leave the area exactly as you found it. The ground truth answer is D. Generated answer is \"A) Zostaňte na cestách.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 906,
+        "question": "Červený obrovský hviezdny samozrejme sa od hviezd hlavnej postavy líši tým, že\nA) horí pri nižšej teplote.\nB) je vždy väčší ako ostatné slnka.\nC) má väčšiu hustotu a príťažlivosť.\nD) spája vodík, aby vytvoril hélium.\nAnswer in English.",
+        "generated_answer": "D) spája vodík, aby vytvoril hélium.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question in Slovak: \"Červený obrovský hviezdny samozrejme sa od hviezd hlavnej postavy líši tým, že\" which translates: \"A red giant star, of course, differs from main sequence stars in that\". Options: A) burns at lower temperature. B) is always larger than other suns. C) has greater density and gravity. D) fuses hydrogen to create helium.\n\nGround truth answer is \"A\". So correct answer is A. Generated answer is \"D) spája vodík, aby vytvoril hélium.\" That's option D, not A. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1067,
+        "question": "Behom dňa bola nádoba s tekutou vodou umiestnená vonku pri teplote 3°C. V noci klesla vonkajšia teplota na -2°C. Táto zmena teploty pravdepodobne spôsobila, že voda\nA) skondenzovala\nB) vyparila sa\nC) zostala tekutinou\nD) stala sa pevnou látkou\nAnswer in English.",
+        "generated_answer": "A) skondenzovala",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: water at 3°C placed outside, temperature drops to -2°C. Likely water becomes solid (freezes). So correct answer D. Generated answer: \"A) skondenzovala\" which means \"condensed\". That's not same as D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "Niektorý atóm má 20 elektrónov, 21 neutrónov a 20 protónov. Aká je jeho atómová hmotnosť?\nA) 20\nB) 21\nC) 41\nD) 61\nAnswer in English.",
+        "generated_answer": "A) 20\n\nAtómová hmotnosť je súčet hmotností elektrónov, neutrónov a protónov. V tomto prípade má atóm 20 elektrónov, 21 neutrónov a 20 protónov. To znamená, že atómová hmotnosť je 20.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Some atom has 20 electrons, 21 neutrons and 20 protons. What is its atomic mass? Options A)20 B)21 C)41 D)61\". Correct answer is sum of protons+neutrons (electrons negligible) = 20+21=41, option C. Ground truth says C. Generated answer says \"A) 20\" and explanation says atomic mass is sum of masses of electrons, neutrons, protons, and says it's 20. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 127,
+        "question": "Ktorá planéta v slnečnej sústave má najdlhší rok?\nA) Planéta najbližšia k Slnku.\nB) Planéta s najdlhším dňom.\nC) Planéta s najviac mesiacmi.\nD) Planéta najďalej od Slnka.\nAnswer in English.",
+        "generated_answer": "Planéta s najdlhším rokom je:\nA) Planéta najbližšia k Slnku.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Which planet in the solar system has the longest year?\" Options: A) planet closest to Sun, B) planet with longest day, C) planet with most moons, D) planet farthest from Sun. Correct answer is D (planet farthest from Sun, i.e., Neptune or Pluto? Actually Pluto not a planet; Neptune). Ground truth: D.\n\nGenerated answer says: \"Planéta s najdlhším rokom je: A) Planéta najbližšia k Slnku.\" That's option A, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1123,
+        "question": "Meď a zlato majú podobné reaktívne vlastnosti. Na Periodickom systéme prvkov sú tieto prvky najpravdepodobnejšie\nA) byť v rovnakej skupine.\nB) byť v rovnakom období.\nC) mať takmer rovnakú hmotnosť.\nD) mať rovnaký počet protónov.\nAnswer in English.",
+        "generated_answer": "A) byť v rovnakej skupine.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Meď a zlato majú podobné reaktívne vlastnosti. Na Periodickom systéme prvkov sú tieto prvky najpravdepodobnejšie ...\". The correct answer is A) being in the same group. Ground truth answer: \"A\". Generated answer: \"A) byť v rovnakej skupine.\" That's essentially the same. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 28,
+        "question": "Do súťaže v stavbe mostov z paličiek na zmrzlinu a lepidla sa prihlásilo niekoľko študentov. Mosty musia byť široké 5 palcov a preklenúť vzdialenosť 18 palcov. Ktorý z nasledujúcich testov je najpresnejší spôsob, ako určiť najpevnejší dizajn pre tieto mosty?\nA) previezť hračky autíkami cez každý most, kým nezhynie\nB) kladať betónové bloky na vrch každého mostu, kým nezhynie\nC) skladať mince na oboch koncoch každého mosta, kým nezhynie\nD) umiestňovať D-batérie do stredu každého mosta, kým nezhynie\nAnswer in English.",
+        "generated_answer": "A) previezť hračky autíkami cez každý most, kým nezhynie",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which test is most accurate? Options A-D. Ground truth answer is D. Generated answer is \"A) previezť hračky autíkami...\" i.e., option A. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "Vedci zistili, že hoci infekčné baktérie môžu vyvinúť imunitu voči antibiotikám, niektoré baktérie nemôžu odolať určitým peptidom, ktoré pôsobia ako prirodzené antibiotické látky v tele človeka. Tento objav viedol k vývoju ktorej novej technológie?\nA) umelej látky, ktorá napodobňuje ľudské peptidy\nB) antibiotík, ktoré sa môžu vstrebávať cez kožu\nC) baktérií, ktoré útočia na organizmy odolné voči antibiotikám\nD) antibiotík, ktoré sa prispôsobia bakteriálnej imunite\nAnswer in English.",
+        "generated_answer": "D) antibiotík, ktoré sa prispôsobia bakteriálnej imunite",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Slovak: Scientists discovered that while infectious bacteria can develop immunity to antibiotics, some bacteria cannot resist certain peptides that act as natural antibiotics in human body. This discovery led to development of which new technology? Options: A) artificial substance that mimics human peptides; B) antibiotics that can be absorbed through skin; C) bacteria that attack organisms resistant to antibiotics; D) antibiotics that adapt to bacterial immunity. The correct answer is A (artificial substance that mimics human peptides). Generated answer is D) antibiotics that adapt to bacterial immunity. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 816,
+        "question": "Inžinier používa počítač na navrhovanie mosta. Ktorý test je pre bezpečnostné účely najdôležitejší?\nA) maximálna záťaž, ktorú most dokáže uniesť\nB) náklady na materiál použitý na stavbu mosta\nC) percento materiálov, ktoré je možné recyklovať\nD) rýchlosť, s ktorou je možné most postaviť\nAnswer in English.",
+        "generated_answer": "D) rýchlosť, s ktorou je možné most postaviť",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Inžinier používa počítač na navrhovanie mosta. Ktorý test je pre bezpečnostné účely najdôležitejší?\" Means: Engineer uses computer to design a bridge. Which test is most important for safety purposes? Options: A) maximum load the bridge can bear, B) cost of material, C) percent of materials recyclable, D) speed of construction. Correct answer is A (maximum load). Generated answer says D) speed of construction. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2,
+        "question": "Ktoré z nasledujúcich je dôležité bezpečnostné pravidlo, ktoré treba dodržiavať pri používaní chemikálií?\nA) Zviazať si dlhé vlasy.\nB) Uložiť všetky chemikálie do chladničky.\nC) Správne označiť všetky skúmavky a fľaše.\nD) Správne zlikvidovať uhasilé zapalky.\nAnswer in English.",
+        "generated_answer": "D) Správne zlikvidovať uhasené zapalky.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which of the following is an important safety rule when using chemicals? Options: A) tie long hair, B) store all chemicals in fridge, C) correctly label all test tubes and bottles, D) correctly dispose of extinguished matches. Correct answer is C. Generated answer says D) Správne zlikvidovať uhasené zapalky. That's not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1010,
+        "question": "V akých podmienkach by bola adaptácia, ktorá skracuje čas metamorfózy žiabreťa, najužitočnejšia?\nA) keď musia žiabrety okamžite plávať\nB) keď je v ich prostredí obmedzené množstvo vody\nC) keď klesá počet dravcov\nD) keď musia žiabrety splynúť s okolím\nAnswer in English.",
+        "generated_answer": "D) keď musia žiabrety splynúť s okolím",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"V akých podmienkach by bola adaptácia, ktorá skracuje čas metamorfózy žiabreťa, najužitočnejšia?\" Options A-D. Ground truth answer is B. Generated answer is D). They are not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "Väčšina ekosystémov umožňuje producentom využiť fotosyntézu na zachytenie energie pre potravné reťazce. V akom ekosystéme musia producenti zozbierať energiu zo plynov ako sú metán a sulfanovodík?\nA) korálový útes\nB) vysoká púšť\nC) oceánsky priepasť\nD) ihličnatý les\nAnswer in English.",
+        "generated_answer": "D) ihličnatý les",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Which ecosystem must producers collect energy from gases like methane and hydrogen sulfide?\" The correct answer is likely \"C) oceanic trench\" (chemosynthetic ecosystems like deep sea hydrothermal vents). Ground truth is \"C\". Generated answer is \"D) ihličnatý les\" (coniferous forest). Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 499,
+        "question": "Pacifik (v zmysle veľkého oceánu) somári, druh rýb, žijú v severnej časti Tichomoria. Plávajú rieky hore, aby sa rozmnožovali v čistej sladkej vode. Po niekoľkých rokoch sa mladé somáre presťahujú na pobrežné slané prostredia. Ak by sa však na týchto riekach postavili priehrady, aký by to malo najpravdepodobnejší vplyv na tieto ryby?\nA) Pacifik (v zmysle veľkého oceánu) somári sa v priebehu času zmenia na nový druh.\nB) Pacifik (v zmysle veľkého oceánu) somári sa presunú z pobrežných riek do oceánu.\nC) Populácia somárov v severnej časti Tichomoria klesne v dôsledku straty biotopu.\nD) Populácia somárov v severnej časti Tichomoria sa prispôsobí rozmnožovaniu v slanej vode.\nAnswer in English.",
+        "generated_answer": "A) Pacifik (v zmysle veľkého oceánu) somári sa v priebehu času zmenia na nový druh.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"C\". The generated answer is \"A) Pacifik ... zmenia na nový druh.\" That's not the same as C. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "Meď je prvok, ktorý sa používa v elektrických vodičoch. Aká je najmenšia jednotka medi, ktorá stále zachováva vlastnosti meďi?\nA) atóm\nB) elektrón\nC) jadro\nD) protón\nAnswer in English.",
+        "generated_answer": "Najmenšia jednotka medi, ktorá stále zachováva vlastnosti medi, je atóm.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Meď je prvok, ktorý sa používa v elektrických vodičoch. Aká je najmenšia jednotka medi, ktorá stále zachováva vlastnosti meďi? A) atóm B) elektrón C) jadro D) protón Answer in English.\"\n\nGround truth answer: \"A\". That corresponds to \"atom\". Generated answer: \"Najmenšia jednotka medi, ktorá stále zachováva vlastnosti medi, je atóm.\" That's Slovak, says \"The smallest unit of copper that still retains the properties of copper is an atom.\" That matches answer A. So meaning is same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 128,
+        "question": "Štyri výrazne odlišné spotrebiče (mixér, šľahač, toaster a food procesor) sú zapojené do štyroch zásuviek pozdĺž pultu. Zapnutie alebo vypnutie jedného alebo viacerých spotrebičov neovplyvňuje výkon ďalších spotrebičov, pretože štyri spotrebiče\nA) bežia na priamom prúde.\nB) sú zapojené sériovo.\nC) sú zapojené paralelne.\nD) bežia na striedavom prúde.\nAnswer in English.",
+        "generated_answer": "D) bežia na striedavom prúde.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which statement explains that turning on/off one doesn't affect others? Correct answer is C) are connected in parallel. Ground truth answer is \"C\". Generated answer is \"D) bežia na striedavom prúde.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 391,
+        "question": "Aké je napätie v obvode s prúdom 3 ohmov a celkovým odporom 12?\nA) 0,25 V\nB) 4 V\nC) 15 V\nD) 36 V\nAnswer in English.",
+        "generated_answer": "Napätie v obvode s prúdom 3 ohmov a celkovým odporom 12 je:\n\nB) 4 V",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Aké je napätie v obvode s prúdom 3 ohmov a celkovým odporom 12?\" Means \"What is the voltage in a circuit with current 3 ohms and total resistance 12?\" Actually current is 3? It says \"prúdom 3 ohmov\" maybe current 3 A? Resist 12 ohm. Voltage = I*R = 3*12 = 36 V. So correct answer D (36 V). Ground truth is D. Generated answer says B) 4 V. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "Ktorá je príkladom fyzickej zmeny?\nA) rozbiť objekt na menšie kúsky pomocou kladiva\nB) nechať železný reťaz v slanej vode, kým nezhrdzavie\nC) ohrievať hnedú látku, kým sa nezmení na šedý prášok\nD) reagovať ocot a sóda bikarbóna, aby sa vytvorila biela pena a plyn\nAnswer in English.",
+        "generated_answer": "A) rozbiť objekt na menšie kúsky pomocou kladiva\nB) nechať železný reťaz v slanej vode, kým nezhrdzavie\nC) ohrievať hnedú látku, kým sa nezmení na šedý prášok\nD) reagovať ocot a sóda bikarbóna, aby sa vytvorila biela pena a plyn",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Ktorá je príkladom fyzickej zmeny?\" (Which is an example of a physical change?) Options A-D. The ground truth answer is \"A\". So correct answer is option A.\n\nGenerated answer repeats all options, not selecting one. It does not indicate which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 454,
+        "question": "Študent skúma druhý Newtonov zákon pohybu tým, že mení silu pôsobiacu na objekt a sleduje jeho výsledné zrýchlenie. Ak by sa sila na objekte zvýšila štyrikrát, o koľko by sa zvýšilo zrýchlenie?\nA) 2-krát\nB) 4-krát\nC) 8-krát\nD) 16-krát\nAnswer in English.",
+        "generated_answer": "D) 16-krát",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: If force increased four times, acceleration increases four times (Newton's second law). So correct answer is B) 4 times. Ground truth is B. Generated answer is D) 16 times. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 488,
+        "question": "Bernice skúmala niektoré organizmy, ktoré žijú spoločne v poli. Akým spôsobom sa králik podobá rastline, ktorú zje?\nA) Obaja potrebujú energiu na prežitie.\nB) Obaja konzumujú iné organizmy.\nC) Obaja absorbuju vodu z pôdy.\nD) Obaja si sami vytvárajú jedlo zo slnečného svetla.\nAnswer in English.",
+        "generated_answer": "A) Obaja potrebujú energiu na prežitie.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: multiple choice, correct answer is A. Ground truth: \"A\". Generated answer: \"A) Obaja potrebujú energiu na prežitie.\" That's essentially the same answer: option A. So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 291,
+        "question": "Čo nesú vlny cez objekty?\nA) zvuk\nB) svetlo\nC) energiu\nD) vodu\nAnswer in English.",
+        "generated_answer": "C) energia",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Čo nesú vlny cez objekty?\" (What do waves carry through objects?) Options: A) sound, B) light, C) energy, D) water. Answer in English. Ground truth: \"C\". So correct answer is option C, which is \"energy\". Generated answer: \"C) energia\". That's essentially the same: option C, \"energia\" (energy). So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1112,
+        "question": "Vedecký pracovník tvrdí, že urobil objav v laboratóriu. Čo potrebuje mať vedecký pracovník na preukázanie platnosti objavu?\nA) diagramy ukazujúce kroky použité pri objave\nB) presné záznamy, ktoré ukazujú, že údaje sú konzistentné\nC) doklady ukazujúce, že vedecký pracovník je dobre známy\nD) dôkaz, že použité zariadenie pri objave má vysokú kvalitu\nAnswer in English.",
+        "generated_answer": "A) diagramy ukazujúce kroky použité pri objave",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"What does a scientific worker need to have to prove validity of discovery?\" Options: A diagram, B precise records showing data consistent, C reputation, D equipment quality. Correct is B. Generated answer: \"A) diagramy...\" which is option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 917,
+        "question": "Keď sa ide zo rovníka na sever, horúce a vlhké klímy sú nahradené horúcimi a suchými klímami. Hranica medzi týmito dvomi typmi klímy je určená ktorým faktorom?\nA) výškou nad morom\nB) typmi miestnej rastlinnej pokrývky\nC) cirkulárnymi vzormi regionálnych vzdušných hmôt\nD) vzdialenosťou od najbližšieho pohoria\nAnswer in English.",
+        "generated_answer": "A) výškou nad morom",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Slovak: \"When moving from the equator northward, hot and humid climates are replaced by hot and dry climates. The boundary between these two climate types is determined by which factor?\" Options: A) altitude, B) local vegetation, C) circulatory patterns of regional air masses, D) distance from nearest mountain. Correct answer is C. Generated answer: \"A) výškou nad morom\" which is altitude. That's not same as C. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Ak sa elektrický prúd prevedie cez vodu (H_{2}O) pomocou špeciálnej prístrojovej sústavy, vodík (H_{2}) a kyslík (O_{2}) sa vytvoria vo forme plynov. Ako možno túto reakciu znázorniť v chemickom vzorci?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "A) H_{2}O -> H + O + H",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is B (the correct chemical equation). Generated answer is A) H2O -> H + O + H. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 164,
+        "question": "Ktorá z týchto vlastností sa dedí, ale je výrazne ovplyvnená prostredím?\nA) schopnosť krútiť jazykom\nB) športové výkony\nC) jazyk\nD) farba očí\nAnswer in English.",
+        "generated_answer": "A) schopnosť krútiť jazykom",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Ktorá z týchto vlastností sa dedí, ale je výrazne ovplyvnená prostredím?\" Means: Which of these traits is inherited but significantly influenced by environment? Options: A) ability to twist tongue (tongue twister?), B) sports performance, C) language, D) eye color. The correct answer likely B) sports performance (genetics + environment). Ground truth says B. Generated answer says \"A) schopnosť krútiť jazykom\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "Oblaky prinášajú dážď a sneh na zemský povrch. Ako najviac dážď a sneh podporujú život na Zemi?\nA) Chladia povrch zeme.\nB) Nesú kyseliny do pôdy.\nC) Prinášajú sladkú vodu pre organizmy na súši.\nD) Pomáhajú vo vytváraní hôr.\nAnswer in English.",
+        "generated_answer": "D) Pomáhajú vo vytváraní hôr.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Oblaky prinášajú dážď a sneh na zemský povrch. Ako najviac dážď a sneh podporujú život na Zemi?\" Options: A) cool surface, B) bring acids, C) bring fresh water for organisms on land, D) help create mountains. Correct is C. Generated answer is D. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1040,
+        "question": "Chameleon dokáže meniť farbu tak, aby sa prispôsobil svojmu okoliu. Táto schopnosť mu pomáha prežiť, pretože dokáže\nA) zachovať si teplo.\nB) nájsť si partnera.\nC) loviť potravu.\nD) byť ľahko viditeľný.\nAnswer in English.",
+        "generated_answer": "D) byť ľahko viditeľný.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Slovak: \"Chameleon can change color to adapt to its environment. This ability helps it survive because it can ...\". Options: A) retain heat, B) find a partner, C) hunt food, D) be easily visible. Correct answer is C (hunt food). Generated answer says D) be easily visible. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1002,
+        "question": "Aký je najväčší orgán v ľudskom tele?\nA) žalúdok\nB) mozog\nC) koža\nD) pečeň\nAnswer in English.",
+        "generated_answer": "D) pečeň",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Aký je najväčší orgán v ľudskom tele?\" Means \"What is the largest organ in the human body?\" Options: A) stomach, B) brain, C) skin, D) liver. Correct answer is skin (C). Ground truth answer is \"C\". Generated answer: \"D) pečeň\" which is liver. That's incorrect and not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 223,
+        "question": "V ktorej fáze svojho životného cyklu trávi motýľ najviac času jedlom – listami rastlín?\nA) dospelý\nB) vajce\nC) larva\nD) kukla\nAnswer in English.",
+        "generated_answer": "D) kukla",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In which phase of its life cycle does a butterfly spend most time eating leaves of plants? Options: adult, egg, larva, pupa (kukla). Correct answer is larva (caterpillar). Ground truth: \"C\". Generated answer: \"D) kukla\". That's wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 617,
+        "question": "Čo sa stane s dreveným polenom, keď sa spáli?\nA) Je úplne zničený.\nB) Úplne sa zmení na tepelnú energiu.\nC) Premieňa sa na iné druhy hmoty a energie.\nD) Fyzicky sa mení na plynovú fázu.\nAnswer in English.",
+        "generated_answer": "D) Fyzicky sa mení na plynovú fázu.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Slovak: \"Čo sa stane s dreveným polenom, keď sa spáli?\" Means \"What happens to a wooden log when it burns?\" Options: A) completely destroyed, B) completely turns into thermal energy, C) transforms into other forms of matter and energy, D) physically changes to gaseous phase. The correct answer is C (transforms into other forms of matter and energy). Generated answer says D) physically changes to gaseous phase. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1128,
+        "question": "Typická výška pre zrelý východný biely borovica je 100 stôp, ale v Ontonagone, Michigan, rastie východný biely borovica, ktorá dosiahla výšku 150 stôp. Koľkokrát je táto borovica v Michigan veľká v porovnaní s typickou borovicou?\nA) 1,5 krát\nB) 2 krát\nC) 2,5 krát\nD) 3 krát\nAnswer in English.",
+        "generated_answer": "A) 1,5 krát",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: typical height 100 ft, Michigan pine 150 ft. How many times larger? 150/100 = 1.5 times. Options: A) 1.5 times. Ground truth answer: \"A\". Generated answer: \"A) 1,5 krát\". That is same meaning (option A). So they are equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 596,
+        "question": "Čo je potenciálna energia?\nA) Energia, ktorú má predmet vďaka svojmu pohybu.\nB) Energia, ktorú má predmet vďaka svojej polohe.\nC) Energia, ktorá zvyšuje hmotnosť predmetu.\nD) Energia, ktorá zvyšuje teplotu predmetu.\nAnswer in English.",
+        "generated_answer": "A) Energia, ktorú má predmet vďaka svojmu pohybu.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Čo je potenciálna energia?\" (What is potential energy?) Options: A kinetic, B due to position, C increases mass, D increases temperature. Correct is B. Generated answer: \"A) Energia, ktorú má predmet vďa...\" which is kinetic energy, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "Veľa baktérií rýchlo rastie pri izbovej teplote okolo 20 °C. Teplota v chladničke sa zvyčajne udržuje na okolo 4 °C. Ktoré tvrdenie najlepšie vysvetľuje, ako používanie chladničky pomohlo spoločnosti?\nA) Udržuje kuchyne chladnejšie v lete.\nB) Poskytuje viac miesta na skladovanie potravín.\nC) Robí potraviny bezpečnejšie na konzumáciu po dlhšiu dobu.\nD) Robí používanie elektriny v kuchyni bezpečnejším.\nAnswer in English.",
+        "generated_answer": "D) Robí používanie elektriny v kuchyni bezpečnejším.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which statement best explains how using a refrigerator helped society? Correct answer is C: makes food safer to eat longer. Generated answer: D) makes using electricity in the kitchen safer. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1121,
+        "question": "Každý prírodný zdroj na Zemi je buď obnoviteľný alebo neobnoviteľný. Či je zdroj obnoviteľný alebo neobnoviteľný, závisí od toho, akou rýchlosťou sa zdroj nahradzuje. Ak sa zdroj používa rýchlejšie, než sa nahradí, potom sa zdroj časom vyčerpá. Ktorá činnosť ukazuje použitie neobnoviteľného prírodného zdroja?\nA) Skupina ľudí sa kúpe v rieke.\nB) Stavebná posádka staví železný most.\nC) Farmár pestuje zeleninu na predaj na miestnom trhu.\nD) Osoba pečie tortu s elektrinou produkovanou vodnou elektrárňou.\nAnswer in English.",
+        "generated_answer": "A) Skupina ľudí sa kúpe v rieke.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which activity shows use of nonrenewable natural resource? Options: A river bathing, B building iron bridge, C farmer growing vegetables, D person baking cake with electricity from hydroelectric plant. Nonrenewable resource likely iron (mined) used in bridge. So correct answer B. Generated answer says A). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 681,
+        "question": "V chirurgii sa lasery používajú na\nA) vytváranie jemných incízií.\nB) osvetlenie operačného pola.\nC) šitie rán.\nD) dezinfekciu nástrojov.\nAnswer in English.",
+        "generated_answer": "A) vytváranie jemných incízií.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"V chirurgii sa lasery používajú na\" (In surgery lasers are used for). Options A) creating fine incisions, B) illumination, C) suturing, D) disinfection. Answer in English. Ground truth: \"A\". So correct answer is option A. Generated answer: \"A) vytváranie jemných incízií.\" That's exactly option A in Slovak. The ground truth is just \"A\". The meaning matches: both indicate option A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "Tanya skúma, ktoré domáce predmety sú priťahované magnétmi. Čo jej pomôže dospieť k záveru?\nA) predpoklad\nB) hypotéza\nC) zoznam potrieb\nD) tabuľka výsledkov\nAnswer in English.",
+        "generated_answer": "D) tabuľka výsledkov",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Tanya skúma, ktoré domáce predmety sú priťahované magnétmi. Čo jej pomôže dospieť k záveru? A) predpoklad B) hypotéza C) zoznam potrieb D) tabuľka výsledkov Answer in English.\"\n\nGround truth answer: \"D\". Means option D, which is \"tabuľka výsledkov\". Generated answer: \"D) tabuľka výsledkov\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 416,
+        "question": "Študent tlačí 20-kilovú krabicu nahor rampou. Ktorá zmena mu umožní použiť menšiu silu na tlačenie krabice?\nA) zvýšenie hmotnosti krabice\nB) zmenšenie dĺžky rampy\nC) zmenšenie sklonu rampy\nD) zvýšenie trenia na povrchu krabice\nAnswer in English.",
+        "generated_answer": "D) zvýšenie trenia na povrchu krabice",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Student pushes 20-kg box up a ramp. Which change allows using less force? Options: increase mass, shorten ramp, decrease slope, increase friction. Correct is decreasing slope (C). Ground truth is C. Generated answer says D) increase friction. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "Mnoho ľudí získava pitnú vodu z vrtov, ktoré siahajú až k vode, ktorá je uložená pod zemou. Keď prší málo, voda sa môže začať vyčerpávať. Aký krok je najlepší, aby voda vydržala dlhšie?\nA) používať postrekovače menej hodín týždenne\nB) umývanie vozidiel uprostred dňa\nC) rozprašovanie vody na čistenie oleja z parkovísk\nD) nechať pustené kohútiky pri čistení zubov\nAnswer in English.",
+        "generated_answer": "A) používať postrekovače menej hodín týždenne",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Slovak: Many people get drinking water from wells that reach groundwater. When little rain, water can be depleted. What step is best to make water last longer? Options: A) use sprinklers fewer hours per week, B) washing cars midday, C) spraying water to clean oil from parking lots, D) leaving taps running while brushing teeth. The best is to reduce water usage: using sprinklers less hours per week (A). Ground truth answer: \"A\". Generated answer: \"A) používať postrekovače menej hodín týždenne\". That's the same meaning (option A). So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 589,
+        "question": "Niektoré stromy, ako napríklad psiačik, môžu byť obývané hubou, ktorá poškodzuje ich lístie. Ktorá z nasledujúcich možností najlepšie opisuje vzťah medzi stromom a hubou?\nA) parazitizmus\nB) saprofytizmus\nC) mutualizmus\nD) komensalizmus\nAnswer in English.",
+        "generated_answer": "A) parazitizmus",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following best describes the relationship between the tree and the fungus?\" The correct answer is \"parasitism\". Ground truth answer: \"A\". Generated answer: \"A) parazitizmus\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 911,
+        "question": "V ekosystéme lesa je nika populácie veveričiek\nA) rozložiť.\nB) opylovať kvety.\nC) recyklovať živiny v pôde.\nD) zbierať žaludy a zakopávať ich do pôdy.\nAnswer in English.",
+        "generated_answer": "D) zbierať žaludy a zakopávať ich do pôdy.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In forest ecosystem, what is the niche of squirrels? Options A-D. The correct answer is D. Generated answer: \"D) zbierať žaludy a zakopávať ich do pôdy.\" That's the same as ground truth D. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 187,
+        "question": "Nadbytočne živiny a následne riečne prívaly spôsobujú výskyt riasových kvetov v oblasti Mexického zálivu. Týmto dochádza k hromadeniu mŕtvych rias, ktoré spotrebúvajú obrovské množstvo kyslíka pozdĺž pobrežia. Aký by bol najpravdepodobnejší dôsledok na túto oblasť?\nA) Voda je nasýtená dusíkom miesto kyslíka.\nB) Teplota vody sa zvyšuje.\nC) Vlny odplavujú mŕtve riasy.\nD) Dnové organizmy hynú a ryby sa vzdialia.\nAnswer in English.",
+        "generated_answer": "Najpravdepodobnejším dôsledkom je B) Teplota vody sa zvyšuje.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question is in Slovak: \"Nadbytočné živiny a následne riečne prívaly spôsobujú výskyt riasových kvetov v oblasti Mexického zálivu. Týmto dochádza k hromadeniu mŕtvych rias, ktoré spotrebúvajú obrovské množstvo kyslíka pozdĺž pobrežia. Aký by bol najpravdepodobnejší dôsledok na túto oblasť? A) Voda je nasýtená dusíkom miesto kyslíka. B) Teplota vody sa zvyšuje. C) Vlny odplavujú mŕtve riasy. D) Dnové organizmy hynú a ryby sa vzdialia.\"\n\nGround truth answer: \"D\". So correct answer is D) \"Dnové organizmy hynú a ryby sa vzdialia.\" (Probably \"D\" stands for \"Dead organisms die and fish move away\"? Actually D says \"Dnové organizmy hynú a ryby sa vzdialia.\" Means \"Dead organisms die and fish move away\"? Anyway.)\n\nGenerated answer says: \"Najpravdepodobnejším dôsledkom je B) Teplota vody sa zvyšuje.\" So it says answer B, which is different from D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "Ktorá otázka o tulipánoch by najlepšie mohla byť zodpovedaná vedeckým výskumom?\nA) Sú tulipány lepšie ako iné kvety?\nB) Ktoré gény určujú farbu okvetných lístkov tulipánov?\nC) Prečo sa ľudia radi pozerajú na tulipány?\nD) Ktorá farba tulipánov je najkrajšia?\nAnswer in English.",
+        "generated_answer": "A) Are tulips better than other flowers?\nB) Which genes determine the color of tulip petals?\nC) Why do people like to look at tulips?\nD) Which color of tulips is the most beautiful?",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Ktorá otázka o tulipánoch by najlepšie mohla byť zodpovedaná vedeckým výskumom?\" Which question about tulips could best be answered by scientific research? Options A-D. The correct answer is B (genes determining color). The generated answer lists all options in English, not selecting one. The ground truth is just \"B\". The generated answer does not indicate which is best; it just repeats the options. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 495,
+        "question": "Svetelné vlny, ktoré prechádzajú z média vzduch do média voda,\nA) budú zaostrené do priamej čiary.\nB) stratia energiu a rozptýlia sa.\nC) zmenia dĺžku a smer.\nD) odražajú sa od hladiny vody.\nAnswer in English.",
+        "generated_answer": "A) will be focused in a straight line.\nB) will lose energy and scatter.\nC) will change length and direction.\nD) will be reflected off the water surface.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Svetelné vlny, ktoré prechádzajú z média vzduch do média voda, ...\" It's Slovak: Light waves that pass from medium air to medium water... Options A-D. The correct answer is C: they change length and direction (i.e., wavelength and direction). The generated answer lists all options with translations, not selecting one. It does not state which is correct. So it's not equivalent to ground truth. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 594,
+        "question": "Študenti sa učia ako pozície Zeme a Slnka ovplyvňujú zmeny na Zemi. Po tom, ako na Zemi ubehli štyri ročné obdobia, čo sa stalo?\nA) Zem vykonala jedno otočenie okolo Mesiaca.\nB) Zem vykonala jednu obežnú dráhu okolo Slnka.\nC) Slnko vykonalo jednu obežnú dráhu okolo Zeme.\nD) Mesiac vykonal jednu obežnú dráhu okolo Zeme.\nAnswer in English.",
+        "generated_answer": "A) Zem vykonala jedno otočenie okolo Mesiaca.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: After four seasons have passed, what happened? Correct answer is B: Earth completed one orbit around the Sun. Generated answer: \"A) Zem vykonala jedno otočenie okolo Mesiaca.\" That's option A, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 376,
+        "question": "V blízkosti ľadovcov sa nachádzajú zkamenelé palmy v sedimentárnych horninách. Prítomnosť zkamenených palmových stromov pravdepodobne poskytuje dôkaz pre ktoré tvrdenie?\nA) V minulosti bola v oblasti viac vody.\nB) Oblasť bola kedysi trávnikom.\nC) V minulosti bola klíma v oblasti tropická.\nD) V oblasti sú aktívne zlomy.\nAnswer in English.",
+        "generated_answer": "A) V minulosti bola v oblasti viac vody.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In Slovak, asks: \"In the vicinity of glaciers there are fossilized palms in sedimentary rocks. The presence of fossilized palm trees probably provides evidence for which statement?\" Options: A) In the past there was more water. B) Area was once a meadow. C) In the past the climate in the area was tropical. D) There are active faults. The correct answer is C (tropical climate). Generated answer: \"A) V minulosti bola v oblasti viac vody.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 387,
+        "question": "Predpoveď pre \"zimnú zmes\" naznačuje, že para vo vzduchu sa zmení na dážď a sneh. Ktoré z nasledujúcich tvrdení správne ilustruje toto udalosť?\nA) V atmosfére Zeme je málo vody.\nB) Väčšina vody na Zemi sa nachádza vo forme vodnej pary.\nC) Voda existuje vo všetkých troch stavoch na Zemi.\nD) Voda na Zemi má tendenciu sa časom meniť na pevný stav.\nAnswer in English.",
+        "generated_answer": "A) V atmosfére Zeme je málo vody.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer is \"A) V atmosfére Zeme je málo vody.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 382,
+        "question": "Objekt je priťahovaný k magnetu. Keď sa magnet vzdiali od objektu, magnetická sila na objekt\nA) klesne\nB) zvýši sa\nC) zostane rovnaká\nD) None\nAnswer in English.",
+        "generated_answer": "C) zostane rovnaká",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Object is attracted to a magnet. When the magnet moves away from the object, the magnetic force on the object ...\" The correct answer is A) decreases. Ground truth says A. Generated answer says \"C) zostane rovnaká\" which means \"remains the same\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 67,
+        "question": "Študenti študujú ako je teplota látky spojená s rýchlosťou molekulárneho pohybu. Ktoré molekuly sa v tejto látke pohybujú najrýchlejšie?\nA) Studené mlieko\nB) Teplá polievka\nC) Voda topiaca sa z ľadu\nD) Para stúpajúca z variacej vody\nAnswer in English.",
+        "generated_answer": "A) Studené mlieko\nB) Teplá polievka\nC) Voda topiaca sa z ľadu\nD) Para stúpajúca z variacej vody",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D) i.e., repeats the options, not selecting one. That does not convey same meaning. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "V oblastiach s vysokým prietokom hnojív môžu všetky heterotrofy vo vodnom reťazci jazera ukázať nárast ich počtu. Počas prvotného nárastu sa populácie začnú znižovať. Ktorá udalosť spôsobila pravdepodobne pokles populácií?\nA) Do jazera boli zavedení noví predátori.\nB) Voda bola vyčerpaná z potrebných živín, ako sú dusík.\nC) Zberové obdobie pre organizmy sa skončilo.\nD) Hnijúca alga znížila množstvo rozpusteného kyslíka.\nAnswer in English.",
+        "generated_answer": "A) Do jazera boli zavedení noví predátori.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In areas with high fertilizer runoff, all heterotrophs in lake water chain can show increase in number. During initial increase populations start to decrease. Which event likely caused decline? Options: A new predators, B nutrients depleted, C harvest period ended, D decaying algae reduced dissolved oxygen. The correct answer is D. Generated answer says A) new predators. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "Ktoré tvrdenie týkajúce sa molekúl ľadu a molekúl vodného roztoku je správne?\nA) Molekuly v ľade majú viac energie ako molekuly vodného roztoku.\nB) Molekuly v ľade obsahujú odlišné atómy ako molekuly vodného roztoku.\nC) Molekuly v ľade majú väčší elektrický náboj ako molekuly vodného roztoku.\nD) Molekuly v ľade sú menej pohyblivé ako molekuly vodného roztoku.\nAnswer in English.",
+        "generated_answer": "A) Molekuly ľadu majú viac energie ako molekuly vodného roztoku.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: Which statement about ice molecules and water solution molecules is correct? Options A-D. Ground truth answer is D. Generated answer says \"A) Molekuly ľadu majú viac energie ako molekuly vodného roztoku.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Kedy a kde by bol počet hodín denného svetla každý deň najväčší?\nA) počas zimy blízko rovníka\nB) počas leta blízko rovníka\nC) počas zimy blízko Severného pólu\nD) počas leta blízko Severného pólu\nAnswer in English.",
+        "generated_answer": "A) počas zimy blízko rovníka",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Kedy a kde by bol počet hodín denného svetla každý deň najväčší?\" Means \"When and where would the number of daylight hours each day be greatest?\" Options: A) during winter near equator, B) during summer near equator, C) during winter near North Pole, D) during summer near North Pole. The correct answer is D (summer near North Pole) because during summer at high latitudes you have very long days, up to 24h. The generated answer is \"A) počas zimy blízko rovníka\" which is option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "Študenti chcú porovnať veľkosť spoločenstva mikroorganizmov v 500 mililitrových vodných vzorkách z oboch jazier. Ktorý faktor najpravdepodobnejšie ovplyvní presnosť ich pozorovania?\nA) priemerná teplota vodných vzoriek\nB) značka mikroskopického sklíčka použitého\nC) zväčšovací výkon mikroskopu\nD) správna identifikácia každého mikroorganizmu\nAnswer in English.",
+        "generated_answer": "D) správna identifikácia každého mikroorganizmu",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which factor most likely affects accuracy of observations? Options: A average temperature, B brand of slide, C magnification power, D correct identification of each microbe. The correct answer likely is D? Actually accuracy of observations: correct identification is crucial. But ground truth says C. So generated answer D does not match ground truth C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "Študent sa zaoberal rastom rastlín v rôznych typoch pôdy. Najlepší spôsob organizovania údajov je podľa\nA) dátumu a času.\nB) dátumu a výšky rastlín.\nC) výšky rastlín a typu pôdy\nD) dátumu, výšky rastlín a typu pôdy.\nAnswer in English.",
+        "generated_answer": "The best way to organize the data is according to A) date and time.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Študent sa zaoberal rastom rastlín v rôznych typoch pôdy. Najlepší spôsob organizovania údajov je podľa\" which translates: \"The student was dealing with plant growth in different soil types. The best way to organize the data is according to\". Options: A date and time, B date and plant height, C plant height and soil type, D date, plant height and soil type. Ground truth answer: D. Generated answer says: \"The best way to organize the data is according to A) date and time.\" That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 306,
+        "question": "Uveďte príklad jednej fyzickej zmeny a jednej chemickej zmeny.\nA) varenie vody a tavenie vosku\nB) hrdza na železe a pečenie torty\nC) rozpúšťanie prášku a triedenie papiera\nD) zmrznutie vody a spaľovanie uhlia\nAnswer in English.",
+        "generated_answer": "A) varenie vody a tavenie vosku\nVarením vody a tavením vosku dochádza k chemickej zmene. Varením sa voda zohreje na teplotu varu a potom sa zohriata voda odparí, pričom sa uvoľní teplo. Vosok tavenie je proces, pri ktorom sa vosk taví a potom sa zohreje na teplotu tavenia, pričom sa uvoľní teplo.\nB) hrdza na železe a pečenie torty\nHrdza na železe je chemická zmena, ktorá sa vyskytuje pri kontakte železa s kyselinou sírovou. Pri kontakte s kyselinou sírovou sa železo oxiduje a vytvára hrdza. Pečenie torty je proces, pri ktorom sa cukor a iné prísady rozpúšťajú vo vode a potom sa pečú v peci.\nC) rozpúšťanie prášku a triedenie papiera\nRozpúšťanie prášku je chemická zmena, pri ktorej sa prášok rozpúšťa vo vode. Triedenie papiera je proces, pri ktorom sa papier triedi podľa veľkosti, farby a iných charakteristík.\nD) zmrznutie vody a spaľovanie uhlia\nZmrznutie vody je fyzikálna zmena, pri ktorej voda zmrzne na ľad. Spaľovanie uhlia je chemická zmena, pri ktorej sa uhlie taví a potom sa zohreje na teplotu tavenia, pričom sa uvoľní teplo.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Uveďte príklad jednej fyzickej zmeny a jednej chemickej zmeny.\" Provide example of one physical change and one chemical change. Options A-D. The correct answer is D (freezing water (physical) and burning coal (chemical)). Ground truth is \"D\". The generated answer lists all options with explanations, but does not select a single answer. It includes multiple options and explanations, but does not state which is correct. The question asks to answer in English, but generated answer is in Slovak with explanations. It does not match ground truth \"D\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "Najlepšie by sa exotermická reakcia preukázala pomocou\nA) motoru v aute.\nB) chladničky.\nC) panvice.\nD) sklenené fľaše.\nAnswer in English.",
+        "generated_answer": "Najlepšie by sa exotermická reakcia preukázala pomocou\nA) motoru v aute.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Najlepšie by sa exotermická reakcia preukázala pomocou\" (Which would best demonstrate an exothermic reaction?) Options A) motor in a car, B) refrigerator, C) pan, D) glass bottle. The correct answer is A. Ground truth: \"A\". Generated answer: repeats the question and says \"A) motoru v aute.\" That's essentially the same answer: option A. So they convey same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1107,
+        "question": "Čo udržiava Zem v obehu okolo Slnka?\nA) trvanlivosti mesiaca\nB) poloha Zeminej dráhy\nC) rýchlosť rotácie Zeme\nD) gravitačný ťah Slnka\nAnswer in English.",
+        "generated_answer": "A) trvanlivosti mesiaca",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Čo udržiava Zem v obehu okolo Slnka?\" (What keeps Earth in orbit around the Sun?) Options: D) gravitačný ťah Slnka (gravity of the Sun). Ground truth: D. Generated answer: \"A) trvanlivosti mesiaca\" (option A: durability of the moon). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 801,
+        "question": "Podľa klasifikácie buniek sú prokaryotické bunky oddeľované od eukaryotických buniek. Ktorý znak sa často používa na rozlišovanie prokaryotických buniek od eukaryotických buniek?\nA) životné procesy\nB) rozdiely v veľkosti\nC) plazmatické membrány\nD) molekuly energie\nAnswer in English.",
+        "generated_answer": "D) molekuly energie",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Slovak: \"According to cell classification, prokaryotic cells are separated from eukaryotic cells. Which characteristic is often used to distinguish prokaryotic cells from eukaryotic cells? Options: A) life processes, B) size differences, C) plasma membranes, D) energy molecules.\" The correct answer is B (size differences). Generated answer: D) energy molecules. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "Pletúne sú rastliny, ktoré majú veľké množstvo variantov génov pre farbu kvetu. Ak sa v populácii objaví biely kvet nezávisle na vlastnosti bielo-kvetovosti, aký je najpravdepodobnejší zdroj?\nA) genetická mutácia\nB) selektívne chovanie\nC) duplikácia genomu\nD) sexuálna rekombinácia\nAnswer in English.",
+        "generated_answer": "A) genetic mutation",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Slovak, asks: \"Pletúne sú rastliny... If a white flower appears in the population independently of the property of white-flowering, what is the most likely source? Options: A) genetic mutation, B) selective behavior, C) genome duplication, D) sexual recombination. Answer in English.\"\n\nGround truth answer: \"A\". Means option A, genetic mutation. Generated answer: \"A) genetic mutation\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "Anna zabehla 100 metrov za 20 sekúnd. Aká bola jej priemerná rýchlosť?\nA) 2 m/s\nB) 5 m/s\nC) 20 m/s\nD) 25 m/s\nAnswer in English.",
+        "generated_answer": "Anna zabehla 100 metrov za 20 sekúnd. Aká bola jej priemerná rýchlosť?\nA) 2 m/s\nB) 5 m/s\nC) 20 m/s\nD) 25 m/s\n\nAnna zabehla 100 metrov za 20 sekúnd. Aká bola jej priemerná rýchlosť?\n\nPriemerná rýchlosť je rýchlosť za jednotku času.\n\nAk zabehla 100 metrov za 20 sekúnd, znamená to, že za 1 sekundu prešla 100 metrov.\n\nPriemerná rýchlosť je rýchlosť za jednotku času.\n\nAk zabehla 100 metrov za 20 sekúnd, znamená to, že za 1 sekundu prešla 100 metrov.\n\nPriemerná rýchlosť je rýchlosť za jednotku času.\n\nPriemerná rýchlosť je rýchlosť za jednotku času.\n\nPriemerná rýchlosť je rýchlosť za jednotku času.\n\nPriemerná rýchlosť je rýchlosť za jednotku času.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". That means the correct answer is option B: 5 m/s. The generated answer repeats the question and some nonsense about average speed, incorrectly says \"means that in 1 second she covered 100 meters\" which is wrong. It does not give a final answer choice. It does not state \"B\" or \"5 m/s\". So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1068,
+        "question": "DNA reťazec obsahuje kódy, ktoré sa skladajú z trojice nukleotidov. Ktorý popis najlepšie opisuje dôležitosť kódov nachádzajúcich sa v sekvenciách DNA?\nA) Obsahujú kód pre messenger RNA.\nB) Signalizujú začiatok mitotickej bunkovej delenie.\nC) Zabezpečujú správne replikáciu genetického kódu.\nD) Používajú sa na zostavovanie aminokyselín pre syntézu bielkovín.\nAnswer in English.",
+        "generated_answer": "A) Obsahujú kód pre messenger RNA.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"DNA reťazec obsahuje kódy, ktoré sa skladajú z trojice nukleotidov. Ktorý popis najlepšie opisuje dôležitosť kódov nachádzajúcich sa v sekvenciách DNA?\" Options: A) Contains code for mRNA. B) Signal start of mitotic cell division. C) Ensure correct replication of genetic code. D) Used for assembling amino acids for protein synthesis. The correct answer is D. Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 482,
+        "question": "Okrem nasledujúceho sa výživové hodnoty potravín dajú nájsť na údajoch na obale potraviny:\nA) odporúčaná veľkosť porcie.\nB) kalórie na porciu.\nC) navrhovaný jedálny plán.\nD) zoznam ingrediencií.\nAnswer in English.",
+        "generated_answer": "A) The recommended serving size.\nB) Calories per serving.\nC) Meal plan suggested.\nD) List of ingredients.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Okrem nasledujúceho sa výživové hodnoty potravín dajú nájsť na údajoch na obale potraviny:\" which translates: \"Besides the following, the nutritional values of foods can be found on the information on the food packaging:\" Then options A-D. The correct answer according to ground truth is \"C\". So the correct option is C: \"navrhovaný jedálny plán.\" Means \"suggested meal plan\". The ground truth answer is just \"C\". The generated answer lists all options with translations, not selecting one. It does not match ground truth. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "V laboratórnej procedúre študent pozoruje častice pôdy rôznych veľkostí. Ktorý nástroj je najvhodnejší pre túto skúšku?\nA) lupu s 1X zväčšením\nB) mikroskop s 40X zväčšením\nC) svetelný mikroskop s 100X zväčšením\nD) rozsekávací mikroskop s 4X zväčšením\nAnswer in English.",
+        "generated_answer": "C) svetelný mikroskop s 100X zväčšením",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which tool is most suitable? Options A-D. Ground truth answer is D. Generated answer is \"C) svetelný mikroskop s 100X zväčšením\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "Nové technológie umožnili výrobcom automobilov uvádzať na trh palivovo úsporné hybridné autá, ale ich likvidácia na konci životnosti prináša problém. Aká otázka predstavuje likvidačný problém, ktorý je pre hybridné vozidlá unikátny?\nA) Čo sa urobí s recykláciou batérií?\nB) Čo sa urobí s chladivom v klimatizačnom systéme?\nC) Čo sa urobí s náplňami v nádrži na benzín, chladiacej kvapaliny a batériách?\nD) Čo sa urobí s plastovými materiálmi v vozidlách?\nAnswer in English.",
+        "generated_answer": "A) Čo sa urobí s recykláciou batérií?",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which question represents the disposal problem unique to hybrid vehicles?\" Options A-D. The correct answer is A. Ground truth answer: \"A\". Generated answer: \"A) Čo sa urobí s recykláciou batérií?\" That's essentially the same as option A, which matches ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 563,
+        "question": "Ktorá teória pôvodu Mesiaca tvrdí, že Mesiac Zeme vznikol tým istým procesom, ktorý vytvoril Mars, Jupiter a Neptún?\nA) Teória gigantického nárazu\nB) Teória fízie\nC) Teória zachytenia\nD) Teória spoluzrodenia\nAnswer in English.",
+        "generated_answer": "Teória gigantického nárazu tvrdí, že Mesiac vznikol tým istým procesom, ktorý vytvoril Mars, Jupiter a Neptún.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Which theory of Moon origin says Moon formed by same process that created Mars, Jupiter, Neptune? Options: A) Giant impact, B) Fission, C) Capture, D) Co-formation (co-accretion). The correct answer is D (co-formation). Ground truth is \"D\". Generated answer says: \"Teória gigantického nárazu tvrdí, že Mesiac vznikol tým istým procesom, ktorý vytvoril Mars, Jupiter a Neptún.\" That says the giant impact theory says Moon formed by same process that created Mars, Jupiter, Neptune. That's incorrect; also not matching D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "Doteraz bolo známe, že len malá časť ľudského DNA má špecifickú funkciu. Zvyšok DNA sa považoval za nevýznamný. Nové dôkazy teraz naznačujú, že všetka DNA je potrebná pre určité funkcie génov. Ktoré tvrdenie najlepšie opisuje význam týchto nových dôkazov?\nA) Urobí štúdium DNA oveľa jednoduchším.\nB) Dokazuje, že DNA je menej dôležitá, ako sa pôvodne myslelo.\nC) Poskytuje dôkazy o tom, že vedecké výsledky by nemali byť zpochybňované.\nD) Demonštruje, že vedecké poznatky sú podrobené zmene.\nAnswer in English.",
+        "generated_answer": "A) Urobí štúdium DNA oveľa jednoduchším.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: which statement best describes significance of new evidence? Options: A) makes study easier, B) DNA less important, C) evidence that scientific results shouldn't be questioned, D) demonstrates that scientific knowledge is subject to change. Correct is D. Ground truth answer is D. Generated answer is \"A) Urobí štúdium DNA oveľa jednoduchším.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1008,
+        "question": "Ktoré alternatívne energetické zdroje využívajú gravitačnú energiu na výrobu elektriny?\nA) prílivovú energiu a vodnú energiu\nB) geotermálnu energiu a vodnú energiu\nC) veternú energiu a prílivovú energiu\nD) geotermálnu energiu a veternú energiu\nAnswer in English.",
+        "generated_answer": "D) geotermálnu energiu a veternú energiu",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which alternative energy sources use gravitational energy to generate electricity?\" Options: A) tidal and hydro, B) geothermal and hydro, C) wind and tidal, D) geothermal and wind. Correct answer is A (tidal and hydro) because both use gravity (water flow). Generated answer: D) geothermal and wind. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "V malom práčovni sú niekoľko polic nad práčkou. Tieto poličky sú príkladom\nA) zosilňovania steny.\nB) efektívneho využitia úložného priestoru.\nC) použitia stroja na viac ako jednu úlohu.\nD) riešenia potreby prístrešia kreatívnym spôsobom.\nAnswer in English.",
+        "generated_answer": "A) zosilňovania steny.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In Slovak: \"V malom práčovni sú niekoľko polic nad práčkou. Tieto poličky sú príkladom\" options A-D. The correct answer is B (effective use of storage space). Generated answer: \"A) zosilňovania steny.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "Dňa 15. októbra 1997 v čiernom púštnom prostredí v Nevade prešiel Andy Green meranú vzdialenosť pri priemernom tempe 339 metrov za sekundu vo vozidle poháňanom raketovým motorom s názvom \"Thrust.\" Andy bol prvý človek, ktorý\nA) využil Dopplerov jav.\nB) riadil vozidlo poháňané raketovým palivom.\nC) prešiel čiernou púšť Nevady.\nD) prekonal zvuk na zemi.\nAnswer in English.",
+        "generated_answer": "D) prekonal zvuk na zemi.\n\nDňa 15. októbra 1997 v čiernom púštnom prostredí v Nevade prešiel Andy Green meranú vzdialenosť pri priemernom tempe 339 metrov za sekundu vo vozidle poháňanom raketovým motorom s názvom \"Thrust.\" Andy bol prvý človek, ktorý prekonal zvuk na zemi.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The ground truth answer is \"D\". The generated answer says \"D) prekonal zvuk na zemi.\" That's equivalent to D. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 664,
+        "question": "Ktorý obnoviteľný zdroj energie je generovaný pohybmi vzduchu konvekciou?\nA) energia vetra\nB) slnečná energia\nC) fosílne palivové energie\nD) geotermálna energia\nAnswer in English.",
+        "generated_answer": "D) geotermálna energia",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Ktorý obnoviteľný zdroj energie je generovaný pohybmi vzduchu konvekciou?\" Means \"Which renewable energy source is generated by air movements convection?\" The correct answer is wind energy (A). Ground truth: A. Generated answer: D) geotermálna energia. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "Farmer má tri veľké polia, na ktorých plánuje pestovať trávy na seno. Trávy by sa mali zberať až po dvoch rokoch rastu. Čo by mohol farmár urobiť, aby si každý rok osiahol úrodu sena?\nA) Zasiať každé pole s jednoročným rozdielom.\nB) Zasiať trávy čo najbližšie k sebe.\nC) Zasiať všetky polia v rovnakom čase, ale s rôznymi druhmi tráv.\nD) Zasiať do každého poľa teplomilné a chladnomilné trávy naraz.\nAnswer in English.",
+        "generated_answer": "A) Zasiať každé pole s jednoročným rozdielom.\nB) Zasiať trávy čo najbližšie k sebe.\nC) Zasiať všetky polia v rovnakom čase, ale s rôznymi druhmi tráv.\nD) Zasiať do každého poľa teplomilné a chladnomilné trávy naraz.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Farmer má tri veľké polia... What could farmer do to sow hay each year?\" The correct answer is A (Zasiať každé pole s jednoročným rozdielom). Ground truth is \"A\". Generated answer repeats all options A-D, not just A. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 996,
+        "question": "V Austrálii môžu byť uprostred dňa teploty vyššie ako 110°F (43°C). Aby si udržali telo v chlade, klokany lížu svoje paže a natierajú ich hrubou vrstvou slín. Keď sa sliny odparia, fungujú ako chladiaci mechanizmus a znižujú teplotu tela klokana. Aký termín túto aktivitu najlepšie opisuje?\nA) prírodný výber\nB) obranný mechanizmus\nC) štrukturálna adaptácia\nD) behaviorálna adaptácia\nAnswer in English.",
+        "generated_answer": "C) štrukturálna adaptácia",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question asks: Which term best describes the activity? Options: A natural selection, B defensive mechanism, C structural adaptation, D behavioral adaptation. The correct answer is D (behavioral adaptation). Generated answer: \"C) štrukturálna adaptácia\" which is structural adaptation, not matching. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

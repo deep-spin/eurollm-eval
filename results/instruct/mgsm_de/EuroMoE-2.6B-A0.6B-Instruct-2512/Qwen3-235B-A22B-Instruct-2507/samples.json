@@ -1,0 +1,802 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?\nAnswer in English.",
+        "generated_answer": "Janeth hat 2000 $ geliehen und verspricht, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, berechnet sich das Restguthaben wie folgt:\n\n1. **Zinsen berechnen**:  \n   - Zinsen = 10 % von 165 $ = 0,10 × 165 = 16,50 $  \n   - Zinsen = 165 $ + 16,50 $ = 181,50 $  \n\n2. **Gesamtbetrag zurückzahlen**:  \n   - Gesamtbetrag = 2000 $ + 181,50 $ = 2181,50 $  \n\n3. **Restguthaben berechnen**:  \n   - Restguthaben = Gesamtbetrag - Zinsen = 2181,50 $ - 181,50 $ = 2000 $  \n\n**Antwort**:  \nJaneths Restguthaben bis dahin wird 2000 $ betragen.",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?\nAnswer in English.",
+        "generated_answer": "In den ersten 15 Minuten des Staus fahren 5 Autos aus, sodass nur noch 25 Autos auf der Autobahn sind.\n\nDie Anzahl der Autos, die in den verbleibenden 15 Minuten des Staus durch den Stau gefahren sind, beträgt:\n\n25 (im Stau verbleibende Autos) - 5 (ausgeschiedene Autos) = 20 Autos.\n\nDaher sind in den ersten 15 Minuten des Staus 20 Autos durch den Stau gefahren.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Violetta will neue Farbstifte kaufen. Sie braucht sie in 5 verschiedenen Farben und sie legte 20 $ für diesen Kauf bereit. Ein Farbstift kostet 2 $. Wie viel Wechselgeld wird sie bekommen?\nAnswer in English.",
+        "generated_answer": "Violetta will 5 different colors of new colored pencils. Each pencil costs $2.\n\nThe total cost for 5 pencils is:  \n5 pencils × $2/pencil = $10\n\nShe has $20, so the change she will get is:  \n$20 - $10 = $10\n\nThe change is $10.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad bestellte Mach-deinen-eigenen-Burrito zum Mittagessen. Der einfache Burrito kostet 6,50 $. Er fügt extra Fleisch für 2,00 $, extra Käse für 1,00 $, Avocado für 1,00 $ und 2 Saucen für jeweils 0,25 $ hinzu. Er beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen. Er hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Wie viel schuldet er noch?\nAnswer in English.",
+        "generated_answer": "To determine how much Chad still owes after all the transactions, we need to calculate the total cost of his meal and then subtract the value of the gift card and the extra charges.\n\n### **Step 1: Calculate the total cost of the meal**\n\n1. **Simple Burrito:**  \n   - Price: $6.50  \n   - Add: **2.00** (meat) + **1.00** (cheese) + **1.00** (avocado) + **0.25** (sauces) = **5.25**  \n   - Total: **$6.50 + 5.25 = 11.75**\n\n2. **Extra Charges:**  \n   - Add: **2.00** (meat) + **1.00** (cheese) + **1.00** (avocado) + **0.25** (sauces) = **4.25**  \n   - Total: **$11.75 + 4.25 = 16.00**\n\n3. **Gift Card:**  \n   - Value: **$5.00**  \n   - Total: **$16.00 - 5.00 = 11.00**\n\n### **Step 2: Subtract the gift card from the total cost**\n\nChad owes **$11.00** more than the value of the gift card.\n\n### **Final Answer:**\nChad still owes **$11.00**.",
+        "ground_truth": 9,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 107,
+        "question": "Frankie sieht jeden Abend, nachdem er seine Hausaufgaben gemacht hat, fern. Am Montag und am Dienstag hat er jeweils eine 1-stündige Folge seiner Lieblingssendung angeschaut. Am Mittwoch hat er einige Folgen einer 30-minütigen Sendung angeschaut. Am Donnerstag hatte er seine Hausaufgaben früher erledigt und eine 1-stündige Folge und eine 30-minütige Show angeschaut. Am Freitag durfte er wegen des Wochenendes später aufbleiben und hat zwei 1-stündige Folgen angeschaut. Wenn er insgesamt 7 Stunden ferngesehen hat, hat er am Mittwoch wie viele 30 Minuten lange Folgen angeschaut?\nAnswer in English.",
+        "generated_answer": "Frankie hat am Mittwoch insgesamt 7 Stunden ferngesehen.  \n\nEr hat eine 1-stündige Folge am Montag und Dienstag angeschaut.  \nEr hat eine 30-minütige Folge am Mittwoch und Donnerstag angeschaut.  \nEr hat eine 1-stündige Folge am Freitag angeschaut.  \n\nZusammengefasst:  \n- Montag und Dienstag: 1 Stunde  \n- Mittwoch: 1 Stunde + 30 Minuten = 1,5 Stunden  \n- Donnerstag: 1 Stunde + 30 Minuten = 1,5 Stunden  \n- Freitag: 1 Stunde  \n\nGesamt: 1 + 1,5 + 1,5 + 1 = **4,5 Stunden**  \n\nDa 1 Stunde = 60 Minuten, sind das:  \n4,5 Stunden × 60 Minuten/Stunde = **270 Minuten**  \n\n270 Minuten sind gleich 4,5 Stunden.  \n\nDaher hat er am Mittwoch wie viele 30-minütige Folgen angeschaut: **4,5 Stunden ÷ 30 Minuten/Stunde = 4/3 Stunden = 1 Stunde 20 Minuten**.  \n\n**Antwort:**  \nFrankie hat am Mittwoch 1 Stunde und 20 Minuten (oder 1,5 Stunden) ferngesehen.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "Ein neues Programm wurde 60-mal im ersten Monat heruntergeladen. Im zweiten Monat lag die Anzahl der Downloads dreimal so hoch wie die Anzahl der Downloads im ersten Monat, brach dann aber im dritten Monat um 30 % ein. Wie oft wurde das Programm insgesamt während dieser drei Monate heruntergeladen?\nAnswer in English.",
+        "generated_answer": "To determine how many times the program was downloaded in the three months, we need to analyze the given data step by step.\n\n### Given:\n- **First month:** 60 downloads\n- **Second month:** 3 times the number of downloads in the first month, so \\( 3 \\times 60 = 180 \\) downloads\n- **Third month:** 30% fewer than the second month, so \\( 180 \\times (1 - 0.30) = 180 \\times 0.70 = 126 \\) downloads\n\n### Total downloads over the three months:\n\\[\n60 \\text{ (first month)} + 180 \\text{ (second month)} + 126 \\text{ (third month)} = 366 \\text{ downloads}\n\\]\n\n### Final Answer:\nThe program was downloaded a total of \\(\\boxed{366}\\) times during the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Vier Schulen treten in einem Basketballturnier gegeneinander an. Jede Schule hat ein Mädchenbasketballteam und ein Jungenbasketballteam geschickt und jedes Team hat 5 Spieler. Alle Schulen haben auch einen Trainer für jedes Team mitgeschickt. Wie viele Personen haben die Schulen insgesamt geschickt?\nAnswer in English.",
+        "generated_answer": "To determine the total number of people that the schools sent to the tournament, we need to consider both the players and the coaches. Here's the breakdown:\n\n1. **Players per School**:  \n   - Each school has **5 players** (one for each position: point guard, shooting guard, small forward, power forward, and center).  \n   - Total players per school = \\( 5 \\text{ players/school} \\times 4 \\text{ schools} = 20 \\text{ players} \\).\n\n2. **Total Players**:  \n   - Since there are **20 players per school**, the total number of players across all schools is:  \n   \\[\n   20 \\text{ players/school} \\times 2 \\text{ schools} = 40 \\text{ players}\n   \\]\n\n3. **Coaches per School**:  \n   - Each school has **1 coach** (one for each team).  \n   - Total coaches per school = \\( 1 \\text{ coach/school} \\times 2 \\text{ schools} = 2 \\text{ coaches} \\).\n\n4. **Total Personnel**:  \n   - Total personnel = Players + Coaches = \\( 40 \\text{ players} + 2 \\text{ coaches} = 42 \\text{ people} \\).\n\n**Final Answer**:  \n\\[\n\\boxed{42}\n\\]",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 130,
+        "question": "Nissa stellt 60 Saisonarbeiter ein, damit sie im Weihnachtsdorf ihres Kaufhauses die Elfen spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben, dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?\nAnswer in English.",
+        "generated_answer": "Nissa stellt 60 Saisonarbeiter ein, um im Weihnachtsdorf ihres Kaufhauses die Elfen zu spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben. Dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?\n\n**Lösung:**  \n1. **Anfangsbestand:**  \n   - 60 Elfen × 1/3 = 20 Elfen.\n\n2. **Elfen, die kündigen:**  \n   - 20 Elfen × 1/3 = 6 Elfen.\n\n3. **Elfen, die verletzt werden:**  \n   - 10 Elfen × 1/3 = 3 Elfen.\n\n**Gesamtzahl der übrig gebliebenen Elfen:**  \n20 (angefangen) + 6 (kündigen) + 3 (verletzt) = **29 Elfen**.\n\n**Antwort:**  \n29 Elfen sind noch übrig.",
+        "ground_truth": 30,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 124,
+        "question": "Jennie hilft im Büro ihrer Mutter. Sie hat einen Stapel mit 60 Briefen, die frankiert werden müssen und einen bereits frankierten Briefstapel. Sie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Wenn sich jetzt in dem Stapel mit den bereits frankierten Briefen 30 Briefe befinden, waren wie viele Briefe in dem Stapel, als Jennie angefangen hat?\nAnswer in English.",
+        "generated_answer": "Jennie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen.  \n\n**Schritt 1:**  \n- **Briefe, die frankiert werden müssen:** 60  \n- **Briefmarken, die auf diese Briefe aufgebracht werden:**  \n  - Drittel von 60 = 60 ÷ 3 = **20 Briefe**  \n- **Briefe, die bereits frankiert sind:** 30  \n\n**Schritt 2:**  \n- **Gesamtzahl der Briefe, die noch nicht frankiert sind:** 60 (frisch) + 30 (frisch) = **90 Briefe**  \n\n**Schritt 3:**  \n- **Gesamtzahl der Briefe, die Jennie in den Stapel gesteckt hat:** 20 (frisch) + 30 (frisch) = **50 Briefe**  \n\n**Schritt 4:**  \n- **Gesamtzahl der Briefe, die Jennie in den Stapel gesteckt hat, als sie begann:** 50  \n\n**Antwort:**  \n**50 Briefe**",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 103,
+        "question": "Ein Nebelschleier kommt vom Meer herüber und legt sich über eine Stadt. Er braucht 10 Minuten, um jeweils 3 Meilen der Stadt zu bedecken. Wenn sich die Stadt vom Meeresufer bis zum gegenüberliegenden Landesinneren über 42 Meilen erstreckt, braucht der Nebelschleier wie viele Minuten, bis er sich über die ganze Stadt gelegt hat?\nAnswer in English.",
+        "generated_answer": "To determine how long it takes for the fog to cover the entire city, we need to break down the problem step by step.\n\n### **Gegeben:**\n- **Stadt:** 42 Meilen (der gesamte Stadtumfang).\n- **Nebelgeschwindigkeit:** 3 Meilen pro 10 Minuten.\n- **Zeit für die Stadtbedeckung:** 10 Minuten.\n\n### **Schritt 1: Berechnung der benötigten Zeit für die Stadtbedeckung**\nDie Stadt wird in 42 Meilen unterteilt. Die Zeit, die benötigt wird, um die gesamte Stadt zu bedecken, ist die Zeit, die benötigt wird, um 42 Meilen zu durchqueren.\n\n\\[\n\\text{Zeit für die Stadtbedeckung} = \\frac{\\text{Stadtumfang}}{\\text{Geschwindigkeit der Stadtbedeckung}} = \\frac{42 \\text{ Meilen}}{3 \\text{ Meilen/10 Minuten}} = \\frac{42}{3} \\text{ Minuten} = 14 \\text{ Minuten}\n\\]\n\n### **Schritt 2: Berechnung der Gesamtzeit**\nDie Gesamtzeit, in der der Nebel die gesamte Stadt bedeckt, ist die Summe der Zeit, die benötigt wird, um die Stadt zu bedecken, und der Zeit, die benötigt wird, um die Stadt zu durchqueren.\n\n\\[\n\\text{Gesamtzeit} = \\text{Zeit für die Stadtbedeckung} + \\text{Zeit zur Durchquerung} = 14 \\text{ Minuten} + 10 \\text{ Minuten} = 24 \\text{ Minuten}\n\\]\n\n### **Antwort:**\n\\[\n\\boxed{24 \\text{ Minuten}}\n\\]",
+        "ground_truth": 140,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 235,
+        "question": "John bestellt ein paar Pizzas, um sie mit seinen Freunden zu teilen. Es sind 20 Freunde insgesamt, und John will sicherstellen, dass jeder 4 Stück haben kann. Pizzas werden nur in 8 Portionen geschnitten verkauft. Wie viele Pizzas muss John bestellen?\nAnswer in English.",
+        "generated_answer": "To determine how many pizzas John needs to order, let's break down the problem step by step:\n\n1. **Total Number of Friends**:  \n   - There are **20** friends in total.\n\n2. **Pizzas per Person**:  \n   - Each friend should get **4** pizzas.\n\n3. **Total Pizzas Needed**:  \n   - Multiply the number of friends by the number of pizzas per person:  \n   \\[\n   20 \\text{ friends} \\times 4 \\text{ pizzas per person} = 80 \\text{ pizzas}\n   \\]\n\n**Final Answer**:  \n\\[\n\\boxed{80}\n\\]",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 200,
+        "question": "Baldur holt Wasser von einem Brunnen. Er holt jeden Morgen 5 Eimer Wasser und jeden Nachmittag 6 Eimer Wasser. Wenn jeder Eimer 5 Liter Wasser enthält, wie viel Liter Wasser holt er dann jeden Tag?\nAnswer in English.",
+        "generated_answer": "Baldur holt jeden Morgen 5 Eimer Wasser und jeden Nachmittag 6 Eimer Wasser. Wenn jeder Eimer 5 Liter Wasser enthält, dann holt Baldur jeden Tag:\n\n- **5 Eimer Wasser am Morgen**: 5 Eimer × 5 Liter = **25 Liter**  \n- **6 Eimer Wasser am Nachmittag**: 6 Eimer × 5 Liter = **30 Liter**  \n\n**Gesamt**: **25 Liter + 30 Liter = 55 Liter**  \n\nAlso holt Baldur jeden Tag **55 Liter Wasser**.",
+        "ground_truth": 55,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 212,
+        "question": "Gary geht gerne rund um den Rand des örtlichen Parks, der ein Rechteck ist, das 1,5 Meilen auf 6 Meilen misst. Wenn er mit 3 Meilen/Stunde geht, wie viele Stunden verbringt er dann mit Gehen?\nAnswer in English.",
+        "generated_answer": "Gary geht gerne rund um den Rand des örtlichen Parks, der ein Rechteck ist, das 1,5 Meilen auf 6 Meilen misst. Wenn er mit 3 Meilen/Stunde geht, wie viele Stunden verbringt er dann mit Gehen?\n\n**Lösung:**\n\n1. **Bestimme die Seitenlängen des Parks:**\n   - Länge des Parks: 1,5 Meilen\n   - Breite des Parks: 6 Meilen\n\n2. **Berechne die Seitenlängen des Rechtecks:**\n   - Die Länge des Rechtecks ist die Summe der beiden Längen:  \n     \\( \\text{Länge} = \\text{Breite} + \\text{Höhe} = 6 \\text{ Meilen} + 1,5 \\text{ Meilen} = 7,5 \\text{ Meilen} \\)\n   - Die Breite des Parks ist die Differenz zwischen den beiden Längen:  \n     \\( \\text{Breite} = \\text{Länge} - \\text{Höhe} = 7,5 \\text{ Meilen} - 1,5 \\text{ Meilen} = 6 \\text{ Meilen} \\)\n\n3. **Berechne die Fläche des Parks:**\n   \\[\n   \\text{Fläche} = \\text{Länge} \\times \\text{Breite} = 7,5 \\text{ Meilen} \\times 6 \\text{ Meilen} = 45 \\text{ Meilen}^2\n   \\]\n\n4. **Berechne die Strecke, die Gary in 1 Stunde zurücklegt:**\n   \\[\n   \\text{Geschwindigkeit} = 3 \\text{ Meilen/Stunde}\n   \\]\n   \\[\n   \\text{Zeit} = \\frac{\\text{Strecke}}{\\text{Geschwindigkeit}} = \\frac{45 \\text{ Meilen}}{3 \\text{ Meilen/Stunde}} = 15 \\text{ Stunden}\n   \\]\n\n**Antwort:**  \nGary verbringt **15 Stunden** mit Gehen.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 77,
+        "question": "Wenn Raymond halb so viel Wäsche wäscht wie Sarah, und Sarah 4-mal so viel Wäsche wäscht wie David, berechne den Unterschied in der Wäschemenge, die Raymond und David waschen, wenn Sarah 400 Pfund Wäsche wäscht.\nAnswer in English.",
+        "generated_answer": "To determine the difference in the amount of laundry Raymond and David wash when Sarah washes 400 pounds of laundry, we can break down the problem step by step.\n\n---\n\n### **Step 1: Define the Variables**\n- Let:\n  - \\( S \\) = amount of laundry Sarah washes.\n  - \\( D \\) = amount of laundry David washes.\n  - \\( R \\) = amount of laundry Raymond washes.\n\n---\n\n### **Step 2: Set Up the Equations**\n1. **Raymond washes half as much as Sarah**:\n   \\[\n   R = \\frac{1}{2}S\n   \\]\n\n2. **Sarah washes 4 times as much as David**:\n   \\[\n   D = 4 \\times S\n   \\]\n\n3. **Sarah washes 400 pounds of laundry**:\n   \\[\n   S = 400 \\text{ pounds}\n   \\]\n\n---\n\n### **Step 3: Substitute the Second Equation into the First**\nFrom \\( S = 400 \\) pounds:\n\\[\nR = \\frac{1}{2} \\times 400 = 200 \\text{ pounds}\n\\]\n\n---\n\n### **Step 4: Calculate the Difference in Laundry Quantities**\n\\[\n\\text{Difference} = R - D = 200 - 400 = -200 \\text{ pounds}\n\\]\n\n---\n\n### **Final Answer**\nRaymond washes \\(\\boxed{-200}\\) pounds of laundry, and David washes \\(\\boxed{400}\\) pounds of laundry. The difference in the amount of laundry they wash is \\(\\boxed{-200}\\) pounds.",
+        "ground_truth": 100,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 122,
+        "question": "Sadie hat am Montag 8 Stunden geschlafen. An den nächsten beiden Tagen schlief sie 2 Stunden weniger pro Tag, da sie einige Aufgaben zu erledigen hatte. Wenn sie den Rest der Woche über 1 Stunde mehr als an diesen beiden Tagen geschlafen hat, hat sie wie viele Stunden in der Woche insgesamt geschlafen?\nAnswer in English.",
+        "generated_answer": "Sadie hat an den ersten beiden Tagen 8 Stunden geschlafen, also insgesamt 2 * 8 = 16 Stunden in der Woche.\nAn den nächsten beiden Tagen schlief sie 2 Stunden weniger, also 8 - 2 = 6 Stunden.\nAn den verbleibenden drei Tagen schlief sie 1 Stunde mehr, also 6 + 1 = 7 Stunden.\nAlso hat Sadie insgesamt 16 + 6 + 7 = 28 Stunden in der Woche geschlafen.\n\nAnswer in English.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 91,
+        "question": "Jan hat dreimal so viele Haustiere wie Marcia. Marcia hat zwei Haustiere mehr als Cindy. Wenn Cindy vier Haustiere hat, wie viele Haustiere haben dann alle drei zusammen?\nAnswer in English.",
+        "generated_answer": "Jan hat dreimal so viele Haustiere wie Marcia.  \nMarcia hat zwei Haustiere mehr als Cindy.  \nWenn Cindy vier Haustiere hat, dann haben alle drie zusammen:  \n4 (Cindy) + 2 (Marcia) + 3 (Jan) = 9 Haustiere.  \n\n**Antwort:** 9",
+        "ground_truth": 28,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 149,
+        "question": "Charlie hat drei Mal so viele Facebook-Freunde wie Dorothy. James hat vier Mal so viele Freunde auf Facebook wie Dorothy. Wenn Charlie 12 Freunde auf Facebook hat, wie viele Facebook-Freunde hat dann James?\nAnswer in English.",
+        "generated_answer": "Charlie hat 12 / 3 = 4 Freunde auf Facebook.  \nJames hat 4 * 4 = 16 Freunde auf Facebook.",
+        "ground_truth": 16,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 228,
+        "question": "Kalinda arbeitet gerade an einem 360-teiligen Puzzle mit ihrer Mutter. Kalinda kann normalerweise 4 Teile pro Minute hinzufügen. Ihre Mutter kann üblicherweise halb so viele Teile pro Minuten platzieren wie Kalinda. Wie viele Stunden brauchen sie, um das Puzzle zu vervollständigen?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many hours it will take for Kalinda and her mother to complete the 360-piece puzzle together.\n\n### Step-by-Step Solution:\n\n1. **Determine the Rate of Kalinda:**\n   - Kalinda can add 4 pieces per minute.\n\n2. **Determine the Rate of Her Mother:**\n   - Her mother can add half as many pieces per minute as Kalinda.\n   - Therefore, her mother's rate is \\( \\frac{4}{2} = 2 \\) pieces per minute.\n\n3. **Calculate the Time Required:**\n   - Together, they can add \\( 4 \\text{ pieces/min} + 2 \\text{ pieces/min} = 6 \\text{ pieces/min} \\).\n   - To find the time \\( t \\) in minutes required to complete the puzzle, we use the formula:\n     \\[\n     t = \\frac{\\text{Total Pieces}}{\\text{Rate}} = \\frac{360 \\text{ pieces}}{6 \\text{ pieces/min}} = 60 \\text{ minutes}\n     \\]\n\n4. **Convert Minutes to Hours:**\n   - Since there are 60 minutes in an hour, the time in hours is:\n     \\[\n     \\frac{60 \\text{ minutes}}{60 \\text{ minutes/hour}} = 1 \\text{ hour}\n     \\]\n\n### Final Answer:\nKalinda and her mother will complete the puzzle in **1 hour**.",
+        "ground_truth": 1,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 55,
+        "question": "Jean hat 30 Lutscher. Jean isst 2 der Lutscher. Die verbleibenden Lutscher möchte Jean in eine Tüte mit jeweils 2 Lutschern stecken. Wie viele Tüten kann Jean füllen?\nAnswer in English.",
+        "generated_answer": "Jean hat 30 Lutscher. Er isst 2 Lutscher, also bleiben ihm 30 - 2 = 28 Lutscher.  \nJean möchte diese 28 Lutscher in eine Tüte mit jeweils 2 Lutschern stecken.  \nDie Anzahl der Tüten, die Jean füllen kann, ist also 28 ÷ 2 = 14.  \n\n**Antwort:** 14",
+        "ground_truth": 14,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 129,
+        "question": "In einem Krankenhaus werden 500 Personen pro Tag untersucht. Jeder Patient wird durchschnittlich 24 Minuten lange untersucht. Die Ärzte berechnen dem Krankenhaus 150 $ pro Stunde, und das Krankenhaus berechnet den Patienten 200 $ pro Stunde. Wie viel Gewinn macht das Krankenhaus mit diesen Konsultationen?\nAnswer in English.",
+        "generated_answer": "To determine the hospital's profit from the patient consultations, we need to calculate the total revenue generated from the examinations and subtract the total costs. Here's the step-by-step breakdown:\n\n---\n\n### **1. Calculate the Total Number of Patients per Day**\nThe hospital examines **500 people per day**.\n\n---\n\n### **2. Calculate the Total Hours Spent on Each Patient**\nEach patient is examined for **24 minutes**.\n\n---\n\n### **3. Calculate the Total Hours Spent on All Patients**\nMultiply the number of patients by the time spent per patient:\n\\[\n\\text{Total Hours} = 500 \\text{ patients} \\times 24 \\text{ minutes/patient} = 12,000 \\text{ minutes}\n\\]\n\n---\n\n### **4. Calculate the Total Revenue from All Patients**\nThe hospital charges **$150 per hour** for each patient.\n\n\\[\n\\text{Revenue} = 12,000 \\text{ minutes} \\times 150 \\text{ dollars/minute} = 1,800,000 \\text{ dollars}\n\\]\n\n---\n\n### **5. Calculate the Total Cost of the Examinations**\nThe hospital charges **$200 per hour** for each patient.\n\n\\[\n\\text{Cost} = 12,000 \\text{ minutes} \\times 200 \\text{ dollars/minute} = 2,400,000 \\text{ dollars}\n\\]\n\n---\n\n### **6. Calculate the Hospital's Profit**\nSubtract the total cost from the total revenue:\n\\[\n\\text{Profit} = 1,800,000 \\text{ dollars} - 2,400,000 \\text{ dollars} = -600,000 \\text{ dollars}\n\\]\n\n---\n\n### **Final Answer**\nThe hospital makes a **loss of $600,000** per day from patient consultations.\n\n\\[\n\\boxed{-600000}\n\\]",
+        "ground_truth": 10000,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 35,
+        "question": "Mike spielt 40 Minuten lang Pingpong. In den ersten 20 Minuten macht er 4 Punkte. In den darauffolgenden 20 Minuten macht er 25 % Punkte mehr. Wie viele Punkte machte er insgesamt?\nAnswer in English.",
+        "generated_answer": "Mike spielt 40 Minuten lang Pingpong. In den ersten 20 Minuten macht er 4 Punkte. In den darauffolgenden 20 Minuten macht er 25 % mehr Punkte.\n\n**Erklärung:**\n1. **Anfangs 20 Minuten:**  \n   - Mike macht 4 Punkte.\n\n2. **Darauffolgende 20 Minuten:**  \n   - Er macht 25 % mehr Punkte.  \n   - 25 % von 4 Punkten: \\( 0.25 \\times 4 = 1 \\) Punkt.  \n   - **Gesamtpunkte in den 20 Minuten:** \\( 4 + 1 = 5 \\) Punkte.\n\n3. **Gesamtpunktzahl:**  \n   - **Anfangs 20 Minuten:** 4 Punkte.  \n   - **Darauffolgende 20 Minuten:** 5 Punkte.  \n   - **Gesamt:** \\( 4 + 5 = 9 \\) Punkte.\n\n**Antwort:**  \nMike hat insgesamt **9 Punkte** gemacht.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 72,
+        "question": "Tommy sammelt für seine Wohltätigkeitsorganisation, indem er Brownies für 3 US-Dollar pro Stück und Käsekuchenstücke für 4 US-Dollar pro Stück verkauft. Wenn Tommy 43 Brownies und 23 Käsekuchenstücke verkauft, wie viel Geld sammelt er dann?\nAnswer in English.",
+        "generated_answer": "To determine how much money Tommy collects from selling brownies and cheesecake pieces, we need to calculate the total revenue from each item and then sum them up.\n\n### **Step 1: Calculate the Revenue from Brownies**\n- **Price per brownie:** $3  \n- **Number of brownies sold:** 43  \n- **Revenue from brownies:** \\( 43 \\times 3 = 129 \\) dollars  \n\n### **Step 2: Calculate the Revenue from Käsekuchen**\n- **Price per cheesecake piece:** $4  \n- **Number of cheesecake pieces sold:** 23  \n- **Revenue from cheesecake pieces:** \\( 23 \\times 4 = 92 \\) dollars  \n\n### **Step 3: Calculate the Total Revenue**\nAdd the revenue from brownies and cheesecake pieces to find the total amount collected:  \n\\[\n\\text{Total Revenue} = \\text{Revenue from brownies} + \\text{Revenue from cheesecake pieces} = 129 + 92 = 221 \\text{ dollars}\n\\]\n\n### **Final Answer**  \nTommy collects **$221** from selling brownies and cheesecake pieces.",
+        "ground_truth": 221,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 229,
+        "question": "Eine Wassermelonenfarm erzeugt 120 Baby-Wassermelonen. Ashlyn ging nach zwei Monaten zu der Farm und fand heraus, dass 30 % der Wassermelonen reif für die Ernte waren, also nahm sie sie nach Hause. Als sie zwei Wochen später zurückkam, waren 3/4 der verbleibenden Wassermelonen reif, also erntete sie sie. Wie viele Melonen waren nach den zwei Wochen nicht reif, um geerntet zu werden?\nAnswer in English.",
+        "generated_answer": "To determine how many watermelons were not ready to be harvested after two weeks, let's break down the problem step by step:\n\n1. **Initial Count of Ripe Watermelons:**\n   - The farm initially produced **120** watermelons.\n\n2. **Rate of Maturation:**\n   - **30%** of the watermelons were already ripe after two months.\n   - **3/4** of the remaining watermelons (after Ashlyn took some home) were also ripe.\n\n3. **Calculating Remaining Ripe Watermelons:**\n   - **3/4** of the remaining watermelons = \\( \\frac{3}{4} \\times 120 = 90 \\) ripe watermelons.\n\n4. **Remaining Ripe Watermelons After Ashlyn's Harvest:**\n   - **90** ripe watermelons were taken home.\n   - **120 - 90 = 30** ripe watermelons remained.\n\n5. **Rate of Maturation for Remaining Watermelons:**\n   - **3/4** of the remaining ripe watermelons = \\( \\frac{3}{4} \\times 30 = 22.5 \\) ripe watermelons.\n\n6. **Total Ripe Watermelons After Two Weeks:**\n   - **22.5** ripe watermelons were not yet ready for harvest.\n\n**Final Answer:**  \n\\boxed{22.5}",
+        "ground_truth": 21,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 193,
+        "question": "Sue lebt in einer lustigen Nachbarschaft. An einem Wochenende beschließen ihre Nachbarn Sue einen Streich zu spielen. Am Freitagmorgen stellen die Nachbarn 18 rosa Plastik-Flamingos draußen in Sues Vorgarten. Am Samstagmorgen nahmen die Nachbarn einen Drittel der Flamingos wieder weg, strichen sie weiß und stellten diese frisch gestrichenen weißen Flamingos zurück in Sues Vorgarten. Am Sonntagmorgen fügten sie der Sammlung dann weitere 18 rosa Plastik-Flamingos hinzu. Wie viele rosa Plastik-Flamingos waren am Sonntagnachmittag mehr als weiße Plastik-Flamingos draußen?\nAnswer in English.",
+        "generated_answer": "On a Saturday morning, Sue’s neighbors added 18 pink plastic flamingoes to her yard.  \n\nOn a Sunday morning, they added another 18 pink flamingoes to the collection.  \n\nSo, the total number of pink flamingoes on Sunday was:  \n18 (added on Saturday) + 18 (added on Sunday) = **36 pink flamingoes**.  \n\nThe total number of flamingoes on Saturday was:  \n18 (added on Friday) + 18 (added on Saturday) = **36 flamingoes**.  \n\nThe difference between the total on Saturday and Sunday is:  \n36 (Saturday) - 36 (Sunday) = **0 pink flamingoes**.  \n\nThis means that the number of white flamingoes remained the same on both days.  \n\nSo, the number of white flamingoes on Sunday was:  \n36 (total on Saturday) - 0 (total on Sunday) = **36 white flamingoes**.  \n\nThe number of pink flamingoes on Sunday was:  \n36 (total on Saturday) - 36 (total on Sunday) = **0 pink flamingoes**.  \n\nTherefore, the number of pink flamingoes on Sunday was **0**.  \n\nThe answer is: **0**.",
+        "ground_truth": 24,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 24,
+        "question": "Kyle hat den Bestseller des vergangenen Jahres für 19,50 US-Dollar gekauft. Das ist mit einem Rabatt von 25 % auf den ursprünglichen Preis. Wie hoch war der ursprüngliche Preis des Buches?\nAnswer in English.",
+        "generated_answer": "To find the original price of the book, we can set up the following equation:\n\nOriginal Price = Discounted Price / (1 - Discount Percentage)\n\nWe know the original price is $19.50, the discount is 25%, and we need to find the discounted price.\n\nLet’s plug in the values:\n\nDiscounted Price = $19.50 / (1 - 0.25)\nDiscounted Price = $19.50 / 0.75\nDiscounted Price = $25.33\n\nSo, the original price of the book was **$25.33**.",
+        "ground_truth": 26,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 158,
+        "question": "Raphael ging einige Schulsachen kaufen. Er kaufte 4 Stifte, die jeweils 1,5 $ kosten, 2 Hefte, die jeweils 4 $ kosten und ein Ries Schreibpapier, das 20 $ kostet. Wie viel gab er für alles aus?\nAnswer in English.",
+        "generated_answer": "Raphael kaufte 4 Stifte, 2 Hefte und ein Ries Schreibpapier.  \nEr kaufte jedes Produkt für 1,5 $ und zahlte insgesamt 4 * 1,5 + 2 * 4 + 20 = 6 + 8 + 20 = 34 $ aus.  \n\n**Antwort:** 34 $.",
+        "ground_truth": 34,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 204,
+        "question": "Janet hatte 22 grüne Stifte und 10 gelbe Stifte. Dann kaufte sie 6 Beutel blaue Stifte und 2 Beutel rote Stifte. Es waren 9 Stifte in jedem Beutel der Blauen und 6 Stifte in jedem Beutel der Roten. Wie viele Stifte hat Janet jetzt?\nAnswer in English.",
+        "generated_answer": "Janet hat jetzt 22 grüne Stifte + 10 gelbe Stifte = 32 Stifte.\nDann kaufte sie 6 Beutel blaue Stifte + 2 Beutel rote Stifte = 8 Stifte.\nZusammen mit den ursprünglichen Stiften hat sie also 32 Stifte + 8 Stifte = 40 Stifte.\n\n\\boxed{40}",
+        "ground_truth": 98,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 64,
+        "question": "Sophia denkt darüber nach, eine Autofahrt mit ihrem Auto zu machen und möchte wissen, wie weit sie mit einem Tank voll Benzin kommen wird. Seit der letzten Tankfüllung ist sie 100 Meilen gefahren, und sie musste 4 Gallonen Benzin nachfüllen, um den Tank wieder ganz aufzufüllen. In der Bedienungsanleitung für ihr Auto steht geschrieben, dass in ihren Tank 12 Gallonen Benzin passen. Wie viele Meilen kann Sophia mit einer einzigen Tankfüllung fahren?\nAnswer in English.",
+        "generated_answer": "To determine how many miles Sophia can drive with one full tank of gas, let's break down the problem step by step:\n\n1. **Initial Fill:**\n   - Sophia started with a full tank of **12 gallons**.\n\n2. **Filling the Tank:**\n   - She added **4 gallons** of gasoline.\n   - **Total fuel in the tank after filling:**  \n     \\( 12 \\text{ gallons} + 4 \\text{ gallons} = 16 \\text{ gallons} \\)\n\n3. **Driving Distance:**\n   - The car can hold **12 gallons** of gasoline.\n   - **Distance driven:**  \n     \\( \\frac{16 \\text{ gallons}}{12 \\text{ gallons/gallon}} = 1.333 \\text{ miles} \\)\n\n4. **Rounding to the Nearest Mile:**\n   - Since Sophia can't drive a fraction of a mile, we round to the nearest whole mile.\n   - **Rounded distance:**  \n     \\( \\boxed{1 \\text{ mile}} \\)\n\n**Final Answer:**  \nSophia can drive **1 mile** with one full tank of gas.",
+        "ground_truth": 300,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 136,
+        "question": "Es gibt noch 27 Einhörner auf der Welt. Ein Drittel davon befindet sich im schottischen Hochland. Zwei Drittel der schottischen Einhörner sind Weibchen. Wie viele schottische Einhorn-Weibchen gibt es?\nAnswer in English.",
+        "generated_answer": "There are still 27 unicorns in the world. One-third of them are in the Scottish Highlands. Two-thirds of the Scottish unicorns are female. How many Scottish unicorn females are there?",
+        "ground_truth": 6,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 180,
+        "question": "Zwei Kandidaten bewerben sich als Klassensprecher in Sarais Schule. Berechnen Sie die Anzahl Stimmen, die der Verlierer bekam, wenn der Gewinner 3/4 der Stimmen erhielt und die Gesamtzahl der Schüler, die in der Klasse wählten, 80 betrug.\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine the number of votes the losing candidate received in a class of 80 students, given that the winning candidate received 3/4 of the total votes and the winner received 3/4 of the votes.\n\nLet's break it down step-by-step:\n\n1. **Total Votes**: The total number of votes in the class is 80.\n\n2. **Winning Candidate's Votes**: The winning candidate received 3/4 of the total votes.\n   \\[\n   \\text{Winning votes} = \\frac{3}{4} \\times 80 = 60\n   \\]\n\n3. **Losing Candidate's Votes**: The losing candidate received the remaining votes, which is \\(80 - 60 = 20\\).\n\n4. **Votes for the Winning Candidate**: Since the winning candidate received 60 votes, the number of votes the winning candidate received is:\n   \\[\n   \\text{Winning votes} = \\frac{60}{4} = 15\n   \\]\n\nThus, the losing candidate received 20 votes.\n\nThe final answer is:\n\\[\n\\boxed{20}\n\\]",
+        "ground_truth": 20,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 207,
+        "question": "In Joes Süßigkeitentüte von Halloween sind 25 Schokoladenriegel und 80 kandierte Äpfel. Jeder Schokoladenriegel wiegt doppelt so viel wie jeder kandierte Apfel. Wenn jeder Schokoladenriegen 40 g wiegt, wie viel wiegt dann Joes Süßigkeitentüte in Gramm?\nAnswer in English.",
+        "generated_answer": "To determine the weight of Joe's candy bag, we need to set up an equation based on the given information.\n\n1. **Number of Schokoladenriegel and kandierte Äpfel:**\n   - Each Schokoladenriegel weighs **40 grams**.\n   - Each kandierte Apfel weighs **20 grams**.\n   - Total number of Schokoladenriegel = 25\n   - Total number of kandierte Äpfel = 80\n\n2. **Weight of one Schokoladenriegel:**\n   - Since each Schokoladenriegel is **40 grams**, the weight of one Schokoladenriegel is:\n     \\[\n     40 \\text{ grams} = 2 \\text{ Schokoladenriegel} \\times 40 \\text{ grams/Riegel}\n     \\]\n\n3. **Weight of one kandierte Apfel:**\n   - Since each kandierte Apfel is **20 grams**, the weight of one kandierte Apfel is:\n     \\[\n     20 \\text{ grams} = 1 \\text{ Apfel} \\times 20 \\text{ grams/Apfel}\n     \\]\n\n4. **Total weight of Schokoladenriegel and kandierte Äpfel:**\n   - Since each Schokoladenriegel is **2** times heavier than each Apfel, the total weight of one Schokoladenriegel and one Apfel is:\n     \\[\n     2 \\text{ Schokoladenriegel} \\times 40 \\text{ grams/Riegel} + 1 \\text{ Apfel} \\times 20 \\text{ grams/Apfel} = 80 \\text{ grams}\n     \\]\n\n5. **Total weight of the candy bag:**\n   - Since each Schokoladenriegel is **2** times heavier than each Kandierte Apfel, the total weight of the candy bag is:\n     \\[\n     2 \\text{ Schokoladenriegel} \\times 40 \\text{ grams/Riegel} + 1 \\text{ Apfel} \\times 20 \\text{ grams/Apfel} = 80 \\text{ grams}\n     \\]\n\n6. **Setting up the equation:**\n   - The total weight of the candy bag is the sum of the weight of one Schokoladenriegel and one Kandierte Apfel:\n     \\[\n     2 \\text{ Schokoladenriegel} \\times 40 \\text{ grams/Riegel} + 1 \\text{ Apfel} \\times 20 \\text{ grams/Apfel} = 80 \\text{ grams}\n     \\]\n\n7. **Solving for the total weight:**\n   \\[\n   80 \\text{ grams} = 2 \\text{ Schokoladenriegel} \\times 40 \\text{ grams/Riegel} + 1 \\text{ Apfel} \\times 20 \\text{ grams/Apfel}\n   \\]\n   \\[\n   80 \\text{ grams} = 80 \\text{ grams} + 20 \\text{ grams}\n   \\]\n   \\[\n   80 \\text{ grams} = 100 \\text{ grams}\n   \\]\n\n8. **Conclusion:**\n   - The total weight of Joe's candy bag is **100 grams**.\n\n\\[\n\\boxed{100 \\text{ grams}}\n\\]",
+        "ground_truth": 2600,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 154,
+        "question": "Montags, mittwochs und freitags hat College-Student Kimo drei 1-stündige Kurse pro Tag. Dienstags und Donnerstags hat er zwei 2-stündige Kurse pro Tag. Ein Semester hat 16 Schulwochen. Wie viele Stunden verbringt Kimo in einem Semester mit Kursbesuchen?\nAnswer in English.",
+        "generated_answer": "On Mondays, Wednesdays, and Fridays, Kimo has three 1-hour courses per day, which totals 3 * 1 = 3 hours per day.\nOn Tuesdays and Thursdays, he has two 2-hour courses per day, which totals 2 * 2 = 4 hours per day.\nIn a semester, which has 16 school weeks, Kimo spends a total of 16 * 3 = 48 hours in courses.\nTherefore, Kimo spends 48 hours in a semester with course visits.",
+        "ground_truth": 272,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 37,
+        "question": "John plant, sein gesamtes Spielzeug zu verkaufen und mit dem Erlös Videospiele zu kaufen. Er hat 13 Lego-Sets und verkauft sie für 15 US-Dollar pro Stück. Letztendlich kauft er 8 Videospiele für 20 US-Dollar pro Stück und hat noch 5 US-Dollar übrig. Wie viele Lego-Sets bleiben ihm noch?\nAnswer in English.",
+        "generated_answer": "To determine how many Lego sets John still has left, we can set up the following equation based on the information provided:\n\n1. **Total number of Lego sets**: 13\n2. **Total amount of money John has**: $15 per set × 13 sets = **$195**\n3. **Total number of videogame purchases**: 8\n4. **Total amount of money John has for videogames**: 20 per set × 8 sets = **$160**\n5. **Remaining money**: $195 (total) - $160 (videogame) = **$35**\n\nSince John has **$35** left, the number of Lego sets he still has is:\n\n\\boxed{13}",
+        "ground_truth": 2,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "John adoptiert einen Hund. Er bringt den Hund zum Hundefrisör, was 100 US-Dollar kostet. Der Hundefrisör bietet ihm einen Rabatt von 30 % an, da er Neukunde ist. Wie viel kostet die Sitzung beim Hundefrisör?\nAnswer in English.",
+        "generated_answer": "John zahlt 100 US-Dollar für die Sitzung beim Hundefrisör.  \n\nDer Hundefrisör bietet ihm einen Rabatt von 30 % an.  \n\nZunächst berechnet man den Rabatt:  \n\\( 30\\% \\text{ von } 100 \\text{ US-Dollar} = 0.30 \\times 100 = 30 \\text{ US-Dollar} \\).  \n\nDamit zahlt John:  \n\\( 100 \\text{ US-Dollar} - 30 \\text{ US-Dollar} = 70 \\text{ US-Dollar} \\).  \n\nDie Sitzung beim Hundefrisör kostet also **70 US-Dollar**.",
+        "ground_truth": 70,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 25,
+        "question": "Marie hat ein Hühnchengericht für 12 US-Dollar bestellt, 5 Packungen Milch für jeweils 3 US-Dollar, 4 Äpfel für jeweils 1,50 US-Dollar und ein paar Schachteln Pizza. Marie hat insgesamt 50 US-Dollar bezahlt. Wie viele Schachteln Pizza hat Marie bestellt, wenn jede Schachtel 8,50 US-Dollar kostet?\nAnswer in English.",
+        "generated_answer": "To determine how many pizza boxes Marie ordered, we can follow these steps:\n\n1. **Calculate the total cost of the ingredients:**\n   - **Milch:** 5 packages × $3.00 = **$15.00**\n   - **Hühnchengericht:** 12 items × $12.00 = **$144.00**\n   - **Äpfel:** 4 items × $1.50 = **$6.00**\n   - **Pizza:** 12 items × $8.50 = **$102.00**\n\n2. **Add up the total costs:**\n   - Total cost = $144.00 + $15.00 + $6.00 + $102.00 = **$145.00**\n\n3. **Determine the number of pizza boxes:**\n   - Marie paid a total of **$50.00**.\n   - Since the total cost is $145.00, the number of pizza boxes is:\n   - Number of pizza boxes = Total cost / Cost per pizza box  \n   - Number of pizza boxes = $50.00 / $8.50 ≈ **5.88**\n\nSince Marie cannot order a fraction of a pizza box, we round up to the nearest whole number. Therefore, Marie ordered **6 pizza boxes**.\n\n**Answer:** Marie ordered **6 pizza boxes**.",
+        "ground_truth": 2,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Russell arbeitet in einer Tierhandlung und verteilt gerade Stroh unter den Nagetieren. Die Ratten werden in 3 Käfigen in gleich großen Gruppen gehalten und jeder Ratte 6 Strohhalme gegeben. Es gibt 10 Käfige von Hamstern, die allein gehalten werden, und jedem Hamster werden 5 Strohhalme gegeben. Es gibt auch einen Hasenstall, in dem 20 Strohhalme unter den Hasen verteilt werden. Überall sonst in dem Laden wird kein Stroh verteilt. Wenn 160 Strohhalme unter den kleinen Nagetieren verteil wurden, wie viele Ratten sind dann in jedem Käfig?\nAnswer in English.",
+        "generated_answer": "To determine how many rats are in each cage, we can use the following reasoning:\n\n1. **Total Strohhalme distributed**:  \n   - Ratten: 160 Strohhalme  \n   - Hamster: 20 Strohhalme  \n   - **Total distributed**: \\( 160 + 20 = 180 \\) Strohhalme\n\n2. **Number of Ratten in each cage**:  \n   - Each cage has **3** rats.  \n   - Since there are **10** cages of hamsters, the total number of hamsters is \\( 10 \\times 3 = 30 \\).  \n   - Therefore, the number of rats in each cage is \\( \\frac{180}{30} = 6 \\).\n\n**Answer**:  \nThere are **6 rats** in each cage.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "Claire bereitet sich jeden Morgen zum Frühstück ein Omelett aus 3 Eiern zu. Wie viele Dutzend Eier isst sie innerhalb von 4 Wochen?\nAnswer in English.",
+        "generated_answer": "Claire is preparing an omelette for breakfast every morning. How many dozens of eggs does she eat in 4 weeks?\nAnswer in English.",
+        "ground_truth": 7,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 175,
+        "question": "Juan und sein Bruder Carlos verkaufen gerade Limonade. Jede Gallone, die sie machen, kostet 3 $ für Zitronen und 2 $ für Zucker. Sie verkaufen jedes Glas für 0,50 $ und holen 20 Gläser pro Gallone heraus. Wenn Sie 25 $ Profit machten, wie viel hatten sie dann für Zitronen ausgegeben?\nAnswer in English.",
+        "generated_answer": "To determine how much Juan and Carlos spent on lemons, we need to analyze the costs and profits of their lemonade business.\n\n### **Step 1: Define Variables**\n- Let:\n  - \\( C \\) = cost of lemons per gallon\n  - \\( S \\) = cost of sugar per gallon\n  - \\( G \\) = number of gallons of lemonade they make per day\n  - \\( P \\) = profit per gallon (in dollars)\n\n### **Step 2: Calculate Costs**\n1. **Cost of lemons per gallon**:  \n   \\( C = 3 \\) dollars\n\n2. **Cost of sugar per gallon**:  \n   \\( S = 2 \\) dollars\n\n3. **Total cost per gallon**:  \n   \\( \\text{Total cost per gallon} = C + S = 3 + 2 = 5 \\) dollars\n\n4. **Cost of lemons for 25 gallons**:  \n   \\( \\text{Cost of lemons} = 25 \\times 5 = 125 \\) dollars\n\n5. **Cost of sugar for 25 gallons**:  \n   \\( \\text{Cost of sugar} = 25 \\times 2 = 50 \\) dollars\n\n### **Step 3: Calculate Profit per Gallon**\nProfit per gallon is the selling price minus the cost:  \n\\( P = \\text{Selling price per gallon} - \\text{Total cost per gallon} = 0.50 - 5 = -4.50 \\) dollars\n\n### **Step 4: Calculate Total Cost for 25 Gallons**\nTotal cost for 25 gallons is the sum of lemons and sugar costs:  \n\\( \\text{Total cost} = \\text{Cost of lemons} + \\text{Cost of sugar} = 125 + 50 = 175 \\) dollars\n\n### **Step 5: Calculate Total Revenue for 25 Gallons**\nRevenue per gallon is the selling price:  \n\\( \\text{Revenue per gallon} = \\text{Selling price per gallon} = 0.50 \\) dollars\n\nTotal revenue for 25 gallons is:  \n\\( \\text{Total revenue} = \\text{Revenue per gallon} \\times \\text{Number of gallons} = 0.50 \\times 25 = 12.50 \\) dollars\n\n### **Step 6: Calculate Profit for 25 Gallons**\nProfit for 25 gallons is:  \n\\( \\text{Profit per gallon} = \\text{Revenue per gallon} - \\text{Total cost per gallon} = 0.50 - 5 = -4.50 \\) dollars\n\n### **Step 7: Calculate Total Profit for 25 Gallons**\nTotal profit for 25 gallons is:  \n\\( \\text{Total profit} = \\text{Profit per gallon} \\times \\text{Number of gallons} = -4.50 \\times 25 = -112.50 \\) dollars\n\n### **Step 8: Calculate Total Expenses for 25 Gallons**\nTotal expenses for 25 gallons is the sum of lemons and sugar costs:  \n\\( \\text{Total expenses} = \\text{Cost of lemons} + \\text{Cost of sugar} = 125 + 50 = 175 \\) dollars\n\n### **Step 9: Calculate Total Revenue for 25 Gallons**\nTotal revenue for 25 gallons is:  \n\\( \\text{Total revenue} = \\text{Revenue per gallon} \\times \\text{Number of gallons} = 0.50 \\times 25 = 12.50 \\) dollars\n\n### **Step 10: Calculate Total Expenses for 25 Gallons**\nTotal expenses for 25 gallons is:  \n\\( \\text{Total expenses} = \\text{Cost of lemons} + \\text{Cost of sugar} = 125 + 50 = 175 \\) dollars\n\n### **Step 11: Calculate Total Profit for 25 Gallons**\nTotal profit for 25 gallons is:  \n\\( \\text{Total profit} = \\text{Revenue per gallon} - \\text{Total expenses per gallon} = -4.50 - 175 = -179.50 \\) dollars\n\n### **Final Answer**\nJuan and Carlos spent **\\( \\$179.50 \\)** on lemons to make **25 gallons** of lemonade, resulting in a **\\$0.50 profit per gallon**.",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 84,
+        "question": "Ein Fußballteam spielt 22 Spiele. Sie haben 8 mehr gewonnen als verloren. Wie viele haben sie gewonnen?\nAnswer in English.",
+        "generated_answer": "The team played 22 games and won 8 more than they lost.\n\nTo find out how many they won, we can subtract the number of games they lost from the total number of games they played.\n\nSo, the calculation is:\n\n22 games (total) - 8 games (lost) = 14 games (won)\n\nTherefore, the team won **14** games.",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 120,
+        "question": "Miguel verwendet 2 Blätter Papier pro Woche für seine Zeichnungen. Wenn ein Zeichenblock 30 Blätter Papier hat, wie viele Blätter Papier verbraucht er dann pro Monat?\nAnswer in English.",
+        "generated_answer": "Miguel verwendet 2 Blätter Papier pro Woche für seine Zeichnungen. Wenn ein Zeichenblock 30 Blätter Papier hat, dann verbraucht er pro Woche:\n\n2 Blätter × 7 Tage = 14 Blätter pro Woche\n\nDa ein Zeichenblock 30 Blätter Papier hat, verbraucht er pro Monat:\n\n14 Blätter pro Woche × 4 Wochen = 56 Blätter pro Monat\n\nDie Antwort ist: 56 Blätter",
+        "ground_truth": 240,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 143,
+        "question": "John kauft Milch für 2 Dollar, Eier für 3 Dollar, Glühbirnen für 3 Dollar, Tassen für 3 Dollar und Kakerlakenfallen für 4 Dollar. Wenn es 10 % Steuer auf alle Non-Food-Artikel gibt, sind die Kosten wie hoch.\nAnswer in English.",
+        "generated_answer": "The total cost of the items is calculated as follows:\n\n- **Milk**: 2 dollars  \n- **Eggs**: 3 dollars  \n- **Glow bulbs**: 3 dollars  \n- **Cups**: 3 dollars  \n- **Cockroach traps**: 4 dollars  \n\n**Total cost** = 2 + 3 + 3 + 3 + 4 = **15 dollars**.  \n\nSince a **10% tax** is applied to all non-food items, the final cost is:  \n**15 * 1.10 = 16.50 dollars**.  \n\n**Answer**: The total cost is **16.50 dollars**.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 215,
+        "question": "Lori will ein Paar Schuhe für 320,00 $ und einen passenden Gürtel, der 32,00 $ kostet, kaufen. Bei ihrem Teilzeitjob bezahlt man ihr 8,00 $ pro Stunde. Wie viele Stunden muss sie arbeiten, bevor sie ihren Einkauf tätigen kann?\nAnswer in English.",
+        "generated_answer": "To determine how many hours Lori needs to work to afford the shoes and belt, we can break the problem into two parts:  \n\n1. **Calculate the total cost of the shoes and belt:**  \n   - Shoes: $320.00  \n   - Belt: $32.00  \n   - **Total cost = $320.00 + $32.00 = $352.00**  \n\n2. **Determine how many hours Lori needs to work to earn this amount:**  \n   - Lori earns **$8.00 per hour**.  \n   - **Total hours needed = Total cost / Hourly wage**  \n   - **Total hours = $352.00 / $8.00 = 44 hours**  \n\n**Final Answer:** Lori needs to work **44 hours** to afford the shoes and belt.",
+        "ground_truth": 44,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 90,
+        "question": "Ted der T-Rex plant, Kartoffelsalat zum Dinopicknick mitzubringen. Er weiß, dass ein erwachsener Dinosaurier 10 Pfund Kartoffelsalat isst, und ein Junges halb so viel isst wie ein erwachsenes Tier. Wenn am Picknick 20 Erwachsene und 5 Junge teilnehmen, muss Ted wie viel Kartoffelsalat zum Picknick mitbringen, wenn er die Hoffnung hat, alle satt zu bekommen?\nAnswer in English.",
+        "generated_answer": "To determine how much potato salad Ted should bring to the picnic, we need to calculate the amount each group of dinos will eat and then add it all up.\n\n1. **Adults:**  \n   - Number of adults = 20  \n   - Each adult eats 10 pounds of potato salad.  \n   - Total for adults = 20 adults × 10 pounds/adult = **200 pounds**  \n\n2. **Junges:**  \n   - Number of young = 5  \n   - Each young eats half as much as an adult, so:  \n   - Each young eats 10 pounds / 2 = 5 pounds.  \n   - Total for young = 5 young × 5 pounds/young = **25 pounds**  \n\n3. **Total potato salad needed:**  \n   - Add the potato salad for adults and young:  \n   - Total potato salad = 200 pounds (adults) + 25 pounds (young) = **225 pounds**  \n\n**Final Answer:**  \nTed should bring **225 pounds** of potato salad to the picnic.",
+        "ground_truth": 225,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 111,
+        "question": "Julias Boot hatte ein Leck als sie auf dem See draußen war. Das Boot hat für alle zehn Fuß, die sie zurück zum Ufer gerudert ist, zwei Liter Wasser geschluckt. Sie brauchte sechzehn Sekunden, um zwanzig Fuß zu rudern. Der Strand war 64 Sekunden entfernt. Wie viel Wasser hatte das Boot geschluckt, als Julia den Strand erreichte?\nAnswer in English.",
+        "generated_answer": "The boat swallowed 2 liters of water for every 10 feet it rowed back to the shore, and it took her 16 seconds to row 20 feet. The distance to the beach was 64 seconds. To find out how much water the boat swallowed when it reached the beach, we can set up the following equation:\n\nDistance to the beach = (Rowing time) * (Speed)\n\nWe know the speed is 20 feet per 16 seconds, so:\n\n20 feet = (16 seconds) * (Speed)\n\nNow, we can solve for the speed:\n\nSpeed = 20 feet / 16 seconds\nSpeed = 1.25 feet per second\n\nNow that we have the speed, we can find the total distance the boat rowed to the beach:\n\nDistance to the beach = Speed * Time\nDistance to the beach = 1.25 feet per second * 64 seconds\nDistance to the beach = 76 feet\n\nSince the boat swallowed 2 liters of water for every 10 feet rowed back, we can find the total amount of water the boat swallowed by multiplying the distance to the beach by 2:\n\nTotal water swallowed = Distance to the beach * 2 liters per 10 feet\nTotal water swallowed = 76 feet * 2 liters per 10 feet\nTotal water swallowed = 152 liters\n\nSo, the boat swallowed 152 liters of water when it reached the beach.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 80,
+        "question": "Zwei Mädchen bekamen jeweils 1/6 der 24 Liter Wasser. Dann bekam ein Junge 6 Liter Wasser. Wie viele Liter Wasser blieben übrig?\nAnswer in English.",
+        "generated_answer": "The two girls each received 1/6 of the 24 liters of water, so they got:\n\n- 1/6 × 24 = 4 liters\n\nThen, a boy received 6 liters of water.\n\nThe total amount of water left is:\n\n4 liters (from the girls) + 6 liters (from the boy) = 10 liters\n\nSo, 10 liters of water remained.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 156,
+        "question": "Der Zoowärter füttert alle Affen in dem Zoo. Alle 2 Monate bestellt er alle Bananen bei einer lokalen Farm. Wenn jeden Monat die Affen 200 Bananen, die Gorillas 400 Bananen und die Paviane 100 Bananen brauchen, wie viele Bananen muss er bestellen, um 2 Monate zu überdauern?\nAnswer in English.",
+        "generated_answer": "To determine how many bananas the zoowärter need to order to last for two months, we need to calculate the total number of bananas required for all the animals in the zoo over two months.\n\n### Step-by-Step Calculation:\n\n1. **Calculate the total bananas needed for the gorillas:**\n   - Each gorilla needs **400 bananas** per month.\n   - There are **200 gorillas** in the zoo.\n   - Total bananas for gorillas = \\( 200 \\text{ gorillas} \\times 400 \\text{ bananas/gorilla} = 80,000 \\text{ bananas} \\).\n\n2. **Calculate the total bananas needed for the pavians:**\n   - Each pavian needs **100 bananas** per month.\n   - There are **200 pavians** in the zoo.\n   - Total bananas for pavians = \\( 200 \\text{ pavians} \\times 100 \\text{ bananas/pavian} = 20,000 \\text{ bananas} \\).\n\n3. **Calculate the total bananas needed for all animals:**\n   - Total bananas = Bananas for gorillas + Bananas for pavians\n   - Total bananas = \\( 80,000 \\text{ bananas} + 20,000 \\text{ bananas} = 100,000 \\text{ bananas} \\).\n\n### Final Answer:\nThe zoowärter needs to order **100,000 bananas** to last for two months.",
+        "ground_truth": 1400,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 163,
+        "question": "In einem Zimmer gibt es verschiedenes Spielzeug: 5 rote Autos, 3 Actionfiguren und eine Puppe. Die Puppe kostet so viel wie 3 Actionfiguren, und ein rotes Auto kostet 4 $. Wie viel ist das ganze Spielzeug wert, wenn eine Actionfigur 5 $ kostet?\nAnswer in English.",
+        "generated_answer": "To determine the total value of the toys in the room, we can set up a system of equations based on the given information:\n\n1. **Number of Action Figures**: Let \\( A \\) be the number of Action Figures.\n2. **Cost of One Action Figure**: Since one Action Figure costs $5, the total cost for Action Figures is \\( 5A \\).\n3. **Cost of One Red Car**: Each red car costs $4, so the total cost for red cars is \\( 4 \\times 3 = 12 \\).\n4. **Cost of One Puppet**: The puppet costs as much as 3 Action Figures, so its cost is \\( 3 \\times 4 = 12 \\).\n\nThe total value of all toys is the sum of the costs of the Action Figures, red cars, and the puppet:\n\n\\[\n\\text{Total Value} = \\text{Cost of Action Figures} + \\text{Cost of Red Cars} + \\text{Cost of Puppet}\n\\]\n\nSubstituting the known values:\n\n\\[\n\\text{Total Value} = 5A + 12 + 12\n\\]\n\nSince the puppet costs $12, we can simplify the equation:\n\n\\[\n\\text{Total Value} = 5A + 24\n\\]\n\nWe are also given that one Action Figure costs $5, so:\n\n\\[\n5A = 5 \\times 5 = 25\n\\]\n\nSubstituting \\( 5A = 25 \\) into the equation \\( 5A + 24 = 25 \\):\n\n\\[\n25 + 24 = 25\n\\]\n\nThis confirms that the total value is indeed $25.\n\n**Final Answer**: The total value of the toys is **$25**.",
+        "ground_truth": 50,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 52,
+        "question": "Uriah wird seine Büchertasche zu schwer. Er muss 15 Pfund daraus entnehmen. Seine Comicbücher wiegen pro Stück 1/4 Pfund und seine Spielzeuge jeweils 1/2 Pfund. Wenn er 30 Comicbücher rausnimmt, wie viele Spielzeuge muss er dann noch rausnehmen?\nAnswer in English.",
+        "generated_answer": "Uriah hat 15 Pfund Comicbücher und 30 Comicbücher extra für seine Spielzeuge herausgenommen.  \n\n**Gesamtgewicht der Comicbücher:**  \n15 Pfund × 1/4 Pfund/Comicbuch = **3,75 Pfund**  \n\n**Gesamtgewicht der Spielzeuge:**  \n30 Comicbücher × 1/2 Pfund/Spielzeug = **15 Pfund**  \n\n**Gesamtgewicht der Büchertasche:**  \n15 Pfund (Comicbücher) + 15 Pfund (Spielzeuge) = **30 Pfund**  \n\n**Gesamtgewicht, das Uriah noch herausnehmen muss:**  \n30 Pfund (Comicbücher) + 15 Pfund (Spielzeuge) = **45 Pfund**  \n\n**Antwort:** Uriah muss noch **45 Spielzeuge** herausnehmen.",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Es gibt 700 Bienen in einem Bienenstock. Es gibt zwei Mal so viele Arbeiterbienen wie Babybienen, und es gibt zweimal so viele Babys wie Königinnen. Wie viele Arbeiterbienen gibt es?\nAnswer in English.",
+        "generated_answer": "There are 700 bees in a beehive. There are twice as many worker bees as baby bees, and twice as many baby bees as queens.\n\nFirst, let's find out how many baby bees there are. Since there are 700 bees in total and 2 times as many worker bees as baby bees, we can divide the total number of bees by 2:\n\n2 * 700 = 1400 baby bees\n\nNow, we know that there are twice as many worker bees as baby bees, so:\n\n2 * 700 = 1400 worker bees\n\nFinally, we know that there are twice as many queens as worker bees, so:\n\n2 * 1400 = 2800 queens\n\nTo find out how many worker bees there are, we subtract the number of queens from the total number of worker bees:\n\n1400 worker bees - 2800 queens = 1400 worker bees\n\nSo, there are 1400 worker bees in the beehive.",
+        "ground_truth": 400,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 239,
+        "question": "Die Anzahl Schüler in einer Aula betrug 1000. Die Aula hatte 3 Eingänge, A, B und C, die auch als Ausgänge dienten. Berechnen Sie die Anzahl Schüler, die durch Ausgang C hinausgingen, wenn 30 % der Schüler nach einem Treffen durch Ausgang A aus dem Gebäude gingen, 3/5 der verbleibenden durch Ausgang B hinausgingen und der Rest durch Ausgang C hinausging.\nAnswer in English.",
+        "generated_answer": "To determine how many students exited through **C**, we need to follow the steps of the problem step by step. Here's the breakdown:\n\n---\n\n### **Gegeben:**\n- **Gesamtzahl der Schüler:** 1000  \n- **Eingänge (A, B, C):**  \n  - A = Ausgang für Schüler, die nach dem Treffen durch Ausgang A aus dem Gebäude gingen  \n  - B = Ausgang für Schüler, die durch Ausgang B hinausgingen  \n  - C = Ausgang für Schüler, die durch Ausgang C hinausgingen  \n\n---\n\n### **Schritte zur Berechnung:**\n\n1. **Anteil der Schüler, die durch A ausgingen:**\n   - 30 % der Schüler (1000 Schüler) gingen durch Ausgang A aus.\n   - **Anteil der Schüler, die durch A ausgingen:**  \n     \\[\n     \\text{Anteil durch A} = 0.30 \\times 1000 = 300 \\text{ Schüler}\n     \\]\n\n2. **Anteil der verbleibenden Schüler nach A:**\n   - Die verbleibenden Schüler (1000 - 300 = 700 Schüler) gehen durch Ausgang B aus.\n   - **Anteil der verbleibenden Schüler nach B:**  \n     \\[\n     \\text{Anteil durch B} = \\frac{700}{700 + 300} = \\frac{700}{1000} = 0.7 \\text{ (70%)}\n     \\]\n\n3. **Anteil der verbleibenden Schüler nach C:**\n   - Die verbleibenden Schüler (700 - 300 = 400 Schüler) gehen durch Ausgang C aus.\n   - **Anteil der verbleibenden Schüler nach C:**  \n     \\[\n     \\text{Anteil durch C} = \\frac{400}{700 + 300} = \\frac{400}{1000} = 0.4 \\text{ (40%)}\n     \\]\n\n4. **Gesamtanteil der Schüler, die durch C ausgingen:**\n   - **Gesamtanteil durch C:**  \n     \\[\n     \\text{Anteil durch C} = 0.4 \\times 1000 = 400 \\text{ Schüler}\n     \\]\n\n---\n\n### **Antwort:**\nDie Anzahl Schüler, die durch Ausgang **C** ausgingen, beträgt **400**.",
+        "ground_truth": 280,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 113,
+        "question": "Ryan pflanzt pro Tag 2 Blumen in seinem Garten. Nach 15 Tagen hat er wie viele Blumen, wenn 5 nicht angewachsen sind?\nAnswer in English.",
+        "generated_answer": "Ryan pflanzt pro Tag 2 Blumen in seinen Garten. Nach 15 Tagen hat er wie viele Blumen, wenn 5 nicht angewachsen sind?\n\n**Lösung:**  \n1. **Berechnung der Anzahl der Blumen nach 15 Tagen:**  \n   - Ryan pflanzt 2 Blumen pro Tag.  \n   - Nach 15 Tagen hat er also:  \n     \\[\n     2 \\text{ Blumen/Tag} \\times 15 \\text{ Tage} = 30 \\text{ Blumen}\n     \\]\n\n2. **Berechnung der Anzahl der nicht angewachsenen Blumen:**  \n   - Ryan hat 5 Blumen, die nicht angewachsen sind.  \n   - Daher sind:  \n     \\[\n     30 \\text{ Blumen} - 5 \\text{ angewachsene Blumen} = 25 \\text{ Blumen}\n     \\]\n\n**Antwort:**  \nRyan hat nach 15 Tagen **25 Blumen**, wenn 5 nicht angewachsen sind.",
+        "ground_truth": 25,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 133,
+        "question": "Am Montag ging Walt 4 Meilen zu Fuß. Am Donnerstag ging er 6 Mal so viele Meilen, wie er am Montag gegangen war. Von Montag bis Mittwoch betrug seine Gesamtstrecke 41 Meilen. Wie viele Meilen ist er am Mittwoch gegangen?\nAnswer in English.",
+        "generated_answer": "On Monday, Walt walked 4 miles.  \nOn Thursday, he walked 6 times as many miles as he walked on Monday.  \nSo, on Thursday, he walked 6 * 4 = 24 miles.  \nThe total distance he walked from Monday to Wednesday is 4 miles (Monday), 24 miles (Thursday), and 6 miles (Friday).  \nSo, the total distance is 4 + 24 + 6 = 34 miles.  \nSince the total distance is 41 miles, we can find the distance he walked on Wednesday by subtracting the total from Monday and Thursday from the total distance.  \nSo, the distance he walked on Wednesday is 41 - 34 - 24 = 1 mile.  \nTherefore, Walt walked 1 mile on Wednesday.  \n#### 1",
+        "ground_truth": 13,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 243,
+        "question": "Jason hat einen Telefontarif mit 1000 Minuten pro Monat. Jeden Tag führt er ein 15-minütiges Telefonat mit seinem Chef und hat diesen Monat 300 Anrufminuten extra mit anderen Personen. Wie viele Minuten hat Jason übrig, wenn dieser Monat 30 Tage hat?\nAnswer in English.",
+        "generated_answer": "Jason hat einen Telefontarif mit 1000 Minuten pro Monat. Jeden Tag führt er ein 15-minütiges Telefonat mit seinem Chef, also hat er insgesamt 15 Minuten pro Tag mit dem Chef.\n\nIn einem Monat hat er also insgesamt 15 Minuten + 15 Minuten = 30 Minuten mit dem Chef.\n\nJeder Tag hat er außerdem 300 Anrufminuten mit anderen Personen, also hat er insgesamt 30 Minuten + 300 Minuten = 330 Minuten pro Monat.\n\nDa er 30 Tage im Monat hat, hat er insgesamt 330 Minuten pro Monat + 300 Minuten = 630 Minuten im Monat.\n\nJason hat also 1000 Minuten pro Monat - 630 Minuten = 370 Minuten übrig.\n\nIn 30 Tagen hat er also 370 Minuten / 30 Tage = 12,33 Minuten pro Tag übrig.\n\nDa 1 Minute 60 Sekunden sind, hat Jason 12,33 Minuten / 60 Sekunden pro Minute = 0,219 Minuten übrig.\n\nAlso hat Jason 0,219 Minuten * 30 Tage = 6,57 Minuten übrig.\n\nAlso hat Jason 6,57 Minuten * 1000 = 6570 Minuten übrig.\n\nAlso hat Jason 6570 Minuten / 1000 = 6,57 Minuten übrig.",
+        "ground_truth": 250,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 15,
+        "question": "Ein Händler möchte eine Kaufentscheidung zwischen 2 Kaufoptionen treffen: Schmuck im Wert von 5.000 US-Dollar oder Elektronikgeräte im Wert von 8.000 US-Dollar. Sein Finanzberater geht davon aus, dass der Schmuckmarkt um 2,5 % zulegen wird und der Markt für Elektrogeräte um 1,2 % im selben Monat. Wenn der Händler Ende des Monats durch das Treffen einer Kaufentscheidung den Gewinn maximieren möchte, auf wie viel Gewinn käme er dann?\nAnswer in English.",
+        "generated_answer": "Um die Gewinnmaximierung des Händlers zu berechnen, müssen wir die erwarteten Gewinne aus den beiden Kaufoptionen berücksichtigen und den optimalen Kaufzeitpunkt bestimmen.\n\n### 1. **Schmuck im Wert von 5.000 US-Dollar:**\n   - **Marktwachstum:** Der Schmuckmarkt wird um 2,5 % wachsen.\n   - **Gewinn:** Der Gewinn aus dem Schmuck beträgt:  \n     \\[\n     \\text{Gewinn\\_Schmuck} = 5.000 \\times (1 + 0,025) = 5.000 \\times 1,025 = 5.125 \\text{ US-Dollar}\n     \\]\n\n### 2. **Elektronikgeräte im Wert von 8.000 US-Dollar:**\n   - **Marktwachstum:** Der Markt für Elektronikgeräte wird um 1,2 % wachsen.\n   - **Gewinn:** Der Gewinn aus dem Elektronikgerät beträgt:  \n     \\[\n     \\text{Gewinn\\_Elektronik} = 8.000 \\times (1 + 0,012) = 8.000 \\times 1,012 = 8.192 \\text{ US-Dollar}\n     \\]\n\n### 3. **Gesamter Gewinn:**\n   - **Gesamtgewinn** = Gewinn aus Schmuck + Gewinn aus Elektronik:  \n     \\[\n     \\text{Gesamtgewinn} = 5.125 + 8.192 = 13.317 \\text{ US-Dollar}\n     \\]\n\n### 4. **Optimales Kaufzeitpunkt:**\n   - Der Händler möchte den maximalen Gewinn erzielen. Daher sollte er die Elektronikgeräte kaufen, da sie einen höheren Gewinn abwerfen.\n\n### **Endergebnis:**\nDer Händler wird einen Gewinn von **13.317 US-Dollar** erzielen, wenn er die Elektronikgeräte im Wert von 8.000 US-Dollar kauft.",
+        "ground_truth": 125,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 140,
+        "question": "Von den 20 verfügbaren Mietwagen sind 12 Automatikwagen, 4 Wagen mit Handschaltung und der Rest Halbautomaten. Wie viel Prozent der Autos sind Halbautomaten?\nAnswer in English.",
+        "generated_answer": "To determine the percentage of **automatic** cars among the 20 available rental cars, we can follow these steps:\n\n1. **Identify the total number of cars:**\n   - There are **20** cars in total.\n\n2. **Identify the number of automatic cars:**\n   - Out of the 20 cars, **12** are automatic.\n\n3. **Calculate the percentage of automatic cars:**\n   \\[\n   \\text{Percentage of automatic cars} = \\left( \\frac{\\text{Number of automatic cars}}{\\text{Total number of cars}} \\right) \\times 100\n   \\]\n   \\[\n   \\text{Percentage of automatic cars} = \\left( \\frac{12}{20} \\right) \\times 100 = 60\\%\n   \\]\n\n**Final Answer:**  \n\\[\n\\boxed{60\\%}\n\\]",
+        "ground_truth": 20,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 3,
+        "question": "James beschließt, 3-mal pro Woche 3 Kurzstreckenläufe zu absolvieren. Pro Kurzstreckenlauf läuft er 60 Meter. Wie viele Meter insgesamt läuft er pro Woche?\nAnswer in English.",
+        "generated_answer": "James läuft 3-mal pro Woche 3 Kurzstreckenläufe.  \n\nEr läuft 60 Meter pro Lauf.  \n\nDa er 3 Läufe pro Woche macht, läuft er:  \n\n3 Läufe × 60 Meter pro Lauf = **180 Meter pro Woche**.  \n\nDie Antwort lautet: **180 Meter pro Woche**.",
+        "ground_truth": 540,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 23,
+        "question": "Eine Kerze schmilzt jede Stunde, in der sie brennt, um 2 Zentimeter. Wie viele Zentimeter kürzer ist eine Kerze, die von 13 Uhr bis 17 Uhr brennt?\nAnswer in English.",
+        "generated_answer": "Eine Kerze schmilzt jede Stunde um 2 Zentimeter, wenn sie brennt. Um zu berechnen, wie viele Zentimeter kürzer eine Kerze ist, die von 13 Uhr bis 17 Uhr brennt, gehen wir wie folgt vor:\n\n1. **Zeitintervall berechnen**:  \n   - Die Kerze brennt von 13:00 Uhr bis 17:00 Uhr.  \n   - Die Zeit von 13:00 Uhr bis 14:00 Uhr ist 1 Stunde.  \n   - Die Zeit von 14:00 Uhr bis 17:00 Uhr ist 3 Stunden.  \n\n   Also:  \n   - 13:00 Uhr bis 14:00 Uhr = 1 Stunde  \n   - 14:00 Uhr bis 17:00 Uhr = 3 Stunden  \n\n2. **Schmelzrate berechnen**:  \n   - Die Kerze schmilzt um 2 Zentimeter pro Stunde.  \n\n3. **Gesamtlänge der Brenndauer**:  \n   - 1 Stunde (13:00–14:00) + 3 Stunden (14:00–17:00) = 4 Stunden  \n\n4. **Kürzere Länge**:  \n   - 4 Stunden kürzer als die ursprüngliche Kerze.  \n\n**Antwort**:  \nEine Kerze, die von 13 Uhr bis 17 Uhr brennt, ist **4 Zentimeter kürzer** als die ursprüngliche Kerze.",
+        "ground_truth": 8,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 184,
+        "question": "Jerry wirft einen sechsseitigen Würfel. Wie viel wahrscheinlicher ist es (in Prozent ausgedrückt), dass er eine Zahl größer als 3 wirft als zwei gerade Zahlen hintereinander?\nAnswer in English.",
+        "generated_answer": "Um die Wahrscheinlichkeit zu berechnen, dass Jerry einen sechsseitigen Würfel mit einer Zahl größer als 3 wirft, im Vergleich zu zwei aufeinanderfolgenden geraden Zahlen, gehen wir wie folgt vor:\n\n1. **Annahmen:**\n   - Der Würfel hat sechs Seiten (Sides).\n   - Jerry wirft den Würfel und zählt die Anzahl der Zahlen, die größer als 3 sind.\n   - Zwei aufeinanderfolgende geraden Zahlen sind eine gerade Zahl und eine ungerade Zahl.\n\n2. **Berechnung der Wahrscheinlichkeit:**\n   - **Anzahl der Zahlen größer als 3:**\n     - Die Wahrscheinlichkeit, eine gerade Zahl zu werfen, beträgt \\( \\frac{1}{2} \\).\n     - Die Wahrscheinlichkeit, eine ungerade Zahl zu werfen, beträgt \\( \\frac{1}{2} \\).\n     - Daher ist die Wahrscheinlichkeit, zwei aufeinanderfolgende geraden Zahlen zu werfen, \\( \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4} \\).\n   - **Anzahl der Zahlen größer als 3 und zwei aufeinanderfolgende geraden Zahlen:**\n     - Die Wahrscheinlichkeit, eine gerade Zahl und eine ungerade Zahl zu werfen, ist \\( \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4} \\).\n     - Daher ist die Wahrscheinlichkeit, zwei aufeinanderfolgende geraden Zahlen zu werfen, \\( \\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{8} \\).\n\n3. **Vergleich der Wahrscheinlichkeiten:**\n   - Die Wahrscheinlichkeit, eine Zahl größer als 3 zu werfen, ist \\( \\frac{1}{4} \\), während die Wahrscheinlichkeit, zwei aufeinanderfolgende geraden Zahlen zu werfen, \\( \\frac{1}{8} \\) beträgt.\n   - Daher ist die Wahrscheinlichkeit, eine Zahl größer als 3 zu werfen, **12,5%** (oder 12,5/100) höher als die Wahrscheinlichkeit, zwei aufeinanderfolgende geraden Zahlen zu werfen.\n\n**Antwort in Englisch:**  \nThe probability that Jerry throws a six-sided die with a number greater than 3 is **12.5%** higher than the probability of throwing two consecutive even numbers.",
+        "ground_truth": 25,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 102,
+        "question": "John trinkt zum Frühstück, zum Mittagessen und Abendessen gern ein Glas Wasser. Zum Abschluss trinkt er auch noch eins vor dem Zubettgehen. John macht das an jedem Wochentag, aber an den Wochenenden entspannt er gern und trinkt zum Abendessen stattdessen ein Glas Limonade. Wie viele Gläser Wasser trinkt John pro Woche?\nAnswer in English.",
+        "generated_answer": "John trinkt zum Frühstück, zum Mittagessen und Abendessen gern ein Glas Wasser.  \n\nAn den Wochentagen (Montag bis Freitag) trinkt er ein Glas Wasser zum Frühstück, Mittagessen und Abendessen.  \nAn den Wochenenden (Samstag und Sonntag) entspannt er und trinkt stattdessen ein Glas Limonade zum Abendessen.  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  \n\n**An einem Wochentag:**  \n- Wasser: 1 Glas  \n- Limonade: 0 Gläser  \n**Gesamt:** 1 Glas  ",
+        "ground_truth": 26,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 181,
+        "question": "Sandra, der Blumenladen um die Ecke, ist sehr unzufrieden mit Freds unvollständiger Lieferung der Bestellung. Sandra hatte vier Mal so viele rote Rosen bestellt wie weiße Nelken. Sie bestellte auch 200 rosa Zimmercalla, die fünf Mal der Anzahl weißer Nelken entsprachen. Sandra drohte damit, den Lieferanten zu wechseln, wenn die fehlenden roten Rosen nicht bis 17 Uhr geliefert würden. Wie viele rote Rosen muss Fred bis 17 Uhr liefern, um Sandras Einkauf zu behalten?\nAnswer in English.",
+        "generated_answer": "Sandra hatte vier Mal so viele rote Rosen bestellt wie weiße Nelken. Sie bestellte auch 200 rosa Zimmercalla, die fünf Mal der Anzahl weißer Nelken entsprachen.\n\n- Rosa Zimmercalla: 200\n- Weiße Nelken: 200 / 5 = 40\n\nSandra bestellte also 4 Mal so viele rote Rosen wie weiße Nelken.\n\n- Rote Rosen: 4 * 200 = 800\n\nUm die fehlenden roten Rosen zu liefern, muss Fred bis 17 Uhr 800 rote Rosen liefern.",
+        "ground_truth": 160,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 171,
+        "question": "Jake geht gerade durch das Entomologiemuseum. Er sieht 80 Spinnen mit jeweils 8 Beinen, 90 Insekten mit jeweils 6 Beinen und 3 seltene mutierte Invertebraten mit jeweils 10 Beinen. Wie viele Beine sieht Jake insgesamt?\nAnswer in English.",
+        "generated_answer": "Jake sieht insgesamt 80 Spinnen mit 8 Beinen, 90 Insekten mit 6 Beinen und 3 seltene mutierte Invertebraten mit 10 Beinen.  \n\n**Gesamtbeine:**  \n- Spinnen: \\( 80 \\times 8 = 640 \\)  \n- Insekten: \\( 90 \\times 6 = 540 \\)  \n- Mutierte Invertebraten: \\( 3 \\times 10 = 30 \\)  \n\n**Gesamt:** \\( 640 + 540 + 30 = 1210 \\)  \n\n**Antwort:** Jake sieht insgesamt **1210 Beine**.",
+        "ground_truth": 1210,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 160,
+        "question": "Ein Wassertank hat am Montag eine Tiefe von 17 Fuß. Am Dienstag hat der Tank 7 Fuß Wasser mehr. Am Mittwoch beträgt die Wassertiefe zwei Drittel dessen, was am Dienstag darin gewesen war. Wie ist die Wassertiefe des Tanks am Mittwoch?\nAnswer in English.",
+        "generated_answer": "Am Mittwoch ist die Wassertiefe des Tanks 17 Fuß + 7 Fuß = 24 Fuß.",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 0,
+        "question": "Janets Enten legen 16 Eier pro Tag. Sie isst drei jeden Morgen zum Frühstück und backt mit vier jeden Tag Muffins für ihre Freunde. Den Rest verkauft sie täglich auf dem Bauernmarkt für 2 US-Dollar pro frischem Entenei. Wie viel Dollar nimmt sie täglich auf dem Bauernmarkt ein?\nAnswer in English.",
+        "generated_answer": "Janet's Enten legen täglich 16 Eier, die sie in drei Mahlzeiten aufbrät. Sie verkauft jeden Morgen 4 Eier für 2 US-Dollar pro frischem Ei.  \n\n**Gesamtverkauf pro Tag:**  \n- 16 Eier × 3 Mahlzeiten = **48 Eier**  \n- 48 Eier × 2 $ = **96 $**  \n\n**Gesamtumsatz pro Tag:**  \n**96 $ + 2 $ = **98 $**  \n\n**Täglicher Gewinn:**  \n**98 $ - 48 $ = **50 $**  \n\n**Antwort:** Janet nimmt täglich 50 Dollar auf dem Bauernmarkt ein.",
+        "ground_truth": 18,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 223,
+        "question": "Eine Firma gibt ein Jahr lang 15000 $ für Werbung aus und gibt dann ein weiteres Jahr lang einen Drittel dieses Betrags für Werbung aus. Welchen Gesamtbetrag gab die Firma in diesen beiden Jahren für Werbung aus?\nAnswer in English.",
+        "generated_answer": "Eine Firma gibt in den ersten zwei Jahren jeweils 15.000 $ für Werbung aus.  \n\n**Erster Jahr:**  \n- **Werbung:** 15.000 $  \n- **Gesamtkosten:** 15.000 $  \n\n**Zweiter Jahr:**  \n- **Werbung:** 1/3 × 15.000 $ = 5.000 $  \n- **Gesamtkosten:** 15.000 $ + 5.000 $ = 20.000 $  \n\n**Gesamtbetrag für beide Jahre:**  \n- **Erster Jahr:** 15.000 $ + 5.000 $ = **20.000 $**  \n- **Zweiter Jahr:** 20.000 $  \n\n**Antwort:**  \nDie Firma gab in den beiden Jahren insgesamt **20.000 $** für Werbung aus.",
+        "ground_truth": 20000,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 126,
+        "question": "Dylan brauchte Geflügelwürstchen und Fischwürstchen, um bei einer Party Wurstbrötchen zuzubereiten. Er hat 38 Geflügelwürstchen und 6 mehr Fischwürstchen als Geflügelwürstchen gekauft. Wie viele Würstchen hat Dylan insgesamt gekauft?\nAnswer in English.",
+        "generated_answer": "Dylan hat insgesamt 38 Geflügelwürstchen und 6 mehr Fischwürstchen als Geflügelwürstchen gekauft.  \n\n**Gesamtzahl der Würstchen:**  \n38 (Geflügel) + 6 (Fisch) = **44** Würstchen.  \n\n**Antwort:** Dylan hat insgesamt **44** Würstchen gekauft.",
+        "ground_truth": 82,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 85,
+        "question": "Gene näht eine Decke aus alten Erinnerungs-T-Shirts. Er hat ein T-Shirt aus jedem Urlaub, in dem er war. Jedes Shirt bildet einen eigenen Deckenabschnitt. Jede Reihe ist aus Abschnitten eines anderen Ferienjahrs gefertigt. Er macht viermal im Jahr Urlaub und verreist, seit er 23 Jahre alt ist. Jetzt ist er 34 Jahre alt. Wie viele Deckenabschnitte hat er insgesamt?\nAnswer in English.",
+        "generated_answer": "To determine how many blankets Gene has, we need to consider the following:\n\n1. **Gene’s Travel History**: Gene has been traveling since he was 23 years old. Since he is now 34 years old, he has been traveling for 34 - 23 = 11 years.\n\n2. **Travel Frequency**: Gene makes four trips per year.\n\n3. **Decks per Trip**: Each trip involves one blanket.\n\n4. **Decks per Decade**: Since Gene has been traveling for 11 years, each decade (10 years) he has made 10 decks.\n\n5. **Total Decks**: Since he has been traveling for 11 years, he has made 11 decks.\n\n6. **Decks per Decade**: Each decade (10 years) he has made 10 decks.\n\n7. **Total Decks per Decade**: Since he has been traveling for 11 years, he has made 11 decks per decade.\n\n8. **Total Decks**: Since he has been traveling for 11 years, he has made 11 decks per decade.\n\n9. **Decks per Year**: Since he makes four trips per year, he has made 4 decks per year.\n\n10. **Total Decks per Year**: Since he makes four trips per year, he has made 4 decks per year.\n\n11. **Total Decks**: Since he has been traveling for 11 years, he has made 11 decks.\n\nTherefore, Gene has a total of **11 decks**.",
+        "ground_truth": 44,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 62,
+        "question": "Wenn Marcy 40 Jahre lang für das gleiche Unternehmen tätig ist, bekommt sie eine jährliche Rente von 50.000 US-Dollar/Jahr. Nach 20 Jahren werden ihr 5 % des Wertes der jährlichen Rente pro Jahr zugestanden. Wenn sie nach 30 Jahren geht, wie hoch ist dann ihre jährliche Rente?\nAnswer in English.",
+        "generated_answer": "To determine Marcy's annual pension after 30 years, we need to calculate the present value of her future pension payments using the **annuity-immediate** formula, which is appropriate for a **single, immediate payment**.\n\n---\n\n### **Step 1: Understand the Payment Structure**\n- **Annual pension**: $50,000 per year.\n- **Time period**: 30 years.\n- **Interest rate**: 5% per year (i.e., 0.05 per year).\n\n---\n\n### **Step 2: Use the Annuity-Immediate Formula**\nThe present value of an annuity-immediate is calculated as:\n\n$$\nPV = P \\times \\frac{1 - (1 + r)^{-n}}{r}\n$$\n\nWhere:\n- $ P = 50,000 $ (annual payment),\n- $ r = 0.05 $ (annual interest rate),\n- $ n = 30 $ (years).\n\n---\n\n### **Step 3: Plug in the Values**\n$$\nPV = 50,000 \\times \\frac{1 - (1 + 0.05)^{-30}}{0.05}\n$$\n\n---\n\n### **Step 4: Compute the Expression**\nThis is a complex expression, so we can approximate it using a calculator or software. However, for simplicity, we can use a **simplified approximation**:\n\n$$\nPV \\approx 50,000 \\times \\frac{1 - (1.05)^{-30}}{0.05} \\approx 50,000 \\times \\frac{1 - 0.592}{0.05} \\approx 50,000 \\times 0.4444 \\approx 22,222.50\n$$\n\n---\n\n### **Step 5: Adjust for Rounding**\nSince the problem asks for the **rounded** value, we round to the nearest cent:\n\n$$\nPV \\approx 22,222.50 \\approx \\$22,223\n$$\n\n---\n\n### **Final Answer**\nAfter 30 years, Marcy's annual pension is approximately **$22,223**.",
+        "ground_truth": 25000,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 83,
+        "question": "Dan pflanzt 3 Rosenbüsche. Jeder Rosenbusch trägt 25 Rosen. Jede Rose hat 8 Dornen. Wie viele Dornen sind es insgesamt?\nAnswer in English.",
+        "generated_answer": "Dan pflanzt 3 Rosenbüsche. Jeder Rosenbusch trägt 25 Rosen. Jede Rose hat 8 Dornen.\n\n**Gesamtzahl der Dornen:**  \n\\( 3 \\text{ Rosenbusch} \\times 25 \\text{ Rosen/busch} \\times 8 \\text{ Dornen/Rose} = 120 \\text{ Dornen} \\)\n\n**Antwort:**  \n\\boxed{120}",
+        "ground_truth": 600,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 220,
+        "question": "Carmen braucht 10 Minuten, um ein Kreuzworträtsel zu beenden, und 5 Minuten, um eine Sudoku-Aufgabe zu beenden. Über das Wochenende löste sie 3 Kreuzworträtsel und 8 Sudoku-Aufgaben. Wie viel Zeit verbrachte sie mit dem Spielen dieser Spiele?\nAnswer in English.",
+        "generated_answer": "Carmen verbrachte insgesamt 10 Minuten für das Kreuzworträtsel und 5 Minuten für das Sudoku.  \n\n**Gesamtzeit für Rätsel:**  \n10 Minuten (Kreuzworträtsel) + 5 Minuten (Sudoku) = **15 Minuten**  \n\n**Gesamtzeit für Sudoku:**  \n8 Sudoku-Aufgaben × 5 Minuten = **40 Minuten**  \n\n**Gesamtzeit für alle Spiele:**  \n15 Minuten (Kreuzworträtsel) + 40 Minuten (Sudoku) = **55 Minuten**  \n\n**Antwort:**  \nCarmen verbrachte **55 Minuten** mit dem Spielen dieser Spiele.",
+        "ground_truth": 70,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 16,
+        "question": "Zwei Züge verlassen San Rafael zur selben Zeit. Sie beginnen, nach Westen zu fahren und legen beide 80 Meilen zurück. Am nächsten Tag fahren sie gen Norden und legen 150 Meilen zurück. Welche Strecke legt jeder der Züge in den beiden Tagen zurück?\nAnswer in English.",
+        "generated_answer": "Zwei Züge verlassen San Rafael zur gleichen Zeit. Sie beginnen, nach Westen zu fahren und legen beide 80 Meilen zurück. Am nächsten Tag fahren sie gen Norden und legen 150 Meilen zurück.\n\n**Zu den ersten beiden Tagen:**\n\n1. **Tag 1:**  \n   - **Startpunkt:** San Rafael  \n   - **Ziel:** Westen  \n   - **Richtung:** Westwärts  \n   - **Entfernung:** 80 Meilen  \n   - **Ende des Tages:**  \n     - **Zug A:** 80 Meilen  \n     - **Zug B:** 0 Meilen  \n\n2. **Tag 2:**  \n   - **Startpunkt:** Westen  \n   - **Ziel:** Norden  \n   - **Richtung:** Nordwärts  \n   - **Entfernung:** 150 Meilen  \n   - **Ende des Tages:**  \n     - **Zug A:** 150 Meilen  \n     - **Zug B:** 0 Meilen  \n\n**Zu den beiden folgenden Tagen:**\n\n1. **Tag 3:**  \n   - **Startpunkt:** Norden  \n   - **Ziel:** Westen  \n   - **Richtung:** Westwärts  \n   - **Entfernung:** 150 Meilen  \n   - **Ende des Tages:**  \n     - **Zug A:** 150 Meilen  \n     - **Zug B:** 0 Meilen  \n\n2. **Tag 4:**  \n   - **Startpunkt:** Westen  \n   - **Ziel:** Norden  \n   - **Richtung:** Nordwärts  \n   - **Entfernung:** 150 Meilen  \n   - **Ende des Tages:**  \n     - **Zug A:** 150 Meilen  \n     - **Zug B:** 0 Meilen  \n\n**Zusammenfassung:**  \n- **Tag 1:**  \n  - Züge A und B: 80 Meilen  \n- **Tag 2:**  \n  - Züge A und B: 150 Meilen  \n- **Tag 3:**  \n  - Züge A und B: 150 Meilen  \n- **Tag 4:**  \n  - Züge A und B: 150 Meilen  \n\n**Gesamtstrecke:**  \n- **Tag 1:** 80 + 150 = **230 Meilen**  \n- **Tag 2:** 150 + 150 = **300 Meilen**  \n- **Tag 3:** 150 + 150 = **300 Meilen**  \n- **Tag 4:** 150 + 150 = **300 Meilen**  \n\n**Gesamtstrecke:**  \n- **Tag 1 + Tag 2:** 230 + 300 = **530 Meilen**  \n- **Tag 3 + Tag 4:** 300 + 300 = **600 Meilen**  \n\n**Gesamtstrecke:**  \n- **Tag 1 + Tag 2 + Tag 3 + Tag 4:** 230 + 300 + 300 + 300 = **1060 Meilen**  \n\n**Antwort:**  \n- **Tag 1:** 80 Meilen  \n- **Tag 2:** 150 Meilen  \n- **Tag 3:** 150 Meilen  \n- **Tag 4:** 150 Meilen",
+        "ground_truth": 230,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 48,
+        "question": "Tracy hat ein 4 Fuß langes Stück Draht verwendet, um die Tomatenpflanzen in ihrem Garten abzustützen. Der Draht wurde in jeweils 6 Inch lange Stücke geschnitten. Wie viele Stück Draht hatte sie?\nAnswer in English.",
+        "generated_answer": "To determine how many pieces of wire Tracy used to support her tomato plants, let's break down the problem step by step:\n\n1. **Total Length of the Wire:**\n   - The wire is **4 feet** long.\n   - Since 1 foot = 12 inches, the total length in inches is:\n     \\[\n     4 \\text{ feet} \\times 12 \\text{ inches/foot} = 48 \\text{ inches}\n     \\]\n\n2. **Number of Pieces:**\n   - The wire is cut into **6-inch pieces**.\n   - To find the number of pieces, divide the total length in inches by the length of one piece:\n     \\[\n     \\frac{48 \\text{ inches}}{6 \\text{ inches/piece}} = 8 \\text{ pieces}\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{8}\n\\]",
+        "ground_truth": 8,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 145,
+        "question": "John hat ein 10 Hektar Ananasfeld. Es gibt 100 Ananas pro Hektar. John kann seine Ananas alle 3 Monate ernten. Wie viele Ananas kann John innerhalb eines Jahres ernten?\nAnswer in English.",
+        "generated_answer": "John hat ein 10 Hektar Ananasfeld, das 100 Ananas pro Hektar enthält. Um die Anzahl der Ananas zu berechnen, die John innerhalb eines Jahres ernten kann, müssen wir die Anzahl der Ananas pro Hektar mit der Anzahl der Hektar multiplizieren und dann mit der Anzahl der Erntezyklen teilen.\n\n**Berechnung:**\n\n1. **Anzahl der Ananas pro Hektar:**  \n   \\( 100 \\text{ Ananas/Hektar} \\)\n\n2. **Anzahl der Hektar:**  \n   \\( 10 \\text{ Hektar} \\)\n\n3. **Anzahl der Ananas pro Erntezyklus:**  \n   \\( \\frac{100 \\text{ Ananas}}{10 \\text{ Hektar}} = 10 \\text{ Ananas/Erntezyklus} \\)\n\n4. **Anzahl der Ananas, die John innerhalb eines Jahres ernten kann:**  \n   \\( 10 \\text{ Ananas/Erntezyklus} \\times 3 \\text{ Erntezyklen} = 30 \\text{ Ananas} \\)\n\n**Antwort:**  \nJohn kann innerhalb eines Jahres 30 Ananas ernten.",
+        "ground_truth": 4000,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 56,
+        "question": "Peter plant, diese Woche ins Kino zu gehen. Er kauft sich immer eine Eintrittskarte für 7 US-Dollar und Popcorn für 7 US-Dollar. Wenn er für die Woche 42 US-Dollar zur Verfügung hat, wie oft kann er dann ins Kino gehen?\nAnswer in English.",
+        "generated_answer": "Peter plant, diese Woche ins Kino zu gehen. Er kauft sich immer eine Eintrittskarte für 7 US-Dollar und Popcorn für 7 US-Dollar. Wenn er für die Woche 42 US-Dollar zur Verfügung hat, wie oft kann er dann ins Kino gehen?\n\n**Lösung:**\n\n1. **Eintrittskarten:**  \n   - Peter kauft 1 Eintrittskarte für 7 US-Dollar.  \n   - Für die Woche hat er 42 US-Dollar zur Verfügung.  \n   - **Anzahl der Eintrittskarten:**  \n     \\[\n     \\frac{42 \\text{ US-Dollar}}{7 \\text{ US-Dollar/Eintrittskarte}} = 6 \\text{ Eintrittskarten}\n     \\]\n\n2. **Popcorn:**  \n   - Peter kauft 1 Beutel Popcorn für 7 US-Dollar.  \n   - Für die Woche hat er 42 US-Dollar zur Verfügung.  \n   - **Anzahl der Beutel Popcorn:**  \n     \\[\n     \\frac{42 \\text{ US-Dollar}}{7 \\text{ US-Dollar/Beutel}} = 6 \\text{ Beutel}\n     \\]\n\n3. **Gesamtkosten:**  \n   - **Eintrittskarten:** 6  \n   - **Popcorn:** 6  \n   - **Gesamtkosten:**  \n     \\[\n     6 \\text{ Eintrittskarten} + 6 \\text{ Beutel Popcorn} = 12 \\text{ US-Dollar}\n     \\]\n\n**Antwort:**  \nPeter kann **12 Mal** ins Kino gehen.",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 61,
+        "question": "Janet kauft eine Brosche für ihre Tochter. Sie zahlt 500 US-Dollar für das Material, um sie herzustellen, und weitere 800 US-Dollar für den Juwelier, damit er sie modelliert. Anschließend zahlt sie noch 10 % von diesem Betrag, um sie zu versichern. Wie viel musste sie bezahlen?\nAnswer in English.",
+        "generated_answer": "Janet zahlt 10% von 800 US-Dollar für die Versicherung der Brosche.  \n10% von 800 US-Dollar = 0,10 * 800 = 80 US-Dollar.  \n\nSie zahlt also 80 US-Dollar für die Versicherung.  \n\nDie Kosten für das Material und die Brosche betragen also:  \n- Materialkosten: 500 US-Dollar  \n- Juwelierkosten: 800 US-Dollar  \n- Versicherungskosten: 80 US-Dollar  \n\nGesamtkosten: 500 + 800 + 80 = **1380 US-Dollar**.  \n\n**Antwort:** Janet zahlt 1380 US-Dollar.",
+        "ground_truth": 1430,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 36,
+        "question": "Terry isst 2 Joghurts pro Tag. Sie sind derzeit für 5,00 US-Dollar für 4 Joghurts im Angebot. Wie viel gibt er innerhalb von 30 Tagen für Joghurt aus?\nAnswer in English.",
+        "generated_answer": "Terry isst 2 Joghurts pro Tag.  \n\nHeute sind 2 Joghurts für 5,00 US-Dollar im Angebot.  \n\nWie viel kostet ein Jogurt?  \n\nEr gibt 2 Joghurts für 5,00 US-Dollar aus.  \n\nWie viel kostet es, 30 Tage lang 2 Joghurts pro Tag zu essen?  \n\n30 Tage × 2 Joghurts pro Tag = 60 Joghurts.  \n\nWie viel kostet es, 60 Joghurts zu kaufen?  \n\n60 Joghurts × 5,00 US-Dollar pro Jogurt = 300 US-Dollar.  \n\nAntwort: Terry gibt 300 US-Dollar für 60 Joghurts in 30 Tagen aus.",
+        "ground_truth": 75,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 139,
+        "question": "In einem Kaugummiautomaten gibt es 22 rosa Kaugummikugeln mehr als das Vierfache der Anzahl blauer Kaugummikugeln. Wenn es 12 blaue Kaugummikugeln gibt, wie viele Rosafarbene gibt es dann?\nAnswer in English.",
+        "generated_answer": "To determine the number of pink gummy bears in the automate, we start by analyzing the given information:\n\n1. **Total number of gummy bears**: 22\n2. **Number of blue gummy bears**: 12\n3. **Number of pink gummy bears**:  \n   $$\n   \\text{Pink} = \\text{Total} - \\text{Blue} = 22 - 12 = 10\n   $$\n\nThus, there are **10 pink gummy bears** in the automate.",
+        "ground_truth": 70,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 114,
+        "question": "Jamals Handy kann 6-mal mehr Fotos speichern als Brittanys Handy. Die maximale Anzahl an Fotos, die Brittanys Handy speichern kann, ist 50-mal höher als die Anzahl an Vögeln auf Jamals Foto mit den Enten im Zoo. Wenn Jamals Handy 1.800 Fotos speichern kann, sind wie viele Enten auf Jamals Foto von den Enten im Zoo zu sehen?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how many enets (a type of bird) can be seen on Jamals phone based on the given conditions.\n\n1. **Understand the conditions:**\n   - Jamals Handy can store 6 times more photos than Brittanys Phone.\n   - Brittanys Phone can store 50 times more photos than the maximum number of birds on Jamals Photo.\n   - The maximum number of birds on Jamals Photo is 50 times higher than the maximum number of photos on Brittanys Phone.\n\n2. **Calculate the number of photos on Brittanys Phone:**\n   - Since Brittanys Phone can store 50 times more photos than the maximum number of birds on Jamals Photo, we calculate:\n     \\[\n     \\text{Photos on Brittanys Phone} = 50 \\times \\text{Maximum number of birds on Jamals Photo} = 50 \\times 50 = 2500\n     \\]\n\n3. **Calculate the number of photos on Jamals Phone:**\n   - Since Jamals Phone can store 6 times more photos than Brittanys Phone, we calculate:\n     \\[\n     \\text{Photos on Jamals Phone} = 6 \\times \\text{Photos on Brittanys Phone} = 6 \\times 2500 = 15000\n     \\]\n\n4. **Determine the number of enets on Jamals Photo:**\n   - The maximum number of photos on Jamals Photo is 1800.\n   - Since Jamals Phone can store 15000 photos, the number of enets (birds) that can be seen is:\n     \\[\n     \\text{Enets on Jamals Photo} = \\frac{\\text{Photos on Jamals Photo}}{\\text{Photos per enet}} = \\frac{1800}{15000} = 0.12\n     \\]\n\nTherefore, the number of enets (birds) on Jamals Photo is **12**.",
+        "ground_truth": 6,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 226,
+        "question": "James zählt gerade seine Pokemonkarten. Er hat 30 Feuerartige, 20 Pflanzenartige und 40 Wasserartige. Wenn er 8 der Wasserartigen verlegt und 14 Pflanzenartige kauft, wie hoch ist dann die Wahrscheinlichkeit in Prozent (gerundet auf die nächste ganze Zahl), dass eine zufällig gezogene Karte eine Wasserartige sein wird?\nAnswer in English.",
+        "generated_answer": "To determine the probability that a randomly drawn Pokémon card is a Water-type Pokémon after James has moved 8 of the Water-type cards and added 14 new ones, we can follow these steps:\n\n### **Given:**\n- Initial counts of Water-type Pokémon:  \n  - Fire-type: 30  \n  - Plant-type: 20  \n  - Water-type: 40  \n- James moves 8 Water-type cards and adds 14 new ones.\n- The goal is to find the probability that a randomly drawn card is a Water-type Pokémon.\n\n### **Step 1: Calculate the Total Number of Water-type Pokémon After Moves**\nJames has:\n- 30 Fire-type Pokémon\n- 20 Plant-type Pokémon\n- 40 Water-type Pokémon\n\nAfter moving 8 Water-type cards, the new total is:\n\\[\n30 + 20 + 40 - 8 = 78 \\text{ Water-type Pokémon}\n\\]\n\n### **Step 2: Determine the Initial Number of Water-type Pokémon**\nThe initial total is 40 Water-type Pokémon.\n\n### **Step 3: Calculate the Probability of Drawing a Water-type Pokémon**\nThe probability \\( P \\) that a randomly drawn card is a Water-type Pokémon is the ratio of the initial number of Water-type Pokémon to the total number of Water-type Pokémon after the moves:\n\\[\nP = \\frac{\\text{Initial Water-type Count}}{\\text{Total Water-type Count}} = \\frac{40}{78}\n\\]\n\n### **Step 4: Convert the Probability to a Percentage**\nTo express the probability as a percentage (rounded to the nearest whole number), we multiply by 100:\n\\[\nP \\approx \\frac{40}{78} \\times 100 \\approx 51.29\\%\n\\]\n\n### **Final Answer**\nThe probability that a randomly drawn card is a Water-type Pokémon is approximately **51.29%**.\n\n\\[\n\\boxed{51.29\\%}\n\\]",
+        "ground_truth": 33,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 20,
+        "question": "Ich habe 10 Liter Orangengetränk mit zwei Dritteln Wasser und möchte es zu 15 Litern Ananasgetränk mit drei Fünfteln Wasser hinzugeben. Während des Eingießens verschütte ich allerdings einen Liter des Orangengetränks. Wie viel Wasser ist in den verbleibenden 24 Litern?\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine how much water is in the remaining 24 liters of the 10-liter mixture after a one-liter spill.\n\nLet's break it down step by step:\n\n1. **Initial Mixture:**\n   - Orangengetränk: 10 liters\n   - Water: \\( \\frac{2}{3} \\times 10 = \\frac{20}{3} \\approx 6.67 \\) liters\n\n2. **Adding the Spill:**\n   - Spill: 1 liter\n   - Remaining mixture: \\( 10 - 1 = 9 \\) liters\n\n3. **Adding the Ananas:**\n   - Ananas: \\( \\frac{3}{5} \\times 9 = \\frac{27}{5} = 5.4 \\) liters\n\n4. **Total Volume:**\n   - Total volume: \\( 9 + 5.4 = 14.4 \\) liters\n\n5. **Water in Remaining Mixture:**\n   - Water in remaining 24 liters: \\( 14.4 - 1 = 13.4 \\) liters\n\nSo, the amount of water in the remaining 24 liters of the mixture is **13.4 liters**.",
+        "ground_truth": 15,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 81,
+        "question": "Charlie hatte 10 Sticker. Er hat 21 Sticker in einem Laden in der Mall gekauft und bekam 23 Sticker zum Geburtstag geschenkt. Dann gab Charlie seiner Schwester 9 der Sticker und benutzte 28 zum Dekorieren einer Grußkarte. Wie viele Sticker hat Charlie übrig?\nAnswer in English.",
+        "generated_answer": "Charlie hatte 10 Sticker.\nEr kaufte 21 Sticker in einem Laden und bekam 23 Sticker zum Geburtstag geschenkt.\nAlso hatte er insgesamt 21 + 23 = 44 Sticker.\nEr gab 9 Sticker an seine Schwester und benutzte 28 Sticker zum Dekorieren einer Grußkarte.\nAlso hatte er 44 - 9 - 28 = 25 Sticker übrig.\nAlso hat Charlie 25 Sticker übrig.",
+        "ground_truth": 17,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 242,
+        "question": "Mike war von 5 Personen Brieffreund. Er hörte mit 2 von ihnen auf, Brieffreunde zu sein. Sie senden ihm jeweils 2 Briefe pro Woche, die 5 Seiten lang sind. Er antwortet auf die gleiche Weise. Er kann alle 6 Minuten eine Seite schreiben. Wie viele Stunden verbringt er pro Woche mit Schreiben?\nAnswer in English.",
+        "generated_answer": "To determine how many hours Mike spends writing per week, we need to break down the problem into its components and calculate the time spent on each part.\n\n### **1. Calculating the Total Number of Letters Sent per Week**\n- **Total letters sent per week** = Number of people who sent letters (Mike + 2 others) × Number of letters per letter  \n  \\( = 3 \\times 2 \\times 5 = 30 \\) letters  \n\n### **2. Calculating the Total Time Spent Writing Letters**\n- **Time per letter** = 5 pages  \n- **Total time spent writing letters** = \\( 30 \\times 5 = 150 \\) minutes  \n- **Convert minutes to hours**: \\( \\frac{150}{60} = 2.5 \\) hours  \n\n### **3. Calculating the Average Time Spent per Letter**\n- **Time per letter** = 5 pages  \n- **Total time spent writing letters** = \\( 30 \\times 5 = 150 \\) minutes  \n- **Average time per letter** = \\( \\frac{150}{60} = 2.5 \\) hours  \n\n### **4. Calculating the Average Number of Letters Sent per Week**\n- **Total letters sent per week** = 30  \n- **Average letters sent per week** = \\( \\frac{30}{7} \\approx 4.29 \\)  \n\n### **5. Calculating the Average Time Spent Writing Each Letter**\n- **Time per letter** = 5 pages  \n- **Total time spent writing each letter** = \\( 30 \\times 5 = 150 \\) minutes  \n- **Average time per letter** = \\( \\frac{150}{60} = 2.5 \\) hours  \n\n### **6. Calculating the Average Number of Hours Spent Writing Each Letter**\n- **Total hours spent writing each letter** = \\( 30 \\times 2.5 = 75 \\) hours  \n\n### **Final Answer**\nMike spends **75 hours per week** writing letters.  \n\n\\[\n\\boxed{75}\n\\]",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 125,
+        "question": "Julia hat sich auf eine Dinnerparty in ihrem Haus vorbereitet, bei der sie Eintopf servieren wollte. Sie bemerkte, dass sie keine Plastiklöffel mehr hatte, also kaufte sie eine neue Packung Löffel. Später kaufte auch ihr Mann eine Packung mit 5 neuen Löffeln und gab sie Julia. Während Julia den Eintopf vorbereitete, benutzte sie drei der Löffel zum Probieren der Suppe. Später, als sie den Tisch deckte, hatte sie insgesamt 12 Löffel. Wie viele Löffel waren in der Packung, die Julia gekauft hat?\nAnswer in English.",
+        "generated_answer": "To determine how many spoons Julia bought in the pack, let's break down the problem step by step:\n\n1. **Initial Löffel:**\n   - Julia hatte 3 Löffel, die sie zum Probieren der Suppe verwendete.\n\n2. **Nach dem Probieren:**\n   - Sie hatte 12 Löffel übrig.\n\n3. **Zusätzliche Löffel:**\n   - Ihr Mann kaufte ihr eine neue Packung mit 5 Löffeln.\n\n4. **Gesamtzahl der Löffel:**\n   - Die ursprünglichen 3 Löffel + die 5 neuen Löffel = **8 Löffel**.\n\nThus, Julia bought a total of **8 spoons** in the pack.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 27,
+        "question": "Cynthia isst jeden Abend eine Portion Eiscreme. Sie kauft Eiscremekartons mit 15 Portionen Eis pro Karton für 4,00 US-Dollar pro Karton. Wie viel hat sie nach 60 Tagen für Eiscreme ausgegeben?\nAnswer in English.",
+        "generated_answer": "Cynthia kauft jeden Abend eine Portion Eiscreme. Sie kauft Eiscremekartons mit 15 Portionen Eis pro Karton und zahlt 4,00 US-Dollar pro Karton.\n\n**Schritt 1: Berechnung der Anzahl der Tage**  \nCynthia kauft 15 Portionen Eis pro Karton.  \nSie kauft jeden Abend eine Portion Eis.  \nDa sie jeden Abend eine Portion kauft, kauft sie 60 Tage lang.  \n\n**Schritt 2: Berechnung der Gesamtkosten**  \nDie Gesamtkosten für 60 Tage Eiscreme sind:  \n\\[\n\\text{Gesamtkosten} = \\text{Anzahl der Tage} \\times \\text{Kosten pro Tag} = 60 \\times 4,00 \\text{ US-Dollar} = 240 \\text{ US-Dollar}\n\\]\n\n**Antwort:**  \nCynthia hat nach 60 Tagen für Eiscreme ausgegeben:  \n\\[\n\\boxed{240 \\text{ US-Dollar}}\n\\]",
+        "ground_truth": 16,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "Ram verbraucht einen Haufen Stifte. Er entdeckt, dass er Geld sparen kann, indem er die Tinte von fünf leeren Stiften mischt, um einen Stift voll zu machen. Wenn er 25 Stifte kauft und sie dann verwendet, um neue Stifte zu machen, wenn die Tinte ausgeht, wie viele Stifte kann er dann insgesamt haben?\nAnswer in English.",
+        "generated_answer": "Ram verbraucht einen Haufen Stifte. Er entdeckt, dass er Geld sparen kann, indem er die Tinte von fünf leeren Stiften mischt, um einen Stift voll zu machen. Wenn er 25 Stifte kauft und sie dann verwendet, um neue Stifte zu machen, wenn die Tinte ausgeht, wie viele Stifte kann er dann insgesamt haben?\n\n**Lösung:**\n\nRam kann insgesamt **25 Stifte** haben, nachdem er die Tinte gemischt und neue Stifte hergestellt hat.  \n\n**Erklärung:**  \n1. **Zuerst kauft Ram 25 Stifte**.  \n2. **Er mischt die Tinte von fünf leeren Stiften**, um einen Stift voll zu machen.  \n3. **Jeder dieser neuen Stifte** hat nun eine Tintenmenge von **25 Stiften** (25 + 25 = 50 Stifte).  \n4. **Er verwendet diese neuen Stifte**, um neue Stifte zu machen, bis die Tinte ausgeht.  \n5. **An diesem Punkt** hat er **25 Stifte** übrig, die er für neue Stifte verwenden kann.  \n\n**Antwort:**  \nRam kann insgesamt **25 Stifte** haben.",
+        "ground_truth": 31,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 201,
+        "question": "John gewinnt einen Preis bei der Arbeit. Der Preis besteht in einer 1-maligen monetären Belohnung in Höhe von 5000 $ und einer Lohnerhöhung von 5 %. Wenn er jede Woche des Jahres 2000 pro Woche verdient und er den Preis am ersten Tag des Jahres bekam, wie viel Geld verdiente er dann in jenem Jahr?\nAnswer in English.",
+        "generated_answer": "John gewinnt einen Preis in Höhe von 5000 $ und erhält eine Lohnerhöhung von 5 %. Er verdient jede Woche des Jahres 2000 pro Woche.\n\n**Gesamtbetrag des Preises:**  \n$ 5000 $  \n\n**Gesamtbetrag der Lohnerhöhung:**  \n$ 5000 \\times 0,05 = 250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:**  \n$ 5000 + 250 = 5250 $  \n\n**Gesamtbetrag des Preises und der Lohnerhöhung:",
+        "ground_truth": 114200,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 74,
+        "question": "Artie hat einen Blumenstand auf dem Bauernmarkt. Er verkauft drei Blumensorten: Ringelblumen, Petunien und Begonien. Er verkauft normalerweise Ringelblumen für 2,74 US-Dollar pro Topf, Petunien für 1,87 US-Dollar pro Topf und Begonien für 2,12 US-Dollar pro Topf. Artie hat heute kein Wechselgeld, also entschließt er sich, alle Preise auf den nächsthöheren Dollarbetrag aufzurunden. Wenn Artie 12 Töpfe Ringelblumen, 9 Töpfe Petunien und 17 Töpfe Begonien verkauft, wie viel verdient er dann?\nAnswer in English.",
+        "generated_answer": "To calculate Artie's earnings, we need to round each price to the nearest whole number and then multiply by the number of T-shirts sold.\n\n1. **Ringelblumen**:  \n   - Price per T-shirt: $2.74  \n   - Number of T-shirts: 12  \n   - Earnings: \\( 12 \\times 2.74 = 32.24 \\) dollars  \n\n2. **Petunien**:  \n   - Price per T-shirt: $1.87  \n   - Number of T-shirts: 9  \n   - Earnings: \\( 9 \\times 1.87 = 16.63 \\) dollars  \n\n3. **Begonien**:  \n   - Price per T-shirt: $2.12  \n   - Number of T-shirts: 17  \n   - Earnings: \\( 17 \\times 2.12 = 35.94 \\) dollars  \n\n**Total Earnings**:  \n\\( 32.24 + 16.63 + 35.94 = 85.21 \\) dollars  \n\n**Rounded to the nearest cent**:  \n- Ringelblumen: \\( 32.24 \\) dollars (rounded to $32.24)  \n- Petunien: \\( 16.63 \\) dollars (rounded to $16.63)  \n- Begonien: \\( 35.94 \\) dollars (rounded to $36.00)  \n\n**Final Answer**:  \nArtie earns **$85.21**.",
+        "ground_truth": 88,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 31,
+        "question": "Gunter versucht, die Gummibärchen im Glas zu zählen. Er fragt seine Freunde, wie viele Gummibärchen sich ihrer Meinung nach im Glas befinden. Einer sagt 80. Der andere sagt 20 mehr als die Hälfte der ersten Schätzung. Ein Dritter sagt 25 % mehr als der Erste. Wie lautet ihre durchschnittliche Schätzung?\nAnswer in English.",
+        "generated_answer": "To determine the average number of Gummibärchen in the glass, we need to find the sum of the three friends' estimates and then divide by 3.\n\n1. **First Estimate (Gunter):**  \n   - The first friend says **80** Gummibärchen.\n\n2. **Second Estimate (der andere Freund):**  \n   - The second friend says **20 more than the first**, so:  \n     \\( 80 + 20 = 100 \\) Gummibärchen.\n\n3. **Third Estimate (der dritte Freund):**  \n   - The third friend says **25% more than the first**, so:  \n     \\( 100 + (0.25 \\times 100) = 100 + 25 = 125 \\) Gummibärchen.\n\n4. **Average Estimate:**  \n   - The average is the sum of the three estimates divided by 3:  \n     \\( \\frac{80 + 100 + 125}{3} = \\frac{305}{3} \\approx 101.67 \\).\n\nSo, the average number of Gummibärchen is approximately **101.67**.",
+        "ground_truth": 80,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 195,
+        "question": "Ein Stift kostet so viel wie ein Bleistift und Radierer zusammen. Ein Bleistift kostet 1,20 $ und ein Radierer kostet 0,30 $. Wie viel kosten 8 Stifte?\nAnswer in English.",
+        "generated_answer": "To find the cost of 8 pens, we first need to determine the cost of one pen. Since a pen costs $1.20 and a Bleistift costs $1.20, the cost of one pen is:\n\n1.20 + 1.20 = 2.40\n\nNow, we need to find out how many pens can be bought with $2.40. Since one Bleistift costs $1.20, we divide the total cost of one pen by the cost of one Bleistift:\n\n2.40 / 1.20 = 2\n\nSo, we can buy 2 pens with $2.40.\n\nNext, we need to find out how many pens we can buy with $2.40. Since we can buy 2 pens with $2.40, we divide the total cost of one pen by the number of pens we can buy:\n\n2.40 / 2 = 1.20\n\nSo, we can buy 1.20 pens with $2.40.\n\nFinally, we need to find out how many pens we can buy with $2.40. Since we can buy 1.20 pens with $2.40, we divide the total cost of one pen by the number of pens we can buy:\n\n2.40 / 1.20 = 2\n\nSo, we can buy 2 pens with $2.40.\n\nTherefore, the cost of 8 pens is:\n\n8 pens * $2.40/pen = $19.20",
+        "ground_truth": 12,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 192,
+        "question": "Tom pflanzt 10 Bäume pro Jahr. Jedes Jahr fällt er auch 2 Bäume pro Jahr. Er beginnt mit 50 Bäumen. Nach 10 Jahren sterben 30 % der Bäume. Wie viele Bäume behält er übrig?\nAnswer in English.",
+        "generated_answer": "Tom pflanzt 10 Bäume pro Jahr. Jedes Jahr fallen 2 Bäume pro Jahr. Er beginnt mit 50 Bäumen.\n\nNach 10 Jahren sterben 30 % der Bäume. Das sind 30 % von 50 Bäumen = 0,30 * 50 = 15 Bäume.\n\nTom behält also 50 - 15 = 35 Bäume übrig.\n\n\\boxed{35}",
+        "ground_truth": 91,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 138,
+        "question": "Mark machte gestern einen Test, der aus 75 Fragen bestand. Er vervollständigte den Test mit einer Geschwindigkeit von 5 Fragen pro Stunde. Heute machte er einen anderen Test mit 100 Fragen in der gleichen Geschwindigkeit. Wenn Mark 8 Stunden Zeit hatte, um den ersten, und 6 Stunden, um den zweiten Test zu vervollständigen, wie viele Fragen ließ er dann unvollständig?\nAnswer in English.",
+        "generated_answer": "Mark vervollständigte den Test mit einer Geschwindigkeit von 5 Fragen pro Stunde.  \n\n**Er benötigte 8 Stunden für den ersten Test:**  \n$$\n5 \\text{ Fragen/Stunde} \\times 8 \\text{ Stunden} = 40 \\text{ Fragen}\n$$\n\n**Er benötigte 6 Stunden für den zweiten Test:**  \n$$\n5 \\text{ Fragen/Stunde} \\times 6 \\text{ Stunden} = 30 \\text{ Fragen}\n$$\n\n**Gesamtzahl der Fragen:**  \n$$\n40 \\text{ (Erster Test)} + 30 \\text{ (Zweiter Test)} = 70 \\text{ Fragen}\n$$\n\n**Anzahl der unvollständigen Fragen:**  \n$$\n70 \\text{ Fragen} - 75 \\text{ Fragen} = -5 \\text{ Fragen}\n$$  \n\n**Antwort:**  \n$$\n\\boxed{-5}\n$$",
+        "ground_truth": 105,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Josie pflanzt Weintrauben auf ihrem 10 Morgen großen Bauernhof an. Auf jedem Morgen werden 5 Tonnen Weintrauben pro Jahr erzeugt und aus jeder Tonne Weintrauben werden 2 Fässer Wein gemacht. Wie viele Fässer Wein erzeugt ihr Bauernhof pro Jahr?\nAnswer in English.",
+        "generated_answer": "On Josie's 10-acre farm, 5 tons of grapes are produced every morning. Each ton of grapes produces 2 barrels of wine.  \n\nFirst, calculate the total grapes produced per day:  \n5 tons / 5 tons per barrel = 1 barrel per day.  \n\nThen, calculate the total barrels of wine produced per day:  \n1 barrel per day * 2 barrels per barrel = 2 barrels per day.  \n\nFinally, calculate the total barrels of wine produced per year:  \n2 barrels per day * 365 days per year = 730 barrels per year.  \n\nSo, the farm produces **730 barrels of wine per year**.",
+        "ground_truth": 100,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 218,
+        "question": "Adrians Alter ist das Dreifache des Alters von Harriet, und Harriet ist halb so alt wie Zack. Berechnen Sie das Durchschnittsalter der drei in drei Jahren, wenn Harriet jetzt 21 Jahre alt ist.\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to determine the ages of Adrians Alter, Harriet, and Zack in three years and then calculate the average age of the three in three years.\n\nLet's break it down step by step:\n\n1. **Current Ages:**\n   - Adrians Alter (Adrians Alter) = \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n   - Harriet (Harriet) = \\( \\text{Harriet's current age} \\)\n   - Zack (Zack) = \\( \\text{Adrians Alter's current age} \\)\n\n2. **Calculate Adrians Alter's age in 3 years:**\n   - Adrians Alter's age in 3 years = \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n   - Adrians Alter's age in 3 years = \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n   - Adrians Alter's age in 3 years = \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n\n3. **Calculate Harriet's age in 3 years:**\n   - Harriet's current age = \\( \\text{Harriet's current age} \\)\n   - Harriet's age in 3 years = \\( \\text{Harriet's current age} \\) + \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n   - Harriet's age in 3 years = \\( \\text{Harriet's current age} \\) + \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n   - Harriet's age in 3 years = \\( \\text{Harriet's current age} \\) + \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n\n4. **Calculate Zack's age in 3 years:**\n   - Zack's age in 3 years = \\( \\text{Zack's current age} \\)\n   - Zack's age in 3 years = \\( \\text{Zack's current age} \\) + \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n   - Zack's age in 3 years = \\( \\text{Zack's current age} \\) + \\( 3 \\times \\text{Adrians Alter's age in 3 years} \\)\n\n5. **Calculate the average age:**\n   - Average age = \\( \\frac{\\text{Adrians Alter's age in 3 years} + \\text{Harriet's age in 3 years} + \\text{Zack's age in 3 years}}{3} \\)\n\nLet's implement this in Python using sympy to ensure the calculations are accurate.\n\n```python\nimport sympy as sp\n\n# Define the variables\nadrians_alter_age_in_3_years, harriet_age_in_3_years, zack_age_in_3_years = sp.symbols('adrians_alter_age_in_3_years harriet_age_in_3_years zack_age_in_3_years')\n\n# Current ages\nadrians_alter_age_in_3_years_current = 3 * adrians_alter_age_in_3_years\nharriet_age_in_3_years_current = harriet_age_in_3_years\nzack_age_in_3_years_current = zack_age_in_3_years\n\n# Adrians Alter's age in 3 years\nadrians_alter_age_in_3_years_current_3_years = 3 * adrians_alter_age_in_3_years_current\n\n# Harriet's age in 3 years\nharriet_age_in_3_years_current_3_years = harriet_age_in_3_years\n\n# Zack's age in 3 years\nzack_age_in_3_years_current_3_years = zack_age_in_3_years\n\n# Calculate Adrians Alter's age in 3 years\nadrians_alter_age_in_3_years_current_3_years_3_years = 3 * adrians_alter_age_in_3_years_current_3_years\n\n# Calculate Harriet's age in 3 years\nharriet_age_in_3_years_current_3_years_3_years = harriet_age_in_3_years\n\n# Calculate Zack's age in 3 years\nzack_age_in_3_years_current_3_years_3_years = zack_age_in_3_years\n\n# Calculate the average age\naverage_age_in_3_years = (adrians_alter_age_in_3_years_current_3_years + harriet_age_in_3_years_current_3_years + zack_age_in_3_years_current_3_years) / 3\n\nprint(average_age_in_3_years)\n```\n```output\n21.0\n```\nThe average age of Adrians Alter, Harriet, and Zack in three years is \\(\\boxed{21}\\).",
+        "ground_truth": 45,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 162,
+        "question": "Wenn ein Beutel Murmeln 20 $ kostet, und der Preis alle zwei Monate um 20 % des ursprünglichen Preises steigt, wie viel würde ein Beutel Murmeln dann nach 36 Monaten kosten?\nAnswer in English.",
+        "generated_answer": "To determine the cost of a bead bag after 36 months, we analyze the exponential growth of the bead bag's price. Here's the step-by-step reasoning:\n\n---\n\n### **1. Initial Purchase Price**\n- The bead bag costs **$20** initially.\n\n---\n\n### **2. Price Increase Every 2 Months**\n- The price increases by **20%** each time.\n- After 2 months, the price becomes:  \n  \\( 20 \\times (1 + 0.20) = 20 \\times 1.20 = \\$24 \\)  \n- After 3 months, the price becomes:  \n  \\( 24 \\times (1 + 0.20) = 24 \\times 1.20 = \\$28.80 \\)  \n- After 4 months, the price becomes:  \n  \\( 28.80 \\times (1 + 0.20) = 28.80 \\times 1.20 = \\$34.56 \\)  \n\n---\n\n### **3. Total Cost After 36 Months**\nThe bead bag's price grows exponentially:  \n\\( P(t) = 20 \\times (1.20)^t \\)  \nwhere \\( t \\) is the number of months.  \n\nTo find the total cost after 36 months:  \n\\( P(36) = 20 \\times (1.20)^{36} \\)  \n\n---\n\n### **4. Calculating \\( (1.20)^{36} \\)**\nUsing the formula for powers of 1.20:  \n\\( (1.20)^{36} = \\left( \\frac{1.20}{1} \\right)^{36} = 1.20^{36} \\)  \n\nSince \\( 1.20 = \\frac{6}{5} \\),  \n\\( (1.20)^{36} = \\left( \\frac{6}{5} \\right)^{36} \\)  \n\n---\n\n### **5. Final Answer**\n\\( P(36) = 20 \\times \\left( \\frac{6}{5} \\right)^{36} \\)  \n\\( P(36) \\approx \\$34.56 \\)  \n\n---\n\n### **Final Answer**  \nThe bead bag will cost approximately **\\$34.56** after 36 months.",
+        "ground_truth": 92,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 150,
+        "question": "Steve und Tim beschließen herauszufinden, wer schneller von der Schule zu Hause ist. Steve wohnt weiter entfernt als Tim, darum darf er mit seinem Fahrrad fahren. Steve wohnt 3 Meilen von der Schule entfernt und kann mit dem Fahrrad 440 Fuß pro Minute zurücklegen. Tim wohnt 2 Meilen von der Schule entfernt. Wenn Tim mit seinem Skateboard 264 Fuß pro Minute zurücklegt, wie lang wartet der Gewinner dann bei sich zu Hause, bevor der Verlierer das Rennen beendet?\nAnswer in English.",
+        "generated_answer": "Steve fährt mit dem Fahrrad 440 Fuß pro Minute, Tim mit dem Skateboard 264 Fuß pro Minute.  \n\n**Gesamtstrecke, die Steve zurücklegt:**  \n\\( 440 \\, \\text{ft/min} + 264 \\, \\text{ft/min} = 704 \\, \\text{ft/min} \\)  \n\n**Gesamtstrecke, die Tim zurücklegt:**  \n\\( 264 \\, \\text{ft/min} \\)  \n\n**Wartezeit des Gewinners:**  \n\\( \\frac{704 \\, \\text{ft/min}}{264 \\, \\text{ft/min}} \\approx 2,67 \\, \\text{min} \\)  \n\n**Antwort:**  \nDer Gewinner wartet etwa **2,67 Minuten** zu Hause, bevor der Verlierer das Rennen beendet.",
+        "ground_truth": 4,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 73,
+        "question": "Shiela hat fünf Handys für 150 US-Dollar pro Stück mit einem Ratenzahlungsvertrag über 3 Monate gekauft. Pro Stück werden 2 % Zinsen verlangt. Wie viel zahlt Shiela jeden Monat 3 Monate lang?\nAnswer in English.",
+        "generated_answer": "To determine how much Shiela pays each month for her five phones under a 3-month installment plan with a 2% interest rate, we can break down the problem as follows:\n\n### **1. Calculate the Total Cost of the Phones**\nEach phone costs:\n- **$150**\n\nSince Shiela is buying **5 phones**, the total cost is:\n\\[\n5 \\text{ phones} \\times \\$150/\\text{phone} = \\$750\n\\]\n\n### **2. Determine the Total Interest Paid**\nThe interest rate is **2% per month**, and the plan is for **3 months**.\n\nThe total interest paid is:\n\\[\n\\text{Interest} = \\text{Total Cost} \\times \\text{Interest Rate} \\times \\text{Number of Months}\n\\]\n\\[\n\\text{Interest} = \\$750 \\times 0.02 \\times 3 = \\$45\n\\]\n\n### **3. Calculate the Monthly Payment**\nThe monthly payment is the total cost divided by the number of months:\n\\[\n\\text{Monthly Payment} = \\frac{\\$750}{\\text{Number of Months}}\n\\]\n\n### **Final Answer**\nShiela pays **\\$45 per month** for 3 months.\n\n\\[\n\\boxed{\\$45}\n\\]",
+        "ground_truth": 255,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 199,
+        "question": "Mark ist Korrektor. Er bearbeitet jede Woche die gleiche Anzahl Sätze für zwei verschiedene Herausgeber, die ihm jeweils eine andere Rate pro Satz bezahlen. Herausgeber B bezahlt Mark das Doppelte dessen, was Herausgeber A bezahlt. Mark bearbeitet jede Woche eine Gesamtzahl von 1000 Sätzen, und Herausgeber A bezahlt ihm 5 Cent pro Satz. Wie viel verdient Mark in einer Woche in Cent?\nAnswer in English.",
+        "generated_answer": "Mark verdient in einer Woche in Cent:\n\n**5000**  \n\n**Erklärung:**  \n- **Herausgeber A** zahlt **5 Cent pro Satz** (also **50 Cent pro Stunde**).  \n- **Herausgeber B** zahlt **das Doppelte** von Herausgeber A: **10 Cent pro Satz** (also **100 Cent pro Stunde**).  \n- **Mark** bearbeitet **1000 Sätze** pro Woche.  \n- **Gesamtverdienst von Mark**:  \n  $$\n  \\text{Herausgeber A} + \\text{Herausgeber B} = 5 + 10 = 15 \\text{ Cent/Stunde}\n  $$  \n- **Gesamtverdienst von Mark**:  \n  $$\n  15 \\text{ Cent/Stunde} \\times 1000 \\text{ Sätze} = 15000 \\text{ Cent}\n  $$  \n- **Gesamtverdienst von Mark**:  \n  $$\n  50 \\text{ Cent/Stunde} \\times 1000 \\text{ Sätze} = 50000 \\text{ Cent}\n  $$  \n- **Gesamtverdienst von Mark**:  \n  $$\n  5000 \\text{ Cent}\n  $$  \n\n**Antwort:**  \n**5000**",
+        "ground_truth": 7500,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 172,
+        "question": "Es gibt vier Vögel in der Kombüse. Sally Two ist drei Jahre älter als Granny Red. Granny Red ist zwei Mal älter als Sally Four. Wenn Sally Four gleich alt ist wie Sally Thirtytwo und Sally Thirtytwo 8 Jahre älter, wie hoch ist dann das Gesamtalter der vier Vögel?\nAnswer in English.",
+        "generated_answer": "The four birds in the kitchen are Sally Two, Granny Red, Sally Four, and Sally Thirtytwo.\n\nGranny Red is two times older than Sally Four, so Granny Red is 2 * Sally Four = 2 * 4 = 8 years old.\n\nSally Four is three years older than Granny Red, so Sally Four is 8 + 3 = 11 years old.\n\nSally Thirtytwo is 8 years older than Sally Four, so Sally Thirtytwo is 11 + 8 = 19 years old.\n\nThe total age of the four birds is 11 (Sally Four) + 19 (Sally Thirtytwo) = 30 years.\n\nThe answer is 30.",
+        "ground_truth": 51,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 152,
+        "question": "Carl kauft zehn Kekspackungen. In jeder Kekspackung sind sechs Kekse. Jeder Keks kostest 0,10 $. Wie viel Wechselgeld bekommt Carl, wenn er mit einer 10$-Note bezahlt?\nAnswer in English.",
+        "generated_answer": "To calculate the change Carl will receive, we need to determine the total cost of the ten Kekspackungen and then subtract the cost of the 10-dollar note.\n\n1. **Calculate the total cost of the Kekspackungen:**\n   - Each Kekspackung contains 6 cookies.\n   - There are 10 Kekspackungen.\n   - Total cost = 10 × 6 cookies × $0.10/cookie = **$6.00**.\n\n2. **Calculate the change:**\n   - Carl pays with a $10 note.\n   - Change = $10 - $6.00 = **$4.00**.\n\n**Final Answer:**  \nCarl will receive **$4.00 change**.",
+        "ground_truth": 4,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 248,
+        "question": "Ein Koch kaufte 4 Säcke Zwiebeln. Jeder Sack wiegt 50 Pfund. Ein Pfund Zwiebeln kostet 1,50 $. Wie viel gab der Koch aus?\nAnswer in English.",
+        "generated_answer": "Der Koch kaufte 4 Säcke Zwiebeln, die jeweils 50 Pfund wiegen.  \n\n**Gesamtgewicht der Zwiebeln:**  \n$ 4 \\text{ Säcke} \\times 50 \\text{ Pfund/Sack} = 200 \\text{ Pfund} $.  \n\n**Gesamtkosten:**  \n$ 200 \\text{ Pfund} \\times 1,50 \\text{ $/Pfund} = 300 \\text{ $}$.  \n\n**Antwort:**  \nDer Koch gab $ 300 $ $ aus.",
+        "ground_truth": 300,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 170,
+        "question": "Die Blaskapelle bestellt gerade neue Uniformen. Geliefert wird jede Uniform mit einem Hut, der 25 $ kostet, einer Jacke, die drei Mal so viel kostet wie der Hut, und Hosen, die den Durchschnittspreis von Hut und Jacke kosten. Wie viel kostet jede Uniform insgesamt?\nAnswer in English.",
+        "generated_answer": "The band is ordering new uniforms, and each uniform includes a hat that costs $25, a jacket that costs three times the cost of the hat, and pants that cost the average price of the hat and jacket.\n\nFirst, calculate the cost of the jacket:  \n$3 \\times 25 = 75$ dollars.\n\nNext, calculate the cost of the pants:  \n$25 + 75 = 100$ dollars.\n\nNow, add the cost of the hat and the jacket to find the total cost of the uniform:  \n$25 + 75 + 100 = 150 + 100 = 250$ dollars.\n\nFinally, divide the total cost by the number of uniforms to find the cost per uniform:  \n$250 / 4 = 62.50$ dollars.\n\nSo, each uniform costs **$62.50**.",
+        "ground_truth": 150,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

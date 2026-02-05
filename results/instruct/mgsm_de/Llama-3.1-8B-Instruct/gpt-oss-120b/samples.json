@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?\nAnswer in English.",
+        "generated_answer": "Lassen Sie uns das Problem Schritt für Schritt aufschlüsseln:\n\nJaneth beginnt mit einem Guthaben von 2000 $ und verspricht, den Betrag mit 10 % zu verzinsen. Das bedeutet, dass sie 10 % des aktuellen Guthabens als Zinsen zahlt.\n\nDie monatliche Rate beträgt 165 $, also beträgt die Gesamtrate für 12 Monate:\n\n165 $/Monat x 12 Monate = 1980 $\n\nDas bedeutet, dass Janeth insgesamt 1980 $ an Zinsen gezahlt hat.\n\nDas ursprüngliche Guthaben beträgt 2000 $, und sie hat 1980 $ an Zinsen gezahlt. Um das neue Guthaben zu ermitteln, addieren wir die Zinsen zum ursprünglichen Guthaben:\n\n2000 $ + 1980 $ = 3980 $\n\nDie Antwort ist also 3980 $.",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: Janeth borrowed $2000 and promised to repay with additional 10% (interest). If she pays $165 per month for 12 months, what will be Janeth's remaining balance? The ground truth answer is 220 (presumably dollars). The generated answer says 3980 dollars, which is completely different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?\nAnswer in English.",
+        "generated_answer": "Lassen Sie uns das Problem Schritt für Schritt aufschlüsseln:\n\n1. Es gibt ursprünglich 30 Autos auf der Autobahn.\n2. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Das bedeutet, dass 30 - 5 = 25 Autos durch den Stau fahren müssen.\n3. In den ersten 15 Minuten fahren 15 Autos durch den Stau.\n4. In den verbleibenden 15 Minuten fahren noch einmal 20 Autos durch den Stau.\n5. Insgesamt fahren also 15 + 20 = 35 Autos durch den Stau.\n6. Da jedoch 5 Autos nicht durch den Stau fahren müssen, müssen die 35 Autos, die durch den Stau fahren, aus den ursprünglich 30 Autos bestehen, die durch den Stau fahren mussten. Das bedeutet, dass 25 Autos durch den Stau fahren mussten.\n7. Da 25 Autos durch den Stau fahren mussten und 35 Autos durch den Stau fuhren, müssen 35 - 25 = 10 Autos in den ersten 15 Minuten durch den Stau gefahren sein.\n\nDie Antwort ist also 10 Autos.",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Auf der Autobahn ... Wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?\" Ground truth answer: 5. Generated answer says 10. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Violetta will neue Farbstifte kaufen. Sie braucht sie in 5 verschiedenen Farben und sie legte 20 $ für diesen Kauf bereit. Ein Farbstift kostet 2 $. Wie viel Wechselgeld wird sie bekommen?\nAnswer in English.",
+        "generated_answer": "Lassen Sie uns das Problem Schritt für Schritt lösen:\n\nVioletta braucht 5 Farbstifte und jeder Farbstift kostet 2 $, also beträgt der Gesamtpreis:\n\n5 Farbstifte x 2 $/Farbstift = 10 $\n\nVioletta hat 20 $ bereitgelegt, also beträgt das Wechselgeld:\n\n20 $ (Bargeld) - 10 $ (Gesamtpreis) = 10 $\n\nVioletta wird also 10 $ Wechselgeld bekommen.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". The generated answer explains and says Violetta will get 10 $ change. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad bestellte Mach-deinen-eigenen-Burrito zum Mittagessen. Der einfache Burrito kostet 6,50 $. Er fügt extra Fleisch für 2,00 $, extra Käse für 1,00 $, Avocado für 1,00 $ und 2 Saucen für jeweils 0,25 $ hinzu. Er beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen. Er hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Wie viel schuldet er noch?\nAnswer in English.",
+        "generated_answer": "Um herauszufinden, wie viel Chad noch schuldet, müssen wir zunächst die Kosten für den Burrito berechnen.\n\nDer einfache Burrito kostet 6,50 $.\nEr fügt extra Fleisch für 2,00 $ hinzu.\nEr fügt extra Käse für 1,00 $ hinzu.\nEr fügt Avocado für 1,00 $ hinzu.\nEr fügt 2 Saucen für jeweils 0,25 $ hinzu, also 2 x 0,25 = 0,50 $.\nEr beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen.\n\nDie Gesamtkosten für den Burrito betragen also:\n6,50 $ + 2,00 $ + 1,00 $ + 1,00 $ + 0,50 $ + 3,00 $ = 14,00 $\n\nChad hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Daher muss er noch:\n14,00 $ - 5,00 $ = 9,00 $ zahlen.\n\nDie Antwort ist 9,00 $.",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"9\". The generated answer says the answer is $9.00. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Frankie sieht jeden Abend, nachdem er seine Hausaufgaben gemacht hat, fern. Am Montag und am Dienstag hat er jeweils eine 1-stündige Folge seiner Lieblingssendung angeschaut. Am Mittwoch hat er einige Folgen einer 30-minütigen Sendung angeschaut. Am Donnerstag hatte er seine Hausaufgaben früher erledigt und eine 1-stündige Folge und eine 30-minütige Show angeschaut. Am Freitag durfte er wegen des Wochenendes später aufbleiben und hat zwei 1-stündige Folgen angeschaut. Wenn er insgesamt 7 Stunden ferngesehen hat, hat er am Mittwoch wie viele 30 Minuten lange Folgen angeschaut?\nAnswer in English.",
+        "generated_answer": "Lassen Sie uns die Gesamtzeit, die Frankie ferngesehen hat, berechnen:\n\nMontag: 1 Stunde = 1 x 60 Minuten = 60 Minuten\nDienstag: 1 Stunde = 1 x 60 Minuten = 60 Minuten\nDonnerstag: 1 Stunde = 1 x 60 Minuten = 60 Minuten\nDonnerstag: 30 Minuten = 0,5 x 60 Minuten = 30 Minuten\nFreitag: 2 Stunden = 2 x 60 Minuten = 120 Minuten\n\nGesamtzeit: 60 + 60 + 60 + 30 + 120 = 330 Minuten\n\nFrankie hat insgesamt 7 Stunden ferngesehen, also 7 x 60 = 420 Minuten.\n\nDie Differenz zwischen der Gesamtzeit und der Zeit, die Frankie ferngesehen hat, ist 420 - 330 = 90 Minuten.\n\nDa jede 30-minütige Folge 30 Minuten dauert, beträgt die Anzahl der 30-minütigen Folgen, die Frankie am Mittwoch gesehen hat, 90 / 30 = 3.\n\nDie Antwort ist also 3.",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"3\". Generated answer explains and concludes answer is 3. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Ein neues Programm wurde 60-mal im ersten Monat heruntergeladen. Im zweiten Monat lag die Anzahl der Downloads dreimal so hoch wie die Anzahl der Downloads im ersten Monat, brach dann aber im dritten Monat um 30 % ein. Wie oft wurde das Programm insgesamt während dieser drei Monate heruntergeladen?\nAnswer in English.",
+        "generated_answer": "Lassen Sie uns das Problem Schritt für Schritt aufschlüsseln:\n\n1. Im ersten Monat wurden 60 Mal das Programm heruntergeladen.\n2. Im zweiten Monat wurden dreimal so viele Mal das Programm heruntergeladen wie im ersten Monat, also 3 x 60 = 180 Mal.\n3. Im dritten Monat brach die Anzahl der Downloads um 30 % ein. Das bedeutet, dass nur 70 % der Downloads des zweiten Monats heruntergeladen wurden. 70 % von 180 sind 0,7 x 180 = 126.\n\nUm die Gesamtzahl der Downloads zu ermitteln, addieren wir die Downloads der drei Monate:\n\n60 (erster Monat) + 180 (zweiter Monat) + 126 (dritter Monat) = 366\n\nDie Gesamtzahl der Downloads während dieser drei Monate beträgt also 366.",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"366\". Generated answer explains steps and arrives at 366. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Vier Schulen treten in einem Basketballturnier gegeneinander an. Jede Schule hat ein Mädchenbasketballteam und ein Jungenbasketballteam geschickt und jedes Team hat 5 Spieler. Alle Schulen haben auch einen Trainer für jedes Team mitgeschickt. Wie viele Personen haben die Schulen insgesamt geschickt?\nAnswer in English.",
+        "generated_answer": "Um die Gesamtzahl der Personen zu ermitteln, die die Schulen geschickt haben, müssen wir die Anzahl der Spieler und Trainer für die Mädchen- und Jungenbasketballteams jeder Schule addieren.\n\nJede Schule hat 2 Teams (Mädchen und Jungen) mit jeweils 5 Spielern, also insgesamt 2 * 5 = 10 Spieler pro Schule.\n\nJede Schule hat auch 2 Trainer (einen für das Mädchen- und einen für das Jungen-Team), also insgesamt 2 Trainer pro Schule.\n\nInsgesamt gibt es 4 Schulen, also multiplizieren wir die Anzahl der Spieler und Trainer pro Schule mit 4:\n\n10 Spieler/Schule * 4 Schulen = 40 Spieler\n2 Trainer/Schule * 4 Schulen = 8 Trainer\n\nDie Gesamtzahl der Personen, die die Schulen geschickt haben, beträgt also 40 Spieler + 8 Trainer = 48 Personen.",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"48\". Generated answer explains and arrives at 48 persons. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle kaufte Partyzubehör für die Geburtstagsparty ihrer kleinen Schwester. Sie gab 12 $ für Kuchenzutaten, 43 $ für Geburtstagsgeschenke, 15 $ für Dekorationen, 4 $ für Einladungen und 22 $ für Tüten mit Leckereien für die Partygäste aus. Sie teilt die Kosten zu gleichen Teilen mit ihren beiden Eltern durch drei. Wie viel Dollar zahlte jede Person?\nAnswer in English.",
+        "generated_answer": "Um herauszufinden, wie viel jede Person bezahlt hat, müssen wir zunächst die Gesamtkosten der Party ermitteln. \n\nDie Gesamtkosten betragen: \n- Kuchenzutaten: 12 $\n- Geburtstagsgeschenke: 43 $\n- Dekorationen: 15 $\n- Einladungen: 4 $\n- Tüten mit Leckereien: 22 $\n\nGesamtkosten = 12 + 43 + 15 + 4 + 22 = 96 $\n\nDa Isabelle die Kosten mit ihren beiden Eltern teilt, gibt es insgesamt 1 (Isabelle) + 2 (Eltern) = 3 Personen.\n\nUm herauszufinden, wie viel jede Person bezahlt hat, teilen wir die Gesamtkosten durch 3:\n\n96 $ ÷ 3 = 32 $\n\nJede Person zahlte also 32 $ für die Party.",
+        "ground_truth": 32,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"32\". Generated answer explains and concludes each person paid $32. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa stellt 60 Saisonarbeiter ein, damit sie im Weihnachtsdorf ihres Kaufhauses die Elfen spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben, dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?\nAnswer in English.",
+        "generated_answer": "Lassen Sie uns die Aufgaben Schritt für Schritt aufschlüsseln:\n\n1. Nissa stellt 60 Saisonarbeiter ein.\n2. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben. Ein Drittel von 60 ist 60 / 3 = 20. Also kündigen 20 Elfen.\n3. Es bleiben 60 - 20 = 40 Elfen übrig.\n4. Dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein getreten haben. Es bleiben also 40 - 10 = 30 Elfen übrig.\n\nDie Antwort ist also 30.",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"30\". Generated answer explains steps and concludes answer is 30. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie hilft im Büro ihrer Mutter. Sie hat einen Stapel mit 60 Briefen, die frankiert werden müssen und einen bereits frankierten Briefstapel. Sie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Wenn sich jetzt in dem Stapel mit den bereits frankierten Briefen 30 Briefe befinden, waren wie viele Briefe in dem Stapel, als Jennie angefangen hat?\nAnswer in English.",
+        "generated_answer": "Lassen Sie es uns Schritt für Schritt aufschlüsseln:\n\nJennie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Das bedeutet, dass sie 1/3 der 60 Briefe frankiert, die frankiert werden müssen.\n\nUm 1/3 von 60 zu finden, multiplizieren Sie 60 mit 1/3:\n\n60 x 1/3 = 20\n\nDas bedeutet, dass Jennie 20 Briefe frankiert hat.\n\nJetzt wissen wir, dass es 30 Briefe im Stapel mit den bereits frankierten Briefen gibt. Wir wissen auch, dass Jennie 20 Briefe frankiert hat. Um herauszufinden, wie viele Briefe es ursprünglich im Stapel mit den frankierten Briefen gab, müssen wir die Anzahl der von Jennie frankierten Briefe von der Anzahl der Briefe im Stapel abziehen:\n\n30 (frankierte Briefe) - 20 (von Jennie frankierte Briefe) = 10\n\nDas bedeutet, dass es ursprünglich 10 Briefe im Stapel mit den frankierten Briefen gab.\n\nUm die Gesamtzahl der Briefe zu ermitteln, die Jennie ursprünglich hatte, müssen wir die Anzahl der ursprünglich frankierten Briefe zur Anzahl der von ihr frankierten Briefe addieren:\n\n10 (ursprünglich frankierte Briefe) + 60 (Briefe, die frankiert werden mussten) = 70\n\nDie Antwort ist also 70.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". The question: \"Jennie helps in her mother's office... She has a stack of 60 letters that need to be stamped and an already stamped letter stack. She stamps on a third of the letters that need to be stamped. If now in the already stamped stack there are 30 letters, how many letters were in the stack when Jennie started?\" The correct answer is 10 (the original number of already stamped letters). The generated answer gives a detailed solution concluding \"The answer is 70.\" It says total letters originally 70. That's not 10. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

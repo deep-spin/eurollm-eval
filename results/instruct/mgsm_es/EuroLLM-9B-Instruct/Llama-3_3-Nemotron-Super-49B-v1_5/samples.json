@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": "To find out how much Janeth will still owe after 12 months, we need to calculate the total amount she will have paid and subtract that from the original loan amount.\n\nFirst, let's calculate the total amount she will have paid in 12 months. She pays $165 per month, so in 12 months, she will have paid:\n\n$165 * 12 = $1980\n\nNow, let's calculate the total amount she will have paid, including the interest. The interest is 10% of the original loan amount, which is:\n\n$2000 * 0.10 = $200\n\nSo, the total amount she will have paid is:\n\n$1980 + $200 = $2180\n\nFinally, let's subtract the total amount she will have paid from the original loan amount to find out how much she will still owe:\n\n$2000 - $2180 = -$180\n\nThis means that Janeth will still owe $180 after 12 months.",
+        "ground_truth": 220,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\nWe know that 20 cars pass in the remaining 15 minutes of the traffic jam. This means that the remaining 15 minutes of the traffic jam is equivalent to 20 cars.\n\nSince the traffic jam lasted for 30 minutes, the first 15 minutes of the traffic jam is equivalent to 20 cars.\n\nSo, the number of cars that passed in the first 15 minutes of the traffic jam is 20.\n\nTherefore, the answer is 20.",
+        "ground_truth": 5,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": "Violeta needs 5 different colors of crayons and has $20 for the purchase. Since each crayon costs $2, she can buy 20 / 2 = 10 crayons. She will spend 10 * $2 = $20 on crayons. She will receive $20 - $20 = $0 in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": "Here's how to calculate how much Chad still owes:\n\n* **Base cost:** $6.50\n* **Extras:**\n    * Beef: $2.00\n    * Cheese: $1.00\n    * Avocado: $1.00\n    * Salsa: $0.25 (2 times) = $0.50\n* **Total cost of extras:** $2.00 + $1.00 + $1.00 + $0.50 = $4.50\n* **Total cost so far:** $6.50 + $4.50 = $11.00\n* **Additional upgrade:** $3.00\n* **Total cost with upgrade:** $11.00 + $3.00 = $14.00\n* **Card gift:** $5.00\n* **Amount owed:** $14.00 - $5.00 = $9.00\n\n\nChad still owes **$9.00**.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": "Let's break down the information we have:\n\n* **Monday and Tuesday:** 1 hour of TV per night, so 2 hours total.\n* **Wednesday:** 30 minutes of TV.\n* **Thursday:** 1 hour of TV and 30 minutes of TV, so 1.5 hours total.\n* **Friday:** 2 hours of TV.\n\nWe know the total TV time is 7 hours. Let's add up the time from the first three days:\n\n* Monday and Tuesday: 2 hours\n* Wednesday: 0.5 hours (30 minutes)\n* Thursday: 1.5 hours\n\nTotal so far: 4 hours\n\nWe still need to account for 3 more hours of TV. This must be from Friday.\n\n* Friday: 2 hours\n\n**Therefore, Frankie watched 30 minutes of TV on Wednesday.**",
+        "ground_truth": 3,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads for the program during the three months, we need to calculate the number of downloads for each month and then add them together.\n\n**Month 1:**\nThe program had 60 downloads in the first month.\n\n**Month 2:**\nThe number of downloads in the second month was three times more than in the first month. So, the number of downloads in the second month is:\n60 * 3 = 180\n\n**Month 3:**\nThe number of downloads in the third month was 30% less than in the second month. To find 30% of 180, we multiply 180 by 0.3:\n180 * 0.3 = 54\nThen, we subtract this from the number of downloads in the second month:\n180 - 54 = 126\n\n**Total Downloads:**\nNow, we add the number of downloads for each month to find the total:\n60 (Month 1) + 180 (Month 2) + 126 (Month 3) = 366\n\nSo, the program had a total of **366** downloads during the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": "To find the total number of people sent by all the schools, we need to calculate the number of players and coaches from each school and then add them up.\n\nEach school has:\n- 1 team of 5 female players\n- 1 team of 5 male players\n- 1 coach for each team\n\nSo, for each school, there are:\n- 5 female players\n- 5 male players\n- 1 coach\n\nIn total, each school sends:\n- 5 female players + 5 male players = 10 players\n- 1 coach\n\nSince there are 4 schools, the total number of players is:\n- 10 players/school * 4 schools = 40 players\n\nAnd the total number of coaches is:\n- 1 coach/school * 4 schools = 4 coaches\n\nTherefore, the total number of people sent by all the schools is:\n- 40 players + 4 coaches = 44 people\n\nSo, the answer is: **44**.",
+        "ground_truth": 48,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the party supplies. \n\nIsabelle spent $12 on cake ingredients, $43 on birthday gifts, $15 on decorations, $4 on invitation cards, and $22 on bags with treats for the guests. \n\nThe total cost is $12 + $43 + $15 + $4 + $22 = $98.\n\nSince Isabelle and her parents divided the cost equally, we divide the total cost by 3. \n\n$98 / 3 = $32.67.\n\nSo, each person, including Isabelle and her parents, paid $32.67.",
+        "ground_truth": 32,
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. Nissa hires 60 seasonal workers to play elves in the Santa's Village set up in her department store.\n2. One-third of the elves quit after kids threw up on them. To find out how many elves quit, we can calculate:\n\n   (1/3) × 60 = 20 elves\n\n   So, 20 elves quit after the kids threw up on them.\n\n3. Now, we have 60 - 20 = 40 elves remaining.\n4. Then, 10 of the remaining elves quit after kids kicked their shins. To find out how many elves are left, we can subtract:\n\n   40 - 10 = 30 elves\n\nSo, there are 30 elves left.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": "Let's break this down step by step!\n\nLet's say the number of cards that need stamps is x.\n\nSince Jennie puts stamps on a third of the cards that need stamps, she puts stamps on (1/3)x cards.\n\nThe number of cards that already have stamps is 30.\n\nThe total number of cards is 60, so the number of cards that need stamps is 60 - 30 = 30.\n\nSince Jennie puts stamps on a third of the cards that need stamps, she puts stamps on (1/3)(30) = 10 cards.\n\nSo, the number of cards that need stamps is 30 - 10 = 20.\n\nTherefore, the number of cards that already have stamps is 30.\n\nThe answer is \\boxed{30}.",
+        "ground_truth": 10,
+        "assessment": "Answer: False",
+        "match": 0
+    }
+]

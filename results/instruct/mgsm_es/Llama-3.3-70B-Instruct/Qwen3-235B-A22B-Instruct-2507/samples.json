@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": "To find out how much Janeth still owes, we first need to calculate the total amount she promised to pay back, including the 10% additional amount.\n\nThe original amount borrowed is $2000. \n10% of $2000 is $200. \nSo, the total amount she promised to pay back is $2000 + $200 = $2200.\n\nNow, let's calculate how much she will pay in total over the 12 months:\n$165 per month * 12 months = $1980.\n\nSince she will have paid $1980 and she owes $2200, we subtract the amount paid from the total amount owed to find the remaining balance:\n$2200 - $1980 = $220.\n\nSo, Janeth will still owe $220 after 12 months.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": "To solve this problem, let's break it down step by step.\n\n1. Originally, there were 30 cars on the highway.\n2. 5 cars took an exit to avoid the traffic jam, so they didn't pass through the jam. This leaves us with 30 - 5 = 25 cars that actually went through or were part of the traffic jam.\n3. In the last 15 minutes of the jam, 20 cars passed through.\n\nThis means that before the last 15 minutes (i.e., in the first 15 minutes), the number of cars that passed through the jam can be found by subtracting the 20 cars that passed in the last 15 minutes from the total number of cars that went through the jam.\n\nSo, the number of cars that passed through in the first 15 minutes = Total cars that went through the jam - Cars that passed in the last 15 minutes.\n\nGiven that 25 cars went through the jam (since 5 took an exit), and 20 of those passed in the last 15 minutes, we calculate:\n\nNumber of cars that passed in the first 15 minutes = 25 - 20 = 5 cars.\n\nTherefore, 5 cars passed through the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": "To find out how much change Violeta will receive, we need to calculate the total cost of the crayons and subtract it from the amount she set aside.\n\nVioleta needs 5 crayons, and each crayon costs $2. So, the total cost of the crayons is:\n5 crayons x $2/crayon = $10\n\nShe set aside $20 for the purchase. To find the change, we subtract the total cost from the amount she set aside:\n$20 - $10 = $10\n\nVioleta will receive $10 in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": "To find out how much Chad still owes, we need to calculate the total cost of his meal. \n\nThe base burrito costs $6.50. \nAdding the extra beef costs $2.00, \nthe extra cheese costs $1.00, \nthe avocado costs $1.00, \nand the 2 salsas cost $0.25 x 2 = $0.50. \n\nSo, the total cost of the burrito is $6.50 + $2.00 + $1.00 + $1.00 + $0.50 = $11.00. \n\nUpgrading his meal costs an additional $3.00, \nso the new total is $11.00 + $3.00 = $14.00. \n\nChad uses a $5.00 gift card to pay, \nso he still owes $14.00 - $5.00 = $9.00. \n\nThe answer is $9.00.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": "Let's break down the information:\n\n* Monday and Tuesday: 1 hour each night = 2 hours\n* Thursday: 1 hour + 0.5 hours = 1.5 hours\n* Friday: 2 hours\n* Total time watched: 7 hours\n\nTime watched on Monday, Tuesday, Thursday, and Friday: 2 + 1.5 + 2 = 5.5 hours\n\nThis means that the time watched on Wednesday is: 7 - 5.5 = 1.5 hours\n\nSince each episode on Wednesday is 30 minutes (0.5 hours), the number of episodes watched on Wednesday is: 1.5 / 0.5 = 3\n\nSo, Frankie watched 3 episodes of 30 minutes each on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": "To find the total number of downloads, we need to calculate the downloads for each month and add them up.\n\nMonth 1: 60 downloads\nMonth 2: 3 times the downloads of Month 1 = 3 x 60 = 180 downloads\nMonth 3: 30% decrease from Month 2 = 180 - (30% of 180) = 180 - 54 = 126 downloads\n\nTotal downloads = 60 + 180 + 126 = 366 downloads\n\nThe program had a total of 366 downloads during the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": "There are 4 schools competing, each with 2 teams (male and female), and each team has 5 players and 1 coach. \n\nSo, for each school, the total number of people is: \n- 2 teams * 5 players per team = 10 players\n- 2 teams * 1 coach per team = 2 coaches\n- Total people per school = 10 players + 2 coaches = 12 people\n\nSince there are 4 schools, the total number of people is: \n- 12 people per school * 4 schools = 48 people\n\nThe answer is 48.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we need to first calculate the total cost of the party supplies. \n\nTotal cost = cost of cake ingredients + cost of birthday gifts + cost of decorations + cost of invitation cards + cost of goody bags\nTotal cost = $12 + $43 + $15 + $4 + $22\nTotal cost = $96\n\nSince Isabelle divided the cost into three equal parts with her father and mother, we need to divide the total cost by 3.\n\nCost per person = Total cost / 3\nCost per person = $96 / 3\nCost per person = $32\n\nSo, each person paid $32.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": "To find out how many elves are left, we need to first calculate how many elves quit after the kids vomited on them. Since a third of the elves quit, we can divide 60 by 3 to find out how many that is: \n\n60 / 3 = 20 \n\nSo, 20 elves quit after the kids vomited on them. That leaves 60 - 20 = 40 elves. \n\nThen, 10 more elves quit after the kids kicked their shins. So, we subtract 10 from 40: \n\n40 - 10 = 30 \n\nTherefore, there are 30 elves left.",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": "Jennie started with 60 letters that needed stamps. She put stamps on 1/3 of them, which is 60 / 3 = 20 letters. \n\nNow, there are 30 letters in the pile of letters that already have stamps. Since Jennie added 20 letters to this pile, there must have been 30 - 20 = 10 letters in the pile when she started.\n\nThe answer is 10.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "ما الذي يصف التغيير الكيميائي؟\nA) ذوبان السكر في الشاي\nB) تدفئة ضوء الشمس لرصيف\nC) قص المقص ورقًا إلى قطع\nD) حمض في المعدة يهضم الطعام\nAnswer in English.",
+        "generated_answer": "C) قص المقص ورقًا إلى قطع",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ما الذي يصف التغيير الكيميائي؟\" Means \"Which describes a chemical change?\" Options: A dissolution of sugar in tea (physical), B heating sunlight to sidewalk (physical), C cutting paper with scissors (physical), D acid in stomach digesting food (chemical). Ground truth answer is D. Generated answer is C. They are not the same. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 861,
+        "question": "أيُّ الآتي هو معادلة كيميائية صحيحة تُظهر حفظ الكتلة؟\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) H₂O + CO₂ -> H₂CO₃**.\n\n### Explanation:\n- **A)** Mg + HCl → H₂ + MgCl₂:  \n  - Reactants: Mg (1 atom), H (1 atom), Cl (1 atom).  \n  - Products: H₂ (2 atoms), MgCl₂ (1 atom).  \n  - **No change in mass** (total mass is conserved).  \n\n- **B)** H₂O + CO₂ → H₂CO₃:  \n  - Reactants: H₂O (2 atoms), CO₂ (1 atom).  \n  - Products: H₂CO₃ (1 atom).  \n  - **Mass is conserved** (total mass is conserved).  \n\n- **C)** KClO₃ → KCl + O₂:  \n  - Reactants: KClO₃ (1 atom), O₂ (1 atom).  \n  - Products: KCl (1 atom), O₂ (1 atom).  \n  - **No change in mass** (total mass is conserved).  \n\n- **D)** H₂ + O₂ → H₂O:  \n  - Reactants: H₂ (2 atoms), O₂ (2 atoms).  \n  - Products: H₂O (2 atoms).  \n  - **Mass is conserved** (total mass is conserved).  \n\nThus, only **B** satisfies the condition of **mass conservation**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"B\". The question: which equation is correct showing mass conservation? The correct answer is B. The generated answer says \"The correct answer is B) H₂O + CO₂ -> H₂CO₃.\" So it matches. Therefore true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 82,
+        "question": "لماذا يعد سقي النباتات والعشب في الصباح الباكر وسيلة للحفاظ على الماء؟\nA) يوجد دائمًا المزيد من الماء في الصباح.\nB) تتبخر كميات أقل من الماء في الصباح البارد.\nC) يمكن إعادة تدوير الماء المستخدم في الصباح للاستخدام في فترة ما بعد الظهر.\nD) يمكن للعشب امتصاص الماء فقط في الصباح.\nAnswer in English.",
+        "generated_answer": "C) يمكن إعادة تدوير الماء المستخدم في الصباح للاستخدام في فترة ما بعد الظهر.\n\n**الشرح:**  \nسقي النباتات والعشب في الصباح الباكر يقلل من فقدان الماء بسبب التبخر خلال النهار، خاصةً في الأيام الحارة أو الجافة. هذا يساعد في الحفاظ على الرطوبة في التربة، مما يقلل من الحاجة إلى الري المتكرر في فترات ما بعد الظهر أو المساء.  \n\n- **السبب A** غير دقيق لأن الماء في الصباح يكون عادةً أكثر برودة، مما يقلل من تبخره.  \n- **السبب B** صحيح جزئيًا لأن التبخر يحدث بشكل أسرع في الصباح البارد، لكنه لا يفسر السبب الكامل.  \n- **السبب C** صحيح لأن إعادة تدوير الماء (مثل استخدامه في الري أو التبخر) تقلل من استهلاك المياه.  \n- **السبب D** غير دقيق لأن العشب يمتص الماء من التربة، وليس فقط من الرطوبة في الهواء.  \n\n**الإجابة الصحيحة: C**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"لماذا يعد سقي النباتات والعشب في الصباح الباكر وسيلة للحفاظ على الماء؟\" Options A-D. Ground truth answer: B. So correct answer is B. Generated answer says C is correct, with explanation. That does not match. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "ما هو التغيير الذي قد يؤدي إلى الضرر ببيئة السنجاب؟\nA) نمو نبات جديد\nB) تغير المواسم\nC) قطع الأشجار لبناء المنازل\nD) زراعة شتلات الصنوبر\nAnswer in English.",
+        "generated_answer": "C) قطع الأشجار لبناء المنازل",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Arabic: \"ما هو التغيير الذي قد يؤدي إلى الضرر ببيئة السنجاب؟\" Options: A) نمو نبات جديد (new plant growth), B) تغير المواسم (season change), C) قطع الأشجار لبناء المنازل (cutting trees to build houses), D) زراعة شتلات الصنوبر (planting pine seedlings). The correct answer is C. Generated answer: \"C) قطع الأشجار لبناء المنازل\". Ground truth: \"C\". They match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "كيف تختلف كائنات الإيوكاريا عن كائنات الأرشيا والبكتيريا من حيث التصنيف؟\nA) جميعها متعددة الخلايا.\nB) جميعها تتكاثر جنسياً.\nC) جميعها تنتج طعامها الخاص.\nD) جميعها لديها أنوية محاطة بالغشاء.\nAnswer in English.",
+        "generated_answer": "A) جميعها متعددة الخلايا.  \n\n**التفسير:**  \n- **كائنات الإيوكاريا (Euglena)**: هي كائنات حية حقيقية النواة (مثل النباتات والحيوانات) تتميز بوجود نواة داخلية محفوظة داخل غشاء الخلية.  \n- **كائنات الأرشيا (Archaea)**: هي كائنات حية حقيقية النواة (مثل البكتيريا والعتائق) وتفتقر إلى نواة محفوظة داخل غشاء الخلية.  \n- **كائنات البكتيريا (Bacteria)**: هي كائنات حية حقيقية النواة (مثل البكتيريا والفيروسات) وتفتقر إلى نواة محفوظة داخل غشاء الخلية.  \n\nبالتالي، **جميعها متعددة الخلايا**، لكنها تتميز بوجود نواة داخلية محفوظة في كائنات الإيوكاريا، ونواة حرة في كائنات الأرشيا، ونواة حرة في كائنات البكتيريا.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"كيف تختلف كائنات الإيوكاريا عن كائنات الأرشيا والبكتيريا من حيث التصنيف؟ A) جميعها متعددة الخلايا. B) جميعها تتكاثر جنسياً. C) جميعها تنتج طعامها الخاص. D) جميعها لديها أنوية محاطة بالغشاء. Answer in English.\"\n\nGround truth answer: D (i.e., \"All have nuclei surrounded by membranes\").\n\nGenerated answer: selects A) \"All are multicellular\" and provides explanation incorrectly. So it's not same. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 995,
+        "question": "خلال تجربة على التنفس الخلوي الهوائي، يحد المستخدم الحيوي من كمية الفوسفور المتاحة للثقافة الخلوية. كيف يمكن أن يؤثر هذا على الخلية؟\nA) سيقلل كمية الطاقة الخلوية.\nB) سيزيد كمية الطاقة الخلوية.\nC) سيزيد إنتاج الجلوكوز.\nD) سيقلل إنتاج الجلوكوز.\nAnswer in English.",
+        "generated_answer": "D) سيقلل إنتاج الجلوكوز.\n\nExplanation:  \nالخلايا تستخدم الجلوكوز كمصدر رئيسي للطاقة. عندما يقلل المستخدم الحيوي من كمية الفوسفور المتاحة للثقافة الخلوية، فإن هذا يقلل من كمية الجلوكوز التي يمكن أن تنتجها الخلية. هذا التأثير يقلل من الطاقة الخلوية التي يمكن أن تستخدمها الخلية لإجراء العمليات الحيوية.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In aerobic cellular respiration experiment, user limits phosphorus availability. How can this affect the cell? Options: A) will reduce cellular energy amount. B) increase energy. C) increase glucose production. D) reduce glucose production. The ground truth answer is A. Generated answer says D) will reduce glucose production, plus explanation. That's not same as A. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 829,
+        "question": "عندما يقفز الشخص بالمظلة من الطائرة، يسير بسرعة حوالي 67 مترًا في الثانية.عند سحب الشخص الحبل ويُفتح المظلّة، تبطئ بحوالي 3 أمتار في الثانية. إذا افترضنا أن السرعة والتسارع كانتا موجبتين قبل فتح المظلة ، فكيف يتغير سرعتها وتسارعها عند فتح المظلة؟\nA) يبقى السرعة والتسارع موجبين.\nB) يصبح السرعة والتسارع سلبيين.\nC) تبقى السرعة موجبة ويلتفت التسارع ليصبح سلبيًا.\nD) تصبح السرعة سلبية وتبقى التسارع موجبًا.\nAnswer in English.",
+        "generated_answer": "When a person jumps from a parachute, they move at a speed of about 67 meters per second. When the parachute is opened, the speed decreases by about 3 meters per second.\n\nThe acceleration due to gravity is approximately 9.81 m/s².\n\nWhen the parachute is open, the acceleration due to gravity is reduced by the acceleration due to the parachute. The acceleration due to the parachute is the difference between the acceleration due to gravity and the acceleration due to the open parachute.\n\nSo, the acceleration due to the parachute is:\n\n9.81 m/s² - 3 m/s² = 6.81 m/s²\n\nThe acceleration due to gravity is 9.81 m/s², so the acceleration due to the parachute is:\n\n6.81 m/s² = 0.681 m/s²\n\nThe acceleration due to gravity is constant, so the acceleration due to the parachute is also constant.\n\nThe velocity of the person is the initial velocity plus the acceleration due to the parachute:\n\nv = 67 m/s + 0.681 m/s² * 6.81 s²\n\nv = 67 m/s + 4.5 m/s\n\nv = 71.5 m/s\n\nThe velocity is positive, so the velocity and acceleration remain positive.\n\nThe acceleration due to the parachute is constant, so the velocity and acceleration remain constant.\n\nTherefore, the speed and acceleration remain positive.\n\nThe correct answer is A) it remains positive.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". The question asks which option is correct. The ground truth says C) speed remains positive, acceleration becomes negative. The generated answer says answer is A) it remains positive (both speed and acceleration remain positive). That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "بعض أنواع الضفادع يقومون بدفن أنفسهم في الطين إذا انخفضت كمية المياه بشدة في البيئة. تدخل الضفادع في نوع من السبات. ما هو الإشارة الأكثر احتمالًا لظهور الضفادع من الطين؟\nA) انخفاض ساعات النهار\nB) زيادة درجة حرارة الهواء\nC) زيادة فرص سقوط الأمطار\nD) انخفاض ضغط الهواء\nAnswer in English.",
+        "generated_answer": "C) زيادة فرص سقوط الأمطار",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: Some types of frogs bury themselves in mud if water low, they go into a type of hibernation. What is most likely signal for frogs to emerge from mud? Options: A) decrease daylight hours, B) increase air temperature, C) increase chance of rain, D) decrease air pressure. Answer: C) increase chance of rain. Ground truth: \"C\". Generated answer: \"C) زيادة فرص سقوط الأمطار\". That's the same meaning (option C). So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 976,
+        "question": "الثلج والمطر والبرد والضباب كلها أشكال من\nA) الغاز.\nB) الماء.\nC) الرياح.\nD) السحب.\nAnswer in English.",
+        "generated_answer": "The answer is **D) the clouds**.  \n\n**Explanation:**  \n- **A) The gases** in the atmosphere (like water vapor, carbon dioxide, and nitrogen) are the primary components of clouds.  \n- **B) Water** is the liquid form of the gas (H₂O), which forms clouds.  \n- **C) The wind** carries water vapor and other gases, contributing to cloud formation.  \n- **D) The clouds** are the visible manifestations of these gases in the atmosphere.  \n\nThus, the correct answer is **D) the clouds**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"الثلج والمطر والبرد والضباب كلها أشكال من\" which translates: \"Snow, rain, hail, and fog are all forms of\". Correct answer is B) water. Ground truth is B. Generated answer says D) the clouds. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "ما هو الطريق الأكثر كفاءة لنقل كميات كبيرة من الفحم من منجم في كنتاكي إلى محطة طاقة في أريزونا؟\nA) عن طريق السفينة\nB) عن طريق القطار\nC) عن طريق الشاحنة\nD) عن طريق الطائرة\nAnswer in English.",
+        "generated_answer": "The most efficient way to transport large quantities of coal from a mine in Kentucky to a power plant in Arizona is by **train**.  \n\n### Reasoning:  \n1. **Cost-Effectiveness**: Rail transport is generally cheaper per ton-mile compared to road or air freight, especially for long distances.  \n2. **Efficiency**: Trains can carry massive loads efficiently, reducing fuel consumption and emissions.  \n3. **Logistics**: Rail networks in the U.S. (e.g., CSX, BNSF) are optimized for bulk coal transportation, making them ideal for interstate shipments.  \n4. **Alternative Options**:  \n   - **Ship (A)**: Too slow and inefficient for long hauls.  \n   - **Airplane (D)**: Overkill for bulk coal; more common for lightweight, high-value cargo.  \n   - **Truck (C)**: Less efficient than rail for long distances.  \n\nThus, **B) by train** is the best choice.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth: \"B\". The question: \"ما هو الطريق الأكثر كفاءة لنقل كميات كبيرة من الفحم من منجم في كنتاكي إلى محطة طاقة في أريزونا؟ A) عن طريق السفينة B) عن طريق القطار C) عن طريق الشاحنة D) عن طريق الطائرة Answer in English.\"\n\nGround truth answer: B (i.e., by train). Generated answer says: \"The most efficient way ... is by train... Thus, B) by train is the best choice.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 447,
+        "question": "كل خلية جسم للسمكة الذهبية تحتوي على 94 صبغيات. كم صبغية تحتويها خلية جنسية للسمكة الذهبية؟\nA) ٢٣\nB) ٤٧\nC) ٩٤\nD) ١٨٨\nAnswer in English.",
+        "generated_answer": "The number of chromosomes in a somatic cell of a goldfish is 94.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"كل خلية جسم للسمكة الذهبية تحتوي على 94 صبغيات. كم صبغية تحتويها خلية جنسية للسمكة الذهبية؟\" Means: each somatic cell has 94 chromosomes. How many chromosomes does a gamete cell have? Options: 23, 47, 94, 188. Correct answer is half: 47. Ground truth answer: \"B\". That's option B (47). Generated answer: \"The number of chromosomes in a somatic cell of a goldfish is 94.\" That just repeats the given info, not answering the question. It does not say 47. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "ما هي الجزء المعين في نظام البحيرة الطبيعي يوفر ملجأ للأسماك الصغيرة؟\nA) الصخور\nB) الماء\nC) الضفادع\nD) التربة\nAnswer in English.",
+        "generated_answer": "What is the designated part in a natural lake system that provides shelter for small fish?\n\n**Answer:**  \n**B) Water**",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question in Arabic: \"ما هي الجزء المعين في نظام البحيرة الطبيعي يوفر ملجأ للأسماك الصغيرة؟\" Options: A) الصخور (rocks), B) الماء (water), C) الضفادئ (frogs), D) التربة (soil). The ground truth answer is \"A\". So correct answer is \"A) الصخور\". The generated answer says \"What is the designated part... Answer: B) Water\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 285,
+        "question": "نتيجةً لعملية التمثيل الضوئي، ينتج السكر والأكسجين. أي من الخطوات تشير إلى بدء عملية التمثيل الضوئي؟\nA) تمتص الطاقة الكيميائية عن طريق الجذور.\nB) يتحول الطاقة الضوئية إلى طاقة كيميائية.\nC) يتم استيعاب طاقة الضوء بواسطة الكلوروفيل الموجود في الورقة.\nD) يتحول الضوء الشمسي إلى الكلوروفيل.\nAnswer in English.",
+        "generated_answer": "C) يتم استيعاب طاقة الضوء بواسطة الكلوروفيل الموجود في الورقة.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic, asks which step indicates start of photosynthesis. Options given. Ground truth answer: \"C\". Generated answer: \"C) يتم استيعاب طاقة الضوء بواسطة الكلوروفيل الموجود في الورقة.\" That's the same as option C. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 577,
+        "question": "ما هو التعريف الأنسب لما يقصده العلماء عندما يستخدمون مصطلح الحفاظ على البيئة؟\nA) الأجزاء الغير حية في البيئة\nB) الكائنات الحية في البيئة\nC) صحة الكائنات الحية في البيئة\nD) الحماية والإدارة والتجديد للموارد\nAnswer in English.",
+        "generated_answer": "D) الحماية والإدارة والتجديد للموارد",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic multiple choice, correct answer is D. Generated answer: \"D) الحماية والإدارة والتج renewal للموارد\". That's exactly D. Ground truth: \"D\". So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 286,
+        "question": "أيٌّ من الآتي سيعرض بشكل أفضل نسبة العناصر الأكثر وفرة في قشرة الأرض؟\nA) رسم بياني خطي\nB) رسم بياني دائري\nC) رسم بياني شريطي\nD) جدول بيانات\nAnswer in English.",
+        "generated_answer": "Which of the following would best show the most abundant elements in Earth's crust?\n\n**Answer:**  \n**D) Tableau**\n\n### Explanation:\n- **A) رسم بياني خطي** – يعرض البيانات بشكل خط مستقيم، مما قد يجعل العناصر الأكثر وفرة (مثل الأكسجين، الألمنيوم، الحديد) تظهر بشكل متواضع أو غير مرئي.\n- **B) رسم بياني دائري** – يعرض البيانات بشكل دائري، مما قد يجعل العناصر الأكثر وفرة (مثل الأكسجين، الألمنيوم، الحديد) تظهر بشكل متواضع أو غير مرئي.\n- **C) رسم بياني شريطي** – يعرض البيانات بشكل أفقية أو عمودية، مما قد يجعل العناصر الأكثر وفرة (مثل الأكسجين، الألمنيوم، الحديد) تظهر بشكل متواضع أو غير مرئي.\n- **D) جدول بيانات** – يعرض البيانات بشكل رأسي أو أفقيا، مما يجعل العناصر الأكثر وفرة (مثل الأكسجين، الألمنيوم، الحديد) تظهر بشكل مرئي ومتناسق.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". The question: which would best show most abundant elements in Earth's crust? Options: A line chart, B pie chart, C bar chart, D spreadsheet. Ground truth says D. Generated answer says \"**Answer:** **D) Tableau**\". It says D) Tableau (but original option D is جدول بيانات which is spreadsheet). It says D) Tableau, which is not exactly same as spreadsheet. Also explanation says D) جدول بيانات (they wrote Arabic for spreadsheet). But they wrote \"D) Tableau\" which is a software, not the same as \"جدول بيانات\". The ground truth is D. The generated answer selects D, albeit mislabelled as Tableau. The core answer is D. The question: \"Answer in English.\" The generated answer says D) Tableau. The ground truth is D. So does it convey same meaning? Yes, they chose D. The mislabel might be considered wrong? The answer expects just the letter D. The generated answer says D) Tableau, which is not exactly \"D) جدول بيانات\". But they also wrote Arabic \"جدول بيانات\" in explanation. The answer part says D) Tableau, which is not the same as spreadsheet. Might be considered incorrect. However the evaluation likely checks if the answer matches the ground truth answer (the letter). Since they gave D, it's correct. I'd say True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "يتم وضع فأر في صندوق ورقي في نهايته موجود قطعة جبن في النهاية الأخرى. الفأر يشم الجبن ويتعلم كيفية العثور عليه. الفأر يستخدم\nA) صفة مكتسبة للحصول على صفة موروثة.\nB) صفة موروثة للحصول على صفة مكتسبة.\nC) صفة مكتسبة للحصول على صفة مكتسبة أخرى.\nD) صفة موروثة للحصول على صفة موروثة أخرى.\nAnswer in English.",
+        "generated_answer": "The answer is **A) صفة مكتسبة للحصول على صفة موروثة.**  \n\nHere’s the reasoning:  \n- The frog is placed in a paper box at the end, and the frog is trained to find the cheese using the paper as a guide.  \n- The frog learns to associate the paper (the learned behavior) with the cheese (the learned behavior).  \n- This is an example of **classical conditioning**, where a behavior (finding the cheese) is associated with a neutral stimulus (the paper) through repeated pairing.  \n- The frog’s behavior (finding the cheese) is a **learned response**, not a trait it was born with.  \n\nThe other options are incorrect because:  \n- **B)** (A) is wrong because the frog doesn’t learn the behavior from its own genes—it learns it from experience.  \n- **C)** (D) is wrong because the frog doesn’t learn the behavior from another frog’s genes—it learns it from the paper.  \n- **D)** (A) is also correct, but **A** is the most precise answer here.  \n\nSo, the correct answer is **A**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". Generated answer says \"A\". They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 513,
+        "question": "ما هو الشيء الذي يحتاجه الفراشة في جميع مراحل حياتها؟\nA) الأجنحة\nB) العيون\nC) التربة\nD) الهواء\nAnswer in English.",
+        "generated_answer": "What does a butterfly need in all its life stages?\n\n**Answer:**  \n**A) The wings**  \n\n**Explanation:**  \nThe question asks for the essential element that a butterfly requires at every stage of its life cycle. Here’s why:\n\n- **Larva (Caterpillar):** Needs food (leaves, stems) and a place to grow (cocoon).  \n- **Pupa (Chrysalis):** Needs a safe place to transform into an adult.  \n- **Adult (Butterfly):** Needs food (nectar, pollen) and a mate to reproduce.  \n\nThe **wings** are the only part that allows the butterfly to move between these stages. Without them, the butterfly cannot complete its life cycle.  \n\n**Answer:** A) The wings",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question in Arabic: \"ما هو الشيء الذي يحتاجه الفراشة في جميع مراحل حياتها؟\" Options: A) الأجنحة (wings), B) العيون (eyes), C) التربة (soil), D) الهواء (air). The correct answer is D (air). Ground truth says D. Generated answer says A) The wings. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1090,
+        "question": "غالبًا ما تنتج شركات الطاقة الكهرباء من مصادر متنوعة. باستخدام أي من هذه المصادر يمكن تحسين جودة الهواء بشكل أكبر؟\nA) زيت\nB) غاز\nC) فحم\nD) رياح\nAnswer in English.",
+        "generated_answer": "B) غاز",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"غالبًا ما تنتج شركات الطاقة الكهرباء من مصادر متنوعة. باستخدام أي من هذه المصادر يمكن تحسين جودة الهواء بشكل أكبر؟ A) زيت B) غاز C) فحم D) رياح\". Which source improves air quality most? Answer should be D) wind (renewable, no emissions). Ground truth is D. Generated answer: \"B) غاز\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "يقوم الطالب بإجراء تحقيق حول تأثير الأسمدة على نباتات الذرة عن طريق إجراء الخطوات التالية. 1. زرع مجموعات من نباتات الذرة في نفس نوع وكمية التربة وبأشعة الشمس الكاملة. 2. إضافة كمية متساوية من العلامات التجارية المختلفة لكل مجموعة. 3. سقي النباتات لمدة 5 دقائق كل يوم. 4. قياس أطوال النباتات كل يوم. ما هي المتغيرة المستقلة في هذا التحقيق؟\nA) نوع النبات\nB) ارتفاع النبات\nC) كمية الأسمدة\nD) نوع الأسمدة\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) كمية الأسمدة**.  \n\n### Explanation:  \nIn this experiment, the independent variable is the **amount of fertilizer** added to the plants. Since the experiment involves varying the amount of fertilizer across different groups, the amount of fertilizer is the **only variable that can be changed** to observe its effect on the plants.  \n\n- **A) النوع النباتي**: غير مهم في هذا النوع من التجارب لأنها تركز على التأثيرات النسيجية (مثل الطول أو الوزن) وليس على الاختلافات في الأنواع.  \n- **B) الارتفاع**: لا يمكن التحكم في الارتفاع لأن النباتات تزرع في أواني متساوية الحجم.  \n- **D) نوع الأسمدة**: لا يمكن التحكم في نوع الأسمدة لأنها متشابهة في كل مجموعة.  \n\nThus, the amount of fertilizer is the key independent variable in this experiment.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer meaning to ground truth. Question: \"ما هي المتغيرة المستقلة في هذا التحقيق؟\" Options: A) نوع النبات B) ارتفاع النبات C) كمية الأسمدة D) نوع الأسمدة. The ground truth answer is D (نوع الأسمدة). The generated answer says the correct answer is C) كمية الأسمدة. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "سيتدحرّج شاحنة لعبة على سطح سلس. إذا كان السطح مغطى بالرمال، ستتحرّك الشاحنة بشكلٍ أبطأ، أسرع أو بنفس السرعة؟\nA) أبطأ\nB) أسرع\nC) بنفس السرعة\nD) None\nAnswer in English.",
+        "generated_answer": "If the surface is covered with sand, the truck will move slower, faster, or the same speed.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\" which corresponds to \"أبطأ\" i.e., slower. The generated answer says: \"If the surface is covered with sand, the truck will move slower, faster, or the same speed.\" That's just restating the question, not giving a specific answer. It does not say \"slower\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "لماذا تكون التغيرات البيئية الحاصلة بسرعة أكثر احتمالاً لتسبب الانقراض مقارنة بالتغيرات الحاصلة ببطء؟\nA) التغيرات البطيئة تتيح الوقت للتكيف.\nB) التغيرات السريعة تتطلب قليلًا من التكيف.\nC) التغيرات البطيئة تؤثر فقط على مناطق صغيرة.\nD) التغيرات السريعة لديها تأثير عالمي.\nAnswer in English.",
+        "generated_answer": "A) التغيرات البطيئة تتيح الوقت للتكيف.\n\n**السبب:**  \nالتغيرات البيئية السريعة (مثل الانقراض الجماعي) تحدث بسرعة كبيرة مقارنة بالتغيرات البطيئة (مثل التطور الطويل الأمد). هذا يعني أن الكائنات الحية لديها وقت أقل للتكيف مع التغييرات المفاجئة، مما يجعل الانقراض أكثر احتمالًا. في المقابل، التغيرات البطيئة (مثل التطور الطويل الأمد) تسمح للكائنات بالتكيف تدريجيًا، مما يقلل من خطر الانقراض.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer selects A and provides explanation. So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 151,
+        "question": "تنتقل الطاقة الحرارية من الشمس إلى الأرض بشكل أساسي عن طريق أي من العمليات التالية؟\nA) التوصيل الحراري\nB) الحمل الحراري\nC) التبخر\nD) الإشعاع\nAnswer in English.",
+        "generated_answer": "A) التوصيل الحراري  \n\nالاستجابة الصحيحة هي **A) التوصيل الحراري**، حيث تنتقل الطاقة الحرارية من الشمس إلى الأرض عن طريق الإشعاع الكهرومغناطيسي.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"تنتقل الطاقة الحرارية من الشمس إلى الأرض بشكل أساسي عن طريق أي من العمليات التالية؟\" Options: A) conduction, B) convection, C) evaporation, D) radiation. Correct answer is D (radiation). Ground truth: D. Generated answer says \"A) التوصيل الحراري\" and says correct is A, but then says \"where heat transfers from sun to earth by electromagnetic radiation.\" Contradiction. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "يتم استخدام ورقتين مطابقتين في تجربة؛ إحداهما مطوية لتصبح كرة والأخرى مسطحة. ما الذي سيحدث على الأرجح عندما يتم إسقاطهما في نفس الوقت من نفس الارتفاع؟\nA) سيسقط الورق المسطح على حافته\nB) كلاهما سيسقط بنفس السرعة\nC) سيسقط الورق المطوي بسرعة أكبر\nD) سيتحرك الورق المطوي أفقياً\nAnswer in English.",
+        "generated_answer": "What will most likely happen when two identical papers are dropped simultaneously from the same height?\n\n**Answer:**  \n**C) Sits down with its flat side down**\n\n### Explanation:  \n- **الورقة المسطحة**: إذا تم إسقاطها من نفس الارتفاع مع نفس السرعة، فإنها ستسقط بسرعة ثابتة (مثلما يحدث في الجاذبية الأرضية).  \n- **الورقة المطوية**: إذا تم إسقاطها مع نفس السرعة، فإنها ستسقط بزاوية (مثلما يحدث في الانفجار أو الانزلاق).  \n\n**النتائج المتوقعة:**  \n- **الورقة المسطحة**: ستسقط على حافتها.  \n- **الورقة المطوية**: ستسقط بزاوية (مثل الانفجار).  \n\n**الاختيار الأفضل:**  \n**C) Sits down with its flat side down**  \n\n(يرجى ملاحظة أن هذا يعتمد على السرعة النسبية للورقتين، وليس على حجمهما أو مقاومتهم للضغط.)",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The generated answer is nonsense: It says \"What will most likely happen... Answer: C) Sits down with its flat side down\". The original options: C) سيسقط الورق المطوي بسرعة أكبر (the folded paper falls faster). The generated answer says \"C) Sits down with its flat side down\" which is not the same meaning. Also the explanation is garbled. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 966,
+        "question": "يقيس الطالب تسارع كتلة حجرية على سطح مستوٍ عندما يؤثر عليها قوة معروفة. ما هي المعلومات الإضافية المطلوبة لحساب كتلة الكتلة بدقة؟\nA) كثافة الكتلة\nB) كمية الاحتكاك\nC) كتلة السطح\nD) اتجاه الحركة\nAnswer in English.",
+        "generated_answer": "To accurately calculate the mass of a stone on a flat surface, the following additional information is required:\n\n- **A) كثافة الكتلة**  \n  - الكثافة (ρ) = m / V, حيث m هي الكتلة وV هي الحجم.\n  - إذا كانت الكتلة ثابتة (مثالية)، فإن كثافة الكتلة تُستخدم لتحويل الكتلة إلى كتلة على سطح مستوٍ.\n\n- **B) كمية الاحتكاك**  \n  - الكمية (F) = m * a, حيث a هي التسارع.\n  - إذا كان هناك احتكاك (مثل مقاومة الهواء)، فإن F = m * a - F_f, حيث F_f هي القوة الاحتكاكية.\n\n- **C) كتلة السطح**  \n  - الكتلة (m) = ρ * V, حيث V هو الحجم.\n  - إذا كانت الكتلة ثابتة (مثالية)، فإن الكتلة على السطح تُستخدم لتحويل الكتلة إلى كتلة على سطح مستوٍ.\n\n- **D) اتجاه الحركة**  \n  - الاتجاه (D) هو مهم لتحديد قوة الجاذبية (F_g) باستخدام قانون نيوتن: F_g = m * g, حيث g هو التسارع الأرضي.\n\n### التوضيح:\n- إذا كانت الكتلة ثابتة (مثالية)، فإن:  \n  - F = m * a → كتلة الكتلة = m  \n  - F_f = m * a - F → كتلة الاحتكاك = m (مثالية)  \n  - F_g = m * g → كتلة الجاذبية = m * g  \n\n- إذا كانت الكتلة ثابتة (مثالية)، فإن:  \n  - F = m * a → كتلة الكتلة = m  \n  - F_f = m * a - F → كتلة الاحتكاك = m (مثالية)  \n  - F_g = m * g → كتلة الجاذبية = m * g  \n\n- إذا كان هناك احتكاك (مثل مقاومة الهواء)، فإن:  \n  - F = m * a - F_f → كتلة الاحتكاك = m (مثالية)  \n  - F_g = m * g → كتلة الجاذبية = m * g  \n\n- إذا كان هناك اتجاه حركة (مثل تسارع الجاذبية)، فإن:  \n  - F = m * a → كتلة الكتلة = m  \n  - F_f = m * a - F → كتلة الاحتكاك = m (مثالية)  \n  - F_g = m * g → كتلة الجاذبية = m * g  \n\n### الحل الأمثل:\n- **A) كثافة الكتلة**: ضرورية لتحويل الكتلة إلى كتلة على سطح مستوٍ.  \n- **B) كمية الاحتكاك**: ضرورية لتحديد القوة الاحتكاكية (F_f) إذا كان هناك احتكاك.  \n- **C) كتلة السطح**: ضرورية لتحويل الكتلة إلى كتلة على سطح مستوٍ.  \n- **D) اتجاه الحركة**: ضرورية لتحديد قوة الجاذبية (F_g) إذا كان هناك اتجاه حركة.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Question: Arabic: \"يقيس الطالب تسارع كتلة حجرية على سطح مستوٍ عندما يؤثر عليها قوة معروفة. ما هي المعلومات الإضافية المطلوبة لحساب كتلة الكتلة بدقة؟ A) كثافة الكتلة B) كمية الاحتكاك C) كتلة السطح D) اتجاه الحركة Answer in English.\"\n\nGround truth answer: B (i.e., quantity of friction). So correct answer is B.\n\nGenerated answer: It lists all options A, B, C, D with explanations, and then says \"الحل الأمثل: - A) ... - B) ... - C) ... - D) ...\" It does not pick a single answer; it says all are necessary? It says each is necessary. So it does not match ground truth which is B only. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "يستخدم المزارعون المبيدات للسيطرة على الحشرات. في بعض الأحيان، تتدفق المبيدات إلى الأنهار. هذا هو مثال على\nA) عمل المزارعين على حماية البيئة.\nB) استخدام المواد الطبيعية لحل المشاكل.\nC) محاولات المزارعين لتقليل كمية المحاصيل.\nD) حل لمشكلة واحدة يؤدي إلى خلق مشكلة أخرى.\nAnswer in English.",
+        "generated_answer": "D) حل لمشكلة واحدة يؤدي إلى خلق مشكلة أخرى.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Arabic: \"Farmers use pesticides to control insects. Sometimes pesticides flow into rivers. This is an example of ...\". Options: D is \"حل لمشكلة واحدة يؤدي إلى خلق مشكلة أخرى.\" (solving one problem creates another). Ground truth answer: D. Generated answer: \"D) حل لمشكلة واحدة يؤدي إلى خلق مشكلة أخرى.\" That's exactly D. So same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 206,
+        "question": "دومينيك يراقب مستعمرة فولفوكس و جرثومة تحت المجهر. يدون دومينيك في مذكرته أن مستعمرة فولفوكس والجرثومة متشابهان لأنهما تحتويان على كثير من الهياكل الصغيرة للحركة. ما الذي من المحتمل أن يلاحظه دومينيك عن حركة مستعمرة فولفوكس وجرثومة؟\nA) كلاهما يتحرك بنفس السرعة.\nB) كلاهما يتحرك بعيداً عن الضوء.\nC) كلاهما يتحركان في نفس الاتجاه.\nD) يتحركان كلاهما نحو مصدر طاقة.\nAnswer in English.",
+        "generated_answer": "D",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Both are \"D\". So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 724,
+        "question": "ما هو مصنوع من الذرات من بين ما يلي؟\nA) الجاذبية\nB) الضوء\nC) الحرارة\nD) الهواء\nAnswer in English.",
+        "generated_answer": "C) الحرارة",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Arabic: \"ما هو مصنوع من الذرات من بين ما يلي؟\" Means \"Which of the following is made of atoms?\" Options: A) gravity, B) light, C) heat, D) air. Correct answer: air (D) because air is made of atoms/molecules. Ground truth answer is \"D\". Generated answer: \"C) الحرارة\" which is heat. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 889,
+        "question": "الطاقة تتحول أو يتم نقلها عن طريق عمل القوى. مثال على تحول الطاقة الحركية إلى طاقة وجودية هو\nA) صخرة كبيرة جالسة على جرف\nB) شخص يجري حول مضمار\nC) سيارة تسير باتجاه التلال وتتوقف في الأخيرة\nD) شريط مطاطي يتم تمدده وكسره\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) someone running around a track**.\n\n**Explanation:**  \nThe question asks for the type of energy that is being converted or transferred in the given scenarios.  \n\n- **A) A rock sitting on a cliff**: No energy is being transferred or converted here.  \n- **B) A person running around a track**: The person is performing work (moving the track), so energy is being transferred.  \n- **C) A car moving toward the hills and stopping at the end**: The car is not moving, so no energy is being transferred.  \n- **D) A rubber band stretched and then broken**: The rubber band is being deformed (stretched and then broken), so energy is being transferred.  \n\nThus, the only scenario where energy is being transferred or converted is **B) someone running around a track**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says \"B) someone running around a track\". They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 647,
+        "question": "ما هي الذي لن تؤثر على التغيرات المناخية العالمية بشكل كبير؟\nA) إنتاج الطاقة باستخدام محطات الطاقة الكهرومائية\nB) إنتاج الطاقة باستخدام الفحم\nC) إنتاج الطاقة باستخدام النفط\nD) إنتاج الطاقة باستخدام الغاز الطبيعي\nAnswer in English.",
+        "generated_answer": "A) إنتاج الطاقة باستخدام محطات الطاقة الكهرومائية  \n\n**السبب:** محطات الطاقة الكهرومائية لا تساهم بشكل كبير في انبعاثات غازات الدفيئة مقارنةً بالطاقة الحرارية أو الفحم أو النفط.  \n\n**التوضيح:**  \n- **B) إنتاج الطاقة باستخدام الفحم**: يُنتج الفحم كميات كبيرة من ثاني أكسيد الكربون عند احتراقه، مما يزيد من انبعاثات الغازات الدفيئة.  \n- **C) إنتاج الطاقة باستخدام النفط**: يُنتج النفط كمصدر للطاقة، لكنه يطلق كميات كبيرة من غازات الدفيئة مثل الميثان، مما يزيد من تأثير الاحتباس الحراري.  \n- **D) إنتاج الطاقة باستخدام الغاز الطبيعي**: يُنتج الغاز الطبيعي كمصدر للطاقة، لكنه قد يطلق كميات كبيرة من الميثان إذا لم يتم معالجته بشكل صحيح، مما يزيد من انبعاثات غازات الدفيئة.  \n\n**الجواب الصحيح:** A) إنتاج الطاقة باستخدام محطات الطاقة الكهرومائية",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"ما هي الذي لن تؤثر على التغيرات المناخية العالمية بشكل كبير؟\" Which will not affect global climate change significantly? Options A hydroelectric, B coal, C oil, D natural gas. Correct answer is A. Ground truth: \"A\". Generated answer says A is correct, with explanation. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 418,
+        "question": "يقوم المعلم بإجراء تحقيق باستخدام معدات خاصة لتثبيت شريط الماغنسيوم (Mg) فوق لهب موقد بنسن. ما هو الملاحظة التي تشير إلى حدوث ردة فعل كيميائية؟\nA) زادت حرارة شريط الماغنسيوم.\nB) تغيرت شكل شريط الماغنسيوم.\nC) أنتج الماغنسيوم المحترق ضوءًا.\nD) تبخر الماغنسيوم.\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) that produced the magnesium that burned out**.  \n\n### Explanation:  \nWhen magnesium (Mg) burns, it reacts with oxygen (O₂) to form magnesium oxide (MgO) and releases heat. The reaction is:  \n**2 Mg + O₂ → 2 MgO**  \n\nThis reaction is **exothermic** (releases heat), which is why the magnesium burns.  \n\n- **Option A (increased temperature)**: Incorrect, as the reaction is exothermic, not endothermic.  \n- **Option B (changed shape)**: Incorrect, as the reaction is a physical change (formation of MgO), not a chemical change.  \n- **Option C (produced light)**: Incorrect, as the reaction does not produce light; it is a chemical reaction.  \n- **Option D (evaporated)**: Incorrect, as the reaction involves a solid (Mg) and a gas (O₂), not a liquid (like water).  \n\nThus, the correct answer is **C**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The question: which observation indicates a chemical reaction? Correct answer is C (produces light). The generated answer says: \"The correct answer is **C) that produced the magnesium that burned out**.\" Then explanation says option C is incorrect? Actually they say \"Option C (produced light): Incorrect, as the reaction does not produce light; it is a chemical reaction.\" That's contradictory. But they still state correct answer is C. So they claim answer is C, matching ground truth. The meaning: they say correct answer is C. So they match. The question: we need to determine if generated answer is equivalent in meaning to ground truth answer. Ground truth is just \"C\". Generated answer says correct answer is C. So yes, same. So Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1131,
+        "question": "عندما يقوم الطلاب بالملاحظات في الطبيعة، ما هي أفضل طريقة لإظهار احترامهم للبيئة؟\nA) البقاء على المسارات.\nB) عدم أخذ عينات.\nC) التقاط الصور.\nD) ترك المنطقة بالضبط كما وجدوها.\nAnswer in English.",
+        "generated_answer": "A) البقاء على المسارات.\n\nالطريقة الأفضل لإظهار احترام الطلاب للبيئة عند إجراء الملاحظات في الطبيعة هي البقاء على المسارات. هذا يساعد على تقليل التدهور البيئي ويضمن عدم اختراق النباتات أو الحيوانات.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"When students do nature observations, best way to show respect for environment?\" Options: A) staying on trails, B) not taking samples, C) taking photos, D) leaving area exactly as they found it. Ground truth answer is D. Generated answer says A) staying on trails. That's different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 906,
+        "question": "النجم العملاق الأحمر يختلف عن نجوم المتسلسلة الرئيسية بسبب\nA) يحترق بدرجة حرارة أبرد.\nB) يكون دائمًا أكبر من الشموس الأخرى.\nC) لديه كثافة وجاذبية أكبر.\nD) يدمج الهيدروجين لإنتاج الهيليوم.\nAnswer in English.",
+        "generated_answer": "D) يدمج الهيدروجين لإنتاج الهيليوم.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"النجم العملاق الأحمر يختلف عن نجوم المتسلسلة الرئيسية بسبب\" (The red giant star differs from main sequence stars because...). Options: A) burns at a cooler temperature. B) always larger than other suns. C) has greater density and gravity. D) fuses hydrogen to produce helium.\n\nGround truth answer is \"A\". Generated answer is \"D) يدمج الهيدروجين لإنتاج الهيليوم.\" That's option D, not A. So they differ. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1067,
+        "question": "وضعت حاوية ماء سائل خارجًا خلال النهار عندما كانت درجة الحرارة 3 درجات مئوية. ليلاً انخفضت درجة الحرارة الخارجية إلى -2 درجة مئوية. هذا التغير في درجة الحرارة الأكثر احتمالاً أدى إلى\nA) تكاثف\nB) تبخر\nC) البقاء سائلاً\nD) تحول إلى صلب\nAnswer in English.",
+        "generated_answer": "The most likely cause of the temperature change from 3°C to -2°C is **C) the change to a solid**.  \n\nHere’s the reasoning:  \n- **A) Condensation** (formation of water droplets) requires a surface (like a container) to form, which is not mentioned here.  \n- **B) Evaporation** (liquid to gas) requires a surface for vaporization, which is not present.  \n- **C) Freezing** (liquid to solid) is the most likely process, as the temperature dropped below the freezing point of water.  \n- **D) Melting** (solid to liquid) requires heat, which is not mentioned.  \n\nThus, the most probable explanation is **freezing**.  \n\n**Answer: C**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: water container outside, temperature drops from 3°C to -2°C. Most likely leads to? Options: A condensation, B evaporation, C staying liquid, D turning to solid. Correct is D (turn to solid). Generated answer says \"most likely cause ... is C) the change to a solid\". Wait they label C as change to solid, but options: C is \"البقاء سائلاً\" (stay liquid). D is \"تحول إلى صلب\" (turn to solid). The generated answer incorrectly maps C to freezing. They also say answer: C. So they claim answer C, but ground truth is D. So meaning not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "ذرة معينة لها 20 إلكترونًا و 21 نيوترونًا و 20 بروتونًا، ما هو الكتلة الذرية للذرة؟\nA) 20\nB) 21\nC) 41\nD) 61\nAnswer in English.",
+        "generated_answer": "The atomic mass of an atom is the sum of the mass numbers of its protons, neutrons, and electrons.  \n\nGiven:  \n- Atomic number (Z) = 20  \n- Mass number (A) = 21  \n- Protons (Z) = 20  \n- Neutrons (N) = 21 - 20 = 1  \n- Electrons (E) = 21 - 20 = 1  \n\nThe mass number (A) is the sum of the mass numbers of protons and neutrons:  \nA = Z + N  \nA = 20 + 1  \nA = 21  \n\nThe mass number (A) is also the sum of the atomic mass units (u) and the number of electrons (E):  \nA = A_u + E  \n21 = A_u + 1  \n\nSolving for the atomic mass unit (A_u):  \nA_u = 21 - 1  \nA_u = 20  \n\nThus, the atomic mass of the atom is **20**.  \n\n**Answer:** A) 20",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"ذرة معينة لها 20 إلكترونًا و 21 نيوترونًا و 20 بروتونًا، ما هو الكتلة الذرية للذرة؟ A) 20 B) 21 C) 41 D) 61 Answer in English.\"\n\nGiven electrons 20, neutrons 21, protons 20. Atomic mass (mass number) = protons + neutrons = 20+21 = 41. So correct answer is C) 41. Ground truth says C. Generated answer says 20 (option A). That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 127,
+        "question": "ما هو الكوكب الذي يمتلك العام الأطول في المجموعة الشمسية؟\nA) الكوكب الأقرب إلى الشمس.\nB) الكوكب الذي يمتلك النهار الأطول.\nC) الكوكب الذي يمتلك أكبر عدد من الأقمار الصناعية.\nD) الكوكب الأبعد عن الشمس.\nAnswer in English.",
+        "generated_answer": "B) الكوكب الذي يمتلك النهار الأطول.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question in Arabic: \"ما هو الكوكب الذي يمتلك العام الأطول في المجموعة الشمسية؟\" Means \"Which planet has the longest year in the solar system?\" Options: A) the planet closest to the Sun. B) the planet with the longest day. C) the planet with the most moons. D) the planet farthest from the Sun. The correct answer is D (the farthest from the Sun, i.e., Neptune or Pluto historically). Ground truth is D. Generated answer is \"B) الكوكب الذي يمتلك النهار الأطول.\" That's option B, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1123,
+        "question": "النحاس والذهب لهما خواص نشطة مشابهة. على الجدول الدوري للعناصر، من المرجح أن تكون هذه العناصر في نفس المجموعة\nA) في نفس المجموعة.\nB) في نفس الفترة.\nC) لهما كتلة متقاربة تقريباً.\nD) لهما نفس عدد البروتونات.\nAnswer in English.",
+        "generated_answer": "C) لهما كتلة متقاربة تقريباً.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"النحاس والذهب لهما خواص نشطة مشابهة. على الجدول الدوري للعناصر، من المرجح أن تكون هذه العناصر في نفس المجموعة\" Means: Copper and gold have similar active properties. On the periodic table, they are likely in the same group. Options: A) in same group. B) same period. C) have approximately similar mass. D) have same number of protons. Correct answer is A. Generated answer says \"C) لهما كتلة متقاربة تقريباً.\" which is option C, not A. So not same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 28,
+        "question": "يدخل العديد من الطلاب مسابقة بناء جسر تتطلب استخدام أعواد الآيس كريم والغراء لبناء الجسور الأقوى ممكنة. يجب أن تكون الجسور بعرض 5 بوصة وتمتد على طول 18 بوصة. ما هي الاختبار الأكثر دقة لتحديد أقوى تصميم لهذه الجسور؟\nA) استدارة سيارات اللعب على جسر حتى تنهار\nB) وضع كتل البناء الخرسانية فوق كل جسر حتى تنهار\nC) تكديس العملات على كلا الطرفين من كل جسر حتى تنهار\nD) وضع بطاريات D-cell في وسط كل جسر حتى تنهار\nAnswer in English.",
+        "generated_answer": "The most accurate test to determine the strongest design for these ice cream sticks bridges is:\n\n**A) Testing cars with wheels on a bridge until they collapse**  \n\nThis test simulates real-world conditions where the bridge is subjected to dynamic loads (e.g., traffic, wind). It directly evaluates the strength and stability of the bridge under stress, making it a reliable and practical method for assessing design robustness.  \n\nOther options are less suitable:  \n- **B)** Only tests the bridge under static loads, ignoring dynamic effects.  \n- **C)** Relies on physical collapse, not strength analysis.  \n- **D)** Uses batteries, which do not measure structural integrity.  \n\nThus, **A** is the best choice.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says \"A\". They are not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "اكتشف العلماء أن البكتيريا العدوية قد تتطور لتكتسب المناعة من الأدوية المضادة للجراثيم، ولكن بعض البكتيريا غير قادرة على مقاومة بعض الببتيدات والموجودة في الجسم البشري، وتعمل كأدوية مضادة للجراثيم. أدى هذا الاكتشاف إلى تطوير التكنولوجيا الجديدة؟\nA) اصطناع مواد تحاكي ببتيدات الإنسان\nB) مضادات حيوية يمكن امتصاصها من خلال الجلد\nC) البكتيريا التي تهاجم الكائنات المقاومة للمضادات الحيوية\nD) المضادات الحيوية التي تتكيف استجابة لمناعة البكتيريا\nAnswer in English.",
+        "generated_answer": "C) البكتيريا التي تهاجم الكائنات المقاومة للمضادات الحيوية",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Arabic: \"Scientists discovered that ... led to development of new technology?\" Options: A) synthetic materials that mimic human peptides, B) antibiotics absorbable through skin, C) bacteria that attack resistant organisms, D) antibiotics that adapt to bacterial immunity. The correct answer is A per ground truth. Generated answer is C. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 816,
+        "question": "يستخدم المهندس حاسوباً لتصميم جسر. ما هو الاختبار الأكثر أهمية لأغراض السلامة؟\nA) أقصى حمولة يمكن للجسر دعمها\nB) تكلفة المواد المستخدمة في بناء الجسر\nC) نسبة المواد التي يمكن إعادة تدويرها\nD) سرعة إنشاء الجسر\nAnswer in English.",
+        "generated_answer": "A) أقصى حمولة يمكن للجسر دعمها  \n\n**الشرح:**  \nأولاً، يجب أن يكون الجسر قادراً على تحمل الأحمال المطلوبة دون أن يتعرض للانهيار أو التلف. لذلك، يُستخدم اختبار **أقصى حمولة يمكن للجسر دعمها** لتحديد ما إذا كان الجسر قادرًا على تحمل الأحمال دون التسبب في أي خسائر أو إصابات.  \n\n- **B) تكلفة المواد المستخدمة في بناء الجسر**: تُستخدم هذه البيانات لتحديد التكلفة الإجمالية للمشروع، لكنها لا تحدد السلامة.  \n- **C) نسبة المواد التي يمكن إعادة تدويرها**: تُستخدم هذه البيانات لتحديد الكفاءة في استخدام الموارد، لكنها لا تضمن السلامة.  \n- **D) سرعة إنشاء الجسر**: تُستخدم هذه البيانات لتحديد الوقت اللازم لبناء الجسر، لكنها لا تضمن السلامة.  \n\nلذلك، **أ** هو الاختبار الأكثر أهمية لأغراض السلامة.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer says \"A) أقصى حمولة يمكن للجسر دعمها\" and explains that is the most important test for safety. So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2,
+        "question": "ما هي القاعدة الهامة للسلامة التي يجب اتباعها عند استخدام المواد الكيميائية؟\nA) ربط الشعر الطويل.\nB) تبريد جميع المواد الكيميائية.\nC) وسم جميع أنابيب الاختبار والزجاجات بشكل صحيح.\nD) التخلص من الكبريت المنطفئ بشكل صحيح.\nAnswer in English.",
+        "generated_answer": "C) وسم جميع أنابيب الاختبار والزجاجات بشكل صحيح.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ما هي القاعدة الهامة للسلامة التي يجب اتباعها عند استخدام المواد الكيميائية؟\" Options A-D. Ground truth answer: \"C\". Generated answer: \"C) وسم جميع أنابيب الاختبار والزجاجات بشكل صحيح.\" That's essentially the same as option C, which matches ground truth. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1010,
+        "question": "تحت أي ظرف يكون التكيف الذي يقلل من مدة التحول الحرج لليرقان الأكثر فائدة؟\nA) عندما تحتاج اليرقات إلى السباحة على الفور\nB) عندما يكون هناك كمية محدودة من الماء في بيئتهم\nC) عندما يحدث انخفاض في عدد الجواهر\nD) عندما يحتاج اليرقات إلى الاندماج مع محيطها\nAnswer in English.",
+        "generated_answer": "Under what circumstances is the adaptation that reduces the duration of jaundice most beneficial?\n\n**Answer:**  \nWhen the larvae need to swim immediately.\n\n**Explanation:**  \nThe adaptation that minimizes the duration of jaundice (jaundice) is most beneficial when the larvae need to swim immediately. This is because swimming is a critical activity for their survival and development, and reducing the time they spend in a non-swimming state (e.g., due to dehydration or other factors) can prevent or mitigate the effects of jaundice.  \n\nOther options are less relevant:  \n- **B)** (Limited water) is a general environmental concern, not specific to the time-sensitive needs of larvae.  \n- **C)** (Reduced jewels) is unrelated to jaundice management.  \n- **D)** (Merging with environment) is not a primary factor in reducing jaundice duration.  \n\nThus, **A)** is the best choice.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"تحت أي ظرف يكون التكيف الذي يقلل من مدة التحول الحرج لليرقان الأكثر فائدة؟\" Options A-D. Ground truth answer: B. Generated answer says answer is A. So they do not match. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "يمكن للمنتجين استخدام الفوتوسينتيز لالتقاط الطاقة من شبكات الغذاء في معظم النظم الإيكولوجية. في أي نظام إيكولوجي يجب على المنتجين الحصول على الطاقة من الغازات مثل الميثان وكبريتيد الهيدروجين؟\nA) شعب مرجانية\nB) صحراء عالية\nC) خندق محيطي\nD) غابة دائمة الخضرة\nAnswer in English.",
+        "generated_answer": "A) شعب مرجانية",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which ecosystem producers must get energy from gases like methane and hydrogen sulfide? Correct answer is C (deep sea trench? \"خندق محيطي\" = ocean trench). Generated answer: \"A) شعب مرجانية\" which is coral reef. That's different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 499,
+        "question": "تعيش سمكة الأسطورة الخليجية، وهي نوع من الأسماك، في مياه البحر المالح على طول ساحل الخليج في فلوريدا. تسبح الأسماك في المياه العذبة والنظيفة للتكاثر ثم تهاجر في السنوات اللاحقة إلى البيئات الساحلية للمياه المالحة. ما هو الأثر الأكثر احتمالًا على أسماك الأسطورة الخليجية إذا تم بناء السدود على طول هذه الأنهار؟\nA) سيتحول سمك الأسطورة الخليجي مع الوقت إلى نوع جديد.\nB) ستنتقل سمكة الأسطورة الخليجية من الأنهار الساحلية إلى المحيط.\nC) سينخفض عدد سمك الأسطورة الخليجي بسبب فقدان الموائل.\nD) سيتأقلم سمك الأسطورة الخليجي مع التكاثر في المياه المالحة.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) ستنتقل سمكة الأسطورة الخليجية من الأنهار الساحلية إلى المحيط.**\n\n### Explanation:\n1. **البيئة المحيطة بالأسماك**:  \n   - أسماك الأسطورة الخليجية هي مخلوقات مائية تعيش في المياه المالحة، لكنها تهاجر إلى المحيط عند البلوغ.  \n   - بناء السدود على الأنهار الساحلية قد يقطع هذه الطريق الطبيعية للهجرة، مما يؤدي إلى انقراضها في البيئة المائية الأصلية.  \n\n2. **التحديات المحتملة**:  \n   - **التلوث**: السدود قد تمنع الأسماك من الوصول إلى مناطق التكاثر أو الطعام.  \n   - **التغيرات في تواتر الفيضانات**: التخزين المفرط للمياه في السدود قد يقلل من تدفق المياه العذبة إلى الأنهار، مما يؤثر على الموائل الطبيعية.  \n   - **التغيرات في توزيع الموائل**: السدود قد تمنع الأسماك من الوصول إلى مناطق مهمة مثل الشعاب المرجانية أو الموائل الرملية.  \n\n3. **النتائج المحتملة**:  \n   - **انقراض محلي**: إذا انخفضت أعداد الأسماك بشكل كبير، فقد لا يتمكن النوع من التكيف مع البيئة المائية المالحة.  \n   - **تغيرات في التوازن البيئي**: فقدان الموائل الطبيعية قد يؤدي إلى تغيرات في النظم الإيكولوجية المحلية.  \n\n### الخلاصة:  \nالأسماك ستتكيف مع البيئة المائية المالحة إذا تم بناء السدود، لكن هذا قد يؤدي إلى انقراضها في موطنها الأصلي.  \n\n**Answer: B) ستنتقل سمكة الأسطورة الخليجية من الأنهار الساحلية إلى المحيط.**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". The generated answer says the correct answer is B. So they do not match. Therefore answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "النحاس هو عنصر يُستخدم في الأسلاك الكهربائية. ما هي الوحدة الصغرى للنحاس التي لا تزال تحتفظ بخصائص النحاس؟\nA) الذرة\nB) الإلكترون\nC) النواة\nD) البروتون\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) the nucleus**.  \n\nIn the context of copper (Cu), the **atomic number (Z)** of copper is 29, meaning the nucleus of a copper atom contains 29 protons. The **atomic mass number (A)** is the sum of the protons and neutrons in the nucleus. Since the nucleus is the core of the atom and contains the majority of the mass, it is the **smallest unit of mass** that still retains the properties of copper.  \n\nThe other options are incorrect because:  \n- **A) The electron** is a subatomic particle and not a unit of mass.  \n- **B) The electron** is a subatomic particle and not a unit of mass.  \n- **D) The proton** is a subatomic particle and not a unit of mass.  \n\nThus, the nucleus is the appropriate unit for copper.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"النحاس هو عنصر يُستخدم في الأسلاك الكهربائية. ما هي الوحدة الصغرى للنحاس التي لا تزال تحتفظ بخصائص النحاس؟ A) الذرة B) الإلكترون C) النواة D) البروتون Answer in English.\"\n\nGround truth answer: \"A\". That means the correct answer is \"الذرة\" (the atom). The generated answer says \"C) the nucleus\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 128,
+        "question": "أربعة أجهزة منزلية مختلفة بشكل كبير (خلاط، مضرب البيض، محمصة ومعالجة الطعام) موصلة بأربعة مقابس على طول عداد. تشغيل أو إيقاف واحدة أو أكثر من تلك الأجهزة لا يؤثر على أداء الأجهزة الأخرى لأن الأجهزة الأربعة\nA) تعمل بتيار مستمر.\nB) متصلة في سلسلة.\nC) متصلة على التوالي.\nD) تعمل بتيار متناوب.\nAnswer in English.",
+        "generated_answer": "The four home appliances—blender, whisk, toaster, and food processor—are connected to four sockets along a counter. The fact that one or more of these appliances are turned on or off does not affect the performance of the other appliances because:\n\n- **A)** They are all connected to a single power source (e.g., a wall outlet).\n- **B)** They are connected in a series circuit, where the current flows through each appliance sequentially.\n- **C)** They are connected in parallel, allowing the current to split between them.\n- **D)** They are connected to a single power source (e.g., a single outlet), but the appliances are not necessarily powered by the same voltage (e.g., one may be 120V and the others 240V).\n\nThus, the correct answer is **B)**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". The question: four appliances connected to four sockets; turning on/off one does not affect others because they are ... The correct answer is \"connected in parallel\" which is option C (متصلة على التوالي? Wait Arabic: \"متصلة على التوالي\" is series? Actually Arabic: \"متصلة على التوالي\" means \"connected in series\". \"متصلة على التوازي\" would be parallel. But options: A DC, B series, C series? Wait options: A) DC, B) series, C) series? The Arabic: \"متصلة على التوالي\" is series. \"متصلة على التوازي\" would be parallel. But they gave C) متصلة على التوالي. That seems series. However ground truth says C. So they think answer is C (series). But the logic says parallel. Might be translation confusion. Anyway ground truth is C. Generated answer says correct answer is B). So they do not match. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 391,
+        "question": "ما هو الجهد في الدائرة التي يمر بها تيار 3 أوم ومقاومة إجمالية 12؟\nA) 0.25 فولت\nB) 4 فولت\nC) 15 فولت\nD) 36 فولت\nAnswer in English.",
+        "generated_answer": "The current in the circuit is 3 A, and the total resistance is 12 Ω. The voltage across the circuit is calculated using Ohm's Law:  \n\n\\[ V = I \\times R \\]  \n\nSubstituting the given values:  \n\n\\[ V = 3 \\, \\text{A} \\times 12 \\, \\Omega = 36 \\, \\text{V} \\]  \n\nThus, the voltage across the circuit is **36 V**.  \n\n**Answer:** \\boxed{D}",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"D\". Generated answer says voltage is 36 V and answer D. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1162,
+        "question": "ما هو مثال لتغيير في الشكل الطبيعي؟\nA) تكسير الجسم إلى قطع صغيرة باستخدام مطرقة\nB) السماح لسلسلة حديدية بالبقاء في محلول الملح حتى تصدأ\nC) تسخين مادة بنية حتى تتحول إلى مسحوق رمادي\nD) تفاعل الخل وبيكربونات الصوديوم لصنع رغوة بيضاء وغاز\nAnswer in English.",
+        "generated_answer": "A) تكسير الجسم إلى قطع صغيرة باستخدام مطرقة  \n\n**الشرح:**  \nتغيير الشكل الطبيعي (الشكل المعدني) يحدث عندما يُكسر الجسم إلى قطع صغيرة باستخدام مطرقة. هذا يكسر روابط الذرات في المادة، مما يؤدي إلى تغيير في بنية المادة من المادة الصلبة إلى المادة السائلة أو الغازية.  \n\n**مثال آخر:**  \n- **B)** السماح لسلسلة حديدية بالبقاء في محلول الملح حتى تصدأ.  \n- **C)** تسخين مادة بنية حتى تتحول إلى مسحوق رمادي.  \n- **D)** تفاعل الخل وبيكربونات الصوديوم لصنع رغوة بيضاء وغاز.  \n\n**السبب:**  \nتكسير الجسم إلى قطع صغيرة يكسر روابطه الكيميائية، مما يسمح بانسياب المادة أو تغير بنيتها.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". The generated answer says \"A) تكسير الجسم إلى قطع صغيرة باستخدام مطرقة\" and then explanation. So it selects A. That matches ground truth. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 454,
+        "question": "يقوم الطالب بتحقيق قانون نيوتن الثاني للحركة عن طريق تغيير القوة المؤثرة على الجسم ومراقبة التسارع الناتج. إذا تم زيادة القوة على الجسم بمقدار أربعة أضعاف، فبمقدار ما سيزيد التسارع؟\nA) مضعفان\nB) أربعة مرات\nC) ثمانية مرات\nD) ستة عشر مرة\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to understand the relationship between force, mass, and acceleration, as described by Newton's Second Law of Motion:\n\n\\[\nF = m \\cdot a\n\\]\n\nWhere:\n- \\( F \\) is the net force acting on the object,\n- \\( m \\) is the mass of the object,\n- \\( a \\) is the acceleration of the object.\n\nGiven:\n- The original force \\( F_1 \\) is increased by a factor of 4, so the new force \\( F_2 \\) is \\( 4F_1 \\).\n- The original acceleration \\( a_1 \\) is increased by a factor of 4, so the new acceleration \\( a_2 \\) is \\( 4a_1 \\).\n\nWe need to find the new acceleration \\( a_2 \\).\n\nUsing the relationship \\( F = m \\cdot a \\), we can set up the equation:\n\n\\[\nF_2 = m_2 \\cdot a_2\n\\]\n\nSubstituting the known values:\n\n\\[\n4F_1 = m_2 \\cdot (4a_1)\n\\]\n\nSince \\( F_2 = 4F_1 \\), we can substitute \\( F_2 \\) in the equation:\n\n\\[\n4F_1 = m_2 \\cdot 4a_1\n\\]\n\nSolving for \\( m_2 \\):\n\n\\[\nm_2 = \\frac{4F_1}{4a_1} = \\frac{F_1}{a_1}\n\\]\n\nNow, we can find the new acceleration \\( a_2 \\):\n\n\\[\na_2 = \\frac{F_2}{m_2} = \\frac{4F_1}{F_1 / a_1} = 4a_1\n\\]\n\nThus, the new acceleration \\( a_2 \\) is **four times** the original acceleration \\( a_1 \\).\n\nThe correct answer is:\n\n**B) Four times**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth: \"B\". The generated answer says the correct answer is B) Four times. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 488,
+        "question": "درس بيرنيس بعض الكائنات التي تعيش معًا في حقل. بأي طريقة يشبه الأرنب النبات الذي يأكله؟\nA) كليهما يحتاجان للطاقة للبقاء على قيد الحياة.\nB) كليهما يستهلكان كائنات أخرى.\nC) كليهما يمتصان الماء من الأرض.\nD) كليهما ينتجان طعامهما الخاص من أشعة الشمس.\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) Both need energy to survive.**\n\n**Explanation:**  \nThe question compares a **plant** (like a wheat or corn field) and an **animal** (like a rabbit) that live together in a field.  \n\n- **Plant (A)**: Produces its own food through photosynthesis (using sunlight, water, and carbon dioxide).  \n- **Rabbit (A)**: Eats plants (like wheat or corn) and is also a **herbivore**, meaning it consumes other living organisms (plants or animals).  \n\nThe other options are incorrect because:  \n- **B)** Both do not eat other animals (only plants do).  \n- **C)** Neither absorbs water from the ground (plants do).  \n- **D)** Neither produces its own food (plants do).  \n\nThus, the rabbit is a herbivore, just like the plant.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The generated answer says \"The correct answer is **A) Both need energy to survive.**\". That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 291,
+        "question": "ماذا تحمل الموجات عبر الأجسام؟\nA) الصوت\nB) الضوء\nC) الطاقة\nD) الماء\nAnswer in English.",
+        "generated_answer": "What do waves carry through objects?\n\n**Answer:**  \n**C) الطاقة**\n\n### توضيح:\nالطاقة (Energy) هي المادة أو القوة التي تُنقل عبر الأجسام. عندما تُصطدم موجات صوتية (أو أي موجات أخرى) بجسم ما، فإنها تنقل الطاقة من مكان إلى آخر. على سبيل المثال:\n- في الموجات الصوتية، تُنقل الطاقة من مصدر الصوت إلى الأذن أو أي جسم آخر.\n- في الموجات الكهرومغناطيسية (مثل الضوء)، تُنقل الطاقة عبر الفضاء دون الحاجة إلى وسط (مثل الهواء أو الماء).\n\nبالتالي، **الطاقة** هي المادة أو القوة التي تُنقل عبر الأجسام.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". The generated answer says \"**C) الطاقة**\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1112,
+        "question": "يدعي العالم العبقري بأنه اكتشف شيئًا في المختبر. ما الذي يحتاجه العالم العبقري لإثبات صحة الاكتشاف؟\nA) رسوم بيانية تُظهر الخطوات المستخدمة في الاكتشاف\nB) سجلات دقيقة تُظهر تطابق البيانات\nC) وثائق تُظهر أن العالم العبقري معروف\nD) الأدلة على أن المعدات المستخدمة في الاكتشاف ذات نوعية عالية\nAnswer in English.",
+        "generated_answer": "The world-renowned scientist needs to **prove the validity of their discovery**. Here’s why:\n\n- **A)** A diagram showing the steps taken to make the discovery is essential for transparency and reproducibility.  \n- **B)** Accurate records of data matching are necessary to ensure the results are reliable.  \n- **C)** Acknowledging the scientist’s reputation is important, but it doesn’t directly prove the discovery itself.  \n- **D)** High-quality equipment is a prerequisite for accurate results, not just a secondary factor.  \n\nThus, the most critical requirement is **documentation** (e.g., lab notes, peer reviews, or other records) to validate the discovery.  \n\n**Answer:** \\boxed{B}",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". The generated answer says \"Thus, the most critical requirement is documentation... Answer: B\". So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 917,
+        "question": "من خلال التوجه شمالًا من خط الاستواء، يتم استبدال المناخات الحارة الرطبة بالمناخات الحارة الجافة. يتم تحديد الحدود بين هذين النوعين من المناخات عن طريق عامل واحد، ما هو؟\nA) الارتفاع فوق مستوى سطح البحر\nB) أنواع الغطاء النباتي المحلي\nC) أنماط الدوران للكتل الهوائية الإقليمية\nD) المسافة إلى أقرب سلسلة جبلية\nAnswer in English.",
+        "generated_answer": "من خلال التوجه شمالًا من خط الاستواء، يتم استبدال المناخات الحارة الرطبة بالمناخات الحارة الجافة. يتم تحديد الحدود بين هذين النوعين من المناخات عن طريق عامل واحد، ما هو؟\n\n**الإجابة: C) أنماط الدوران للكتل الهوائية الإقليمية**\n\n### التوضيح:\n- **المنطقة الاستوائية**: تقع على خط الاستواء وتمتاز بدرجات حرارة مرتفعة ومعدلات هطول أمطار عالية طوال العام.\n- **المنطقة الاستوائية الجافة**: تقع شمال خط الاستواء وتمتاز بدرجات حرارة معتدلة ومعدلات هطول أمطار أقل.\n- **المنطقة الاستوائية الحارة**: تقع جنوب خط الاستواء وتمتاز بدرجات حرارة مرتفعة ومعدلات هطول أمطار عالية.\n- **المنطقة الاستوائية الجافة**: تقع جنوب خط الاستواء وتمتاز بدرجات حرارة معتدلة ومعدلات هطول أمطار أقل.\n\nالحدود بين هذه الأنواع من المناخات تحددها **أنماط الدوران للكتل الهوائية الإقليمية**، حيث تؤثر حركة الكتل الهوائية (مثل الرياح الموسمية) على توزيع الرطوبة والحرارة في المنطقة.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says answer: C) أنماط الدوران للكتل الهوائية الإقليمية. So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 186,
+        "question": "عند مرور تيار كهربائي في الماء (H_{2}O) باستخدام جهاز معين ، تتكون غازات الهيدروجين (H_{2}) والأكسجين (O_{2}). كيف يمكن إظهار هذه العملية في معادلة كيميائية؟\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "The process of electrolysis in water involves the decomposition of water into hydrogen (H₂) and oxygen (O₂) gases using an electric current. The balanced chemical equation for this process is:\n\n**2H₂O(l) → 2H₂(g) + O₂(g)**\n\nThis equation shows that **1 mole of water** decomposes to produce **2 moles of hydrogen gas (H₂)** and **1 mole of oxygen gas (O₂)**.\n\n### Explanation of the options:\n- **A) H₂O → H⁺ + O⁻ + H**  \n  This is the **reduction half-reaction**, not the electrolysis process.  \n- **B) 2H₂O(l) → 2H₂(g) + O₂(g)**  \n  This is the **balanced equation for electrolysis**.  \n- **C) H:O:H → H₂O**  \n  This is a **redox reaction** (oxidation and reduction), not the electrolysis process.  \n- **D) H₂O(l) → 2H(g) + O(g)**  \n  This is the **reduction half-reaction**, not the electrolysis process.  \n\n### Correct Answer: **B) 2H₂O(l) → 2H₂(g) + O₂(g)**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"B\". The generated answer says the correct answer is B and gives equation 2H2O(l) -> 2H2(g) + O2(g). That matches. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 164,
+        "question": "أي من هذه الصفات هي موروثة ولكن تتأثر بشكل كبير بالبيئة؟\nA) القدرة على تدحرج اللسان\nB) الأداء الرياضي\nC) اللغة\nD) لون العينين\nAnswer in English.",
+        "generated_answer": "Which of these traits is **inherited but heavily influenced by the environment**?\n\n**Answer:**  \n**C) Language**\n\n**Explanation:**  \n- **Language** is a trait that is **inherited** (passed down from parents to offspring) and is **strongly influenced by the environment** (e.g., exposure to language, cultural practices, and social interactions).\n- **Languages** vary widely across cultures and are not all equally common or standardized.\n- **Other traits** like **ability to roll the tongue** (A) and **eye color** (D) are also influenced by the environment but are not as universally tied to cultural or social factors as language.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"أي من هذه الصفات هي موروثة ولكن تتأثر بشكل كبير بالبيئة؟\" Options: A) ability to roll tongue, B) athletic performance, C) language, D) eye color. The correct answer likely is B) athletic performance? Actually inherited but heavily influenced by environment: athletic performance is genetic but also environment. Language is not inherited genetically; it's learned, not inherited. So ground truth says B. Generated answer says C) Language. So they differ. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "الغيوم تجلب المطر والثلوج إلى سطح الأرض. كيف يدعم المطر والثلج الحياة على الأرض بشكلٍ أكبر؟\nA) يبردون سطح الأرض.\nB) يحملون الأحماض إلى التربة.\nC) يجلبون المياه العذبة لكائنات اليابسة.\nD) يشيدون الجبال.\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) they bring water to the earth.**  \n\nHere’s why:  \n- **A) They cool the Earth** – Clouds reflect sunlight, reducing surface temperatures and helping to regulate the climate.  \n- **B) They carry acid rain** – While some clouds may contain acidic particles, the primary role of clouds in supporting life is not their acidity but their role in water cycle processes.  \n- **C) They bring water to the Earth** – Clouds release water vapor, which is essential for plant growth, agriculture, and ecosystems.  \n- **D) They build mountains** – Clouds do not contribute to the formation of mountains; geological processes do.  \n\nThus, the most accurate answer is **C**, as clouds play a critical role in distributing water across the Earth, supporting life.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"C\". Generated answer says correct answer is C and explains. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1040,
+        "question": "الحرباء يمكنها تغيير ألوانها لمطابقة محيطها. تساعد هذه القدرة الحرباء على البقاء على قيد الحياة لأنها يمكنها\nA) البقاء دافئة.\nB) العثور على شريك.\nC) البحث عن الطعام.\nD) يمكن رؤيتها بسهولة.\nAnswer in English.",
+        "generated_answer": "The answer is A) staying warm.\n\n**Explanation:**  \nالحرباء قادرة على تغيير ألوانها لمطابقة محيطها، مما يساعدها على البقاء غير مرئية للعيون المفتوحة. هذا يزيد من فرص بقائها آمنة من الحيوانات المفترسة.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says \"The answer is A) staying warm.\" That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1002,
+        "question": "ما هو أكبر عضو في جسم الإنسان؟\nA) المعدة\nB) الدماغ\nC) الجلد\nD) الكبد\nAnswer in English.",
+        "generated_answer": "C) الجلد",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ما هو أكبر عضو في جسم الإنسان؟\" (What is the largest organ in the human body?) Options: A) stomach, B) brain, C) skin, D) liver. Answer in English. Ground truth: \"C\". So correct answer is C) skin. Generated answer: \"C) الجلد\". That's C) skin in Arabic. That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "في أي مرحلة من دورة حياتها يقضي الفراشة معظم وقتها في تناول أوراق النبات؟\nA) البالغ\nB) البيضة\nC) اليرقة\nD) الشرنقة\nAnswer in English.",
+        "generated_answer": "In the life cycle of a butterfly, the **larva (caterpillar)** spends the majority of its time eating leaves.  \n\nThe other options are incorrect because:  \n- **A) The adult butterfly** does not eat; it only reproduces.  \n- **B) The egg** is laid on a plant and hatches into a larva.  \n- **D) The chrysalis** is where the metamorphosis occurs, not the feeding stage.  \n\nThus, the correct answer is **C) the larva (caterpillar)**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"C\". The generated answer says correct answer is C) the larva (caterpillar). That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 617,
+        "question": "ماذا يحدث لجذع خشبي عند احتراقه؟\nA) يتم تدميره بالكامل.\nB) يتحول بالكامل إلى طاقة حرارية.\nC) يتحول إلى أنواع أخرى من المادة والطاقة.\nD) يتحول جسديا إلى المرحلة الغازية.\nAnswer in English.",
+        "generated_answer": "What happens to a wooden stump when it burns?\n\nA) It is completely destroyed.\nB) It is completely converted into thermal energy.\nC) It is converted into other types of matter and energy.\nD) It physically transforms into a gaseous state.\n\nAnswer in English:  \n**B) It is completely converted into thermal energy.**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer selects B. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1128,
+        "question": "الارتفاع النموذجي لشجرة صنوبر شرقية بلون أبيض ناضجة هو 100 قدم، ولكن في أونتوناغون، ميشيغان، هناك صنوبر شرقي بلون أبيض وصل ارتفاعه إلى 150 قدم. كم مرة هو الصنوبر في ميشيغان أكبر من الصنوبر الأبيض النموذجي؟\nA) 1.5 مرات\nB) 2 مرات\nC) 2.5 مرات\nD) 3 مرات\nAnswer in English.",
+        "generated_answer": "To determine how many times the height of a mature East-facing pine in Michigan is greater than that of a typical white pine, we can use the **ratio of heights**.\n\n1. **Height of East-facing Pine in Michigan**: 150 feet  \n2. **Height of typical white pine in Michigan**: 100 feet  \n\nThe ratio of the East-facing pine's height to the typical white pine's height is:\n\n\\[\n\\frac{150 \\text{ feet}}{100 \\text{ feet}} = 1.5\n\\]\n\nThis means the East-facing pine is **1.5 times** the height of a typical white pine.\n\nThus, the correct answer is:\n\n\\[\n\\boxed{A}\n\\]",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer says ratio is 1.5 times, answer is A. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 596,
+        "question": "ما هي الطاقة الكامنة؟\nA) الطاقة التي يمتلكها الجسم بسبب حركته.\nB) الطاقة التي يمتلكها الجسم بسبب وضعه.\nC) الطاقة التي تزيد من كتلة الجسم.\nD) الطاقة التي تزيد من درجة حرارة الجسم.\nAnswer in English.",
+        "generated_answer": "A) الطاقة التي يمتلكها الجسم بسبب حركته.\n\n**Explanation:**  \nالطاقة الكامنة (Energy) هي الطاقة المخزنة في جسم ما بسبب موقعه أو حركته. يُمثّل هذا النوع من الطاقة **الطاقة الحركية** (Kinetic Energy) أو **الطاقة الواقعة** (Potential Energy).  \n\n- **الطاقة الحركية (Kinetic Energy):** تتعلق بحركة الجسم، مثل حركة السيارة أو حركة كرة اليد.  \n- **الطاقة الواقعة (Potential Energy):** تتعلق بوضع الجسم، مثل ارتفاع جسم ما أو تراكم الجاذبية.  \n\nالاختيارات B و C و D لا تشير إلى الطاقة الكامنة:  \n- **B)** الطاقة التي يمتلكها الجسم بسبب وضعه تعني **الطاقة الحركية** (Kinetic Energy).  \n- **C)** الطاقة التي تزيد من كتلة الجسم تعني **الطاقة الحركية** (Kinetic Energy).  \n- **D)** الطاقة التي تزيد من درجة حرارة الجسم تعني **الطاقة الحرارية** (Thermal Energy).  \n\n**Answer:** A) الطاقة التي يمتلكها الجسم بسبب حركته.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ما هي الطاقة الكامنة؟\" Options: A) kinetic, B) potential, C) increases mass, D) increases temperature. Correct is B. Ground truth answer: B. Generated answer says A) and explanation incorrectly says A is kinetic etc. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "تنمو العديد من البكتيريا بسرعة عند درجات حرارة الغرفة التي تصل إلى 20 درجة مئوية تقريبًا. يتم الاحتفاظ بدرجة الحرارة داخل الثلاجة عادةً عند حوالي 4 درجات مئوية. أيُّ من البيانات التالية يفسر بشكل أفضل كيف أن استخدام الثلاجة قد ساعد المجتمع؟\nA) تُبقي المطابخ أكثر برودة في الصيف.\nB) توفر مساحة أكبر لتخزين الطعام.\nC) تُجعل الطعام أكثر أماناً للأكل لفترات أطول.\nD) تجعل الكهرباء أكثر أماناً في استخدامها في المطبخ.\nAnswer in English.",
+        "generated_answer": "A) تُبقي المطابخ أكثر برودة في الصيف.  \n\n**الشرح:**  \nالثلاجة تعمل على خفض درجة حرارة الطعام والمنتجات المجمدة، مما يقلل من نمو البكتيريا. في المقابل، في المطبخ العادي، قد ترتفع درجة حرارة الطعام بسبب الحرارة الخارجية، مما يزيد من خطر تلف الطعام. هذا يجعل استخدام الثلاجة أكثر فائدة في الحفاظ على جودة الطعام وتقليل التلف.  \n\nالخيارات الأخرى (B، C، D) لا تفسر بشكل مباشر كيف ساعد استخدام الثلاجة في المجتمع:  \n- **B)** توفر مساحة أكبر لتخزين الطعام قد يكون مفيدًا، لكنه لا يرتبط بشكل مباشر بزيادة أمان الطعام.  \n- **C)** تجعل الطعام أكثر أمانًا للأكل لفترات أطول قد يكون مفيدًا، لكنه لا يفسر السبب في الحفاظ على جودة الطعام.  \n- **D)** جعل الكهرباء أكثر أمانًا في استخدامها في المطبخ قد يقلل من خطر الحوادث، لكنه لا يفسر الحفاظ على جودة الطعام.  \n\n**الإجابة الصحيحة: A**",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which data best explains how refrigerator helped society? Correct answer is C: makes food safer to eat for longer. Generated answer says A is correct, with explanation. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1121,
+        "question": "جميع الموارد الطبيعية على الأرض إما متجددة أو غير متجددة. سواء كانت المورد متجددة أو غير متجددة يعتمد على مدى سرعة إعادة تعويض المورد. إذا تم استخدام الموارد بسرعة أكبر من التعويض، فإن المورد سيختفي مع الوقت. ما هي النشاط الذي يدل على استخدام مورد طبيعي غير متجدد؟\nA) يسبح مجموعة من الناس في النهر.\nB) تبني فريق البناء جسرًا من الحديد.\nC) يزرع المزارع الخضروات لبيعها في السوق المحلية.\nD) يخبز الشخص كعكة باستخدام الكهرباء التي تنتجها محطة توليد كهرومائية.\nAnswer in English.",
+        "generated_answer": "A) يسبح مجموعة من الناس في النهر.\n\n**الشرح:**  \nالموارد الطبيعية غير المتجددة (مثل الوقود الأحفوري، المعادن، والموارد المائية) لا يمكن تجديدها بسرعة كافية لتعويض استهلاكها. إذا تم استخدام هذه الموارد بسرعة أكبر من معدل استبدالها، فإنها ستنتهي مع مرور الوقت.  \n\n- **الخيار B**: بناء جسر من الحديد يدل على استخدام مورد غير متجدد (الحديد) بسرعة أكبر من معدل استبداله، مما يؤدي إلى نضوب المورد.  \n- **الخيار C**: زراعة الخضروات يدل على استخدام مورد متجدد (الأرض) بسرعة أكبر من معدل استبداله، مما يؤدي إلى نضوب المورد.  \n- **الخيار D**: خبز كعكة باستخدام الكهرباء التي تنتجها محطة توليد كهرومائية يدل على استخدام مورد متجدد (الماء) بسرعة أكبر من معدل استبداله، مما يؤدي إلى نضوب المورد.  \n\nبالتالي، الخيار A هو النشاط الذي يدل على استخدام مورد غير متجدد.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"B\". Generated answer says \"A) يسبح مجموعة من الناس في النهر.\" and then explanation says B is the correct, but then says \"Thus, الخيار A هو النشاط...\" contradictory. The final answer given is A, not B. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 681,
+        "question": "تُستخدم الليزرات في الجراحة لـ\nA) عمل قطوعات دقيقة.\nB) إنارة ميدان العمليات الجراحية.\nC) خياطة الجروح.\nD) تعقيم الأدوات الجراحية.\nAnswer in English.",
+        "generated_answer": "Lasers are used in surgery to  \nA) make precise incisions.  \nB) illuminate the operating room.  \nC) suture wounds.  \nD) sterilize surgical tools.  \n\n**Answer:** A) make precise incisions.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"تُستخدم الليزرات في الجراحة لـ\" options A) عمل قطوعات دقيقة. B) إنارة ميدان العمليات الجراحية. C) خياطة الجروح. D) تعقيم الأدوات الجراحية. Answer in English.\n\nGround truth: \"A\". So correct answer is option A. Generated answer lists options and says \"**Answer:** A) make precise incisions.\" That matches option A. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "تحقق تانيا من الأشياء المنزلية التي تجذب المغناطيس. ما الذي سيساعدها في وضع استنتاج؟\nA) توقعات\nB) فرضية\nC) قائمة اللوازم\nD) جدول النتائج\nAnswer in English.",
+        "generated_answer": "Tanya checks the household items that attract a magnet. What will help her make an inference?\n\n**C) List of supplies**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"D\". The generated answer says \"C) List of supplies\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 416,
+        "question": "يقوم طالب بدفع صندوق يزن 20 كيلوجرام على مسار. أي تغيير يتطلب من الطالب استخدام قوة أقل لدفع الصندوق؟\nA) زيادة كتلة الصندوق\nB) تقليل طول المسار\nC) تقليل انحدار المسار\nD) زيادة الاحتكاك على سطح الصندوق\nAnswer in English.",
+        "generated_answer": "A) زيادة كتلة الصندوق",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"A student pushes a 20 kg box on a ramp. Which change would require the student to use less force to push the box?\" Options: A) increase mass, B) reduce length of ramp, C) reduce slope of ramp, D) increase friction. Correct is C (reduce slope). Generated answer: \"A) زيادة كتلة الصندوق\" i.e., increase mass. That's not same as C. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "يحصل العديد من الأشخاص على المياه العذبة من الآبار التي تصل إلى المياه المخزنة تحت الأرض. عندما يكون هناك قليل من الأمطار، يمكن أن تنفد المياه. ما هو الخطوة الأفضل لجعل المياه تدوم لفترة أطول؟\nA) استخدام الرشاشات لساعات أقل كل أسبوع\nB) غسل المركبات في منتصف النهار\nC) رش الماء لتنظيف الزيت من مواقف السيارات\nD) ترك الصنابير مفتوحة أثناء تنظيف الأسنان\nAnswer in English.",
+        "generated_answer": "A) استخدام الرشاشات لساعات أقل كل أسبوع\n\n**الشرح:**  \nالماء العذب يُستهلك بسرعة أكبر من المياه المالحة، لذا فإن تقليل استخدام المياه العذبة يساعد في الحفاظ عليها لفترة أطول.  \n\n- **الخيار A (استخدام الرشاشات لساعات أقل كل أسبوع):** هذا يقلل من استخدام المياه العذبة بشكل كبير، لكنه قد لا يكون ممكنًا في جميع الأوقات (مثل في الأماكن التي لا توجد فيها إمكانية لتقليل استخدام المياه).  \n- **الخيار B (غسل المركبات في منتصف النهار):** هذا يزيد من استهلاك المياه العذبة بسبب استخدام السيارات.  \n- **الخيار C (رش الماء لتنظيف الزيت من مواقف السيارات):** هذا يقلل من استهلاك المياه العذبة بشكل كبير، لكنه قد لا يكون مناسبًا في جميع الأوقات (مثل في الأماكن التي لا توجد فيها إمكانية لتقليل استخدام المياه).  \n- **الخيار D (ترك الصنابير مفتوحة أثناء تنظيف الأسنان):** هذا يزيد من استهلاك المياه العذبة بشكل كبير، خاصةً في الأماكن التي لا توجد فيها إمكانية لتقليل استخدام المياه.  \n\n**الخيار الأفضل:** استخدام الرشاشات لساعات أقل كل أسبوع (الخيار A) هو الخيار الأكثر فعالية لتحسين استهلاك المياه العذبة.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer selects A and provides explanation. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 589,
+        "question": "يمكن أن يتعرض بعض الأشجار ، مثل شجرة الكلب ، للإصابة بفطر يلحق الضرر بأوراقها. ما هي العلاقة الأفضل التي تصف العلاقة بين الشجرة والفطر؟\nA) تكافح بارازيتية\nB) تفتت البقايا\nC) تعايش متبادل\nD) تعايش سلبي\nAnswer in English.",
+        "generated_answer": "C) تعايش متبادل",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"يمكن أن يتعرض بعض الأشجار ، مثل شجرة الكلب ، للإصابة بفطر يلحق الضرر بأوراقها. ما هي العلاقة الأفضل التي تصف العلاقة بين الشجرة والفطر؟\" Means: Some trees like dogwood can be infected by a fungus that damages its leaves. What is the best relationship describing the relationship between the tree and the fungus? Options: A) Parasitic struggle (تكافح بارازيتية) likely means parasitism. B) Decomposition of remains. C) Mutualism. D) Commensalism (negative?). The correct answer is A (parasitic). Ground truth says A. Generated answer says C) تعايش متبادل (mutualism). That's not same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 911,
+        "question": "في نظام الغابات الإيكولوجي، تعتبر بيئة تجمع السنجاب\nA) التحلل\nB) تلقيح الزهور\nC) إعادة تدوير المواد الغذائية في التربة\nD) جمع البلوط ودفنها في التربة\nAnswer in English.",
+        "generated_answer": "In an ecological forest ecosystem, the environment of a squirrel is best described as:\n\n**C) Reuse of food resources in the soil**\n\n### Explanation:\n- **A) Decomposition**: Squirrels do not typically \"reuse\" food in the soil; they consume and discard it.\n- **B) Pollination**: Squirrels do not play a role in pollinating flowers.\n- **C) Recycling nutrients**: Squirrels contribute to nutrient cycling by burying nuts and seeds, which aids in soil health.\n- **D) Nut-burial**: While squirrels may bury nuts, this is not their primary role in the ecosystem.\n\nThe correct answer is **C**, as squirrels play a key role in recycling organic matter in the forest floor.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says correct answer is C. So they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 187,
+        "question": "مياه غنية بالعناصر الغذائية من الأمطار الغزيرة تتدفق إلى خليج المكسيك. وهذا ينتج عنه تفتت الطحالب في بيئة المحيط. ومع تحلل الطحالب، فإنها تستخدم كميات كبيرة من الأكسجين على طول الساحل. ما الذي من المرجح أن يحدث للمنطقة نتيجة لذلك؟\nA) يحل النيتروجين محل الأكسجين في المياه.\nB) يزيد درجة حرارة الماء.\nC) تحمل الأمواج الطحالب الميتة بعيدًا.\nD) يموت الكائنات القاعية ويسبح الأسماك بعيدًا.\nAnswer in English.",
+        "generated_answer": "C) تحمل الأمواج الطحالب الميتة بعيدًا.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"Nutrient-rich water from heavy rains flows into Gulf of Mexico. This results in algae breakdown in ocean environment. As algae decompose, they use large amounts of oxygen along the coast. What is likely to happen to the area as a result?\" Options: A) nitrogen replaces oxygen, B) water temperature rises, C) waves carry dead algae away, D) benthic organisms die and fish swim away. Correct answer is D. Generated answer says C. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "ما هو السؤال الذي يمكن الإجابة عليه بأفضلية للاستقصاء العلمي حول الزنبق؟\nA) هل الزنبق أفضل من الزهور الأخرى؟\nB) ما هي الجينات التي تحدد لون أزهار الزنبق؟\nC) لماذا يحب الناس النظر إلى الزنبق؟\nD) ما هو أجمل لون من الزنبق؟\nAnswer in English.",
+        "generated_answer": "A) هل الزنبق أفضل من الزهور الأخرى؟  \nB) ما هي الجينات التي تحدد لون أزهار الزنبق؟  \nC) لماذا يحب الناس النظر إلى الزنبق؟  \nD) ما هو أجمل لون من الزنبق؟  \n\n**الإجابة الصحيحة:**  \n**B) ما هي الجينات التي تحدد لون أزهار الزنبق؟**  \n\n**السبب:**  \n- **B** هو السؤال الأكثر تحديدًا وعمقًا، حيث يركز على الجينات المسؤولة عن لون الزهور، وهو موضوع بحثي مهم في علم الوراثة.  \n- **A** و **C** يركزان على الخصائص الجمالية، بينما **D** يركز على التفضيل الشخصي.  \n\n**الاستنتاج:**  \nالزنبق هو موضوع بحثي شائع في علم الوراثة، لذا الجواب **B** هو الأنسب.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". Generated answer includes the options and then says correct answer is B with explanation. So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 495,
+        "question": "الأمواج الضوئية التي تعبر من وسط هوائي إلى وسط مائي سوف تتغير\nA) يتم تركيزها في خط مستقيم\nB) يفقدوا طاقتهم ويتفرقوا\nC) تتغير طولها واتجاهها\nD) تعكس من سطح الماء.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) تتغير طولها واتجاهها**  \n\n### Explanation:  \nWhen light waves travel from a **medium with a higher refractive index** (like air) to a **medium with a lower refractive index (like water)**, they bend (refract) away from the normal. This phenomenon is known as **Snell’s Law** and is described by the relationship:  \n\n\\[\nn_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2)\n\\]  \n\nWhere:  \n- \\( n_1 \\) = refractive index of the first medium (air),  \n- \\( \\theta_1 \\) = angle of incidence,  \n- \\( n_2 \\) = refractive index of the second medium (water),  \n- \\( \\theta_2 \\) = angle of refraction.  \n\nSince \\( n_1 \\) is typically much larger than \\( n_2 \\) (e.g., air ≈ 1, water ≈ 1.33), the light bends **away from the normal** (i.e., it is refracted).  \n\n### Why not the other options?  \n- **A)** The light does not \"lose energy\" in this process—it is still traveling at the same speed in both media.  \n- **B)** The energy is not \"dissipated\"—it is just redirected.  \n- **D)** The light does **not** reflect off the water surface—it is transmitted through the interface.  \n\nThus, the correct answer is **C**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"C\". Generated answer says correct answer is C) تتغير طولها واتجاهها, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 594,
+        "question": "يقوم الطلاب بدراسة كيفية تأثير مواقع الأرض والشمس على التغيرات التي تحدث على الأرض. بعد مرور أربعة فصول على الأرض، ما الذي حدث؟\nA) أنهت الأرض دورة واحدة حول القمر.\nB) أنهت الأرض دورة واحدة حول الشمس.\nC) أنهى الشمس دورة واحدة حول الأرض.\nD) أنهى القمر دورة واحدة حول الأرض.\nAnswer in English.",
+        "generated_answer": "B) أنهت الأرض دورة واحدة حول الشمس.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Arabic: \"Students study how positions of Earth and Sun affect changes on Earth. After four seasons on Earth, what happened?\" Options: A) Earth completed one orbit around Moon. B) Earth completed one orbit around Sun. C) Sun completed one orbit around Earth. D) Moon completed one orbit around Earth. Correct is B. Generated answer: \"B) أنهت الأرض دورة واحدة حول الشمس.\" That's exactly B. Ground truth: \"B\". So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 376,
+        "question": "تم العثور على أشجار النخيل المتحجرة في صخور رسوبية بالقرب من الأنهار الجليدية. وجود أشجار النخيل المتحجرة يوفر على الأرجح دليلًا على العبارة التالية؟\nA) كان هناك ماء أكثر في المنطقة مرة واحدة.\nB) كانت المنطقة مرة مروجا.\nC) كان المناخ في المنطقة مداريًا.\nD) هناك خطوط الأعطال النشطة في المنطقة.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) was the area once a riverbed**.\n\n**Explanation:**  \nThe presence of **dated fossilized palm trees** in **sedimentary rocks** near **glacial rivers** suggests that the area was once a **riverbed**. This is because:  \n- **Palm trees** are typically found in **wet, low-lying areas** (e.g., riverbanks, floodplains).  \n- **Sedimentary rocks** often form in environments with **water flow**, such as riverbeds.  \n- The **fossilized remains** indicate that the area was once **dry but periodically flooded**, aligning with the presence of palm trees.  \n\nThe other options are less likely:  \n- **A)** More water doesn’t necessarily mean the area was once a riverbed (e.g., deserts can have similar conditions).  \n- **C)** A **tropical climate** is unlikely in a region with glaciers, which are typically found at high altitudes.  \n- **D)** No evidence of active fault lines is mentioned in the question.  \n\nThus, the most logical answer is **B**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says correct answer is B. So they do not match. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 387,
+        "question": "يشير التوقعات بوجود \"خليط شتوي\" إلى أن البخار في الهواء سيشكل كل من المطر والثلج. ما هي المبدأ الصحيح الموضح بهذا الحدث؟\nA) هناك قليل من الماء في الغلاف الجوي للأرض.\nB) معظم الماء على الأرض يوجد على شكل بخار.\nC) الماء موجود في جميع الحالات الثلاث في الأرض.\nD) يلتمع الماء على الأرض لتشكيل المواد الصلبة بمرور الوقت.\nAnswer in English.",
+        "generated_answer": "A) هناك قليل من الماء في الغلاف الجوي للأرض.\n\n**الشرح:**  \nالتوقعات بوجود \"خليط شتوي\" تشير إلى أن البخار في الهواء سيشكل كل من المطر والثلج. هذا يعني أن الماء الموجود في الغلاف الجوي للأرض يتواجد في جميع الحالات الثلاث (السائلة، الصلبة، والغازية) في نفس الوقت.  \n\n- **الماء في الغلاف الجوي:** حوالي 75% من الماء على الأرض موجود في شكل بخار (الغلاف الجوي).  \n- **الماء على الأرض:** حوالي 29% من الماء على الأرض يتواجد في شكل سائل (المحيطات والبحيرات والأنهار).  \n- **الثلج:** حوالي 1% من الماء على الأرض يتواجد على شكل ثلج.  \n\nلذلك، إذا كان هناك \"خليط شتوي\"، فإن الماء في الغلاف الجوي سيكون موجودًا في جميع هذه الحالات الثلاث في نفس الوقت.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". The question: \"يشير التوقعات بوجود \"خليط شتوي\" إلى أن البخار في الهواء سيشكل كل من المطر والثلج. ما هي المبدأ الصحيح الموضح بهذا الحدث؟\" Options: A) little water in atmosphere, B) most water on Earth is vapor, C) water exists in all three states on Earth, D) water glitters... The correct is C. Generated answer selects A) and gives explanation contradictory. So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 382,
+        "question": "يتجذب الجسم نحو المغناطيس. عندما يتم تحريك المغناطيس بعيداً عن الجسم، فإن القوة المغناطيسية على الجسم ستنخفض.\nA) تنخفض\nB) تزداد\nC) تبقى ثابتة\nD) None\nAnswer in English.",
+        "generated_answer": "A) تنخفض",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Arabic: \"يتجذب الجسم نحو المغناطيس. عندما يتم تحريك المغناطيس بعيداً عن الجسم، فإن القوة المغناطيسية على الجسم ستنخفض.\" Means: The object is attracted to the magnet. When the magnet is moved away from the object, the magnetic force on the object will decrease. Options: A) decrease, B) increase, C) stay constant, D) None. Answer in English. Ground truth: \"A\". Generated answer: \"A) تنخفض\". That is Arabic \"decrease\". So both indicate option A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 67,
+        "question": "يدرس الطلاب كيف يرتبط درجة حرارة المادة بمعدل حركة الجزيئات. ما هي الجزيئات التي تتحرك بأسرع سرعة؟\nA) حليب بارد\nB) حساء دافئ\nC) ماء يذوب من الجليد\nD) بخار يتصاعد من الماء المغلي\nAnswer in English.",
+        "generated_answer": "The students study how the temperature of a substance is related to the rate of movement of its molecules. Which of the following is a good example of a substance that has molecules that move at the fastest rate?\n\nA) Cold milk  \nB) Warm soup  \nC) Water that melts from ice  \nD) Steam that rises from boiling water  \n\nAnswer: **C) Water that melts from ice**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is D. The generated answer says Answer: C) Water that melts from ice. That's different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "في المناطق التي تشهد زيادة في تسرب الأسمدة، قد يظهر جميع أحياء الكائنات الاستهلاكية في سلسلة غذائية البحيرة زيادة في العدد. بعد الزيادة الأولية، تبدأ السكان في الانخفاض. أي حدث يحتمل أن يكون السبب وراء انخفاض السكان؟\nA) تم إدخال المزيد من الجداول إلى البحيرة.\nB) نضبت المياه من العناصر الغذائية مثل النيتروجين.\nC) انتهت فترة التكاثر للكائنات.\nD) خفضت الطحالب المتحللة كمية الأوكسجين المذابة.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) Nourished water levels**.\n\n**Explanation:**  \nIn areas with increased fertilizer runoff, algal blooms can lead to **eutrophication**, which depletes oxygen in the water. This can cause a **dead zone** where most aquatic life cannot survive. After the bloom subsides, the **population of consumers (e.g., fish, invertebrates)** may decline due to oxygen deprivation.  \n\nThe other options are less likely:  \n- **A)** Adding more water bodies would likely increase oxygen levels, not cause a dead zone.  \n- **C)** Declining populations would reduce nutrient input, not cause an increase.  \n- **D)** Reduced oxygen from algal decay would harm consumers, not benefit them.  \n\nThus, the most plausible cause is **B) Nourished water levels**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says \"The correct answer is **B) Nourished water levels**.\" That's not D. So they differ. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "ما هي العبارة الصحيحة حول جزيئات الثلج وجزيئات الماء السائل؟\nA) تحتوي جزيئات الثلج على مزيد من الطاقة من جزيئات الماء السائل.\nB) تحتوي جزيئات الثلج على ذرات مختلفة عن جزيئات الماء السائل.\nC) تحتوي جزيئات الثلج على مزيد من الشحنة الكهربائية من جزيئات الماء السائل.\nD) تحتوي جزيئات الثلج على حرية أقل في الحركة من جزيئات الماء السائل.\nAnswer in English.",
+        "generated_answer": "A) تحتوي جزيئات الثلج على مزيد من الطاقة من جزيئات الماء السائل.\n\n**الشرح:**  \nجزيئات الثلج (الثلج) تتكون من جزيئات ماء (H₂O) متجمدة، بينما جزيئات الماء السائل (الماء المقطر) تتكون من جزيئات ماء (H₂O) حرة.  \n- **الطاقة:** الطاقة الكامنة في جزيئات الثلج أكبر من جزيئات الماء السائل لأنها تتطلب تكسير جزيئات الماء السائل (كعامل تبريد) لإطلاق طاقة حرارية.  \n- **الشحنة الكهربائية:** جزيئات الثلج (مثل جليد البحر) تحتوي على شحنة كهربائية سالبة بسبب فقدان إلكتروناتها، بينما جزيئات الماء السائل (مثل الماء العادي) لا تحتوي على شحنة كهربائية.  \n- **الحرية:** جزيئات الثلج (مثل جليد البحر) تتميز بحرية أكبر في الحركة مقارنة بجزيئات الماء السائل (مثل الماء العادي)، مما يفسر ظاهرة التجميد.  \n\n**الخلاصة:**  \nالعبارة B صحيحة لأن جزيئات الثلج تحتوي على ذرات مختلفة (مثل الأكسجين في O₂ أو الكربون في CO₂) مقارنة بجزيئات الماء السائل (مثل ذرات الأكسجين أو الكربون).",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ما هي العبارة الصحيحة حول جزيئات الثلج وجزيئات الماء السائل؟\" Options A-D. Ground truth answer is D. Generated answer says A is correct, then explanation, then says \"العبارة B صحيحة\". It's contradictory and not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "متى وأين تكون هناك أكبر عدد من ساعات النهار يوميًا؟\nA) خلال فصل الشتاء بالقرب من خط الاستواء\nB) خلال فصل الصيف بالقرب من خط الاستواء\nC) خلال فصل الشتاء بالقرب من القطب الشمالي\nD) خلال فصل الصيف بالقرب من القطب الشمالي\nAnswer in English.",
+        "generated_answer": "C) خلال فصل الشتاء بالقرب من القطب الشمالي",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"متى وأين تكون هناك أكبر عدد من ساعات النهار يوميًا؟\" Means \"When and where is there the greatest number of daylight hours per day?\" Options: A) winter near equator, B) summer near equator, C) winter near North Pole, D) summer near North Pole. The correct answer is D (summer near North Pole) because polar day in summer has 24h daylight. Generated answer: \"C) خلال فصل الشتاء بالقرب من القطب الشمالي\" i.e., winter near North Pole. That's not same as D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "يرغب الطلاب في مقارنة حجم مجتمعات الكائنات الدقيقة في عينات مائية بحجم 500 مل من كل من بركتين. ما هو العامل الأكثر احتمالًا للتأثير على دقة ملاحظاتهم؟\nA) متوسط ​​درجة حرارة العينات المائية\nB) علامة شرائح المجهر المستخدمة\nC) قوة التكبير في المجهر\nD) تحديد كل من الكائنات الدقيقة بشكل صحيح\nAnswer in English.",
+        "generated_answer": "The most likely factor affecting the accuracy of the students' observations is:\n\n**D) Determining each of the individual organisms correctly**\n\n### Explanation:\n- **A) متوسط ​​درجة حرارة العينات المائية**: قد يؤثر على نمو الكائنات الدقيقة، لكنه ليس العامل الرئيسي في تحديد حجمها أو تحديدها بدقة.\n- **B) علامة شرائح المجهر المستخدمة**: تؤثر على تحديد حجم الكائنات الدقيقة، لكنها ليست العامل الأكثر أهمية.\n- **C) قوة التكبير في المجهر**: قد تؤثر على دقة تحديد حجم الكائنات الدقيقة، لكنه ليس العامل الأكثر تحديدًا.\n- **D) تحديد كل من الكائنات الدقيقة بشكل صحيح**: هذا هو العامل الأكثر أهمية، حيث أن تحديد كل كائن بشكل صحيح ضروري لضمان دقة المقارنة بين العينات.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer says D is the most likely factor. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "درس طالب نمو النباتات في أنواع تربة مختلفة. أفضل طريقة لتنظيم البيانات هي\nA) التاريخ والوقت.\nB) التاريخ وارتفاع النبات.\nC) ارتفاع النبات ونوع التربة\nD) التاريخ وارتفاع النبات ونوع التربة.\nAnswer in English.",
+        "generated_answer": "The best way to organize data for studying plant growth in different soil types is:\n\n**D) التاريخ وارتفاع النبات ونوع التربة.**\n\n### Explanation:\n- **A) التاريخ والوقت** is important for tracking growth over time but doesn't directly relate to soil properties.  \n- **B) التاريخ وارتفاع النبات** focuses on growth patterns but doesn't account for soil variations.  \n- **C) ارتفاع النبات ونوع التربة** is the most comprehensive approach, as it directly links soil characteristics (e.g., pH, nutrient content) to plant growth metrics (e.g., height).  \n- **D) التاريخ وارتفاع النبات ونوع التربة** is redundant because the question already specifies the three factors.  \n\nThis method ensures a clear, data-driven analysis of how soil influences plant growth.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". Generated answer says \"The best way ... is D) التاريخ وارتفاع النبات ونوع التربة.\" So it selects D. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 306,
+        "question": "ما هي الأمثلة التي توضح تغيرًا في الشكل الفيزيائي وتغير ضمني للتركيب الكيميائي؟\nA) غلي الماء وذوبان الشمع\nB) صدأ الحديد وخبز الكعك\nC) ذوبان المسحوق وتمزيق الورق\nD) تجمد الماء وحرق الفحم\nAnswer in English.",
+        "generated_answer": "A) غلي الماء وذوبان الشمع  \nB) صدأ الحديد وخبز الكعك  \nC) ذوبان المسحوق وتمزيق الورق  \nD) تجمد الماء وحرق الفحم  \n\n**شرح التغييرات:**  \n1. **A) غلي الماء وذوبان الشمع**:  \n   - **التغير الفيزيائي:** يتحول الماء إلى بخار (غليان) بسبب ارتفاع درجة حرارته.  \n   - **التغير الكيميائي:** يتحول الشمع إلى سائل (ذوبان).  \n\n2. **B) صدأ الحديد وخبز الكعك**:  \n   - **التغير الفيزيائي:** الحديد يتأكسد (يتفاعل مع الأكسجين) ليشكل أكسيد الحديد (رماد الحديد).  \n   - **التغير الكيميائي:** يتفاعل الكعك مع الحديد، مما يؤدي إلى تغير في تركيبته الكيميائية (تحول من مركبات عضوية إلى أكاسيد).  \n\n3. **C) ذوبان المسحوق وتمزيق الورق**:  \n   - **التغير الفيزيائي:** المسحوق يتفتت بسبب تفاعل الماء معه.  \n   - **التغير الكيميائي:** يتفاعل المسحوق مع الماء، مما يؤدي إلى تغير في تركيبته (تحول من مركبات عضوية إلى أملاح).  \n\n4. **D) تجمد الماء وحرق الفحم**:  \n   - **التغير الفيزيائي:** الماء يتجمد بسبب انخفاض درجة حرارته.  \n   - **التغير الكيميائي:** يتحول الفحم إلى غاز (الحرق الكامل).  \n\n**الخلاصة:**  \n- **A و B**: تغيران في الشكل الفيزيائي (تحول من مادة صلبة إلى سائلة).  \n- **C**: تغيران في التركيب الكيميائي (تحول من مركبات عضوية إلى أملاح).  \n- **D**: تغيران في الشكل الفيزيائي (تحول الفحم إلى غاز).",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"ما هي الأمثلة التي توضح تغيرًا في الشكل الفيزيائي وتغير ضمني للتركيب الكيميائي؟\" Options A-D. The ground truth answer is D. The generated answer lists all options with explanations, not selecting D. It does not state D as the answer. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "أفضل طريقة لإظهار رد فعل حراري الناتج عن تفاعل تفريغ الطاقة الحرارية هي باستخدام\nA) محرك السيارة.\nB) الثلاجة.\nC) مقلاة الطهي.\nD) قارورة زجاجية.\nAnswer in English.",
+        "generated_answer": "The best way to show the thermal reaction resulting from the energy release during a thermal reaction is using  \nA) a car engine.  \nB) a refrigerator.  \nC) a cooking pan.  \nD) a glass flask.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"أفضل طريقة لإظهار رد فعل حراري الناتج عن تفاعل تفريغ الطاقة الحرارية هي باستخدام\" which asks: \"The best way to show the thermal reaction resulting from the energy release during a thermal reaction is using\". Options given. Ground truth answer: \"A\". So correct answer is option A. The generated answer just repeats the options, does not select any. It does not state which option is correct. So it does not convey same meaning. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1107,
+        "question": "ما هو الذي يحافظ على الأرض في مدارها حول الشمس؟\nA) الإحتكاك في حركة القمر\nB) موقع مدار الأرض\nC) سرعة دوران الأرض\nD) جاذبية الشمس\nAnswer in English.",
+        "generated_answer": "What keeps the Earth in its orbit around the Sun?\n\n**Answer:**  \nThe correct answer is **D) Gravity of the Sun**.  \n\nThe gravitational force exerted by the Sun is the primary force that keeps the Earth in its orbit. This force provides the necessary centripetal force to maintain the circular motion of the Earth around the Sun.  \n\n### Explanation:  \n- **A) The Earth's motion around the Sun** is due to the Sun's gravity, not the other way around.  \n- **B) The Earth's position in its orbit is determined by the Sun's gravity, not the other way around.**  \n- **C) The Earth's rotation around its axis is responsible for the day-night cycle, not the orbit.**  \n- **D) The Sun's gravity is the key force that keeps the Earth in its orbit.**  \n\nThus, the gravitational force of the Sun is the fundamental reason for Earth's orbit.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". The generated answer says the correct answer is D) Gravity of the Sun. That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 801,
+        "question": "وفقًا لتصنيف الخلايا، تُفرّق الخلايا الإلكترونية الحقيقية من الخلايا الحقيقية النووية. ما هو الميزة التي غالبًا ما تستخدم لتمييز الخلايا الإلكترونية الحقيقية عن الخلايا الحقيقية النووية؟\nA) عمليات الحياة\nB) اختلاف الحجم\nC) أغشية البلازما\nD) جزيئات الطاقة\nAnswer in English.",
+        "generated_answer": "A) عمليات الحياة",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"According to cell classification, true eukaryotic cells are distinguished from true prokaryotic cells. What feature is often used to distinguish true eukaryotic cells from true prokaryotic cells?\" Options: A) life processes, B) size difference, C) plasma membranes, D) energy particles. Correct answer is B (size difference). Generated answer: \"A) عمليات الحياة\" which is option A. That does not match ground truth B. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "نباتات صباحية هي نباتات لديها كمية كبيرة من التغير في الجينات المسؤولة عن لون الزهرة. عندما تظهر زهرة بيضاء في مجموعة منبتة بشكل مستقل عن صفة اللون الأبيض للزهور، فما هو المصدر الأكثر احتمالًا؟\nA) الطفرة الجينية\nB) التربية الانتقائية\nC) تكرار الجينوم\nD) إعادة التركيب الجنسي\nAnswer in English.",
+        "generated_answer": "A) الطفرة الجينية\n\n**الشرح:**  \nالنباتات الصباحية التي تظهر زهورًا بيضاء بشكل مستقل عن لونها الأبيض لها تغير جيني في الجينات المسؤولة عن لون الزهرة. هذه الزهور البيضاء ليست نتيجة تفاعل بين الجينات المتنوعة (التي تحدد لون الزهرة) والجينات المسؤولة عن اللون الأبيض. بدلاً من ذلك، يُعتقد أن هذه الزهور البيضاء نشأت من طفرة جينية واحدة تؤدي إلى تغير في الجينات التي تتحكم في إنتاج الكلوروفيل (اللون الأخضر) أو غيرها من المكونات المسؤولة عن اللون الأبيض.  \n\n- **التربية الانتقائية (B):** لا يمكن أن تكون هذه الزهور البيضاء نتيجة تربية انتقائية لأنها تظهر بشكل مستقل، مما يشير إلى أن التغيير في اللون الأبيض ناشئ عن طفرة جينية وليس نتيجة اختيار المزارعين.  \n- **تكرار الجينوم (C):** هذا غير مرجح لأن تكرار الجينوم يشير إلى تكرار نسخة واحدة من الجين، بينما الزهور البيضاء قد تكون نتيجة تغيرات في الجينات المتنوعة.  \n- **إعادة التركيب الجنسي (D):** هذا غير مرجح لأن إعادة التركيب الجنسي يتطلب تبادل الجينات بين نباتات مختلفة، لكن الزهور البيضاء تظهر بشكل مستقل.  \n\nلذلك، **الطفرة الجينية** هي المصدر الأكثر احتمالًا.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". Generated answer says \"A) الطفرة الجينية\" and explanation. So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "عملت آنا مسافة 100 متر في 20 ثانية، ما هي سرعتها المتوسطة؟\nA) 2 م/ث\nB) 5 م/ث\nC) 20 م/ث\nD) 25 م/ث\nAnswer in English.",
+        "generated_answer": "To find the average speed, we use the formula:\n\n$$\n\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}\n$$\n\nGiven:\n- **Distance** = 100 meters\n- **Time** = 20 seconds\n\n$$\n\\text{Average Speed} = \\frac{100 \\, \\text{m}}{20 \\, \\text{s}} = 5 \\, \\text{m/s}\n$$\n\n**Answer:**  \n**B) 5 m/s**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says answer is B) 5 m/s, which matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1068,
+        "question": "يحتوي جزء الحمض النووي الريبوزي على كودونات يتألف كل منها من تسلسل ثلاث نيوكليوتيدات. ما هي الأفضلية الرئيسية للكودونات الموجودة في تسلسل الحمض النووي؟\nA) إنها تحتوي على الرموز اللازمة لـ RNA المرسل.\nB) إنها تعمل على إشارة بدء التقسيم الخلوي الميتوزي.\nC) إنها تضمن التضاعف الصحيح للرمز الوراثي.\nD) يتم استخدامها لتركيب الأحماض الأمينية لترجمة البروتينات.\nAnswer in English.",
+        "generated_answer": "C) إنها تضمن التضاعف الصحيح للرمز الوراثي.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"What is the main advantage of codons in DNA sequence?\" Correct answer D: they are used to assemble amino acids for protein translation. Generated answer: C) إنها تضمن التضاعف الصحيح للرمز الوراثي. That's different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 482,
+        "question": "كل ما يلي يمكن العثور عليه على تسمية التغذية للأغذية باستثناء\nA) حجم الحصة الموصى به.\nB) السعرات الحرارية للحصة الواحدة.\nC) خطة وجبة مقترحة.\nD) قائمة بالمكونات.\nAnswer in English.",
+        "generated_answer": "C) خطة وجبة مقترحة.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"كل ما يلي يمكن العثور عليه على تسمية التغذية للأغذية باستثناء\" meaning \"All of the following can be found on a food nutrition label except\". Options A, B, C, D. The correct answer is C) خطة وجبة مقترحة (suggested meal plan). Ground truth answer: \"C\". Generated answer: \"C) خطة وجبة مقترحة.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 440,
+        "question": "في إجراء مخبري، يرصد الطالب أحجامًا مختلفة من جسيمات التربة. ما هو الأداة الأفضل للتحقيق؟\nA) عدسة يدوية بتضخيم 1X\nB) مجهر بتضخيم 40X\nC) مجهر ضوئي بتضخيم 100X\nD) مجهر تشريحي بتضخيم 4X\nAnswer in English.",
+        "generated_answer": "The best tool for investigating soil particle sizes in a laboratory setting is a **microscope with a high-powered objective lens**, specifically one that can magnify the sample to a size that allows for clear observation of individual particles.\n\n### Explanation:\n- **A) عدسة يدوية بتضخيم 1X**: هذه العدسة توفر تقريبًا 100X تقريبًا، مما قد لا يكون كافيًا لتحديد تفاصيل أصغر جسيمات التربة (مثل الحصى أو الطين الرمل).\n- **B) مجهر بتضخيم 40X**: هذا المجهر يزيد 40X، مما قد يزيد من حجم العينة بشكل كبير، مما قد يجعل من الصعب تمييز الجسيمات الصغيرة.\n- **C) مجهر ضوئي بتضخيم 100X**: هذا المجهر يزيد 100X، مما قد يزيد من حجم العينة بشكل كبير، مما قد يجعل من الصعب تمييز الجسيمات الصغيرة.\n- **D) مجهر تشريحي بتضخيم 4X**: هذا المجهر يزيد 4X، مما قد يزيد من حجم العينة بشكل كبير، مما قد يجعل من الصعب تمييز الجسيمات الصغيرة.\n\n### الأفضل:\n- **C) مجهر ضوئي بتضخيم 100X**: يوفر تحليلًا دقيقًا للضوء المنعكس من جسيمات التربة، مما يسمح برؤية تفاصيل أصغر (مثل حجم الجسيمات).\n\n### ملاحظة:\nفي بعض الحالات، قد يُستخدم مجهر تشريحي (مثل مجهر مجهري) لتحديد حجم الجسيمات، لكنه أقل شيوعًا في المختبرات المدرسية بسبب تكلفته وعدم قدرته على تضخيم العينات بشكل كبير.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". The generated answer says the best tool is microscope with high-powered objective, specifically C (microscope 100X). It says best is C. That does not match D. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "سمحت التكنولوجيات الجديدة لمصنعي السيارات بتسويق سيارات الهجين الفعالة من حيث استهلاك الوقود، ولكن التخلص من هذه السيارات في نهاية حياتها الخدمية يشكل مشكلة. أيّ من هذه الأسئلة تمثّل مشكلة خاصة بالإطار النظري للسيارات الهجين؟\nA) ما الذي سيتم فعله لإعادة تدوير البطاريات؟\nB) ماذا سيتم فعله بالسائل المبرد في نظام تكييف الهواء؟\nC) ما الذي سيتم فعله بالسوائل في خزان الوقود، والمبرد، والبطاريات؟\nD) ماذا سيتم فعله بالمواد البلاستيكية في السيارات؟\nAnswer in English.",
+        "generated_answer": "C) ما الذي سيتم فعله بالسوائل في خزان الوقود، والمبرد، والبطاريات؟\n\n**السبب:**  \nالسوائل (مثل الزيت، السائل المبرد، السوائل في خزان الوقود، والمبرد) تلعب دورًا حيويًا في تشغيل السيارة، وتعمل بشكل وثيق مع الأجزاء الأخرى مثل البطاريات والمحركات. إذا لم يتم التعامل معها بشكل صحيح، فقد تؤدي إلى تلف أو انسكاب، مما يزيد من مخاطر السلامة ويزيد من تكلفة الإصلاح.\n\n**السبب الخفي:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الثالث:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الرابع:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الخامس:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب السادس:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب السابع:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الثامن:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب التاسع:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب العاشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الحادي عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الثاني عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الثالث عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الرابع عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الخامس عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب السادس عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب السابع عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب الثامن عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب التاسع عشر:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.\n\n**السبب العشرون:**  \nالسوائل في خزان الوقود والمبرد والبطاريات تتفاعل مع بعضها البعض، وتحتاج إلى فحص دوري لمراقبة مستويات التآكل أو التلوث. إذا لم يتم تنظيفها أو استبدالها في الوقت المناسب، يمكن أن تؤدي إلى انفجارات أو انسكابات خطيرة.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which of these questions represents a problem specific to the theoretical framework of hybrid cars? Options A-D. Ground truth answer: A. Generated answer: C) ... So not same. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 563,
+        "question": "ما هي النظرية الخاصة بأصل القمر التي تشير إلى أن قمر الأرض تكون بالعملية نفسها التي تكون بها المريخ والمشتري والزحل؟\nA) نظرية الاصطدام العملاق\nB) نظرية الانشطار\nC) نظرية الاصطياد\nD) نظرية الازدواجية\nAnswer in English.",
+        "generated_answer": "A) نظرية الاصطدام العملاق",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic: \"ما هي النظرية الخاصة بأصل القمر التي تشير إلى أن قمر الأرض تكون بالعملية نفسها التي تكون بها المريخ والمشتري والزحل؟\" Means: Which theory of the Moon's origin suggests that Earth's Moon formed by the same process as Mars, Jupiter, and Saturn? Options: A) Giant impact theory, B) Fission theory, C) Capture theory, D) Double planet theory? Actually the correct answer likely is \"نظرية الازدواجية\" (double planet theory) maybe? The ground truth says D. Generated answer says A) Giant impact theory. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "حتى الآن، كان يعرف عن جزء صغير فقط من الحمض النووي للإنسان أن له وظيفة محددة. وكان يعتقد أن الجزء الآخر من الحمض النووي ليس له أهمية. لكن الأدلة الجديدة تشير الآن إلى أن كل الحمض النووي ضروري في بعض وظائف الجينات. أيهما يصف الدلالة الأكبر لهذه الأدلة الجديدة؟\nA) سيجعل دراسة الحمض النووي أسهل بكثير.\nB) يثبت أن الحمض النووي أقل أهمية مما كان معروفاً به سابقاً.\nC) يوفر دليلاً على أن النتائج العلمية لا ينبغي تحديها.\nD) يدل على أن المعرفة العلمية قابلة للتغيير.\nAnswer in English.",
+        "generated_answer": "A) سيجعل دراسة الحمض النووي أسهل بكثير.  \n\n**السبب:**  \nالدراسات الحديثة تشير إلى أن الحمض النووي ليس فقط جزءًا من الحمض النووي، بل له وظائف محددة في الجينات. هذا يعني أن الحمض النووي ليس فقط \"جزءًا ضروريًا\" في بعض الجينات، بل يحتوي أيضًا على وظائف إضافية.  \n\n- **الخلاصة:**  \n  النتائج الجديدة تُظهر أن الحمض النووي ليس فقط ضروريًا في بعض الجينات، بل له أيضًا وظائف إضافية.  \n\n**الخلاف:**  \n- **B)** تشير إلى أن الحمض النووي أقل أهمية مما كان يُعتقد سابقًا، مما يتعارض مع النتائج الجديدة.  \n- **C)** تشير إلى أن النتائج العلمية لا يجب أن تُستَخدم كدليل على عدم التغيير، لكنها تدعم أن الحمض النووي له وظائف إضافية.  \n- **D)** تشير إلى أن المعرفة العلمية قابلة للتغيير، لكنها لا تفسر الدلالة الأكبر للنتائج الجديدة.  \n\n**الإجابة الصحيحة: A**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: which describes the greatest significance of new evidence? Correct answer D: indicates that scientific knowledge is subject to change. Generated answer says A) \"Will make DNA study much easier.\" That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1008,
+        "question": "ما هي مصادر الطاقة البديلة التي تستخدم الطاقة الجاذبية لتوليد الكهرباء؟\nA) طاقة الجزر وقوة المد والجزر والطاقة الهيدروليكية\nB) الطاقة الجيوحرارية والطاقة الهيدروليكية\nC) طاقة الرياح وطاقة الجزر وقوة المد والجزر\nD) الطاقة الجيوحرارية وطاقة الرياح\nAnswer in English.",
+        "generated_answer": "A) طاقة الجزر وقوة المد والجزر والطاقة الهيدروليكية  \nB) الطاقة الجيوحرارية والطاقة الهيدروليكية  \nC) طاقة الرياح وطاقة الجزر وقوة المد والجزر",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"ما هي مصادر الطاقة البديلة التي تستخدم الطاقة الجاذبية لتوليد الكهرباء؟\" Options A-D. Ground truth answer: \"A\". So correct answer is option A.\n\nGenerated answer lists options A, B, C (the text of each). It does not select a single answer; it just repeats options. It does not indicate that A is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "يحتوي غرفة الغسيل الصغيرة على عدة رفوف فوق الغسالة. هذه الرفوف هي مثال على\nA) جعل الحائط أقوى.\nB) استخدام مساحة التخزين بكفاءة.\nC) استخدام جهاز لأكثر من غرض واحد.\nD) حل الحاجة إلى المأوى بطريقة إبداعية.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) using space efficiently**.  \n\n**Explanation:**  \n- **A) Making the wall stronger** – This is not a function of the racks; they are just storage solutions.  \n- **B) Using space efficiently** – This is the primary purpose of the racks, as they maximize vertical space in a small room.  \n- **C) Using a multi-purpose device** – The racks are designed for one purpose (washing clothes), not for multiple uses.  \n- **D) Creating a shelter** – The racks are not meant to provide shelter; they are for storage.  \n\nThus, the most accurate answer is **B**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says correct answer is B) using space efficiently. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 168,
+        "question": "في صحراء نيفادا السوداء في 15 أكتوبر 1997، قطع أندي جرين مسافة مقاسة بسرعة متوسطة تبلغ 339 مترًا في الثانية في سيارة مدعومة بالطاقة الجتية تسمى \"Thrust\". أندي كان أول شخص يقوم بذلك\nA) استخدام تأثير دوبلر.\nB) قيادة سيارة تعمل بالوقود الجتي.\nC) عبور صحراء نيفادا السوداء.\nD) تحطيم حاجز الصوت على الأرض.\nAnswer in English.",
+        "generated_answer": "C) عبور صحراء نيفادا السوداء.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Arabic text: \"في صحراء نيفادا السوداء في 15 أكتوبر 1997، قطع أندي جرين مسافة مقاسة بسرعة متوسطة تبلغ 339 مترًا في الثانية في سيارة مدعومة بالطاقة الجتية تسمى \"Thrust\". أندي كان أول شخص يقوم بذلك\nA) استخدام تأثير دوبلر.\nB) قيادة سيارة تعمل بالوقود الجتي.\nC) عبور صحراء نيفادا السوداء.\nD) تحطيم حاجز الصوت على الأرض.\nAnswer in English.\"\n\nSo correct answer is D (breaking the sound barrier on land). Generated answer: \"C) عبور صحراء نيفادا السوداء.\" That's different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 664,
+        "question": "ما هو المورد المتجدد الذي يتم توليده بواسطة تيارات الهواء ؟\nA) طاقة الرياح\nB) طاقة الشمس\nC) طاقة الوقود الأحفوري\nD) طاقة الجيوثيرمال\nAnswer in English.",
+        "generated_answer": "A) طاقة الرياح  \n\n**الشرح:**  \nتوليد الطاقة المتجددة يعتمد على مصادر طبيعية مثل طاقة الرياح والطاقة الشمسية. طاقة الرياح تنشأ نتيجة تفاعل الحرارة بين الأرض والشمس، بينما تأتي طاقة الشمس من الاندماج النووي في قلب الشمس. طاقة الوقود الأحفوري (مثل الفحم والنفط والغاز) تنتج من تراكم المواد العضوية على مدار ملايين السنين، بينما طاقة الجيوثيرمال (الحرارة الأرضية) تأتي من التبريد الناتج عن انحلال اليورانيوم والثوريوم في القشرة الأرضية.  \n\n**الخلاصة:**  \nالطاقات المتجددة (الرياح والطاقة الشمسية) هي المصادر الطبيعية التي تُولَّد منها الطاقة، بينما الوقود الأحفوري هو مصدر غير متجدد.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"ما هو المورد المتجدد الذي يتم توليده بواسطة تيارات الهواء ؟\" Means \"What is the renewable resource that is generated by air currents?\" Options: A) wind energy, B) solar, C) fossil fuel, D) geothermal. Correct answer is A) wind energy. Ground truth: \"A\". Generated answer: \"A) طاقة الرياح\" plus explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "يمتلك المزارع ثلاث حقول كبيرة حيث يخطط لزراعة الأعشاب لحصادها للحصول على الأعلاف. يجب حصاد الأعشاب بعد عامين من النمو. ما الذي يمكن للمزارع فعله للتأكد من حصاد المحصول كل عام؟\nA) زرع كل حقل بفارق سنة واحدة.\nB) زرع الأعشاب بأقرب مسافة ممكنة.\nC) زرع كل الحقول في نفس الوقت، ولكن بأنواع مختلفة من الأعشاب.\nD) زرع أعشاب الفصل الدافئ وأعشاب الفصل البارد في كل حقل في نفس الوقت.\nAnswer in English.",
+        "generated_answer": "The best strategy for a farmer to ensure a successful harvest of three large fields of grass for hay after two years of growth is:\n\n**C) Zesting all fields at the same time but with different grass species.**\n\n### Explanation:\n- **Why not the others?**  \n  - **A)** Planting fields a year apart does not account for the time needed for growth between harvests.  \n  - **B)** Planting at the same time but different species (e.g., one field with grasses that grow quickly and another with slower-growing ones) may lead to uneven growth or competition for resources.  \n  - **D)** Zesting all fields at the same time is impractical and inefficient, as it requires separate harvests and processing.  \n\n- **Why C?**  \n  - **Diversity** (e.g., using different grass species) ensures a steady supply of forage, reduces pest buildup, and improves soil health over time.  \n  - **Timing**: Planting at the same time allows the fields to mature and be ready for harvest simultaneously, maximizing productivity.  \n\nThis approach aligns with agricultural best practices for long-term sustainability.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question in Arabic: farmer has three large fields, harvest after two years. What can farmer do to ensure harvest each year? Options: A) plant each field one year apart. B) plant grasses as close as possible. C) plant all fields same time but different grasses. D) plant warm-season and cool-season grasses in each field same time.\n\nCorrect answer likely A: stagger planting so each field is harvested each year. Ground truth says \"A\". Generated answer says \"C\". So not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 996,
+        "question": "في أستراليا، يمكن أن ترتفع درجات الحرارة عند الظهيرة إلى أكثر من 110 درجة فهرنهايت (43 درجة مئوية). من أجل الحفاظ على أجسامهم باردة، يقوم الكنغر بلعق ذراعيهما، ويغطيهما بطبقة كثيفة من اللعاب. عندما يتبخر اللعاب، يعمل كآلية تبريد ويخفض درجة حرارة الكنغر. ما هي الكلمة التي تصف هذا النشاط بشكل أفضل؟\nA) الانتقاء الطبيعي\nB) آلية الدفاع\nC) التكيف الهيكلي\nD) التكيف السلوكي\nAnswer in English.",
+        "generated_answer": "C) التكيف الهيكلي",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question asks: which word best describes this activity? Options: natural selection, defense mechanism, structural adaptation, behavioral adaptation. The correct is D (behavioral adaptation). Generated answer: C) structural adaptation. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

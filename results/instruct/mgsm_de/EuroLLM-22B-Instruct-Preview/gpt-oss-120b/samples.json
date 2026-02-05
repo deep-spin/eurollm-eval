@@ -1,0 +1,802 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?\nAnswer in English.",
+        "generated_answer": "To determine Janeth's remaining balance after 12 months, let's break down the problem step by step.\n\n1. **Calculate the Total Amount to be Repaid:**\n   \n   Janeth borrowed \\$2000 and agreed to repay it with an additional 10%. \n   \n   \\[\n   \\text{Total Repayment} = \\$2000 + (10\\% \\times \\$2000) = \\$2000 + \\$200 = \\$2200\n   \\]\n\n2. **Calculate the Total Amount Paid in 12 Months:**\n   \n   Janeth pays \\$165 per month for 12 months.\n   \n   \\[\n   \\text{Total Paid} = \\$165 \\times 12 = \\$1980\n   \\]\n\n3. **Determine the Remaining Balance:**\n   \n   Subtract the total amount paid from the total repayment.\n   \n   \\[\n   \\text{Remaining Balance} = \\$2200 - \\$1980 = \\$220\n   \\]\n\n**Final Answer:**\n\n\\[\n\\boxed{220}\n\\]",
+        "ground_truth": 220,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"220\". Generated answer gives detailed steps and final answer 220. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many cars passed through the traffic jam in the first 15 minutes.\n\n1. **Total Cars Initially:**\n   - There are **30 cars** on the highway initially.\n\n2. **Cars Passing Through in the First 15 Minutes:**\n   - Some cars pass through the first 15 minutes of the traffic jam.\n   - Then, **20 more cars** pass through in the remaining 15 minutes.\n\n3. **Cars Not Passing Through:**\n   - **5 cars** leave the line and don't go through the traffic jam.\n\n4. **Calculating the Number of Cars Passing in the First 15 Minutes:**\n   - Let’s denote the number of cars passing in the first 15 minutes as **\\( x \\)**.\n   - After these cars pass, there are **30 - \\( x \\)** cars remaining.\n   - Then, **20 more cars** pass through, so the total cars passing is:\n     \\[\n     x + 20\n     \\]\n   - The total number of cars passing through the traffic jam is the sum of those passing in the first 15 minutes and the next 15 minutes, minus the 5 cars that didn't pass:\n     \\[\n     (x + 20) - 5 = x + 15\n     \\]\n   - This total must equal the original number of cars (30):\n     \\[\n     x + 15 = 30\n     \\]\n   - Solving for \\( x \\):\n     \\[\n     x = 30 - 15 = 15\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{15}\n\\]",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren? Answer in English.\"\n\nGround truth answer: \"5\". So correct answer is 5 cars passed in first 15 minutes. Generated answer says 15. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Violetta will neue Farbstifte kaufen. Sie braucht sie in 5 verschiedenen Farben und sie legte 20 $ für diesen Kauf bereit. Ein Farbstift kostet 2 $. Wie viel Wechselgeld wird sie bekommen?\nAnswer in English.",
+        "generated_answer": "Violetta will buy new colored pencils. She needs them in 5 different colors and she has $20 ready for this purchase. One colored pencil costs $2. How much change will she get?\n\nTo find out how much change Violetta will receive, we need to calculate the total cost of the colored pencils and then subtract that from the amount she has.\n\n1. Calculate the total cost of the colored pencils:\n   - Number of colors needed: 5\n   - Cost per colored pencil: $2\n   - Total cost = Number of colors * Cost per colored pencil\n   - Total cost = 5 * $2 = $10\n\n2. Calculate the change:\n   - Amount Violetta has: $20\n   - Total cost of colored pencils: $10\n   - Change = Amount Violetta has - Total cost\n   - Change = $20 - $10 = $10\n\nSo, Violetta will receive $10 in change.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"10\". Generated answer says she will receive $10 in change. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad bestellte Mach-deinen-eigenen-Burrito zum Mittagessen. Der einfache Burrito kostet 6,50 $. Er fügt extra Fleisch für 2,00 $, extra Käse für 1,00 $, Avocado für 1,00 $ und 2 Saucen für jeweils 0,25 $ hinzu. Er beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen. Er hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Wie viel schuldet er noch?\nAnswer in English.",
+        "generated_answer": "Let's break down Chad's order step by step to determine how much he still owes.\n\n1. **Base Cost of the Burrito:**\n   - Simple Burrito: \\$6.50\n\n2. **Extra Add-ons:**\n   - Extra Meat: \\$2.00\n   - Extra Cheese: \\$1.00\n   - Avocado: \\$1.00\n   - 2 Saucen: 2 × \\$0.25 = \\$0.50\n\n   **Total Add-ons:** \\$2.00 + \\$1.00 + \\$1.00 + \\$0.50 = \\$4.50\n\n3. **Upgrade Fee:**\n   - Upgrade for Chips and Drink: \\$3.00\n\n4. **Gift Card:**\n   - \\$5.00\n\n5. **Total Cost:**\n   - Base + Add-ons + Upgrade + Gift Card\n   - \\$6.50 + \\$4.50 + \\$3.00 + \\$5.00 = \\$19.00\n\n**Final Amount Owed:** \\$0.00 (since he paid with the gift card)\n\n\\boxed{0}",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: compute amount owed. Let's compute: Base 6.50 + extra meat 2.00 + cheese 1.00 + avocado 1.00 + 2 sauces 0.25 each = 0.50. So subtotal = 6.5+2+1+1+0.5 = 11.0. Then upgrade fee 3.00 => total 14.0. Gift card 5.00 applied, so amount owed = 14 - 5 = 9. So ground truth answer is 9. Generated answer says total cost = 19.00 (they incorrectly added gift card as cost) and final owed $0. So it's wrong. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 107,
+        "question": "Frankie sieht jeden Abend, nachdem er seine Hausaufgaben gemacht hat, fern. Am Montag und am Dienstag hat er jeweils eine 1-stündige Folge seiner Lieblingssendung angeschaut. Am Mittwoch hat er einige Folgen einer 30-minütigen Sendung angeschaut. Am Donnerstag hatte er seine Hausaufgaben früher erledigt und eine 1-stündige Folge und eine 30-minütige Show angeschaut. Am Freitag durfte er wegen des Wochenendes später aufbleiben und hat zwei 1-stündige Folgen angeschaut. Wenn er insgesamt 7 Stunden ferngesehen hat, hat er am Mittwoch wie viele 30 Minuten lange Folgen angeschaut?\nAnswer in English.",
+        "generated_answer": "To determine how many 30-minute episodes Frankie watched on Wednesday, let's break down the total viewing time:\n\n1. **Monday:**  \n   - 1 hour = 60 minutes  \n\n2. **Tuesday:**  \n   - 1 hour = 60 minutes  \n\n3. **Wednesday:**  \n   - Let the number of 30-minute episodes be \\( x \\).  \n   - Total time = \\( 30x \\) minutes  \n\n4. **Thursday:**  \n   - 1 hour = 60 minutes  \n   - 30 minutes = 30 minutes  \n   - Total time = \\( 60 + 30 = 90 \\) minutes  \n\n5. **Friday:**  \n   - 2 hours = \\( 2 \\times 60 = 120 \\) minutes  \n\n**Total viewing time:**  \n\\[\n60 \\, (\\text{Monday}) + 60 \\, (\\text{Tuesday}) + 30x \\, (\\text{Wednesday}) + 90 \\, (\\text{Thursday}) + 120 \\, (\\text{Friday}) = 7 \\text{ hours}\n\\]\n\nConvert hours to minutes:  \n\\[\n7 \\text{ hours} = 7 \\times 60 = 420 \\text{ minutes}\n\\]\n\nNow, set up the equation:  \n\\[\n60 + 60 + 30x + 90 + 120 = 420\n\\]\n\nSimplify:  \n\\[\n330 + 30x = 420\n\\]\n\nSolve for \\( x \\):  \n\\[\n30x = 420 - 330\n\\]  \n\\[\n30x = 90\n\\]  \n\\[\nx = \\frac{90}{30} = 3\n\\]\n\n**Answer:**  \nFrankie watched **3** 30-minute episodes on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"3\". Generated answer says \"Frankie watched 3 30-minute episodes on Wednesday.\" That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Ein neues Programm wurde 60-mal im ersten Monat heruntergeladen. Im zweiten Monat lag die Anzahl der Downloads dreimal so hoch wie die Anzahl der Downloads im ersten Monat, brach dann aber im dritten Monat um 30 % ein. Wie oft wurde das Programm insgesamt während dieser drei Monate heruntergeladen?\nAnswer in English.",
+        "generated_answer": "To determine the total number of downloads over the three months, let's break it down step by step:\n\n1. **First Month:**\n   - Downloads: 60\n\n2. **Second Month:**\n   - The number of downloads is three times the first month.\n   - Downloads: \\( 3 \\times 60 = 180 \\)\n\n3. **Third Month:**\n   - The number of downloads decreased by 30% compared to the second month.\n   - Downloads: \\( 180 \\times (1 - 0.30) = 180 \\times 0.70 = 126 \\)\n\n4. **Total Downloads:**\n   - Sum of downloads from all three months.\n   - Total: \\( 60 + 180 + 126 = 366 \\)\n\nSo, the program was downloaded a total of **366 times** during these three months.",
+        "ground_truth": 366,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"366\". Generated answer explains and arrives at 366. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Vier Schulen treten in einem Basketballturnier gegeneinander an. Jede Schule hat ein Mädchenbasketballteam und ein Jungenbasketballteam geschickt und jedes Team hat 5 Spieler. Alle Schulen haben auch einen Trainer für jedes Team mitgeschickt. Wie viele Personen haben die Schulen insgesamt geschickt?\nAnswer in English.",
+        "generated_answer": "To determine the total number of people sent by the four schools, we need to consider both the players and the coaches for each team.\n\n1. **Players:**\n   - Each school has 2 teams (one for girls and one for boys).\n   - Each team has 5 players.\n   - Therefore, each school has \\(2 \\times 5 = 10\\) players.\n   - For 4 schools, the total number of players is \\(4 \\times 10 = 40\\).\n\n2. **Coaches:**\n   - Each school has 2 teams, and each team has 1 coach.\n   - Therefore, each school has 2 coaches.\n   - For 4 schools, the total number of coaches is \\(4 \\times 2 = 8\\).\n\n3. **Total number of people:**\n   - Add the total number of players and coaches: \\(40 + 8 = 48\\).\n\nThus, the schools have sent a total of **48 people**.",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"48\". Generated answer explains and arrives at 48. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa stellt 60 Saisonarbeiter ein, damit sie im Weihnachtsdorf ihres Kaufhauses die Elfen spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben, dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Initial number of elves**:  \n   Nissa starts with **60** seasonal workers.\n\n2. **First wave of resignations**:  \n   A third of the elves quit after children vomit on them.  \n   - Number of elves who quit: \\( \\frac{1}{3} \\times 60 = 20 \\)  \n   - Elves remaining: \\( 60 - 20 = 40 \\)\n\n3. **Second wave of resignations**:  \n   10 of the remaining elves quit after being kicked by children.  \n   - Elves remaining: \\( 40 - 10 = 30 \\)\n\n**Final answer**:  \nThere are **30** elves left.",
+        "ground_truth": 30,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"30\". Generated answer explains and concludes 30. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie hilft im Büro ihrer Mutter. Sie hat einen Stapel mit 60 Briefen, die frankiert werden müssen und einen bereits frankierten Briefstapel. Sie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Wenn sich jetzt in dem Stapel mit den bereits frankierten Briefen 30 Briefe befinden, waren wie viele Briefe in dem Stapel, als Jennie angefangen hat?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many letters were in the stack when Jennie started.\n\n1. **Let \\( x \\) be the total number of letters in the stack when Jennie started.**\n\n2. **Jennie franks one-third of the letters that need to be franked:**\n   \\[\n   \\text{Letters franked} = \\frac{1}{3}x\n   \\]\n\n3. **The remaining letters that need to be franked are:**\n   \\[\n   \\text{Letters remaining} = x - \\frac{1}{3}x = \\frac{2}{3}x\n   \\]\n\n4. **The stack with already franked letters has 30 letters.**\n\n5. **Since Jennie franked one-third of the letters that needed to be franked, the remaining letters that need to be franked are also one-third of the total letters that needed to be franked:**\n   \\[\n   \\frac{2}{3}x = 30\n   \\]\n\n6. **Solve for \\( x \\):**\n   \\[\n   x = 30 \\times \\frac{3}{2} = 45\n   \\]\n\nSo, there were **45 letters** in the stack when Jennie started.\n\n\\boxed{45}",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"10\". Generated answer says 45. They are not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 103,
+        "question": "Ein Nebelschleier kommt vom Meer herüber und legt sich über eine Stadt. Er braucht 10 Minuten, um jeweils 3 Meilen der Stadt zu bedecken. Wenn sich die Stadt vom Meeresufer bis zum gegenüberliegenden Landesinneren über 42 Meilen erstreckt, braucht der Nebelschleier wie viele Minuten, bis er sich über die ganze Stadt gelegt hat?\nAnswer in English.",
+        "generated_answer": "The fog curtain covers 3 miles every 10 minutes. To cover 42 miles, it will take:\n\n\\[\n\\frac{42 \\text{ miles}}{3 \\text{ miles/10 minutes}} \\times 10 \\text{ minutes} = 14 \\times 10 \\text{ minutes} = 140 \\text{ minutes}\n\\]\n\nSo, the fog curtain will take **140 minutes** to cover the entire city.",
+        "ground_truth": 140,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"140\". Generated answer says 140 minutes. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 235,
+        "question": "John bestellt ein paar Pizzas, um sie mit seinen Freunden zu teilen. Es sind 20 Freunde insgesamt, und John will sicherstellen, dass jeder 4 Stück haben kann. Pizzas werden nur in 8 Portionen geschnitten verkauft. Wie viele Pizzas muss John bestellen?\nAnswer in English.",
+        "generated_answer": "To determine how many pizzas John needs to order, let's break down the problem step by step.\n\n1. **Total number of friends**: 20\n2. **Pizzas per friend**: 4\n3. **Total pizzas needed**: \\( 20 \\text{ friends} \\times 4 \\text{ pizzas/friend} = 80 \\text{ pizzas} \\)\n4. **Pizzas per order**: 8 (since pizzas are sold in 8-slice portions)\n\nNow, calculate how many 8-slice pizzas are needed to get at least 80 slices:\n\n\\[\n\\text{Number of pizzas} = \\frac{\\text{Total slices needed}}{\\text{Slices per pizza}} = \\frac{80}{8} = 10\n\\]\n\n**Answer**: John needs to order **10 pizzas**.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"10\". Generated answer says John needs to order 10 pizzas. That's same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 200,
+        "question": "Baldur holt Wasser von einem Brunnen. Er holt jeden Morgen 5 Eimer Wasser und jeden Nachmittag 6 Eimer Wasser. Wenn jeder Eimer 5 Liter Wasser enthält, wie viel Liter Wasser holt er dann jeden Tag?\nAnswer in English.",
+        "generated_answer": "Baldur holt jeden Morgen 5 Eimer Wasser und jeden Nachmittag 6 Eimer Wasser. Jeder Eimer enthält 5 Liter Wasser. \n\n**Tägliche Wassermenge:**\n- **Morgen:** 5 Eimer × 5 Liter/Eimer = 25 Liter\n- **Nachmittag:** 6 Eimer × 5 Liter/Eimer = 30 Liter\n\n**Gesamt:**\n25 Liter + 30 Liter = **55 Liter**\n\nBaldur holt also jeden Tag **55 Liter** Wasser.",
+        "ground_truth": 55,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"55\". Generated answer says 55 liters. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 212,
+        "question": "Gary geht gerne rund um den Rand des örtlichen Parks, der ein Rechteck ist, das 1,5 Meilen auf 6 Meilen misst. Wenn er mit 3 Meilen/Stunde geht, wie viele Stunden verbringt er dann mit Gehen?\nAnswer in English.",
+        "generated_answer": "To determine how many hours Gary spends walking around the perimeter of the park, we first need to calculate the perimeter of the rectangular park. The formula for the perimeter \\( P \\) of a rectangle is:\n\n\\[\nP = 2 \\times (\\text{length} + \\text{width})\n\\]\n\nGiven the dimensions of the park:\n- Length = 6 miles\n- Width = 1.5 miles\n\nSubstitute these values into the formula:\n\n\\[\nP = 2 \\times (6 + 1.5) = 2 \\times 7.5 = 15 \\text{ miles}\n\\]\n\nGary walks at a speed of 3 miles per hour. To find the time \\( t \\) he spends walking, we use the formula:\n\n\\[\nt = \\frac{\\text{distance}}{\\text{speed}}\n\\]\n\nSubstitute the distance (15 miles) and the speed (3 miles per hour):\n\n\\[\nt = \\frac{15}{3} = 5 \\text{ hours}\n\\]\n\nSo, Gary spends **5 hours** walking around the perimeter of the park.",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"5\". The generated answer says 5 hours. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 77,
+        "question": "Wenn Raymond halb so viel Wäsche wäscht wie Sarah, und Sarah 4-mal so viel Wäsche wäscht wie David, berechne den Unterschied in der Wäschemenge, die Raymond und David waschen, wenn Sarah 400 Pfund Wäsche wäscht.\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the difference in the amount of laundry washed by Raymond and David.\n\n### Given:\n1. **Sarah's laundry (S):** 400 pounds\n2. **Raymond's laundry (R):** Half of Sarah's laundry\n3. **David's laundry (D):** 1/4 of Sarah's laundry\n\n### Step 1: Calculate Raymond's laundry (R)\nRaymond washes half as much laundry as Sarah:\n\\[\nR = \\frac{1}{2} \\times S = \\frac{1}{2} \\times 400 = 200 \\text{ pounds}\n\\]\n\n### Step 2: Calculate David's laundry (D)\nDavid washes 1/4 as much laundry as Sarah:\n\\[\nD = \\frac{1}{4} \\times S = \\frac{1}{4} \\times 400 = 100 \\text{ pounds}\n\\]\n\n### Step 3: Find the difference between Raymond and David\n\\[\n\\text{Difference} = R - D = 200 - 100 = 100 \\text{ pounds}\n\\]\n\n### Final Answer:\n\\[\n\\boxed{100}\n\\]",
+        "ground_truth": 100,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"100\". Generated answer gives detailed steps and final answer 100. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 122,
+        "question": "Sadie hat am Montag 8 Stunden geschlafen. An den nächsten beiden Tagen schlief sie 2 Stunden weniger pro Tag, da sie einige Aufgaben zu erledigen hatte. Wenn sie den Rest der Woche über 1 Stunde mehr als an diesen beiden Tagen geschlafen hat, hat sie wie viele Stunden in der Woche insgesamt geschlafen?\nAnswer in English.",
+        "generated_answer": "Let's break down Sadie's sleep schedule step by step to find out how many hours she slept in the entire week.\n\n1. **Monday:**\n   - Sadie slept **8 hours**.\n\n2. **Tuesday and Wednesday:**\n   - She slept **2 hours less** than on Monday.\n   - So, each day she slept:  \n     \\( 8 \\text{ hours} - 2 \\text{ hours} = 6 \\text{ hours} \\).\n   - Total for these two days:  \n     \\( 6 \\text{ hours/day} \\times 2 \\text{ days} = 12 \\text{ hours} \\).\n\n3. **Rest of the week (Thursday, Friday, Saturday, Sunday):**\n   - She slept **1 hour more** than on Tuesday and Wednesday.\n   - So, each day she slept:  \n     \\( 6 \\text{ hours} + 1 \\text{ hour} = 7 \\text{ hours} \\).\n   - Total for these four days:  \n     \\( 7 \\text{ hours/day} \\times 4 \\text{ days} = 28 \\text{ hours} \\).\n\n4. **Total sleep for the week:**\n   - Add Monday, Tuesday and Wednesday, and the rest of the week:  \n     \\( 8 \\text{ hours} + 12 \\text{ hours} + 28 \\text{ hours} = 48 \\text{ hours} \\).\n\n**Final Answer:**  \nSadie slept a total of \\(\\boxed{48}\\) hours in the week.",
+        "ground_truth": 48,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"48\". Generated answer explains and gives 48 hours. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 91,
+        "question": "Jan hat dreimal so viele Haustiere wie Marcia. Marcia hat zwei Haustiere mehr als Cindy. Wenn Cindy vier Haustiere hat, wie viele Haustiere haben dann alle drei zusammen?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n1. **Cindy's pets**:  \n   Cindy has **4 pets**.\n\n2. **Marcia's pets**:  \n   Marcia has **2 more pets than Cindy**, so:  \n   \\( 4 + 2 = 6 \\) pets.\n\n3. **Jan's pets**:  \n   Jan has **3 times as many pets as Marcia**, so:  \n   \\( 3 \\times 6 = 18 \\) pets.\n\n4. **Total pets**:  \n   Add up all the pets:  \n   \\( 4 \\) (Cindy) \\( + 6 \\) (Marcia) \\( + 18 \\) (Jan) \\( = 28 \\) pets.\n\n**Final Answer**:  \nAll three have a total of **28 pets**.",
+        "ground_truth": 28,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"28\". Generated answer explains and gives total 28. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 149,
+        "question": "Charlie hat drei Mal so viele Facebook-Freunde wie Dorothy. James hat vier Mal so viele Freunde auf Facebook wie Dorothy. Wenn Charlie 12 Freunde auf Facebook hat, wie viele Facebook-Freunde hat dann James?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Define the Variables:**\n   - Let \\( D \\) be the number of Facebook friends Dorothy has.\n   - Charlie has three times as many friends as Dorothy: \\( C = 3D \\).\n   - James has four times as many friends as Dorothy: \\( J = 4D \\).\n\n2. **Given Information:**\n   - Charlie has 12 friends: \\( C = 12 \\).\n\n3. **Find Dorothy's Friends:**\n   \\[\n   C = 3D \\\\\n   12 = 3D \\\\\n   D = \\frac{12}{3} \\\\\n   D = 4\n   \\]\n   So, Dorothy has 4 friends.\n\n4. **Calculate James's Friends:**\n   \\[\n   J = 4D \\\\\n   J = 4 \\times 4 \\\\\n   J = 16\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{16}\n\\]",
+        "ground_truth": 16,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"16\". Generated answer explains and gives 16. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 228,
+        "question": "Kalinda arbeitet gerade an einem 360-teiligen Puzzle mit ihrer Mutter. Kalinda kann normalerweise 4 Teile pro Minute hinzufügen. Ihre Mutter kann üblicherweise halb so viele Teile pro Minuten platzieren wie Kalinda. Wie viele Stunden brauchen sie, um das Puzzle zu vervollständigen?\nAnswer in English.",
+        "generated_answer": "To determine how long Kalinda and her mother need to complete the 360-piece puzzle, let's break down the problem step by step.\n\n1. **Determine the rate at which each person works:**\n   - **Kalinda's rate:** 4 pieces per minute.\n   - **Mother's rate:** Half of Kalinda's rate, which is \\( \\frac{4}{2} = 2 \\) pieces per minute.\n\n2. **Calculate their combined rate:**\n   - Together, they can place \\( 4 + 2 = 6 \\) pieces per minute.\n\n3. **Determine the total number of pieces:**\n   - The puzzle has 360 pieces.\n\n4. **Calculate the time required to complete the puzzle:**\n   - Time is calculated by dividing the total number of pieces by the combined rate.\n   - \\( \\text{Time} = \\frac{360 \\text{ pieces}}{6 \\text{ pieces per minute}} = 60 \\text{ minutes} \\).\n\n5. **Convert minutes to hours:**\n   - \\( 60 \\text{ minutes} = 1 \\text{ hour} \\).\n\n**Final Answer:**\n\\[\n\\boxed{1}\n\\]",
+        "ground_truth": 1,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"1\". The question: \"How many hours...?\" So answer is 1 hour. Generated answer says final answer: 1 (implicitly hour). It explains and says 1 hour. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 55,
+        "question": "Jean hat 30 Lutscher. Jean isst 2 der Lutscher. Die verbleibenden Lutscher möchte Jean in eine Tüte mit jeweils 2 Lutschern stecken. Wie viele Tüten kann Jean füllen?\nAnswer in English.",
+        "generated_answer": "Jean starts with 30 lollipops and eats 2, leaving him with 30 - 2 = 28 lollipops.\n\nHe wants to put 2 lollipops in each bag. To find out how many bags he can fill, we divide the number of remaining lollipops by 2:\n\n28 ÷ 2 = 14\n\nSo, Jean can fill 14 bags.",
+        "ground_truth": 14,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"14\". Generated answer explains and concludes \"Jean can fill 14 bags.\" That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 129,
+        "question": "In einem Krankenhaus werden 500 Personen pro Tag untersucht. Jeder Patient wird durchschnittlich 24 Minuten lange untersucht. Die Ärzte berechnen dem Krankenhaus 150 $ pro Stunde, und das Krankenhaus berechnet den Patienten 200 $ pro Stunde. Wie viel Gewinn macht das Krankenhaus mit diesen Konsultationen?\nAnswer in English.",
+        "generated_answer": "To calculate the profit the hospital makes from these consultations, we need to determine the total revenue and the total cost, then subtract the cost from the revenue.\n\n1. **Calculate the total time spent on consultations per day:**\n   - Number of patients per day: 500\n   - Average time per patient: 24 minutes\n   - Total time in minutes: \\( 500 \\times 24 = 12,000 \\) minutes\n\n2. **Convert the total time to hours:**\n   - Total time in hours: \\( \\frac{12,000}{60} = 200 \\) hours\n\n3. **Calculate the revenue:**\n   - Revenue from patients: \\( 500 \\times 200 = 100,000 \\) dollars\n\n4. **Calculate the cost:**\n   - Cost to the hospital (payment to doctors): \\( 200 \\times 200 = 40,000 \\) dollars\n\n5. **Calculate the profit:**\n   - Profit = Revenue - Cost\n   - Profit = \\( 100,000 - 40,000 = 60,000 \\) dollars\n\nTherefore, the hospital makes a profit of **$60,000** per day from these consultations.",
+        "ground_truth": 10000,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In a hospital 500 persons per day, each 24 minutes, doctors charge hospital $150 per hour, hospital charges patients $200 per hour. How much profit does hospital make? Compute: total hours = 500*24/60 = 200 hours. Hospital revenue = 200 hours * $200 = $40,000. Cost = 200 hours * $150 = $30,000. Profit = $10,000. Ground truth answer: 10000. Generated answer says profit $60,000 per day. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 35,
+        "question": "Mike spielt 40 Minuten lang Pingpong. In den ersten 20 Minuten macht er 4 Punkte. In den darauffolgenden 20 Minuten macht er 25 % Punkte mehr. Wie viele Punkte machte er insgesamt?\nAnswer in English.",
+        "generated_answer": "Mike made a total of 100 points.\n\nHere's the calculation:\n\n* In the first 20 minutes, he made 4 points.\n* In the next 20 minutes, he made 25% more points, which is 4 + (0.25 * 4) = 5 points.\n* So, in total, he made 4 + 5 = 100 points.",
+        "ground_truth": 9,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Mike plays 40 minutes pingpong. First 20 minutes makes 4 points. Next 20 minutes makes 25% more points. How many points total? First 20: 4 points. Next 20: 25% more than 4 = 5 points. Total = 9 points. Ground truth says 9. Generated answer says 100 points, with wrong calculation (they sum 4+5=9 but then claim 100). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 72,
+        "question": "Tommy sammelt für seine Wohltätigkeitsorganisation, indem er Brownies für 3 US-Dollar pro Stück und Käsekuchenstücke für 4 US-Dollar pro Stück verkauft. Wenn Tommy 43 Brownies und 23 Käsekuchenstücke verkauft, wie viel Geld sammelt er dann?\nAnswer in English.",
+        "generated_answer": "To calculate the total amount of money Tommy collects, we need to multiply the number of each item sold by its price and then add the results together.\n\nFor the Brownies:\n- Number of Brownies sold: 43\n- Price per Brownie: $3\n- Total from Brownies: \\( 43 \\times 3 = 129 \\) dollars\n\nFor the Käsekuchenstücke:\n- Number of Käsekuchenstücke sold: 23\n- Price per Käsekuchenstück: $4\n- Total from Käsekuchenstücke: \\( 23 \\times 4 = 92 \\) dollars\n\nNow, add the totals from both items:\n- Total money collected: \\( 129 + 92 = 221 \\) dollars\n\nSo, Tommy collects **$221**.",
+        "ground_truth": 221,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"221\". Generated answer says total $221. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 229,
+        "question": "Eine Wassermelonenfarm erzeugt 120 Baby-Wassermelonen. Ashlyn ging nach zwei Monaten zu der Farm und fand heraus, dass 30 % der Wassermelonen reif für die Ernte waren, also nahm sie sie nach Hause. Als sie zwei Wochen später zurückkam, waren 3/4 der verbleibenden Wassermelonen reif, also erntete sie sie. Wie viele Melonen waren nach den zwei Wochen nicht reif, um geerntet zu werden?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many watermelons were not yet ripe after the two weeks.\n\n### **Initial Number of Watermelons:**\n- Total watermelons at the start: **120**\n\n### **First Harvest (After 2 Months):**\n- **30%** of the watermelons are ripe:\n  \\[\n  30\\% \\text{ of } 120 = 0.30 \\times 120 = 36 \\text{ watermelons}\n  \\]\n- **Remaining watermelons after harvest:**\n  \\[\n  120 - 36 = 84 \\text{ watermelons}\n  \\]\n\n### **Second Harvest (After 2 Weeks):**\n- **3/4** of the remaining watermelons are now ripe:\n  \\[\n  \\frac{3}{4} \\text{ of } 84 = \\frac{3}{4} \\times 84 = 63 \\text{ watermelons}\n  \\]\n- **Remaining watermelons after second harvest:**\n  \\[\n  84 - 63 = 21 \\text{ watermelons}\n  \\]\n\n### **Final Answer:**\nAfter the two weeks, **21** watermelons were not yet ripe to be harvested.\n\n\\[\n\\boxed{21}\n\\]",
+        "ground_truth": 21,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"21\". Generated answer explains and concludes 21 watermelons not ripe. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 193,
+        "question": "Sue lebt in einer lustigen Nachbarschaft. An einem Wochenende beschließen ihre Nachbarn Sue einen Streich zu spielen. Am Freitagmorgen stellen die Nachbarn 18 rosa Plastik-Flamingos draußen in Sues Vorgarten. Am Samstagmorgen nahmen die Nachbarn einen Drittel der Flamingos wieder weg, strichen sie weiß und stellten diese frisch gestrichenen weißen Flamingos zurück in Sues Vorgarten. Am Sonntagmorgen fügten sie der Sammlung dann weitere 18 rosa Plastik-Flamingos hinzu. Wie viele rosa Plastik-Flamingos waren am Sonntagnachmittag mehr als weiße Plastik-Flamingos draußen?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many more pink plastic flamingos there were than white plastic flamingos in Sue's front yard by Sunday afternoon.\n\n### Initial Setup:\n- **Initial number of pink flamingos:** 18\n\n### Friday:\n- The neighbors add **18 pink flamingos** to Sue's front yard.\n- **Total pink flamingos after Friday:** 18 (initial) + 18 (added) = **36 pink flamingos**\n\n### Saturday:\n- The neighbors take away **one-third** of the pink flamingos.\n  - One-third of 36 is \\( \\frac{36}{3} = 12 \\) pink flamingos.\n- They **paint these 12 pink flamingos white** and place them back in the front yard.\n- **Remaining pink flamingos after Saturday:** 36 (initial) - 12 (taken) = **24 pink flamingos**\n- **Total white flamingos after Saturday:** 12 (painted white)\n\n### Sunday:\n- The neighbors add **18 more pink flamingos** to the front yard.\n- **Total pink flamingos after Sunday:** 24 (remaining) + 18 (added) = **42 pink flamingos**\n\n### Final Count:\n- **Pink flamingos:** 42\n- **White flamingos:** 12\n\n### Difference:\n- **42 (pink) - 12 (white) = 30**\n\nSo, by Sunday afternoon, there were **30 more pink plastic flamingos** than white plastic flamingos in Sue's front yard.\n\n**Answer:** 30",
+        "ground_truth": 24,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"24\". The generated answer says 30 more pink than white. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 24,
+        "question": "Kyle hat den Bestseller des vergangenen Jahres für 19,50 US-Dollar gekauft. Das ist mit einem Rabatt von 25 % auf den ursprünglichen Preis. Wie hoch war der ursprüngliche Preis des Buches?\nAnswer in English.",
+        "generated_answer": "To find the original price of the book, we can use the information that Kyle bought it for $19.50 after a 25% discount. \n\nLet \\( P \\) be the original price. A 25% discount means Kyle paid 75% of the original price. \n\nWe can set up the equation:\n\\[ 0.75P = 19.50 \\]\n\nTo find \\( P \\), divide both sides by 0.75:\n\\[ P = \\frac{19.50}{0.75} \\]\n\\[ P = 26 \\]\n\nSo, the original price of the book was **$26**.",
+        "ground_truth": 26,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"26\". The generated answer says original price was $26. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 158,
+        "question": "Raphael ging einige Schulsachen kaufen. Er kaufte 4 Stifte, die jeweils 1,5 $ kosten, 2 Hefte, die jeweils 4 $ kosten und ein Ries Schreibpapier, das 20 $ kostet. Wie viel gab er für alles aus?\nAnswer in English.",
+        "generated_answer": "Raphael spent a total of 4 * $1.5 = $6 on pens.\nHe spent a total of 2 * $4 = $8 on notebooks.\nHe spent a total of $20 on a large pad of paper.\nTherefore, Raphael spent a total of $6 + $8 + $20 = $34 on all his school supplies.",
+        "ground_truth": 34,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"34\". Generated answer says total $34. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 204,
+        "question": "Janet hatte 22 grüne Stifte und 10 gelbe Stifte. Dann kaufte sie 6 Beutel blaue Stifte und 2 Beutel rote Stifte. Es waren 9 Stifte in jedem Beutel der Blauen und 6 Stifte in jedem Beutel der Roten. Wie viele Stifte hat Janet jetzt?\nAnswer in English.",
+        "generated_answer": "Janet originally had 22 green and 10 yellow pencils, totaling 32 pencils. She then bought 6 bags of blue pencils and 2 bags of red pencils. Each bag of blue pencils contained 9 pencils, and each bag of red pencils contained 6 pencils. So, she bought 6 * 9 = 54 blue pencils and 2 * 6 = 12 red pencils. In total, she bought 54 + 12 = 66 pencils. Therefore, Janet now has 32 + 66 = 98 pencils.",
+        "ground_truth": 98,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"98\". Generated answer explains calculation and concludes \"Therefore, Janet now has 32 + 66 = 98 pencils.\" So it matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 64,
+        "question": "Sophia denkt darüber nach, eine Autofahrt mit ihrem Auto zu machen und möchte wissen, wie weit sie mit einem Tank voll Benzin kommen wird. Seit der letzten Tankfüllung ist sie 100 Meilen gefahren, und sie musste 4 Gallonen Benzin nachfüllen, um den Tank wieder ganz aufzufüllen. In der Bedienungsanleitung für ihr Auto steht geschrieben, dass in ihren Tank 12 Gallonen Benzin passen. Wie viele Meilen kann Sophia mit einer einzigen Tankfüllung fahren?\nAnswer in English.",
+        "generated_answer": "To determine how many miles Sophia can drive with a full tank of gas, we need to calculate her car's fuel efficiency. Here's how we can do it step by step:\n\n1. **Total Gas Consumed**: Sophia used 4 gallons of gas to fill her tank to full capacity.\n2. **Total Gas Capacity**: Her tank can hold 12 gallons of gas.\n3. **Gas Efficiency**: To find out how many miles she can drive per gallon, we divide the total miles driven by the total gallons used:\n   \\[\n   \\text{Miles per gallon} = \\frac{100 \\text{ miles}}{4 \\text{ gallons}} = 25 \\text{ miles per gallon}\n   \\]\n4. **Total Miles on a Full Tank**: Now, we multiply the miles per gallon by the total capacity of the tank:\n   \\[\n   \\text{Total miles on a full tank} = 25 \\text{ miles per gallon} \\times 12 \\text{ gallons} = 300 \\text{ miles}\n   \\]\n\nSo, Sophia can drive **300 miles** with a single tank full of gas.",
+        "ground_truth": 300,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"300\". Generated answer says 300 miles. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 136,
+        "question": "Es gibt noch 27 Einhörner auf der Welt. Ein Drittel davon befindet sich im schottischen Hochland. Zwei Drittel der schottischen Einhörner sind Weibchen. Wie viele schottische Einhorn-Weibchen gibt es?\nAnswer in English.",
+        "generated_answer": "To find out how many Scottish unicorn females there are, we can break down the problem step by step:\n\n1. **Total unicorns in the world**: 27\n2. **Unicorns in the Scottish Highlands**: One-third of 27\n   \\[\n   \\frac{1}{3} \\times 27 = 9\n   \\]\n3. **Female unicorns in the Scottish Highlands**: Two-thirds of the 9 unicorns in the Scottish Highlands\n   \\[\n   \\frac{2}{3} \\times 9 = 6\n   \\]\n\nSo, there are **6 Scottish unicorn females**.",
+        "ground_truth": 6,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"6\". Generated answer says there are 6 Scottish unicorn females. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 180,
+        "question": "Zwei Kandidaten bewerben sich als Klassensprecher in Sarais Schule. Berechnen Sie die Anzahl Stimmen, die der Verlierer bekam, wenn der Gewinner 3/4 der Stimmen erhielt und die Gesamtzahl der Schüler, die in der Klasse wählten, 80 betrug.\nAnswer in English.",
+        "generated_answer": "To determine the number of votes the loser received, we can follow these steps:\n\n1. **Total Votes Cast**: The total number of students who voted is 80.\n2. **Votes for the Winner**: The winner received \\( \\frac{3}{4} \\) of the total votes.\n3. **Votes for the Loser**: The loser received the remaining votes.\n\nLet's calculate:\n\n- **Winner's Votes**: \\( \\frac{3}{4} \\times 80 = 60 \\) votes\n- **Loser's Votes**: \\( 80 - 60 = 20 \\) votes\n\nSo, the loser received **20 votes**.",
+        "ground_truth": 20,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"20\". Generated answer says loser received 20 votes. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 207,
+        "question": "In Joes Süßigkeitentüte von Halloween sind 25 Schokoladenriegel und 80 kandierte Äpfel. Jeder Schokoladenriegel wiegt doppelt so viel wie jeder kandierte Apfel. Wenn jeder Schokoladenriegen 40 g wiegt, wie viel wiegt dann Joes Süßigkeitentüte in Gramm?\nAnswer in English.",
+        "generated_answer": "To determine the total weight of Joe's candy bag, we need to calculate the weight of the chocolate bars and the candied apples separately and then add them together.\n\n1. **Weight of the chocolate bars:**\n   - Each chocolate bar weighs 40 grams.\n   - There are 25 chocolate bars.\n   - Total weight of chocolate bars = \\( 25 \\times 40 = 1000 \\) grams.\n\n2. **Weight of the candied apples:**\n   - Each candied apple weighs half the weight of a chocolate bar, so \\( \\frac{40}{2} = 20 \\) grams.\n   - There are 80 candied apples.\n   - Total weight of candied apples = \\( 80 \\times 20 = 1600 \\) grams.\n\n3. **Total weight of the candy bag:**\n   - Total weight = Weight of chocolate bars + Weight of candied apples\n   - Total weight = \\( 1000 + 1600 = 2600 \\) grams.\n\nTherefore, Joe's candy bag weighs **2600 grams**.",
+        "ground_truth": 2600,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"2600\". The generated answer gives explanation and concludes 2600 grams. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 154,
+        "question": "Montags, mittwochs und freitags hat College-Student Kimo drei 1-stündige Kurse pro Tag. Dienstags und Donnerstags hat er zwei 2-stündige Kurse pro Tag. Ein Semester hat 16 Schulwochen. Wie viele Stunden verbringt Kimo in einem Semester mit Kursbesuchen?\nAnswer in English.",
+        "generated_answer": "To calculate the total number of hours Kimo spends in a semester with course visits, we need to break down his schedule and then sum up the hours for each day of the week.\n\n**Monday, Wednesday, Friday:**\n- 3 one-hour courses per day\n- Total hours per day: \\(3 \\times 1 = 3\\) hours\n- Total hours for these three days: \\(3 \\times 3 = 9\\) hours\n\n**Tuesday, Thursday:**\n- 2 two-hour courses per day\n- Total hours per day: \\(2 \\times 2 = 4\\) hours\n- Total hours for these two days: \\(4 \\times 2 = 8\\) hours\n\n**Total hours per week:**\n- \\(9 + 8 = 17\\) hours\n\n**Total hours for 16 weeks:**\n- \\(17 \\times 16 = 272\\) hours\n\nSo, Kimo spends **272 hours** in a semester with course visits.",
+        "ground_truth": 272,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"272\". Generated answer says 272 hours. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 37,
+        "question": "John plant, sein gesamtes Spielzeug zu verkaufen und mit dem Erlös Videospiele zu kaufen. Er hat 13 Lego-Sets und verkauft sie für 15 US-Dollar pro Stück. Letztendlich kauft er 8 Videospiele für 20 US-Dollar pro Stück und hat noch 5 US-Dollar übrig. Wie viele Lego-Sets bleiben ihm noch?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many Lego sets John has left.\n\n1. **Calculate the total amount of money John earns from selling Lego sets:**\n   - John sells 13 Lego sets at $15 each.\n   - Total earnings = 13 × $15 = $195.\n\n2. **Calculate the total amount of money John spends on video games:**\n   - John buys 8 video games at $20 each.\n   - Total spending = 8 × $20 = $160.\n\n3. **Determine how much money John has left after buying the video games:**\n   - John has $5 left after his purchases.\n\n4. **Calculate how much money John had initially:**\n   - Total earnings from Lego sets ($195) + money left ($5) = $200.\n\n5. **Find out how many Lego sets John sold:**\n   - Since each Lego set is sold for $15, the number of Lego sets sold is:\n     - Number of Lego sets sold = Total earnings / Price per Lego set\n     - Number of Lego sets sold = $195 / $15 = 13 sets.\n\n6. **Determine how many Lego sets John has left:**\n   - John originally had 13 Lego sets.\n   - After selling 13 sets, he has 0 sets left.\n\n**Final Answer:** John has **0 Lego sets** left.",
+        "ground_truth": 2,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"2\". The question: John plant ... How many Lego sets remain? The correct answer likely is 2 (since he sold some, had leftover). The generated answer says 0. So they differ. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "John adoptiert einen Hund. Er bringt den Hund zum Hundefrisör, was 100 US-Dollar kostet. Der Hundefrisör bietet ihm einen Rabatt von 30 % an, da er Neukunde ist. Wie viel kostet die Sitzung beim Hundefrisör?\nAnswer in English.",
+        "generated_answer": "The cost of the dog grooming session after the 30% discount is:\n\n100 US dollars - (30% of 100 US dollars) = 100 US dollars - 30 US dollars = 70 US dollars.\n\nSo, the session costs 70 US dollars.",
+        "ground_truth": 70,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"70\". The generated answer says 70 US dollars. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 25,
+        "question": "Marie hat ein Hühnchengericht für 12 US-Dollar bestellt, 5 Packungen Milch für jeweils 3 US-Dollar, 4 Äpfel für jeweils 1,50 US-Dollar und ein paar Schachteln Pizza. Marie hat insgesamt 50 US-Dollar bezahlt. Wie viele Schachteln Pizza hat Marie bestellt, wenn jede Schachtel 8,50 US-Dollar kostet?\nAnswer in English.",
+        "generated_answer": "To determine how many boxes of pizza Marie ordered, let's break down the costs of the items she purchased and then solve for the unknown number of pizza boxes.\n\n1. **Cost of the chicken dish:**  \n   \\( 1 \\text{ chicken dish} = \\$12 \\)\n\n2. **Cost of the milk:**  \n   \\( 5 \\text{ packets} \\times \\$3 = \\$15 \\)\n\n3. **Cost of the apples:**  \n   \\( 4 \\text{ apples} \\times \\$1.50 = \\$6 \\)\n\n4. **Total cost of known items:**  \n   \\( \\$12 + \\$15 + \\$6 = \\$33 \\)\n\n5. **Total amount paid:**  \n   \\( \\$50 \\)\n\n6. **Cost of the pizza boxes:**  \n   \\( \\$50 - \\$33 = \\$17 \\)\n\n7. **Number of pizza boxes:**  \n   \\( \\frac{\\$17}{\\$8.50 \\text{ per box}} = 2 \\text{ boxes} \\)\n\n**Final Answer:**  \nMarie ordered **2** boxes of pizza.",
+        "ground_truth": 2,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"2\". Generated answer says Marie ordered 2 boxes of pizza. That's same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 186,
+        "question": "Russell arbeitet in einer Tierhandlung und verteilt gerade Stroh unter den Nagetieren. Die Ratten werden in 3 Käfigen in gleich großen Gruppen gehalten und jeder Ratte 6 Strohhalme gegeben. Es gibt 10 Käfige von Hamstern, die allein gehalten werden, und jedem Hamster werden 5 Strohhalme gegeben. Es gibt auch einen Hasenstall, in dem 20 Strohhalme unter den Hasen verteilt werden. Überall sonst in dem Laden wird kein Stroh verteilt. Wenn 160 Strohhalme unter den kleinen Nagetieren verteil wurden, wie viele Ratten sind dann in jedem Käfig?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many rats are in each cage.\n\n### Given:\n1. **Rats**:\n   - Number of cages: 10\n   - Each cage has an equal number of rats.\n   - Each rat gets 6 straw halves.\n   - Total straw halves distributed to rats: 160\n\n2. **Hamsters**:\n   - Number of cages: 10\n   - Each hamster is alone in its cage.\n   - Each hamster gets 5 straw halves.\n   - Total straw halves distributed to hamsters: 0 (since no straw is given to hamsters).\n\n3. **Hares**:\n   - Number of straw halves distributed to hares: 20\n   - Each hare gets 1 straw half.\n   - Number of hares: 20\n\n### Step 1: Calculate the total straw halves distributed to hamsters.\nSince no straw is given to hamsters, the total straw halves distributed to hamsters is:\n\\[\n0\n\\]\n\n### Step 2: Calculate the total straw halves distributed to hares.\nEach hare gets 1 straw half, so the total straw halves distributed to hares is:\n\\[\n20\n\\]\n\n### Step 3: Calculate the total straw halves distributed to rats.\nThe total straw halves distributed to rats is the total straw halves distributed in the store minus the straw halves given to hamsters and hares:\n\\[\n160 - 0 - 20 = 140\n\\]\n\n### Step 4: Determine the number of straw halves per rat.\nEach rat gets 6 straw halves, so the total straw halves distributed to rats can also be expressed as:\n\\[\n10 \\text{ cages} \\times \\text{number of rats per cage} \\times 6 = 140\n\\]\nLet \\( r \\) be the number of rats per cage. Then:\n\\[\n10 \\times r \\times 6 = 140\n\\]\n\\[\n60r = 140\n\\]\n\\[\nr = \\frac{140}{60} = \\frac{7}{3}\n\\]\n\nHowever, the number of rats per cage must be a whole number. This suggests there might be an error in the problem statement or the given numbers. But based on the calculations:\n\n\\[\nr = \\frac{7}{3} \\approx 2.33\n\\]\n\nSince the number of rats per cage must be a whole number, we can conclude that the problem as stated has no solution with whole numbers.\n\n### Final Answer:\nThe problem as stated has no solution with whole numbers.",
+        "ground_truth": 5,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"5\". The question: \"If 160 straw halves were distributed among the small rodents, how many rats are in each cage?\" The correct answer is 5 rats per cage. The generated answer says no solution, gives fractional 7/3, says problem has no solution. That does not match \"5\". So answer is false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "Claire bereitet sich jeden Morgen zum Frühstück ein Omelett aus 3 Eiern zu. Wie viele Dutzend Eier isst sie innerhalb von 4 Wochen?\nAnswer in English.",
+        "generated_answer": "To determine how many dozens of eggs Claire eats in 4 weeks, let's break it down step by step:\n\n1. **Eggs per day**: Claire eats 3 eggs per day.\n2. **Days in a week**: There are 7 days in a week.\n3. **Eggs per week**: \\( 3 \\, \\text{eggs/day} \\times 7 \\, \\text{days/week} = 21 \\, \\text{eggs/week} \\).\n4. **Weeks in 4 weeks**: \\( 4 \\, \\text{weeks} \\).\n5. **Total eggs in 4 weeks**: \\( 21 \\, \\text{eggs/week} \\times 4 \\, \\text{weeks} = 84 \\, \\text{eggs} \\).\n6. **Eggs in dozens**: \\( 84 \\, \\text{eggs} \\div 12 \\, \\text{eggs/dozen} = 7 \\, \\text{dozens} \\).\n\nSo, Claire eats **7 dozen eggs** in 4 weeks.",
+        "ground_truth": 7,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"7\". The question: \"How many dozens of eggs does she eat within 4 weeks?\" The answer is 7 (dozens). Generated answer says \"7 dozen eggs\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 175,
+        "question": "Juan und sein Bruder Carlos verkaufen gerade Limonade. Jede Gallone, die sie machen, kostet 3 $ für Zitronen und 2 $ für Zucker. Sie verkaufen jedes Glas für 0,50 $ und holen 20 Gläser pro Gallone heraus. Wenn Sie 25 $ Profit machten, wie viel hatten sie dann für Zitronen ausgegeben?\nAnswer in English.",
+        "generated_answer": "To determine how much Juan and Carlos spent on lemons, let's break down the problem step by step.\n\n1. **Calculate the total revenue from selling the lemonade:**\n   - Each gallon yields 20 glasses.\n   - Each glass is sold for $0.50.\n   - Therefore, the revenue per gallon is:\n     \\[\n     20 \\text{ glasses} \\times \\$0.50/\\text{glass} = \\$10\n     \\]\n   - If they made a profit of $25, the total revenue must have been:\n     \\[\n     \\text{Total Revenue} = \\text{Profit} + \\text{Cost} = \\$25 + \\text{Cost of Lemons}\n     \\]\n   - Since they made 25$ profit, the total revenue is:\n     \\[\n     \\$25 + \\text{Cost of Lemons} = \\$10 \\times \\text{Number of Gallons Sold}\n     \\]\n   - Let \\( x \\) be the number of gallons sold. Then:\n     \\[\n     \\$25 + \\text{Cost of Lemons} = \\$10x\n     \\]\n\n2. **Calculate the total cost of lemons:**\n   - The cost of lemons per gallon is $3.\n   - Therefore, the total cost of lemons is:\n     \\[\n     \\text{Cost of Lemons} = 3x\n     \\]\n   - Substitute this into the revenue equation:\n     \\[\n     \\$25 + 3x = \\$10x\n     \\]\n\n3. **Solve for \\( x \\):**\n   \\[\n   \\$25 + 3x = \\$10x\n   \\]\n   \\[\n   25 = 10x - 3x\n   \\]\n   \\[\n   25 = 7x\n   \\]\n   \\[\n   x = \\frac{25}{7} \\approx 3.57 \\text{ gallons}\n   \\]\n\n4. **Calculate the total cost of lemons:**\n   \\[\n   \\text{Cost of Lemons} = 3x = 3 \\times \\frac{25}{7} = \\frac{75}{7} \\approx \\$10.71\n   \\]\n\nTherefore, Juan and Carlos spent approximately **$10.71** on lemons.",
+        "ground_truth": 15,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Juan und sein Bruder Carlos verkaufen gerade Limonade... If they made $25 profit, how much had they spent on lemons?\" Ground truth answer: 15. So correct answer is $15. Generated answer says approximately $10.71. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 84,
+        "question": "Ein Fußballteam spielt 22 Spiele. Sie haben 8 mehr gewonnen als verloren. Wie viele haben sie gewonnen?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Problem Statement:**\nA football team plays 22 games. They have won 8 more games than they have lost. How many games have they won?\n\n**Solution:**\n\n1. **Define Variables:**\n   - Let \\( W \\) be the number of games won.\n   - Let \\( L \\) be the number of games lost.\n\n2. **Set Up the Equations:**\n   - The total number of games played is 22:\n     \\[\n     W + L = 22\n     \\]\n   - The team has won 8 more games than they have lost:\n     \\[\n     W = L + 8\n     \\]\n\n3. **Substitute and Solve:**\n   - Substitute the second equation into the first:\n     \\[\n     (L + 8) + L = 22\n     \\]\n   - Combine like terms:\n     \\[\n     2L + 8 = 22\n     \\]\n   - Subtract 8 from both sides:\n     \\[\n     2L = 14\n     \\]\n   - Divide both sides by 2:\n     \\[\n     L = 7\n     \\]\n   - Now, substitute \\( L = 7 \\) back into the second equation to find \\( W \\):\n     \\[\n     W = 7 + 8 = 15\n     \\]\n\n**Answer:**\nThe team has won \\(\\boxed{15}\\) games.",
+        "ground_truth": 15,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"15\". Generated answer: explains and concludes \"The team has won 15 games.\" That's same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 120,
+        "question": "Miguel verwendet 2 Blätter Papier pro Woche für seine Zeichnungen. Wenn ein Zeichenblock 30 Blätter Papier hat, wie viele Blätter Papier verbraucht er dann pro Monat?\nAnswer in English.",
+        "generated_answer": "Miguel uses 2 sheets of paper per week for his drawings. Since there are 4 weeks in a month, he uses 2 sheets/week * 4 weeks/month = 8 sheets of paper per month.\n\nIf a drawing block has 30 sheets of paper, then Miguel will use 8 sheets/month * 30 sheets/block = 240 sheets of paper per month.\n\nSo, Miguel will use 240 sheets of paper per month.",
+        "ground_truth": 240,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"240\". The generated answer says: \"Miguel uses 2 sheets per week... 4 weeks => 8 sheets per month. If a drawing block has 30 sheets, then Miguel will use 8 sheets/month * 30 sheets/block = 240 sheets of paper per month. So, Miguel will use 240 sheets of paper per month.\" That matches ground truth numeric answer 240. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 143,
+        "question": "John kauft Milch für 2 Dollar, Eier für 3 Dollar, Glühbirnen für 3 Dollar, Tassen für 3 Dollar und Kakerlakenfallen für 4 Dollar. Wenn es 10 % Steuer auf alle Non-Food-Artikel gibt, sind die Kosten wie hoch.\nAnswer in English.",
+        "generated_answer": "To calculate the total cost including the 10% tax on all non-food items, we first need to determine the subtotal for the non-food items and then add the tax.\n\nNon-food items:\n- Milk: $2\n- Eggs: $3\n- Light bulbs: $3\n- Cups: $3\n- Roach motels: $4\n\nTotal non-food items: $2 + $3 + $3 + $3 + $4 = $15\n\nNow, calculate the tax:\n10% of $15 = 0.10 * $15 = $1.50\n\nTotal cost including tax:\n$15 (non-food items) + $1.50 (tax) = $16.50\n\nSo, the total cost is $16.50.",
+        "ground_truth": 16,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: John buys milk $2, eggs $3, light bulbs $3, cups $3, roach traps $4. 10% tax on all non-food items. Compute cost. Milk and eggs are food? Probably food items are milk and eggs, non-food are light bulbs, cups, roach traps. So tax applies to those three: $3+$3+$4 = $10, tax $1, total = sum all items $2+$3+$3+$3+$4 = $15 plus tax $1 = $16. So answer should be $16. Ground truth says \"16\". Generated answer says $16.50, treating all items as non-food. That's incorrect. So meaning not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 215,
+        "question": "Lori will ein Paar Schuhe für 320,00 $ und einen passenden Gürtel, der 32,00 $ kostet, kaufen. Bei ihrem Teilzeitjob bezahlt man ihr 8,00 $ pro Stunde. Wie viele Stunden muss sie arbeiten, bevor sie ihren Einkauf tätigen kann?\nAnswer in English.",
+        "generated_answer": "To determine how many hours Lori needs to work to afford her purchase, let's break down the costs and her earnings:\n\n1. **Total Cost of Purchase:**\n   - Shoes: \\$320.00\n   - Belt: \\$32.00\n   - **Total:** \\$320.00 + \\$32.00 = **\\$352.00**\n\n2. **Lori's Earnings:**\n   - She earns **\\$8.00 per hour**.\n\n3. **Calculating Hours Needed:**\n   \\[\n   \\text{Hours} = \\frac{\\text{Total Cost}}{\\text{Hourly Wage}} = \\frac{\\$352.00}{\\$8.00/\\text{hour}} = 44 \\text{ hours}\n   \\]\n\n**Answer:** Lori needs to work **44 hours** to afford her purchase.",
+        "ground_truth": 44,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"44\". Generated answer says 44 hours. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 90,
+        "question": "Ted der T-Rex plant, Kartoffelsalat zum Dinopicknick mitzubringen. Er weiß, dass ein erwachsener Dinosaurier 10 Pfund Kartoffelsalat isst, und ein Junges halb so viel isst wie ein erwachsenes Tier. Wenn am Picknick 20 Erwachsene und 5 Junge teilnehmen, muss Ted wie viel Kartoffelsalat zum Picknick mitbringen, wenn er die Hoffnung hat, alle satt zu bekommen?\nAnswer in English.",
+        "generated_answer": "To determine how much potato salad Ted needs to bring, let's break down the problem step by step.\n\n1. **Calculate the amount of potato salad consumed by adults:**\n   - Each adult eats 10 pounds of potato salad.\n   - There are 20 adults.\n   - Total for adults: \\( 20 \\times 10 = 200 \\) pounds.\n\n2. **Calculate the amount of potato salad consumed by juveniles:**\n   - Each juvenile eats half as much as an adult, so \\( \\frac{10}{2} = 5 \\) pounds.\n   - There are 5 juveniles.\n   - Total for juveniles: \\( 5 \\times 5 = 25 \\) pounds.\n\n3. **Calculate the total amount of potato salad needed:**\n   - Total potato salad: \\( 200 + 25 = 225 \\) pounds.\n\nTed needs to bring **225 pounds** of potato salad to ensure everyone at the picnic is satisfied.",
+        "ground_truth": 225,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"225\". Generated answer says 225 pounds of potato salad. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 111,
+        "question": "Julias Boot hatte ein Leck als sie auf dem See draußen war. Das Boot hat für alle zehn Fuß, die sie zurück zum Ufer gerudert ist, zwei Liter Wasser geschluckt. Sie brauchte sechzehn Sekunden, um zwanzig Fuß zu rudern. Der Strand war 64 Sekunden entfernt. Wie viel Wasser hatte das Boot geschluckt, als Julia den Strand erreichte?\nAnswer in English.",
+        "generated_answer": "To determine how much water Julia's boat had swallowed when she reached the shore, we need to calculate the total distance she rowed and then use the rate at which the boat swallowed water.\n\n1. **Calculate the total distance rowed:**\n   - Julia took 64 seconds to reach the shore.\n   - She rowed 20 feet in 16 seconds.\n   - To find out how many 16-second intervals are in 64 seconds, we divide 64 by 16:\n     \\[\n     \\frac{64}{16} = 4\n     \\]\n   - Therefore, Julia rowed for 4 intervals of 16 seconds each.\n   - Since she rowed 20 feet in each 16-second interval, the total distance rowed is:\n     \\[\n     4 \\times 20 = 80 \\text{ feet}\n     \\]\n\n2. **Calculate the total water swallowed:**\n   - The boat swallows 2 liters of water for every 10 feet rowed.\n   - For 80 feet, the total water swallowed is:\n     \\[\n     \\frac{80}{10} \\times 2 = 8 \\times 2 = 16 \\text{ liters}\n     \\]\n\nThus, the boat had swallowed **16 liters** of water when Julia reached the shore.",
+        "ground_truth": 16,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"16\". Likely meaning 16 liters. Generated answer says 16 liters. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 80,
+        "question": "Zwei Mädchen bekamen jeweils 1/6 der 24 Liter Wasser. Dann bekam ein Junge 6 Liter Wasser. Wie viele Liter Wasser blieben übrig?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many liters of water are left.\n\n1. **Initial Amount of Water:**\n   - The total amount of water is **24 liters**.\n\n2. **Water Given to the Two Girls:**\n   - Each girl receives \\( \\frac{1}{6} \\) of the total water.\n   - Since there are two girls:\n     \\[\n     2 \\times \\frac{1}{6} \\times 24 = \\frac{2}{6} \\times 24 = \\frac{1}{3} \\times 24 = 8 \\text{ liters}\n     \\]\n   - **Total water given to the girls:** **8 liters**\n\n3. **Water Given to the Boy:**\n   - The boy receives **6 liters** of water.\n\n4. **Total Water Distributed:**\n   - Add the water given to the girls and the boy:\n     \\[\n     8 \\text{ liters} + 6 \\text{ liters} = 14 \\text{ liters}\n     \\]\n\n5. **Water Remaining:**\n   - Subtract the total distributed water from the initial amount:\n     \\[\n     24 \\text{ liters} - 14 \\text{ liters} = 10 \\text{ liters}\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{10}\n\\]",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"10\". Generated answer explains and gives final answer 10. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 156,
+        "question": "Der Zoowärter füttert alle Affen in dem Zoo. Alle 2 Monate bestellt er alle Bananen bei einer lokalen Farm. Wenn jeden Monat die Affen 200 Bananen, die Gorillas 400 Bananen und die Paviane 100 Bananen brauchen, wie viele Bananen muss er bestellen, um 2 Monate zu überdauern?\nAnswer in English.",
+        "generated_answer": "To determine how many bananas the zookeeper needs to order to last 2 months, we first calculate the total number of bananas consumed by all the animals in one month and then double that amount for 2 months.\n\n1. **Monthly consumption:**\n   - Affen (monkeys): 200 bananas\n   - Gorillas: 400 bananas\n   - Paviane (pavs): 100 bananas\n\n   **Total per month:**  \n   \\( 200 + 400 + 100 = 700 \\) bananas\n\n2. **Total consumption for 2 months:**  \n   \\( 700 \\times 2 = 1400 \\) bananas\n\nThe zookeeper needs to order **1400 bananas** to ensure there are enough for 2 months.",
+        "ground_truth": 1400,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"1400\". Generated answer says 1400 bananas. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 163,
+        "question": "In einem Zimmer gibt es verschiedenes Spielzeug: 5 rote Autos, 3 Actionfiguren und eine Puppe. Die Puppe kostet so viel wie 3 Actionfiguren, und ein rotes Auto kostet 4 $. Wie viel ist das ganze Spielzeug wert, wenn eine Actionfigur 5 $ kostet?\nAnswer in English.",
+        "generated_answer": "To determine the total value of the toys, let's break down the costs step by step:\n\n1. **Cost of one red car**:  \n   Given as **$4**.\n\n2. **Cost of one action figure**:  \n   Given as **$5**.\n\n3. **Cost of the puppet**:  \n   The puppet costs as much as **3 action figures**, so:  \n   \\( 3 \\times 5 = 15 \\) dollars.\n\n4. **Total number of each item**:  \n   - Red cars: **5**  \n   - Action figures: **3**  \n   - Puppets: **1**\n\n5. **Calculate the total cost**:  \n   - Cost of red cars: \\( 5 \\times 4 = 20 \\) dollars.  \n   - Cost of action figures: \\( 3 \\times 5 = 15 \\) dollars.  \n   - Cost of the puppet: **15** dollars.  \n\n   Adding these together:  \n   \\( 20 + 15 + 15 = 50 \\) dollars.\n\n**Final Answer**:  \nThe whole toy collection is worth **$50**.",
+        "ground_truth": 50,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"50\". Generated answer says total value is $50. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 52,
+        "question": "Uriah wird seine Büchertasche zu schwer. Er muss 15 Pfund daraus entnehmen. Seine Comicbücher wiegen pro Stück 1/4 Pfund und seine Spielzeuge jeweils 1/2 Pfund. Wenn er 30 Comicbücher rausnimmt, wie viele Spielzeuge muss er dann noch rausnehmen?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many toys Uriah needs to remove to reduce the weight of his book bag by 15 pounds.\n\n### **1. Calculate the weight of the comic books:**\n- **Weight per comic book:** \\( \\frac{1}{4} \\) pound\n- **Number of comic books removed:** 30\n\n\\[\n\\text{Total weight of comic books} = 30 \\times \\frac{1}{4} = 7.5 \\text{ pounds}\n\\]\n\n### **2. Determine the remaining weight to be removed:**\n- **Total weight to remove:** 15 pounds\n- **Weight already removed (comic books):** 7.5 pounds\n\n\\[\n\\text{Remaining weight to remove} = 15 - 7.5 = 7.5 \\text{ pounds}\n\\]\n\n### **3. Calculate the number of toys to remove:**\n- **Weight per toy:** \\( \\frac{1}{2} \\) pound\n\n\\[\n\\text{Number of toys to remove} = \\frac{7.5}{\\frac{1}{2}} = 7.5 \\times 2 = 15 \\text{ toys}\n\\]\n\n### **Final Answer:**\nUriah needs to remove **15 toys** to reduce the weight of his book bag by 15 pounds.\n\n\\[\n\\boxed{15}\n\\]",
+        "ground_truth": 15,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"15\". Generated answer says 15 toys. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 141,
+        "question": "Es gibt 700 Bienen in einem Bienenstock. Es gibt zwei Mal so viele Arbeiterbienen wie Babybienen, und es gibt zweimal so viele Babys wie Königinnen. Wie viele Arbeiterbienen gibt es?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Define Variables:**\n   - Let \\( K \\) be the number of **Queen bees**.\n   - Let \\( B \\) be the number of **Babybienen**.\n   - Let \\( W \\) be the number of **Worker bees**.\n\n2. **Given Relationships:**\n   - There are twice as many **Worker bees** as **Babybienen**:\n     \\[\n     W = 2B\n     \\]\n   - There are twice as many **Babybienen** as **Queen bees**:\n     \\[\n     B = 2K\n     \\]\n   - The total number of bees is **700**:\n     \\[\n     K + B + W = 700\n     \\]\n\n3. **Substitute the Relationships into the Total:**\n   - Substitute \\( B = 2K \\) and \\( W = 2B \\) into the total equation:\n     \\[\n     K + 2K + 2(2K) = 700\n     \\]\n   - Simplify the equation:\n     \\[\n     K + 2K + 4K = 700\n     \\]\n     \\[\n     7K = 700\n     \\]\n   - Solve for \\( K \\):\n     \\[\n     K = \\frac{700}{7} = 100\n     \\]\n\n4. **Find the Number of Worker Bees (\\( W \\)):**\n   - Since \\( W = 2B \\) and \\( B = 2K \\):\n     \\[\n     W = 2(2K) = 4K\n     \\]\n   - Substitute \\( K = 100 \\):\n     \\[\n     W = 4 \\times 100 = 400\n     \\]\n\n5. **Final Answer:**\n   \\[\n   \\boxed{400}\n   \\]\n\nThere are **400** worker bees in the hive.",
+        "ground_truth": 400,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"400\". Generated answer: detailed solution concluding 400 worker bees. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 239,
+        "question": "Die Anzahl Schüler in einer Aula betrug 1000. Die Aula hatte 3 Eingänge, A, B und C, die auch als Ausgänge dienten. Berechnen Sie die Anzahl Schüler, die durch Ausgang C hinausgingen, wenn 30 % der Schüler nach einem Treffen durch Ausgang A aus dem Gebäude gingen, 3/5 der verbleibenden durch Ausgang B hinausgingen und der Rest durch Ausgang C hinausging.\nAnswer in English.",
+        "generated_answer": "To determine the number of students who exited through Exit C, we can follow these steps:\n\n1. **Total number of students**: 1000\n\n2. **Students exiting through Exit A**:\n   - 30% of 1000 students exited through Exit A.\n   - \\( 0.30 \\times 1000 = 300 \\) students.\n\n3. **Remaining students after Exit A**:\n   - \\( 1000 - 300 = 700 \\) students.\n\n4. **Students exiting through Exit B**:\n   - \\( \\frac{3}{5} \\) of the remaining 700 students exited through Exit B.\n   - \\( \\frac{3}{5} \\times 700 = 420 \\) students.\n\n5. **Students exiting through Exit C**:\n   - The rest of the students exited through Exit C.\n   - \\( 700 - 420 = 280 \\) students.\n\nSo, the number of students who exited through Exit C is **280**.",
+        "ground_truth": 280,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"280\". Generated answer says 280 students exit through C, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 113,
+        "question": "Ryan pflanzt pro Tag 2 Blumen in seinem Garten. Nach 15 Tagen hat er wie viele Blumen, wenn 5 nicht angewachsen sind?\nAnswer in English.",
+        "generated_answer": "Ryan plants 2 flowers per day. After 15 days, he has planted a total of 2 * 15 = 30 flowers. However, 5 of these flowers did not grow. Therefore, the number of flowers that have grown is 30 - 5 = 25. So, Ryan has 25 flowers that have grown in his garden.",
+        "ground_truth": 25,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"25\". Generated answer says 25 flowers have grown. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 133,
+        "question": "Am Montag ging Walt 4 Meilen zu Fuß. Am Donnerstag ging er 6 Mal so viele Meilen, wie er am Montag gegangen war. Von Montag bis Mittwoch betrug seine Gesamtstrecke 41 Meilen. Wie viele Meilen ist er am Mittwoch gegangen?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many miles Walt walked on Wednesday.\n\n1. **Monday's Distance:**\n   - Walt walked **4 miles** on Monday.\n\n2. **Thursday's Distance:**\n   - On Thursday, he walked **6 times** as many miles as he did on Monday.\n   - So, Thursday's distance = \\( 6 \\times 4 = 24 \\) miles.\n\n3. **Total Distance from Monday to Wednesday:**\n   - The total distance from Monday to Wednesday is **41 miles**.\n   - This includes Monday, Tuesday, and Wednesday.\n\n4. **Calculating Wednesday's Distance:**\n   - Total from Monday to Wednesday = Monday + Tuesday + Wednesday\n   - \\( 4 \\) (Monday) + \\( x \\) (Tuesday) + \\( y \\) (Wednesday) = \\( 41 \\)\n   - We know Thursday's distance is 24 miles, so the remaining distance is from Monday to Wednesday:\n   - \\( 4 + x + y = 41 \\)\n   - \\( x + y = 41 - 4 \\)\n   - \\( x + y = 37 \\)\n\n5. **Determining Tuesday and Wednesday:**\n   - Since Thursday's distance is 24 miles, and it's 6 times Monday's distance, we can infer that Tuesday's distance is less than 24 miles (because the total from Monday to Wednesday is 41 miles).\n   - Let's assume Tuesday's distance is \\( t \\) miles.\n   - Then, \\( t + 24 = 37 \\)\n   - \\( t = 37 - 24 \\)\n   - \\( t = 13 \\) miles\n\n6. **Wednesday's Distance:**\n   - From the total equation \\( x + y = 37 \\), and knowing \\( x = 13 \\) (Tuesday's distance), we can find \\( y \\):\n   - \\( y = 37 - 13 \\)\n   - \\( y = 24 \\) miles\n\n**Final Answer:**\nWalt walked **24 miles** on Wednesday.",
+        "ground_truth": 13,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Am Montag ging Walt 4 Meilen zu Fuß. Am Donnerstag ging er 6 Mal so viele Meilen, wie er am Montag gegangen war. Von Montag bis Mittwoch betrug seine Gesamtstrecke 41 Meilen. Wie viele Meilen ist er am Mittwoch gegangen? Answer in English.\"\n\nGround truth answer: 13 (presumably miles on Wednesday). The generated answer says Wednesday distance is 24 miles. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 243,
+        "question": "Jason hat einen Telefontarif mit 1000 Minuten pro Monat. Jeden Tag führt er ein 15-minütiges Telefonat mit seinem Chef und hat diesen Monat 300 Anrufminuten extra mit anderen Personen. Wie viele Minuten hat Jason übrig, wenn dieser Monat 30 Tage hat?\nAnswer in English.",
+        "generated_answer": "To determine how many minutes Jason has left in his monthly plan, let's break down the calculations step by step.\n\n1. **Total Minutes Allocated:**\n   - Jason has a total of **1000 minutes** per month.\n\n2. **Minutes Used for Daily Calls with His Boss:**\n   - He makes a **15-minute** call with his boss every day.\n   - Over **30 days**, the total minutes used for these calls are:\n     \\[\n     15 \\text{ minutes/day} \\times 30 \\text{ days} = 450 \\text{ minutes}\n     \\]\n\n3. **Minutes Used for Extra Calls:**\n   - Jason has an additional **300 minutes** for calls with other people.\n\n4. **Total Minutes Used:**\n   - Add the minutes used for the daily calls and the extra calls:\n     \\[\n     450 \\text{ minutes} + 300 \\text{ minutes} = 750 \\text{ minutes}\n     \\]\n\n5. **Minutes Remaining:**\n   - Subtract the total minutes used from the total minutes allocated:\n     \\[\n     1000 \\text{ minutes} - 750 \\text{ minutes} = 250 \\text{ minutes}\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{250}\n\\]",
+        "ground_truth": 250,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"250\". Generated answer explains and gives final answer 250. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 15,
+        "question": "Ein Händler möchte eine Kaufentscheidung zwischen 2 Kaufoptionen treffen: Schmuck im Wert von 5.000 US-Dollar oder Elektronikgeräte im Wert von 8.000 US-Dollar. Sein Finanzberater geht davon aus, dass der Schmuckmarkt um 2,5 % zulegen wird und der Markt für Elektrogeräte um 1,2 % im selben Monat. Wenn der Händler Ende des Monats durch das Treffen einer Kaufentscheidung den Gewinn maximieren möchte, auf wie viel Gewinn käme er dann?\nAnswer in English.",
+        "generated_answer": "To determine which option maximizes the trader's profit, we need to calculate the potential gains from each investment based on the expected market growth.\n\n### Schmuck:\n- **Initial Value:** $5,000\n- **Market Growth:** 2.5%\n- **Growth Amount:** \\( 5,000 \\times 0.025 = 125 \\)\n- **Final Value:** \\( 5,000 + 125 = 5,125 \\)\n\n### Electronics:\n- **Initial Value:** $8,000\n- **Market Growth:** 1.2%\n- **Growth Amount:** \\( 8,000 \\times 0.012 = 96 \\)\n- **Final Value:** \\( 8,000 + 96 = 8,096 \\)\n\n### Profit Calculation:\n- **Profit from Schmuck:** \\( 5,125 - 5,000 = 125 \\)\n- **Profit from Electronics:** \\( 8,096 - 8,000 = 96 \\)\n\n### Conclusion:\nThe trader would maximize their profit by choosing the **Schmuck** option, as it yields a higher profit of $125 compared to the $96 profit from the electronics.\n\n**Final Answer:** The trader would maximize their profit by choosing the Schmuck option, resulting in a profit of $125.",
+        "ground_truth": 125,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is just \"125\". The question: \"on how much profit would he then?\" The ground truth says 125 (presumably dollars). The generated answer says profit of $125, choosing Schmuck. That matches. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 140,
+        "question": "Von den 20 verfügbaren Mietwagen sind 12 Automatikwagen, 4 Wagen mit Handschaltung und der Rest Halbautomaten. Wie viel Prozent der Autos sind Halbautomaten?\nAnswer in English.",
+        "generated_answer": "To determine the percentage of halbautomatic cars, follow these steps:\n\n1. **Total number of cars**: 20  \n2. **Automatic cars**: 12  \n3. **Manual cars**: 4  \n4. **Halbautomatic cars**: Total cars - Automatic cars - Manual cars = 20 - 12 - 4 = **4 cars**  \n\n5. **Percentage of halbautomatic cars**:  \n   \\[\n   \\left( \\frac{4}{20} \\right) \\times 100 = 20\\%\n   \\]\n\n**Answer**: 20% of the cars are halbautomatic.",
+        "ground_truth": 20,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"20\". Likely meaning 20 percent. The generated answer says 20% of the cars are halbautomatic. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3,
+        "question": "James beschließt, 3-mal pro Woche 3 Kurzstreckenläufe zu absolvieren. Pro Kurzstreckenlauf läuft er 60 Meter. Wie viele Meter insgesamt läuft er pro Woche?\nAnswer in English.",
+        "generated_answer": "James runs 3 short-distance runs per week, with each run covering 60 meters. To calculate the total distance he runs per week, we multiply the number of runs by the distance of each run:\n\n3 runs/week * 60 meters/run = 180 meters/week\n\nSo, James runs a total of 180 meters per week.",
+        "ground_truth": 540,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: James decides to do 3 times per week 3 short runs. Actually \"3-mal pro Woche 3 Kurzstreckenläufe\" means 3 times per week 3 short runs? Likely 3 times per week he does 3 runs each, so total runs per week = 3 * 3 = 9 runs, each 60m => 540m. Ground truth is 540. Generated answer says 3 runs per week * 60 = 180. That's wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 23,
+        "question": "Eine Kerze schmilzt jede Stunde, in der sie brennt, um 2 Zentimeter. Wie viele Zentimeter kürzer ist eine Kerze, die von 13 Uhr bis 17 Uhr brennt?\nAnswer in English.",
+        "generated_answer": "A candle melts by 2 centimeters every hour it burns. If the candle burns from 1 PM to 5 PM (13:00 to 17:00), it burns for 4 hours.\n\nThe total amount the candle melts in 4 hours is:\n\\[ 2 \\, \\text{cm/hour} \\times 4 \\, \\text{hours} = 8 \\, \\text{cm} \\]\n\nSo, the candle is **8 centimeters shorter** after burning from 1 PM to 5 PM.",
+        "ground_truth": 8,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"8\". The generated answer says the candle is 8 centimeters shorter. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 184,
+        "question": "Jerry wirft einen sechsseitigen Würfel. Wie viel wahrscheinlicher ist es (in Prozent ausgedrückt), dass er eine Zahl größer als 3 wirft als zwei gerade Zahlen hintereinander?\nAnswer in English.",
+        "generated_answer": "To determine how much more likely it is for Jerry to roll a number greater than 3 compared to rolling two even numbers in a row, we need to calculate the probabilities for each event and then find the ratio of these probabilities.\n\n### Step 1: Probability of rolling a number greater than 3\nA six-sided die has the numbers 1, 2, 3, 4, 5, and 6. The numbers greater than 3 are 4, 5, and 6. There are 3 favorable outcomes out of 6 possible outcomes.\n\n\\[\nP(\\text{number} > 3) = \\frac{3}{6} = \\frac{1}{2} = 50\\%\n\\]\n\n### Step 2: Probability of rolling two even numbers in a row\nFirst, identify the even numbers on a six-sided die: 2, 4, and 6. There are 3 even numbers out of 6 possible outcomes.\n\nThe probability of rolling an even number on the first roll is:\n\n\\[\nP(\\text{first even}) = \\frac{3}{6} = \\frac{1}{2} = 50\\%\n\\]\n\nAssuming the die is fair and the rolls are independent, the probability of rolling an even number on the second roll is also:\n\n\\[\nP(\\text{second even} \\mid \\text{first even}) = \\frac{3}{6} = \\frac{1}{2} = 50\\%\n\\]\n\nThe combined probability of rolling two even numbers in a row is:\n\n\\[\nP(\\text{two even numbers}) = P(\\text{first even}) \\times P(\\text{second even} \\mid \\text{first even}) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4} = 25\\%\n\\]\n\n### Step 3: Ratio of probabilities\nTo find out how much more likely it is to roll a number greater than 3 compared to rolling two even numbers in a row, we calculate the ratio of the probabilities:\n\n\\[\n\\text{Ratio} = \\frac{P(\\text{number} > 3)}{P(\\text{two even numbers})} = \\frac{50\\%}{25\\%} = 2\n\\]\n\n### Conclusion\nIt is **twice as likely** for Jerry to roll a number greater than 3 compared to rolling two even numbers in a row.",
+        "ground_truth": 25,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Question: \"Jerry wirft einen sechsseitigen Würfel. Wie viel wahrscheinlicher ist es (in Prozent ausgedrückt), dass er eine Zahl größer als 3 wirft als zwei gerade Zahlen hintereinander?\" Means: How much more likely (in percent) is it that he rolls a number >3 than two even numbers in a row? So compute probability >3 = 3/6 = 50%; probability two evens = (3/6)^2 = 25%; difference in percent? \"Wie viel wahrscheinlicher ist es (in Prozent ausgedrückt)\" could be interpreted as difference in probability (percentage points) = 50% - 25% = 25 percentage points. Or could be ratio expressed as percent increase: (50-25)/25 = 100% more likely. The ground truth answer is \"25\". That suggests they expect answer 25 (percentage points). The generated answer says \"twice as likely\" i.e., ratio 2, not 25. So not matching. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 102,
+        "question": "John trinkt zum Frühstück, zum Mittagessen und Abendessen gern ein Glas Wasser. Zum Abschluss trinkt er auch noch eins vor dem Zubettgehen. John macht das an jedem Wochentag, aber an den Wochenenden entspannt er gern und trinkt zum Abendessen stattdessen ein Glas Limonade. Wie viele Gläser Wasser trinkt John pro Woche?\nAnswer in English.",
+        "generated_answer": "John drinks water 6 times a day (3 meals + 1 before bed) on weekdays, which is 6 * 5 = 30 times a week. On weekends, he drinks water 5 times a day (3 meals + 1 before bed), which is 5 * 2 = 10 times a week. In total, John drinks 30 + 10 = 40 glasses of water per week.",
+        "ground_truth": 26,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: John drinks water at breakfast, lunch, dinner each day, plus one before bed. That's 4 glasses per day. He does that on weekdays (Monday-Friday) = 5 days => 4*5 = 20 glasses. On weekends, he drinks lemonade at dinner instead of water, so only breakfast, lunch, and before bed = 3 glasses per day on Saturday and Sunday => 3*2 = 6 glasses. Total water glasses per week = 20+6 = 26. Ground truth says 26. Generated answer says 40 glasses, with wrong counts: says 6 times a day on weekdays (they counted 3 meals + 1 before bed = 4, but they said 6?), and weekends 5 times a day (they think 3 meals + 1 before bed = 4, but they said 5). So it's incorrect. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 181,
+        "question": "Sandra, der Blumenladen um die Ecke, ist sehr unzufrieden mit Freds unvollständiger Lieferung der Bestellung. Sandra hatte vier Mal so viele rote Rosen bestellt wie weiße Nelken. Sie bestellte auch 200 rosa Zimmercalla, die fünf Mal der Anzahl weißer Nelken entsprachen. Sandra drohte damit, den Lieferanten zu wechseln, wenn die fehlenden roten Rosen nicht bis 17 Uhr geliefert würden. Wie viele rote Rosen muss Fred bis 17 Uhr liefern, um Sandras Einkauf zu behalten?\nAnswer in English.",
+        "generated_answer": "To determine how many red roses Fred needs to deliver, let's break down the information step by step.\n\n1. **Define Variables:**\n   - Let \\( w \\) be the number of white roses.\n   - Sandra ordered four times as many red roses as white roses: \\( r = 4w \\).\n   - Sandra also ordered 200 pink calla lilies, which are five times the number of white roses: \\( p = 5w \\).\n\n2. **Express the Number of Red Roses:**\n   - From the first condition, \\( r = 4w \\).\n\n3. **Determine the Number of White Roses:**\n   - From the second condition, \\( p = 5w \\).\n   - Since \\( p = 200 \\), we can solve for \\( w \\):\n     \\[\n     5w = 200 \\implies w = \\frac{200}{5} = 40\n     \\]\n\n4. **Calculate the Number of Red Roses:**\n   - Using \\( r = 4w \\):\n     \\[\n     r = 4 \\times 40 = 160\n     \\]\n\n5. **Conclusion:**\n   - Fred needs to deliver **160 red roses** to meet Sandra's order.\n\n\\boxed{160}",
+        "ground_truth": 160,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"160\". Generated answer: explains and concludes 160 red roses. So same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 171,
+        "question": "Jake geht gerade durch das Entomologiemuseum. Er sieht 80 Spinnen mit jeweils 8 Beinen, 90 Insekten mit jeweils 6 Beinen und 3 seltene mutierte Invertebraten mit jeweils 10 Beinen. Wie viele Beine sieht Jake insgesamt?\nAnswer in English.",
+        "generated_answer": "To determine the total number of legs Jake sees in the museum, we'll calculate the legs contributed by each group of invertebrates and then sum them up.\n\n1. **Spinnen:**\n   - Number of spiders: 80\n   - Legs per spider: 8\n   - Total legs from spiders: \\( 80 \\times 8 = 640 \\)\n\n2. **Insekten:**\n   - Number of insects: 90\n   - Legs per insect: 6\n   - Total legs from insects: \\( 90 \\times 6 = 540 \\)\n\n3. **Mutierte Invertebraten:**\n   - Number of mutated invertebrates: 3\n   - Legs per mutated invertebrate: 10\n   - Total legs from mutated invertebrates: \\( 3 \\times 10 = 30 \\)\n\n4. **Total legs:**\n   - Sum of legs from all groups: \\( 640 + 540 + 30 = 1190 \\)\n\nTherefore, Jake sees a total of **1190 legs** in the museum.",
+        "ground_truth": 1210,
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. The question: compute total legs: 80*8=640, 90*6=540, 3*10=30. Sum = 640+540+30 = 1210? Wait compute: 640+540=1180, +30 = 1210. Yes correct total is 1210. The generated answer says 1190, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 160,
+        "question": "Ein Wassertank hat am Montag eine Tiefe von 17 Fuß. Am Dienstag hat der Tank 7 Fuß Wasser mehr. Am Mittwoch beträgt die Wassertiefe zwei Drittel dessen, was am Dienstag darin gewesen war. Wie ist die Wassertiefe des Tanks am Mittwoch?\nAnswer in English.",
+        "generated_answer": "To determine the water depth in the tank on Wednesday, we need to follow the changes step by step from Monday to Tuesday and then from Tuesday to Wednesday.\n\n1. **Monday's Depth**: The tank starts with a depth of 17 feet.\n\n2. **Tuesday's Depth**: On Tuesday, the tank has 7 feet more water than on Monday.\n   \\[\n   \\text{Tuesday's Depth} = 17 \\, \\text{feet} + 7 \\, \\text{feet} = 24 \\, \\text{feet}\n   \\]\n\n3. **Wednesday's Depth**: On Wednesday, the water depth is two-thirds of what it was on Tuesday.\n   \\[\n   \\text{Wednesday's Depth} = \\frac{2}{3} \\times 24 \\, \\text{feet} = 16 \\, \\text{feet}\n   \\]\n\nTherefore, the water depth in the tank on Wednesday is **16 feet**.",
+        "ground_truth": 16,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"16\". Generated answer says water depth on Wednesday is 16 feet. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 0,
+        "question": "Janets Enten legen 16 Eier pro Tag. Sie isst drei jeden Morgen zum Frühstück und backt mit vier jeden Tag Muffins für ihre Freunde. Den Rest verkauft sie täglich auf dem Bauernmarkt für 2 US-Dollar pro frischem Entenei. Wie viel Dollar nimmt sie täglich auf dem Bauernmarkt ein?\nAnswer in English.",
+        "generated_answer": "Janet's duck lays 16 eggs per day. She eats 3 eggs every morning for breakfast and uses 4 eggs to bake muffins for her friends. The remaining eggs are sold on the farmers' market for $2 per fresh egg.\n\nTo find out how much she earns daily on the farmers' market, we need to calculate the number of eggs she sells:\n\nTotal eggs laid per day: 16\nEggs eaten for breakfast: 3\nEggs used for muffins: 4\n\nRemaining eggs for sale: 16 - 3 - 4 = 9 eggs\n\nSince she sells each egg for $2, her daily earnings on the farmers' market are:\n\n9 eggs * $2/egg = $18\n\nSo, Janet earns $18 daily on the farmers' market.",
+        "ground_truth": 18,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"18\". The generated answer says $18 daily. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "Eine Firma gibt ein Jahr lang 15000 $ für Werbung aus und gibt dann ein weiteres Jahr lang einen Drittel dieses Betrags für Werbung aus. Welchen Gesamtbetrag gab die Firma in diesen beiden Jahren für Werbung aus?\nAnswer in English.",
+        "generated_answer": "The company spent $15,000 in the first year and a third of that amount in the second year. To calculate the total amount spent over the two years, we can add the amounts together:\n\n$15,000 (first year) + ($15,000 / 3) (second year) = $15,000 + $5,000 = $20,000\n\nSo, the company spent a total of $20,000 on advertising over the two years.",
+        "ground_truth": 20000,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"20000\". The generated answer says total $20,000. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 126,
+        "question": "Dylan brauchte Geflügelwürstchen und Fischwürstchen, um bei einer Party Wurstbrötchen zuzubereiten. Er hat 38 Geflügelwürstchen und 6 mehr Fischwürstchen als Geflügelwürstchen gekauft. Wie viele Würstchen hat Dylan insgesamt gekauft?\nAnswer in English.",
+        "generated_answer": "Dylan bought a total of 82 sausages.\n\nHere's the calculation:\n\n- Geflügelwürstchen: 38\n- Fischwürstchen: 38 + 6 = 44\n- Total sausages: 38 + 44 = 82",
+        "ground_truth": 82,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"82\". Generated answer says \"Dylan bought a total of 82 sausages.\" That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 85,
+        "question": "Gene näht eine Decke aus alten Erinnerungs-T-Shirts. Er hat ein T-Shirt aus jedem Urlaub, in dem er war. Jedes Shirt bildet einen eigenen Deckenabschnitt. Jede Reihe ist aus Abschnitten eines anderen Ferienjahrs gefertigt. Er macht viermal im Jahr Urlaub und verreist, seit er 23 Jahre alt ist. Jetzt ist er 34 Jahre alt. Wie viele Deckenabschnitte hat er insgesamt?\nAnswer in English.",
+        "generated_answer": "Gene has been going on vacation four times a year since he was 23 years old. He is now 34 years old, so he has been going on vacation for \\(34 - 23 = 11\\) years. \n\nHe makes four trips per year, so in 11 years, he has made \\(11 \\times 4 = 44\\) trips.\n\nEach trip is represented by one section of the quilt, so he has a total of 44 sections.\n\nThus, the total number of sections in the quilt is **44**.",
+        "ground_truth": 44,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"44\". Generated answer says total sections = 44, with explanation. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 62,
+        "question": "Wenn Marcy 40 Jahre lang für das gleiche Unternehmen tätig ist, bekommt sie eine jährliche Rente von 50.000 US-Dollar/Jahr. Nach 20 Jahren werden ihr 5 % des Wertes der jährlichen Rente pro Jahr zugestanden. Wenn sie nach 30 Jahren geht, wie hoch ist dann ihre jährliche Rente?\nAnswer in English.",
+        "generated_answer": "To determine Marcy's annual pension after 30 years of service, we need to account for the 5% annual increase in the pension value for the first 20 years and then apply the standard annual pension for the remaining 10 years.\n\n1. **Calculate the pension value after 20 years:**\n   - The initial annual pension is $50,000.\n   - Over 20 years, the pension increases by 5% each year.\n   - The formula for the value of a growing annuity is:\n     \\[\n     V = P \\times \\frac{(1 + r)^n - 1}{r}\n     \\]\n     where:\n     - \\( V \\) is the future value of the pension,\n     - \\( P \\) is the initial annual pension ($50,000),\n     - \\( r \\) is the annual growth rate (5% or 0.05),\n     - \\( n \\) is the number of years (20).\n\n     Plugging in the values:\n     \\[\n     V = 50,000 \\times \\frac{(1 + 0.05)^{20} - 1}{0.05}\n     \\]\n     \\[\n     V = 50,000 \\times \\frac{(1.05)^{20} - 1}{0.05}\n     \\]\n     \\[\n     V = 50,000 \\times \\frac{3.38635 - 1}{0.05}\n     \\]\n     \\[\n     V = 50,000 \\times \\frac{2.38635}{0.05}\n     \\]\n     \\[\n     V = 50,000 \\times 47.727\n     \\]\n     \\[\n     V \\approx 2,386,350\n     \\]\n\n2. **Calculate the annual pension for the remaining 10 years:**\n   - The value of the pension after 20 years is approximately $2,386,350.\n   - The standard annual pension is $50,000.\n   - The number of years for the standard pension is 10.\n\n   The formula for the present value of an annuity is:\n   \\[\n   P = \\frac{V}{n}\n   \\]\n   where:\n   - \\( P \\) is the annual pension,\n   - \\( V \\) is the value of the pension after 20 years ($2,386,350),\n   - \\( n \\) is the number of years for the standard pension (10).\n\n   Plugging in the values:\n   \\[\n   P = \\frac{2,386,350}{10}\n   \\]\n   \\[\n   P = 238,635\n   \\]\n\nTherefore, Marcy's annual pension after 30 years of service is **$238,635**.",
+        "ground_truth": 25000,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Wenn Marcy 40 Jahre lang für das gleiche Unternehmen tätig ist, bekommt sie eine jährliche Rente von 50.000 US-Dollar/Jahr. Nach 20 Jahren werden ihr 5 % des Wertes der jährlichen Rente pro Jahr zugestanden. Wenn sie nach 30 Jahren geht, wie hoch ist dann ihre jährliche Rente? Answer in English.\"\n\nInterpretation: She works 40 years, gets annual pension $50k. After 20 years, she gets 5% of the value of the annual pension per year? The wording is ambiguous. Likely after 20 years, she gets a 5% increase per year? Actually \"Nach 20 Jahren werden ihr 5 % des Wertes der jährlichen Rente pro Jahr zugestanden.\" Means after 20 years, she is granted 5% of the value of the annual pension per year. So maybe after 20 years, she gets an increase of 5% each year? If she leaves after 30 years, what is her annual pension? Probably base $50k plus 5% per year for 10 years = $50k * (1 + 0.05*10) = $50k * 1.5 = $75k? Or maybe compounding? But ground truth answer is 25000. That seems different. Maybe the correct answer is $25,000? How could that be? If after 20 years, she gets 5% of the value per year, maybe she gets a reduction? Actually maybe after 20 years, she gets 5% of the value of the annual pension per year, meaning she gets 5% of $50k = $2,500 per year? So after 30 years, she gets $2,500? But ground truth says 25000, which is 5% of $500,000? Not sure.\n\nAnyway, generated answer says $238,635, which is far from 25000. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 83,
+        "question": "Dan pflanzt 3 Rosenbüsche. Jeder Rosenbusch trägt 25 Rosen. Jede Rose hat 8 Dornen. Wie viele Dornen sind es insgesamt?\nAnswer in English.",
+        "generated_answer": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. So the total number of thorns is:\n\n3 bushes * 25 roses * 8 thorns = 600 thorns",
+        "ground_truth": 600,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"600\". Generated answer says total thorns = 600 thorns. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 220,
+        "question": "Carmen braucht 10 Minuten, um ein Kreuzworträtsel zu beenden, und 5 Minuten, um eine Sudoku-Aufgabe zu beenden. Über das Wochenende löste sie 3 Kreuzworträtsel und 8 Sudoku-Aufgaben. Wie viel Zeit verbrachte sie mit dem Spielen dieser Spiele?\nAnswer in English.",
+        "generated_answer": "To determine the total time Carmen spent on her weekend activities, we'll calculate the time spent on each type of puzzle and then add them together.\n\n1. **Time spent on Kreuzworträtsel:**\n   - Carmen takes 10 minutes to solve one Kreuzworträtsel.\n   - She solved 3 Kreuzworträtsel.\n   - Total time for Kreuzworträtsel: \\( 10 \\text{ minutes} \\times 3 = 30 \\text{ minutes} \\).\n\n2. **Time spent on Sudoku-Aufgaben:**\n   - Carmen takes 5 minutes to solve one Sudoku-Aufgabe.\n   - She solved 8 Sudoku-Aufgaben.\n   - Total time for Sudoku-Aufgaben: \\( 5 \\text{ minutes} \\times 8 = 40 \\text{ minutes} \\).\n\n3. **Total time spent:**\n   - Add the time spent on both types of puzzles.\n   - Total time: \\( 30 \\text{ minutes} + 40 \\text{ minutes} = 70 \\text{ minutes} \\).\n\nTherefore, Carmen spent a total of **70 minutes** on her weekend activities.",
+        "ground_truth": 70,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"70\". Generated answer says total time 70 minutes. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 16,
+        "question": "Zwei Züge verlassen San Rafael zur selben Zeit. Sie beginnen, nach Westen zu fahren und legen beide 80 Meilen zurück. Am nächsten Tag fahren sie gen Norden und legen 150 Meilen zurück. Welche Strecke legt jeder der Züge in den beiden Tagen zurück?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out the total distance each train travels over the two days.\n\n### **Day 1: Traveling West**\n- **Both trains** travel **80 miles** westward.\n- Since both trains cover the same distance, the total distance for both trains on Day 1 is:\n  \\[\n  2 \\times 80 = 160 \\text{ miles}\n  \\]\n\n### **Day 2: Traveling North**\n- **Both trains** travel **150 miles** northward.\n- Again, since both trains cover the same distance, the total distance for both trains on Day 2 is:\n  \\[\n  2 \\times 150 = 300 \\text{ miles}\n  \\]\n\n### **Total Distance for Each Train Over Two Days**\n- **Total distance for one train:**\n  \\[\n  160 \\text{ (Day 1)} + 300 \\text{ (Day 2)} = 460 \\text{ miles}\n  \\]\n\nSince the problem asks for the distance **each of the two trains** travels, the answer is:\n\n\\[\n\\boxed{460 \\text{ miles}}\n\\]\n\nEach train travels a total of **460 miles** over the two days.",
+        "ground_truth": 230,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Zwei Züge verlassen San Rafael zur selben Zeit. Sie beginnen, nach Westen zu fahren und legen beide 80 Meilen zurück. Am nächsten Tag fahren sie gen Norden und legen 150 Meilen zurück. Welche Strecke legt jeder der Züge in den beiden Tagen zurück? Answer in English.\"\n\nInterpretation: Two trains each travel 80 miles west day1, then 150 miles north day2. So each train travels total 80+150 = 230 miles. Ground truth: 230. Generated answer says each train travels 460 miles, incorrectly summing both trains distances. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 48,
+        "question": "Tracy hat ein 4 Fuß langes Stück Draht verwendet, um die Tomatenpflanzen in ihrem Garten abzustützen. Der Draht wurde in jeweils 6 Inch lange Stücke geschnitten. Wie viele Stück Draht hatte sie?\nAnswer in English.",
+        "generated_answer": "To determine how many 6-inch pieces Tracy cut from her 4-foot piece of wire, follow these steps:\n\n1. **Convert feet to inches**:  \n   Since 1 foot = 12 inches,  \n   \\( 4 \\text{ feet} \\times 12 \\text{ inches/foot} = 48 \\text{ inches} \\).\n\n2. **Divide the total inches by the length of each piece**:  \n   \\( \\frac{48 \\text{ inches}}{6 \\text{ inches/piece}} = 8 \\text{ pieces} \\).\n\n**Answer**: Tracy had \\(\\boxed{8}\\) pieces of wire.",
+        "ground_truth": 8,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"8\". Generated answer explains and says answer is 8 pieces. So yes. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 145,
+        "question": "John hat ein 10 Hektar Ananasfeld. Es gibt 100 Ananas pro Hektar. John kann seine Ananas alle 3 Monate ernten. Wie viele Ananas kann John innerhalb eines Jahres ernten?\nAnswer in English.",
+        "generated_answer": "John can harvest **10,000** pineapples in a year. \n\nHere's the calculation:\n- **Total area**: 10 hectares\n- **Ananas per hectare**: 100\n- **Total ananas**: 10 hectares × 100 ananas/hectare = 1,000 ananas\n- **Harvest frequency**: Every 3 months\n- **Number of harvests in a year**: 12 months ÷ 3 months/harvest = 4 harvests\n- **Total ananas in a year**: 1,000 ananas/harvest × 4 harvests = 4,000 ananas\n\nSo, John can harvest **4,000** ananas in a year.",
+        "ground_truth": 4000,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth: \"4000\". Generated answer says \"John can harvest **10,000** pineapples in a year.\" Then shows calculation but then says total is 4,000. There's inconsistency: first line says 10,000, then later says 4,000. The final statement: \"So, John can harvest **4,000** ananas in a year.\" The answer overall conveys 4,000 as the result, despite the initial erroneous statement. The question: does the generated answer convey same meaning as ground truth? The core answer is 4,000. The initial contradictory statement might cause confusion, but the final answer is 4,000. The instruction: determine whether the GENERATED ANSWER and GROUND TRUTH convey the same meaning. The generated answer includes both 10,000 and 4,000, but the final conclusion is 4,000. The presence of contradictory info may be considered not equivalent. Usually we consider the answer's final result. The generated answer says \"John can harvest **10,000** pineapples in a year.\" That's a claim of 10,000, which is wrong. Then later says 4,000. The answer is ambiguous. Likely considered not matching. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 56,
+        "question": "Peter plant, diese Woche ins Kino zu gehen. Er kauft sich immer eine Eintrittskarte für 7 US-Dollar und Popcorn für 7 US-Dollar. Wenn er für die Woche 42 US-Dollar zur Verfügung hat, wie oft kann er dann ins Kino gehen?\nAnswer in English.",
+        "generated_answer": "To determine how many times Peter can go to the cinema with $42, let's break down the costs:\n\n1. **Cost per visit:**\n   - Ticket: $7\n   - Popcorn: $7\n   - **Total per visit:** $7 + $7 = **$14**\n\n2. **Total budget:** $42\n\n3. **Number of visits:**\n   - Divide the total budget by the cost per visit: $42 ÷ $14 = **3**\n\nPeter can go to the cinema **3 times** this week.",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"3\". Generated answer says \"Peter can go to the cinema 3 times this week.\" That's same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 61,
+        "question": "Janet kauft eine Brosche für ihre Tochter. Sie zahlt 500 US-Dollar für das Material, um sie herzustellen, und weitere 800 US-Dollar für den Juwelier, damit er sie modelliert. Anschließend zahlt sie noch 10 % von diesem Betrag, um sie zu versichern. Wie viel musste sie bezahlen?\nAnswer in English.",
+        "generated_answer": "To determine the total amount Janet had to pay, we need to calculate the costs step by step:\n\n1. **Cost of Material**: $500\n2. **Cost of Jeweler**: $800\n3. **Insurance Cost**: 10% of the total cost of the material and jeweler.\n\nFirst, calculate the total cost of the material and the jeweler:\n\\[ 500 \\, \\text{USD} + 800 \\, \\text{USD} = 1300 \\, \\text{USD} \\]\n\nNext, calculate the insurance cost:\n\\[ 10\\% \\text{ of } 1300 \\, \\text{USD} = 0.10 \\times 1300 \\, \\text{USD} = 130 \\, \\text{USD} \\]\n\nFinally, add the insurance cost to the total cost of the material and jeweler to get the total amount Janet had to pay:\n\\[ 1300 \\, \\text{USD} + 130 \\, \\text{USD} = 1430 \\, \\text{USD} \\]\n\nSo, Janet had to pay **$1430**.",
+        "ground_truth": 1430,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"1430\". Generated answer explains calculation and gives $1430. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 36,
+        "question": "Terry isst 2 Joghurts pro Tag. Sie sind derzeit für 5,00 US-Dollar für 4 Joghurts im Angebot. Wie viel gibt er innerhalb von 30 Tagen für Joghurt aus?\nAnswer in English.",
+        "generated_answer": "To determine how much Terry spends on yogurt over 30 days, let's break down the problem step by step.\n\n1. **Daily Consumption**: Terry eats 2 yogurts per day.\n2. **Weekly Consumption**: Over 7 days (1 week), she eats \\(2 \\times 7 = 14\\) yogurts.\n3. **Monthly Consumption**: Over 30 days, she eats \\(14 \\times 30 = 420\\) yogurts.\n4. **Price per Yogurt**: The yogurts are on sale for $5.00 for 4 yogurts, which means each yogurt costs \\(\\frac{5.00}{4} = 1.25\\) dollars.\n5. **Total Cost**: The total cost for 420 yogurts is \\(420 \\times 1.25 = 525\\) dollars.\n\nSo, Terry spends **$525** on yogurt within 30 days.",
+        "ground_truth": 75,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Terry eats 2 yogurts per day. They are $5 for 4 yogurts. How much does he spend in 30 days? Compute: 2 per day *30 =60 yogurts. Price per yogurt = $5/4 = $1.25. 60 *1.25 = $75. So ground truth is 75 (presumably dollars). Generated answer says 420 yogurts and $525. That's wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 139,
+        "question": "In einem Kaugummiautomaten gibt es 22 rosa Kaugummikugeln mehr als das Vierfache der Anzahl blauer Kaugummikugeln. Wenn es 12 blaue Kaugummikugeln gibt, wie viele Rosafarbene gibt es dann?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n**Given:**\n- Number of blue gumballs = 12\n- Number of pink gumballs = 22 more than four times the number of blue gumballs.\n\n**Let’s find the number of pink gumballs.**\n\n1. **Calculate four times the number of blue gumballs:**\n   \\[\n   4 \\times \\text{blue gumballs} = 4 \\times 12 = 48\n   \\]\n\n2. **Add 22 to this result to find the number of pink gumballs:**\n   \\[\n   \\text{pink gumballs} = 48 + 22 = 70\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{70}\n\\]",
+        "ground_truth": 70,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"70\". Generated answer explains and gives 70. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 114,
+        "question": "Jamals Handy kann 6-mal mehr Fotos speichern als Brittanys Handy. Die maximale Anzahl an Fotos, die Brittanys Handy speichern kann, ist 50-mal höher als die Anzahl an Vögeln auf Jamals Foto mit den Enten im Zoo. Wenn Jamals Handy 1.800 Fotos speichern kann, sind wie viele Enten auf Jamals Foto von den Enten im Zoo zu sehen?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many ducks are on Jamal's photo.\n\n1. **Define the Variables:**\n   - Let \\( D \\) be the number of ducks on Jamal's photo.\n   - Let \\( B \\) be the number of photos Brittanys's phone can store.\n   - Let \\( J \\) be the number of photos Jamal's phone can store.\n\n2. **Given Information:**\n   - Jamal's phone can store \\( J = 1800 \\) photos.\n   - Jamal's phone can store 6 times more photos than Brittanys's phone: \\( J = 6B \\).\n   - Brittanys's phone can store 50 times more photos than the number of birds on Jamal's photo: \\( B = 50D \\).\n\n3. **Find Brittanys's Phone Capacity:**\n   Since \\( J = 6B \\) and \\( J = 1800 \\):\n   \\[\n   1800 = 6B \\\\\n   B = \\frac{1800}{6} \\\\\n   B = 300\n   \\]\n   So, Brittanys's phone can store 300 photos.\n\n4. **Find the Number of Ducks:**\n   Since \\( B = 50D \\) and \\( B = 300 \\):\n   \\[\n   300 = 50D \\\\\n   D = \\frac{300}{50} \\\\\n   D = 6\n   \\]\n\nTherefore, there are **6 ducks** on Jamal's photo.",
+        "ground_truth": 6,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is just \"6\". Generated answer explains and concludes \"there are 6 ducks\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 226,
+        "question": "James zählt gerade seine Pokemonkarten. Er hat 30 Feuerartige, 20 Pflanzenartige und 40 Wasserartige. Wenn er 8 der Wasserartigen verlegt und 14 Pflanzenartige kauft, wie hoch ist dann die Wahrscheinlichkeit in Prozent (gerundet auf die nächste ganze Zahl), dass eine zufällig gezogene Karte eine Wasserartige sein wird?\nAnswer in English.",
+        "generated_answer": "To determine the probability that a randomly drawn card is water-type after the changes, follow these steps:\n\n1. **Initial Counts:**\n   - Fire-type: 30 cards\n   - Water-type: 40 cards\n   - Plant-type: 20 cards\n\n2. **Changes:**\n   - James loses 8 water-type cards.\n   - James buys 14 plant-type cards.\n\n3. **Updated Counts:**\n   - Water-type: \\(40 - 8 = 32\\) cards\n   - Plant-type: \\(20 + 14 = 34\\) cards\n\n4. **Total Number of Cards:**\n   - Total cards = Water-type + Plant-type = \\(32 + 34 = 66\\) cards\n\n5. **Probability Calculation:**\n   - Probability of drawing a water-type card = \\(\\frac{\\text{Number of water-type cards}}{\\text{Total number of cards}} = \\frac{32}{66}\\)\n\n6. **Rounding to the Nearest Whole Percentage:**\n   - \\(\\frac{32}{66} \\approx 0.4848\\)\n   - Rounded to the nearest whole number: **50%**\n\n**Final Answer:** 50%",
+        "ground_truth": 33,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: James counts his Pokemon cards: 30 fire, 20 plant, 40 water. He loses 8 water, buys 14 plant. What is probability in percent (rounded to nearest whole) that a random card is water-type? Compute: initial total = 30+20+40=90. After changes: water = 32, plant = 34, fire unchanged 30. Total = 30+34+32 = 96. Probability water = 32/96 = 1/3 = 33.333...% rounded to nearest whole = 33%. Ground truth answer: 33. Generated answer: they omitted fire cards, total = 66, probability = 32/66 ≈ 48.5% rounded to 50%. That's incorrect. So meaning not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 20,
+        "question": "Ich habe 10 Liter Orangengetränk mit zwei Dritteln Wasser und möchte es zu 15 Litern Ananasgetränk mit drei Fünfteln Wasser hinzugeben. Während des Eingießens verschütte ich allerdings einen Liter des Orangengetränks. Wie viel Wasser ist in den verbleibenden 24 Litern?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how much water is in the remaining 24 liters of the mixed drink.\n\n### 1. **Initial Volumes and Water Ratios**\n- **Orangengetränk:**\n  - Total volume: 10 liters\n  - Water ratio: 2/3\n  - Water in Orangengetränk: \\( \\frac{2}{3} \\times 10 = \\frac{20}{3} \\) liters\n  - Non-water (juice) in Orangengetränk: \\( 10 - \\frac{20}{3} = \\frac{10}{3} \\) liters\n\n- **Ananasgetränk:**\n  - Total volume: 15 liters\n  - Water ratio: 3/5\n  - Water in Ananasgetränk: \\( \\frac{3}{5} \\times 15 = 9 \\) liters\n  - Non-water (juice) in Ananasgetränk: \\( 15 - 9 = 6 \\) liters\n\n### 2. **Mixing the Drinks**\n- **Total volume after mixing:**\n  - \\( 10 \\) (Orangengetränk) + \\( 15 \\) (Ananasgetränk) - \\( 1 \\) (verschüttet) = \\( 24 \\) liters\n\n- **Water in the mixed drink:**\n  - Water from Orangengetränk: \\( \\frac{20}{3} \\) liters\n  - Water from Ananasgetränk: \\( 9 \\) liters\n  - Total water: \\( \\frac{20}{3} + 9 = \\frac{20}{3} + \\frac{27}{3} = \\frac{47}{3} \\) liters\n\n### 3. **Calculating the Final Water Percentage**\n- Total volume of the mixed drink: 24 liters\n- Total water in the mixed drink: \\( \\frac{47}{3} \\) liters\n\nTo find the percentage of water in the final mixture:\n\\[\n\\text{Water percentage} = \\left( \\frac{\\text{Total water}}{\\text{Total volume}} \\right) \\times 100 = \\left( \\frac{\\frac{47}{3}}{24} \\right) \\times 100 = \\left( \\frac{47}{72} \\right) \\times 100 \\approx 65.56\\%\n\\]\n\n### **Final Answer**\nThe remaining 24 liters of the mixed drink contain approximately **65.56% water**.",
+        "ground_truth": 15,
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"Ich habe 10 Liter Orangengetränk mit zwei Dritteln Wasser und möchte es zu 15 Litern Ananasgetränk mit drei Fünfteln Wasser hinzugeben. Während des Eingießens verschütte ich allerdings einen Liter des Orangengetränks. Wie viel Wasser ist in den verbleibenden 24 Litern? Answer in English.\"\n\nGround truth answer: \"15\". That seems to be the amount of water? Actually ground truth says 15 (presumably liters of water). The generated answer says approx 65.56% water, not a numeric water amount. It calculates water volume as 47/3 ≈ 15.666... liters. Actually 47/3 = 15.6667 liters. The generated answer says water percentage 65.56% and does not give water amount. So not matching ground truth. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 81,
+        "question": "Charlie hatte 10 Sticker. Er hat 21 Sticker in einem Laden in der Mall gekauft und bekam 23 Sticker zum Geburtstag geschenkt. Dann gab Charlie seiner Schwester 9 der Sticker und benutzte 28 zum Dekorieren einer Grußkarte. Wie viele Sticker hat Charlie übrig?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many stickers Charlie has left.\n\n1. **Initial Stickers:**\n   - Charlie starts with **10 stickers**.\n\n2. **Stickers Purchased:**\n   - He buys **21 stickers** in a store.\n   - **Total after purchase:** \\( 10 + 21 = 31 \\) stickers.\n\n3. **Stickers Received as a Gift:**\n   - He receives **23 stickers** as a birthday gift.\n   - **Total after gift:** \\( 31 + 23 = 54 \\) stickers.\n\n4. **Stickers Given to His Sister:**\n   - He gives **9 stickers** to his sister.\n   - **Total after giving to sister:** \\( 54 - 9 = 45 \\) stickers.\n\n5. **Stickers Used for Decorating:**\n   - He uses **28 stickers** to decorate a greeting card.\n   - **Total after using for card:** \\( 45 - 28 = 17 \\) stickers.\n\n**Final Answer:**\n\\[\n\\boxed{17}\n\\]",
+        "ground_truth": 17,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"17\". Generated answer explains steps and concludes 17. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 242,
+        "question": "Mike war von 5 Personen Brieffreund. Er hörte mit 2 von ihnen auf, Brieffreunde zu sein. Sie senden ihm jeweils 2 Briefe pro Woche, die 5 Seiten lang sind. Er antwortet auf die gleiche Weise. Er kann alle 6 Minuten eine Seite schreiben. Wie viele Stunden verbringt er pro Woche mit Schreiben?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many hours Mike spends writing each week.\n\n### 1. **Initial Number of Correspondents**\nMike starts with **5** people as his pen pals.\n\n### 2. **Correspondents He Stops Writing To**\nHe stops writing to **2** of them.\n\n### 3. **Remaining Correspondents**\nSo, he continues writing to:\n\\[ 5 - 2 = 3 \\text{ people} \\]\n\n### 4. **Letters Received Per Week**\nEach of the remaining **3** people sends him **2** letters per week, each **5** pages long.\n\n\\[ \\text{Total pages received per week} = 3 \\text{ people} \\times 2 \\text{ letters} \\times 5 \\text{ pages} = 30 \\text{ pages} \\]\n\n### 5. **Letters Sent Per Week**\nMike responds to each letter, so he sends **30** letters back.\n\n\\[ \\text{Total pages sent per week} = 30 \\text{ pages} \\]\n\n### 6. **Time Spent Writing Per Page**\nMike can write **1** page every **6** minutes.\n\n### 7. **Total Time Spent Writing Pages**\nFor the **30** pages he writes:\n\\[ \\text{Time per page} = 6 \\text{ minutes} \\]\n\\[ \\text{Total time} = 30 \\text{ pages} \\times 6 \\text{ minutes} = 180 \\text{ minutes} \\]\n\n### 8. **Convert Minutes to Hours**\n\\[ 180 \\text{ minutes} \\div 60 = 3 \\text{ hours} \\]\n\n### **Final Answer**\nMike spends **3** hours per week writing.\n\n\\[\n\\boxed{3}\n\\]",
+        "ground_truth": 3,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"3\". The generated answer explains and concludes 3 hours per week. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 125,
+        "question": "Julia hat sich auf eine Dinnerparty in ihrem Haus vorbereitet, bei der sie Eintopf servieren wollte. Sie bemerkte, dass sie keine Plastiklöffel mehr hatte, also kaufte sie eine neue Packung Löffel. Später kaufte auch ihr Mann eine Packung mit 5 neuen Löffeln und gab sie Julia. Während Julia den Eintopf vorbereitete, benutzte sie drei der Löffel zum Probieren der Suppe. Später, als sie den Tisch deckte, hatte sie insgesamt 12 Löffel. Wie viele Löffel waren in der Packung, die Julia gekauft hat?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many spoons were in the original pack Julia bought.\n\n1. **Initial Purchase:**\n   - Julia bought a new pack of spoons. Let's denote the number of spoons in this pack as \\( x \\).\n\n2. **Additional Spoons:**\n   - Julia's husband bought a pack of 5 new spoons and gave them to Julia. So, the total number of spoons now is \\( x + 5 \\).\n\n3. **Spoons Used for Tasting:**\n   - Julia used 3 spoons to taste the soup. So, the number of spoons remaining is \\( (x + 5) - 3 = x + 2 \\).\n\n4. **Final Count:**\n   - When Julia was setting the table, she had a total of 12 spoons. Therefore, we can set up the equation:\n     \\[\n     x + 2 = 12\n     \\]\n\n5. **Solving for \\( x \\):**\n   - Subtract 2 from both sides of the equation:\n     \\[\n     x = 12 - 2\n     \\]\n     \\[\n     x = 10\n     \\]\n\nSo, Julia originally bought a pack of **10 spoons**.",
+        "ground_truth": 10,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"10\". Generated answer explains and concludes \"10 spoons\". So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 27,
+        "question": "Cynthia isst jeden Abend eine Portion Eiscreme. Sie kauft Eiscremekartons mit 15 Portionen Eis pro Karton für 4,00 US-Dollar pro Karton. Wie viel hat sie nach 60 Tagen für Eiscreme ausgegeben?\nAnswer in English.",
+        "generated_answer": "To determine how much Cynthia has spent on ice cream after 60 days, let's break down the problem step by step.\n\n1. **Calculate the number of cartons Cynthia buys:**\n   - Cynthia eats 1 serving of ice cream each evening.\n   - There are 60 days in the period.\n   - Therefore, she buys \\( \\frac{60 \\text{ days}}{1 \\text{ day/serving}} = 60 \\text{ servings} \\).\n\n2. **Determine the number of cartons needed:**\n   - Each carton contains 15 servings.\n   - To find out how many cartons are needed, divide the total number of servings by the number of servings per carton:\n     \\[\n     \\frac{60 \\text{ servings}}{15 \\text{ servings/carton}} = 4 \\text{ cartons}\n     \\]\n\n3. **Calculate the total cost:**\n   - Each carton costs $4.00.\n   - Therefore, the total cost is:\n     \\[\n     4 \\text{ cartons} \\times \\$4.00/\\text{carton} = \\$16.00\n     \\]\n\nSo, Cynthia has spent **\\$16.00** on ice cream after 60 days.",
+        "ground_truth": 16,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"16\". Likely meaning $16. The generated answer says $16.00. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "Ram verbraucht einen Haufen Stifte. Er entdeckt, dass er Geld sparen kann, indem er die Tinte von fünf leeren Stiften mischt, um einen Stift voll zu machen. Wenn er 25 Stifte kauft und sie dann verwendet, um neue Stifte zu machen, wenn die Tinte ausgeht, wie viele Stifte kann er dann insgesamt haben?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many pens Ram can have in total after mixing the ink.\n\n### **1. Initial Purchase:**\n- Ram buys **25 pens**.\n\n### **2. Using Pens to Make New Pens:**\n- Ram discovers that he can mix the ink from **5 empty pens** to make **1 full pen**.\n- This means that for every **5 empty pens**, he gets **1 new pen**.\n\n### **3. Calculating the Number of New Pens:**\n- Since Ram has **25 pens**, he can use them to make new pens in batches of 5.\n- Number of batches = Total pens / Pens per batch = 25 / 5 = **5 batches**.\n- Therefore, Ram can make **5 new pens** from the 25 he initially bought.\n\n### **4. Total Number of Pens:**\n- **Initial pens**: 25\n- **New pens made**: 5\n- **Total pens**: 25 + 5 = **30 pens**\n\n### **Final Answer:**\nRam can have a total of **30 pens** after mixing the ink and making new ones. \n\n\\boxed{30}",
+        "ground_truth": 31,
+        "assessment": "analysisWe need to see if generated answer (30 pens) is equivalent in meaning to ground truth (31). They differ. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 201,
+        "question": "John gewinnt einen Preis bei der Arbeit. Der Preis besteht in einer 1-maligen monetären Belohnung in Höhe von 5000 $ und einer Lohnerhöhung von 5 %. Wenn er jede Woche des Jahres 2000 pro Woche verdient und er den Preis am ersten Tag des Jahres bekam, wie viel Geld verdiente er dann in jenem Jahr?\nAnswer in English.",
+        "generated_answer": "To determine how much John earned in the year after receiving the prize, we need to consider both the monetary reward and the salary increase.\n\n1. **Monetary Reward**: John receives a one-time monetary reward of $5,000.\n2. **Salary Increase**: John's salary increases by 5%. If his original weekly salary is $2,000, the increase in his weekly salary is:\n   \\[\n   5\\% \\text{ of } \\$2,000 = 0.05 \\times \\$2,000 = \\$100\n   \\]\n   So, his new weekly salary is:\n   \\[\n   \\$2,000 + \\$100 = \\$2,100\n   \\]\n\n3. **Total Earnings**: John earns his new weekly salary for 52 weeks in a year. Therefore, his total earnings from his salary for the year are:\n   \\[\n   52 \\times \\$2,100 = \\$109,200\n   \\]\n\n4. **Total Earnings Including Prize**: Adding the one-time monetary reward to his total salary earnings for the year gives:\n   \\[\n   \\$109,200 + \\$5,000 = \\$114,200\n   \\]\n\nThus, John earned a total of **$114,200** in that year.",
+        "ground_truth": 114200,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"114200\". Generated answer says total $114,200. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 74,
+        "question": "Artie hat einen Blumenstand auf dem Bauernmarkt. Er verkauft drei Blumensorten: Ringelblumen, Petunien und Begonien. Er verkauft normalerweise Ringelblumen für 2,74 US-Dollar pro Topf, Petunien für 1,87 US-Dollar pro Topf und Begonien für 2,12 US-Dollar pro Topf. Artie hat heute kein Wechselgeld, also entschließt er sich, alle Preise auf den nächsthöheren Dollarbetrag aufzurunden. Wenn Artie 12 Töpfe Ringelblumen, 9 Töpfe Petunien und 17 Töpfe Begonien verkauft, wie viel verdient er dann?\nAnswer in English.",
+        "generated_answer": "To determine how much Artie earns after rounding up the prices, follow these steps:\n\n1. **Original Prices:**\n   - Ringelblumen: \\$2.74 per pot\n   - Petunien: \\$1.87 per pot\n   - Begonien: \\$2.12 per pot\n\n2. **Rounded Prices:**\n   - Ringelblumen: \\$3.00 per pot\n   - Petunien: \\$2.00 per pot\n   - Begonien: \\$2.00 per pot\n\n3. **Calculate Earnings:**\n   - **Ringelblumen:**  \n     \\( 12 \\text{ Töpfe} \\times \\$3.00 = \\$36.00 \\)\n   - **Petunien:**  \n     \\( 9 \\text{ Töpfe} \\times \\$2.00 = \\$18.00 \\)\n   - **Begonien:**  \n     \\( 17 \\text{ Töpfe} \\times \\$2.00 = \\$34.00 \\)\n\n4. **Total Earnings:**\n   \\( \\$36.00 + \\$18.00 + \\$34.00 = \\$88.00 \\)\n\nArtie earns **\\$88.00** after rounding up the prices.",
+        "ground_truth": 88,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"88\". The question: \"how much does he earn?\" Answer in English. Ground truth says 88 (presumably dollars). Generated answer says \"$88.00\". That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 31,
+        "question": "Gunter versucht, die Gummibärchen im Glas zu zählen. Er fragt seine Freunde, wie viele Gummibärchen sich ihrer Meinung nach im Glas befinden. Einer sagt 80. Der andere sagt 20 mehr als die Hälfte der ersten Schätzung. Ein Dritter sagt 25 % mehr als der Erste. Wie lautet ihre durchschnittliche Schätzung?\nAnswer in English.",
+        "generated_answer": "To find the average of the three estimates, we first need to calculate each estimate based on the information given:\n\n1. **First estimate**: 80 Gummibärchen.\n2. **Second estimate**: 20 more than half of the first estimate.\n   - Half of 80 is 40.\n   - 20 more than 40 is 60.\n3. **Third estimate**: 25% more than the first estimate.\n   - 25% of 80 is \\( 0.25 \\times 80 = 20 \\).\n   - 20 more than 80 is 100.\n\nNow, we calculate the average of these three estimates:\n\n\\[\n\\text{Average} = \\frac{80 + 60 + 100}{3} = \\frac{240}{3} = 80\n\\]\n\nSo, the average of their estimates is **80**.",
+        "ground_truth": 80,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"80\". Generated answer says average is 80, with explanation. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 195,
+        "question": "Ein Stift kostet so viel wie ein Bleistift und Radierer zusammen. Ein Bleistift kostet 1,20 $ und ein Radierer kostet 0,30 $. Wie viel kosten 8 Stifte?\nAnswer in English.",
+        "generated_answer": "Let's solve the problem step by step.\n\n1. **Define the variables:**\n   - Let \\( S \\) be the cost of one pencil.\n   - Let \\( B \\) be the cost of one pencil and eraser together.\n   - Let \\( E \\) be the cost of one eraser.\n\n2. **Given information:**\n   - \\( B = S + E \\)\n   - \\( S = 1.20 \\) dollars\n   - \\( E = 0.30 \\) dollars\n\n3. **Calculate the cost of one pencil and eraser (\\( B \\)):**\n   \\[\n   B = S + E = 1.20 + 0.30 = 1.50 \\text{ dollars}\n   \\]\n\n4. **Determine the cost of one pencil (\\( S \\)):**\n   \\[\n   S = 1.20 \\text{ dollars}\n   \\]\n\n5. **Calculate the cost of 8 pencils:**\n   \\[\n   8 \\times S = 8 \\times 1.20 = 9.60 \\text{ dollars}\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{9.60}\n\\]",
+        "ground_truth": 12,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ein Stift kostet so viel wie ein Bleistift und Radierer zusammen. Ein Bleistift kostet 1,20 $ und ein Radierer kostet 0,30 $. Wie viel kosten 8 Stifte?\" In German: A pen costs as much as a pencil and eraser together. A pencil costs $1.20 and an eraser $0.30. How much do 8 pens cost? So pen cost = pencil + eraser = 1.20+0.30 = 1.50. 8 pens = 8*1.50 = $12. So ground truth is 12 (presumably dollars). Generated answer says 9.60, which is 8 * 1.20, i.e., they misinterpreted \"Stift\" as pencil? Actually they defined S as cost of one pencil, but the problem says \"Stift\" (pen) costs as much as pencil+eraser. They gave answer 9.60, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 192,
+        "question": "Tom pflanzt 10 Bäume pro Jahr. Jedes Jahr fällt er auch 2 Bäume pro Jahr. Er beginnt mit 50 Bäumen. Nach 10 Jahren sterben 30 % der Bäume. Wie viele Bäume behält er übrig?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find out how many trees Tom has left after 10 years.\n\n### **1. Initial Number of Trees**\nTom starts with **50 trees**.\n\n### **2. Annual Tree Planting and Felling**\n- **Planted each year:** 10 trees\n- **Felled each year:** 2 trees\n- **Net increase per year:** \\(10 - 2 = 8\\) trees\n\n### **3. Trees Over 10 Years**\nCalculate the total number of trees after 10 years:\n\\[\n\\text{Total trees} = \\text{Initial trees} + (\\text{Net increase per year} \\times \\text{Number of years})\n\\]\n\\[\n\\text{Total trees} = 50 + (8 \\times 10) = 50 + 80 = 130 \\text{ trees}\n\\]\n\n### **4. Trees That Die (30% Mortality)**\nAfter 10 years, **30%** of the trees die:\n\\[\n\\text{Trees that die} = 30\\% \\times 130 = 0.30 \\times 130 = 39 \\text{ trees}\n\\]\n\n### **5. Trees Remaining**\nSubtract the dead trees from the total:\n\\[\n\\text{Trees remaining} = \\text{Total trees} - \\text{Trees that die}\n\\]\n\\[\n\\text{Trees remaining} = 130 - 39 = 91 \\text{ trees}\n\\]\n\n### **Final Answer**\nTom has **91 trees** left after 10 years.\n\n\\[\n\\boxed{91}\n\\]",
+        "ground_truth": 91,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"91\". Generated answer gives detailed reasoning and final answer 91. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 138,
+        "question": "Mark machte gestern einen Test, der aus 75 Fragen bestand. Er vervollständigte den Test mit einer Geschwindigkeit von 5 Fragen pro Stunde. Heute machte er einen anderen Test mit 100 Fragen in der gleichen Geschwindigkeit. Wenn Mark 8 Stunden Zeit hatte, um den ersten, und 6 Stunden, um den zweiten Test zu vervollständigen, wie viele Fragen ließ er dann unvollständig?\nAnswer in English.",
+        "generated_answer": "To determine how many questions Mark left unanswered in each test, we can follow these steps:\n\n### First Test:\n- **Total questions:** 75\n- **Time available:** 8 hours\n- **Speed:** 5 questions per hour\n\nFirst, calculate how many questions Mark could complete in 8 hours:\n\\[\n\\text{Questions completed} = \\text{Speed} \\times \\text{Time} = 5 \\, \\text{questions/hour} \\times 8 \\, \\text{hours} = 40 \\, \\text{questions}\n\\]\n\nNext, subtract the completed questions from the total to find the unanswered questions:\n\\[\n\\text{Unanswered questions} = \\text{Total questions} - \\text{Completed questions} = 75 - 40 = 35\n\\]\n\n### Second Test:\n- **Total questions:** 100\n- **Time available:** 6 hours\n- **Speed:** 5 questions per hour\n\nCalculate how many questions Mark could complete in 6 hours:\n\\[\n\\text{Questions completed} = \\text{Speed} \\times \\text{Time} = 5 \\, \\text{questions/hour} \\times 6 \\, \\text{hours} = 30 \\, \\text{questions}\n\\]\n\nSubtract the completed questions from the total to find the unanswered questions:\n\\[\n\\text{Unanswered questions} = \\text{Total questions} - \\text{Completed questions} = 100 - 30 = 70\n\\]\n\n### Total Unanswered Questions:\nAdd the unanswered questions from both tests:\n\\[\n\\text{Total unanswered questions} = 35 + 70 = 105\n\\]\n\n**Final Answer:** Mark left a total of **105 questions** unanswered.",
+        "ground_truth": 105,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"105\". Generated answer says total unanswered questions = 105, with explanation. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 202,
+        "question": "Josie pflanzt Weintrauben auf ihrem 10 Morgen großen Bauernhof an. Auf jedem Morgen werden 5 Tonnen Weintrauben pro Jahr erzeugt und aus jeder Tonne Weintrauben werden 2 Fässer Wein gemacht. Wie viele Fässer Wein erzeugt ihr Bauernhof pro Jahr?\nAnswer in English.",
+        "generated_answer": "Josie's farm produces 10 * 5 = 50 tons of grapes per year.\n\nSince each ton of grapes produces 2 barrels of wine, the farm produces 50 * 2 = 100 barrels of wine per year.\n\nSo, Josie's farm produces 100 barrels of wine per year.",
+        "ground_truth": 100,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"100\". Generated answer says 100 barrels per year. That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 218,
+        "question": "Adrians Alter ist das Dreifache des Alters von Harriet, und Harriet ist halb so alt wie Zack. Berechnen Sie das Durchschnittsalter der drei in drei Jahren, wenn Harriet jetzt 21 Jahre alt ist.\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step to find the average age of Adrian, Harriet, and Zack in three years.\n\n### Given:\n1. **Harriet's current age (H):** 21 years\n2. **Harriet is half as old as Zack (Z):**  \n   \\( H = \\frac{1}{2}Z \\)  \n   So, \\( Z = 2H = 2 \\times 21 = 42 \\) years\n3. **Adrian's current age (A) is three times Harriet's age:**  \n   \\( A = 3H = 3 \\times 21 = 63 \\) years\n\n### Ages in three years:\n- **Harriet:** \\( H + 3 = 21 + 3 = 24 \\) years\n- **Zack:** \\( Z + 3 = 42 + 3 = 45 \\) years\n- **Adrian:** \\( A + 3 = 63 + 3 = 66 \\) years\n\n### Average age in three years:\n\\[\n\\text{Average} = \\frac{H + 3 + Z + 3 + A + 3}{3} = \\frac{24 + 45 + 66}{3} = \\frac{135}{3} = 45 \\text{ years}\n\\]\n\n### Final Answer:\n\\[\n\\boxed{45}\n\\]",
+        "ground_truth": 45,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"45\". Generated answer gives detailed reasoning and final answer 45. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 162,
+        "question": "Wenn ein Beutel Murmeln 20 $ kostet, und der Preis alle zwei Monate um 20 % des ursprünglichen Preises steigt, wie viel würde ein Beutel Murmeln dann nach 36 Monaten kosten?\nAnswer in English.",
+        "generated_answer": "To determine the cost of a bag of marbles after 36 months, given that the price increases by 20% of the original price every 2 months, we can follow these steps:\n\n1. **Initial Price**: The initial price of the bag of marbles is $20.\n\n2. **Price Increase Calculation**:\n   - After 2 months, the price increases by 20% of the original price.\n   - 20% of $20 is \\( 0.20 \\times 20 = 4 \\).\n   - So, the new price after 2 months is \\( 20 + 4 = 24 \\) dollars.\n\n3. **Repeat the Process**:\n   - After another 2 months (4 months total), the price increases by 20% of the new price.\n   - 20% of $24 is \\( 0.20 \\times 24 = 4.8 \\).\n   - So, the new price after 4 months is \\( 24 + 4.8 = 28.8 \\) dollars.\n\n4. **Continue the Pattern**:\n   - After another 2 months (6 months total), the price increases by 20% of the current price.\n   - 20% of $28.8 is \\( 0.20 \\times 28.8 = 5.76 \\).\n   - So, the new price after 6 months is \\( 28.8 + 5.76 = 34.56 \\) dollars.\n\n5. **After 36 Months**:\n   - Since 36 months is 18 periods of 2 months each, we need to apply the price increase 18 times.\n   - The price after 18 periods of 2 months each can be calculated using the formula for compound interest:\n     \\[\n     \\text{Final Price} = \\text{Initial Price} \\times (1 + \\text{growth rate})^{\\text{number of periods}}\n     \\]\n   - Here, the growth rate is 1.20 (100% + 20%), and the number of periods is 18.\n   - So, the final price is:\n     \\[\n     20 \\times (1.20)^{18}\n     \\]\n\n6. **Calculate the Final Price**:\n   - Using a calculator:\n     \\[\n     20 \\times (1.20)^{18} \\approx 20 \\times 11.05 \\approx 221.00\n     \\]\n\nTherefore, the cost of a bag of marbles after 36 months would be approximately **$221.00**.",
+        "ground_truth": 92,
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Wenn ein Beutel Murmeln 20 $ kostet, und der Preis alle zwei Monate um 20 % des ursprünglichen Preises steigt, wie viel würde ein Beutel Murmeln dann nach 36 Monaten kosten? Answer in English.\"\n\nInterpretation: initial price $20. Price increases every two months by 20% of the original price (i.e., $4 each period), not 20% of current price. So after each 2 months, add $4. Over 36 months = 18 periods, price = 20 + 18*4 = 20 + 72 = $92. Ground truth is 92.\n\nGenerated answer: They assumed 20% of current price (compound) and got approx $221. So not same meaning. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 150,
+        "question": "Steve und Tim beschließen herauszufinden, wer schneller von der Schule zu Hause ist. Steve wohnt weiter entfernt als Tim, darum darf er mit seinem Fahrrad fahren. Steve wohnt 3 Meilen von der Schule entfernt und kann mit dem Fahrrad 440 Fuß pro Minute zurücklegen. Tim wohnt 2 Meilen von der Schule entfernt. Wenn Tim mit seinem Skateboard 264 Fuß pro Minute zurücklegt, wie lang wartet der Gewinner dann bei sich zu Hause, bevor der Verlierer das Rennen beendet?\nAnswer in English.",
+        "generated_answer": "To determine who wins the race and how long the winner waits for the loser, we need to calculate the time each person takes to reach home and then compare the times.\n\n### Step 1: Convert distances to feet\nFirst, convert the distances from miles to feet since the speed is given in feet per minute.\n\n- Steve's distance: \\( 3 \\text{ miles} \\times 5280 \\text{ feet/mile} = 15840 \\text{ feet} \\)\n- Tim's distance: \\( 2 \\text{ miles} \\times 5280 \\text{ feet/mile} = 10560 \\text{ feet} \\)\n\n### Step 2: Calculate the time for each person\nNext, use the formula \\( \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} \\) to find the time each person takes to reach home.\n\n- Steve's speed: \\( 440 \\text{ feet/minute} \\)\n- Tim's speed: \\( 264 \\text{ feet/minute} \\)\n\n- Steve's time: \\( \\frac{15840 \\text{ feet}}{440 \\text{ feet/minute}} \\approx 36 \\text{ minutes} \\)\n- Tim's time: \\( \\frac{10560 \\text{ feet}}{264 \\text{ feet/minute}} \\approx 40 \\text{ minutes} \\)\n\n### Step 3: Determine the winner and the waiting time\n- Steve reaches home in 36 minutes.\n- Tim reaches home in 40 minutes.\n\nSince Steve arrives home first, he waits for Tim. The difference in their arrival times is:\n\n\\( 40 \\text{ minutes} - 36 \\text{ minutes} = 4 \\text{ minutes} \\)\n\nSo, Steve waits for 4 minutes at his home before Tim finishes the race.\n\n### Final Answer\nThe winner is Steve, and he waits **4 minutes** at his home before Tim finishes the race.",
+        "ground_truth": 4,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is just \"4\". The question: \"how long does the winner wait at home before the loser finishes?\" Answer: 4 (minutes). Generated answer says winner is Steve, waits 4 minutes. That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 73,
+        "question": "Shiela hat fünf Handys für 150 US-Dollar pro Stück mit einem Ratenzahlungsvertrag über 3 Monate gekauft. Pro Stück werden 2 % Zinsen verlangt. Wie viel zahlt Shiela jeden Monat 3 Monate lang?\nAnswer in English.",
+        "generated_answer": "To calculate the monthly payment for Shiela, we need to consider the total cost of the phones, the interest, and the payment period.\n\n1. **Total cost of the phones**:  \n   Shiela bought 5 phones at $150 each.  \n   Total cost = 5 × $150 = **$750**.\n\n2. **Total interest**:  \n   The interest rate is 2% per month.  \n   Total interest = 5 × $150 × 2% = 5 × $150 × 0.02 = **$15**.\n\n3. **Total amount to be paid**:  \n   Total amount = Total cost + Total interest = $750 + $15 = **$765**.\n\n4. **Monthly payment**:  \n   The payment is spread over 3 months.  \n   Monthly payment = Total amount / Number of months = $765 / 3 = **$255**.\n\nShiela pays **$255** each month for 3 months.",
+        "ground_truth": 255,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"255\". The generated answer says monthly payment is $255 each month for 3 months. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 199,
+        "question": "Mark ist Korrektor. Er bearbeitet jede Woche die gleiche Anzahl Sätze für zwei verschiedene Herausgeber, die ihm jeweils eine andere Rate pro Satz bezahlen. Herausgeber B bezahlt Mark das Doppelte dessen, was Herausgeber A bezahlt. Mark bearbeitet jede Woche eine Gesamtzahl von 1000 Sätzen, und Herausgeber A bezahlt ihm 5 Cent pro Satz. Wie viel verdient Mark in einer Woche in Cent?\nAnswer in English.",
+        "generated_answer": "To determine how much Mark earns in a week, we need to break down the problem step by step.\n\n1. **Total Sents per Week**: Mark edits a total of 1000 sentences each week.\n2. **Rate from A**: He earns 5 cents per sentence from Editor A.\n3. **Rate from B**: He earns twice as much per sentence from Editor B, which is \\( 2 \\times 5 \\) cents = 10 cents per sentence.\n\nLet's denote:\n- \\( x \\) as the number of sentences edited for Editor A.\n- \\( 1000 - x \\) as the number of sentences edited for Editor B.\n\nThe total earnings from Editor A are:\n\\[ 5x \\text{ cents} \\]\n\nThe total earnings from Editor B are:\n\\[ 10(1000 - x) \\text{ cents} \\]\n\nThe total earnings for the week are the sum of the earnings from both editors:\n\\[ 5x + 10(1000 - x) \\]\n\nLet's simplify the expression:\n\\[ 5x + 10000 - 10x \\]\n\\[ 10000 - 5x \\]\n\nSince \\( x \\) must be a non-negative integer and \\( x \\leq 1000 \\), we need to find the value of \\( x \\) that fits these constraints. However, since the problem does not specify the exact number of sentences edited for each editor, we can assume that Mark edits the maximum number of sentences for Editor A, which is 1000.\n\nIf \\( x = 1000 \\):\n\\[ 10000 - 5(1000) = 10000 - 5000 = 5000 \\text{ cents} \\]\n\nTherefore, Mark earns **5000 cents** in a week.",
+        "ground_truth": 7500,
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. Ground truth answer: 7500 (cents). Generated answer says 5000 cents. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 172,
+        "question": "Es gibt vier Vögel in der Kombüse. Sally Two ist drei Jahre älter als Granny Red. Granny Red ist zwei Mal älter als Sally Four. Wenn Sally Four gleich alt ist wie Sally Thirtytwo und Sally Thirtytwo 8 Jahre älter, wie hoch ist dann das Gesamtalter der vier Vögel?\nAnswer in English.",
+        "generated_answer": "Let's break down the information step by step to find the total age of the four birds.\n\n1. **Define the Variables:**\n   - Let \\( S_4 \\) be the age of Sally Four.\n   - Let \\( S_{32} \\) be the age of Sally Thirtytwo.\n   - Let \\( G_R \\) be the age of Granny Red.\n   - Let \\( S_T \\) be the age of Sally Two.\n\n2. **Given Information:**\n   - \\( S_4 = S_{32} - 8 \\) (Sally Four is 8 years younger than Sally Thirtytwo)\n   - \\( S_4 = S_T \\) (Sally Four is the same age as Sally Two)\n   - \\( G_R = 2 \\times S_T \\) (Granny Red is twice as old as Sally Two)\n   - \\( S_T = 3 \\times S_4 \\) (Sally Two is three times as old as Sally Four)\n\n3. **Find \\( S_{32} \\):**\n   - From \\( S_4 = S_{32} - 8 \\), we can express \\( S_{32} \\) as:\n     \\[\n     S_{32} = S_4 + 8\n     \\]\n\n4. **Find \\( S_T \\):**\n   - From \\( S_4 = S_T \\), we already know:\n     \\[\n     S_T = S_4\n     \\]\n\n5. **Find \\( G_R \\):**\n   - From \\( G_R = 2 \\times S_T \\), we can express \\( G_R \\) as:\n     \\[\n     G_R = 2 \\times S_4\n     \\]\n\n6. **Calculate the Ages:**\n   - Let's assume \\( S_4 = x \\). Then:\n     \\[\n     S_T = x\n     \\]\n     \\[\n     S_{32} = x + 8\n     \\]\n     \\[\n     G_R = 2x\n     \\]\n\n7. **Total Age:**\n   - The total age of the four birds is:\n     \\[\n     \\text{Total Age} = S_T + S_4 + G_R + S_{32} = x + x + 2x + (x + 8) = 5x + 8\n     \\]\n\n8. **Determine \\( x \\):**\n   - Since \\( S_4 = S_{32} - 8 \\), and \\( S_4 = x \\), we have:\n     \\[\n     x = (x + 8) - 8 \\implies x = x\n     \\]\n   - This means \\( x \\) can be any value, but since we are looking for a specific total age, we need to find a consistent value for \\( x \\).\n\n9. **Assume a Value for \\( x \\):**\n   - Let's assume \\( x = 10 \\) (a reasonable age for a bird).\n   - Then:\n     \\[\n     S_4 = 10\n     \\]\n     \\[\n     S_T = 10\n     \\]\n     \\[\n     S_{32} = 18\n     \\]\n     \\[\n     G_R = 20\n     \\]\n   - Total Age:\n     \\[\n     10 + 10 + 20 + 18 = 58\n     \\]\n\nTherefore, the total age of the four birds is **58 years**.",
+        "ground_truth": 51,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"51\". Generated answer gives a detailed solution concluding total age is 58 years. That does not match 51. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 152,
+        "question": "Carl kauft zehn Kekspackungen. In jeder Kekspackung sind sechs Kekse. Jeder Keks kostest 0,10 $. Wie viel Wechselgeld bekommt Carl, wenn er mit einer 10$-Note bezahlt?\nAnswer in English.",
+        "generated_answer": "Carl buys ten packets of cookies, with six cookies in each packet. Each cookie costs $0.10. \n\nFirst, calculate the total number of cookies:\n\\[ 10 \\text{ packets} \\times 6 \\text{ cookies/packet} = 60 \\text{ cookies} \\]\n\nNext, calculate the total cost:\n\\[ 60 \\text{ cookies} \\times \\$0.10/\\text{cookie} = \\$6.00 \\]\n\nCarl pays with a \\$10 bill, so the change he receives is:\n\\[ \\$10.00 - \\$6.00 = \\$4.00 \\]\n\nThus, Carl gets \\$4.00 in change.",
+        "ground_truth": 4,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"4\". The question: \"How much change does Carl get?\" The ground truth says 4 (presumably dollars). Generated answer says $4.00 in change. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 248,
+        "question": "Ein Koch kaufte 4 Säcke Zwiebeln. Jeder Sack wiegt 50 Pfund. Ein Pfund Zwiebeln kostet 1,50 $. Wie viel gab der Koch aus?\nAnswer in English.",
+        "generated_answer": "The chef bought 4 sacks of onions, with each sack weighing 50 pounds. The total weight of the onions is 4 * 50 = 200 pounds. The cost per pound is $1.50, so the total cost is 200 * $1.50 = $300.",
+        "ground_truth": 300,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"300\". The generated answer says total cost is $300. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 170,
+        "question": "Die Blaskapelle bestellt gerade neue Uniformen. Geliefert wird jede Uniform mit einem Hut, der 25 $ kostet, einer Jacke, die drei Mal so viel kostet wie der Hut, und Hosen, die den Durchschnittspreis von Hut und Jacke kosten. Wie viel kostet jede Uniform insgesamt?\nAnswer in English.",
+        "generated_answer": "Let's break down the costs step by step:\n\n1. **Hat (Hat):**  \n   The hat costs **$25**.\n\n2. **Jacke (Jacket):**  \n   The jacket costs **3 times** the price of the hat.  \n   \\( 3 \\times 25 = 75 \\) dollars.\n\n3. **Hosen (Pants):**  \n   The pants cost the **average** of the hat and jacket prices.  \n   \\( \\frac{25 + 75}{2} = 50 \\) dollars.\n\n4. **Total Cost of One Uniform:**  \n   Add the costs of the hat, jacket, and pants:  \n   \\( 25 + 75 + 50 = 150 \\) dollars.\n\n**Final Answer:**  \nEach uniform costs **$150** in total.",
+        "ground_truth": 150,
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"150\". Generated answer says each uniform costs $150. That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

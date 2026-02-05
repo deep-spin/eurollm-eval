@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Дженет заняла 2000 $ и пообещала вернуть их с дополнительными 10 % от суммы. Если Дженет будет выплачивать 165 $ в месяц в течение 12 месяцев, сколько составит остаток средств Дженет к тому моменту?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\n### 1. **Initial Loan Amount:**\nDjenet borrowed **$2000** and promised to return it with an additional **10% interest**.\n\nSo, the **total amount to be repaid** is:\n\n$$\n2000 + (10\\% \\text{ of } 2000) = 2000 + 200 = 2200\n$$\n\n### 2. **Monthly Payment Plan:**\nDjenet plans to pay **$165 per month for 12 months**.\n\nTotal amount paid over 12 months:\n\n$$\n165 \\times 12 = 1980\n$$\n\n### 3. **Remaining Balance:**\n\nNow subtract the total amount paid from the total amount owed:\n\n$$\n2200 - 1980 = 220\n$$\n\n---\n\n### ✅ Final Answer:\n**$220** will remain outstanding after 12 months.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Машины выстроились на автостраде. Несколько машин проехали в первые 15 минут дорожной пробки, затем еще 20 машин проехали в оставшиеся 15 минут пробки. 5 машин из очереди съехали с дороги, поэтому им не нужно ехать через дорожную пробку. Если с самого начала на автостраде было 30 машин, сколько машин проехало через дорожную пробку в первые 15 минут?\nAnswer in English.",
+        "generated_answer": "Let's break down the information step by step.\n\n### Given:\n- Total number of cars **initially on the highway**: 30\n- Some cars passed through the traffic jam in the **first 15 minutes**.\n- Then, **20 more cars** passed through the jam in the **next 15 minutes**.\n- **5 cars** left the queue and **did not go through the traffic jam**.\n- We are to find: **How many cars passed through the jam in the first 15 minutes?**\n\n---\n\n### Step-by-step reasoning:\n\nLet’s define:\n\n- Let **x** be the number of cars that passed through the jam in the **first 15 minutes**.\n- Then, **20** more cars passed through in the **next 15 minutes**.\n- So total number of cars that went through the jam is:  \n  $$\n  x + 20\n  $$\n\nWe also know that **5 cars** left the queue and **did not go through** the jam.\n\nSo, the total number of cars that were originally on the highway (30) is equal to the number of cars that went through the jam plus the number of cars that left the queue:\n\n$$\nx + 20 + 5 = 30\n$$\n\nSimplify:\n\n$$\nx + 25 = 30\n$$\n\n$$\nx = 5\n$$\n\n---\n\n### ✅ Final Answer:\n$$\n\\boxed{5}\n$$\n\nSo, **5 cars** passed through the traffic jam in the **first 15 minutes**.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Виолетта хочет купить новые цветные карандаши. Ей нужны 5 разного цвета, и она приготовила для этой покупки 20 $. Один карандаш стоит 2 $. Сколько сдачи она получит?\nAnswer in English.",
+        "generated_answer": "Viola wants to buy 5 colored pencils. Each pencil costs $2, so the total cost is:\n\n$$\n5 \\times 2 = 10 \\text{ dollars}\n$$\n\nShe has $20, so the change she will get is:\n\n$$\n20 - 10 = 10 \\text{ dollars}\n$$\n\n**Answer: 10 dollars.**",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Чед заказал на обед собери-свой-буррито. Базовый буррито стоит 6,50 $. Он добавляет дополнительное мясо за 2,00 $, дополнительный сыр за 1,00 $, авокадо за 1,00 $ и 2 соуса за 0,25 $ каждый. Он решает улучшить еду за дополнительные 3,00 $, что добавит чипсы и напиток. У него есть подарочная карта на 5,00 $, которую он использует при оплате. Сколько он еще должен?\nAnswer in English.",
+        "generated_answer": "Let's calculate the total cost of Ched's burrito step by step:\n\n1. **Base burrito**: $6.50  \n2. **Additional meat**: $2.00  \n3. **Extra cheese**: $1.00  \n4. **Avocado**: $1.00  \n5. **2 sauces (at $0.25 each)**: 2 × $0.25 = $0.50  \n6. **Upgrade for chips and drink**: $3.00  \n\n**Total cost before gift card**:\n$$\n6.50 + 2.00 + 1.00 + 1.00 + 0.50 + 3.00 = 14.00\n$$\n\nHe has a **$5.00 gift card**, so we subtract that from the total:\n\n$$\n14.00 - 5.00 = 9.00\n$$\n\n### ✅ Final Answer: **$9.00** — this is how much more Ched needs to pay.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Фрэнки смотрит телевизор каждый вечер после того, как сделает домашнее задание. Вечером в понедельник и вторник он посмотрел 1-часовую серию своего любимого шоу. В среду он посмотрел несколько серий 30-минутного шоу. В четверг он рано закончил домашнее задание и посмотрел 1-часовую серию и 30-минутное шоу. В пятницу он мог поздно лечь спать перед выходными, поэтому посмотрел две 1-часовых серии. Если он смотрел телевизор всего 7 часов, сколько 30-минутных серий он посмотрел в среду?\nAnswer in English.",
+        "generated_answer": "Let's break down how much time Frank spent watching TV each day and find out **how many 30-minute episodes he watched on Wednesday**.\n\n---\n\n### Step 1: Convert all times to hours\n\n- **Monday**: 1-hour show → **1 hour**\n- **Tuesday**: 1-hour show → **1 hour**\n- **Wednesday**: Several **30-minute** episodes → Let’s say he watched **x** episodes, so that's **0.5x** hours\n- **Thursday**: 1-hour show + 30-minute show = **1 + 0.5 = 1.5 hours**\n- **Friday**: 2 one-hour shows = **2 hours**\n\n---\n\n### Step 2: Add up the total time\n\n$$\n\\text{Total time} = 1 + 1 + 0.5x + 1.5 + 2 = 5.5 + 0.5x\n$$\n\nWe are told that the **total time** Frank spent watching TV is **7 hours**, so:\n\n$$\n5.5 + 0.5x = 7\n$$\n\n---\n\n### Step 3: Solve for x\n\n$$\n0.5x = 7 - 5.5 = 1.5 \\\\\nx = \\frac{1.5}{0.5} = 3\n$$\n\n---\n\n### ✅ Final Answer:\nFrank watched **3** 30-minute episodes on Wednesday.",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "У новой программы было 60 загрузок за первый месяц. Количество загрузок за второй месяц было в три раза больше, чем загрузок за первый месяц, но затем снизилось на 30 % в третьем месяце. Сколько всего загрузок было у программы за три месяца?\nAnswer in English.",
+        "generated_answer": "Let's calculate the total number of downloads over the three months step by step.\n\n**First month:**  \nDownloads = 60\n\n**Second month:**  \nDownloads were **3 times** the first month:  \n$$\n3 \\times 60 = 180\n$$\n\n**Third month:**  \nDownloads **decreased by 30%** from the second month.  \nSo, it was **70%** of the second month's downloads:  \n$$\n0.70 \\times 180 = 126\n$$\n\n**Total downloads over three months:**  \n$$\n60 + 180 + 126 = 366\n$$\n\n### ✅ Final Answer: **366 downloads**",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "В турнире по баскетболу соревнуются четыре школы. Каждая школа отправила баскетбольную команду девочек и баскетбольную команду мальчиков, и в каждой команде по 5 игроков. Каждая школа также отравила тренера для каждой команды. В общей сложности сколько человек отправили все школы?\nAnswer in English.",
+        "generated_answer": "Let's break down the information:\n\n- There are **4 schools**.\n- Each school sends:\n  - **1 girls' basketball team** with **5 players**\n  - **1 boys' basketball team** with **5 players**\n  - **1 coach** for the girls' team\n  - **1 coach** for the boys' team\n\nSo, per school:\n- Players: $5 + 5 = 10$\n- Coaches: $1 + 1 = 2$\n\nTotal per school: $10 + 2 = 12$ people\n\nFor 4 schools:\n$$\n4 \\times 12 = 48\n$$\n\n### ✅ Final Answer: **48 people**",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Изабель купила праздничные принадлежности для праздника в честь дня рождения ее младшей сестры. Она потратила 12 $ на ингредиенты для торта, 43 $ на подарки ко дню рождения, 15 $ на украшения, 4 $ на приглашения и 22 $ на мешочки со сладостями для гостей праздника. Она разделила стоимость поровну на три части со своими двумя родителями. Сколько заплатил каждый человек?\nAnswer in English.",
+        "generated_answer": "Давайте посчитаем общую сумму, которую Изабель потратила:\n\n- Ингредиенты для торта: $12  \n- Подарки: $43  \n- Украшения: $15  \n- Приглашения: $4  \n- Мешочки со сладостями: $22  \n\n**Общая сумма:**  \n$12 + $43 + $15 + $4 + $22 = **$96**\n\nИзабель разделила эту сумму **поровну на три части** (на себя и двух родителей).\n\n**Сумма, которую заплатил каждый человек:**  \n$96 ÷ 3 = **$32**\n\n✅ **Ответ: $32**.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Нисса нанимает 60 сезонных рабочих на роль эльфов в деревне Санты в ее универсаме. Треть эльфов увольняются после того, как детей рвет на них, затем 10 эльфов из оставшихся увольняются после того, как дети пинают их по ногам. Сколько эльфов остается?\nAnswer in English.",
+        "generated_answer": "Nissa hires **60 elves**.\n\n1. **One-third of the elves are fired** after the kids tear them:  \n   $$\n   \\frac{1}{3} \\times 60 = 20 \\text{ elves fired}\n   $$  \n   Remaining elves:  \n   $$\n   60 - 20 = 40 \\text{ elves}\n   $$\n\n2. Then, **10 more elves are fired** after the kids kick them:  \n   $$\n   40 - 10 = 30 \\text{ elves}\n   $$\n\n### Final Answer: **30 elves remain.**",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Дженни помогает у мамы в офисе. У нее есть пачка из 60 писем, на которые нужно приклеить марки, и пачка писем с уже наклеенными марками. Она приклеила марки на одну треть писем без марок. Если теперь в пачке с уже наклеенными марками 30 писем, то сколько было в этой пачке, когда Дженни приступила к работе?\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\n### Given:\n- Denny has **60 letters** that need stamps (we'll call this **Group A**).\n- She also has a **second pile of letters with already applied stamps** (we'll call this **Group B**).\n- Denny **stamped one-third** of the letters in Group A.\n- After doing that, the number of letters in Group B is now **30**.\n- We are to find: **How many letters were in Group B when Denny started working?**\n\n---\n\n### Step 1: How many letters did Denny stamp?\nShe stamped **one-third** of the 60 letters in Group A:\n\n$$\n\\frac{1}{3} \\times 60 = 20 \\text{ letters}\n$$\n\nSo, she added **20 letters** with stamps to Group B.\n\n---\n\n### Step 2: Let’s define variables.\nLet the original number of letters in Group B be **x**.\n\nAfter Denny added 20 letters from Group A, the total number of letters in Group B became **30**.\n\nSo we can write the equation:\n\n$$\nx + 20 = 30\n$$\n\n---\n\n### Step 3: Solve for x.\n\n$$\nx = 30 - 20 = 10\n$$\n\n---\n\n### ✅ Final Answer:\n$$\n\\boxed{10}\n$$\n\nThere were **10 letters** in the pile with already applied stamps when Denny started working.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

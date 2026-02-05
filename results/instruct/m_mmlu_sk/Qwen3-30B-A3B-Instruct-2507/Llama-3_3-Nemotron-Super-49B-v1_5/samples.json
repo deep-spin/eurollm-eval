@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": "We are given the sentence:  \n**\"Some animals are neglected by cruel people.\"**  \nAnd we are to translate it into predicate logic using the following predicates:  \n- **Ax**: x is an animal (zviera)  \n- **Cx**: x is cruel (krutý)  \n- **Px**: x is a person (osoba)  \n- **Nxy**: x neglects y (x zanedbáva y)\n\n---\n\nLet’s analyze the meaning:\n\n- \"Some animals\" → There exists at least one animal that is neglected.\n- \"are neglected by cruel people\" → There exists a cruel person who neglects that animal.\n\nSo, the structure is:  \n**There exists a person x who is cruel, and there exists an animal y that is neglected by x.**\n\nIn logical terms:  \n∃x ∃y [ (Px ∧ Cx) ∧ (Ay ∧ Nxy) ]\n\nBut we can write this more naturally as:  \n∃x [(Px ∧ Cx) ∧ ∃y (Ay ∧ Nxy)]\n\nThis means:  \n\"There exists a person x such that x is a person and cruel, and there exists an animal y such that x neglects y.\"\n\nNow let’s examine the options:\n\n---\n\n**A)** (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]  \n→ There exists an x such that x is an animal and cruel, and there exists a y such that y is a person and y neglects x.  \nThis says: *An animal is cruel, and some person neglects it.*  \nBut the original says *cruel people neglect animals*, not the other way around. Also, \"an animal is cruel\" is not correct.  \n❌ Incorrect.\n\n---\n\n**B)** (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]  \n→ There exists an x such that x is cruel and a person, and there exists a y such that y is an animal and x neglects y.  \nThis matches our intended meaning perfectly:  \nA cruel person (x) neglects some animal (y).  \n✅ Correct.\n\n---\n\n**C)** (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]  \n→ There exists an x such that x is an animal and a person, and there exists a y such that y is cruel and x neglects y.  \nThis says: *Some animal-person* (i.e., a being that is both animal and person — strange) *neglects a cruel thing*.  \nThis doesn’t make sense in context. We don’t expect animals to be people.  \n❌ Incorrect.\n\n---\n\n**D)** (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)}  \nThis is syntactically messy. The structure is:  \n∃x ∃y { [ (Ax ∧ Cy) ∧ Py ] → Nxy }  \nWhich means: If an animal x and a cruel y and a person y, then x neglects y.  \nThis is logically flawed and does not express the intended meaning.  \nAlso, the quantifiers are over x and y, but Cy and Py both refer to y, so y would have to be both cruel and a person, but then Nxy means x neglects y — again, confusing roles.  \n❌ Incorrect.\n\n---\n\n✅ **Correct answer: B)** (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": "The sentence \"Zem nie je väčšia ako Jupiter\" translates to \"Earth is not larger than Jupiter.\"\n\nGiven:\n- e: Earth  \n- j: Jupiter  \n- Bxy: x is larger than y\n\nSo, \"Earth is larger than Jupiter\" would be: **Bej**\n\nTherefore, \"Earth is not larger than Jupiter\" is the negation of that: **~Bej**\n\nCorrect answer: **D) ~Bej** ✅",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": "In the analogy between mechanical and electrical systems, where force is analogous to current, the mechanical element corresponding to a damper (which opposes motion and dissipates energy) is represented by **resistance** in the electrical domain.\n\nTherefore, the correct answer is:\n\n**A) resistance.**\n\nExplanation:  \n- In the mechanical-electrical analogy:\n  - Force ↔ Voltage\n  - Velocity ↔ Current\n  - Mass ↔ Inductance\n  - Spring (stiffness) ↔ Capacitance\n  - Damper (damping/friction) ↔ Resistance\n\nSo, the electrical analog of a mechanical damper (tlumič) is **resistance**.\n\n✅ Correct answer: **A) odpor.** (resistance)",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": "The objectives are decided in the phase of **defining the program**.\n\nCorrect answer: **A) Definovanie programu** (Defining the program).",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": "Little argues that we should accept mothers' prerogative to terminate pregnancy before the fetus becomes a person, because:\n\nD) there is no clear answer to the question of the moral status of abortion.\n\nExplanation: Little's position is based on the idea that the moral status of the fetus is uncertain—there is no definitive consensus on when a fetus becomes a person with full moral rights. Given this uncertainty, he argues that it is reasonable to respect a mother's right to make decisions about her own body and pregnancy until the point at which the fetus might be considered a person. This reflects a cautious, pragmatic approach rather than a firm moral judgment on abortion itself.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": "If Earth were instantly moved to an orbit three times farther from the Sun, how long would one year be?\n\nThe correct answer is: **B) about 5.2 times longer**\n\n**Explanation:**\n\nAccording to **Kepler's Third Law of Planetary Motion**, the square of the orbital period (T) of a planet is proportional to the cube of the semi-major axis (a) of its orbit:\n\n\\[\nT^2 \\propto a^3\n\\]\n\nSo if the distance from the Sun increases by a factor of 3 (i.e., \\( a_{\\text{new}} = 3a_{\\text{original}} \\)), then:\n\n\\[\n\\left( \\frac{T_{\\text{new}}}{T_{\\text{original}}} \\right)^2 = \\left( \\frac{a_{\\text{new}}}{a_{\\text{original}}} \\right)^3 = 3^3 = 27\n\\]\n\n\\[\n\\frac{T_{\\text{new}}}{T_{\\text{original}}} = \\sqrt{27} \\approx 5.2\n\\]\n\nThus, the new orbital period (one year) would be approximately **5.2 times longer** than the current year.\n\nNote: The mass of Earth doesn’t affect the orbital period around the Sun — only the distance from the Sun matters in this context (assuming the Sun’s mass remains unchanged).\n\nTherefore, the correct answer is: **B) about 5.2 times longer** ✅",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": "The correct answer is: **B) Intensive distribution.**\n\n**Explanation:**  \nIntensive distribution means placing your product or service in as many outlets or locations as possible, with the goal of maximizing availability and visibility. This strategy is commonly used for convenience products (like snacks, beverages, or toiletries) where the objective is to make the product easily accessible to the largest number of customers.\n\n- **A) Exclusive distribution** – Limited to only a few selected outlets, often to maintain a premium image.\n- **C) Selective distribution** – Used in more specialized markets; chosen retailers are selected based on certain criteria.\n- **D) Direct distribution** – Selling directly to consumers (e.g., online or via sales representatives), not through retail outlets.\n\nTherefore, **intensive distribution** best matches the description of maximizing presence across numerous locations.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "The most likely diagnosis is:\n\n**C) Hypotonic uterine dysfunction**\n\n**Explanation:**\n\n- The patient is a 25-year-old pregnant woman at 39 weeks of gestation, in active labor (she has had two prior deliveries).\n- She has regular contractions every 4 minutes, but currently only experiences occasional and weak contractions.\n- She has received pain relief twice in the past 6 hours — this may contribute to reduced uterine activity.\n- Cervical dilation is 7 cm, with full effacement (100%), and the fetal head is engaged.\n- No signs of obstructed labor are present.\n- Fetal heart rate is normal.\n\nKey findings:\n- Contractions are infrequent (every 4 minutes) and weak — not strong or effective.\n- Despite being in the active phase of labor (cervix dilated to 7 cm), the contractions are inadequate for progress.\n- This pattern suggests **hypotonic uterine dysfunction**, where contractions are too weak, infrequent, or poorly coordinated to advance labor effectively.\n\n**Why not the others?**\n- **A) Braxton-Hicks contractions**: These are typically irregular, non-painful, and do not cause cervical change. This patient is in active labor with cervical dilation and effacement — not Braxton-Hicks.\n- **B) Lower segment contraction ring**: This refers to a pathological retraction ring seen in obstructed labor (e.g., in cephalopelvic disproportion), which is not present here (no obstruction, normal fetal heart tones, engaged head).\n- **D) Primary dysfunctional labor**: This usually refers to failure of labor to progress from the beginning, often due to poor uterine contractility *from the start*. However, in this case, she was initially in active labor (contractions every 4 min), suggesting that labor started normally but then became ineffective — more consistent with secondary (or acquired) hypotonic dysfunction.\n\nTherefore, the best answer is:\n\n**C) Hypotonic uterine dysfunction** ✅",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": "The expression that describes the behavioral component of negative attitudes toward certain groups is:\n\n**D) Discrimination**\n\nExplanation:  \n- **Discrimination** refers to the actual behavior of treating individuals or groups unfairly based on prejudice or bias. It is the behavioral aspect of negative attitudes.\n- **Prejudice** (A) refers to the attitude or belief component (negative feelings or opinions).\n- **Conditioning** (B) is a learning process, not specific to attitudes.\n- **Catharsis** (C) refers to emotional release, often through art or drama, and is unrelated here.\n\nThus, the correct answer is **D) Discrimination**.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": "The teacher is helping students understand the **sequence of events** in the story by reading the book aloud and then showing picture cards that represent the beginning, middle, and end of the narrative. This directly supports the concept of **plot structure**, specifically the **sequence of events**.\n\nTherefore, the correct answer is:\n\n**A) Postupnosti deja** (Sequence of events)",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

@@ -1,0 +1,802 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": "A) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: choose best translation. Ground truth answer is B. Generated answer is A) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]. That is not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": "A) ~Bje",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y) A) ~Bje B) Bej C) Bje~ D) ~Bej Answer in English.\"\n\nWe need to translate: \"Zem nie je väčšia ako Jupiter.\" Means \"Earth is not larger than Jupiter.\" Predicate Bxy: x is larger than y. So \"Earth is larger than Jupiter\" would be B e j. \"Earth is not larger than Jupiter\" is negation: ~B e j. That's option A: ~Bje? Wait careful: Bxy: x is larger than y. So B e j means Earth is larger than Jupiter. Negation: ~B e j. Option A is \"~Bje\". That is ~B j e? Actually \"~Bje\" means B j e? The notation: Bxy: x is larger than y. So Bje means j is larger than e (Jupiter larger than Earth). That's actually true statement: Jupiter is larger than Earth. The original says Earth is not larger than Jupiter, which is equivalent to Jupiter is larger than Earth (assuming comparatives are total). But the direct translation is ~B e j. However the options: A) ~Bje (negation of B j e). B) Bej (Earth larger than Jupiter). C) Bje~ (maybe B j e with trailing ~? ambiguous). D) ~Bej (negation of B e j). The best translation: \"Earth is not larger than Jupiter\" is ~Bej (option D). So ground truth is D. Generated answer: A) ~Bje. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": "A) odpor.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\" which translates: \"The electrical analog quantity for a damper in the analogy between force and current is\". Options: A) resistance, B) conductance, C) inductance, D) capacitance. The correct answer likely is \"conductance\" (B). The ground truth says B. Generated answer says \"A) odpor.\" which is resistance. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": "D) Hodnotenie programu",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\" Means \"In which phase of the planning process are goals decided?\" Options: A) Defining program, B) Program planning, C) Taking steps and implementing ideas, D) Program evaluation. The correct answer likely B (Program planning). Ground truth is B. Generated answer is D) Hodnotenie programu (Program evaluation). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer repeats the whole question with options, not selecting any. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklone novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The generated answer just repeats the question and options, not selecting any. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": "A) Exkluzívna distribúcia.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which of the following ways means placing your product/service in as many outlets/locations as possible to increase chance customers find it? Options: A) Exclusive distribution, B) Intensive distribution, C) Selective distribution, D) Direct distribution. Correct answer is B) Intensive distribution. Ground truth is \"B\". Generated answer is \"A) Exkluzívna distribúcia.\" That's exclusive distribution, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "A) Braxton-Hicksove kontrakcie",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks \"Najpravdepodobnejšou diagnózou je\" with options. Ground truth answer is C) hypotonická dysfunkcia maternice. Generated answer is A) Braxton-Hicksove kontrakcie. They are different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": "D) Diskriminácia",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of these expressions describes the behavioral component of negative attitudes toward certain groups?\" Options A-D. Correct answer is D) Discrimination. Ground truth: \"D\". Generated answer: \"D) Diskriminácia\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": "D) Nastavenie",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: which literary structure concept teacher helps students understand? The teacher reads story, shows picture cards of beginning, middle, end. That's about sequence of events (plot). So correct answer is \"Postupnosti deja\" which is option A. Ground truth is A. Generated answer: \"D) Nastavenie\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7808,
+        "question": "Ktorá z nasledujúcich možností najlepšie vysvetľuje skoré osídlenie a vysokú hustotu populácie na pobrežiach a pri riekach?\nA) Stredozemnomorské podnebie\nB) Obmedzené lesné porasty\nC) Rast výroby\nD) Prístup k obchodným trasám\nAnswer in English.",
+        "generated_answer": "A) Stredozemné more",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following options best explains early settlement and high population density on coasts and rivers?\" Options: A) Mediterranean climate, B) limited forest cover, C) growth of production, D) access to trade routes. Correct answer is D. Generated answer: \"A) Stredozemné more\" which is \"Mediterranean Sea\" (or Mediterranean). That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "Aká je najčastejšou príčinou demencie vo Veľkej Británii?\nA) Alzheimerova choroba.\nB) Cerebrovaskulárna choroba (mŕtvica).\nC) Demencia s Lewyho telieskami.\nD) Infekcia HIV.\nAnswer in English.",
+        "generated_answer": "A) Alzheimerova choroba.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"What is the most common cause of dementia in the UK?\" Options A-D. Ground truth answer: \"A\". Generated answer: \"A) Alzheimerova choroba.\" That's the same, indicating option A. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9558,
+        "question": "Spoločnosť Goll má 25% podiel na bežných akciách spoločnosti Rose a 18% podiel na bežných akciách spoločnosti Jave. Žiadna z týchto investícií nedáva spoločnosti Goll možnosť vykonávať významný vplyv na prevádzkovú a finančnú politiku týchto spoločností. Na ktorú z týchto investícií by sa spoločnosť Goll mala vzťahovať metódu podielového záujmu?\nA) Na obidve spoločnosti Rose a Jave.\nB) Len na spoločnosť Rose.\nC) Len na spoločnosť Jave.\nD) Ani na Rose, ani na Jave.\nAnswer in English.",
+        "generated_answer": "C) Len na spoločnosť Rose.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Which investment should Goll apply equity method? Given 25% stake in Rose, 18% in Jave, no significant influence. Equity method applies when significant influence (generally 20%+). Here 25% could be significant influence, but statement says none gives ability to exert significant influence. So answer should be D: neither. Ground truth is D. Generated answer: \"C) Len na spoločnosť Rose.\" That's wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3578,
+        "question": "Vodičová slučka bude indukovať napätie, keď magnetické pole v nej\nA) sa mení\nB) zarovnáva s elektrickým poľom\nC) je kolmé na elektrické pole\nD) premení sa na magnetickú energiu\nAnswer in English.",
+        "generated_answer": "Vodičová slučka bude indukovať napätie, keď magnetické pole v nej B) zarovnáva s elektrickým poľom.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Vodičová slučka bude indukovať napätie, keď magnetické pole v nej ...\" Options A) changes, B) aligns with electric field, C) is perpendicular to electric field, D) transforms into magnetic energy. The correct answer is A (when magnetic field changes). Ground truth is \"A\". Generated answer says: \"Vodičová slučka bude indukovať napätie, keď magnetické pole v nej B) zarovnáva s elektrickým poľom.\" That says answer B. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8268,
+        "question": "Ak klesne cena produktu a cena substitučného produktu zostáva konštantná tak, že spotrebiteľ kupuje viac tohto produktu, nazýva sa to\nA) efekt dopytu.\nB) efekt substitúcie.\nC) okrajový efekt.\nD) efekt zásobovania.\nAnswer in English.",
+        "generated_answer": "A) efekt dopytu.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In Slovak: \"Ak klesne cena produktu a cena substitučného produktu zostáva konštantná tak, že spotrebiteľ kupuje viac tohto produktu, nazýva sa to\" Options: A) demand effect, B) substitution effect, C) marginal effect, D) supply effect. Correct is substitution effect (B). Generated answer: \"A) efekt dopytu.\" That's demand effect, not substitution effect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2281,
+        "question": "Obžalovaný je na súde za držanie heroínu. V rámci obvinenia vypovedá policajt, že sledoval, ako iný policajt odobral z obvineného vrecúško s bielym práškom a uzavrel ho do obálky, ktorú obaja policajti podpísali a dátumovali a následne umiestnili do priestorov polície pre uloženie predmetov. Prokurátor následne vyzve chémičku, aby vypovedala, že obálku so zapečateným obsahom a podpismi oboch policajtov, ktoré z predchádzajúcej praxe rozpoznala, získala nedotknutú z miestnosti pre uloženie predmetov a skúšky preukázali, že prášok v nej bol heroín. Obžalovaný tvrdí, že prokurátor nedokázal dostatočne overiť, že prášok skúmaný chémičkou bol prášok odobraný z obvineného. Je výpoveď chémičky prípustná?\nA) Nie, pretože chémička nemá prvotnú znalosť o tom, že prášok pochádza od obvineného.\nB) Nie, ak sa obálka a prášok neobjavia na súde alebo sa ich absencia nevysvetlí.\nC) Áno, pretože predmet v oficiálnej starostlivosti sa sám overuje.\nD) Áno, pretože prášok je dostatočne identifikovaný ako pochádzajúci od obvineného.\nAnswer in English.",
+        "generated_answer": "A) Nie, pretože chémička nemá prvotnú znalosť o tom, že prášok pochádza od obvineného.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: Is the chemist's testimony admissible? Options A-D. Ground truth answer is D. Generated answer is \"A) Nie, pretože chémička nemá prvotnú znalosť o tom, že prášok pochádza od obvineného.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4617,
+        "question": "Aký druh mäsa sa obvykle používa na tradičnom sendviči Reuben?\nA) morka\nB) salámovica\nC) korenené hovädzie mäso\nD) papriková saláma\nAnswer in English.",
+        "generated_answer": "D) papriková saláma",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Aký druh mäsa sa obvykle používa na tradičnom sendviči Reuben?\" Means \"What type of meat is usually used on a traditional Reuben sandwich?\" Options: A) morka (turkey?), B) salámovica (some sausage), C) korenené hovädzie mäso (spiced beef), D) papriková saláma (paprika salami). The correct answer is corned beef (spiced beef). Ground truth says \"C\". Generated answer says \"D) papriková saláma\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2289,
+        "question": "Dvojmesačná dievčinka je privedená na prvú rutinnú kontrolu svojho zdravia a pre aktualizáciu jej očkovania. Aby sa zistilo, či existujú akékoľvek kontraindikácie pre očkovanie proti záškrtu, tetanu a čiernemu kašľu (DtaP), rodičovia by mali byť vypočutí ohľadom\nA) alergie na vajíčka\nB) Apgar skóre pri pôrode\nC) gestačného veku pri pôrode\nD) predchádzajúcich záchvatov\nAnswer in English.",
+        "generated_answer": "A) alergie na vajíčka",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Dvojmesačná dievčinka ... to check contraindications for DTaP, parents should be asked about ... options: A) egg allergy, B) Apgar score, C) gestational age, D) previous seizures.\" The correct answer is D) previous seizures (since seizures are contraindication). Ground truth says D. Generated answer says \"A) alergie na vajíčka\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12383,
+        "question": "Čo znamená medzinárodná právna osobnosť?\nA) Znamená to, že iba štáty sú považované za subjekty medzinárodného práva\nB) Znamená to mať práva a povinnosti podľa medzinárodného práva a kapacitu ich vynucovať alebo proti príslušnému aktéru\nC) Znamená to, že entita môže zpochybniť autoritu štátov\nD) Je to termín, ktorý má označovať právne, a nie fyzické osoby podľa medzinárodného práva\nAnswer in English.",
+        "generated_answer": "A) Znamená to, že iba štáty sú považované za subjekty medzinárodného práva",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Čo znamená medzinárodná právna osobnosť?\" Options A-D. Ground truth answer is B. Generated answer is A. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1553,
+        "question": "U rastlín sa protónové čerpace podieľajú na procese nakladania cukrov do floému pre ich transport. Ktorá z nasledujúcich možností zodpovedá tomuto procesu?\nA) Je to pasívne.\nB) Závisí od DNA.\nC) Vyžaduje ATP.\nD) Prenáša škrob.\nAnswer in English.",
+        "generated_answer": "A) Je to pasívne.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In plants, proton pumps are involved in loading sugars into the phloem for transport. Which option corresponds to this process? Options: A passive, B depends on DNA, C requires ATP, D transports starch. The correct answer is C (requires ATP). Generated answer: \"A) Je to pasívne.\" That's option A, which is not the same as C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10131,
+        "question": "Ak zažíva ekonomika recesiu, aký vplyv bude mať plán na zníženie daní pre spotrebiteľov a zvýšenie výdavkov na nákup vládnych zakázaní na reálny hrubý domáci produkt (HDP) a cenovú hladinu?\nA) reálny HDP stúpa a cena klesá.\nB) reálny HDP klesá a cena rastie.\nC) reálny HDP stúpa a cena stúpa.\nD) reálny HDP klesá a cena klesá.\nAnswer in English.",
+        "generated_answer": "A) reálny HDP stúpa a cena klesá.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: multiple choice. Ground truth answer is C. Generated answer is \"A) reálny HDP stúpa a cena klesá.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4104,
+        "question": "Webová stránka používa viacero spôsobov na zabránenie neoprávneného prístupu k používateľským účtom. Ktorá z nasledujúcich možností nie je príklad multifaktorovej autentifikácie?\nA) Každý zamestnanec spoločnosti dostane USB zariadenie, ktoré obsahuje jedinečný token kód. Na prihlásenie sa k počítaču spoločnosti musí zamestnanec vložiť svoje USB zariadenie do počítača a zadať správne heslo.\nB) Po prihlásení sa k účtu z nového zariadenia musí používateľ zadať kód, ktorý bol zaslaný e-mailom na e-mailovú adresu uvedenú v údajoch účtu.\nC) Pre prihlásenie sa do účtu musí používateľ zadať heslo a odtlačok prsta získaný pomocou svojho zariadenia.\nD) Ak používateľ zadal nesprávne heslo viac ako dvakrát po sebe, účet sa zablokuje na 24 hodín.\nAnswer in English.",
+        "generated_answer": "A) Každý zamestnanec spoločnosti dostane USB zariadenie, ktoré obsahuje jedinečný token kód. Na prihlásenie sa k počítaču spoločnosti musí zamestnanec vložiť svoje USB zariadenie do počítača a zadať správne heslo.\nB) Po prihlásení sa k účtu z nového zariadenia musí používateľ zadať kód, ktorý bol zaslaný e-mailom na e-mailovú adresu uvedenú v údajoch účtu.\nC) Pre prihlásenie sa do účtu musí používateľ zadať heslo a odtlačok prsta získaný pomocou svojho zariadenia.\nD) Ak používateľ zadal nesprávne heslo viac ako dvakrát po sebe, účet sa zablokuje na 24 hodín.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question asks: which option is NOT an example of multi-factor authentication? The correct answer is D. Ground truth says D. Generated answer just repeats all options A-D, not selecting one. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8725,
+        "question": "Do pohotovosti je prinášaný 17-ročný chlapec tridsať minút po tom, ako ho našli na párty s \"prázdnym pohľadom\" a rovnomernou tvárou. Jeho tep je 72/min a krvný tlak 104/68 mm Hg. Sedí vzpriamene a pôsobí katatonicky. Fyzikálne vyšetrenie ukazuje stuhnutosť. Počas vyšetrenia sa stáva agresívnym a pokúša sa napadnúť lekára. Ktorú z týchto látok pravdepodobne pacient užil?\nA) Diazepam\nB) Metamfetamín\nC) Oxikodon\nD) PCP (fenyzklidín)\nAnswer in English.",
+        "generated_answer": "A) Diazepam\nB) Metamfetamín\nC) Oxikodon\nD) PCP (fenyzklidín)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question asks: which substance likely used? Ground truth answer: D (PCP). Generated answer just repeats the options list, not selecting one. It does not indicate D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11553,
+        "question": "Pre ktorý z týchto dvoch scenárov urobí hlavný postava (ktorá používa ja/mňa/môj) niečo zjavné nemorálne, podľa bežných morálnych noriem vo Veľkej Amerike v roku 2020? Scenár 1 | Posunul som žebre, keď na nej niekto bol, aby som ju mohol použiť sám. Scenár 2 | Trénoval som svoju manželku, aby žebrala o jedlo.\nA) Nesprávne, Nesprávne\nB) Nesprávne, Nie nesprávne\nC) Nie nesprávne, Nesprávne\nD) Nie nesprávne, Nie nesprávne\nAnswer in English.",
+        "generated_answer": "D) Nie nesprávne",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks which scenario does main character do something obviously immoral. Options: A) Both wrong, B) first wrong second not wrong, C) first not wrong second wrong, D) both not wrong. Ground truth answer is A) Both wrong. Generated answer: \"D) Nie nesprávne\". That's option D, meaning both not wrong. That's opposite. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9861,
+        "question": "Uhlík existuje vo viacerých formách nazývaných alotropické formy. Ktorá z nasledujúcich možností nie je alotropom uhlíka?\nA) diamant\nB) sadza\nC) buckyball\nD) grafit\nAnswer in English.",
+        "generated_answer": "D) grafit",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Uhlík existuje vo viacerých formách nazývaných alotropické formy. Ktorá z nasledujúcich možností nie je alotropom uhlíka? A) diamant B) sadza C) buckyball D) grafit Answer in English.\"\n\nWe need which is NOT an allotrope of carbon. Options: diamond, soot (sadza), buckyball (fullerene), graphite. All are forms of carbon. Actually soot is carbon, but is it considered an allotrope? Typically allotropes of carbon include diamond, graphite, fullerenes (buckyballs), graphene, carbon nanotubes, amorphous carbon (including soot). Soot is amorphous carbon, considered an allotrope? Usually \"amorphous carbon\" is considered an allotrope. So which is NOT? Possibly \"sadza\" (soot) might not be considered an allotrope? The ground truth answer is B. So correct answer is B. Generated answer says D) grafit. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2407,
+        "question": "Pre mäkkých deterministov znamená tvrdiť, že by ste mohli urobiť inak, že by ste to urobili inak, ak by _____.\nA) vaše túžby boli stále rovnaké\nB) vaše túžby boli úplne pod vašou kontrolou\nC) vaše túžby boli odlišné\nD) vaše túžby nehrali žiadnu úlohu vo vašich rozhodnutiach\nAnswer in English.",
+        "generated_answer": "A) vaše túžby boli stále rovnaké",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Pre mäkkých deterministov znamená tvrdiť, že by ste mohli urobiť inak, že by ste to urobili inak, ak by _____.\" It's Slovak. The correct answer is C: \"vaše túžby boli odlišné\" (your desires were different). Generated answer: \"A) vaše túžby boli stále rovnaké\" (your desires were still the same). That's opposite. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5081,
+        "question": "Táto otázka sa týka nasledujúcich informácií.\n\"The far-reaching, the boundless future will be the era of American greatness. In its magnificent domain of space and time, the nation of many nations is destined to manifest to mankind the excellence of divine principles; to establish on earth the noblest temple ever dedicated to the worship of the Most High—the Sacred and the True. Its floor shall be a hemisphere—its roof the firmament of the star-studded heavens, and its congregation a Union of many Republics, comprising hundreds of happy millions, calling, owning no man master, but governed by God's natural and moral law of equality, the law of brotherhood—of 'peace and good will amongst men.'\"\nJohn L. O'Sullivan, \"The Great Nation of Futurity,\" 1839\nKtorý z nasledujúcich prezidentov sa najviac spája s konceptom Manifest Destiny?\nA) James K. Polk\nB) Andrew Johnson\nC) Woodrow Wilson\nD) Ronald Reagan\nAnswer in English.",
+        "generated_answer": "A) James K. Polk",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which president is most associated with Manifest Destiny? Options A-D. Ground truth answer: \"A\". Generated answer: \"A) James K. Polk\". That's equivalent. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1618,
+        "question": "46-ročný muž s Marfanovým syndrómom, nedostatočnosťou aorty a regurgitáciou mitrálnych chlopní prichádza na pohotovosť, pretože má silné bolesti za hrudnou kosťou už 3 hodiny. Popisuje bolesť ako trhajúcu a žiarenú do krku. Pred týždňom mal podobné, ale menej intenzívne bolesti a liečil sa aspirínom. Ktorá z nasledujúcich vecí je najpravdepodobnejšou príčinou pre zhoršujúce sa príznaky?\nA) Akútna bakteriálna endokarditída\nB) Akútny myokardiálny infarkt\nC) Disekcia aorty\nD) Reflux zo žalúdka s kŕčom\nAnswer in English.",
+        "generated_answer": "A) Akútna bakteriálna endokarditída",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: 46-year-old man with Marfan, aortic insufficiency, mitral regurg, chest pain radiating to neck, tearing, likely aortic dissection. So correct answer C. Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11957,
+        "question": "Hodnotí sa 37-ročná žena s opuchom pravej dolnej končatiny kvôli náhlemu napadnutiu dýchavičnosti a pleurických hrudných bolestí. Stanovuje sa diagnóza pľúcnej embólie. Ktorý z nasledujúcich príznakov by bol najpresnejším indikátorom pľúcnej arteriálnej hypertenzie u pacientky, ak sa prejaví počas fyzikálneho vyšetrenia?\nA) Zvýšený tlak vrčiacich žíl\nB) P2 hlasnejšie ako A2\nC) Periférny opuch\nD) Prítomnosť S3\nAnswer in English.",
+        "generated_answer": "A) Zvýšený tlak vrčiacich žíl",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which sign is most accurate indicator of pulmonary arterial hypertension during physical exam? Options: A) increased jugular venous pressure, B) P2 louder than A2, C) peripheral edema, D) presence of S3. Correct is B. Generated answer: \"A) Zvýšený tlak vrčiacich žíl\". That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1208,
+        "question": "Donald po absolvovaní kurzu AP psychológie a úspešnom zvládnutí skúšky pokračuje na vysokú školu. Ak sa Donald zaujíma o psychológiu a má vysokú motiváciu k dosahovaniu úspechu, pravdepodobne ako prvoročný študent bude\nA) absolvovať úvodný kurz psychológie, v ktorom vie, že bude excelovať.\nB) zaregistruje sa do seminaru vyššieho stupňa, kde sa bude vystavený veľkému množstvu nových informácií a pravdepodobne bude mať ťažkosti zvládnuť kurz.\nC) vyhýbať sa psychologickým kurzom, pretože už ovláda materiál.\nD) prihlásiť sa na kurz na stupe bakalára, kde bude musieť tvrdo pracovať na úspechu a získa nové poznatky.\nAnswer in English.",
+        "generated_answer": "A) absolvovať úvodný kurz psychológie, v ktorom vie, že bude excelovať.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equivalent in meaning to ground truth. The question: multiple choice, correct answer is D. Generated answer is A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11206,
+        "question": "Pre ktorý z týchto dvoch scenárov urobí hlavná postava (ktorá používa Ja/mňa/môj) niečo zjavné nesprávne z morálneho hľadiska podľa bežných morálnych noriem v USA k roku 2020? Scenár 1 | Snažil som sa zraziť zviera, ktoré sa prudko pripotácala na cestu, aby som ho neobíchol a nezmeškal. Scenár 2 | Rozhodol som sa prehrázať rieku v horách za veľkým poľnohospodárskym areálom.\nA) Nesprávne, nesprávne\nB) Nesprávne, správne\nC) Správne, nesprávne\nD) Správne, správne\nAnswer in English.",
+        "generated_answer": "A) Nesprávne, nesprávne",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: multiple choice. Ground truth answer is \"A\". Generated answer: \"A) Nesprievne, nesprievne\". That matches option A. So meaning same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5409,
+        "question": "Táto otázka sa vzťahuje na nasledujúce informácie.\n\"Môj malý statek v meste, ktorý som nedávno poistil za ￡2,000, by nepochybne zdieľal bežný osud, pretože poisťovacie spoločnosti nebudú nahrádzať to, čo zničia nepriatelia kráľovnej. A hoci mám farmu o rozlohe 50 arov blízko mesta, úroda a objekty by nepochybne bola zničené. V skutočnosti už k tomu čiastočne došlo a teraz žalujem vládu za škody spôsobené kontingentom 1 500 miestnych obyvateľov, ktorí sa nedávno usadili niekoľko stoviek yardov od miesta a spôsobili škody v celom okolí.\"\nList britského občana jeho sestre počas anglo-zulskej vojny, Južná Afrika, 1879.\nKtorý z nasledujúcich dôvodov vysvetľuje, prečo európski občania v roku 1867 masovo presúvali na územia Zulu?\nA) Britská koruna ponúkla stimuly pre tých, ktorí by zakladali usadlosti na neobydlených územiach Južnej Afriky.\nB) Zulu vytvorili atraktívne obchodné prístavy pozdĺž Indického oceánu.\nC) Berlínska konferencia objasnila hranice, tým umožnila Európanom logisticky sa presúvať do afrických kolónií.\nD) Nastal diamantový záchvat po objavení diamantov na územiach Zulu.\nAnswer in English.",
+        "generated_answer": "A) Britská koruna ponúkla stimuly pre tých, ktorí by zakladali usadlosti na neobydlených územiach Južnej Afriky.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"Which of the following reasons explains why European citizens in 1867 massively moved to Zulu territories?\" Options A-D. Ground truth answer is D. Generated answer is A). They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7735,
+        "question": "Aký je súčet všetkých kladných celočíselných hodnôt $n$, pre ktoré platí, že $n^2$ je faktor čísla $1200$?\nA) 42\nB) 12\nC) 36\nD) 39\nAnswer in English.",
+        "generated_answer": "A) 42\n\nThe answer is A) 42.\n\nExplanation:\n\nThe given condition is that $n^2$ is a factor of $1200$. We can rewrite $1200$ as $2^3 \\cdot 3^2$. Now, we can see that $2^3$ is a factor of $1200$, and $3^2$ is a factor of $1200$. Therefore, $n^2$ is a factor of $1200$ if and only if $n^2$ is a factor of $2^3 \\cdot 3^2$.\n\nWe can list all the possible values of $n$ that satisfy this condition:\n\n1. $n = 1$\n2. $n = 2$\n3. $n = 3$\n4. $n = 4$\n5. $n = 5$\n6. $n = 6$\n7. $n = 7$\n8. $n = 8$\n9. $n = 9$\n10. $n = 10$\n11. $n = 11$\n12. $n = 12$\n\nTherefore, the only possible value of $n$ that satisfies the given condition is $n = 12$.\n\nThe answer is B) 12.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The ground truth answer is \"A\". The generated answer says \"A) 42\" then later says \"The answer is B) 12.\" It's contradictory. The final answer line says \"The answer is B) 12.\" So the generated answer does not match ground truth \"A\". Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9171,
+        "question": "Na svojom vrchole sa populácia mesta Teotihuacán mohla dosiahnuť:\nA) 50 000 ľudí.\nB) 200 000 ľudí.\nC) 500 000 ľudí.\nD) 1 000 000 ľudí.\nAnswer in English.",
+        "generated_answer": "Populácia mesta Teotihuacán sa mohla dosiahnuť v maximálnom počte:\nA) 50 000 ľudí.\nB) 200 000 ľudí.\nC) 500 000 ľudí.\nD) 1 000 000 ľudí.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question asks: \"Na svojom vrchole sa populácia mesta Teotihuacán mohla dosiahnuť: A) 50 000 ľudí. B) 200 000 ľudí. C) 500 000 ľudí. D) 1 000 000 ľudí. Answer in English.\"\n\nGround truth answer: B (i.e., 200,000 people). The generated answer repeats the options but does not select any. It just restates the options, not giving a specific answer. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1649,
+        "question": "Ktoré vitamíny sa pravdepodobne najviac nedostávajú v vegánskej strave?\n\nA) Vitamín B1\nB) Kyselina listová\nC) Vitamín B12\nD) Vitamín A\nAnswer in English.",
+        "generated_answer": "A) Vitamín B1\nB) Kyselina listová\nC) Vitamín B12\nD) Vitamín A",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which vitamins are most likely lacking in a vegan diet?\" Options A-D. The correct answer is C (Vitamin B12). Ground truth: \"C\". Generated answer lists all options A) B1, B) folic acid, C) B12, D) A. That's not equivalent; it's not just C. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5796,
+        "question": "Epicurus tvrdí, že z vecí potrebných pre kompletný život je najdôležitejšie:\nA) ctnosť.\nB) priateľstvo.\nC) luxus.\nD) dobré jedlo.\nAnswer in English.",
+        "generated_answer": "Epicurus tvrdí, že z vecí potrebných pre kompletný život je najdôležitejšie:\nA) ctnosť.\nB) priateľstvo.\nC) luxus.\nD) dobré jedlo.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. The question: \"Epicurus tvrdí, že z vecí potrebných pre kompletný život je najdôležitejšie:\" with options. The ground truth answer is \"B\". The generated answer repeats the question and options, not providing an answer. It does not state \"B\". So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7113,
+        "question": "Výška (v metrech) vystřelené kanónové koule následuje trajektorii dávanou funkcí $h(t) = -4.9t^2 + 14t - 0.4$ v čase $t$ (v sekundách). Jako nesprávný zlomek, jak dlouho je kanónová koule nad výškou $6$ metrů?\nA) \\frac{5}{7}\nB) \\frac{7}{12}\nC) \\frac{12}{7}\nD) \\frac{7}{5}\nAnswer in English.",
+        "generated_answer": "Výška (v metrech) vystřelené kanónové koule následuje trajektorii dávanou funkcí $h(t) = -4.9t^2 + 14t - 0.4$ v čase $t$ (v sekundách). Jako nesprávný zlomek, jak dlouho je kanónová koule nad výškou $6$ metrů?\nA) \\frac{5}{7}\nB) \\frac{7}{12}\nC) \\frac{12}{7}\nD) \\frac{7}{5}\n\nVýška koule je dána součtem její rychlosti a času, který uplynul od výstřelu. Protože koule je nad výškou $6$ metrů, musíme počítat od $0$ sekundy.\n\n$h(0) = -4.9(0)^2 + 14(0) - 0.4 = -4.9 - 0.4 = -5.3$\n\n$h(1) = -4.9(1)^2 + 14(1) - 0.4 = -4.9 + 14 - 0.4 = -4.5$\n\n$h(2) = -4.9(2)^2 + 14(2) - 0.4 = -4.9 + 28 - 0.4 = -3.1$\n\n$h(3) = -4.9(3)^2 + 14(3) - 0.4 = -4.9 + 57 - 0.4 = -4.5$\n\n$h(4) = -4.9(4)^2 + 14(4) - 0.4 = -4.9 + 216 - 0.4 = -4.5$\n\n$h(5) = -4.9(5)^2 + 14(5) - 0.4 = -4.9 + 275 - 0.4 = -4.5$\n\n$h(6) = -4.9(6)^2 + 14(6) - 0.4 = -4.9 + 252 - 0.4 = -4.5$\n\n$h(7) = -4.9(7)^2 + 14(7) - 0.4 = -4.9 + 229 - 0.4 = -4.5$\n\n$h(8) = -4.9(8)^2 + 14(8) - 0.4 = -4.9 + 216 - 0.4 = -4.5$\n\n$h(9) = -4.9(9)^2 + 14(9) - 0.4 = -4.9 + 215 - 0.4 = -4.5$\n\n$h(10) = -4.9(10)^2 + 14(10) - 0.4 = -4.9 + 210 - 0.4 = -4.5$\n\n$h(11) = -4.9(11)^2 + 14(11) - 0.4 = -4.9 + 209 - 0.4 = -4.5$\n\n$h(12) = -4.9(12)^2 + 14(12) - 0.4 = -4.9 + 198 - 0.4 = -4.5$\n\n$h(13) = -4.9(13)^2 + 14(13) - 0.4 = -4.9 + 195 - 0.4 = -4.5$\n\n$h(14) = -4.9(14)^2 + 14(14) - 0.4 = -4.9 + 192 - 0.4 = -4.5$\n\n$h(15) = -4.9(15)^2 + 14(15) - 0.4 = -4.9 + 189 - 0.4 = -4.5$\n\n$h(16) = -4.9(16)^2 + 14(16) - 0.4 = -4.9 + 186 - 0.4 = -4.5$\n\n$h(17) = -4.9(17)^2 + 14(17) - 0.4 = -4.9 + 183 - 0.4 = -4.5$\n\n$h(18) = -4.9(18)^2 + 14(18) - 0.4 = -4.9 + 180 - 0.4 = -4.5$\n\n$h(19) = -4.9(19)^2 + 14(19) - 0.4 = -4.9 + 177 - 0.4 = -4.5$\n\n$h(20) = -4.9(20)^2 + 14(20) - 0.4 = -4.9 + 174 - 0.4 = -4.5$\n\n$h(21) = -4.9(21)^2 + 14(21) - 0.4 = -4.9 + 171 - 0.4 = -4.5$\n\n$h(22) = -4.9(22)^2 + 14(22) - 0.4 = -4.9 + 168 - 0.4 = -4.5$\n\n$h(23) = -4.9(23)^2 + 14(23) - 0.4 = -4.9 + 165 - 0.4 = -4.5$\n\n$h(24) = -4.9(24)^2 + 14(24) - 0.4 = -4.9 + 162 - 0.4 = -4.5$\n\n$h(25) = -4.9(25)^2 + 14(25) - 0.4 = -4.9 + 159 - 0.4 = -4.5$\n\n$h(26) = -4.9(26)^2 + 14(26) - 0.4 = -4.9 + 156 - 0.4 = -4.5$\n\n$h(27) = -4.9(27)^2 + 14(27) - 0.4 = -4.9 + 153 - 0.4 = -4.5$\n\n$h(28) = -4.9(28)^2 + 14(28) - 0.4 = -4.9 + 150 - 0.4 = -4.5$\n\n$h(29) = -4.9(29)^2 + 14(29) - 0.4 = -4.9 + 147 - 0.4 = -4.5$\n\n$h(30) = -4.9(30)^2 + 14(30) - 0.4 = -4.9 + 144 - 0.4 = -4.5$\n\n$h(31) = -4.9(31)^2 + 14(31) - 0.4 = -4.9 + 141 - 0.4 = -4.5$\n\n$h(32) = -4.9(32)^2 + 14(32) - 0.4 = -4.9 + 138 - 0.4 = -4.5$\n\n$h(33) = -4.9(33)^2 + 14(33) - 0.4 = -4.9 + 135 - 0.4 = -4.5$\n\n$h(34) = -4.9(34)^2 + 14(34) - 0.4 = -4.9 + 132 - 0.4 = -4.5$\n\n$h(35) = -4.9(35)^2 + 14(35) - 0.4 = -4.9 + 129 - 0.4 = -4.5$\n\n$h(36) = -4.9(36)^2 + 14(36) - ",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"C\". The question asks: which fraction is the time the cannonball is above height 6 meters? Options A-D. Correct answer is C (12/7). The generated answer is a huge nonsense calculation, not giving a single letter. It does not state \"C\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5180,
+        "question": "Z nasledujúcich iónov, ktorý má najmenší polomer?\nA) K+\nB) Ca2+\nC) Sc3+\nD) Rb+\nAnswer in English.",
+        "generated_answer": "A) K+",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer \"A) K+\" is equivalent in meaning to ground truth \"C\". The question: \"Z nasledujúcich iónov, ktorý má najmenší polomer? A) K+ B) Ca2+ C) Sc3+ D) Rb+ Answer in English.\" The correct answer is C (Sc3+). Generated answer says A) K+. That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10008,
+        "question": "Správny výrok o predhovorení dojčiat z rôznych jazykových komunít je ten, že\nA) obsahuje celý rozsah foném, ktoré tvoria všetky jazyky\nB) je odlišné pre každú jazykovú komunitu od začiatku precvičovania hlasov\nC) je rovnaké pre každú jazykovú komunitu až do vyslovenia prvých slov\nD) závisí od fonetickej štruktúry jazyka\nAnswer in English.",
+        "generated_answer": "The correct statement about the introduction of infants to different language communities is that\nA) it contains all the phonemes that make up all languages\nB) it is different for each language community from the beginning of voice training\nC) it is the same for each language community until the first words are pronounced\nD) it depends on the phonetic structure of the language",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer just repeats the question options, not selecting any. It does not state which option is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10492,
+        "question": "Podľa Hardina základná chyba \"etiky zdieľania\" spočíva v tom, že\nA) je protikresťanská.\nB) by vyžadovala silnejší systém zdaňovania pre bohatých.\nC) by vedla k \"tragédii obecného blaha\".\nD) všetky vyššie uvedené\nAnswer in English.",
+        "generated_answer": "Podľa Hardina základná chyba \"etiky zdieľania\" spočíva v tom, že\nA) je protikresťanská.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Podľa Hardina základná chyba 'etiky zdieľania' spočíva v tom, že ...\". Options A-D. Ground truth answer is C. Generated answer says: \"Podľa Hardina základná chyba 'etiky zdieľania' spočíva v tom, že A) je protikresťanská.\" So generated answer selects A, not C. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3350,
+        "question": "Spoločnosť nedávno presťahovala do novej budovy. Stará budova sa aktívne ponúka na predaj a spoločnosť očakáva, že predaj dokončí o štyri mesiace. Každé z nasledujúcich tvrdení o starom dome je správne, okrem:\nA) Bude prekvalifikovaná na aktívum držané na predaj.\nB) Bude zaradená ako bežné aktívum.\nC) Nebude viac odpisovaná.\nD) Bude ohodnotená za historickú cenu.\nAnswer in English.",
+        "generated_answer": "A) Bude prekvalifikovaná na aktívum držané na predaj.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: which statement is NOT correct. Options A-D. Ground truth answer is D. Generated answer says \"A) Bude prekvalifikovaná na aktívum držané na predaj.\" That selects A as the incorrect statement. That's not same as D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9052,
+        "question": "Ktorý slávny ľudový spevák založil Ústav pre štúdium nenásilia v roku 1965?\nA) Bob Dylan\nB) Woody Guthrie\nC) Joan Baez\nD) Peter Yarrow\nAnswer in English.",
+        "generated_answer": "A) Bob Dylan",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ktorý slávny ľudový spevák založil Ústav pre štúdium nenásilia v roku 1965?\" Means \"Which famous folk singer founded the Institute for the Study of Nonviolence in 1965?\" Options: A) Bob Dylan, B) Woody Guthrie, C) Joan Baez, D) Peter Yarrow. The correct answer is Joan Baez (C). Ground truth is \"C\". Generated answer: \"A) Bob Dylan\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7815,
+        "question": "Podľa Keynesiánskej analýzy by pokles penžnej zásoby\nA) zvýšil mieru inflácie a výstup v ekonomike.\nB) znížil mieru inflácie a výstup v ekonomike.\nC) zvýšil mieru inflácie v ekonomike.\nD) znížil mieru inflácie v ekonomike.\nAnswer in English.",
+        "generated_answer": "A) zvýšil mieru inflácie a výstup v ekonomike.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Slovak: \"According to Keynesian analysis, a decrease in money supply would ...\" Options: A) increase inflation and output, B) decrease inflation and output, C) increase inflation, D) decrease inflation. Correct is B. Generated answer: \"A) zvýšil mieru inflácie a výstup v ekonomike.\" That's option A, which is opposite. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7253,
+        "question": "Muž a žena jazdili po strmých serpentínach dvoupruhovej cesty smerom na východ. Žena jazdila pred mužom. Keď sa muž dostal blízko k ženinmu vozidlu, stal sa netrpezlivým a pokúsil sa ju predbehnúť v časti cesty označenej ako zóna bez možnosti predbiehania. Keď muž odbočil so svojím autom do pruhu pre jazdu na západ, aby predbehol ženu, nevidel ďalšieho vodiča, ktorý prechádzal zákrutou v pruhu pre jazdu na západ. Aby sa vyhol nehode s mužom, ďalší vodič odbočil svojím autom na ramje cesty. Avšak ten vodič nedokázal ovládať svoje auto na úzkom pásiky cesty a zrútil sa po strmých svahoch hory. Muž aj žena videli, ako auto druhého vodiča zoskočilo do rokliny asi 200 stôp nižšie. Muž a žena počuli volania a náreky druhého vodiča o pomoc. Avšak muž aj žena neposkytli žiadnu pomoc a odišli preč. Zatiaľ čo muž a žena o chvíľu prešli oblasťou obchodu, nehodu neoznámili ani nepožiadali o pomoc pre druhého vodiča. Hodiny neskôr zomrel druhý vodič na následky zranení z nehody. Ak sa muž a žena následne stíhajú za smrť druhého vodiča, najpravdepodobnejším výsledkom by bolo, že\nA) muž a žena sú vinní z trestného činu usmrtenia z nedbanlivosti.\nB) muž je vinný z trestného činu usmrtenia z nedbanlivosti.\nC) žena je vinná z trestného činu usmrtenia z nedbanlivosti.\nD) ani muž ani žena nie sú vinní z trestného činu usmrtenia z nedbanlivosti.\nAnswer in English.",
+        "generated_answer": "A) muž a žena sú vinní z trestného činu usmrtenia z nedbanlivosti.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: \"If the man and woman are subsequently prosecuted for the death of the other driver, the most likely result would be that ...\" Options A-D. The ground truth answer is B (man is guilty of negligent homicide). The generated answer says \"A) man and woman are guilty of negligent homicide.\" That's not the same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8541,
+        "question": "Aké sú iné názvy pre mudry, dôležitú súčasť buddhistického umenia?\nA) ručné gesture\nB) svätí\nC) náboženské odevy\nD) chrámy\nAnswer in English.",
+        "generated_answer": "D) chrámy",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Aké sú iné názvy pre mudry, dôležitú súčasť buddhistického umenia?\" Means \"What are other names for mudras, an important part of Buddhist art?\" Options: A) ručné gesture (hand gesture), B) svätí (saints), C) náboženské odevy (religious clothing), D) chrámy (temples). Correct answer is A (hand gestures). Ground truth is \"A\". Generated answer is \"D) chrámy\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4267,
+        "question": "Toto je proces, pri ktorom sa ponuky pohybujú cez sekvenciu predpísaného vzoru vývoja, podobne ako biologická dráha, ktorou sa podobajú živé tvory:\nA) Proces difúzie.\nB) Životný cyklus produktu.\nC) Proces adopcie.\nD) Vývoj služieb.\nAnswer in English.",
+        "generated_answer": "A) Proces difúzie.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Slovak: \"Toto je proces, pri ktorom sa ponuky pohybujú cez sekvenciu predpísaného vzoru vývoja, podobne ako biologická dráha, ktorou sa podobajú živé tvory:\" Options: A) Diffusion process, B) Product life cycle, C) Adoption process, D) Service development. The correct answer is B (Product life cycle). Generated answer: \"A) Proces difúzie.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1020,
+        "question": "Hrozby pre IT systémy môžu byť klasifikované rôznymi spôsobmi; v tomto kapitole sú uvedené tri rôzne kategórie hrozieb. Podľa tejto klasifikácie by bol nasledujúci prípad označený ako 'Porucha'?\nA) Bezpečnostné systémy neboli dostatočné na ochranu systému pred útokom hackerovej skupiny a citlivé údaje sa stratili.\nB) V programe je chyba, ktorá spôsobuje zlé správanie systému.\nC) Všetky uvedené možnosti.\nD) IT systém zlyhal v dôsledku nečakanej udalosti, ako napríklad tsunami, ktorá zničila kľúčovú elektronickú výbavu.\nAnswer in English.",
+        "generated_answer": "A) Bezpečnostné systémy neboli dostatočné na ochranu systému pred útokom hackerovej skupiny a citlivé údaje sa stratili.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Hrozby pre IT systémy môžu byť klasifikované rôznymi spôsobmi; v tomto kapitole sú uvedené tri rôzne kategórie hrozieb. Podľa tejto klasifikácie by bol nasledujúci prípad označený ako 'Porucha'?\" Options A, B, C, D. The correct answer (ground truth) is B. Generated answer says \"A) ...\" i.e., selects option A. That's not the same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8989,
+        "question": "Shodi získala 389 bodov v prvom leveli svojej videohry. Získala ďalších 116 bodov v bonusovej rundě. Koľko bodov v súčte Shodi získala v prvom levele a bonusovej runde svojej videohry?\nA) 405\nB) 495\nC) 505\nD) 4,915\nAnswer in English.",
+        "generated_answer": "A) 405",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Shodi got 389 points in first level, plus 116 points in bonus round. Sum = 389+116 = 505. Options: A)405, B)495, C)505, D)4,915. Correct answer is C) 505. Ground truth answer is \"C\". Generated answer: \"A) 405\". That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 230,
+        "question": "Nagel tvrdí, že pred reflexiou je pravdepodobné, že ľudí nemožno morálne posudzovať za:\nA) akcie, ktoré ovplyvňujú iba seba samých.\nB) ich charakter.\nC) to, čo je spôsobené faktormi mimo ich kontroly.\nD) akcie, ktoré nenarušujú práva nikoho iného.\nAnswer in English.",
+        "generated_answer": "A) akcie, ktoré ovplyvňujú iba seba samých.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Nagel tvrdí, že pred reflexiou je pravdepodobné, že ľudí nemožno morálne posudzovať za:\" Options A-D. Ground truth answer is C. Generated answer is \"A) akcie, ktoré ovplyvňujú iba seba samých.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1528,
+        "question": "Správna rada štátnej univerzity schválila nasledujúce pravidlo týkajúce sa požiadaviek na trvalý pobyt:\"Študenta bude považovaný za právoplatného obyvateľa štátu pre účely registrácie na univerzite, ak taká osoba je staršia ako 21 rokov a má zriadené trvalé bydlisko v štáte po dobu najmenej jedného roku pred posledným dňom registrácie za kredit.\"Študent sa presťahoval do štátu a ihneď sa zaregistroval na štátnej univerzite. Keďže nesplnil požiadavku pobytu na univerzite, bol povinný platiť $ 1,800 školné každé semester, čo bolo o $ 400 viac, ako platia obyvatelia štátu. V prípade, že by študent viedol akciu zameranú na zvrhnutie ústavnosti ustanovenia určujúceho trvalé bydlisko pre určenie rozdielu poplatkov pre študentov mimo štátu na verejných univerzitách, súd pravdepodobne vyhlási ustanovenie za\nA) neústavné, pretože predstavuje porušenie klauzuly rovnosti ochrany na základe Štrnástej dodatku Ústavy Spojených štátov amerických.\nB) neústavné, pretože predstavuje porušenie privilegovaného a imunitného ustanovenia článku IV, oddielu 2.\nC) ústavné, pretože rozdiel v poplatkoch podporuje závažný záujem štátu.\nD) ústavné, pretože ustanovenie nevyvoláva prísný dohľad.\nAnswer in English.",
+        "generated_answer": "D) ústavné, pretože ustanovenie nevyvoláva prísny dohľad.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". The generated answer is \"D) ústavné, pretože ustanovenie nevyvoláva prísny dohľad.\" That corresponds to answer D with explanation. So meaning is same: answer D. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11791,
+        "question": "Ľudia, ktorí sa pridajú k politickej strane iné než tej, ktorej patrili ich rodičia, to najčastejšie robia pre\nA) tlak rovesníkov\nB) ekonomické problémy\nC) náboženské presvedčenie\nD) tlak od zamestnávateľov\nAnswer in English.",
+        "generated_answer": "Ľudia, ktorí sa pridajú k politickej strane iné než tej, ktorej patrili ich rodičia, to najčastejšie robia pre A) tlak rovesníkov.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: In Slovak: \"People who join a political party other than that of their parents most often do it for ...\" options A-D. Ground truth answer is B (economic problems). Generated answer says they most often do it for A) peer pressure. That's not same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6534,
+        "question": "Teória _________ tvrdí, že existujú tri úrovne morálneho rozhodovania, do ktorých sa jednotlivec môže zapojiť pri posudzovaní etických otázok, v závislosti na svojej kognitívnej kapacite.\nA) Egoizmus\nB) Kognitívny morálny vývoj\nC) Vzdialenosť moci\nD) Zníženie neistoty\nAnswer in English.",
+        "generated_answer": "A) Egoizmus",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Teória _________ tvrdí, že existujú tri úrovne morálneho rozhodovania, do ktorých sa jednotlivec môže zapojiť pri posudzovaní etických otázok, v závislosti na svojej kognitívnej kapacite.\" Options: A) Egoizmus, B) Kognitívny morálny vývoj, C) Vzdialenosť moci, D) Zníženie neistoty. The correct answer is B (Kognitívny morálny vývoj). Generated answer: \"A) Egoizmus\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11636,
+        "question": "Na tabuli napísal Andrew číslo 186425. V ktorom čísle je hodnota číslice 6 presne 10-krát hodnoty číslice 6 v čísle, ktoré napísal Andrew?\nA) 681452\nB) 462017\nC) 246412\nD) 125655\nAnswer in English.",
+        "generated_answer": "B) 462017",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: which number has digit 6 value exactly 10 times the value of digit 6 in Andrew's number? The correct answer is B) 462017. The generated answer: \"B) 462017\". Ground truth: \"B\". Both indicate option B. So they are equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 12862,
+        "question": "Kohút sivých pierok a sliepka s rovnakým genotypom polia produkovali 17 sivých, 7 čiernych a 8 bielych kurčiat. Aký je najjednoduchší vysvetlenie dedičnosti farieb u kuriat?\nA) Vlastnosť pre sivú farbu je epistatická nad vlastnosťou pre čiernu farbu.\nB) Vlastnosť pre sivú farbu je epistatická nad vlastnosťou pre bielu farbu.\nC) Vlastnosti čiernej a bielej farby demonštrujú neúplnú dominanciu.\nD) Vlastnosti čiernej a bielej farby demonštrujú kodominanciu.\nAnswer in English.",
+        "generated_answer": "A) Vlastnosť pre sivú farbu je epistatická nad vlastnosťou pre čiernu farbu.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: multiple choice, answer is C according to ground truth. Generated answer is \"A) Vlastnosť pre sivú farbu je epistatická nad vlastnosťou pre čiernu farbu.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10947,
+        "question": "Investor zo štátu A podal žalobu proti svojmu maklérovi zo štátu B v federálnom súde v štáte A. Sumarizácia a sťažnosť bola doručená na kanceláriu makléra v štáte B, kde procesný server predal dokumenty administratívnej asistentke makléra. Maklér odpovedal na sťažnosť a namietol chybné doručenie súdu. Predpokladajme, že požiadavky o oznámenie v oboch štátoch zodpovedajú požiadavkám Federálnych pravidiel civilného konania. Súd pravdepodobne zamietne žalobu pre nesprávne doručenie súdu?\nA) Nie, pretože bola vykonaná služba na osobe vhodného veku nájdenom na pracovisku makléra.\nB) Nie, pretože maklér zriekol svojho nároku na nedostatočné doručenie súdu tým, že to tvrdil vo svojej odpovedi.\nC) Áno, pretože na individuálneho žalovaného nemožno doručiť proces doručením tretiej strane nájdenej na pracovisku žalovaného.\nD) Áno, pretože proces štátov A nie je účinný v štáte B.\nAnswer in English.",
+        "generated_answer": "A) Nie, pretože bola vykonaná služba na osobe vhodného veku nájdenom na pracovisku makléra.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The ground truth answer is \"C\". The generated answer is \"A) Nie, pretože bola vykonaná služba na osobe vhodného veku nájdenom na pracovisku makléra.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10244,
+        "question": "Základnou príčinou únavy pri vysokej intenzite cvičenia je:\nA) pokles koncentrácie bunkového ADP.\nB) inhibícia produkcie ATP.\nC) nedostatočná dodávka ATP na uspokojenie požiadaviek.\nD) nedostatok zručností.\nAnswer in English.",
+        "generated_answer": "A) pokles koncentrácie bunkového ADP.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Základnou príčinou únavy pri vysokej intenzite cvičenia je:\" (What is the basic cause of fatigue during high-intensity exercise?) Options: A) decrease in cellular ADP concentration. B) inhibition of ATP production. C) insufficient ATP supply to meet demands. D) lack of skills. Ground truth answer is C. Generated answer is \"A) pokles koncentrácie bunkového ADP.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "Podľa Hobbesa má každý človek v stave vojny každého proti každému právo na _____.\nA) niektoré veci\nB) zákonité zaobchádzanie\nC) dostatočné postupy\nD) všetko\nAnswer in English.",
+        "generated_answer": "Podľa Hobbesa má každý človek v stave vojny každého proti každému právo na B) zákonité zaobchádzanie.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In Slovak: \"According to Hobbes, every person in the state of war, every man against every man, has the right to _____.\" Options: A) some things, B) lawful treatment, C) sufficient procedures, D) everything. Hobbes says right to everything. So correct answer is D. Ground truth is D. Generated answer says B) \"zákonité zaobchádzanie\" (lawful treatment). That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10025,
+        "question": "Podľa Sartra existuje aspoň jedno bytie, v ktorom existencia predchádza podstate a týmto bytím je _____.\nA) Boh\nB) človek\nC) primitívny človek\nD) budúci človek\nAnswer in English.",
+        "generated_answer": "The answer is C) primitive man.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Slovak: \"Podľa Sartra existuje aspoň jedno bytie, v ktorom existencia predchádza podstate a týmto bytím je _____.\" Means: According to Sartre there is at least one being in which existence precedes essence and this being is _____. Options: A) God, B) man, C) primitive man, D) future man. Correct answer is B) man (according to Sartre, existence precedes essence for humans). Ground truth says B. Generated answer says \"C) primitive man.\" That's not the same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8086,
+        "question": "Aké je pravdepodobnosť zjednotenia P(A ∪ B), ak sú A a B navzájom vylučujúce, pri zadaní pravdepodobností P(A) = 0,3 a P(B) = 0,2? Ak sú A a B nezávislé? Ak je B podmnožinou A?\nA) 0,44, 0,5, 0,2\nB) 0,44, 0,5, 0,3\nC) 0,5, 0,44, 0,2\nD) 0,5, 0,44, 0,3\nAnswer in English.",
+        "generated_answer": "A) 0,44, 0,5, 0,2\n\nPravdepodobnosť zjednotenia množín A a B je 0,44. Ak sú A a B navzájom vylučujúce, potom je pravdepodobnosť zjednotenia A a B 0,2. Ak sú A a B nezávislé, potom je pravdepodobnosť zjednotenia A a B 0,5. Ak je B podmnožinou A, potom je pravdepodobnosť zjednotenia A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.\n\nAk je B podmnožinou A, potom je pravdepodobnosť zjednotenia množín A a B 0,44.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth answer is \"D\". The generated answer is \"A) 0,44, 0,5, 0,2\" plus a lot of repeated statements. That does not match \"D\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5458,
+        "question": "Zvyšujúce sa napätie medzi Spojenými štátmi a Sovietskym zväzom vyústilo do politiky, ktorú nazval John Foster Dulles\nA) \"vzájomne zaručené zničenie.\"\nB) \"hranica odolnosti.\"\nC) \"realizmus.\"\nD) \"nič na mojom pozemku.\"\nAnswer in English.",
+        "generated_answer": "A) \"vzájomne zaručené zničenie.\"",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"Zvyšujúce sa napätie medzi Spojenými štátmi a Sovietskym zväzom vyústilo do politiky, ktorú nazval John Foster Dulles A) \"vzájomne zaručené zničení.\" B) \"hranica odolnosti.\" C) \"realizmus.\" D) \"nič na mojom pozemku.\" Answer in English.\"\n\nGround truth answer is B. Generated answer is A) \"vzájomne zaručené zničenie.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3996,
+        "question": "Pásky a zóny Jupitera sú\nA) názvy pre vrstvy plynného a kovového vodíka hlboko vnútri planéty.\nB) striedajúce sa pásy vzostupného a klesajúceho vzduchu v rôznych zemepisných šírkach.\nC) striedajúce sa oblasti nabitých častíc v magnetickom poli Jupitera.\nD) oblasti plazmatickej toroidy vytvorené iontami zo sopiek na Io.\nAnswer in English.",
+        "generated_answer": "D) oblasti plazmatickej toroidy vytvorené iontami zo sopiek na Io.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"B\". Generated answer is \"D) ...\". Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11964,
+        "question": "Najčastejšie označovaný pokles skutočného investovania z vyšších úrokových mier spôsobený nákupom vlády sa nazýva\nA) vypudzovanie\nB) nula politika efektívnosti\nC) Lafferov efekt\nD) fiškálna porážka\nAnswer in English.",
+        "generated_answer": "Najčastejšie označovaný pokles skutočného investovania z vyšších úrokových mier spôsobený nákupom vlády sa nazýva\nA) vypudzovanie",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Najčastejšie označovaný pokles skutočného investovania z vyšších úrokových mier spôsobený nákupom vlády sa nazýva\" (Slovak). Options A-D. The ground truth answer is \"A\". The generated answer repeats the question and says \"A) vypudzovanie\". That matches option A. So the generated answer selects A, same as ground truth. Therefore equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5328,
+        "question": "Jeden muž sa večer prechádzal, keď si uvedomil, že potrebuje použiť toaletu. Najbližšou budovou bola súkromná telocvičňa. Muž sa priblížil k budove a na dverách videl nápis: \"Len pre členov - Nezaregistrujte sa ako host - Bez toaletných zariadení pre nestanových návštevníkov.\" Majiteľ telocvične zavesil nápis, pretože vedel, že ľudia často vstupujú do telocvične iba pre použitie toalety a bol tým rozzúrený. Majiteľ telocvične však vedel, že nápis nie je efektívny a ľudia stále pravidelne vstupujú do telocvične iba pre použitie toalety. Muž nutne potreboval použiť toaletu, takže do budovy vstúpil napriek tomu, že tam nebol povinný. Toalety sa nachádzali blízko vchodu do telocvične. Muž sa hneď po vstupe do budovy priamo vybral do toalety. Predavačka pracujúca na recepcii telocvične bola zaneprázdnená a nezaregistrovala vstup muža do budovy ani do toalety. Po použití toaletných zariadení si muž umyl ruky a zapol elektrický fén. Fén však v dôsledku poškodenej ohrievacej cievky vydával intenzívne teplo, ktoré zpôsobilo vážne popáleniny mužovi na rukách. Muž nebol oboznámený s tým, že 15 minút predtým člen telocvične utrpel podobné zranenia z poškodeného fenového sušiča a informoval o tom majiteľa telocvične. Majiteľ následne prilepil nápis \"NEPOUŽÍVAŤ\" na fén. Nápis však spadol na zem a ležal obrátený tvárou dolu pod umývadlom v toalete, keď sa muž v toalete nachádzal. Ktorý z nasledujúcich popisov najlepšie opisuje povinnosť starostlivosti, ktorú telocvičňa dlhovala mužovi?\nA) Bez povinnosti starostlivosti.\nB) Povinnosť skontrolovať priestory na neznáme nebezpečenstvá a informovať o ich existencii iných.\nC) Povinnosť upozorniť na akékoľvek známe nebezpečné podmienky na pozemku.\nD) Absolútna povinnosť starostlivosti.\nAnswer in English.",
+        "generated_answer": "A) Bez povinnosti starostlivosti.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: Which description best describes duty of care owed by gym to man? Options: A) No duty, B) duty to inspect for unknown dangers and inform, C) duty to warn of any known dangerous conditions on the premises, D) absolute duty. The ground truth answer is C. The generated answer is \"A) Bez povinnosti starostlivosti.\" That's option A, not C. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11528,
+        "question": "Calvinov strach z psov bol tak veľký, že nemohol navštíviť ani svojich priateľov, ktorí mali psov alebo bývali v štvrti s množstvom psov. Raz, keď hľadal pomoc, pracoval na prekonaní tohto strachu najprv tým, že sledoval, ako jeho terapeut hrá s psom, a potom, po chvíli, že sa sám dotkol a pohladil psa. Metóda použitá na pomoc Calvinovi pri prekonávaní jeho strachu sa nazýva\nA) protitransference\nB) spolupráca s rovesníkmi poradcami\nC) racionálno-emočná terapia\nD) systémová desenzibilizácia\nAnswer in English.",
+        "generated_answer": "A) protitransference",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks which method used to help Calvin with fear is called. Options: A protitransference, B..., C..., D system desensitization. Correct answer is D. Generated answer: \"A) protitransference\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1031,
+        "question": "Hobbes popisuje blaženosť ako:\nA) stav pokoja.\nB) neustály pokrok túžby z jedného objektu na druhý.\nC) stav zamyšlenia.\nD) neprítomnosť túžby.\nAnswer in English.",
+        "generated_answer": "C) stav zamyslenia.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"Hobbes popisuje blaženosť ako:\" Options A-D. Ground truth answer is B. Generated answer is \"C) stav zamyslenia.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3130,
+        "question": "Dnes je nepravdepodobné, že by psychológ mohol podmienečne prepojiť bábätko s myšou alebo inými malými zvieratami pri výskume na univerzite, pretože\nA) žiadny rodič by nedovolil svoje dieťa na účasť v takejto štúdii\nB) štúdia porušuje etické smernice\nC) bábätká sú príliš mladé na to, aby sa báli malých zvierat\nD) podmienečné experimenty sa už nerobia\nAnswer in English.",
+        "generated_answer": "D) podmienečné experimenty sa už nerobia",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Dnes je nepravdepodobné, že by psychológ mohol podmienečne prepojiť bábätko s myšou alebo inými malými zvieratami pri výskume na univerzite, pretože ...\" Options A-D. The correct answer is B: \"štúdia porušuje etické smernice\" (the study violates ethical guidelines). The generated answer is D) \"podmienečné experimenty sa už nerobia\" (conditioned experiments are no longer done). That is not the same as B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9298,
+        "question": "FASB mení Kódifikáciu účtovných štandardov vydávaním\nA) Aktualizácií účtovných štandardov.\nB) Výkazov o vznikajúcich problémoch tímu (EITF) vydávaných.\nC) Výrokami o finančnej účtovnej štandardizácii.\nD) Technickými bulletinmi tímu zamestnancov.\nAnswer in English.",
+        "generated_answer": "A) Aktualizácie účtovných štandardov.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"FASB mení Kódifikáciu účtovných štandardov vydávaním ...\" It's Slovak. Options A-D. The ground truth answer is \"A\". The generated answer: \"A) Aktualizácie účtovných štandardov.\" That corresponds to option A. So meaning same. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3632,
+        "question": "Riziko nákazy HIV z jednotky krvi v Spojených štátoch je teraz:\nA) 1/10 000 jednotiek\nB) 1/200 000 jednotiek\nC) 1/500 000 jednotka\nD) 1 na 2 milióny jednotiek\nAnswer in English.",
+        "generated_answer": "A) 1/10 000 jednotiek\n\nRiziko nákazy HIV z jednotky krvi v Spojených štátoch je teraz:\nA) 1/10 000 jednotiek",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Riziko nákazy HIV z jednotky krvi v Spojených štátoch je teraz: A) 1/10 000 jednotiek B) 1/200 000 jednotiek C) 1/500 000 jednotka D) 1 na 2 milióny jednotiek Answer in English.\"\n\nGround truth answer: D (which corresponds to \"1 na 2 milióny jednotiek\").\n\nGenerated answer: \"A) 1/10 000 jednotiek\" repeated. That is not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3909,
+        "question": "Ktoré tvrdenie najlepšie vysvetľuje rozdiel medzi Hartovým rozlišovaním medzi 'byť povinným' a 'mať povinnosť'?\nA) Ukazuje rozdiel medzi internou a externou stránkou pravidla.\nB) Vyvracia pohľad prirodzeného právника na úlohu morálky v práve.\nC) Vysvetľuje povahu pravidiel udeľujúcich moc.\nD) Osvecuje koncept pravidla.\nAnswer in English.",
+        "generated_answer": "A) Ukazuje rozdiel medzi internou a externou stránkou pravidla.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which statement best explains the difference between Hart's distinction between 'to be obligated' and 'to have an obligation'?\" Options A-D. Ground truth answer is D. Generated answer is \"A) ...\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2334,
+        "question": "Jednotky pre R, konštantu ideálneho plynového zákona, môžu byť\nA) L atm mol-1 K-1\nB) J mol-1 K-1\nC) volt koulomb mol-1 K-1\nD) (A), (B) a (C)\nAnswer in English.",
+        "generated_answer": "A) L atm mol-1 K-1\nJednotky pre R, konštantu ideálneho plynového zákona, môžu byť\nA) L atm mol-1 K-1\nB) J mol-1 K-1\nC) volt koulomb mol-1 K-1\nD) (A), (B) a (C)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"Jednotky pre R, konštantu ideálneho plynového zákona, môžu byť A) L atm mol-1 K-1 B) J mol-1 K-1 C) volt koulomb mol-1 K-1 D) (A), (B) a (C) Answer in English.\"\n\nGround truth answer: D (i.e., all of the above). Generated answer: It repeats the options and says \"A) L atm mol-1 K-1 Jednotky pre R, konštantu ideálneho plynového zákona, môžu byť A) L atm mol-1 K-1 B) J mol-1 K-1 C) volt koulomb mol-1 K-1 D) (A), (B) a (C)\". It does not select D; it just repeats the options, starting with \"A) L atm...\" and then repeats the whole list. It does not indicate the correct answer. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8896,
+        "question": "Pre ktorý z týchto dvoch scenárov urobí hlavná postava (ktorá používa ja/mňa/môj) niečo morálne nesprávne podľa bežných morálnych noriem v USA v roku 2020? Scenár 1 | Keď som videl/a, že babičkine lieky sú nesprávne, dala som jej ich. Scenár 2 | Mal/a som okuliare, ktoré mi pomáhali prejsť zrakovým testom pre získanie vodičského preukazu.\nA) Nesprávne, nesprávne\nB) Nesprávne, nie nesprávne\nC) Nie nesprávne, nesprávne\nD) Nie nesprávne, nie nesprávne\nAnswer in English.",
+        "generated_answer": "A) Nesprávne, nesprávne",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question asks: which scenario does the main character do something morally wrong? Options: A) Wrong, wrong; B) Wrong, not wrong; C) Not wrong, wrong; D) Not wrong, not wrong. The ground truth answer is B. Generated answer is \"A) Nesprievne, nesprievne\". That's option A, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7339,
+        "question": "Lekár podozrieva, že jazykové spracovanie pacienta sa nachádza v pravom hemisfére mozgu. Toto by bolo pravdepodobne potvrdené použitím\nA) CAT\nB) MRI\nC) PET\nD) MMPI\nAnswer in English.",
+        "generated_answer": "A) CAT\nAnswer in Slovak.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"Lekár podozrieva, že jazykové spracovanie pacienta sa nachádza v pravom hemisfére mozgu. Toto by bolo pravdepodobne potvrdené použitím A) CAT B) MRI C) PET D) MMPI Answer in English.\"\n\nGround truth answer: C (i.e., PET). Generated answer: \"A) CAT Answer in Slovak.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1494,
+        "question": "Akú hodnotu má tento výraz v jazyku Python: 1 + 3 % 3?\nA) 0\nB) 1\nC) 3\nD) 4\nAnswer in English.",
+        "generated_answer": "C) 3",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Akú hodnotu má tento výraz v jazyku Python: 1 + 3 % 3? A) 0 B) 1 C) 3 D) 4 Answer in English.\" The correct answer is B (which is 1). Generated answer: \"C) 3\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1318,
+        "question": "Prečo tvrdia niektorí doktori, že Reagan 'vyhral studenú vojnu'?\nA) Vojskový rozpočet Reagana v prvom funkčnom období nútil Sovietsky zväz držať sa svojich medzinárodných záväzkov\nB) Reagan podporoval angažovanie sa so Sovietskym zväzom\nC) Reagan podporoval mäkší prístup k komunizmu\nD) Reagan znížil vojenské výdavky a to dovolilo Sovietskemu zväzu priestor pre reformy\nAnswer in English.",
+        "generated_answer": "A) Vojskový rozpočet Reagana v prvom funkčnom období nútil Sovietsky zväz držať sa svojich medzinárodných záväzkov",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer is \"A) Vojskový rozpočet Reagana v prvom funkčnom období nútil Sovietsky zväz držať sa svojich medzinárodných záväzkov\". That is essentially the same as option A, just with the text. So yes, they match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5243,
+        "question": "Zmeny v kulture sú zavádzané všetkými nasledujúcimi procesmi OKREM\nA) inovácie.\nB) difúzie.\nC) akulturácie.\nD) gravitácie.\nAnswer in English.",
+        "generated_answer": "Zmeny v kultúre sú zavádzané všetkými nasledujúcimi procesmi OKREM\nA) inovácie.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Zmeny v kulture sú zavádzané všetkými nasledujúcimi procesmi OKREM\" which means \"Changes in culture are introduced by all the following processes EXCEPT\". Options A) innovation, B) diffusion, C) acculturation, D) gravity. The correct answer is D (gravity). Ground truth answer: \"D\". The generated answer: \"Zmeny v kultúre sú zavádzané všetkými nasledujúcimi procesmi OKREM A) inovácie.\" That says the answer is A) innovation. That's not the same as D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8322,
+        "question": "Aká bola posledná symfónia Ludwiga van Beethovena?\nA) Deviate\nB) Desiate\nC) Jedenáste\nD) Dvanáste\nAnswer in English.",
+        "generated_answer": "D) Dvanáste\n\nLudwig van Beethoven (1770-1827) je známy ako jeden z najvýznamnejších skladateľov klasicistickej hudby. Jeho posledná symfónia bola napísaná v roku 1824.\n\nPosledná symfónia Ludwiga van Beethovena bola napísaná v roku 1824.\n\nPosledná symfónia Ludwiga van Beethovena bola napísaná v roku 1824.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Aká bola posledná symfónia Ludwiga van Beethovena?\" Means \"What was the last symphony of Ludwig van Beethoven?\" Options: A) Deviate, B) Desiate, C) Jedenáste, D) Dvanáste. The correct answer is \"Dvanáste\" (the 12th? Actually Beethoven's last symphony is the 9th, but the options are weird Slovak numbers: Deviate? maybe \"Deviate\" is 10? Actually \"Deviate\" maybe \"Desiate\" is 10, \"Jedenáste\" is 11, \"Dvanáste\" is 12. Beethoven's last symphony is 9th, but maybe they think 12? The ground truth answer is \"A\". So ground truth says answer is A) Deviate. The generated answer says D) Dvanáste and includes extra text about 1824. So it's not matching ground truth. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8016,
+        "question": "Ktoré membránové mastné kyseliny sú prekurzormi pre eikosanoidy?\n\nA) Nasýtené mastné kyseliny C20 a C22\nB) Polynenasýtené mastné kyseliny C18 a C22\nC) Mononenasýtené mastné kyseliny C20 a C22\nD) Polynenasýtené mastné kyseliny C20 a C22\nAnswer in English.",
+        "generated_answer": "D) Polynenasýtené mastné kyseliny C20 a C22",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which membrane fatty acids are precursors for eicosanoids?\" Options given. Ground truth answer: D. Generated answer: \"D) Polynenasýtené mastné kyseliny C20 a C22\". That matches option D. So meaning same. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1786,
+        "question": "Za posledné tri mesiace školy spadlo 8,1 palcov, 4,2 palcov a 0,33 palca zrážok. Odhadnite celkové zrážky za tri mesiace zaokrúhľovaním na najbližšie celé číslo.\nA) 11 palcov\nB) 11 palcov\nC) 45,0 palcov\nD) 12 palcov\nAnswer in English.",
+        "generated_answer": "Zaokrúhlite na najbližšie celé číslo.\nA) 11 palcov",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Za posledné tri mesiace školy spadlo 8,1 palcov, 4,2 palcov a 0,33 palca zrážok. Odhadnite celkové zrážky za tri mesiace zaokrúhľovaním na najbližšie celé číslo. A) 11 palcov B) 11 palcov C) 45,0 palcov D) 12 palcov Answer in English.\"\n\nGround truth answer: \"D\". So correct answer is D) 12 palcov.\n\nGenerated answer: \"Zaokrúhlite na najbližšie celé číslo. A) 11 palcov\". That says \"Round to nearest whole number. A) 11 inches\". That's not the same as D) 12 inches. So not equivalent. Also generated answer is not empty but wrong. So answer false.\n\nThus output: Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4938,
+        "question": "Táto otázka sa týka nasledujúcich informácií.\nPre zodpovedanie otázok prečítajte nasledujúcu básňu.\nZaťať bremeno bieleho muža-\nNechajte vyjsť to najlepšie zo seba-\nVaši synovia sa musia zviazať s osudom\nA slúžiť potrebám vašich zajatcov;\nČakať v ťažkej nákladnej výstroji,\nna plačúcich obyvateľov a divochov-\nvaše nové, zlobivé ľudstvá,\npolovičné zvery a polovičné deti.\n...\nZaťať bremeno bieleho muža-\ndivoké vojny o mier-\nzaplniť ústa hladu\na dané ochorenie zastavit;\na keď je váš cieľ najbližšie\nkoniec hľadania pre ostatných...\npozrite sa na otrlého a pohanského blázna\nAko prináša všetky vaše nádeje na nič.\nRudyard Kipling, Bremeno bieleho muža, 1899\nNa základe tejto básne by sa Kiplingova koncepcia britskej impériálnej misie najlepšie dala zhrnúť ako\nA) ťažká, ale nevyhnutná úloha\nB) kruté uplatňovanie moci\nC) slávna náboženská zodpovednosť\nD) beznádejná úloha bez účelu\nAnswer in English.",
+        "generated_answer": "A) ťažká, ale nevyhnutná úloha",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". Generated answer: \"A) ťažká, ale nevyhnutná úloha\". That matches option A, same meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9031,
+        "question": "Teórie rovnováhy spoločenských zmien zdôrazňujú\nA) globalizáciu\nB) stabilitu a štruktúru spoločnosti\nC) sekularizáciu a mechanizáciu\nD) industrializáciu\nAnswer in English.",
+        "generated_answer": "A) globalizáciu",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Teórie rovnováhy spoločenských zmien zdôrazňujú\" which is Slovak: \"Theories of equilibrium of social changes emphasize\". Options: A) globalization, B) stability and structure of society, C) secularization and mechanization, D) industrialization. Correct answer is B. Generated answer: \"A) globalizáciu\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4769,
+        "question": "Koľko stovkoviek (100-dolárových bankoviek) potrebujete na zloženie jedného milióna dolárov?\nA) jeden tisíc\nB) päť tisíc\nC) desať tisíc\nD) stotisíc\nAnswer in English.",
+        "generated_answer": "D) stotisíc",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Koľko stovkoviek (100-dolárových bankoviek) potrebujete na zloženie jedného milióna dolárov?\" Means: How many 100-dollar bills needed to make one million dollars? 1,000,000 / 100 = 10,000. So correct answer is C) desať tisíc (ten thousand). Ground truth says \"C\". Generated answer: \"D) stotisíc\". That's 100,000, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11576,
+        "question": "Nasledujúci kódový úsek má zobraziť \"párne\" ak kladné číslo num je párne.\n AK (<CHÝBAJÚCE PODMIENKY>)\n ZOBRAZ \"párne\"\n\n Ktorý z nasledujúcich môže byť použitý na nahradenie <CHÝBAJÚCA PODMIENKY> tak, aby kódový úsek fungoval podľa zamýšľaného?\nA) (num MOD 1) = 0\nB) (num MOD 1) = 1\nC) (num MOD 2) = 0\nD) (num MOD 2) = 1\nAnswer in English.",
+        "generated_answer": "A) (num MOD 1) = 0\nB) (num MOD 1) = 1\nC) (num MOD 2) = 0\nD) (num MOD 2) = 1",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D). That is not equivalent; it's not just D. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2044,
+        "question": "Ktorý z nasledujúcich konceptov vie Moore definovať?\nA) dobré\nB) žlté\nC) kôň\nD) všetky vyššie uvedené\nAnswer in English.",
+        "generated_answer": "A) dobré",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Ktorý z nasledujúcich konceptov vie Moore definovať?\" Options: A) dobré (good), B) žlté (yellow), C) kôň (horse), D) všetky vyššie uvedené (all above). The ground truth answer is \"C\". So correct answer is option C (horse). Generated answer: \"A) dobré\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8969,
+        "question": "Pani Fisherová použila výraz (6 × 8) × 12 na výpočet celkového počtu značkovačov, potrebných pre svojich študentov pre ich umelecký projekt. Ktorý výraz je rovnaký ako ten, ktorý použila pani Fisherová?\nA) 6 + (8 + 12)\nB) 6 + (8 × 12)\nC) 6 × (8 + 12)\nD) 6 × (8 × 12)\nAnswer in English.",
+        "generated_answer": "D) 6 × (8 × 12)",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". Generated answer: \"D) 6 × (8 × 12)\". That conveys same answer: option D. So equivalent. Answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5451,
+        "question": "68-ročná žena sa dostavila do pohotovostného oddelenia so zhoršujúcimi sa horúčkami a bolesťou hlavy, trvajúcou 3 dni. Dnes sa pacientka cíti nevoľno a menej reaguje. Punkcia miechy odhalila proteinovú hladinu 89 mg/dl (referenčný rozsah: 15-45 mg/dl) s pleocytózou. Najpravdepodobnejším etiologickým organizmom je\nA) Clostridium perfringens\nB) Haemophilus influenzae\nC) rhinovírus\nD) Streptococcus pneumoniae\nAnswer in English.",
+        "generated_answer": "A) Clostridium perfringens",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: 68-year-old woman with worsening fever, headache, now nausea, less responsive. CSF protein 89 mg/dl (high) with pleocytosis. Most likely etiologic organism? Options: A Clostridium perfringens, B Haemophilus influenzae, C rhinovirus, D Streptococcus pneumoniae. The correct answer is D Streptococcus pneumoniae. Generated answer: \"A) Clostridium perfringens\". That does not match. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8852,
+        "question": "V školách charakterizovaných vysokým úspechom študentov a zapojením rodín, partnerstvá medzi školou a komunitou\nA) poskytujú dodatočné príležitosti študentom na maximalizáciu ich učenia\nB) nie sú dôležitým faktorom pre úspech študentov\nC) znížia množstvo úspechu, ktorého študenti dosiahnu\nD) zaberajú príliš veľa času školy a komunity\nAnswer in English.",
+        "generated_answer": "D) zaberajú príliš veľa času školy a komunity",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer equals ground truth meaning. Question: In schools characterized by high student success and family involvement, partnerships between school and community... options. The correct answer is A) provide additional opportunities for students to maximize learning. Ground truth is A. Generated answer is D) take up too much time of school and community. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3329,
+        "question": "Bentham tvrdí, že činy sú správne alebo nesprávne na základe:\nA) motívov, ktoré sa skrývajú za nimi.\nB) ich následkov.\nC) súčasne motívov aj následkov.\nD) ani motívov, ani následkov.\nAnswer in English.",
+        "generated_answer": "Bentham tvrdí, že činy sú správne alebo nesprávne na základe:\nA) motívov, ktoré sa skrývajú za nimi.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Bentham tvrdí, že činy sú správne alebo nesprávne na základe:\" Options A-D. Ground truth answer is B. Generated answer says: \"Bentham tvrdí, že činy sú správne alebo nesprávne na základe: A) motívov, ktoré sa skrývajú za nimi.\" So generated answer selects A, not B. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9882,
+        "question": "Chemosyntetické baktérie môžu produkovať svoju vlastnú potravu napriek absencii pigmentov na fotorecepčné účely, pretože chemosyntetické baktérie získavajú energiu oxidáciou anorganickej substancie, ako sú amoniak, síra alebo vodík\nA) oxidáciou anorganickej substancie, ako sú amoniak, síra alebo vodík\nB) redukciou anorganickej substancie, ako sú amoniak, síra alebo vodík\nC) oxidáciou organických zlúčenín\nD) prevodom svetelnej energie na chemickú energiu\nAnswer in English.",
+        "generated_answer": "Baktérie chemosyntetické môžu produkovať svoju vlastnú potravu napriek absencii pigmentov na fotorecepčné účely, pretože chemosyntetické baktérie získavajú energiu oxidáciou anorganickej substancie, ako sú amoniak, síra alebo vodík.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question is multiple choice; ground truth answer is \"A\". The generated answer is a sentence in Slovak: \"Baktérie chemosyntetické môžu produkovať svoju vlastnú potravu napriek absencii pigmentov na fotorecepčné účely, pretože chemosyntetické baktérie získavajú energiu oxidáciou anorganickej substancie, ako sú amoniak, síra alebo vodík.\"\n\nThat essentially repeats the statement that they get energy by oxidation of inorganic substances like ammonia, sulfur, hydrogen. That corresponds to choice A. The ground truth is \"A\". The generated answer is not just \"A\", but a full sentence stating the same content as choice A. Does that convey the same meaning? Yes, it matches choice A. The question asks to answer in English, but generated answer is in Slovak. However the evaluation is about equivalence in meaning to ground truth answer, not about language. The generated answer expresses the same concept as choice A, not B. So it's equivalent. So Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8965,
+        "question": "Ktoré z nasledujúcich vyhlásení o globálnom starnúcom obyvateľstve je správne?\n\nA) Očakáva sa, že do roku 2040 bude viac ako 25% svetovej populácie vo veku 65 rokov a starších.\nB) Tempo nárastu mediánu veku populácie je vyššie v rozvojových krajinách než v bohatých krajinách.\nC) V starších vekových skupinách je počet mužov väčší ako počet žien.\nD) Muži majú nižšiu úmrtnosť ako ženy počas celého životného cyklu.\nAnswer in English.",
+        "generated_answer": "A) Očakáva sa, že do roku 2040 bude viac ako 25% svetovej populácie vo veku 65 rokov a starších.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: which statement is correct? Options A-D. Ground truth answer: B. Generated answer: A). So they are not the same. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9627,
+        "question": "V oblasti obchodu a marketingu, ktorá z nasledujúcich predstavuje najväčšie prekážky pri rozvoji IT bezpečnosti?\nA) Nie je žiadny priamy návratnosť z investície do budovania bezpečnostných systémov.\nB) Bezpečnostné systémy sú pre používateľov neprehľadné a môžu urobiť IT systémy menej funkčnými a preto menej atraktívnymi pre zákazníka.\nC) Existuje tlak na skracovanie času, ktorý je potrebný na uvedenie nového IT produktu alebo systému na trh, a preto sú bezpečnostné systémy obetované za účelom skrátenia času uvádzania na trh.\nD) Všetky uvedené možnosti.\nAnswer in English.",
+        "generated_answer": "D) Všetky uvedené možnosti.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: multiple choice, answer is D) All of the above. Ground truth: \"D\". Generated answer: \"D) Všetky uvedené možnosti.\" That's equivalent. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4712,
+        "question": "Ktoré sú dva príklady vyhodnotenia výsledku?\nA) Zmena postoja\nB) Umietnenie správy\nC) Distribúcia správy\nD) Veľkosť pozorného publiku\nAnswer in English.",
+        "generated_answer": "A) Zmena postoja\nB) Umietnenie správy\nC) Distribúcia správy\nD) Veľkosť pozorného publiku",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Ktoré sú dva príklady vyhodnotenia výsledku?\" Means \"Which are two examples of evaluating results?\" Options A-D given. The ground truth answer is \"A\". That seems odd: ground truth says \"A\". Probably meaning option A is correct? But the question asks for two examples, maybe answer is A and B? But ground truth says \"A\". The generated answer repeats all options A-D. That's not equivalent to ground truth which is just \"A\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7290,
+        "question": "Osoba, ktorá nie je veľmi zorganizovaná, má zriedka stanovené ciele a často odkladá veci na poslednú chvíľu, by sa mohla nazývať nízkou, v ktorej vlastnosti?\nA) Zhovievavosti\nB) Svedomitosti\nC) Otvorenosti\nD) Neuroticizmu\nAnswer in English.",
+        "generated_answer": "A) Zhovievavosti",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In Slovak: \"Osoba, ktorá nie je veľmi zorganizovaná, má zriedka stanovené ciele a často odkladá veci na poslednú chvíľu, by sa mohla nazývať nízkou, v ktorej vlastnosti?\" Means: \"A person who is not very organized, rarely sets goals, and often procrastinates, could be called low in which trait?\" Options: A) Zhovievavosti (tolerance/patience), B) Svedomitosti (conscientiousness), C) Otvorenosti (openness), D) Neuroticizmu (neuroticism). The correct answer is B (low conscientiousness). Ground truth: B. Generated answer: \"A) Zhovievavosti\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1501,
+        "question": "Ktorý z nasledujúcich faktorov pravdepodobne vedie k relatívne vysokému stupňu predikčnej presnosti mimo vzorku?\nA) Model, ktorý je založený na finančnej teórii\nB) Model, ktorý obsahuje veľa premenných\nC) Model, ktorého závislá premenná nedávno preukázala štrukturálnu zmenu\nD) Model, ktorý je úplne štatistický a neumožňuje posudzovanie modifikácie predpovedí\nAnswer in English.",
+        "generated_answer": "A) Model, ktorý je založený na finančnej teórii",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Which factor likely leads to relatively high out-of-sample predictive accuracy? Options A-D. Ground truth answer: A. Generated answer: \"A) Model, ktorý je založený na finančnej teórii\". That's the same as option A. So meaning matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 9769,
+        "question": "Podľa Cicera je vhodné byť:\nA) spravodlivý.\nB) štedrý.\nC) milý.\nD) všetky uvedené možnosti.\nAnswer in English.",
+        "generated_answer": "A) spravodlivý.\nB) štedrý.\nC) milý.\nD) všetky uvedené možnosti.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Podľa Cicera je vhodné byť: A) spravodlivý. B) štedrý. C) milý. D) všetky uvedené možnosti. Answer in English.\" The ground truth answer is D (i.e., all of the above). The generated answer repeats the options list, not selecting one. It just lists all options, not indicating which is correct. That is not equivalent to \"D\". So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6306,
+        "question": "Kedy je rezervácia považovaná za neplatnú podľa práva zmlúv?\nA) Rezervácia je neplatná, keď väčšina štátnych strán s ňou nesúhlasí.\nB) Rezervácia je neplatná iba vtedy, ak to povie medzinárodný tribunál.\nC) Rezervácia je neplatná iba v prípade, že je nezlučiteľná s peremptórnym normou medzinárodného práva (jus cogens).\nD) Rezervácia je neplatná, ak je nezlučiteľná s cieľom a účelom zmluvy.\nAnswer in English.",
+        "generated_answer": "A) Rezervácia je neplatná, keď väčšina štátnych strán s ňou nesúhlasí.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Kedy je rezervácia považovaná za neplatnú podľa práva zmlúv?\" Options A-D. Ground truth answer is D. Generated answer is \"A) Rezervácia je neplatná, keď väčšina štátnych strán s ňou nesúhlasí.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5194,
+        "question": "V ktorý deň bežného 28-dňového menštruačného cyklu sa zvyčajne žena oplodňuje?\nA) 4\nB) 10\nC) 14\nD) 22\nAnswer in English.",
+        "generated_answer": "A) 4",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"V ktorý deň bežného 28-dňového menštruačného cyklu sa zvyčajne žena oplodňuje?\" Means \"On which day of a typical 28-day menstrual cycle is a woman usually fertilized?\" The correct answer is day 14 (ovulation). Ground truth: C (which corresponds to 14). Generated answer: \"A) 4\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9431,
+        "question": "Podľa rozhodnutia Brown v. Board of Education (1954) ktorá z nasledujúcich dodatkov bola porušená doktrínou \"separátne, ale rovnaké\", ktorá bola stanovená v prípade Plessy v. Ferguson (1896)?\nA) Prvý dodatok\nB) Šiesty dodatok\nC) Deviaty dodatok\nD) Štrnásty dodatok\nAnswer in English.",
+        "generated_answer": "D) Štrnásty dodatok",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which amendment was violated by doctrine \"separate but equal\"? Correct answer is Fourteenth Amendment. The ground truth answer is \"D\". The generated answer: \"D) Štrnásty dodatok\". That is the same: D) Fourteenth Amendment. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3966,
+        "question": "Počas relaxovania pri bazéne jedného slnečného nedeľného popoludnia, si domáci vlastník nechal zasiahnuť golfmičkou od 14-ročného chlapca, ktorý hral na mieste pre negativne pásy na miestnom golfovom ihrisku. Dráha pre negativné pásy mala šírku 65 stôp a dĺžku 437 yardov s prekážkou v smere východu. Medzi dráhou a majetkom domáceho vlastníka bola \"hrubá zeleň,\" obsahujúca keře a nízke stromy. Chlapec hral nádherný úder v strede dráhy, ktorá sa odrazila od stromu a trefila domovo vlastníka do hlavy. Vlastník podal žalobu proti chlapcovi za zranenia, ktoré utrpel, keď ho zasiahol golfbal. V súdnom procese chlapec ponúkol necontestovaný dôkaz, že golfbal z golfového ihriska pravidelne prechádzal na majetok domova dvakrát až trikrát denne. Ktoré z nasledujúcich tvrdení je najpresnejšie vzhľadom na zodpovednosť chlapca za neoprávnený vstup na cudzí pozemok?\nA) Chlapec nie je zodpovedný, pretože neúmyselne spôsobil prechod golfbalu na majetok žalobcu.\nB) Chlapec by bol zodpovedný za neoprávnený vnik golfového loptičkyna majetok žalobcu.\nC) Pretože by mal žalobca rozumne predpokladať, že život vedľa golfového ihriska bude mať za následok loptičky golfu, ktoré uvádzajú jeho vlastníctvo, chlapec by nebol zodpovedný.\nD) Pretože golfbal zásadne nezasiahol využitie a užívanie majetku žalobcu, chlapec by nebol zodpovedný.\nAnswer in English.",
+        "generated_answer": "A) Chlapec nie je zodpovedný, pretože neúmyselne spôsobil prechod golfbalu na majetok žalobcu.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer is \"A) Chlapec nie je zodpovedný, pretože neúmyselne spôsobil prechod golfbalu na majetok žalobcu.\" That is essentially the same as answer A. So yes, they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4756,
+        "question": "Obvinený mal obžalobu z ozbrojenej lúpeže v kráme s potravinami. Počas obhajoby obvinený vyzval niekoľko svedkov, ktorí vypovedali o jeho dobrej povesti. V rámci vyvratenia obhajoby bol volaný bývalý manžel obvineného, ktorý vypovedal o tom, že počas ich manželstva mal obvinený násilnú povahu, často ju bil a raz jej dokonca hrozil nožom. Výpoveď bývalej manželky by sa mala posúdiť ako\nA) prípustná, pretože je relevantná pre obvinenie\nB) prípustná, pretože obvinený otvoril dvere tým, že predstavil dôkazy o svojej dobrej povesti.\nC) nepripustiteľná, pretože obvinený bude môcť zabrániť svedectvu použitím výnimky pre manželské svedectvá.\nD) nepripustiteľná, pretože takýmto spôsobom nie je možné predložiť dôkazy o charaktere.\nAnswer in English.",
+        "generated_answer": "A) prípustná, pretože je relevantná pre obvinenie",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: multiple choice about admissibility of testimony. Ground truth answer is D. Generated answer is \"A) prípustná, pretože je relevantná pre obob...\" which is option A. That does not match D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3012,
+        "question": "Ktoré z nasledujúcich ústavných ustanovení sa vzťahuje na korporácie?\nA) Doložka o privilégiách a imunitách 14. dodatku.\nB) Doložka o vzájomnosti v článku IV.\nC) Zákaz núteného sebaobvinenia z piateho dodatku.\nD) Doložka o rovnakom zaobchádzaní v 14. dodatku.\nAnswer in English.",
+        "generated_answer": "A) Doložka o privilégiách a imunitách 14. dodatku.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which constitutional provision applies to corporations? Options A-D. Correct answer is D (the equal protection clause in 14th amendment). Generated answer says \"A) Doložka o privilégiách a imunitách 14. dodatku.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

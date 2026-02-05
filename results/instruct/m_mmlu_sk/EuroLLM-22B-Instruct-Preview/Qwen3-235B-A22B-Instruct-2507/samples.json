@@ -1,0 +1,802 @@
+[
+    {
+        "id": 6311,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Niektoré zvieratá sú zanedbávané krutými ľuďmi. (Ax: x je zviera; Cx: x je krutý; Px: x je osoba; Nxy: x zanedbáva y)\nA) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]\nB) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]\nC) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]\nD) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}\nAnswer in English.",
+        "generated_answer": "The correct translation of the sentence \"Some animals are neglected by cruel people\" into predicate logic is:\n\n**A) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]**\n\n### Explanation:\n- **Ax**: x is an animal.\n- **Cx**: x is cruel.\n- **Px**: x is a person.\n- **Nxy**: x neglects y.\n\nThe sentence \"Some animals are neglected by cruel people\" can be broken down as follows:\n- \"Some animals\" translates to \"There exists an animal\" or **(∃x)Ax**.\n- \"are neglected by cruel people\" translates to \"there exists a person who is cruel and who neglects the animal\" or **(∃y)(Py • Nyx)**.\n\nCombining these, the full translation is:\n- **(∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]**\n\nThis captures the meaning that there is at least one animal that is both an animal and cruel, and there is at least one person who is a person and who neglects that animal.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 12418,
+        "question": "Vyberte najlepší preklad do predikátového jazyka. Zem nie je väčšia ako Jupiter. (e: Zem; j: Jupiter; Bxy: x je väčšie ako y)\nA) ~Bje\nB) Bej\nC) Bje~\nD) ~Bej\nAnswer in English.",
+        "generated_answer": "The correct translation into predicate logic is:\n\n**A) ~Bje**\n\nExplanation:\n- **e:** represents the Earth.\n- **j:** represents Jupiter.\n- **Bxy:** represents \"x is greater than y.\"\n\nThe statement \"Zem nie je väčšia ako Jupiter\" translates to \"Earth is not greater than Jupiter.\" In predicate logic, this is represented as:\n\n**~Bje**\n\nWhere:\n- **~Bje:** means \"it is not the case that Earth is greater than Jupiter.\"\n\nSo, the correct answer is **A) ~Bje**.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Elektrická analogová veličina pro tlumič v analogii mezi silou a proudem je\nA) odpor.\nB) vodivost.\nC) indukčnost.\nD) kapacita.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) vodivost**.\n\nIn the electrical analogy, the force is analogous to voltage (V), and the current (I) is analogous to the velocity of the mass in a mechanical system. The damping force in a mechanical system is analogous to the resistance in an electrical system. Resistance (R) is the reciprocal of conductance (G), which is the electrical analog of damping coefficient (c) in the mechanical system. Therefore, the electrical analog of damping force is conductance (G), which is the reciprocal of resistance (R). \n\nSo, the correct answer is **B) vodivost**.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 663,
+        "question": "V ktorej fáze plánovacieho procesu sa rozhodujú ciele?\nA) Definovanie programu\nB) Plánovanie programu\nC) Podniknutie krokov a implementácia nápadov\nD) Hodnotenie programu\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Definovanie programu**  \n\nCiele sa zvyčajne stanovujú v **fáze definovania programu**, kedy sa určujú hlavné ciele a účel programu. Táto fáza predchádza plánovaniu, implementácii a hodnoteniu.  \n\n*(Odpoveď v slovenčine: Správna odpoveď je A) Definovanie programu.)*",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Little tvrdí, že by sme mali akceptovať prerogatívu matiek ukončiť tehotenstvo, kým plod nie je osobou, pretože\nA) by sme mali akceptovať prerogatívu odmietnuť radikálne zmeny nášho praktického identitu.\nB) potrat je absolútne morálne nesprávny.\nC) potrat je predbežne morálne nesprávny, ale môže byť v niektorých extrémnych prípadoch povolený.\nD) neexistuje jasná odpoveď na otázku morálneho statusu potratu.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) neexistuje jasná odpoveď na otázku morálneho statusu potratu.**\n\nLittle's argument suggests that the moral status of abortion is ambiguous and that we should not impose a definitive moral judgment until the fetus becomes a person. This aligns with the idea that the question of whether abortion is morally permissible is not straightforward and requires careful consideration of various factors.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8376,
+        "question": "Predstavte si, že Zem bola okamžite presunutá na obežnú dráhu trikrát ďalej od Slnka. Ako dlho by trval jeden rok?\nA) presne 3 krát dlhší\nB) asi 5,2 krát dlhší\nC) Nie je dostatok informácií. Bude to závisieť na sklonu novej dráhy\nD) Dĺžka roka sa nezmení, pretože hmotnosť Zeme zostáva rovnaká.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) about 5.2 times longer**.\n\n### Explanation:\nThe length of a year (the time it takes for a planet to complete one orbit around the Sun) is determined by the **inverse square law** of orbital motion. This law states that the square of the orbital period (T) is proportional to the cube of the semi-major axis (r) of the orbit:\n\n\\[\nT^2 \\propto r^3\n\\]\n\nIf the Earth's distance from the Sun (semi-major axis) is increased by a factor of 3, the orbital period (year) will increase by a factor of:\n\n\\[\n\\sqrt[3]{3} \\approx 1.442 \\approx 5.2 \\text{ times longer}\n\\]\n\nThus, a year on Earth would be approximately **5.2 times longer** if it were moved three times farther from the Sun. \n\nThe other options are incorrect because:\n- **A)** The year would not be *exactly* 3 times longer (it's a proportional increase, not an exact multiple).\n- **C)** The inclination (tilt) of the orbit does not affect the orbital period in this context.\n- **D)** The orbital period does depend on the distance from the Sun, as per Kepler's laws.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7961,
+        "question": "Aktorý z nasledujúcich spôsobov znamená umiestnenie vášho produktu alebo služby v čo najväčšom množstve prevádzok alebo lokalít, aby sa zvýšila šanca, že zákazníci nájdu váš produkt alebo službu?\nA) Exkluzívna distribúcia.\nB) Intenzívna distribúcia.\nC) Selektívna distribúcia.\nD) Priama distribúcia.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) Intensive distribution**  \n\n**Explanation:**  \n- **Intensive distribution** means placing your product or service in as many outlets or locations as possible to maximize customer accessibility.  \n- This strategy is commonly used for low-cost, high-volume products (e.g., groceries, fast food).  \n- The other options describe different distribution strategies:  \n  - **A) Exclusive distribution** restricts sales to a few select outlets.  \n  - **C) Selective distribution** limits sales to a few carefully chosen outlets.  \n  - **D) Direct distribution** involves selling directly to the customer (e.g., online, company-owned stores).  \n\nThus, **B) Intensive distribution** is the best answer.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6634,
+        "question": "Do nemocnice je prijatá 25-ročná gravidná žena s anamnézou 3 gravidít a 2 pôrodov v 39. týždni tehotenstva počas aktívneho pôrodu. Má pravidelné kontrakcie každých 4 minúty, ale momentálne má len niekoľko občasných a slabých kontrakcií. V minulých 6 hodinách už dostala dvakrát lieky proti bolesti. Klinické vyšetrenie neodhalilo žiadne príznaky obštrukčného pôrodu. Plodová hlava je vstúpila do pánve, plodové obaly sú nedotknuté, srdcové tóny plodu sú normálne a krček maternice je zužujúci sa na 100\"%\" a rozopnutý na 7 cm. Najpravdepodobnejšou diagnózou je\nA) Braxton-Hicksove kontrakcie\nB) dolný sťahovací okruh maternice\nC) hypotonická dysfunkcia maternice\nD) primárna dysfunkčná práca\nAnswer in English.",
+        "generated_answer": "The most likely diagnosis is **B) lower segment contraction ring**.\n\n### Explanation:\n- The patient is a 25-year-old pregnant woman with a history of three pregnancies and two full-term deliveries.\n- She is currently experiencing regular contractions every 4 minutes, but the contractions are intermittent and weak.\n- The cervix is 7 cm dilated and 100% effaced, indicating that the woman is in active labor.\n- The fetal head has entered the pelvis, and the fetal membranes are intact, with normal fetal heart tones.\n- The absence of obstructive labor and the progression of labor suggest that the contractions are part of the normal labor process.\n\n### Why not the other options?\n- **A) Braxton-Hicks contractions**: These are typically painless and irregular contractions that do not lead to labor progression. The patient is in active labor with regular contractions.\n- **C) Hypotonic dysfunction of the uterus**: This condition involves a weak or ineffective uterine contraction, often leading to slow labor progression. The patient's contractions are regular and progressing, so this is less likely.\n- **D) Primary dysfunctional labor**: This term is less commonly used and typically refers to labor that does not progress despite the presence of contractions. The patient's contractions are regular and the cervix is progressing, so this is not the most appropriate diagnosis.\n\nThus, **lower segment contraction ring** is the most likely diagnosis given the clinical scenario.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 12841,
+        "question": "Ktorý z týchto výrazov opisuje behaviorálnu zložku negatívnych postojov voči určitým skupinám?\nA) Predpojatosť\nB) Podmienkovanie\nC) Katarzia\nD) Diskriminácia\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) Predpojatosť**.\n\n**Explanation:**\n\n- **Predpojatosť (Prejudice)** refers to preconceived opinions or attitudes about a group of people, often based on stereotypes rather than actual experience or evidence. It is a cognitive and emotional component of negative attitudes towards certain groups.\n\n- **Podmienkovanie (Conditioning)** is a learning process where behavior is influenced by its consequences. While it can influence attitudes and behaviors, it is not specifically about negative attitudes towards groups.\n\n- **Katarzia (Catharsis)** refers to the process of releasing and thereby providing relief from strong or repressed emotions. It is more related to emotional release rather than negative attitudes towards groups.\n\n- **Diskriminácia (Discrimination)** is the unfair or unequal treatment of people based on their membership in a certain group. While it is a behavioral component of negative attitudes, it is more about actions rather than the underlying attitudes or beliefs.\n\nTherefore, **predpojatosť** (prejudice) is the most appropriate term to describe the cognitive and emotional component of negative attitudes towards certain groups.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "Učiteľ nahlas číta Where the Wild Things Are, obrázkovú knihu, v ktorej chlapec menom Max sa stretne s divými monštrami, ktoré sú veľmi farebne zobrazené. Potom učiteľ ukáže žiakom obrázkové karty zobrazujúce scény z začiatku, stredu a konca príbehu. Ktorý z nasledujúcich konceptov literárnej štruktúry učiteľ pomáha študentom porozumieť?\nA) Postupnosti deja\nB) Bod pohľadu\nC) Vývoj postavy\nD) Nastavenie\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) Postupnosti deja**.\n\nThe teacher is helping students understand the **sequence of events** in the story by showing them picture cards that represent the beginning, middle, and end of *Where the Wild Things Are*. This activity focuses on how the story unfolds in a logical order, which is a key aspect of understanding the **plot structure** or **narrative sequence**. \n\nThe other options—**B) Point of view**, **C) Character development**, and **D) Setting**—are not the primary focus of this activity. While these elements are important in literature, the teacher is specifically guiding students to recognize how the story progresses from one event to the next.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7808,
+        "question": "Ktorá z nasledujúcich možností najlepšie vysvetľuje skoré osídlenie a vysokú hustotu populácie na pobrežiach a pri riekach?\nA) Stredozemnomorské podnebie\nB) Obmedzené lesné porasty\nC) Rast výroby\nD) Prístup k obchodným trasám\nAnswer in English.",
+        "generated_answer": "The best explanation for the early settlement and high population density along coasts and rivers is:\n\n**B) Obmedzené lesné porasty**\n\nEarly human settlements were often concentrated near water sources because rivers and coasts provided essential resources such as water, food (fish, shellfish, and fertile soil for agriculture), and transportation routes. Limited forest cover made it easier to clear land for farming and settlements, further encouraging population growth in these areas. While other factors like trade (D) and climate (A) also played a role, the availability of water and arable land was the primary driver of early human settlement patterns.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "Aká je najčastejšou príčinou demencie vo Veľkej Británii?\nA) Alzheimerova choroba.\nB) Cerebrovaskulárna choroba (mŕtvica).\nC) Demencia s Lewyho telieskami.\nD) Infekcia HIV.\nAnswer in English.",
+        "generated_answer": "The most common cause of dementia in the UK is:\n\n**A) Alzheimer's disease.**\n\nAlzheimer's disease accounts for the majority of dementia cases in the UK, followed by vascular dementia (which is often linked to cerebrovascular disease, but not the same as B). The other options (C and D) are much rarer causes of dementia.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 9558,
+        "question": "Spoločnosť Goll má 25% podiel na bežných akciách spoločnosti Rose a 18% podiel na bežných akciách spoločnosti Jave. Žiadna z týchto investícií nedáva spoločnosti Goll možnosť vykonávať významný vplyv na prevádzkovú a finančnú politiku týchto spoločností. Na ktorú z týchto investícií by sa spoločnosť Goll mala vzťahovať metódu podielového záujmu?\nA) Na obidve spoločnosti Rose a Jave.\nB) Len na spoločnosť Rose.\nC) Len na spoločnosť Jave.\nD) Ani na Rose, ani na Jave.\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) On both Rose and Jave**.\n\nAccording to the International Financial Reporting Standards (IFRS), the equity method should be applied to investments in associates or joint ventures when the investor has significant influence over the investee. In this case, Goll has a 25% and 18% stake in Rose and Jave, respectively, and neither investment gives Goll the ability to exercise significant influence. However, since Goll has a significant ownership interest in both companies, it should apply the equity method to both investments. This is because the equity method is used to reflect the investor's share in the investee's net income or loss, and the investor's share in the investee's equity.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 3578,
+        "question": "Vodičová slučka bude indukovať napätie, keď magnetické pole v nej\nA) sa mení\nB) zarovnáva s elektrickým poľom\nC) je kolmé na elektrické pole\nD) premení sa na magnetickú energiu\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) sa mení**  \n\n### Explanation:  \nAccording to **Faraday's Law of Induction**, a voltage (electromotive force, EMF) is induced in a conductor when the **magnetic flux** through the conductor changes. This change can occur due to:  \n- A **changing magnetic field** (as the magnet moves closer or farther away),  \n- A **moving conductor** through a stationary magnetic field, or  \n- A **rotating loop** in a constant magnetic field.  \n\nThe other options are incorrect because:  \n- **B)** Incorrect – The alignment of magnetic and electric fields does not directly induce voltage.  \n- **C)** Incorrect – A perpendicular field does not necessarily induce voltage unless it changes.  \n- **D)** Incorrect – Magnetic energy conversion (e.g., into electric energy) is not the cause of induced voltage.  \n\nThus, the key factor is the **change in magnetic flux** (**A**).",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8268,
+        "question": "Ak klesne cena produktu a cena substitučného produktu zostáva konštantná tak, že spotrebiteľ kupuje viac tohto produktu, nazýva sa to\nA) efekt dopytu.\nB) efekt substitúcie.\nC) okrajový efekt.\nD) efekt zásobovania.\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) efekt dopytu**.\n\nWhen the price of a product decreases while the price of a substitute product remains constant, consumers tend to buy more of the now-cheaper product. This is known as the **income effect** (a component of the **income-consumption curve**) or more specifically, the **substitution effect** (a component of the **Slutsky equation**). However, the most direct and commonly used term for this phenomenon in the context of consumer choice is the **effect of demand** (or **demand effect**), as it reflects how changes in price influence the quantity demanded of a good. \n\nThe other options are less accurate:\n- **B) Effect of substitution**: This is more about the relative price changes between two goods, not just one good's price change.\n- **C) Marginal effect**: This refers to the change in one variable due to a small change in another, but it's not a specific term for this scenario.\n- **D) Effect of supply**: This relates to how producers respond to price changes, not consumer behavior.\n\nThus, **A) efekt dopytu** is the best answer.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2281,
+        "question": "Obžalovaný je na súde za držanie heroínu. V rámci obvinenia vypovedá policajt, že sledoval, ako iný policajt odobral z obvineného vrecúško s bielym práškom a uzavrel ho do obálky, ktorú obaja policajti podpísali a dátumovali a následne umiestnili do priestorov polície pre uloženie predmetov. Prokurátor následne vyzve chémičku, aby vypovedala, že obálku so zapečateným obsahom a podpismi oboch policajtov, ktoré z predchádzajúcej praxe rozpoznala, získala nedotknutú z miestnosti pre uloženie predmetov a skúšky preukázali, že prášok v nej bol heroín. Obžalovaný tvrdí, že prokurátor nedokázal dostatočne overiť, že prášok skúmaný chémičkou bol prášok odobraný z obvineného. Je výpoveď chémičky prípustná?\nA) Nie, pretože chémička nemá prvotnú znalosť o tom, že prášok pochádza od obvineného.\nB) Nie, ak sa obálka a prášok neobjavia na súde alebo sa ich absencia nevysvetlí.\nC) Áno, pretože predmet v oficiálnej starostlivosti sa sám overuje.\nD) Áno, pretože prášok je dostatočne identifikovaný ako pochádzajúci od obvineného.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) Yes, because the powder is sufficiently identified as originating from the accused.**\n\n### Explanation:\nThe key issue here is the admissibility of the chemist's testimony regarding the identification of the powder as heroin. The chemist's expertise is relevant to determine whether the substance in the envelope matches the description of heroin. The fact that the envelope and its contents were obtained from a secure police storage area and that the chemist's analysis confirmed the substance as heroin provides sufficient basis for the testimony to be admissible.\n\n- **Option A** is incorrect because the chemist's expertise is relevant to the identification of the substance, not the origin of the powder.\n- **Option B** is incorrect because the absence of the envelope and powder at the trial is not a standard requirement for the admissibility of expert testimony. The chain of custody and the expert's analysis are sufficient.\n- **Option C** is incorrect because the principle of \"officially recognized documents\" (e.g., sealed envelopes in police custody) does not automatically make the contents self-evident. Expert testimony is still necessary to confirm the substance.\n- **Option D** is correct because the chemist's analysis, combined with the chain of custody, provides sufficient evidence to support the identification of the powder as heroin.\n\nThus, the chemist's testimony is admissible, and the correct answer is **D**.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4617,
+        "question": "Aký druh mäsa sa obvykle používa na tradičnom sendviči Reuben?\nA) morka\nB) salámovica\nC) korenené hovädzie mäso\nD) papriková saláma\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) corned beef**  \n\nThe traditional Reuben sandwich typically includes **corned beef** (brined and slow-cooked beef) as one of its main ingredients. The other common components are Swiss cheese, sauerkraut, Russian dressing, and rye bread.  \n\nThe other options are incorrect:  \n- **A) Turkey** – Not used in a classic Reuben.  \n- **B) Salami** – While some variations may include salami, it’s not the traditional choice.  \n- **D) Peppered salami** – Also not part of the original recipe.  \n\nLet me know if you'd like more details!",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2289,
+        "question": "Dvojmesačná dievčinka je privedená na prvú rutinnú kontrolu svojho zdravia a pre aktualizáciu jej očkovania. Aby sa zistilo, či existujú akékoľvek kontraindikácie pre očkovanie proti záškrtu, tetanu a čiernemu kašľu (DtaP), rodičovia by mali byť vypočutí ohľadom\nA) alergie na vajíčka\nB) Apgar skóre pri pôrode\nC) gestačného veku pri pôrode\nD) predchádzajúcich záchvatov\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) allergy to eggs**.  \n\nHere’s why:  \n- **A) Allergy to eggs**: Some vaccines, including certain formulations of DTaP, may contain trace amounts of egg protein. A known egg allergy could be a contraindication or require special precautions.  \n- **B) Apgar score**: This assesses a newborn’s condition immediately after birth and is unrelated to vaccine safety.  \n- **C) Gestational age at birth**: This is relevant for prematurity-related considerations but not directly tied to DTaP contraindications.  \n- **D) Previous seizures**: While a history of seizures (e.g., febrile seizures) may influence vaccine decisions, it is not the *primary* factor for DTaP in this context.  \n\nThus, **A** is the most relevant question to ask when screening for DTaP contraindications.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 12383,
+        "question": "Čo znamená medzinárodná právna osobnosť?\nA) Znamená to, že iba štáty sú považované za subjekty medzinárodného práva\nB) Znamená to mať práva a povinnosti podľa medzinárodného práva a kapacitu ich vynucovať alebo proti príslušnému aktéru\nC) Znamená to, že entita môže zpochybniť autoritu štátov\nD) Je to termín, ktorý má označovať právne, a nie fyzické osoby podľa medzinárodného práva\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) Znamená to mať práva a povinnosti podľa medzinárodného práva a kapacitu ich vynucovať alebo proti príslušnému aktéru**  \n\n### Explanation:  \nInternational legal personality refers to the capacity of an entity (such as a state, international organization, or sometimes individuals) to have rights and obligations under international law and to enforce or be held accountable for those rights and obligations.  \n\n- **Option A** is incorrect because while states are primary subjects of international law, not all entities with international legal personality are states (e.g., the UN, NGOs, or even individuals in some cases).  \n- **Option C** is incorrect because international legal personality does not imply challenging state authority; it is about recognition under international law.  \n- **Option D** is incorrect because \"legal person\" in international law can refer to both legal entities (like organizations) and, in some contexts, individuals.  \n\nThus, **B** is the most accurate and comprehensive definition.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1553,
+        "question": "U rastlín sa protónové čerpace podieľajú na procese nakladania cukrov do floému pre ich transport. Ktorá z nasledujúcich možností zodpovedá tomuto procesu?\nA) Je to pasívne.\nB) Závisí od DNA.\nC) Vyžaduje ATP.\nD) Prenáša škrob.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**C) Vyžaduje ATP.**\n\nProtónové čerpadlá (H⁺-ATPázy) sú enzýmy, ktoré využívajú energiu z ATP na transport protónov (H⁺) cez membránu. Tento proces vytvára elektrochemický gradient, ktorý je kľúčový pre aktívny transport cukrov (ako je napríklad sacharóza) do floému, čo je proces známy ako **prenos asimilátov**. Tento mechanizmus je nevyhnutný pre distribúciu živín v rastline.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10131,
+        "question": "Ak zažíva ekonomika recesiu, aký vplyv bude mať plán na zníženie daní pre spotrebiteľov a zvýšenie výdavkov na nákup vládnych zakázaní na reálny hrubý domáci produkt (HDP) a cenovú hladinu?\nA) reálny HDP stúpa a cena klesá.\nB) reálny HDP klesá a cena rastie.\nC) reálny HDP stúpa a cena stúpa.\nD) reálny HDP klesá a cena klesá.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**A) reálny HDP stúpa a cena klesá.**\n\n### Explanation:\nWhen an economy is in a recession, a **fiscal stimulus** (such as tax cuts for consumers and increased government spending) can help boost economic activity. Here's how it works:\n\n1. **Tax cuts for consumers**:  \n   - Increase disposable income, leading to higher consumer spending.  \n   - This stimulates demand for goods and services, which can increase **real GDP** (the total output of goods and services in an economy, adjusted for inflation).\n\n2. **Increased government spending**:  \n   - Creates jobs and boosts demand for goods and services.  \n   - This further stimulates economic activity and increases real GDP.\n\n3. **Impact on the price level**:  \n   - While increased demand can lead to higher prices in the short term, the primary goal of fiscal stimulus during a recession is to **stimulate economic growth** rather than control inflation.  \n   - In the long run, as the economy recovers, the price level may stabilize or even decrease if the stimulus leads to higher productivity and efficiency.\n\nThus, the combination of increased consumer spending and government spending tends to **raise real GDP** while keeping the price level stable or even lowering it in the long run.  \n\n**Answer: A) reálny HDP stúpa a cena klesá.**",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4104,
+        "question": "Webová stránka používa viacero spôsobov na zabránenie neoprávneného prístupu k používateľským účtom. Ktorá z nasledujúcich možností nie je príklad multifaktorovej autentifikácie?\nA) Každý zamestnanec spoločnosti dostane USB zariadenie, ktoré obsahuje jedinečný token kód. Na prihlásenie sa k počítaču spoločnosti musí zamestnanec vložiť svoje USB zariadenie do počítača a zadať správne heslo.\nB) Po prihlásení sa k účtu z nového zariadenia musí používateľ zadať kód, ktorý bol zaslaný e-mailom na e-mailovú adresu uvedenú v údajoch účtu.\nC) Pre prihlásenie sa do účtu musí používateľ zadať heslo a odtlačok prsta získaný pomocou svojho zariadenia.\nD) Ak používateľ zadal nesprávne heslo viac ako dvakrát po sebe, účet sa zablokuje na 24 hodín.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) If the user enters the wrong password more than twice in a row, the account is locked for 24 hours.**\n\nThis is not an example of multifactor authentication (MFA). MFA requires the user to provide two or more verification factors to gain access, such as something they know (password), something they have (USB token), or something they are (biometric data). Option D is a form of **multiple-factor authentication failure protection**, but it does not involve additional verification factors beyond the initial password. \n\nThe other options (A, B, and C) all involve additional verification factors, making them examples of multifactor authentication.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8725,
+        "question": "Do pohotovosti je prinášaný 17-ročný chlapec tridsať minút po tom, ako ho našli na párty s \"prázdnym pohľadom\" a rovnomernou tvárou. Jeho tep je 72/min a krvný tlak 104/68 mm Hg. Sedí vzpriamene a pôsobí katatonicky. Fyzikálne vyšetrenie ukazuje stuhnutosť. Počas vyšetrenia sa stáva agresívnym a pokúša sa napadnúť lekára. Ktorú z týchto látok pravdepodobne pacient užil?\nA) Diazepam\nB) Metamfetamín\nC) Oxikodon\nD) PCP (fenyzklidín)\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) PCP (phencyclidine)**.  \n\n### Key clinical clues:  \n1. **Catatonic state** – PCP is known for causing dissociative and catatonic-like symptoms.  \n2. **Agitation & aggression** – PCP can lead to violent or bizarre behavior.  \n3. **Slow pulse & low blood pressure** – Consistent with central nervous system (CNS) depression.  \n4. **\"Purple drank\" or \"party scene\" context** – PCP is often used in recreational settings, especially in music/party environments.  \n\n### Why not the others?  \n- **A) Diazepam** – Causes sedation, not catatonia or aggression.  \n- **B) Methamphetamine** – Typically causes hyperactivity, paranoia, and tachycardia, not catatonia.  \n- **C) Oxycodone** – Causes CNS depression but usually with euphoria, not aggression or catatonia.  \n\nPCP is the most likely culprit given the presentation.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 11553,
+        "question": "Pre ktorý z týchto dvoch scenárov urobí hlavný postava (ktorá používa ja/mňa/môj) niečo zjavné nemorálne, podľa bežných morálnych noriem vo Veľkej Amerike v roku 2020? Scenár 1 | Posunul som žebre, keď na nej niekto bol, aby som ju mohol použiť sám. Scenár 2 | Trénoval som svoju manželku, aby žebrala o jedlo.\nA) Nesprávne, Nesprávne\nB) Nesprávne, Nie nesprávne\nC) Nie nesprávne, Nesprávne\nD) Nie nesprávne, Nie nesprávne\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) Nie nesprávne, Nesprávne**.\n\nHere's the reasoning:\n\n- **Scenár 1**: Posunul som žebre, keď na nej niekto bol, aby som ju mohol použiť sám.  \n  This is clearly **wrong** (Nesprávne) by most moral standards in 2020. It involves dishonesty and taking advantage of someone else's need, which is generally considered unethical.\n\n- **Scenár 2**: Trénoval som svoju manželku, aby žebrala o jedlo.  \n  This is **not wrong** (Nie nesprávne) by most moral standards in 2020. While it might be seen as unconventional or even irresponsible, it does not involve dishonesty or harm to others. It could be interpreted as a survival strategy or a personal choice, depending on the context.\n\nThus, the answer is **C) Nie nesprávne, Nesprávne**.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 9861,
+        "question": "Uhlík existuje vo viacerých formách nazývaných alotropické formy. Ktorá z nasledujúcich možností nie je alotropom uhlíka?\nA) diamant\nB) sadza\nC) buckyball\nD) grafit\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) sadza**.\n\nSadza (amorfný uhlík) nie je alotropom uhlíka, pretože nemá pravidelnú kryštalickú štruktúru, ktorá je charakteristická pre alotropy uhlíka ako diamant, grafit alebo fullerény (buckyball). Alotropy uhlíka majú špecifické usporiadanie atómov, ktoré im dodávajú jedinečné fyzikálne a chemické vlastnosti.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2407,
+        "question": "Pre mäkkých deterministov znamená tvrdiť, že by ste mohli urobiť inak, že by ste to urobili inak, ak by _____.\nA) vaše túžby boli stále rovnaké\nB) vaše túžby boli úplne pod vašou kontrolou\nC) vaše túžby boli odlišné\nD) vaše túžby nehrali žiadnu úlohu vo vašich rozhodnutiach\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) vaše túžby boli úplne pod vašou kontrolou**.\n\nFor soft determinists, the key point is that while they acknowledge the influence of desires and motivations on decisions, they also believe that these desires can be controlled or influenced by rational thought and will. Therefore, the idea that you could make a different choice if your desires were \"completely under your control\" aligns with the soft determinist perspective. This suggests that while desires play a role, they are not entirely beyond the realm of personal agency.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5081,
+        "question": "Táto otázka sa týka nasledujúcich informácií.\n\"The far-reaching, the boundless future will be the era of American greatness. In its magnificent domain of space and time, the nation of many nations is destined to manifest to mankind the excellence of divine principles; to establish on earth the noblest temple ever dedicated to the worship of the Most High—the Sacred and the True. Its floor shall be a hemisphere—its roof the firmament of the star-studded heavens, and its congregation a Union of many Republics, comprising hundreds of happy millions, calling, owning no man master, but governed by God's natural and moral law of equality, the law of brotherhood—of 'peace and good will amongst men.'\"\nJohn L. O'Sullivan, \"The Great Nation of Futurity,\" 1839\nKtorý z nasledujúcich prezidentov sa najviac spája s konceptom Manifest Destiny?\nA) James K. Polk\nB) Andrew Johnson\nC) Woodrow Wilson\nD) Ronald Reagan\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) James K. Polk**  \n\nJames K. Polk is most closely associated with the concept of **Manifest Destiny**, as his presidency (1845–1849) was marked by aggressive expansionism, including the annexation of Texas, the Mexican-American War (1846–1848), and the acquisition of vast territories that fulfilled the ideology of America's divine right to expand across the continent.  \n\nThe other options are incorrect because:  \n- **B) Andrew Johnson** (1865–1869) dealt with Reconstruction after the Civil War.  \n- **C) Woodrow Wilson** (1913–1921) focused on progressive reforms and World War I leadership.  \n- **D) Ronald Reagan** (1981–1989) emphasized conservative policies and Cold War rhetoric, not territorial expansion.  \n\nPolk's expansionist policies directly reflected the belief in Manifest Destiny, making him the clearest historical match.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1618,
+        "question": "46-ročný muž s Marfanovým syndrómom, nedostatočnosťou aorty a regurgitáciou mitrálnych chlopní prichádza na pohotovosť, pretože má silné bolesti za hrudnou kosťou už 3 hodiny. Popisuje bolesť ako trhajúcu a žiarenú do krku. Pred týždňom mal podobné, ale menej intenzívne bolesti a liečil sa aspirínom. Ktorá z nasledujúcich vecí je najpravdepodobnejšou príčinou pre zhoršujúce sa príznaky?\nA) Akútna bakteriálna endokarditída\nB) Akútny myokardiálny infarkt\nC) Disekcia aorty\nD) Reflux zo žalúdka s kŕčom\nAnswer in English.",
+        "generated_answer": "The most likely cause of the worsening symptoms in this 46-year-old man with Marfan syndrome, aortic insufficiency, and mitral regurgitation is:\n\n**C) Disekcia aorty**\n\n### Explanation:\n- **Marfan syndrome** is a genetic disorder that affects the connective tissue, particularly the aorta, making it prone to dilation and dissection.\n- The patient's symptoms (severe, tearing chest pain radiating to the neck) and the presence of aortic insufficiency and mitral regurgitation are highly suggestive of **aortic dissection**.\n- Aortic dissection is a life-threatening condition where the inner layer of the aorta tears, allowing blood to flow between the layers of the aortic wall, leading to potential rupture.\n- The fact that the pain has worsened over time and is more intense than the previous episode is concerning for progression of the dissection.\n\n### Why not the other options?\n- **A) Acute bacterial endocarditis**: While possible, this is less likely given the patient's history of aortic and mitral valve issues and the typical presentation of endocarditis (fever, systemic symptoms, and potential embolic events).\n- **B) Acute myocardial infarction**: This is less likely given the patient's history of similar but less intense pain and the absence of typical ischemic symptoms (e.g., diaphoresis, nausea, or radiation to the left arm).\n- **D) Reflux from the stomach with a spasm**: This is unlikely given the nature of the pain (tearing, radiating to the neck) and the patient's cardiac history.\n\nThus, **disekcia aorty (C)** is the most likely cause of the worsening symptoms. Immediate medical attention and imaging (e.g., CT angiography or transesophageal echocardiography) are crucial for diagnosis and management.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 11957,
+        "question": "Hodnotí sa 37-ročná žena s opuchom pravej dolnej končatiny kvôli náhlemu napadnutiu dýchavičnosti a pleurických hrudných bolestí. Stanovuje sa diagnóza pľúcnej embólie. Ktorý z nasledujúcich príznakov by bol najpresnejším indikátorom pľúcnej arteriálnej hypertenzie u pacientky, ak sa prejaví počas fyzikálneho vyšetrenia?\nA) Zvýšený tlak vrčiacich žíl\nB) P2 hlasnejšie ako A2\nC) Periférny opuch\nD) Prítomnosť S3\nAnswer in English.",
+        "generated_answer": "The most accurate indicator of pulmonary arterial hypertension (PAH) in this patient would be:\n\n**A) Increased jugular venous pressure (JVP)**\n\n### Explanation:\nPulmonary arterial hypertension is characterized by increased pressure in the pulmonary arteries, which can lead to elevated right-sided heart pressures. This often manifests as **increased jugular venous pressure (JVP)**, as the right atrium struggles to accommodate the higher pressures from the right ventricle. \n\n- **A) Increased JVP**: This is a classic sign of right-sided heart failure, which can occur in PAH due to the increased afterload on the right ventricle.\n- **B) P2 louder than A2**: This is more indicative of left-sided heart disease (e.g., aortic stenosis) rather than PAH.\n- **C) Peripheral edema**: This is a sign of right-sided heart failure but is not specific to PAH.\n- **D) Presence of S3**: This is also a sign of right-sided heart failure but is not specific to PAH.\n\nThus, **A) Increased JVP** is the most accurate indicator of pulmonary arterial hypertension in this context.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1208,
+        "question": "Donald po absolvovaní kurzu AP psychológie a úspešnom zvládnutí skúšky pokračuje na vysokú školu. Ak sa Donald zaujíma o psychológiu a má vysokú motiváciu k dosahovaniu úspechu, pravdepodobne ako prvoročný študent bude\nA) absolvovať úvodný kurz psychológie, v ktorom vie, že bude excelovať.\nB) zaregistruje sa do seminaru vyššieho stupňa, kde sa bude vystavený veľkému množstvu nových informácií a pravdepodobne bude mať ťažkosti zvládnuť kurz.\nC) vyhýbať sa psychologickým kurzom, pretože už ovláda materiál.\nD) prihlásiť sa na kurz na stupe bakalára, kde bude musieť tvrdo pracovať na úspechu a získa nové poznatky.\nAnswer in English.",
+        "generated_answer": "The most likely scenario for Donald, given his interest in psychology, high motivation, and successful completion of an AP psychology course, is:\n\n**D) enroll in a bachelor's-level course where he will have to work hard for success and gain new knowledge.**\n\nThis option aligns with the typical progression of a first-year student who is motivated and has a strong foundation in the subject. It reflects a realistic expectation that while Donald may have a head start, he will still need to engage deeply with the material and put in effort to succeed at the higher academic level.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 11206,
+        "question": "Pre ktorý z týchto dvoch scenárov urobí hlavná postava (ktorá používa Ja/mňa/môj) niečo zjavné nesprávne z morálneho hľadiska podľa bežných morálnych noriem v USA k roku 2020? Scenár 1 | Snažil som sa zraziť zviera, ktoré sa prudko pripotácala na cestu, aby som ho neobíchol a nezmeškal. Scenár 2 | Rozhodol som sa prehrázať rieku v horách za veľkým poľnohospodárskym areálom.\nA) Nesprávne, nesprávne\nB) Nesprávne, správne\nC) Správne, nesprávne\nD) Správne, správne\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) Nesprávne, správne**.\n\nHere's the reasoning:\n\n- **Scenár 1**: Trying to hit an animal to avoid hitting it is generally considered morally wrong in the U.S. in 2020. It involves causing harm to an animal intentionally, which is seen as unethical.\n  \n- **Scenár 2**: Foraging through a river in the mountains is not inherently morally wrong. It could be seen as a survival or recreational activity, depending on the context. There is no clear moral issue here.\n\nThus, the first scenario involves a morally wrong action, while the second does not. The answer is **B) Nesprávne, správne**.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5409,
+        "question": "Táto otázka sa vzťahuje na nasledujúce informácie.\n\"Môj malý statek v meste, ktorý som nedávno poistil za ￡2,000, by nepochybne zdieľal bežný osud, pretože poisťovacie spoločnosti nebudú nahrádzať to, čo zničia nepriatelia kráľovnej. A hoci mám farmu o rozlohe 50 arov blízko mesta, úroda a objekty by nepochybne bola zničené. V skutočnosti už k tomu čiastočne došlo a teraz žalujem vládu za škody spôsobené kontingentom 1 500 miestnych obyvateľov, ktorí sa nedávno usadili niekoľko stoviek yardov od miesta a spôsobili škody v celom okolí.\"\nList britského občana jeho sestre počas anglo-zulskej vojny, Južná Afrika, 1879.\nKtorý z nasledujúcich dôvodov vysvetľuje, prečo európski občania v roku 1867 masovo presúvali na územia Zulu?\nA) Britská koruna ponúkla stimuly pre tých, ktorí by zakladali usadlosti na neobydlených územiach Južnej Afriky.\nB) Zulu vytvorili atraktívne obchodné prístavy pozdĺž Indického oceánu.\nC) Berlínska konferencia objasnila hranice, tým umožnila Európanom logisticky sa presúvať do afrických kolónií.\nD) Nastal diamantový záchvat po objavení diamantov na územiach Zulu.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) Nastal diamantový záchvat po objavení diamantov na územiach Zulu.**\n\n### Explanation:\nThe letter mentions that the writer's farm was damaged by a contingent of 1,500 local inhabitants who had recently settled nearby. This suggests that European settlers were moving into the Zulu territories, likely driven by economic opportunities, such as the discovery of diamonds. The diamond rush in South Africa, particularly in the Kimberley region, began in the late 1860s and attracted many European settlers seeking wealth. This aligns with option D.\n\nThe other options are not supported by the context:\n- **A)** There is no mention of British crown incentives for settlers.\n- **B)** The Zulu did not have significant trade ports along the Indian Ocean.\n- **C)** The Berlin Conference (1884–85) occurred much later and did not facilitate European migration at the time of the letter (1879). \n\nThus, the diamond rush is the most plausible reason for the mass migration of Europeans to Zulu territories.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7735,
+        "question": "Aký je súčet všetkých kladných celočíselných hodnôt $n$, pre ktoré platí, že $n^2$ je faktor čísla $1200$?\nA) 42\nB) 12\nC) 36\nD) 39\nAnswer in English.",
+        "generated_answer": "To find the sum of all positive integer values of \\( n \\) such that \\( n^2 \\) is a factor of 1200, we first need to determine the prime factorization of 1200.\n\nThe prime factorization of 1200 is:\n\\[ 1200 = 2^4 \\times 3^1 \\times 5^2 \\]\n\nA factor of 1200 must be of the form \\( 2^a \\times 3^b \\times 5^c \\) where \\( 0 \\leq a \\leq 4 \\), \\( 0 \\leq b \\leq 1 \\), and \\( 0 \\leq c \\leq 2 \\).\n\nFor \\( n^2 \\) to be a factor of 1200, \\( n^2 \\) must be of the form \\( 2^a \\times 3^b \\times 5^c \\) where \\( 0 \\leq a \\leq 4 \\), \\( 0 \\leq b \\leq 1 \\), and \\( 0 \\leq c \\leq 2 \\).\n\nThis means \\( n \\) must be of the form \\( 2^a \\times 3^b \\times 5^c \\) where \\( \\frac{a}{2} \\leq 2 \\), \\( \\frac{b}{2} \\leq 1 \\), and \\( \\frac{c}{2} \\leq 1 \\).\n\nSimplifying these inequalities:\n- \\( a \\leq 4 \\) (since \\( \\frac{a}{2} \\leq 2 \\) implies \\( a \\leq 4 \\))\n- \\( b \\leq 1 \\) (since \\( \\frac{b}{2} \\leq 1 \\) implies \\( b \\leq 2 \\), but \\( b \\leq 1 \\) is stricter)\n- \\( c \\leq 1 \\) (since \\( \\frac{c}{2} \\leq 1 \\) implies \\( c \\leq 2 \\), but \\( c \\leq 1 \\) is stricter)\n\nSo, \\( n \\) can be any of the following:\n\\[ 1, 2, 4, 5, 8, 10, 16, 20, 25, 32, 40, 50, 80, 100, 125, 200, 250, 400, 500, 1000, 1250 \\]\n\nNow, we sum these values:\n\\[ 1 + 2 + 4 + 5 + 8 + 10 + 16 + 20 + 25 + 32 + 40 + 50 + 80 + 100 + 125 + 200 + 250 + 400 + 500 + 1000 + 1250 \\]\n\nLet's calculate the sum step by step:\n\\[ 1 + 2 = 3 \\]\n\\[ 3 + 4 = 7 \\]\n\\[ 7 + 5 = 12 \\]\n\\[ 12 + 8 = 20 \\]\n\\[ 20 + 10 = 30 \\]\n\\[ 30 + 16 = 46 \\]\n\\[ 46 + 20 = 66 \\]\n\\[ 66 + 25 = 91 \\]\n\\[ 91 + 32 = 123 \\]\n\\[ 123 + 40 = 163 \\]\n\\[ 163 + 50 = 213 \\]\n\\[ 213 + 80 = 293 \\]\n\\[ 293 + 100 = 393 \\]\n\\[ 393 + 125 = 518 \\]\n\\[ 518 + 200 = 718 \\]\n\\[ 718 + 250 = 968 \\]\n\\[ 968 + 400 = 1368 \\]\n\\[ 1368 + 500 = 1868 \\]\n\\[ 1868 + 1000 = 2868 \\]\n\\[ 2868 + 1250 = 4118 \\]\n\nThe sum of all these values is 4118. However, let's verify the calculation for accuracy:\n\\[ 1 + 2 + 4 + 5 + 8 + 10 + 16 + 20 + 25 + 32 + 40 + 50 + 80 + 100 + 125 + 200 + 250 + 400 + 500 + 1000 + 1250 \\]\n\nLet's use a more efficient method to sum these numbers:\n\\[ 1 + 2 + 4 + 5 + 8 + 10 + 16 + 20 + 25 + 32 + 40 + 50 + 80 + 100 + 125 + 200 + 250 + 400 + 500 + 1000 + 1250 \\]\n\nGroup the numbers by their values:\n\\[ (1 + 1000) + (2 + 500) + (4 + 250) + (5 + 200) + (8 + 125) + (10 + 100) + (16 + 50) + (20 + 40) + (25 + 40) + (32 + 25) + (40 + 20) + (50 + 10) + (80 + 5) + (100 + 2) + (125 + 4) \\]\n\nCalculate each pair:\n\\[ 1001 + 502 = 1503 \\]\n\\[ 2 + 500 = 502 \\]\n\\[ 4 + 250 = 254 \\]\n\\[ 5 + 200 = 205 \\]\n\\[ 8 + 125 = 133 \\]\n\\[ 10 + 100 = 110 \\]\n\\[ 16 + 50 = 66 \\]\n\\[ 20 + 40 = 60 \\]\n\\[ 25 + 40 = 65 \\]\n\\[ 32 + 25 = 57 \\]\n\\[ 40 + 20 = 60 \\]\n\\[ 50 + 10 = 60 \\]\n\\[ 80 + 5 = 85 \\]\n\\[ 100 + 2 = 102 \\]\n\\[ 125 + 4 = 129 \\]\n\nNow, sum these results:\n\\[ 1503 + 502 = 2005 \\]\n\\[ 2005 + 254 = 2259 \\]\n\\[ 2259 + 205 = 2464 \\]\n\\[ 2464 + 133 = 2597 \\]\n\\[ 2597 + 110 = 2707 \\]\n\\[ 2707 + 66 = 2773 \\]\n\\[ 2773 + 60 = 2833 \\]\n\\[ 2833 + 65 = 2898 \\]\n\\[ 2898 + 57 = 2955 \\]\n\\[ 2955 + 60 = 3015 \\]\n\\[ 3015 + 60 = 3075 \\]\n\\[ 3075 + 85 = 3160 \\]\n\\[ 3160 + 102 = 3262 \\]\n\\[ 3262 + 102 = 3364 \\]\n\\[ 3364 + 129 = 3493 \\]\n\nThe sum is 3493. However, let's cross-verify the calculation:\n\\[ 1 + 2 + 4 + 5 + 8 + 10 + 16 + 20 + 25 +",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 9171,
+        "question": "Na svojom vrchole sa populácia mesta Teotihuacán mohla dosiahnuť:\nA) 50 000 ľudí.\nB) 200 000 ľudí.\nC) 500 000 ľudí.\nD) 1 000 000 ľudí.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**C) 500,000 people.**\n\nTeotihuacán, located in modern-day Mexico, was one of the largest cities in the pre-Columbian Americas. At its peak, around 450–650 CE, it is estimated that the population reached approximately **500,000 people**, making it one of the most populous cities in the world at that time.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1649,
+        "question": "Ktoré vitamíny sa pravdepodobne najviac nedostávajú v vegánskej strave?\n\nA) Vitamín B1\nB) Kyselina listová\nC) Vitamín B12\nD) Vitamín A\nAnswer in English.",
+        "generated_answer": "The answer is C) Vitamín B12",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5796,
+        "question": "Epicurus tvrdí, že z vecí potrebných pre kompletný život je najdôležitejšie:\nA) ctnosť.\nB) priateľstvo.\nC) luxus.\nD) dobré jedlo.\nAnswer in English.",
+        "generated_answer": "Epicurus believed that the most important thing among the necessities for a complete life is:\n\n**B) friendship.**\n\nEpicurus emphasized the importance of friendship and the cultivation of meaningful relationships as essential for achieving a happy and fulfilling life. He argued that true happiness comes from the presence of good friends and the absence of pain, rather than from material possessions or luxury.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7113,
+        "question": "Výška (v metrech) vystřelené kanónové koule následuje trajektorii dávanou funkcí $h(t) = -4.9t^2 + 14t - 0.4$ v čase $t$ (v sekundách). Jako nesprávný zlomek, jak dlouho je kanónová koule nad výškou $6$ metrů?\nA) \\frac{5}{7}\nB) \\frac{7}{12}\nC) \\frac{12}{7}\nD) \\frac{7}{5}\nAnswer in English.",
+        "generated_answer": "To determine how long the cannonball is above a height of 6 meters, we need to solve the equation \\( h(t) = 6 \\) for \\( t \\), where \\( h(t) = -4.9t^2 + 14t - 0.4 \\).\n\nStarting with the equation:\n\\[\n-4.9t^2 + 14t - 0.4 = 6\n\\]\n\nSubtract 6 from both sides to set the equation to zero:\n\\[\n-4.9t^2 + 14t - 6.4 = 0\n\\]\n\nMultiply through by -1 to make the equation easier to work with:\n\\[\n4.9t^2 - 14t + 6.4 = 0\n\\]\n\nTo solve this quadratic equation, we use the quadratic formula \\( t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\), where \\( a = 4.9 \\), \\( b = -14 \\), and \\( c = 6.4 \\).\n\nFirst, calculate the discriminant:\n\\[\nb^2 - 4ac = (-14)^2 - 4(4.9)(6.4) = 196 - 122.88 = 73.12\n\\]\n\nNow, apply the quadratic formula:\n\\[\nt = \\frac{-(-14) \\pm \\sqrt{73.12}}{2 \\cdot 4.9} = \\frac{14 \\pm \\sqrt{73.12}}{9.8}\n\\]\n\nCalculate the square root of the discriminant:\n\\[\n\\sqrt{73.12} \\approx 8.55\n\\]\n\nSo, the solutions for \\( t \\) are:\n\\[\nt = \\frac{14 + 8.55}{9.8} \\approx \\frac{22.55}{9.8} \\approx 2.3\n\\]\n\\[\nt = \\frac{14 - 8.55}{9.8} \\approx \\frac{5.45}{9.8} \\approx 0.55\n\\]\n\nWe are interested in the time when the cannonball is above 6 meters, so we take the larger solution:\n\\[\nt \\approx 2.3 \\text{ seconds}\n\\]\n\nTo express this as a fraction, we recognize that:\n\\[\n2.3 = \\frac{23}{10} = \\frac{12}{5}\n\\]\n\nThus, the time the cannonball is above 6 meters is:\n\\[\n\\frac{7}{5} \\text{ seconds}\n\\]\n\nThe correct answer is:\n\\[\n\\boxed{\\frac{7}{5}}\n\\]",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5180,
+        "question": "Z nasledujúcich iónov, ktorý má najmenší polomer?\nA) K+\nB) Ca2+\nC) Sc3+\nD) Rb+\nAnswer in English.",
+        "generated_answer": "The ion with the smallest radius is **C) Sc³⁺**.\n\n### Explanation:\nThe size of an ion is determined by its nuclear charge and the number of electrons. Generally, as the nuclear charge increases (i.e., as the atomic number increases), the ion becomes smaller due to the stronger attraction of the nucleus for the electrons. However, the number of electrons also plays a role.\n\n- **K⁺** has 19 electrons, **Ca²⁺** has 18 electrons, **Sc³⁺** has 17 electrons, and **Rb⁺** has 37 electrons.\n- Among these, **Sc³⁺** has the fewest electrons, which means the outermost electrons are held more tightly by the nucleus, resulting in a smaller ionic radius.\n\nThus, **Sc³⁺** has the smallest radius.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10008,
+        "question": "Správny výrok o predhovorení dojčiat z rôznych jazykových komunít je ten, že\nA) obsahuje celý rozsah foném, ktoré tvoria všetky jazyky\nB) je odlišné pre každú jazykovú komunitu od začiatku precvičovania hlasov\nC) je rovnaké pre každú jazykovú komunitu až do vyslovenia prvých slov\nD) závisí od fonetickej štruktúry jazyka\nAnswer in English.",
+        "generated_answer": "The correct statement about the babbling of infants from different language communities is:\n\n**D) depends on the phonetic structure of the language**\n\nExplanation: Babbling in infants is influenced by the phonetic inventory of the language(s) they are exposed to. Infants tend to produce sounds that are common in their native language, even before they start speaking. This means that babbling is not universal but varies depending on the phonetic structure of the language(s) they hear and learn. \n\nThe other options are incorrect because:\n- **A)** Babbling does not include the full range of phonemes from all languages; it is specific to the language(s) the infant is exposed to.\n- **B)** Babbling is not entirely different for each language community from the start; it reflects the phonetic patterns of the language(s) the infant hears.\n- **C)** Babbling is not the same for every language community until the first words are spoken; it adapts to the phonetic structure of the language(s) from the beginning.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10492,
+        "question": "Podľa Hardina základná chyba \"etiky zdieľania\" spočíva v tom, že\nA) je protikresťanská.\nB) by vyžadovala silnejší systém zdaňovania pre bohatých.\nC) by vedla k \"tragédii obecného blaha\".\nD) všetky vyššie uvedené\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) would lead to \"the tragedy of the commons.\"**  \n\n### Explanation:  \nGarrett Hardin's famous essay *\"The Tragedy of the Commons\"* (1968) argues that individuals acting in their own self-interest (e.g., overusing shared resources) can lead to the depletion of those resources, even if it is against the common good. This is the core of his critique of \"ethics of sharing\" (or \"ethics of the commons\"), where unregulated individualism undermines collective welfare.  \n\n- **A)** Incorrect: Hardin's argument is not explicitly anti-Christian but critiques unregulated individualism, which can conflict with communal values.  \n- **B)** Incorrect: While taxation could be a policy solution, Hardin’s focus is on the ethical/behavioral problem, not economic systems.  \n- **D)** Incorrect: The other options are not central to Hardin’s argument.  \n\nThus, **C** is the best answer.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3350,
+        "question": "Spoločnosť nedávno presťahovala do novej budovy. Stará budova sa aktívne ponúka na predaj a spoločnosť očakáva, že predaj dokončí o štyri mesiace. Každé z nasledujúcich tvrdení o starom dome je správne, okrem:\nA) Bude prekvalifikovaná na aktívum držané na predaj.\nB) Bude zaradená ako bežné aktívum.\nC) Nebude viac odpisovaná.\nD) Bude ohodnotená za historickú cenu.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) Bude zaradená ako bežné aktívum.**\n\n### Explanation:\nWhen a company sells a property it no longer uses, it typically follows specific accounting rules. Here's why the other options are correct and why **B** is incorrect:\n\n- **A) Bude prekvalifikovaná na aktívum držané na predaj.**  \n  Correct. If the company intends to sell the property within a year or its normal operating cycle, it will be classified as an \"asset held for sale\" and accounted for under specific guidelines (e.g., impairment testing).\n\n- **C) Nebude viac odpisovaná.**  \n  Correct. Once the property is classified as held for sale, it is no longer depreciated (if it was previously an operating asset).\n\n- **D) Bude ohodnotená za historickú cenu.**  \n  Correct. The property will be valued at its historical cost (original purchase price) when it is held for sale, not its current market value.\n\n- **B) Bude zaradená ako bežné aktívum.**  \n  Incorrect. A property held for sale is **not** classified as a \"bežné aktívum\" (current asset). It is either classified as an asset held for sale or, if sold, as a revenue from the sale. Current assets are typically short-term and used in operations (e.g., inventory, cash).  \n\nThus, the correct answer is **B**.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 9052,
+        "question": "Ktorý slávny ľudový spevák založil Ústav pre štúdium nenásilia v roku 1965?\nA) Bob Dylan\nB) Woody Guthrie\nC) Joan Baez\nD) Peter Yarrow\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) Peter Yarrow**.  \n\nPeter Yarrow, along with Paul Stookey and Mary Travers, formed the folk music trio **Peter, Paul and Mary**. In 1965, they founded the **Institute for the Study of Nonviolence**, inspired by their commitment to social justice and nonviolent activism.  \n\nWoody Guthrie (B) and Bob Dylan (A) were also influential folk musicians, but they did not establish the institute. Joan Baez (C) was a prominent folk singer and activist but was not involved in founding the institute.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 7815,
+        "question": "Podľa Keynesiánskej analýzy by pokles penžnej zásoby\nA) zvýšil mieru inflácie a výstup v ekonomike.\nB) znížil mieru inflácie a výstup v ekonomike.\nC) zvýšil mieru inflácie v ekonomike.\nD) znížil mieru inflácie v ekonomike.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) reduced the rate of inflation and output in the economy.**  \n\n### Explanation:  \nKeynesian economics emphasizes the role of aggregate demand in driving economic activity. A **decrease in the money supply** (contractionary monetary policy) would:  \n- **Reduce spending** (since less money is available for circulation), leading to lower **output (GDP)**.  \n- **Lower inflation** (as demand decreases, prices stabilize or fall).  \n\nThis contrasts with monetarist views, which might argue that money supply changes directly affect inflation, but Keynesians focus more on demand-side effects.  \n\n**Why not the other options?**  \n- **A)** Incorrect because a money supply decrease reduces demand, not output.  \n- **C)** Incorrect because inflation would likely fall, not rise.  \n- **D)** Incorrect because inflation would decrease, not fall.  \n\nThus, **B** is the best answer.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7253,
+        "question": "Muž a žena jazdili po strmých serpentínach dvoupruhovej cesty smerom na východ. Žena jazdila pred mužom. Keď sa muž dostal blízko k ženinmu vozidlu, stal sa netrpezlivým a pokúsil sa ju predbehnúť v časti cesty označenej ako zóna bez možnosti predbiehania. Keď muž odbočil so svojím autom do pruhu pre jazdu na západ, aby predbehol ženu, nevidel ďalšieho vodiča, ktorý prechádzal zákrutou v pruhu pre jazdu na západ. Aby sa vyhol nehode s mužom, ďalší vodič odbočil svojím autom na ramje cesty. Avšak ten vodič nedokázal ovládať svoje auto na úzkom pásiky cesty a zrútil sa po strmých svahoch hory. Muž aj žena videli, ako auto druhého vodiča zoskočilo do rokliny asi 200 stôp nižšie. Muž a žena počuli volania a náreky druhého vodiča o pomoc. Avšak muž aj žena neposkytli žiadnu pomoc a odišli preč. Zatiaľ čo muž a žena o chvíľu prešli oblasťou obchodu, nehodu neoznámili ani nepožiadali o pomoc pre druhého vodiča. Hodiny neskôr zomrel druhý vodič na následky zranení z nehody. Ak sa muž a žena následne stíhajú za smrť druhého vodiča, najpravdepodobnejším výsledkom by bolo, že\nA) muž a žena sú vinní z trestného činu usmrtenia z nedbanlivosti.\nB) muž je vinný z trestného činu usmrtenia z nedbanlivosti.\nC) žena je vinná z trestného činu usmrtenia z nedbanlivosti.\nD) ani muž ani žena nie sú vinní z trestného činu usmrtenia z nedbanlivosti.\nAnswer in English.",
+        "generated_answer": "The most likely outcome is that **A) both the man and the woman are guilty of the criminal offense of manslaughter by negligence**.\n\nHere’s why:\n\n1. **Negligence in the Act of Driving**: Both the man and the woman were driving in a way that was negligent, particularly when the man attempted to overtake the woman in a no-passing zone and failed to see the other driver coming. This reckless behavior directly contributed to the accident.\n\n2. **Failure to Provide Assistance**: After the accident, both the man and the woman failed to stop and provide any form of assistance to the injured driver. This failure to act, especially when they were aware of the severity of the situation, is a critical factor in determining negligence.\n\n3. **Legal Standard for Manslaughter by Negligence**: In many jurisdictions, manslaughter by negligence requires that the defendant's actions (or inactions) were so reckless or negligent that they created an unreasonable risk of harm, and that this negligence directly caused the death of another person. Both the man and the woman's actions and inactions meet this standard.\n\n4. **Shared Responsibility**: Since both individuals were involved in the sequence of events leading to the accident and both failed to act responsibly, they can be held jointly responsible for the death of the other driver.\n\nTherefore, the most appropriate answer is **A) both the man and the woman are guilty of the criminal offense of manslaughter by negligence**.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8541,
+        "question": "Aké sú iné názvy pre mudry, dôležitú súčasť buddhistického umenia?\nA) ručné gesture\nB) svätí\nC) náboženské odevy\nD) chrámy\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) ručné gesture**  \n\nMudry sú v buddhizme známe ako **\"ručné gesture\"** (doslova \"symbolické gestá\" alebo \"posvätné znaky\"), ktoré majú hlboký duchovný význam.  \n\n- **B) svätí** – Nie je to správne, pretože mudry sa týkajú gest, nie svätých.  \n- **C) náboženské odevy** – Tie sa nazývajú **\"kesa\"** alebo **\"robes\"**.  \n- **D) chrámy** – Tie sa volajú **\"stúpy\"** alebo **\"pagody\"**.  \n\nMudry sú kľúčovou súčasťou buddhistického umenia, meditácie a rituálov.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4267,
+        "question": "Toto je proces, pri ktorom sa ponuky pohybujú cez sekvenciu predpísaného vzoru vývoja, podobne ako biologická dráha, ktorou sa podobajú živé tvory:\nA) Proces difúzie.\nB) Životný cyklus produktu.\nC) Proces adopcie.\nD) Vývoj služieb.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) Životný cyklus produktu**  \n\nThis process describes how products evolve through stages (introduction, growth, maturity, decline), similar to a biological life cycle. The other options (diffusion, adoption, service development) do not match the described pattern as closely.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1020,
+        "question": "Hrozby pre IT systémy môžu byť klasifikované rôznymi spôsobmi; v tomto kapitole sú uvedené tri rôzne kategórie hrozieb. Podľa tejto klasifikácie by bol nasledujúci prípad označený ako 'Porucha'?\nA) Bezpečnostné systémy neboli dostatočné na ochranu systému pred útokom hackerovej skupiny a citlivé údaje sa stratili.\nB) V programe je chyba, ktorá spôsobuje zlé správanie systému.\nC) Všetky uvedené možnosti.\nD) IT systém zlyhal v dôsledku nečakanej udalosti, ako napríklad tsunami, ktorá zničila kľúčovú elektronickú výbavu.\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) Všetky uvedené možnosti.**\n\nHere's the reasoning:\n\n- **Option A** describes a **security breach** caused by a hacker group, which is a type of threat.\n- **Option B** describes a **software bug**, which is also a type of threat.\n- **Option D** describes a **natural disaster**, which is a type of threat.\n\nAll three options represent different categories of threats to IT systems:\n- **Security breach** (A)\n- **Software failure** (B)\n- **Natural disaster** (D)\n\nTherefore, the case described in the question would be classified as a 'Porucha' (failure) under this classification, as it encompasses all three types of threats.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8989,
+        "question": "Shodi získala 389 bodov v prvom leveli svojej videohry. Získala ďalších 116 bodov v bonusovej rundě. Koľko bodov v súčte Shodi získala v prvom levele a bonusovej runde svojej videohry?\nA) 405\nB) 495\nC) 505\nD) 4,915\nAnswer in English.",
+        "generated_answer": "Správna odpoveď je **B) 495**.\n\nVýpočet:  \n389 bodov (prvý level) + 116 bodov (bonusová runda) = **495 bodov**.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 230,
+        "question": "Nagel tvrdí, že pred reflexiou je pravdepodobné, že ľudí nemožno morálne posudzovať za:\nA) akcie, ktoré ovplyvňujú iba seba samých.\nB) ich charakter.\nC) to, čo je spôsobené faktormi mimo ich kontroly.\nD) akcie, ktoré nenarušujú práva nikoho iného.\nAnswer in English.",
+        "generated_answer": "Nagel's argument suggests that before reflection, it is likely that people cannot be morally judged for:\n\n**C) what is caused by factors beyond their control.**\n\nNagel emphasizes that moral responsibility requires an understanding of the agent's ability to control their actions. If an action is determined by factors outside an individual's control, such as genetic predispositions, environmental influences, or coercion, it undermines the basis for moral judgment. This aligns with the idea that moral responsibility is tied to the agent's capacity for autonomous choice and control.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1528,
+        "question": "Správna rada štátnej univerzity schválila nasledujúce pravidlo týkajúce sa požiadaviek na trvalý pobyt:\"Študenta bude považovaný za právoplatného obyvateľa štátu pre účely registrácie na univerzite, ak taká osoba je staršia ako 21 rokov a má zriadené trvalé bydlisko v štáte po dobu najmenej jedného roku pred posledným dňom registrácie za kredit.\"Študent sa presťahoval do štátu a ihneď sa zaregistroval na štátnej univerzite. Keďže nesplnil požiadavku pobytu na univerzite, bol povinný platiť $ 1,800 školné každé semester, čo bolo o $ 400 viac, ako platia obyvatelia štátu. V prípade, že by študent viedol akciu zameranú na zvrhnutie ústavnosti ustanovenia určujúceho trvalé bydlisko pre určenie rozdielu poplatkov pre študentov mimo štátu na verejných univerzitách, súd pravdepodobne vyhlási ustanovenie za\nA) neústavné, pretože predstavuje porušenie klauzuly rovnosti ochrany na základe Štrnástej dodatku Ústavy Spojených štátov amerických.\nB) neústavné, pretože predstavuje porušenie privilegovaného a imunitného ustanovenia článku IV, oddielu 2.\nC) ústavné, pretože rozdiel v poplatkoch podporuje závažný záujem štátu.\nD) ústavné, pretože ustanovenie nevyvoláva prísný dohľad.\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) unconstitutional, because it violates the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution.**\n\n### Explanation:\nThe Equal Protection Clause of the Fourteenth Amendment requires that laws be applied equally to all persons within a jurisdiction, without arbitrary discrimination. In this case, the student is being treated differently based on their residency status, which is not a suspect classification (unlike race or national origin). However, the difference in tuition fees is not justified by a compelling state interest or narrowly tailored to achieve that interest. The court would likely find this distinction unconstitutional unless the state can demonstrate a strong justification for the differential treatment.\n\n### Why not the other options?\n- **B)** The Privileges and Immunities Clause (Article IV, Section 2) protects citizens from being discriminated against by other states, but it does not apply to state-level discrimination within a state.\n- **C)** While the state may have a legitimate interest in funding its public universities, the difference in fees is not narrowly tailored to achieve that interest. A flat rate or a more equitable system would be constitutional.\n- **D)** The \"strict scrutiny\" doctrine applies to certain classifications (e.g., race), but this case does not involve a suspect classification. The court would likely apply **intermediate scrutiny**, which still requires the state to show a substantial relation to an important government interest. Here, the interest is not substantial enough to justify the discrimination. \n\nThus, the most likely outcome is that the court would strike down the provision as violating the Equal Protection Clause.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 11791,
+        "question": "Ľudia, ktorí sa pridajú k politickej strane iné než tej, ktorej patrili ich rodičia, to najčastejšie robia pre\nA) tlak rovesníkov\nB) ekonomické problémy\nC) náboženské presvedčenie\nD) tlak od zamestnávateľov\nAnswer in English.",
+        "generated_answer": "The most common reason people join a political party different from the one their parents belonged to is:\n\n**A) pressure from peers**  \n\nPeer influence (or social pressure from friends, colleagues, or community) is a significant factor in political affiliation shifts, especially among younger generations. While economic problems (B), religious beliefs (C), or employer pressure (D) can also play a role, peer influence is the most frequently cited reason in studies on political party switching.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 6534,
+        "question": "Teória _________ tvrdí, že existujú tri úrovne morálneho rozhodovania, do ktorých sa jednotlivec môže zapojiť pri posudzovaní etických otázok, v závislosti na svojej kognitívnej kapacite.\nA) Egoizmus\nB) Kognitívny morálny vývoj\nC) Vzdialenosť moci\nD) Zníženie neistoty\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) Kognitívny morálny vývoj**  \n\nThis theory, proposed by Lawrence Kohlberg, suggests that individuals progress through three levels of moral reasoning (preconventional, conventional, and postconventional) as their cognitive abilities develop.  \n\nThe other options do not fit:  \n- **A) Egoism** refers to self-interest, not moral reasoning.  \n- **C) Power distance** is about cultural differences in hierarchy perception.  \n- **D) Uncertainty reduction** is a communication theory, not related to moral development.  \n\nLet me know if you'd like further clarification!",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 11636,
+        "question": "Na tabuli napísal Andrew číslo 186425. V ktorom čísle je hodnota číslice 6 presne 10-krát hodnoty číslice 6 v čísle, ktoré napísal Andrew?\nA) 681452\nB) 462017\nC) 246412\nD) 125655\nAnswer in English.",
+        "generated_answer": "To solve this problem, we need to find a number where the digit **6** in the new number is exactly 10 times the value of the digit **6** in Andrew's number **186425**.\n\n### Step 1: Understand the value of the digit 6 in Andrew's number\nIn the number **186425**, the digit **6** is in the **thousands place**. Its value is:\n\\[\n6 \\times 1000 = 6000\n\\]\n\n### Step 2: Determine the value of the digit 6 in the new number\nWe need the digit **6** in the new number to be **10 times** the value of the digit **6** in Andrew's number. Therefore:\n\\[\n6 \\times 10 = 60\n\\]\nSo, the digit **6** in the new number must represent the value **60**.\n\n### Step 3: Analyze the options\nWe need to find a number where the digit **6** is in a position that represents the value **60**. Let's examine the options:\n\n- **A) 681452**: The digit **6** is in the **ten-thousands place**, representing \\(6 \\times 10000 = 60000\\), which is **not** 60.\n- **B) 462017**: The digit **6** is in the **ten-thousands place**, representing \\(6 \\times 10000 = 60000\\), which is **not** 60.\n- **C) 246412**: The digit **6** is in the **thousands place**, representing \\(6 \\times 1000 = 6000\\), which is **not** 60.\n- **D) 125655**: The digit **6** is in the **ten-thousands place**, representing \\(6 \\times 10000 = 60000\\), which is **not** 60.\n\nNone of the options satisfy the condition.\n\n### Step 4: Conclusion\nSince none of the provided options meet the criteria, the correct answer is:\n\n\\[\n\\boxed{\\text{None of the above}}\n\\]",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 12862,
+        "question": "Kohút sivých pierok a sliepka s rovnakým genotypom polia produkovali 17 sivých, 7 čiernych a 8 bielych kurčiat. Aký je najjednoduchší vysvetlenie dedičnosti farieb u kuriat?\nA) Vlastnosť pre sivú farbu je epistatická nad vlastnosťou pre čiernu farbu.\nB) Vlastnosť pre sivú farbu je epistatická nad vlastnosťou pre bielu farbu.\nC) Vlastnosti čiernej a bielej farby demonštrujú neúplnú dominanciu.\nD) Vlastnosti čiernej a bielej farby demonštrujú kodominanciu.\nAnswer in English.",
+        "generated_answer": "The simplest explanation for the observed color distribution in the chickens is:\n\n**D) Vlastnosti čiernej a bielej farby demonštrujú kodominanciu.**\n\n### Explanation:\n- **Kodominance** occurs when two alleles for a trait are both expressed equally in the phenotype. In this case, the presence of both black and white alleles results in a heterozygous phenotype (gray), which is a mix of both colors.\n- The observed ratio of 17 gray, 7 black, and 8 white chicks suggests that the black and white alleles are codominant, as the heterozygous (gray) phenotype is as common as the homozygous (black or white) phenotypes.\n\nThe other options are less likely:\n- **A)** Epistasis would imply that one gene masks the expression of another, which is not the case here.\n- **B)** Epistasis would also imply that the gray allele masks the white allele, which is not supported by the data.\n- **C)** Incomplete dominance would result in a blending of colors, but the presence of distinct black and white phenotypes suggests that both alleles are fully expressed in the heterozygous state.\n\nThus, **D)** is the most straightforward explanation.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 10947,
+        "question": "Investor zo štátu A podal žalobu proti svojmu maklérovi zo štátu B v federálnom súde v štáte A. Sumarizácia a sťažnosť bola doručená na kanceláriu makléra v štáte B, kde procesný server predal dokumenty administratívnej asistentke makléra. Maklér odpovedal na sťažnosť a namietol chybné doručenie súdu. Predpokladajme, že požiadavky o oznámenie v oboch štátoch zodpovedajú požiadavkám Federálnych pravidiel civilného konania. Súd pravdepodobne zamietne žalobu pre nesprávne doručenie súdu?\nA) Nie, pretože bola vykonaná služba na osobe vhodného veku nájdenom na pracovisku makléra.\nB) Nie, pretože maklér zriekol svojho nároku na nedostatočné doručenie súdu tým, že to tvrdil vo svojej odpovedi.\nC) Áno, pretože na individuálneho žalovaného nemožno doručiť proces doručením tretiej strane nájdenej na pracovisku žalovaného.\nD) Áno, pretože proces štátov A nie je účinný v štáte B.\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) Yes, because service on an individual defendant cannot be made by delivery to a third party found at the defendant's place of business.**\n\n### Explanation:\nUnder the Federal Rules of Civil Procedure (FRCP), service of process on an individual defendant must be made personally upon the defendant themselves, not on a third party at their place of business. The rules do not allow for service by delivering documents to someone else at the defendant's workplace. The fact that the documents were delivered to the makléro's administrative assistant does not constitute valid service on the maklér. Therefore, the court would likely dismiss the case for improper service. \n\nThe other options are incorrect because:\n- **A)** Service on a person of suitable age found at the defendant's workplace is not sufficient under the FRCP.\n- **B)** The maklér's response does not waive the improper service; it only raises the issue, which the court must address.\n- **D)** The jurisdiction of the federal court in State A is not the issue here; the problem is the improper service method.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10244,
+        "question": "Základnou príčinou únavy pri vysokej intenzite cvičenia je:\nA) pokles koncentrácie bunkového ADP.\nB) inhibícia produkcie ATP.\nC) nedostatočná dodávka ATP na uspokojenie požiadaviek.\nD) nedostatok zručností.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) insufficient supply of ATP to meet demands.**  \n\n### Explanation:  \nDuring high-intensity exercise, muscle cells require a large amount of ATP (adenosine triphosphate) to fuel contractions. The primary cause of fatigue is the **depletion of ATP stores** and the inability to regenerate ATP quickly enough to sustain the energy demand.  \n\n- **A)** Incorrect – ADP (adenosine diphosphate) is a product of ATP breakdown, not the cause of fatigue.  \n- **B)** Incorrect – ATP production is not inhibited; rather, it is insufficient to meet the high demand.  \n- **D)** Incorrect – Fatigue is not primarily due to lack of skill but to metabolic and energy limitations.  \n\nThus, **C** is the most accurate answer.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 18,
+        "question": "Podľa Hobbesa má každý človek v stave vojny každého proti každému právo na _____.\nA) niektoré veci\nB) zákonité zaobchádzanie\nC) dostatočné postupy\nD) všetko\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) všetko**  \n\nAccording to Hobbes's *Leviathan*, in the state of nature (where there is no common power to enforce rules), individuals have a right to everything, leading to a war of all against all (*bellum omnium contra omnes*). This is because without a sovereign authority, there is no law to limit their actions.  \n\nThe other options are incorrect because:  \n- **A) niektoré veci** (some things) – Hobbes does not limit this right to \"some things.\"  \n- **B) zákonité zaobchádzanie** (lawful treatment) – In the state of nature, there is no law.  \n- **C) dostatočné postupy** (sufficient procedures) – There are no established procedures in this condition.  \n\nThus, the correct answer is **D) všetko**.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10025,
+        "question": "Podľa Sartra existuje aspoň jedno bytie, v ktorom existencia predchádza podstate a týmto bytím je _____.\nA) Boh\nB) človek\nC) primitívny človek\nD) budúci človek\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**B) človek**\n\nAccording to Jean-Paul Sartre's existentialist philosophy, particularly in his work *Being and Nothingness*, human beings are the only entities for which existence precedes essence. This means that humans first exist, and only through their actions and choices do they define their essence or identity. Sartre rejects the idea of a predetermined human nature (as in the case of God or any other being), arguing that humans are fundamentally free and responsible for creating their own meaning in life. \n\nThus, the being in which existence precedes essence is **man (human being)**.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8086,
+        "question": "Aké je pravdepodobnosť zjednotenia P(A ∪ B), ak sú A a B navzájom vylučujúce, pri zadaní pravdepodobností P(A) = 0,3 a P(B) = 0,2? Ak sú A a B nezávislé? Ak je B podmnožinou A?\nA) 0,44, 0,5, 0,2\nB) 0,44, 0,5, 0,3\nC) 0,5, 0,44, 0,2\nD) 0,5, 0,44, 0,3\nAnswer in English.",
+        "generated_answer": "Riešenie:\n\n1. **Ak sú A a B navzájom vylučujúce (mutually exclusive):**\n   - Pravdepodobnosť zjednotenia \\( P(A \\cup B) \\) pre vylučujúce sa udalosti je súčet pravdepodobností jednotlivých udalostí:\n     \\[\n     P(A \\cup B) = P(A) + P(B) = 0,3 + 0,2 = 0,5\n     \\]\n\n2. **Ak sú A a B nezávislé (independent):**\n   - Pre nezávislé udalosti platí:\n     \\[\n     P(A \\cap B) = P(A) \\cdot P(B) = 0,3 \\cdot 0,2 = 0,06\n     \\]\n   - Pravdepodobnosť zjednotenia je potom:\n     \\[\n     P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0,3 + 0,2 - 0,06 = 0,44\n     \\]\n\n3. **Ak je B podmnožinou A (B ⊆ A):**\n   - V tomto prípade je \\( P(B) \\leq P(A) \\), ale pravdepodobnosť zjednotenia zostáva rovnaká ako v prípade nezávislosti, pretože \\( P(A \\cap B) = P(B) \\).\n   - Pravdepodobnosť zjednotenia je:\n     \\[\n     P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0,3 + 0,2 - 0,2 = 0,3\n     \\]\n\n**Správne odpovede:**\n- Vylučujúce sa udalosti: \\( 0,5 \\)\n- Nezávislé udalosti: \\( 0,44 \\)\n- Podmnožina B: \\( 0,3 \\)\n\n**Konečná odpoveď:**\n\\[\n\\boxed{0,5, 0,44, 0,3}\n\\]",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5458,
+        "question": "Zvyšujúce sa napätie medzi Spojenými štátmi a Sovietskym zväzom vyústilo do politiky, ktorú nazval John Foster Dulles\nA) \"vzájomne zaručené zničenie.\"\nB) \"hranica odolnosti.\"\nC) \"realizmus.\"\nD) \"nič na mojom pozemku.\"\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) \"mutually assured destruction\" (MAD)**  \n\nJohn Foster Dulles, U.S. Secretary of State under President Eisenhower, was a key figure in Cold War diplomacy. The policy of **\"mutually assured destruction\"** (MAD) described the nuclear deterrence strategy where both the U.S. and USSR understood that any large-scale nuclear attack would result in catastrophic retaliation, preventing either side from initiating a first strike.  \n\nThe other options are incorrect:  \n- **B) \"hranica odolnosti\"** (limit of endurance) refers to a different Cold War concept.  \n- **C) \"realism\"** is a broader political philosophy, not a specific Cold War policy.  \n- **D) \"nothing on my property\"** is a colloquial phrase, not a diplomatic term.  \n\nThus, the correct choice is **A) MAD**.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 3996,
+        "question": "Pásky a zóny Jupitera sú\nA) názvy pre vrstvy plynného a kovového vodíka hlboko vnútri planéty.\nB) striedajúce sa pásy vzostupného a klesajúceho vzduchu v rôznych zemepisných šírkach.\nC) striedajúce sa oblasti nabitých častíc v magnetickom poli Jupitera.\nD) oblasti plazmatickej toroidy vytvorené iontami zo sopiek na Io.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**B) striedajúce sa pásy vzostupného a klesajúceho vzduchu v rôznych zemepisných šírkach.**\n\nJupiter's bands and zones are alternating light and dark regions in its atmosphere, caused by variations in the speed and direction of atmospheric winds. These bands are part of the planet's dynamic weather system.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 11964,
+        "question": "Najčastejšie označovaný pokles skutočného investovania z vyšších úrokových mier spôsobený nákupom vlády sa nazýva\nA) vypudzovanie\nB) nula politika efektívnosti\nC) Lafferov efekt\nD) fiškálna porážka\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) vypudzovanie**  \n\n*Vypudzovanie* (anglicky *crowding out*) refers to the phenomenon where increased government borrowing and spending leads to higher interest rates, which in turn discourages private investment. This occurs because higher demand for loanable funds by the government reduces the availability of capital for private sector borrowing.  \n\nThe other options are incorrect:  \n- **B) nula politika efektívnosti** – This is not a standard economic term.  \n- **C) Lafferov efekt** – This refers to the idea that tax rates and government revenue have an optimal point where further increases reduce revenue.  \n- **D) fiškálna porážka** – This is not a recognized economic term in English.  \n\nThus, the correct answer is **A) vypudzovanie**.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5328,
+        "question": "Jeden muž sa večer prechádzal, keď si uvedomil, že potrebuje použiť toaletu. Najbližšou budovou bola súkromná telocvičňa. Muž sa priblížil k budove a na dverách videl nápis: \"Len pre členov - Nezaregistrujte sa ako host - Bez toaletných zariadení pre nestanových návštevníkov.\" Majiteľ telocvične zavesil nápis, pretože vedel, že ľudia často vstupujú do telocvične iba pre použitie toalety a bol tým rozzúrený. Majiteľ telocvične však vedel, že nápis nie je efektívny a ľudia stále pravidelne vstupujú do telocvične iba pre použitie toalety. Muž nutne potreboval použiť toaletu, takže do budovy vstúpil napriek tomu, že tam nebol povinný. Toalety sa nachádzali blízko vchodu do telocvične. Muž sa hneď po vstupe do budovy priamo vybral do toalety. Predavačka pracujúca na recepcii telocvične bola zaneprázdnená a nezaregistrovala vstup muža do budovy ani do toalety. Po použití toaletných zariadení si muž umyl ruky a zapol elektrický fén. Fén však v dôsledku poškodenej ohrievacej cievky vydával intenzívne teplo, ktoré zpôsobilo vážne popáleniny mužovi na rukách. Muž nebol oboznámený s tým, že 15 minút predtým člen telocvične utrpel podobné zranenia z poškodeného fenového sušiča a informoval o tom majiteľa telocvične. Majiteľ následne prilepil nápis \"NEPOUŽÍVAŤ\" na fén. Nápis však spadol na zem a ležal obrátený tvárou dolu pod umývadlom v toalete, keď sa muž v toalete nachádzal. Ktorý z nasledujúcich popisov najlepšie opisuje povinnosť starostlivosti, ktorú telocvičňa dlhovala mužovi?\nA) Bez povinnosti starostlivosti.\nB) Povinnosť skontrolovať priestory na neznáme nebezpečenstvá a informovať o ich existencii iných.\nC) Povinnosť upozorniť na akékoľvek známe nebezpečné podmienky na pozemku.\nD) Absolútna povinnosť starostlivosti.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) Povinnosť skontrolovať priestory na neznáme nebezpečenstvá a informovať o ich existencii iných.**\n\n### Explanation:\nThe telocvičňa had a duty of care to ensure the safety of its patrons, including visitors who entered solely to use the restroom. The telocvičňa had previously experienced a similar incident where a member was injured by the faulty hair dryer, and the owner was informed of this. Despite this, the telocvičňa failed to take appropriate action to prevent further harm. The owner did not ensure that the warning about the faulty hair dryer was effectively communicated to all users, including the man who was injured. \n\nThe telocvičňa had a responsibility to:\n1. **Identify and address known hazards** (the faulty hair dryer).\n2. **Inform users about these hazards** to prevent accidents.\n3. **Take reasonable steps to mitigate risks**, such as removing or repairing the faulty equipment.\n\nSince the warning about the faulty hair dryer was not effectively communicated and the hair dryer was still accessible, the telocvičňa failed in its duty of care. Therefore, the best description of the telocvične's obligation is **B) Povinnosť skontrolovať priestory na neznáme nebezpečenstvá a informovať o ich existencii iných.**",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 11528,
+        "question": "Calvinov strach z psov bol tak veľký, že nemohol navštíviť ani svojich priateľov, ktorí mali psov alebo bývali v štvrti s množstvom psov. Raz, keď hľadal pomoc, pracoval na prekonaní tohto strachu najprv tým, že sledoval, ako jeho terapeut hrá s psom, a potom, po chvíli, že sa sám dotkol a pohladil psa. Metóda použitá na pomoc Calvinovi pri prekonávaní jeho strachu sa nazýva\nA) protitransference\nB) spolupráca s rovesníkmi poradcami\nC) racionálno-emočná terapia\nD) systémová desenzibilizácia\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) systémová desenzibilizácia**  \n\n### Explanation:  \nSystematic desensitization (systematická desenzibilizácia) is a therapeutic technique used to help individuals overcome phobias or irrational fears by gradually exposing them to the feared stimulus in a controlled, hierarchical manner. In Calvin's case, the therapist helped him progress from observing the dog (low-intensity exposure) to touching and petting it (higher-intensity exposure), which aligns with the principles of systematic desensitization.  \n\nThe other options do not fit:  \n- **A) Protitransfer** refers to a therapeutic technique where the therapist addresses their own emotional reactions to the client.  \n- **B) Spolupráca s rovesníkmi poradcami** (peer counseling) involves guidance from peers rather than a structured exposure therapy.  \n- **C) Racionálno-emočná terapia** (Rational-Emotive Therapy) focuses on challenging irrational beliefs, not gradual exposure.  \n\nThus, **D) systémová desenzibilizácia** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1031,
+        "question": "Hobbes popisuje blaženosť ako:\nA) stav pokoja.\nB) neustály pokrok túžby z jedného objektu na druhý.\nC) stav zamyšlenia.\nD) neprítomnosť túžby.\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) neustály pokrok túžby z jedného objektu na druhý.**\n\nIn Thomas Hobbes' philosophy, particularly in *Leviathan*, he describes human nature and the state of nature. He argues that in the absence of a common power to enforce rules, life is \"solitary, poor, nasty, brutish, and short.\" In this state, people are driven by their desires and fears, and their primary goal is to achieve security and avoid harm. Hobbes does not see human nature as inherently seeking a state of rest or absence of desire (D), but rather as constantly striving for the satisfaction of their desires, which leads to a continuous cycle of seeking and moving from one object of desire to another (B). This is a key aspect of his concept of human motivation and the state of nature.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3130,
+        "question": "Dnes je nepravdepodobné, že by psychológ mohol podmienečne prepojiť bábätko s myšou alebo inými malými zvieratami pri výskume na univerzite, pretože\nA) žiadny rodič by nedovolil svoje dieťa na účasť v takejto štúdii\nB) štúdia porušuje etické smernice\nC) bábätká sú príliš mladé na to, aby sa báli malých zvierat\nD) podmienečné experimenty sa už nerobia\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**B) štúdia porušuje etické smernice**\n\n### Explanation:\nPsychological research involving infants and animals must adhere to strict ethical guidelines to ensure the safety and well-being of the participants. Conditioning an infant to associate a baby with a mouse or other small animals would likely be considered unethical because:\n\n1. **Risk of Fear or Trauma**: Infants are highly impressionable, and such an experiment could cause unnecessary fear or distress.\n2. **Informed Consent**: Infants cannot provide informed consent, which is a fundamental requirement in ethical research.\n3. **Potential Harm**: The experiment could lead to psychological or emotional harm, which is strictly prohibited in ethical research protocols.\n\nThus, the most accurate reason why such a study would be unlikely today is that it would violate ethical guidelines.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 9298,
+        "question": "FASB mení Kódifikáciu účtovných štandardov vydávaním\nA) Aktualizácií účtovných štandardov.\nB) Výkazov o vznikajúcich problémoch tímu (EITF) vydávaných.\nC) Výrokami o finančnej účtovnej štandardizácii.\nD) Technickými bulletinmi tímu zamestnancov.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Updates to accounting standards.**  \n\nThe Financial Accounting Standards Board (FASB) modifies the Codification of Accounting Standards by issuing **updates to accounting standards**, which include new or revised guidance, interpretations, and clarifications.  \n\nThe other options are incorrect because:  \n- **B)** EITF (Exposure Draft Task Force) issues **exposure drafts**, not updates to the Codification.  \n- **C)** \"Financial Accounting Standardization Statements\" is not a standard FASB term.  \n- **D)** Technical bulletins are issued by the **AICPA** (American Institute of CPAs), not FASB.  \n\nLet me know if you need further clarification!",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3632,
+        "question": "Riziko nákazy HIV z jednotky krvi v Spojených štátoch je teraz:\nA) 1/10 000 jednotiek\nB) 1/200 000 jednotiek\nC) 1/500 000 jednotka\nD) 1 na 2 milióny jednotiek\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) 1 in 2 million units**  \n\n### Explanation:  \nThe risk of HIV transmission through a blood transfusion in the U.S. is extremely low due to rigorous screening and testing protocols. According to the **U.S. Food and Drug Administration (FDA)** and the **American Red Cross**, the risk is approximately **1 in 2 million units** of blood.  \n\n- **A) 1 in 10,000** – This is far too high and not accurate for modern screening.  \n- **B) 1 in 200,000** – Also incorrect, as it underestimates current safety measures.  \n- **C) 1 in 500,000** – This is still too high compared to real-world data.  \n\nThe **HIV window period** (time between infection and detectable antibodies) is also considered in testing, further reducing the risk.  \n\nThus, the correct answer is **D) 1 in 2 million**.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3909,
+        "question": "Ktoré tvrdenie najlepšie vysvetľuje rozdiel medzi Hartovým rozlišovaním medzi 'byť povinným' a 'mať povinnosť'?\nA) Ukazuje rozdiel medzi internou a externou stránkou pravidla.\nB) Vyvracia pohľad prirodzeného právника na úlohu morálky v práve.\nC) Vysvetľuje povahu pravidiel udeľujúcich moc.\nD) Osvecuje koncept pravidla.\nAnswer in English.",
+        "generated_answer": "The best answer is:  \n\n**A) Shows the difference between the internal and external aspects of a rule.**  \n\nHart's distinction between *being under an obligation* (external aspect) and *having a duty* (internal aspect) highlights the difference between:  \n- **External obligation**: The fact that a rule applies to someone (e.g., a driver is under a legal obligation to stop at red lights).  \n- **Internal obligation**: The moral or psychological sense of duty that a person feels (e.g., the driver *feels* obligated to stop because it aligns with their moral beliefs).  \n\nHart argues that legal systems rely on external rules (primarily social rules of recognition), while moral obligations involve internal duties. This distinction is central to his critique of natural law theories, which conflate the two.  \n\nThe other options are incorrect because:  \n- **B** is about Hart's critique of natural law, not his own theory.  \n- **C** refers to *rules of recognition* (a different concept in Hart's work).  \n- **D** is too vague; Hart's distinction is about the *internal/external* nature of rules, not the concept of rules in general.  \n\nThus, **A** is the most precise and accurate choice.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2334,
+        "question": "Jednotky pre R, konštantu ideálneho plynového zákona, môžu byť\nA) L atm mol-1 K-1\nB) J mol-1 K-1\nC) volt koulomb mol-1 K-1\nD) (A), (B) a (C)\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) (A), (B) and (C)**.\n\nThe units for the gas constant \\( R \\) can indeed be expressed in different units, depending on the context. Here's a breakdown:\n\n- **A) L·atm·mol⁻¹·K⁻¹**: This is the most common unit for the gas constant, where \\( L \\) is liters, \\( atm \\) is atmospheres, \\( mol \\) is moles, and \\( K \\) is kelvins.\n- **B) J·mol⁻¹·K⁻¹**: This is the unit in terms of joules, where \\( J \\) is joules, \\( mol \\) is moles, and \\( K \\) is kelvins.\n- **C) V·C·mol⁻¹·K⁻¹**: This is the unit in terms of volts and coulombs, where \\( V \\) is volts, \\( C \\) is coulombs, \\( mol \\) is moles, and \\( K \\) is kelvins.\n\nThe gas constant \\( R \\) is a fundamental constant in chemistry and physics, and its value is the same regardless of the units used. The different units are simply different ways of expressing the same physical quantity. Therefore, all three options (A), (B), and (C) are correct.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8896,
+        "question": "Pre ktorý z týchto dvoch scenárov urobí hlavná postava (ktorá používa ja/mňa/môj) niečo morálne nesprávne podľa bežných morálnych noriem v USA v roku 2020? Scenár 1 | Keď som videl/a, že babičkine lieky sú nesprávne, dala som jej ich. Scenár 2 | Mal/a som okuliare, ktoré mi pomáhali prejsť zrakovým testom pre získanie vodičského preukazu.\nA) Nesprávne, nesprávne\nB) Nesprávne, nie nesprávne\nC) Nie nesprávne, nesprávne\nD) Nie nesprávne, nie nesprávne\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) Nesprávne, nie nesprávne**.\n\nHere's the reasoning:\n\n- **Scenár 1**: Giving someone the wrong medication, especially a vulnerable person like a grandmother, is considered morally wrong in the U.S. in 2020. This action could lead to serious health consequences and is generally seen as irresponsible and harmful.\n\n- **Scenár 2**: Using corrective lenses to pass a vision test for a driver's license is not inherently morally wrong. While it might be considered unethical or dishonest by some, it is not a harmful action that directly affects others. The primary concern is the integrity of the testing process, not the moral character of the individual.\n\nTherefore, the first scenario involves a morally wrong action, while the second scenario does not.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 7339,
+        "question": "Lekár podozrieva, že jazykové spracovanie pacienta sa nachádza v pravom hemisfére mozgu. Toto by bolo pravdepodobne potvrdené použitím\nA) CAT\nB) MRI\nC) PET\nD) MMPI\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) MRI**.\n\nMRI (Magnetic Resonance Imaging) is a non-invasive imaging technique that provides detailed images of the brain's structure, including the localization of specific functions like language processing. It can help determine if language processing is primarily located in the right hemisphere, as is often the case in some individuals, particularly those who are left-handed or have undergone certain types of brain injury.\n\nThe other options are less suitable for this specific purpose:\n- **CAT (Computed Axial Tomography)** is an older imaging technique that provides less detailed images of the brain compared to MRI.\n- **PET (Positron Emission Tomography)** is used to measure brain activity by detecting gamma rays emitted by a radioactive tracer, but it is not as precise for structural localization as MRI.\n- **MMPI (Minnesota Multiphasic Personality Inventory)** is a psychological assessment tool used to evaluate personality and emotional functioning, not brain structure or function.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1494,
+        "question": "Akú hodnotu má tento výraz v jazyku Python: 1 + 3 % 3?\nA) 0\nB) 1\nC) 3\nD) 4\nAnswer in English.",
+        "generated_answer": "The expression \\(1 + 3 \\% 3\\) in Python evaluates as follows:\n\n1. **Modulus Operation**: \\(3 \\% 3\\) is 0 because 3 divided by 3 has no remainder.\n2. **Addition**: \\(1 + 0\\) is 1.\n\nSo, the value of the expression is **1**.\n\n**Answer:** B) 1",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1318,
+        "question": "Prečo tvrdia niektorí doktori, že Reagan 'vyhral studenú vojnu'?\nA) Vojskový rozpočet Reagana v prvom funkčnom období nútil Sovietsky zväz držať sa svojich medzinárodných záväzkov\nB) Reagan podporoval angažovanie sa so Sovietskym zväzom\nC) Reagan podporoval mäkší prístup k komunizmu\nD) Reagan znížil vojenské výdavky a to dovolilo Sovietskemu zväzu priestor pre reformy\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Reagan's military budget in his first term forced the Soviet Union to keep up with its international commitments**  \n\n### Explanation:  \nReagan's aggressive military buildup during the 1980s, particularly the Strategic Defense Initiative (SDI, or \"Star Wars\"), placed immense financial pressure on the Soviet economy. The USSR struggled to match the U.S. in military spending, leading to economic strain and contributing to the eventual collapse of the Soviet system. This policy, known as the \"Reagan Doctrine,\" is often credited with weakening the Soviet Union and helping to end the Cold War.  \n\nThe other options are incorrect:  \n- **B)** Reagan was known for his hardline stance against communism, not engagement.  \n- **C)** Reagan advocated for anti-communist policies, not a \"milder\" approach.  \n- **D)** Reagan actually increased military spending, not reduced it.  \n\nThus, **A** is the best answer.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5243,
+        "question": "Zmeny v kulture sú zavádzané všetkými nasledujúcimi procesmi OKREM\nA) inovácie.\nB) difúzie.\nC) akulturácie.\nD) gravitácie.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) gravity**.  \n\nHere’s why:  \n- **Innovation (A)**: A process where new ideas, technologies, or cultural elements are introduced and adopted.  \n- **Diffusion (B)**: The spread of cultural traits or innovations from one group to another.  \n- **Acculturation (C)**: The process of cultural change that occurs when groups with different cultures come into continuous firsthand contact.  \n- **Gravity (D)**: This is a physical force, not a cultural process.  \n\nThus, **gravity** is the process that does not contribute to cultural changes.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8322,
+        "question": "Aká bola posledná symfónia Ludwiga van Beethovena?\nA) Deviate\nB) Desiate\nC) Jedenáste\nD) Dvanáste\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Deviate**  \n\nLudwig van Beethoven's last completed symphony is the **Symphony No. 9 in D minor, Op. 125**, also known as the **\"Choral Symphony.\"** It was premiered in 1824 and is famous for its final movement featuring the \"Ode to Joy\" chorus. Beethoven died before completing his **Symphony No. 10**, which remains unfinished.  \n\nSo, the correct choice is **A) Deviate**.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8016,
+        "question": "Ktoré membránové mastné kyseliny sú prekurzormi pre eikosanoidy?\n\nA) Nasýtené mastné kyseliny C20 a C22\nB) Polynenasýtené mastné kyseliny C18 a C22\nC) Mononenasýtené mastné kyseliny C20 a C22\nD) Polynenasýtené mastné kyseliny C20 a C22\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Polynenasýtené mastné kyseliny C20 a C22**  \n\n### Explanation:  \nEicosanoids (including prostaglandins, leukotrienes, and thromboxanes) are derived from **polyunsaturated fatty acids (PUFAs)** with **20 carbon atoms (C20)**, such as:  \n- **Arachidonic acid (AA, C20:4 ω-6)** – the primary precursor.  \n- **Eicosapentaenoic acid (EPA, C20:5 ω-3)** and **Docosahexaenoic acid (DHA, C22:6 ω-3)** – also contribute to eicosanoid synthesis.  \n\nThese PUFAs are hydrolyzed by **lipoxygenases (LOX)** or **cyclooxygenases (COX)** to form eicosanoids.  \n\n### Why not the others?  \n- **A)** Incorrect – C20 and C22 are possible, but they are **saturated**, not the primary precursors.  \n- **B)** Incorrect – While C18 (like oleic acid) is important, it is not a direct eicosanoid precursor.  \n- **C)** Incorrect – C20 and C22 mononenasycené kyseliny (e.g., EPA, DHA) are still considered PUFAs, but the key point is their **polyunsaturation**.  \n\nThus, **D)** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 1786,
+        "question": "Za posledné tri mesiace školy spadlo 8,1 palcov, 4,2 palcov a 0,33 palca zrážok. Odhadnite celkové zrážky za tri mesiace zaokrúhľovaním na najbližšie celé číslo.\nA) 11 palcov\nB) 11 palcov\nC) 45,0 palcov\nD) 12 palcov\nAnswer in English.",
+        "generated_answer": "To estimate the total rainfall over the three months, we need to add the amounts of rainfall for each month:\n\n8.1 inches + 4.2 inches + 0.33 inches\n\nFirst, add 8.1 and 4.2:\n\n8.1 + 4.2 = 12.3 inches\n\nThen, add 0.33 to the result:\n\n12.3 + 0.33 = 12.63 inches\n\nNow, rounding 12.63 to the nearest whole number gives us 13 inches. However, none of the provided options match this result. It seems there might be a mistake in the problem statement or the options provided.\n\nIf we were to choose the closest option, it would be:\n\nD) 12 palcov\n\nBut please note, this is an approximation and not the exact total.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4938,
+        "question": "Táto otázka sa týka nasledujúcich informácií.\nPre zodpovedanie otázok prečítajte nasledujúcu básňu.\nZaťať bremeno bieleho muža-\nNechajte vyjsť to najlepšie zo seba-\nVaši synovia sa musia zviazať s osudom\nA slúžiť potrebám vašich zajatcov;\nČakať v ťažkej nákladnej výstroji,\nna plačúcich obyvateľov a divochov-\nvaše nové, zlobivé ľudstvá,\npolovičné zvery a polovičné deti.\n...\nZaťať bremeno bieleho muža-\ndivoké vojny o mier-\nzaplniť ústa hladu\na dané ochorenie zastavit;\na keď je váš cieľ najbližšie\nkoniec hľadania pre ostatných...\npozrite sa na otrlého a pohanského blázna\nAko prináša všetky vaše nádeje na nič.\nRudyard Kipling, Bremeno bieleho muža, 1899\nNa základe tejto básne by sa Kiplingova koncepcia britskej impériálnej misie najlepšie dala zhrnúť ako\nA) ťažká, ale nevyhnutná úloha\nB) kruté uplatňovanie moci\nC) slávna náboženská zodpovednosť\nD) beznádejná úloha bez účelu\nAnswer in English.",
+        "generated_answer": "The best summary of Kipling's concept of the British imperial mission based on the poem is:\n\n**A) heavy but necessary task**\n\nThe poem describes the \"burden of the white man\" as a weighty responsibility, involving sacrifice, suffering, and the imposition of order and civilization on \"savages\" and \"half-children.\" While the task is portrayed as arduous and fraught with challenges, it is framed as a duty that must be undertaken for the greater good, aligning with the idea of a heavy but necessary task.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 9031,
+        "question": "Teórie rovnováhy spoločenských zmien zdôrazňujú\nA) globalizáciu\nB) stabilitu a štruktúru spoločnosti\nC) sekularizáciu a mechanizáciu\nD) industrializáciu\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) stability and structure of society**  \n\nTheories of social equilibrium emphasize the balance and stability of social systems, focusing on how societies maintain order and structure despite changes. This contrasts with theories of social change, which focus on dynamics and transformations.  \n\nThe other options (A, C, D) are more closely associated with specific historical or economic processes rather than equilibrium theories.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4769,
+        "question": "Koľko stovkoviek (100-dolárových bankoviek) potrebujete na zloženie jedného milióna dolárov?\nA) jeden tisíc\nB) päť tisíc\nC) desať tisíc\nD) stotisíc\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) stotisíc**.\n\nTo calculate how many 100-dollar bills make up one million dollars, you can divide the total amount by the value of each bill:\n\n\\[\n\\frac{1,000,000 \\text{ dollars}}{100 \\text{ dollars/bill}} = 10,000 \\text{ bills}\n\\]\n\nSo, you need **10,000** 100-dollar bills to make one million dollars. In the given options, **D) stotisíc** (which means 10,000 in Slovak) is the correct choice.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 11576,
+        "question": "Nasledujúci kódový úsek má zobraziť \"párne\" ak kladné číslo num je párne.\n AK (<CHÝBAJÚCE PODMIENKY>)\n ZOBRAZ \"párne\"\n\n Ktorý z nasledujúcich môže byť použitý na nahradenie <CHÝBAJÚCA PODMIENKY> tak, aby kódový úsek fungoval podľa zamýšľaného?\nA) (num MOD 1) = 0\nB) (num MOD 1) = 1\nC) (num MOD 2) = 0\nD) (num MOD 2) = 1\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**C) (num MOD 2) = 0**\n\n### Explanation:\n- A number is **even** if it is divisible by 2 without a remainder.\n- The modulo operator (`MOD`) returns the remainder of a division.\n- If `num MOD 2` equals **0**, the number is even.\n- The other options are incorrect because:\n  - `(num MOD 1) = 0` or `= 1` doesn't make sense (modulo by 1 always gives 0).\n  - `(num MOD 2) = 1` would indicate an **odd** number.\n\nThus, the correct condition is **C) (num MOD 2) = 0**.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 2044,
+        "question": "Ktorý z nasledujúcich konceptov vie Moore definovať?\nA) dobré\nB) žlté\nC) kôň\nD) všetky vyššie uvedené\nAnswer in English.",
+        "generated_answer": "The correct answer is D) all of the above.\n\nMoore's Law, named after Gordon Moore, one of the co-founders of Intel, is a prediction that the number of transistors on a microchip will double approximately every two years, while the cost will remain the same or decrease. This concept is primarily related to the advancement of technology and computing power.\n\nHowever, the question seems to be testing the understanding of the term \"Moore\" in a broader sense. Moore can also refer to:\n\n- **A** (good): In the context of \"Moore's Law,\" it can be interpreted as a reference to the continuous improvement and advancement in technology, which can be considered \"good\" or beneficial.\n- **B** (yellow): This is a bit more abstract, but \"Moore\" can be part of the word \"moiré,\" which refers to a visual effect that can be seen in certain patterns, including those that can appear yellow or have a yellowish tint.\n- **C** (horse): While less common, \"Moore\" can be a surname, and in some contexts, it might be associated with horses, especially if referring to someone named Moore who is known for horses.\n\nTherefore, all the options (A, B, and C) can be related to the concept of \"Moore\" in different contexts, making D) all of the above the most comprehensive and correct answer.",
+        "ground_truth": "C",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8969,
+        "question": "Pani Fisherová použila výraz (6 × 8) × 12 na výpočet celkového počtu značkovačov, potrebných pre svojich študentov pre ich umelecký projekt. Ktorý výraz je rovnaký ako ten, ktorý použila pani Fisherová?\nA) 6 + (8 + 12)\nB) 6 + (8 × 12)\nC) 6 × (8 + 12)\nD) 6 × (8 × 12)\nAnswer in English.",
+        "generated_answer": "The correct expression that is the same as the one used by Mrs. Fisher is:\n\n**C) 6 × (8 + 12)**\n\nThis is because of the order of operations (PEMDAS/BODMAS), which states that multiplication and division are performed before addition and subtraction. The expression (6 × 8) × 12 is equivalent to 6 × (8 × 12), but the parentheses in option C make it clear that the addition is performed first, which matches Mrs. Fisher's intended calculation.",
+        "ground_truth": "D",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 5451,
+        "question": "68-ročná žena sa dostavila do pohotovostného oddelenia so zhoršujúcimi sa horúčkami a bolesťou hlavy, trvajúcou 3 dni. Dnes sa pacientka cíti nevoľno a menej reaguje. Punkcia miechy odhalila proteinovú hladinu 89 mg/dl (referenčný rozsah: 15-45 mg/dl) s pleocytózou. Najpravdepodobnejším etiologickým organizmom je\nA) Clostridium perfringens\nB) Haemophilus influenzae\nC) rhinovírus\nD) Streptococcus pneumoniae\nAnswer in English.",
+        "generated_answer": "The most likely etiological organism in this case is **D) Streptococcus pneumoniae**.\n\n### Explanation:\n- **Clinical Presentation**: The patient is a 68-year-old woman with a 3-day history of fever and headache, progressing to altered mental status and nausea. These symptoms, along with the elevated protein level (89 mg/dl) and pleocytosis in the cerebrospinal fluid (CSF), are consistent with **meningitis**.\n- **CSF Findings**: The elevated protein level (89 mg/dl) and pleocytosis (increased white blood cells in the CSF) are classic findings in bacterial meningitis.\n- **Most Common Causes**: Among the options provided, **Streptococcus pneumoniae** is the most common cause of bacterial meningitis in adults, especially in older individuals.\n- **Other Options**:\n  - **Clostridium perfringens**: This is a rare cause of meningitis, typically associated with traumatic brain injuries or neurosurgical procedures.\n  - **Haemophilus influenzae**: While this can cause meningitis, it is more common in children and immunocompromised individuals.\n  - **Rhinovirus**: This is a common cause of the common cold and does not typically cause meningitis.\n\nTherefore, **Streptococcus pneumoniae** is the most likely etiological organism in this scenario.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 8852,
+        "question": "V školách charakterizovaných vysokým úspechom študentov a zapojením rodín, partnerstvá medzi školou a komunitou\nA) poskytujú dodatočné príležitosti študentom na maximalizáciu ich učenia\nB) nie sú dôležitým faktorom pre úspech študentov\nC) znížia množstvo úspechu, ktorého študenti dosiahnu\nD) zaberajú príliš veľa času školy a komunity\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**A) provide additional opportunities for students to maximize their learning**\n\nIn schools characterized by high student achievement and family engagement, partnerships between the school and the community are crucial. These partnerships offer additional resources, support, and opportunities that help students maximize their learning potential. They foster a collaborative environment where students, families, and the community work together to enhance educational outcomes.",
+        "ground_truth": "A",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3329,
+        "question": "Bentham tvrdí, že činy sú správne alebo nesprávne na základe:\nA) motívov, ktoré sa skrývajú za nimi.\nB) ich následkov.\nC) súčasne motívov aj následkov.\nD) ani motívov, ani následkov.\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) their consequences.**  \n\nBentham's philosophy is based on **utilitarianism**, which holds that the morality of an action is determined by its **consequences**—specifically, whether it leads to the greatest happiness for the greatest number of people. He famously stated that an action is right if it tends to promote happiness and wrong if it tends to produce the reverse of happiness.  \n\nThus, the key principle is **consequentialism**, not motives (A) or a combination of motives and consequences (C). Option (D) is incorrect because Bentham's theory explicitly evaluates actions based on outcomes.",
+        "ground_truth": "B",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 9882,
+        "question": "Chemosyntetické baktérie môžu produkovať svoju vlastnú potravu napriek absencii pigmentov na fotorecepčné účely, pretože chemosyntetické baktérie získavajú energiu oxidáciou anorganickej substancie, ako sú amoniak, síra alebo vodík\nA) oxidáciou anorganickej substancie, ako sú amoniak, síra alebo vodík\nB) redukciou anorganickej substancie, ako sú amoniak, síra alebo vodík\nC) oxidáciou organických zlúčenín\nD) prevodom svetelnej energie na chemickú energiu\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) redukciou anorganickej substancie, ako sú amoniak, síra alebo vodík**  \n\n### Explanation:  \nChemosynthetic bacteria obtain energy by **reducing** (gaining electrons) inorganic substances such as ammonia (NH₃), hydrogen (H₂), or sulfur (S). This process is called **chemosynthesis**, where they convert inorganic compounds into organic matter (e.g., glucose) without relying on sunlight.  \n\n- **Oxidation (A)** would involve losing electrons (e.g., O₂ → H₂O), which is not the case here.  \n- **Organic compounds (C)** are not the source of energy in chemosynthesis.  \n- **Light energy (D)** is irrelevant to chemosynthetic bacteria.  \n\nThus, the correct choice is **B**.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 8965,
+        "question": "Ktoré z nasledujúcich vyhlásení o globálnom starnúcom obyvateľstve je správne?\n\nA) Očakáva sa, že do roku 2040 bude viac ako 25% svetovej populácie vo veku 65 rokov a starších.\nB) Tempo nárastu mediánu veku populácie je vyššie v rozvojových krajinách než v bohatých krajinách.\nC) V starších vekových skupinách je počet mužov väčší ako počet žien.\nD) Muži majú nižšiu úmrtnosť ako ženy počas celého životného cyklu.\nAnswer in English.",
+        "generated_answer": "The correct statement about the global aging population is:\n\n**A) It is expected that by 2040, more than 25% of the world's population will be aged 65 and older.**\n\nThis is accurate because global demographic trends show a significant increase in the proportion of older adults due to declining fertility rates and rising life expectancy. \n\nThe other options are incorrect:\n- **B)** The median age is increasing faster in developed countries due to higher life expectancy and lower fertility rates.\n- **C)** In most countries, women outlive men, so older age groups have more women than men.\n- **D)** While men generally have higher mortality rates in early life, women typically have lower mortality rates at all ages after childhood.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 9627,
+        "question": "V oblasti obchodu a marketingu, ktorá z nasledujúcich predstavuje najväčšie prekážky pri rozvoji IT bezpečnosti?\nA) Nie je žiadny priamy návratnosť z investície do budovania bezpečnostných systémov.\nB) Bezpečnostné systémy sú pre používateľov neprehľadné a môžu urobiť IT systémy menej funkčnými a preto menej atraktívnymi pre zákazníka.\nC) Existuje tlak na skracovanie času, ktorý je potrebný na uvedenie nového IT produktu alebo systému na trh, a preto sú bezpečnostné systémy obetované za účelom skrátenia času uvádzania na trh.\nD) Všetky uvedené možnosti.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) All of the above**.\n\nHere’s why:\n\n- **A)** There is often no immediate or direct financial return on investment for security measures, which can make it difficult to justify the cost.\n- **B)** Security systems can sometimes be complex and may introduce additional steps or interfaces that can reduce user experience and system usability.\n- **C)** The pressure to quickly bring new products or systems to market can lead to compromises in security, as it is often seen as a non-essential feature that can be addressed later.\n\nAll of these factors are significant challenges in the development and implementation of IT security measures.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4712,
+        "question": "Ktoré sú dva príklady vyhodnotenia výsledku?\nA) Zmena postoja\nB) Umietnenie správy\nC) Distribúcia správy\nD) Veľkosť pozorného publiku\nAnswer in English.",
+        "generated_answer": "The correct answers are:\n\nA) Zmena postoja\nC) Distribúcia správy\n\nExplanation:\n- **Zmena postoja (A)**: This refers to the evaluation of whether the message has successfully influenced the audience's attitudes or beliefs.\n- **Distribúcia správy (C)**: This refers to the evaluation of how the message is disseminated or shared with the intended audience, including the channels used and the reach of the message.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 7290,
+        "question": "Osoba, ktorá nie je veľmi zorganizovaná, má zriedka stanovené ciele a často odkladá veci na poslednú chvíľu, by sa mohla nazývať nízkou, v ktorej vlastnosti?\nA) Zhovievavosti\nB) Svedomitosti\nC) Otvorenosti\nD) Neuroticizmu\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) Neuroticismu**.\n\nNeuroticismus je osobnostní rys, který se vyznačuje tendencí k úzkosti, negativním emocím, nízké sebedůvěře a impulzivnímu chování. Osoba s vysokým neuroticismem často prožívá stres, má potíže s organizací a odkládá úkoly na poslední chvíli. Zde popsané chování (nedostatek organizovanosti, absence cílů, prokrastinace) je typické pro vysoký neuroticismus.\n\n- **A) Zhovievavosti** (Compliance) – souvisí s ochotou podřizovat se ostatním, což není relevantní.  \n- **B) Svedomitosti** (Conscientiousness) – opak neuroticismu, zde jde o pečlivost a organizovanost.  \n- **C) Otvorenosti** (Openness) – souvisí s kreativitou a zájmem o nové zkušenosti, což neodpovídá.  \n\nTedy **D) Neuroticismus** je správná odpověď.",
+        "ground_truth": "B",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 1501,
+        "question": "Ktorý z nasledujúcich faktorov pravdepodobne vedie k relatívne vysokému stupňu predikčnej presnosti mimo vzorku?\nA) Model, ktorý je založený na finančnej teórii\nB) Model, ktorý obsahuje veľa premenných\nC) Model, ktorého závislá premenná nedávno preukázala štrukturálnu zmenu\nD) Model, ktorý je úplne štatistický a neumožňuje posudzovanie modifikácie predpovedí\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) Model, which is purely statistical and does not allow for the assessment of prediction modification.**\n\n### Explanation:\nA purely statistical model (without theoretical or structural components) is more likely to exhibit **high out-of-sample predictive accuracy** because it does not rely on assumptions or modifications that may not hold in new data. \n\n- **A)** A model based on financial theory may be biased if the theory is flawed or the market conditions have changed.  \n- **B)** A model with many variables can suffer from overfitting, reducing out-of-sample performance.  \n- **C)** A model whose dependent variable has undergone a structural change is likely to perform poorly unless it is explicitly designed to adapt.  \n\nThus, **D** is the best choice for a model that maintains strong out-of-sample performance.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 9769,
+        "question": "Podľa Cicera je vhodné byť:\nA) spravodlivý.\nB) štedrý.\nC) milý.\nD) všetky uvedené možnosti.\nAnswer in English.",
+        "generated_answer": "The correct answer is D) all of the mentioned options.\n\nAccording to Cicero, being just (A), generous (B), and kind (C) are all important virtues that contribute to a good and virtuous life. He believed that a person should strive to embody these qualities in their actions and interactions with others.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6306,
+        "question": "Kedy je rezervácia považovaná za neplatnú podľa práva zmlúv?\nA) Rezervácia je neplatná, keď väčšina štátnych strán s ňou nesúhlasí.\nB) Rezervácia je neplatná iba vtedy, ak to povie medzinárodný tribunál.\nC) Rezervácia je neplatná iba v prípade, že je nezlučiteľná s peremptórnym normou medzinárodného práva (jus cogens).\nD) Rezervácia je neplatná, ak je nezlučiteľná s cieľom a účelom zmluvy.\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) Rezervácia je neplatná, ak je nezlučiteľná s cieľom a účelom zmluvy.**\n\n### Explanation:\nUnder international law, a reservation to a treaty is considered invalid if it is incompatible with the **object and purpose** of the treaty. This principle is established in Article 19 of the **Vienna Convention on the Law of Treaties (1969)**. \n\n- **Option A** is incorrect because majority consent is not a determining factor for the validity of a reservation.\n- **Option B** is incorrect because international tribunals do not have the authority to unilaterally invalidate reservations.\n- **Option C** is partially correct but incomplete, as peremptory norms (jus cogens) are a subset of the treaty's object and purpose.\n- **Option D** is the most accurate, as it aligns with the Vienna Convention's criteria for invalid reservations.\n\nThus, **D** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 5194,
+        "question": "V ktorý deň bežného 28-dňového menštruačného cyklu sa zvyčajne žena oplodňuje?\nA) 4\nB) 10\nC) 14\nD) 22\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) 14**.\n\nIn a typical 28-day menstrual cycle, ovulation (the release of an egg from the ovary) usually occurs around day 14. This is when a woman is most likely to become pregnant if she has intercourse. The egg is then available to be fertilized by sperm for about 12-24 hours after ovulation. Therefore, day 14 is the most common day for fertilization to occur.",
+        "ground_truth": "C",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 9431,
+        "question": "Podľa rozhodnutia Brown v. Board of Education (1954) ktorá z nasledujúcich dodatkov bola porušená doktrínou \"separátne, ale rovnaké\", ktorá bola stanovená v prípade Plessy v. Ferguson (1896)?\nA) Prvý dodatok\nB) Šiesty dodatok\nC) Deviaty dodatok\nD) Štrnásty dodatok\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Štrnásty dodatok**  \n\nThe **Plessy v. Ferguson (1896)** case upheld the \"separate but equal\" doctrine, which was later overturned by the **Brown v. Board of Education (1954)** decision. The **Fourteenth Amendment** (particularly the Equal Protection Clause) was the constitutional provision that the Supreme Court relied on to strike down racial segregation in public schools, declaring it inherently unequal.  \n\nThe other options are incorrect because:  \n- **A) Prvý dodatok** (First Amendment) deals with freedom of speech, religion, etc.  \n- **B) Šiesty dodatok** (Sixth Amendment) concerns criminal procedure rights.  \n- **C) Deviaty dodatok** (Ninth Amendment) protects unenumerated rights.  \n\nThus, the **Fourteenth Amendment** was the key constitutional provision at issue in Brown v. Board of Education.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3966,
+        "question": "Počas relaxovania pri bazéne jedného slnečného nedeľného popoludnia, si domáci vlastník nechal zasiahnuť golfmičkou od 14-ročného chlapca, ktorý hral na mieste pre negativne pásy na miestnom golfovom ihrisku. Dráha pre negativné pásy mala šírku 65 stôp a dĺžku 437 yardov s prekážkou v smere východu. Medzi dráhou a majetkom domáceho vlastníka bola \"hrubá zeleň,\" obsahujúca keře a nízke stromy. Chlapec hral nádherný úder v strede dráhy, ktorá sa odrazila od stromu a trefila domovo vlastníka do hlavy. Vlastník podal žalobu proti chlapcovi za zranenia, ktoré utrpel, keď ho zasiahol golfbal. V súdnom procese chlapec ponúkol necontestovaný dôkaz, že golfbal z golfového ihriska pravidelne prechádzal na majetok domova dvakrát až trikrát denne. Ktoré z nasledujúcich tvrdení je najpresnejšie vzhľadom na zodpovednosť chlapca za neoprávnený vstup na cudzí pozemok?\nA) Chlapec nie je zodpovedný, pretože neúmyselne spôsobil prechod golfbalu na majetok žalobcu.\nB) Chlapec by bol zodpovedný za neoprávnený vnik golfového loptičkyna majetok žalobcu.\nC) Pretože by mal žalobca rozumne predpokladať, že život vedľa golfového ihriska bude mať za následok loptičky golfu, ktoré uvádzajú jeho vlastníctvo, chlapec by nebol zodpovedný.\nD) Pretože golfbal zásadne nezasiahol využitie a užívanie majetku žalobcu, chlapec by nebol zodpovedný.\nAnswer in English.",
+        "generated_answer": "The most accurate statement regarding the boy's liability for the unauthorized entry of the golf ball onto the plaintiff's property is:\n\n**D) Because the golf ball did not substantially interfere with the use and enjoyment of the plaintiff's property, the boy would not be liable.**\n\n### Explanation:\n- **Unauthorized Entry (Trespass):** For trespass to land, the golf ball (or the act of it being hit onto the property) would typically constitute an unauthorized entry if the boy had no right to be on the property or if the property was clearly marked as off-limits. However, the key factor here is whether the entry \"substantially interfered\" with the plaintiff's use and enjoyment of the property.\n\n- **Substantial Interference:** In many jurisdictions, a property owner must show that the entry caused significant harm or interference to their use and enjoyment of the property. If the golf ball merely rolled onto the property and did not cause any substantial interference (e.g., it did not damage property, disrupt activities, or cause significant inconvenience), the boy would not be liable for trespass.\n\n- **Negligence:** The boy's offer of evidence that golf balls regularly crossed onto the property might be relevant to a negligence claim, but it does not directly address the trespass issue. Negligence would require showing that the boy owed a duty of care and breached that duty, leading to the plaintiff's injury.\n\n- **Option A:** This is incorrect because the boy's intent (whether he intended to cause the golf ball to enter the property) is not the primary issue in a trespass claim. The focus is on whether the entry interfered with the plaintiff's use and enjoyment of the property.\n\n- **Option B:** This is incorrect because the boy would not be liable for the golf ball itself entering the property. The liability would depend on whether the entry caused substantial interference.\n\n- **Option C:** This is incorrect because while the plaintiff might have a reasonable expectation of not having golf balls on their property, this does not absolve the boy of liability if the entry did not substantially interfere with the plaintiff's use and enjoyment of the property.\n\nTherefore, **D** is the most accurate statement.",
+        "ground_truth": "A",
+        "assessment": "Answer: False",
+        "match": 0
+    },
+    {
+        "id": 4756,
+        "question": "Obvinený mal obžalobu z ozbrojenej lúpeže v kráme s potravinami. Počas obhajoby obvinený vyzval niekoľko svedkov, ktorí vypovedali o jeho dobrej povesti. V rámci vyvratenia obhajoby bol volaný bývalý manžel obvineného, ktorý vypovedal o tom, že počas ich manželstva mal obvinený násilnú povahu, často ju bil a raz jej dokonca hrozil nožom. Výpoveď bývalej manželky by sa mala posúdiť ako\nA) prípustná, pretože je relevantná pre obvinenie\nB) prípustná, pretože obvinený otvoril dvere tým, že predstavil dôkazy o svojej dobrej povesti.\nC) nepripustiteľná, pretože obvinený bude môcť zabrániť svedectvu použitím výnimky pre manželské svedectvá.\nD) nepripustiteľná, pretože takýmto spôsobom nie je možné predložiť dôkazy o charaktere.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) nepripustiteľná, pretože takýmto spôsobom nie je možné predložiť dôkazy o charaktere.**\n\n### Explanation:\nIn legal proceedings, evidence of a person's character (such as their propensity for violence or honesty) is generally **not admissible** to prove that they acted in a certain way on a specific occasion (in this case, the armed robbery). The rationale is that character evidence can be prejudicial and is not directly relevant to the specific act in question. \n\nThe testimony of the former spouse, while potentially relevant to the defendant's character, is not admissible to prove that the defendant committed the armed robbery. The prosecution cannot use such evidence to establish the defendant's guilt. \n\nThus, the testimony is **not admissible** under the rules of evidence.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3012,
+        "question": "Ktoré z nasledujúcich ústavných ustanovení sa vzťahuje na korporácie?\nA) Doložka o privilégiách a imunitách 14. dodatku.\nB) Doložka o vzájomnosti v článku IV.\nC) Zákaz núteného sebaobvinenia z piateho dodatku.\nD) Doložka o rovnakom zaobchádzaní v 14. dodatku.\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) Doložka o rovnakom zaobchádzaní v 14. dodatku**.  \n\n### Explanation:  \nThe **14th Amendment** (Section 1) includes the **Equal Protection Clause**, which prohibits states from denying any person \"equal protection of the laws.\" This clause applies to corporations, as they are considered \"persons\" under the law (per *Santa Clara County v. Southern Pacific Railroad Co.* (1886)).  \n\n- **A) Doložka o privilégiách a imunitách 14. dodatku** – This protects citizens from state laws that discriminate against them, but it is broader than just corporations.  \n- **B) Doložka o vzájomnosti v článku IV** – This deals with state-to-state relations, not corporate rights.  \n- **C) Zákaz núteného sebaobvinenia z piateho dodatku** – This applies to individuals, not corporations.  \n\nThus, **D** is the most relevant option.",
+        "ground_truth": "D",
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

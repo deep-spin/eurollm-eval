@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Janeth pidió $2000 prestados y prometió devolverlos con un 10 % adicional al monto. Si va a pagar $165 por mes durante 12 meses, ¿qué saldo le quedará por pagar a Janeth para ese entonces?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total amount Janeth needs to repay:**\n   * Interest = $2000 * 10% = $200\n   * Total amount to repay = $2000 + $200 = $2200\n\n2. **Calculate the total amount Janeth will have paid after 12 months:**\n   * Total paid = $165/month * 12 months = $1980\n\n3. **Calculate the remaining balance:**\n   * Remaining balance = $2200 - $1980 = $220\n\n**Answer:** Janeth will have a remaining balance of $220.\n",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "En la autopista se formó una fila de autos. Algunos de los autos pasan en los primeros 15 minutos del embotellamiento, luego pasan 20 autos más en los 15 minutos restantes del embotellamiento. 5 autos de la fila toman una salida para no tener que atravesar el embotellamiento. Si originalmente había 30 autos en la autopista, ¿cuántos autos atravesaron el embotellamiento en los primeros 15 minutos?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Total cars that didn't exit:** Start with the original number of cars (30) and subtract the cars that took the exit (5): 30 - 5 = 25 cars.\n\n2. **Cars that passed in the second 15 minutes:** We know 20 cars passed in the last 15 minutes.\n\n3. **Cars that passed in the first 15 minutes:** Subtract the cars that passed in the last 15 minutes from the total number of cars that didn't exit: 25 - 20 = 5 cars.\n\n**Answer:** 5 cars passed through the congestion in the first 15 minutes.\n",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Violeta quiere comprar crayones nuevos. Necesita de 5 colores diferentes y separó $20 para esta compra. Un crayón cuesta $2. ¿Cuánto cambio recibirá?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n*   **Cost of crayons:** Violeta wants 5 crayons at $2 each, so they cost 5 * $2 = $10.\n*   **Change:** She paid with $20 and the crayons cost $10, so her change will be $20 - $10 = $10.\n\n**Answer:** Violeta will receive $10 in change.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Chad pidió un burrito personalizado para el almuerzo. El burrito base cuesta $6,50. Le agrega un adicional de carne de res por $2,00, un adicional de queso por $1,00, palta por $1,00 y 2 salsas por $0,25 cada una. Decide mejorar su comida por $3,00 más, lo que le permitirá agregar patatas y una bebida. Tiene una tarjeta de regalo de $5,00 que usa al pagar. ¿Cuánto dinero debe todavía?\nAnswer in English.",
+        "generated_answer": "Okay, let's break down the cost of Chad's burrito:\n\n*   **Base Burrito:** $6.50\n*   **Beef:** $2.00\n*   **Cheese:** $1.00\n*   **Avocado:** $1.00\n*   **2 Sauces:** 2 * $0.25 = $0.50\n*   **Upgrade (fries & drink):** $3.00\n\n**Subtotal:** $6.50 + $2.00 + $1.00 + $1.00 + $0.50 + $3.00 = $14.00\n\n**Amount after gift card:** $14.00 - $5.00 = $9.00\n\n**Answer:** Chad still owes $9.00.",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Todas las noches, Frankie mira televisión después de terminar su tarea. El lunes y el martes, miró un episodio de 1 hora de su programa favorito cada noche. El miércoles, miró algunos episodios de un programa de 30 minutos. El jueves, terminó la tarea temprano y miró un episodio de 1 hora y un programa de 30 minutos. El viernes, se quedó despierto hasta tarde por el finde semana y miró dos episodios de 1 hora. Si miró 7 horas de televisión en total, ¿cuántos episodios de 30 minutos vio el miércoles?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the time spent on Monday and Tuesday:** Frankie watched 1 hour/episode * 2 episodes = 2 hours.\n\n2. **Calculate the time spent on Thursday:** Frankie watched 1 hour + 30 minutes = 1.5 hours.\n\n3. **Calculate the time spent on Friday:** Frankie watched 1 hour/episode * 2 episodes = 2 hours.\n\n4. **Calculate the total time spent on Monday, Tuesday, Thursday, and Friday:** 2 hours + 1.5 hours + 2 hours = 5.5 hours.\n\n5. **Calculate the time spent on Wednesday:** Frankie watched a total of 7 hours - 5.5 hours = 1.5 hours.\n\n6. **Determine the number of 30-minute episodes watched on Wednesday:** Frankie watched 1.5 hours / 0.5 hours/episode = 3 episodes.\n\n**Answer:** Frankie watched 3 episodes of 30 minutes on Wednesday.\n",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "Un programa nuevo tuvo 60 descargas en el primer mes. La cantidad de descargas en el segundo mes fue tres veces más que las descargas en el primer mes, pero luego se redujo un 30 % en el tercer mes. ¿Cuántas descargas tuvo en total el programa durante los tres meses?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n*   **Second month downloads:** 60 downloads * 3 = 180 downloads\n*   **Reduction in third month:** 180 downloads * 0.30 = 54 downloads\n*   **Third month downloads:** 180 downloads - 54 downloads = 126 downloads\n*   **Total downloads:** 60 downloads + 180 downloads + 126 downloads = 366 downloads\n\n**Answer:** The program had a total of 366 downloads during the three months.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "Hay cuatro escuelas compitiendo en un torneo de baloncesto. Cada escuela ha enviado un equipo de baloncesto femenino y un equipo de baloncesto masculino, y cada equipo está conformado por 5 jugadores. Además, cada escuela ha enviado un entrenador para cada equipo. En total, ¿cuántas personas han enviado todas las escuelas?\nAnswer in English.",
+        "generated_answer": "Here's how to calculate the total number of people:\n\n*   **Players per school:** 5 players (female) + 5 players (male) = 10 players\n*   **Coaches per school:** 1 coach (female) + 1 coach (male) = 2 coaches\n*   **Total people per school:** 10 players + 2 coaches = 12 people\n*   **Total people from all schools:** 12 people/school * 4 schools = 48 people\n\nTherefore, all the schools have sent a total of **48** people.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Isabelle compró artículos de fiesta para la fiesta de cumpleaños de su hermanita. Gastó $12 en ingredientes para el pastel, $43 en regalos de cumpleaños, $15 en decoraciones, $4 en tarjetas de invitación y $22 en bolsas con golosinas para los invitados a la fiesta. Dividió el costo en tres partes iguales con su padre y su madre. ¿Cuántos dólares pagó cada persona?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem:\n\n1. **Calculate the total cost:** $12 (cake) + $43 (gifts) + $15 (decorations) + $4 (invitations) + $22 (goodie bags) = $96\n2. **Divide the total cost by 3 (Isabelle, her father, and her mother):** $96 / 3 = $32\n\nEach person paid $32.\n",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Nissa contrata a 60 trabajadores estacionales para interpretar a elfos en la aldea de Papá Noel montada en su tienda de departamentos. Un tercio de los elfos renunciaron después de que los niños les vomitaran encima; luego, 10 de los elfos restantes renunciaron después de que los niños patearan sus espinillas. ¿Cuántos elfos quedan?\nAnswer in English.",
+        "generated_answer": "Here's how to solve the problem step-by-step:\n\n1. **Elves who quit after being vomited on:** 60 workers * (1/3) = 20 elves\n2. **Elves remaining after the first round of quits:** 60 workers - 20 elves = 40 elves\n3. **Elves who quit after being kicked:** 10 elves\n4. **Elves remaining after the second round of quits:** 40 elves - 10 elves = 30 elves\n\n**Answer:** There are 30 elves remaining.\n",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Jennie está colaborando en la oficina de su madre. Tiene una pila de 60 cartas que necesitan estampillas y una pila de cartas que ya tienen estampillas. Le coloca estampillas a un tercio de las cartas que necesitan estampillas. Si ahora hay 30 cartas en la pila de cartas que ya tienen estampillas, ¿cuántas había en esa pila cuando Jennie comenzó?\nAnswer in English.",
+        "generated_answer": "Let $N$ be the number of cards that need stamps, and let $M$ be the number of cards that already have stamps.\nWe are given that $N = 60$.\nJennie puts stamps on one-third of the cards that need stamps. So, the number of cards she puts stamps on is $\\frac{1}{3} \\times N = \\frac{1}{3} \\times 60 = 20$.\nAfter Jennie puts stamps on these 20 cards, they are moved to the pile of cards that already have stamps.\nLet $M_0$ be the number of cards in the pile of cards that already have stamps when Jennie started.\nAfter Jennie puts stamps on 20 cards, the number of cards in the pile of cards that already have stamps becomes $M_0 + 20$.\nWe are given that the number of cards in the pile of cards that already have stamps is now 30.\nSo, $M_0 + 20 = 30$.\nSubtracting 20 from both sides, we get $M_0 = 30 - 20 = 10$.\nTherefore, there were 10 cards in the pile of cards that already have stamps when Jennie started.\n\nFinal Answer: The final answer is $\\boxed{10}$",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

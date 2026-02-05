@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "निम्नलिखित में से कौन सा पानी का द्रव स्थिर से ठोस फलता है?\nA) झील पर बर्फ जमना\nB) घास पर घाम जमना\nC) बर्फ एक बलदिवस पर खोल में पिघलती हुई\nD) एक तालाब से पानी वाषित हो रहा है\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) झील पर बर्फ जमना**  \n\n### Explanation:  \n- **A) झील पर बर्फ जमना** – This describes the process of water freezing into ice when temperatures drop below 0°C (32°F).  \n- **B) घास पर घाम जमना** – \"घाम\" refers to dew, which is water vapor condensing into liquid, not freezing.  \n- **C) बर्फ एक बलदिवस पर खोल में पिघलती हुई** – This describes melting ice (solid to liquid), not freezing.  \n- **D) एक तालाब से पानी वाष्पित हो रहा है** – This describes evaporation (liquid to gas), not freezing.  \n\nThus, **A** is the correct answer as it represents the phase change from liquid (water) to solid (ice).",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer says correct answer is A) झील पर बर्फ जमना, explains why, and concludes A is correct. So they match. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 861,
+        "question": "निम्नलिखित में से कौन सा रासायनिक समीकरण संरक्षण मास का प्रदर्शन करता है?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) Mg + HCl -> H_{2} + MgCl_{2}**.\n\n### Explanation:\nThe law of conservation of mass states that matter cannot be created or destroyed in a chemical reaction. This means the total mass of the reactants must equal the total mass of the products.\n\nLet's analyze each option:\n\n**A) Mg + HCl -> H_{2} + MgCl_{2}**\n- **Reactants:** Magnesium (Mg) and Hydrochloric acid (HCl)\n- **Products:** Hydrogen gas (H_{2}) and Magnesium chloride (MgCl_{2})\n- **Mass Calculation:**\n  - Mass of Mg = 24.3 g/mol\n  - Mass of HCl = 36.46 g/mol\n  - Mass of H_{2} = 2.02 g/mol\n  - Mass of MgCl_{2} = 95.21 g/mol\n- **Total Mass of Reactants:** 24.3 + 36.46 = 60.76 g\n- **Total Mass of Products:** 2.02 + 95.21 = 97.23 g\n- **Difference:** 97.23 - 60.76 = 36.47 g\n- **Conclusion:** The mass is not conserved.\n\n**B) H_{2}O + CO_{2} -> H_{2}CO_{3}**\n- **Reactants:** Water (H_{2}O) and Carbon dioxide (CO_{2})\n- **Products:** Carbonic acid (H_{2}CO_{3})\n- **Mass Calculation:**\n  - Mass of H_{2}O = 18.02 g/mol\n  - Mass of CO_{2} = 44.01 g/mol\n  - Mass of H_{2}CO_{3} = 62.03 g/mol\n- **Total Mass of Reactants:** 18.02 + 44.01 = 62.03 g\n- **Total Mass of Products:** 62.03 g\n- **Difference:** 62.03 - 62.03 = 0 g\n- **Conclusion:** The mass is conserved.\n\n**C) KClO_{3} -> KCl + O_{2}**\n- **Reactants:** Potassium chlorate (KClO_{3})\n- **Products:** Potassium chloride (KCl) and Oxygen gas (O_{2})\n- **Mass Calculation:**\n  - Mass of KClO_{3} = 122.6 g/mol\n  - Mass of KCl = 74.6 g/mol\n  - Mass of O_{2} = 32.00 g/mol\n- **Total Mass of Reactants:** 122.6 g\n- **Total Mass of Products:** 74.6 + 32.00 = 106.6 g\n- **Difference:** 106.6 - 122.6 = -16.0 g\n- **Conclusion:** The mass is not conserved.\n\n**D) H_{2} + O_{2} -> H_{2}O**\n- **Reactants:** Hydrogen gas (H_{2}) and Oxygen gas (O_{2})\n- **Products:** Water (H_{2}O)\n- **Mass Calculation:**\n  - Mass of H_{2} = 2.02 g/mol\n  - Mass of O_{2} = 32.00 g/mol\n  - Mass of H_{2}O = 18.02 g/mol\n- **Total Mass of Reactants:** 2.02 + 32.00 = 34.02 g\n- **Total Mass of Products:** 18.02 g\n- **Difference:** 18.02 - 34.02 = -16.00 g\n- **Conclusion:** The mass is not conserved.\n\n### Conclusion:\nOnly option **A) Mg + HCl -> H_{2} + MgCl_{2}** does not conserve mass. Therefore, the correct answer is **A) Mg + HCl -> H_{2} + MgCl_{2}**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"निम्नलिखित में से कौन सा रासायनिक समीकरण संरक्षण मास का प्रदर्शन करता है?\" Means \"Which of the following chemical equations demonstrates conservation of mass?\" Options A-D. Ground truth answer: B. So correct answer is B. Generated answer says correct answer is A, and explains that A does not conserve mass, but then says \"Only option A does not conserve mass. Therefore, the correct answer is A\". That's contradictory and wrong. So generated answer does not match ground truth. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "पौधों और घास को सुबह करने से पानी बचाने का क्या कारण है?\nA) सुबह हमेशा अधिक पानी होता है।\nB) ठंडी सुबह में कम मात्रा में पानी वाषित होता है।\nC) सुबह में उपयोग किया जाने वाला पानी दोपहर के उपयोग के लिए पुनः उपयोग किया जा सकता है।\nD) घास सुबह ही पानी को वाषित कर सकता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) Cold mornings result in less evaporation of water.**  \n\n### Explanation:  \nWatering plants and grass in the morning helps conserve water because:  \n- **Less Evaporation:** During the cooler morning hours, the sun is not as strong, so water evaporates more slowly compared to midday when temperatures are high.  \n- **Efficient Absorption:** Plants absorb water more effectively in the morning as their roots are most active before the heat of the day.  \n- **Prevents Disease:** Watering in the morning allows leaves to dry quickly, reducing the risk of fungal diseases that thrive in wet, humid conditions.  \n\nThe other options are incorrect because:  \n- **A)** There is no guarantee that mornings always have more water.  \n- **C)** Water cannot be reused in the same way as it is consumed by plants.  \n- **D)** Grass does not \"evaporate\" water; it absorbs it.  \n\nThus, **B** is the best answer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 530,
+        "question": "लिथोस्फेरिक प्लेटें पृथ्वी की सतह पर भूमि बनाने के लिए आगे बढ़ गई हैं। प्लेटों के एक दूसरे पर मुड़ने के परिणामस्वरूप कौन सी भूमि बनावट होती है?\nA) भूकंप\nB) एक पर्वत श्रृंखला\nC) एक नदी\nD) एक ज्वालामुखी\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) एक पर्वत श्रृंखला**.\n\nWhen lithospheric plates move and collide with each other, the resulting compression and folding of the Earth's crust can lead to the formation of mountain ranges. This process is known as orogeny.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says \"The correct answer is B) एक पर्वत श्रृंखला.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1047,
+        "question": "जैव वर्गीकरण में ईकरिया जैव अर्किए और बैक्टीरिया से कैसे अलग होते हैं?\nA) वे सभी बहुकोशी होते हैं।\nB) वे सभी यौन रूप से उत्पन्न होते हैं।\nC) वे सभी अपना खुद का भोजन उत्पन्न करते हैं।\nD) वे सभी परमाणु-बँधी नाभियाँ रखते हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) They all possess a nucleus bound by a membrane.**  \n\n### Explanation:  \n- **Eukarya** (eukaryotes) are organisms whose cells have a **membrane-bound nucleus** and other membrane-bound organelles (like mitochondria and chloroplasts).  \n- **Archaea** and **Bacteria** (prokaryotes) **do not have a membrane-bound nucleus**—their genetic material floats freely in the cytoplasm.  \n\n### Why the other options are incorrect:  \n- **A)** Not all eukaryotes are multicellular (e.g., yeast is unicellular).  \n- **B)** Eukaryotes reproduce both sexually and asexually, while some prokaryotes (like bacteria) reproduce asexually.  \n- **C)** Some eukaryotes (like plants) are autotrophs, while others (like animals) are heterotrophs. Prokaryotes can be autotrophic (e.g., cyanobacteria) or heterotrophic (e.g., most bacteria).  \n\nThus, the key difference is the presence of a **membrane-bound nucleus** in eukaryotes.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". The question: \"जैव वर्गीकरण में ईकरिया जैव अर्किए और बैक्टीरिया से कैसे अलग होते हैं? A) वे सभी बहुकोशी होते हैं। B) वे सभी यौन रूप से उत्पन्न होते हैं। C) वे सभी अपना खुद का भोजन उत्पन्न करते हैं। D) वे सभी परमाणु-बँधी नाभियाँ रखते हैं। Answer in English.\"\n\nGround truth answer: D. The generated answer says the correct answer is D and explains that they all possess a nucleus bound by a membrane. That matches. So answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "वायवीय सेल श्वसन परीक्षण के दौरान, जीवविज्ञानी किसी सेल संस्कृति के लिए उपलब्ध फॉस्फोरस की मात्रा को सीमित करता है। इससे सेल पर कैसा प्रभाव पड़ेगा?\nA) सेल की ऊर्जा की मात्रा कम होगी।\nB) सेल की ऊर्जा की मात्रा बढ़ जाएगी।\nC) उत्पन्न ग्लूकोज की मात्रा बढ़ जाएगी।\nD) उत्पन्न ग्लूकोज की मात्रा कम होगी।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) सेल की ऊर्जा की मात्रा कम होगी।**  \n\n### Explanation:  \nIn aerobic cellular respiration, cells break down glucose to produce ATP (energy). Phosphorus is a key component of ATP, and limiting its availability restricts the cell's ability to synthesize ATP. As a result, the cell's energy production decreases, leading to reduced energy levels.  \n\n- **Option B (Energy increases)** is incorrect because phosphorus is essential for ATP production.  \n- **Option C (Glucose increases)** is incorrect because the cell cannot produce more glucose; it can only use existing glucose more efficiently.  \n- **Option D (Glucose decreases)** is incorrect because the cell is still using glucose for respiration, but the limiting factor (phosphorus) prevents efficient ATP production.  \n\nThus, the correct answer is **A**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says correct answer is A, with explanation. So they convey same meaning. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "जीव जंतु ठंडे मौसम का सामना करने के बहुत से तरीके होते हैं। निम्नलिखित में से कौन सा एक ऐसा उदाहरण नहीं है जो ठंडे सर्दियों के मौसम से निपटने के लिए जीव का अनुकूलन है?\nA) रॉबिन्स शरद ऋतु में मिशिगन से जाकर जॉर्जिया उड़ जाते हैं।\nB) चमेलियों अपने आस पास के वातावरण से मेल खाते हुए रंग बदलते हैं।\nC) वाइट-टेल्ड डीयर ऊंचे बाल बढ़ाते हैं जो अंदर से खाली होते हैं।\nD) कार्प एक तालाब के तल पर बैठ जाते हैं और खुद को कीचड़ से ढक लेते हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) Robins fly from Michigan to Georgia in the fall.**\n\n### Explanation:\n- **A) Robins fly from Michigan to Georgia in the fall.**  \n  This is an example of **migration**, where birds move to warmer regions to escape cold winters. While it helps them survive, it is not an adaptation to the cold itself but rather a behavioral response.\n\n- **B) Chameleons change their color to match their surroundings.**  \n  This is an example of **camouflage**, which helps them avoid predators, not directly dealing with cold weather.\n\n- **C) White-tailed deer grow thicker fur that is hollow.**  \n  This is an **adaptation** to cold weather, as the hollow fur provides insulation.\n\n- **D) Carp lie at the bottom of a pond and cover themselves in mud.**  \n  This is also an **adaptation** to cold weather, as the mud helps them conserve energy and survive in freezing water.\n\nThus, **A** is the correct answer because it is not an adaptation to cold weather but rather a seasonal movement.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which is NOT an example of adaptation to cold winter? Options given. Ground truth answer: B. Generated answer says correct answer is A. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "एक पेड़ और एक मेंढक के जीवन चक्र दोनों में कौन सी अवस्था होती है?\nA) विकास\nB) आराम\nC) शीतकालीन निद्रा\nD) परिवर्तन\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) परिवर्तन**.\n\nBoth the life cycle of a tree and a frog involve stages of **change or transformation**. For a tree, this includes growth from a seed to a sapling, then to a mature tree, and eventually to seed production. For a frog, it includes metamorphosis from an egg to a tadpole, then to a froglet, and finally to an adult frog. These stages represent significant **changes** in their life cycles.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"A\". The question: \"एक पेड़ और एक मेंढक के जीवन चक्र दोनों में कौन सी अवस्था होती है? A) विकास B) आराम C) शीतकालीन निद्रा D) परिवर्तन\". The ground truth says answer is A. The generated answer says D. So they differ. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "बर्फ, बारिश, हैल और कोहरे सभी की एक जैसी होती हैं।\nA) गैस।\nB) पानी।\nC) हवा।\nD) बादल।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) पानी।**  \n\nExplanation:  \n- **बर्फ (Snow)**, **बारिश (Rain)**, **हैल (Hail)**, और **कोहरा (Fog)** सभी **पानी** के विभिन्न रूप हैं।  \n- ये सभी **हाइड्रोजन और ऑक्सीजन** के यौगिक (H₂O) से बने होते हैं, लेकिन अलग-अलग तापमान और दबाव की स्थितियों में अलग-अलग अवस्थाओं (ठोस, द्रव, या गैसीय) में पाए जाते हैं।  \n\nOther options are incorrect because:  \n- **A) गैस (Gas)** – ये सभी पानी के ठोस या द्रव रूप हैं, गैस नहीं।  \n- **C) हवा (Air)** – हवा मुख्य रूप से नाइट्रोजन और ऑक्सीजन जैसी गैसों से बनी होती है, इसमें पानी नहीं होता।  \n- **D) बादल (Clouds)** – बादल पानी के वाष्प या बूंदों से बनते हैं, लेकिन ये स्वयं पानी नहीं होते।  \n\n**Final Answer: B) पानी।**",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says \"The correct answer is: B) पानी।\" which matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 733,
+        "question": "पौधे कक्षों को जानवर कक्षों से कैसे अलग किया जाता है?\nA) केवल पौधे कक्ष उग सकते हैं।\nB) केवल जानवर कक्ष जन्म दे सकते हैं।\nC) केवल जानवर कक्ष ऊर्जा संचय कर सकते हैं।\nD) केवल पौधे कक्ष फोटोसिंथेसिस कर सकते हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) Only plant cells can perform photosynthesis.**\n\n### Explanation:\n- **Photosynthesis** is a process unique to plant cells (and some other photosynthetic organisms like algae and cyanobacteria). It involves converting light energy into chemical energy (glucose) using carbon dioxide and water.\n- **Animal cells** do not perform photosynthesis; they obtain energy by consuming organic matter (e.g., plants or other animals).\n- The other options are incorrect because:\n  - **A)** Plant cells can grow, but so can animal cells.\n  - **B)** Animal cells can give birth (e.g., through reproduction), but plant cells cannot.\n  - **C)** Both plant and animal cells can store energy (e.g., as glycogen in animals and starch in plants).\n\nThus, the key difference is the ability to perform photosynthesis, which is exclusive to plant cells.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". The question: \"पौधे कक्षों को जानवर कक्षों से कैसे अलग किया जाता है?\" Options given, correct is D. Generated answer says correct answer is D and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 447,
+        "question": "दो साइकिलिस्ट अपनी साइकिलों पर 20 किलोमीटर प्रति घंटा (km / h) की रफ़्तार से चल रहे थे। अगली आधी घंटे के दौरान, उन्होंने यह अनुभव किया कि उनकी रफ़्तार 26 km/h हो गई है। उनकी औसत त्वरण क्या थी?\nA) 0.2 km/h^2\nB) 3.0 km/h^2\nC) 6.0 km/h^2\nD) 12.0 km/h^2\nAnswer in English.",
+        "generated_answer": "To find the average acceleration of the cyclists, we need to determine the change in their velocity and the time over which this change occurred.\n\n1. **Initial Velocity (u):** 20 km/h\n2. **Final Velocity (v):** 26 km/h\n3. **Time (t):** 0.5 hours (since the change in velocity occurred over half an hour)\n\nThe formula for acceleration (a) is:\n\n\\[\na = \\frac{v - u}{t}\n\\]\n\nSubstituting the given values:\n\n\\[\na = \\frac{26 \\, \\text{km/h} - 20 \\, \\text{km/h}}{0.5 \\, \\text{h}} = \\frac{6 \\, \\text{km/h}}{0.5 \\, \\text{h}} = 12 \\, \\text{km/h}^2\n\\]\n\nTherefore, the average acceleration of the cyclists is **12.0 km/h^2**.\n\nThe correct answer is **D) 12.0 km/h^2**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". The generated answer explains and says answer is D) 12.0 km/h^2. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1033,
+        "question": "एक पोंड पारिस्थितिकी में छोटे मछलियों को आश्रय प्रदान करने वाला कौन सा हिस्सा होता है?\nA) पत्थर\nB) पानी\nC) मेंढक\nD) मिट्टी\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) पत्थर (Rocks)**  \n\nIn an aquatic ecosystem, rocks and other submerged structures provide shelter and hiding places for small fish, protecting them from predators and strong currents. This is a key part of pond ecology.  \n\n(Option B \"पानी\" is incorrect because while water is essential, it doesn't directly provide shelter. Option C \"मेंढक\" is incorrect because frogs are predators, not shelters. Option D \"मिट्टी\" is incorrect because soil at the bottom of the pond doesn't typically offer shelter to fish.)",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"एक पोंड पारिस्थितिकी में छोटे मछलियों को आश्रय प्रदान करने वाला कौन सा हिस्सा होता है? A) पत्थर B) पानी C) मेंढक D) मिट्टी Answer in English.\"\n\nGround truth answer: \"A\". So correct answer is option A (पत्थर). Generated answer says correct answer is A) पत्थर (Rocks). That matches. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 285,
+        "question": "फोटोसिन्थेसिस की प्रक्रिया में अंतिम उत्पाद चीनी और ऑक्सीजन का उत्पादन होता है। कौन सा चरण फोटोसिन्थेसिस की शुरुआत का संकेत देता है?\nA) रूट के माध्यम से रासायनिक ऊर्जा अवशोषित की जाती है।\nB) प्रकाश ऊर्जा को रासायनिक ऊर्जा में रूपांतरित किया जाता है।\nC) पत्ती में क्लोरोफिल प्रकाश ऊर्जा को कैप्चर करता है।\nD) सूरज को क्लोरोफिल में रूपांतरित किया जाता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) पत्ती में क्लोरोफिल प्रकाश ऊर्जा को कैप्चर करता है।**  \n\n### Explanation:  \nPhotosynthesis begins with the **light-dependent reactions**, which take place in the **thylakoid membranes** of chloroplasts. The first step is the **absorption of light energy by chlorophyll** (present in the thylakoid membranes). This captured light energy is then used to produce ATP and NADPH, which are essential for the next stage of photosynthesis.  \n\nThe other options are incorrect because:  \n- **A)** Root absorption is part of **nutrient uptake**, not photosynthesis.  \n- **B)** While light energy is converted to chemical energy, this is a general description, not the starting point.  \n- **D)** Sunlight is not \"transformed\" into chlorophyll; chlorophyll absorbs sunlight.  \n\nThus, **C** is the most accurate choice.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". Generated answer says the correct answer is C and explains. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 577,
+        "question": "एरियाना स्टैटिक इलेक्ट्रिसिटी का अन्वेसण करने के लिए गुब्बारों का उपयोग करती है। निम्नलिखित में से कौन सा सही बताता है कि जब वह दो सकारात्मक चार्ज वाले गुब्बारों को एक-दूसरे के करीब लाती है, तब क्या होगा?\nA) गुब्बारें दूर हो जाएंगे।\nB) एक गुब्बार अपने चार्ज से वंचित हो जाएगा।\nC) गुब्बार एक दूसरे के पास आएंगे।\nD) एक गुब्बार एक नकारात्मक चार्ज हासिल करेगा।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**C) The balloons will come closer to each other.**\n\n### Explanation:\nWhen two positively charged objects (like the balloons) are brought close to each other, they experience **electrostatic repulsion**. This means they will push each other away because like charges repel. \n\n- **Option A** is incorrect because the balloons will not move away from each other.\n- **Option B** is incorrect because neither balloon will lose its charge.\n- **Option D** is incorrect because the balloons will not acquire a negative charge; they will remain positively charged.\n\nThus, the correct answer is **C**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: which statement is correct about two positively charged balloons brought close? Options: A) balloons will move apart. B) one balloon will be deprived of charge. C) balloons will come near each other. D) one balloon will acquire negative charge. The correct physics: like charges repel, so they move apart => option A is correct. Ground truth answer is \"A\". Generated answer says correct answer is C) The balloons will come closer to each other, and explanation says they experience repulsion, but then says they will push each other away? Actually they say \"they will push each other away because like charges repel\", but then they claim option C is correct (balloons will come closer). That's contradictory. So generated answer says C is correct, which is wrong. Ground truth says A. So they do not convey same meaning. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 286,
+        "question": "पृथ्वी की झिल्ली में आठ सबसे अधिक पाए जाने वाले तत्वों के प्रतिशत सबसे अच्छी तरह से कौन सा प्रदर्शित करेगा?\nA) लाइन ग्राफ\nB) पाई चार्ट\nC) बार ग्राफ\nD) डेटा टेबल\nAnswer in English.",
+        "generated_answer": "The best way to display the percentage of the eight most abundant elements in the Earth's crust would be a **pie chart (B)**. \n\nA pie chart is ideal for showing proportions or percentages of a whole, making it the most effective choice for visualizing the composition of the Earth's crust based on the percentage of the eight most abundant elements.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"पृथ्वी की झिल्ली में आठ सबसे अधिक पाए जाने वाले तत्वों के प्रतिशत सबसे अच्छी तरह से कौन सा प्रदर्शित करेगा?\" Means \"Which would best display the percentages of the eight most abundant elements in Earth's crust?\" Options: A line graph, B pie chart, C bar graph, D data table. Ground truth answer: D (data table). Generated answer says B (pie chart). They differ. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "एक माउस कार्डबोर्ड मेज़ के एक सिरे पर रखा जाता है जिसमें दूसरे सिरे पर एक टुकड़ा पनीर मौजूद होता है। माउस पनीर की खुशबू को महसूस करता है और उसे ढूंढना सीखता है। माउस एक अर्जित लक्षण का उपयोग कर रहा है जिससे वह एक विरासत लक्षण हासिल करता है।\nA) एक विरासत लक्षण हासिल करने के लिए अर्जित लक्षण का उपयोग करना।\nB) अर्जित लक्षण हासिल करने के लिए विरासत लक्षण का उपयोग करना।\nC) अन्य एक अर्जित लक्षण हासिल करने के लिए अर्जित लक्षण का उपयोग करना।\nD) अन्य विरासत लक्षण हासिल करने के लिए विरासत लक्षण का उपयोग करना।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**A) एक विरासत लक्षण हासिल करने के लिए अर्जित लक्षण का उपयोग करना।**\n\n### Explanation:\n- The mouse is using an **acquired trait** (learning to find the cheese by smelling it) to develop a **heritable trait** (the ability to find the cheese is passed on to its offspring).\n- This is an example of **Lamarckian inheritance**, where an acquired characteristic (learning) is passed to the next generation.\n- The other options are incorrect because:\n  - B) Incorrect because the mouse is not using a *heritable trait* to acquire an *acquired trait*.\n  - C) Incorrect because the mouse is not using another *acquired trait* to acquire a new *acquired trait*.\n  - D) Incorrect because the mouse is not using a *heritable trait* to acquire another *heritable trait*. \n\nThis scenario aligns with Lamarck's theory of inheritance, though modern genetics (Mendelian inheritance) does not support this mechanism.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". Generated answer says the correct answer is A. So they do not match. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 513,
+        "question": "डायमंड उत्पन्न करने के लिए एक शर्त क्या है?\nA) उच्च ऊंचाई\nB) तीव्र दबाव\nC) त्वरित ठंडाई\nD) कम तापमान\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) तीव्र दबाव**  \n\nDiamonds are formed under **extreme pressure** and high temperatures deep within the Earth's mantle, typically at depths of 140 to 190 kilometers. They are then brought to the surface through volcanic eruptions.  \n\nThe other options are incorrect:  \n- **A) उच्च ऊंचाई** – Not relevant to diamond formation.  \n- **C) त्वरित ठंडाई** – Diamonds form from carbon subjected to high pressure, not rapid cooling.  \n- **D) कम तापमान** – Diamond formation requires high temperatures (around 900–1300°C).  \n\nThus, the key factor is **intense pressure**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says correct answer is B) तीव्र दबाव, explains. So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1090,
+        "question": "ऊर्जा कंपनियां अक्सर विभिन्न स्रोतों से बिजली उत्पादित करती हैं। कौन सा संसाधन वायु गुणवत्ता को सबसे अधिक बेहतर बनाएगा?\nA) तेल\nB) गैस\nC) कोयला\nD) हवा\nAnswer in English.",
+        "generated_answer": "The correct answer is D) हवा (Wind).\n\nWind energy is considered the most environmentally friendly option among the given choices. It produces no direct emissions or pollutants during operation, making it a clean source of electricity. This significantly improves air quality compared to fossil fuel-based sources like oil, gas, and coal, which release harmful pollutants and greenhouse gases.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says \"The correct answer is D) हवा (Wind).\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 300,
+        "question": "ग्रेटा ने अपने बालों में कंघी कई बार पार कर दी। फिर उसने कंघी को एक नल से फ्लो करते पानी के साथ साइड में रखा। ग्रेटा ने देखा कि पानी का स्ट्रीम कंघी की तरफ झुक रहा है। कंघी को बालों में पार कराने से पानी का स्ट्रीम कंघी को क्यों झुकने लगा?\nA) कंघी को अधिक अधिग्रहणशील बनाकर\nB) कंघी को विद्युत आवेश देकर\nC) कंघी की ऊष्मीय ऊर्जा बढ़ाकर\nD) कुछ रासायनिक बंधन तोड़कर\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) कंघी को विद्युत आवेश देकर**.\n\n### Explanation:\nWhen Greta combs her hair, she is likely generating static electricity. This static electricity causes the comb to become electrically charged. When the comb is brought near the flowing water, the charged comb can attract or repel the water molecules, causing the stream of water to bend. This phenomenon is known as the **electrostatic deflection of water**.\n\nThe other options are not relevant to this situation:\n- **A)** The comb does not become more absorbent.\n- **C)** The comb's thermal energy does not significantly affect the water stream.\n- **D)** Breaking chemical bonds is not the mechanism behind the bending of the water stream.\n\nThus, the correct answer is **B) कंघी को विद्युत आवेश देकर**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 635,
+        "question": "ऑक्सीजन, हाइड्रोजन और पानी पदार्थ होते हैं। इन पदार्थों में से कौन से पदार्थ तत्व हैं?\nA) ऑक्सीजन, हाइड्रोजन और पानी\nB) केवल ऑक्सीजन और हाइड्रोजन\nC) केवल ऑक्सीजन\nD) केवल पानी\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) केवल ऑक्सीजन और हाइड्रोजन**.\n\n### Explanation:\n- **ऑक्सीजन (O)** and **हाइड्रोजन (H)** are **elements** because they are made up of only one type of atom.\n- **पानी (H₂O)** is a **compound** because it is made up of two different elements (hydrogen and oxygen) chemically combined in a fixed ratio.\n\nSo, the elements in this case are **oxygen and hydrogen**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"B\". Generated answer says correct answer is B) केवल ऑक्सीजन और हाइड्रोजन, explains that oxygen and hydrogen are elements. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 202,
+        "question": "तेज़ी से हो रहे पर्यावरणीय परिवर्तन स्लो हो रहे परिवर्तनों से अधिक महत्वपूर्ण तब होते हैं क्योंकि?\nA) धीमी परिवर्तनों को अनुकूलता करने के लिए समय मिलता है।\nB) त्वरित परिवर्तन कम अनुकूलता की आवश्यकता होती है।\nC) धीमे परिवर्तन केवल छोटे क्षेत्रों को प्रभावित करते हैं।\nD) त्वरित परिवर्तनों का वैश्विक प्रभाव होता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) त्वरित परिवर्तनों का वैश्विक प्रभाव होता है।**  \n\n### Explanation:  \nRapid environmental changes are more significant than slow ones because they often have **wider and more immediate global impacts**. Unlike gradual changes, which ecosystems and species may adapt to over time, rapid changes (e.g., climate change, deforestation, pollution) disrupt natural systems quickly, leading to irreversible damage, biodiversity loss, and severe consequences for human societies.  \n\n- **Option A** is incorrect because slow changes still require adaptation, but they give more time for evolution and resilience.  \n- **Option B** is incorrect because rapid changes demand more, not less, adaptation effort.  \n- **Option C** is incorrect because slow changes can affect large regions (e.g., glacial retreat, sea-level rise).  \n\nThus, **D** is the best answer.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"तेज़ी से हो रहे पर्यावरणीय परिवर्तन स्लो हो रहे परिवर्तनों से अधिक महत्वपूर्ण तब होते हैं क्योंकि?\" Options A-D. The ground truth answer is \"A\". The generated answer says \"D\". So they differ. Therefore answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 151,
+        "question": "सूर्य से उत्पन्न ऊष्मा ऊर्जा मुख्य रूप से निम्नलिखित प्रक्रियाओं में से किस द्वारा पृथ्वी में ले जाई जाती है?\nA) अवेशन\nB) हलवाही\nC) वाष्पीकरण\nD) परमानुरोशन\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) अवेशन** (Convection).  \n\n### Explanation:  \n- **अवेशन (Convection)**: यह ऊष्मा ऊर्जा का वहन करने की एक प्रमुख प्रक्रिया है, जिसमें गर्म हवा या तरल पदार्थ ऊपर उठता है और ठंडा होकर नीचे आता है। सूर्य से उत्पन्न ऊष्मा पृथ्वी के वायुमंडल और महासागरों में इसी प्रक्रिया द्वारा फैलती है।  \n- **हलवाही (Radiation)**: यह ऊष्मा का विकिरण है, जो सीधे सूर्य से पृथ्वी तक पहुँचती है।  \n- **वाष्पीकरण (Evaporation)**: यह जल के वाष्पीकरण से संबंधित है, जो ऊष्मा को अवशोषित करता है।  \n- **परमानुरोशन (Condensation)**: यह वाष्पीकरण की विपरीत प्रक्रिया है, जिसमें जलवाष्प संघनित होकर बादल बनाता है।  \n\nअतः, सूर्य से उत्पन्न ऊष्मा ऊर्जा मुख्य रूप से **अवेशन** (Convection) द्वारा पृथ्वी में पहुँचाई जाती है।",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer meaning matches ground truth. Ground truth answer is \"D\". The question: \"सूर्य से उत्पन्न ऊष्मा ऊर्जा मुख्य रूप से निम्नलिखित प्रक्रियाओं में से किस द्वारा पृथ्वी में ले जाई जाती है? A) अवेशन B) हलवाही C) वाष्पीकरण D) परमानुरोशन\". The correct answer likely is \"हलवाही\" (radiation) maybe? But ground truth says D (परमानुरोशन). The generated answer says A (अवेशन). So they differ. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "एक रासायनिक परिवर्तन होता है जब\nA) काँच टुकड़े-टुकड़े हो जाता है।\nB) अंडे का आटा ओवन में पक जाता है।\nC) आइसक्रीम एक तरल पदार्थ में पिघलती है।\nD) वायर में बिजली बहती है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) अंडे का आटा ओवन में पक जाता है।**  \n\n### Explanation:  \nA **chemical change** (or chemical reaction) occurs when substances undergo a transformation that produces new substances with different properties.  \n\n- **Option B** describes a chemical change because the raw egg and other ingredients (like flour, sugar, etc.) chemically react to form a new substance (cooked egg-based food) with different properties (texture, smell, etc.).  \n- The other options are **physical changes**:  \n  - **A)** Breaking glass changes its shape but not its chemical composition.  \n  - **C)** Melting ice changes its state but not its chemical makeup.  \n  - **D)** Electric current flowing through a wire is a physical process (electrical conduction).  \n\nThus, **B** is the correct answer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 966,
+        "question": "एक छात्र एक ज्ञात बल से प्रभावित होने पर एक समतल में एक पत्थर ब्लॉक के त्वरण को मापता है। ब्लॉक की भार को सटीकता से गणना करने के लिए कौन सी अतिरिक्त जानकारी आवश्यक है?\nA) ब्लॉक का घनत्व\nB) घर्षण की मात्रा\nC) सतह का भार\nD) गति की दिशा\nAnswer in English.",
+        "generated_answer": "To calculate the weight (or mass) of the block accurately, the following additional information is necessary:\n\n**A) Block's density**  \nThe density (mass per unit volume) of the block is required to determine its mass if the volume is known. The formula for mass is:  \n\\[ \\text{Mass} = \\text{Density} \\times \\text{Volume} \\]\n\n**B) Frictional force**  \nThe frictional force acting on the block is necessary to account for the force opposing motion, which affects the net force applied.  \n\n**C) Surface's weight**  \nThe weight of the surface (if the block is on a surface) is not directly relevant to calculating the block's weight.  \n\n**D) Direction of motion**  \nThe direction of motion is not required to calculate the weight, as weight is a scalar quantity (magnitude only).  \n\n**Correct Answer: A) Block's density**  \n(Along with volume, if known, to calculate mass.)  \n\n**Note:** If the block is moving on a horizontal surface with negligible friction, the weight can be directly calculated using the measured force and acceleration. However, in general, additional information like density or volume is needed for accuracy.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: \"एक छात्र एक ज्ञात बल से प्रभावित होने पर एक समतल में एक पत्थर ब्लॉक के त्वरण को मापता है। ब्लॉक की भार को सटीकता से गणना करने के लिए कौन सी अतिरिक्त जानकारी आवश्यक है?\" Options: A) density, B) amount of friction, C) surface weight, D) direction of motion. The correct answer according to ground truth is B (friction amount). The generated answer says correct answer is A (block's density). That does not match. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "किसान कीटों को नियंत्रित करने के लिए कीटनाशक प्रयोग करते हैं। कभी-कभी, कीटनाशक नदियों में बह जाते हैं। यह एक उदाहरण है\nA) किसानों द्वारा पर्यावरण की संरक्षा की जाने की कोशिश।\nB) समस्याओं का समाधान करने के लिए प्राकृतिक पदार्थों का उपयोग हो रहा है।\nC) किसान फसल की मात्रा को कम करने की कोशिश कर रहे हैं।\nD) एक समस्या के समाधान से एक और समस्या पैदा हो जाने का समाधान।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) एक समस्या के समाधान से एक और समस्या पैदा हो जाने का समाधान।**\n\nExplanation: The use of pesticides to control pests is a solution to increase crop yield, but when these pesticides enter rivers, they create another problem—pollution of water bodies, affecting aquatic life and ecosystems. This is an example of a solution leading to an unintended problem.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says the correct answer is D, with explanation. So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 206,
+        "question": "डोमिनिक एक माइक्रोस्कोप के तहत एक वोलवोक्स कॉलोनी और एक पैरामीशियम अवलोकन कर रहा है। उन्होंने अपनी जर्नल में एक नोट बनाया है कि वोलवोक्स कॉलोनी और पैरामीशियम इसलिए समान हैं क्योंकि उनमें गति के लिए कई ऑर्गेनल होते हैं। डोमिनिक सबसे ज्यादा कौन सी चीज को वोलवोक्स कॉलोनी और पैरामीशियम की गति के बारे में नोटिस करेगा?\nA) वे दोनों एक ही दर से चलते हैं।\nB) वे दोनों प्रकाश से दूर चलते हैं।\nC) वे दोनों एक ही दिशा में चलते हैं।\nD) वे दोनों एक ऊर्जा स्रोत की ओर बढ़ते हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) They both move towards an energy source.**\n\n### Explanation:\n- **Volvox** is a colonial alga that moves using flagella (whip-like structures) to swim towards light (phototaxis) or other chemical energy sources.\n- **Paramecium** is a single-celled organism that moves using cilia (hair-like structures) to swim towards food (chemotaxis) or light (phototaxis).\n\nWhile both organisms exhibit directed movement (taxis), the key similarity is that they **move towards an energy source** (light or nutrients), not necessarily the same direction or speed. \n\nThe other options are incorrect because:\n- **A)** They do not necessarily move at the same rate.\n- **B)** They do not always move away from light (volvox moves toward light, paramecium may not).\n- **C)** They do not always move in the same direction (they follow gradients of energy sources). \n\nThus, **D** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". Generated answer says \"The correct answer is D) They both move towards an energy source.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 724,
+        "question": "इनमें से कौन सा विकार शारीरिक है, उसे सर्वोत्तम तरीके से वर्णित करता है?\nA) धागे को स्वेटर में बुनना\nB) ट्रैक्टर के इंजन को शुरू करना\nC) साइकिल पर लगी धातु से जंग होना\nD) घास सूर्य की किरणों से ऊर्जा को कैप्चर करना\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) साइकिल पर लगी धातु से जंग होना**  \n\n### Explanation:  \n- **A) धागे को स्वेटर में बुनना** → This is a **mental/cognitive activity** (skill or craft).  \n- **B) ट्रैक्टर के इंजन को शुरू करना** → This is a **mechanical/physical process** (engine operation).  \n- **C) साइकिल पर लगी धातु से जंग होना** → This is a **chemical reaction** (oxidation of metal due to exposure to moisture and air).  \n- **D) घास सूर्य की किरणों से ऊर्जा को कैप्चर करना** → This is a **biological process** (photosynthesis in plants).  \n\n**\"जंग लगना\" (Rusting)** is a **chemical change** in metals due to oxidation, making it the best example of a **physical disorder** among the options.  \n\n**Final Answer: C**",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"इनमें से कौन सा विकार शारीरिक है, उसे सर्वोत्तम तरीके से वर्णित करता है?\" Means \"Which of these disorders is physical, described best?\" Options given. Ground truth answer: \"A\". So correct answer is option A. Generated answer says correct answer is C. That does not match. So meaning not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 889,
+        "question": "ऊर्जा बलों के कार्य के माध्यम से रूप बदलती है या स्थानांतरित होती है। एक उदाहरण जहां किनेटिक ऊर्जा से पोटेंशियल ऊर्जा में बदलाव होता है, वह है \nA) एक शिखर पर बड़े पत्थर का बैठा होना\nB) एक व्यक्ति दौड़ता हुआ ट्रैक के आसपास\nC) एक कार को पहाड़ी पर चलाया जाता है और रोक दिया जाता है\nD) एक रबड़ बैंड को खींचना और टूटना\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) एक शिखर पर बड़े पत्थर का बैठा होना**.\n\n### Explanation:\n- **A) एक शिखर पर बड़े पत्थर का बैठा होना**: Here, the stone has **potential energy** due to its height (gravitational potential energy). If the stone is released, this potential energy converts into **kinetic energy** as it falls. This is a clear example of energy transformation from potential to kinetic energy.\n\n- **B) एक व्यक्ति दौड़ता हुआ ट्रैक के आसपास**: In this case, the person has **kinetic energy** due to their motion. There is no significant change in potential energy here.\n\n- **C) एक कार को पहाड़ी पर चलाया जाता है और रोक दिया जाता है**: When the car is moving up the hill, it has **kinetic energy**. At the top, it has **potential energy** due to its height. When the car is stopped, its kinetic energy is converted into **heat and sound energy** due to friction and air resistance.\n\n- **D) एक रबड़ बैंड को खींचना और टूटना**: When the rubber band is stretched, it stores **elastic potential energy**. When it snaps back, this potential energy converts into **kinetic energy**.\n\nThus, **A** is the best example of energy transformation from potential to kinetic energy.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"ऊर्जा बलों के कार्य के माध्यम से रूप बदलती है या स्थानांतरित होती है। एक उदाहरण जहां किनेटिक ऊर्जा से पोटेंशियल ऊर्जा में बदलाव होता है, वह है ...\" It asks for example where kinetic energy changes to potential energy. Options A, B, C, D. Ground truth answer is C. Generated answer says A is correct. So they differ. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 647,
+        "question": "अनुमानित 20 ग्राम तरल हाइड्रोजन पेरोक्साइड को इसलिए गर्म किया गया है ताकि यह पूरी तरह द्रव्यमान वाले पानी और ऑक्सीजन गैस में टूट जाए। जो ज्यादा से ज्यादा पानी और ऑक्सीजन का कुल द्रव्यमान बनेगा, वह कौन सा होगा?\nA) इसलिए कि ऊष्मा का जोड़ होना, 20 जी से अधिक होगा।\nB) अब दो पदार्थ हैं इसलिए 20 ग्राम से अधिक होगा।\nC) ऑक्सीजन गैस बहुत हल्का होने के कारण 20 ग्राम से कम होगा।\nD) 20 ग्राम क्योंकि कोई द्रव्यमान नहीं जोड़ा गया या निकाला गया।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) 20 grams because no mass is added or removed.**\n\n### Explanation:\nThe reaction of liquid hydrogen peroxide (H₂O₂) decomposing into water (H₂O) and oxygen (O₂) follows the balanced chemical equation:\n\n\\[ 2H₂O₂ \\rightarrow 2H₂O + O₂ \\]\n\n- **Molar masses:**\n  - \\( H₂O₂ \\): 34 g/mol\n  - \\( H₂O \\): 18 g/mol\n  - \\( O₂ \\): 32 g/mol\n\n- **Mass balance:**\n  - 2 moles of \\( H₂O₂ \\) (34 g) produce 2 moles of \\( H₂O \\) (36 g) and 1 mole of \\( O₂ \\) (32 g).\n  - Total mass of products: \\( 34 \\, \\text{g} + 32 \\, \\text{g} = 66 \\, \\text{g} \\).\n\nHowever, the question specifies that the reaction produces **water and oxygen gas**, not water and oxygen in any other form. Since oxygen gas is released as a gas, its mass is not included in the total mass of the products.\n\nThus, the total mass of the products (water) is **36 g**, which is **6 g less** than the initial mass of hydrogen peroxide (34 g). This is because the oxygen gas is released into the atmosphere, and its mass is not considered in the total mass of the products.\n\nTherefore, the total mass of water and oxygen gas produced is **20 g (initial mass of hydrogen peroxide)**, as no mass is added or removed during the reaction.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". The generated answer says \"The correct answer is: D) 20 grams because no mass is added or removed.\" That matches D. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 418,
+        "question": "समझाएं कि पर्वत निर्माण किस प्रकार के मार्जिन पर होता है जिसमें पर्वत पूरी तरह से पूर्व मौजूदा क्रस्ट सामग्री से मिलते हैं?\nA) दो समुद्री पट्टियों के बीच अलगावदार सीमा\nB) एक समुद्री पट्टी और एक महाद्वीपीय पट्टी के बीच अलगावदार सीमा\nC) एक समुद्री पट्टी और एक महाद्वीपीय पट्टी के बीच संगठनात्मक सीमा\nD) दो महाद्वीपीय पट्टियों के बीच संगठनात्मक सीमा\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) दो महाद्वीपीय पट्टियों के बीच संगठनात्मक सीमा**  \n\n### Explanation:  \nWhen two continental plates converge (collide), neither plate is subducted because both are less dense than the underlying mantle. Instead, the crust is **thickened** and **compressed**, leading to the formation of **folded mountain ranges**. This process is known as **orogenic (mountain-building) activity**.  \n\n- **Examples:** The Himalayas (formed by the collision of the Indian and Eurasian plates) and the Andes (formed by the subduction of the Nazca plate beneath the South American plate, but the uplift is due to the overriding plate's compression).  \n\n### Why not the other options?  \n- **A)** At a **divergent boundary**, plates move apart, not collide.  \n- **B)** At a **transform boundary**, plates slide past each other.  \n- **C)** At a **convergent but transform boundary**, subduction occurs (e.g., the Cascades), not mountain building from continental collision.  \n\nThus, **D** is the only correct choice where two continental plates collide to form mountains.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". Generated answer says correct answer is D and explains. So meaning matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1131,
+        "question": "प्रकृति में अवलोकन करते समय, छात्रों के लिए पर्यावरण का सम्मान करने का सबसे अच्छा तरीका क्या है?\nA) पथ पर रहें।\nB) नमूने न लें।\nC) फोटो खींचें।\nD) क्षेत्र को मूल रूप से जैसा वे इसे पाये तैसा छोड़ें।\nAnswer in English.",
+        "generated_answer": "The best way for students to respect the environment while observing nature is:  \n\n**D) Leave the area as they found it.**  \n\nThis ensures minimal disturbance to the ecosystem, allowing wildlife and plants to remain undisturbed. The other options (A, B, C) may still cause harm or disruption, even if unintentionally.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says best way is D) Leave the area as they found it. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 906,
+        "question": "लाल विशाल तारा मुख्य श्रृंखला तारों से अलग होता है क्योंकि यह\nA) एक ठंडे तापमान पर जलता है।\nB) हमेशा अन्य सूरजों से बड़ा होता है।\nC) अधिक घनत्व और गुरुत्वाकर्षण होता है।\nD) हयद्रोजन को हीलियम बनाने के लिए लटकाता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Hydrogen to helium fusion process is slower.**  \n\n### Explanation:  \nRed giant stars are different from main-sequence stars because they have exhausted the hydrogen fuel in their cores. Instead of fusing hydrogen into helium at a rapid rate (like main-sequence stars), red giants fuse hydrogen in a shell around the inert helium core. This slower fusion process causes them to expand and cool, giving them their characteristic red color and large size.  \n\nThe other options are incorrect:  \n- **A)** Red giants are *hotter* than main-sequence stars, not colder.  \n- **B)** While many red giants are larger, not all main-sequence stars are smaller.  \n- **C)** Red giants have lower density (they are bloated) compared to main-sequence stars.  \n\nThus, the key difference is the **slower hydrogen fusion process**.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"लाल विशाल तारा मुख्य श्रृंखला तारों से अलग होता है क्योंकि यह\" (Why is a red giant star different from main sequence stars because it...). Options: A) एक ठंडे तापमान पर जलता है। B) हमेशा अन्य सूरजों से बड़ा होता है। C) अधिक घनत्व और गुरुत्वाकर्षण होता है। D) हयद्रोजन को हीलियम बनाने के लिए लटकाता है। The ground truth answer is \"A\". So correct answer is option A. The generated answer says \"The correct answer is D) Hydrogen to helium fusion process is slower.\" That's not matching. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1067,
+        "question": "दिन में जब तापमान 3°C था तब एक पानी का डिब्बा बाहर रखा गया था। रात में बाहर का तापमान -2°C हो गया। यह तापमान परिवर्तन संभवतः इसे पानी को\nA) ओषित होना\nB) बाप बनना\nC) एक तरल पदार्थ बना रहना\nD) ठोस पदार्थ बनना\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) ठोस पदार्थ बनना**  \n\n### Explanation:  \nWhen the temperature drops below the freezing point of water (0°C), the water in the container will begin to freeze and turn into ice (a solid). Since the temperature fell to -2°C, this is well below the freezing point, so the water will likely freeze overnight.  \n\nThe other options are incorrect because:  \n- **A) ओषित होना (Sublimation)** – This refers to a solid turning directly into a gas, not relevant here.  \n- **B) बाप बनना (Becoming a father)** – This is a nonsensical option in this context.  \n- **C) एक तरल पदार्थ बना रहना (Remaining a liquid)** – The temperature is too low for water to stay liquid at -2°C.  \n\nThus, the correct answer is **D) ठोस पदार्थ बनना (Turning into a solid)**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". The generated answer says the correct answer is D, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 533,
+        "question": "खाद के बहुत ज़्यादा प्रवाहित होने वाले क्षेत्रों के आसपास, झील खाद क्रम में सभी हेटेरोट्रोफ़ एक वृद्धि दिखा सकते हैं। प्रारंभिक वृद्धि के बाद, आबादियों में कमी प्रारंभ हो जाती है। कौन सी घटना संभवतः आबादियों को कम कर देंगी?\nA) झील में अधिक प्रेडेटर प्रविष्ट हुए।\nB) जैसे नाइट्रोजन जैसे पोषक तत्वों से जल की मात्रा कम हुई।\nC) जीवों के लिए उत्पादन ऋतु खत्म हो गयी।\nD) क्षय करने वाली तरल जगत से ऑक्सीजन की मात्रा कम हो गई।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Decomposers consumed all the available organic matter, leading to a decrease in oxygen levels.**  \n\n### Explanation:  \nIn a eutrophic lake (where excess nutrients like nitrogen and phosphorus enter), an initial bloom of heterotrophic organisms (like bacteria and decomposers) occurs due to abundant food. However, once the organic matter is depleted, decomposers consume it, leading to:  \n- **Oxygen depletion** (due to high decomposition rates), which harms aerobic organisms.  \n- **Population crash** of heterotrophs as their food source is exhausted.  \n\n### Why not the other options?  \n- **A)** Predators may reduce populations, but this is not the primary cause of the initial crash.  \n- **B)** While nutrients may eventually limit growth, the immediate cause is organic matter depletion.  \n- **C)** Seasonal changes affect growth, but the question focuses on the initial crash.  \n\nThus, **D** is the most direct explanation for the population decline.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". Generated answer says \"The correct answer is: D) Decomposers consumed all the available organic matter, leading to a decrease in oxygen levels.\" That matches D. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 127,
+        "question": "सौर मण्डल में सबसे लंबी साल किस ग्रह पर होती है?\nA) सूर्य के सबसे करीबी ग्रह।\nB) सबसे लंबी दिन वाला ग्रह।\nC) सबसे ज्यादा चांदों वाला ग्रह।\nD) सूर्य से सबसे दूरी वाला ग्रह।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) सूर्य से सबसे दूरी वाला ग्रह।**  \n\n### Explanation:  \nThe planet with the longest year in our solar system is **Neptune**, the farthest planet from the Sun.  \n\n- **Neptune** takes about **165 Earth years** to complete one orbit around the Sun.  \n- The other options are incorrect because:  \n  - **A)** The closest planet (Mercury) has the shortest year.  \n  - **B)** The longest day (rotation period) is on **Jupiter** (about 10 hours).  \n  - **C)** The planet with the most moons (Jupiter) does not determine the longest year.  \n\nThus, **D) Neptune** is the correct choice.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". Generated answer says the correct answer is D) सूर्य से सबसे दूरी वाला ग्रह। It explains that Neptune is farthest, etc. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1123,
+        "question": "कॉपर और सोने की तुलनात्मक गुणधर्म अन्यान्य होते हैं। तत्कालीन तत्वों के आवर्त सारणी पर, इन तत्वों का सबसे अधिक जोड़ सकता है\nA) एक ही समूह में होना।\nB) एक ही अवधि में होना।\nC) लगभग एक ही भार होना।\nD) एक ही प्रोटॉन संख्या होना।\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) एक ही प्रोटॉन संख्या होना**.\n\n### Explanation:\n- **प्रोटॉन संख्या (Atomic Number)**: यह तत्व की पहचान है और यह तत्वों के आवर्त सारणी में उनके स्थान को निर्धारित करता है। कॉपर (Cu) और सोना (Au) दोनों की प्रोटॉन संख्या 29 है।\n- **समूह और अवधि**: कॉपर और सोना एक ही समूह (Group 11) में हैं, लेकिन वे अलग-अलग अवधि (Period 4 और Period 6) में हैं।\n- **भार**: कॉपर और सोने का भार काफी अलग है, क्योंकि उनके परमाणु भार (Atomic Weight) क्रमशः 63.55 और 196.97 हैं।\n\nइसलिए, कॉपर और सोने की तुलनात्मक गुणधर्म उनके प्रोटॉन संख्या के समान होने के कारण सबसे अधिक जोड़ते हैं।",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"A\". The generated answer says \"D) एक ही प्रोटॉन संख्या होना\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 28,
+        "question": "कुछ छात्रों को आइसक्रीम स्टिक और गोंद से शक्तिशाली सेतु निर्मित करने के लिए एक पुल निर्माण प्रतियोगिता में शामिल होना है। पुल 5 इंच चौड़ा होना चाहिए और 18 इंच लंबा होना चाहिए। इन पुलों के लिए सबसे अधिक विश्वसनीय स्पैन डिजाइन का निर्धारण करने का कौन सा टेस्ट सबसे अधिक सटीक होगा?\nA) हर ब्रिज पर खिलौने वाली गाड़ियों को ढुलाई करें जब तक वह ढह नहीं जाता है\nB) प्रत्येक पुल पर कंक्रीट निर्माण ब्लॉक रखें जब तक वह ढह नहीं जाता है\nC) प्रत्येक पुल के दोनों अंतों पर सिक्के टंकित करें जब तक वह ढह नहीं जाता है\nD) एक ब्रिज के केंद्र में डी-सेल बैटरियों को रखें जब तक वह ढह नहीं जाता है।\nAnswer in English.",
+        "generated_answer": "The most accurate test to determine the most reliable span design for the bridges made by the students would be:\n\n**C) Each bridge's both ends on coins until it collapses.**\n\n### Explanation:\n- **C) Each bridge's both ends on coins until it collapses** is the most accurate because it directly tests the bridge's ability to support weight at its weakest points (the ends). This simulates real-world conditions where bridges often fail due to end loads or concentrated forces.\n\n### Why not the others?\n- **A) Haul toy cars on each bridge until it collapses**: This tests the bridge's strength under dynamic loads, but it doesn't specifically test the span design's reliability.\n- **B) Place concrete construction blocks on each bridge until it collapses**: This tests the bridge's strength under static loads, but it doesn't directly assess the span design's effectiveness.\n- **D) Place D-cell batteries at the center of each bridge until it collapses**: This tests the bridge's strength under a central load, but it doesn't account for the bridge's ability to handle end loads or other critical stress points.\n\nThus, **C** is the most comprehensive and accurate test for determining the most reliable span design.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says \"C\". They are different. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "वैज्ञानिकों ने खोजा है कि हालांकि संक्रमणकारी जीवाणु जीवाणुरोधक दवाओं के प्रति प्रतिरोध विकसित कर सकते हैं, कुछ जीवाणु कुछ ऐसे पेप्टाइड के विरोध नहीं कर पाते हैं, जो मानव शरीर के अंदर प्राकृतिक एंटीबायोटिक पदार्थ के रूप में कार्य करते हैं। इस खोज ने कौन सी नई तकनीक के विकास की ओर ले जाया?\nA) मानव पेप्टाइड को नकल करने वाली कृत्रिम पदार्थ\nB) जिससे त्वचा के जरिए अवशोषित एंटीबायोटिक लगाये जा सकते हैं जैसे एंटीबायोटिक\nC) जीवाणुजनित रोगाणुओं पर हमला करने वाले जीवाणु\nD) जवाब नहीं\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) मानव पेप्टाइड को नकल करने वाली कृत्रिम पदार्थ**  \n\n### Explanation:  \nThe discovery that certain bacteria cannot resist peptides acting as natural antibiotics in the human body has led to the development of **peptide-mimicking synthetic compounds** (artificial substances that mimic human peptides). These can be used as new antibiotics to target resistant bacteria.  \n\n- **Option B** refers to transdermal antibiotics (applied through the skin), which is a different approach.  \n- **Option C** describes bacteriophages (viruses that attack bacteria), not related to this discovery.  \n- **Option D** (\"No answer\") is incorrect because the question has a clear answer.  \n\nThus, the key innovation is **synthetic peptides or peptide-like compounds** that exploit bacterial vulnerabilities.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says \"The correct answer is: A) ...\". So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 816,
+        "question": "बर्फ के पिघलने का समान बिंदु क्या बदल सकता है?\nA) जल को जमने से पहले उसे गर्म करना\nB) जल को जमने से पहले उसमें नमक मिलाना\nC) जमाने वाले पानी की मात्रा बदलना\nD) पानी को जमाने के लिए बर्तन बदलना\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) जल को जमने से पहले उसमें नमक मिलाना**  \n\n### Explanation:  \nThe **freezing point of water** (0°C or 32°F) can be lowered by adding **solutes** (like salt) to it, a phenomenon known as **freezing point depression**. This is why salt is used to melt ice on roads in winter.  \n\nThe other options do not directly affect the freezing point:  \n- **A)** Heating water before freezing does not change its freezing point.  \n- **C)** Changing the amount of water does not alter the freezing point (it only changes the rate of freezing).  \n- **D)** Changing the container does not affect the freezing point.  \n\nThus, **B** is the correct choice.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"B\". Generated answer says correct answer is B with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2,
+        "question": "केमिकल का उपयोग करते समय कौन सा महत्वपूर्ण सुरक्षा नियम पालन करना चाहिए?\nA) लंबे बाल टाई कर लें।\nB) सभी केमिकल को ठण्डे में रखें।\nC) सभी टेस्ट ट्यूब और बोतलों को सही ढंग से लेबल करें।\nD) बुझे हुए माच को सही ढंग से निपटाएं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) All test tubes and bottles should be properly labeled.**  \n\n### Explanation:  \nProper labeling of chemicals is a crucial safety rule in a laboratory. It helps in identifying the contents, handling precautions, and emergency measures, reducing the risk of accidents.  \n\n- **A)** Long hair should be tied back, but this is a general lab safety rule, not specific to chemical handling.  \n- **B)** Chemicals should be stored in a cool, dry place, but this is a storage guideline, not a safety rule during use.  \n- **D)** Proper disposal of spent matches is important, but this is more related to fire safety than chemical handling.  \n\nThus, **C** is the most relevant safety rule when working with chemicals.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says correct answer is C and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1010,
+        "question": "एकटट्टा के कौनसे परिस्थिति में एक अनुकूलन जो बच्चेदानी के समय को कम करता है सबसे ज़्यादा उपयोगी होगा?\nA) जब तड़फोल तुरंत तैरने की आवश्यकता हो\nB) जब उनके पर्यावरण में सीमित मात्रा में पानी हो\nC) जब शिकारियों की संख्या में कमी हो\nD) जब तड़फोलों को अपने आसपास के माहौल से मेल खाने की आवश्यकता हो\nAnswer in English.",
+        "generated_answer": "The most useful adaptation that reduces the time of gestation would be most useful in **A) When tadpoles need to swim immediately**.\n\nHere's why:\n\n- **A) When tadpoles need to swim immediately**: In this scenario, a shorter gestation period would allow the tadpoles to develop into froglets more quickly, enabling them to swim and escape predators or find food faster. This is crucial for their survival in an aquatic environment where they are vulnerable to predators and competition for resources.\n\n- **B) When their environment has limited water**: While a shorter gestation period could be beneficial, it is not the most direct or immediate adaptation. Limited water availability might affect the tadpoles' development more broadly, but it doesn't specifically emphasize the need for immediate swimming ability.\n\n- **C) When the number of predators is reduced**: A reduction in predators would generally benefit tadpoles, but it doesn't directly relate to the need for a shorter gestation period. The primary concern in this case would be the overall survival and development in a safer environment.\n\n- **D) When tadpoles need to match their environment**: This option is vague and doesn't clearly specify a direct need for a shorter gestation period. Environmental matching is a broader concept that could involve various adaptations, not necessarily a reduction in gestation time.\n\nTherefore, the most specific and immediate need for a shorter gestation period is when tadpoles need to swim immediately, as this directly addresses their survival in a challenging aquatic environment.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". Generated answer says \"A) When tadpoles need to swim immediately\". That's not B. So they differ. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "सर्जरी में लेजर का उपयोग किया जाता है\nA) बारीक कटाव करने के लिए।\nB) ऑपरेटिंग फ़ील्ड को प्रकाशित करने के लिए।\nC) घावों को सिलने के लिए।\nD) साधनों को जीर्णोद्धार करने के लिए।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) बारीक कटाव करने के लिए।**  \n\nLasers are used in surgery for **precise cutting and tissue ablation** (removal), making them ideal for delicate procedures where minimal damage to surrounding tissues is required.  \n\nThe other options are incorrect because:  \n- **B)** Lasers are not primarily used for illumination (though they can be used in some surgical lights).  \n- **C)** Suturing (stitching) is done with surgical needles and threads, not lasers.  \n- **D)** Lasers do not \"repair\" tools; they are used as surgical instruments themselves.  \n\nWould you like more details on laser surgery applications?",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Question: \"सर्जरी में लेजर का उपयोग किया जाता है\" options, correct answer is A. Ground truth answer: \"A\". Generated answer says correct answer is A, with explanation. So they match. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 499,
+        "question": "वायोमिंग के किसानों को चिंता थी क्योंकि उनके अंडे देने वाले कुछ मुर्गों को उनके राँच के आस-पास रहने वाले बाजों ने पशुओं की हत्या कर दी थी। किसानों ने एकत्र होकर बाज़ों की शिकार की और उन्हें अपने क्षेत्र से दूर निकाला। अगला क्या होगा जो सबसे संभव है?\nA) मुर्गी की आबादी कम होगी।\nB) चूहों और उनके जुआरियों की आबादी बढ़ेगी।\nC) दूसरी बाज़ बाज़ की जगह ले लेगा।\nD) मुर्गियों को रोग का कम होगा।\nAnswer in English.",
+        "generated_answer": "The most likely outcome is:\n\n**B) Chickens and their predators' population will increase.**\n\nHere's why:\n\n1. **Predator-Prey Dynamics**: When predators like hawks are removed from an ecosystem, their prey (such as rodents and other small animals) tend to increase in population because they are no longer being hunted. This can lead to an overpopulation of these prey species.\n\n2. **Secondary Effects**: The increase in prey populations can then lead to an increase in the population of other predators that feed on these prey, creating a cascading effect.\n\n3. **Ecosystem Balance**: The removal of hawks disrupts the natural balance of the ecosystem. While the immediate concern of the farmers was the safety of their chickens, the long-term effect is likely to be an increase in the populations of both chickens and their predators.\n\nTherefore, the most plausible outcome is that the population of chickens and their predators will increase.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". The generated answer says \"The most likely outcome is: **B) Chickens and their predators' population will increase.**\" That matches option B (though wording \"Chickens and their predators' population will increase\" vs original option B: \"चूहों और उनके जुआरियों की आबादी बढ़ेगी।\" Wait original option B in Hindi: \"चूहों और उनके जुआरियों की आबादी बढ़ेगी।\" That translates to \"The population of mice and their predators will increase.\" The generated answer says \"Chickens and their predators' population will increase.\" That's different: they said chickens, not mice. So the meaning is not the same as option B. The ground truth answer is B, which is about mice and their predators. The generated answer incorrectly interprets as chickens and predators. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "पक्षियों का विभिन्न रंगों, आकार और आकार होता है। यह आमतौर पर एक पक्षी के रंग, आकार और आकार को निर्धारित करता है?\nA) जन्म के समय\nB) पक्षी द्वारा खाये जाने वाले भोजन के प्रकार\nC) पक्षी के प्रवासी नीति\nD) जो पक्षी अपने माता-पिता से मिलता है\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) पक्षी द्वारा खाये जाने वाले भोजन के प्रकार**  \n\n### Explanation:  \nA bird's color, size, and shape are primarily determined by its **diet** and **genetics**. The pigments in the food they consume (like carotenoids in fruits and insects) influence their plumage colors. Additionally, their physical traits are shaped by evolutionary adaptations to their environment and lifestyle.  \n\nThe other options are incorrect because:  \n- **A) जन्म के समय** – While genetics play a role, diet and environment also affect development.  \n- **C) पक्षी के प्रवासी नीति** – Migration patterns don’t directly determine color or size.  \n- **D) जो पक्षी अपने माता-पिता से मिलता है** – While genetics are important, diet and environmental factors also modify traits.  \n\nThus, **B** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In Hindi: \"पक्षियों का विभिन्न रंगों, आकार और आकार होता है। यह आमतौर पर एक पक्षी के रंग, आकार और आकार को निर्धारित करता है?\" Options A) जन्म के समय B) पक्षी द्वारा खाये जाने वाले भोजन के प्रकार C) पक्षी के प्रवासी नीति D) जो पक्षी अपने माता-पिता से मिलता है. The ground truth answer is D. Generated answer says B. So they differ. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 128,
+        "question": "चार अत्यधिक विभिन्न घरेलू उपकरण (ब्लेंडर, मिक्सर, टोस्टर, और फूड प्रोसेसर) चार काउंटर के साथ स्थापित आउटलेट में प्लगइन हैं। एक या एक से अधिक उपकरण चालू या बंद करना अन्य उपकरणों के प्रदर्शन पर असर नहीं डालता क्योंकि चार उपकरण\nA) एक सीधी धारा पर चलते हैं।\nB) श्रृंखला में जुड़े हुए हैं।\nC) समानांतर में जुड़े हुए हैं।\nD) एक आल्टरनेटिंग धारा पर चलते हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) समानांतर में जुड़े हुए हैं।**  \n\n### Explanation:  \nWhen multiple appliances are connected in **parallel**, each device operates independently of the others. Turning one on or off does not affect the others because they all receive power from the same source (the outlet) simultaneously.  \n\n- **Option A (DC)** is incorrect because household appliances typically run on AC (alternating current), not DC.  \n- **Option B (series)** is incorrect because in a series connection, all devices are linked end-to-end, so disconnecting one would break the circuit for all.  \n- **Option D (AC)** is correct in general, but the key point here is the **parallel connection**, which ensures independence.  \n\nThus, the best answer is **C**, as parallel connections allow independent operation.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says correct answer is C, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 391,
+        "question": "सूरज से ऊर्जा का उपयोग करके पानी की अणुओं को हाइड्रोजन और ऑक्सीजन में विभाजित करने के लिए अनुसंधान किया जा रहा है। ऑक्सीजन पर्यावरण में जारी किया जाएगा और हाइड्रोजन का उपयोग ईंधन के लिए किया जाएगा। कौन सा कथन बताता है कि यह प्रौद्योगिकी पर्यावरण को कैसे लाभ पहुंचाएगी?\nA) हाइड्रोजन की गुणवत्ता बेहतर समझ में आएगी।\nB) साफ संसाधनों की उपलब्धता बढ़ेगी।\nC) वायुमंडल को ऑक्सीजन उपलब्ध कराई जाएगी।\nD) सूरज की अपार ऊर्जा का उपयोग किया जाएगा।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) वायुमंडल को ऑक्सीजन उपलब्ध कराई जाएगी।**  \n\n### Explanation:  \nThe process described involves splitting water (H₂O) into hydrogen (H₂) and oxygen (O₂) using solar energy. The oxygen is released into the atmosphere, which helps in increasing the availability of clean oxygen. This directly benefits the environment by maintaining or improving air quality.  \n\nThe other options are incorrect because:  \n- **A)** The statement does not focus on improving the quality of hydrogen.  \n- **B)** While hydrogen can be a clean fuel, the statement specifically mentions oxygen release, not the availability of clean resources.  \n- **D)** Although solar energy is used, the primary environmental benefit is the release of oxygen, not the utilization of solar energy itself.  \n\nThus, **C** is the best answer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: which statement says how technology benefits environment? Options A-D. Ground truth answer is B. Generated answer says C. So they differ. Therefore false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "एक निर्माण श्रमिक ने एक सोलिड स्टील दीवार को स्लेजहैमर से मारा, लेकिन दीवार हिला नहीं। श्रमिक द्वारा बहुतायत ऊर्जा का हिस्सा\nA) इस द्वारा स्टील दीवार नष्ट किया गया था।\nB) इसे ताप में बदल दिया गया था।\nC) इसे वायुमण्डल में समाप्त हो गया था।\nD) इसे कठोर सतह द्वारा रोक दिया गया था।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**B) It was converted into heat.**\n\nWhen the construction worker hit the solid steel wall with a sledgehammer, the energy from the hammer was transferred to the steel. Since steel is a good conductor of energy, most of the energy was converted into heat (thermal energy) rather than causing the wall to move or break. This is why the wall did not move despite the force applied. \n\nThe other options are incorrect because:\n- **A)** The steel did not break or get destroyed.\n- **C)** The energy was not lost to the atmosphere.\n- **D)** The energy was not entirely stopped by the surface; it was converted into heat.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". The generated answer says the correct answer is B) It was converted into heat. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 454,
+        "question": "जानवरों में जैवैवरण में जोड़ते समय निम्नलिखित में से कौन सा होता है?\nA) वीर्य और अंडा उत्पादन\nB) वीर्य और अंडे का शामिल होना\nC) अंडे का विभाजन\nD) भ्रूण का विकास\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) वीर्य और अंडे का शामिल होना**.\n\nIn the context of reproduction in animals, the fusion of sperm and egg (gametes) is a fundamental process that leads to fertilization and the formation of a zygote, which then develops into an embryo. This is a key step in sexual reproduction. The other options (A, C, and D) are related to different stages of the reproductive process, but they do not directly describe the fusion of gametes.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says \"The correct answer is B) वीर्य और अंडे का शामिल होना.\" That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 488,
+        "question": "फ्लोरिडा कि समुद्री खार पानी में दुषित हो रहा है। यह प्रदूषण कि फ्लोरिडा के मैदानी समुद्री पारिस्थितिकी को प्रभावित करता है। कौन सा कार्य संभवतः जल प्रदूषण कम कर सकता है?\nA) लॉन और बगीचों के लिए उर्वरक के रूप में कंपोस्ट का उपयोग करना\nB) वॉशिंग मशीन से पानी का उपयोग लॉन को सिंचाई करने के लिए करना\nC) पेट्रोलियम प्रोडक्ट का उपयोग करने वाली कारें उपयोग करना\nD) अधिक से अधिक प्लास्टिक बोतलों का उपयोग करना और उसे भूमिगत खाद्यान में फेंक देना।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Using compost as a fertilizer for lawns and gardens**  \n\n### Explanation:  \nComposting organic waste reduces the need for chemical fertilizers, which can leach into water bodies and cause pollution. This helps maintain cleaner water and protects marine ecosystems.  \n\nThe other options contribute to pollution:  \n- **B)** Washing machine water (often containing detergents) can carry pollutants into water systems.  \n- **C)** Petroleum products from cars can contaminate water through runoff.  \n- **D)** Plastic bottles (especially if not recycled) can break down into microplastics, harming marine life.  \n\nThus, **A** is the best solution to reduce water pollution.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer says \"The correct answer is: A) Using compost as a fertilizer...\" So yes, same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 291,
+        "question": "वेव्स वस्तुओं के माध्यम से कौन सी चीज़ों को ले जाते हैं?\nA) ध्वनि\nB) प्रकाश\nC) ऊर्जा\nD) पानी\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) ऊर्जा**  \n\nWaves carry energy from one place to another, not matter (like water or sound). While sound waves require a medium (like air or water) to travel, they transfer energy through vibrations, not the actual substance itself. Similarly, light waves (a type of electromagnetic wave) transfer energy without needing a medium.  \n\nSo, the most general and accurate answer is **energy**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"C\". The generated answer says correct answer is C) energy. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1112,
+        "question": "एक वैज्ञानिक दावा करता है कि उसने प्रयोगशाला में एक खोज की है। खोज को मान्य साबित करने के लिए वैज्ञानिक को क्या चाहिए?\nA) खोज में इस्तेमाल किए गए चरणों को दर्शाते डायग्राम\nB) तथ्य संगत होने दिखाने वाले सटीक रिकॉर्ड\nC) धार्मिक रूप से प्रसिद्ध वैज्ञानिक बनाते कागजात\nD) खोज में इस्तेमाल किये गए उपकरण की ऊंची गुणवत्ता का प्रमाण\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) तथ्य संगत होने दिखाने वाले सटीक रिकॉर्ड**  \n\n### Explanation:  \nFor a scientific discovery to be validated, the scientist must provide **accurate and reproducible records** of the experiment, including:  \n- **Methodology** (how the experiment was conducted)  \n- **Data** (observations and measurements)  \n- **Results** (conclusions drawn from the experiment)  \n\nThis ensures transparency and allows other scientists to verify the findings.  \n\n### Why not the others?  \n- **A)** While diagrams can help, they are not sufficient without proper records.  \n- **C)** Religious or famous status does not validate scientific claims.  \n- **D)** High-quality equipment is important but not the sole determinant of validity.  \n\nThus, **B** is the most correct and essential requirement.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says correct answer is B and explains. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 917,
+        "question": "भूमध्यरेख से उत्तर की ओर जाते हुए , गर्म नम जलवायुों को गर्म और सूखे जलवायुों से बदल दिया जाता है। दो जलवायु प्रकारों के बीच सीमा कौनसे कारक द्वारा निर्धारित की जाती है?\nA) समुद्र स्‍तर से ऊपर की ऊंचाई\nB) स्थानीय पौधे के प्रकार\nC) क्षेत्रीय हवा घन के परिसंचरण पैटर्न\nD) निकटतम पर्वतीय सिरे तक की दूरी\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) क्षेत्रीय हवा घन के परिसंचरण पैटर्न**  \n\n### Explanation:  \nThe transition from warm and humid climates near the equator to hot and dry climates as you move northward is primarily determined by **wind patterns and atmospheric circulation**.  \n\n- **Hadley Cell Circulation**: Near the equator, warm air rises, cools, and moves toward the poles. As it descends at around 30° latitude, it becomes dry, creating subtropical deserts (e.g., the Sahara).  \n- **Prevailing Winds**: Trade winds and other wind patterns influence moisture distribution, leading to shifts from tropical to arid climates.  \n\nWhile factors like altitude (A), vegetation (B), and proximity to mountains (D) can influence local climates, the **primary driver of large-scale climatic zones** is atmospheric circulation.  \n\nThus, the best answer is **C**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says the correct answer is C and provides explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 186,
+        "question": "जब एक विद्युत धारा विशिष्ट उपकरण का प्रयोग करते हुए पानी (H_{2}O) से गुजरती है, तो हाइड्रोजन (H_{2}) और ऑक्सीजन (O_{2}) गैस बनते हैं। इस उत्तराधिकारी को एक रासायनिक समीकरण में कैसे दिखाया जा सकता है?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**B) 2H₂O(l) → 2H₂(g) + O₂(g)**\n\n### Explanation:\nWhen an electric current is passed through water (H₂O), it undergoes **electrolysis**, breaking down into hydrogen (H₂) and oxygen (O₂) gases. The balanced chemical equation for this process is:\n\n\\[ 2H₂O(l) → 2H₂(g) + O₂(g) \\]\n\n- **2H₂O(l)** represents two molecules of liquid water.\n- **2H₂(g)** represents two molecules of hydrogen gas.\n- **O₂(g)** represents one molecule of oxygen gas.\n\nThis equation shows that water is decomposed into hydrogen and oxygen gases during electrolysis.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"B\". Generated answer says correct answer is B with explanation. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 164,
+        "question": "इनमें से कौन सी विशेषता वातावरण से अधिक प्रभावित होती है लेकिन उत्तरदायी होती है?\nA) जीभ रोलिंग क्षमता\nB) ऐथलेटिक प्रदर्शन\nC) भाषा\nD) आंखों का रंग\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) भाषा**.\n\n**Explanation:**\n\n- **A) जीभ रोलिंग क्षमता (Tongue Rolling):** This is a genetic trait and is not significantly influenced by the environment. It is determined by specific genes and remains relatively consistent throughout a person's life.\n\n- **B) ऐथलेटिक प्रदर्शन (Athletic Performance):** While genetics play a role, athletic performance is heavily influenced by environmental factors such as training, nutrition, and access to facilities. It is not primarily a genetic trait.\n\n- **C) भाषा (Language):** Language acquisition and proficiency are strongly influenced by the environment, particularly the linguistic environment in which a person grows up. This includes exposure to language, education, and social interactions. However, the ability to learn and use language is also a cognitive capacity that is influenced by genetics, making it a trait that is both environmentally and genetically influenced.\n\n- **D) आंखों का रंग (Eye Color):** Eye color is primarily determined by genetics and is not significantly influenced by the environment. While environmental factors like sun exposure can affect the appearance of the eyes (e.g., darkening due to melanin production), the underlying eye color is genetically determined.\n\nThus, **भाषा (Language)** is the trait that is most influenced by the environment but also has a genetic component, making it the most appropriate answer.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"इनमें से कौन सी विशेषता वातावरण से अधिक प्रभावित होती है लेकिन उत्तरदायी होती है?\" Means: Which of these traits is more influenced by environment but is also responsible? Options: A tongue rolling, B athletic performance, C language, D eye color. The ground truth answer is B (Athletic performance). Generated answer says C (Language). They differ. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "कुछ रासायनिक प्रतिक्रियाएं ऊर्जा अवशोषित करती हैं, जबकि कुछ रासायनिक प्रतिक्रियाएं ऊर्जा जारी करती हैं। क्या जलती कोयला और फुटते हुए पटाखों में से कौन सी रासायनिक प्रतिक्रियाएं ऊर्जा जारी करेगी?\nA) केवल जलती कोयला\nB) केवल फुटते हुए पटाखे\nC) जलती कोयला और फुटते हुए पटाखे दोनों\nD) न तो जलती कोयला न ही फुटते हुए पटाखे\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) जलती कोयला और फुटते हुए पटाखे दोनों**.\n\n### Explanation:\n- **जलती कोयला**: जब कोयला जलता है, तो यह एक **अपकर्षक (exothermic)** रासायनिक प्रतिक्रिया है। इसमें ऊर्जा (गर्मी) निकलती है।\n- **फुटते हुए पटाखे**: पटाखों के फटने की प्रक्रिया भी एक **अपकर्षक (exothermic)** रासायनिक प्रतिक्रिया है। इसमें ऊर्जा (गर्मी, प्रकाश, और ध्वनि) निकलती है।\n\nदोनों ही स्थितियों में रासायनिक प्रतिक्रियाएं ऊर्जा जारी करती हैं।",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The generated answer says correct answer is C) both. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1040,
+        "question": "एक चमेलीअन अपने आसपास के वातावरण के साथ अपनी रंगता बदल सकती है। यह क्षमता चमेलीअन को जीवित रहने में मदद करती है क्योंकि यह उसे\nA) गरम रखता है।\nB) एक संभोग साथी खोजता है।\nC) खाने के लिए शिकार करता है।\nD) आसानी से देखा जा सकता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) एक संभोग साथी खोजता है।**  \n\nChangeable coloration in chameleons is primarily used for **camouflage** and **communication**, especially during mating displays. It helps them attract mates or signal their readiness to reproduce. While it can also aid in avoiding predators, the main evolutionary purpose is related to reproduction.  \n\nThe other options are incorrect because:  \n- **A)** Chameleons do not change color to keep warm (they regulate temperature through behavior).  \n- **C)** Color change is not directly used for hunting prey.  \n- **D)** While some color changes make them more visible, this is not their primary purpose.  \n\nSo, the best answer is **B**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer meaning matches ground truth. Question: In Hindi: \"एक चमेलीअन अपने आसपास के वातावरण के साथ अपनी रंगता बदल सकती है। यह क्षमता चमेलीअन को जीवित रहने में मदद करती है क्योंकि यह उसे\" Options: A) keeps warm, B) finds a mating partner, C) hunts for food, D) easily seen. The correct answer likely is D? Actually chameleon changes color for camouflage, to blend, so helps survive because it is not easily seen. So answer D. But ground truth says \"C\". That seems wrong. But we compare generated answer to ground truth. Generated says B. Ground truth says C. They differ. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1002,
+        "question": "मानव शरीर में सबसे बड़ी अंग-अंग्रेजी में क्या है?\nA) पेट\nB) दिमाग\nC) त्वचा\nD) जिगर\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) Skin** (त्वचा).  \n\n**Explanation:**  \nThe human body's largest organ is the **skin**, which covers the entire body and weighs about 4-5 kg in adults. It acts as a protective barrier, regulates temperature, and aids in sensory perception.  \n\nWhile other options like the **liver (D)** or **brain (B)** are vital organs, they are not the largest in terms of surface area. The **stomach (A)** is also not the largest organ.  \n\nSo, the correct choice is **C) Skin**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"C\". The generated answer says the correct answer is C) Skin, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "एक तितली के जीवन चक्र के कौनसे चरण में वह सबसे अधिक समय पौधों के पत्तों को खाने में व्यतीत करती है?\nA) वयस्क\nB) अंडा\nC) लार्वा\nD) पुपा\nAnswer in English.",
+        "generated_answer": "The correct answer is C) लार्वा (Larva).\n\nIn the life cycle of a butterfly, the larval stage (also known as the caterpillar stage) is when the butterfly spends the most time eating plant leaves. This is the growth stage where the caterpillar consumes large amounts of food to fuel its rapid development and prepare for the next stage of its life cycle.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says \"The correct answer is C) लार्वा (Larva).\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 617,
+        "question": "तकनीकी समस्याओं को हल करने के लिए कौन से चरणों का अनुसरण किया जाना चाहिए उसे सबसे अच्छा दर्शाता है?\nA) समस्या की पहचान करें, समाधान का मूल्यांकन करें, संभवित समाधानों की खोज करें और एक समाधान का चयन करें।\nB) समस्या की पहचान करें, संभवित समाधानों की खोज करें, एक समाधान का चयन करें और समाधान का मूल्यांकन करें।\nC) समस्या की पहचान करें, एक समाधान का चयन करें, संभवित समाधानों की खोज करें और समाधान का मूल्यांकन करें।\nD) समस्या की पहचान करें, समाधान का मूल्यांकन करें, एक समाधान का चयन करें और संभवित समाधानों की खोज करें।\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) समस्या की पहचान करें, संभवित समाधानों की खोज करें, एक समाधान का चयन करें और समाधान का मूल्यांकन करें।**\n\nThis sequence is the most logical and effective approach to solving technical problems. Here's why:\n\n1. **समस्या की पहचान करें (Identify the Problem):** Clearly define the issue at hand. This step is crucial as it sets the foundation for the entire problem-solving process.\n\n2. **संभावित समाधानों की खोज करें (Explore Possible Solutions):** Generate a list of potential solutions. This step encourages creativity and ensures that all angles are considered.\n\n3. **एक समाधान का चयन करें (Select a Solution):** Choose the most viable solution from the list. This decision should be based on the feasibility, effectiveness, and resources required.\n\n4. **समाधान का मूल्यांकन करें (Evaluate the Solution):** Assess the chosen solution to ensure it effectively addresses the problem. This step helps in identifying any potential issues or areas for improvement.\n\nThis structured approach ensures that the problem is thoroughly understood, multiple solutions are considered, and the best possible solution is implemented and evaluated.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1128,
+        "question": "एक पौधे के लिए एक सामान्य ऊंचाई होती है। पूर्वी सफेद पाइन के लिए 100 फीट की ऊंचाई होती है, लेकिन मिशिगन के ऑन्टनेगोन में, एक पूर्वी सफ़ेद पाइन है जो 150 फीट तक पहुंची है। मिशिगन में पाइन का पेड़ कितनी बार तक एक सामान्य सफ़ेद पाइन से अधिक बढ़ गया है?\nA) 1.5 बार\nB) 2 बार\nC) 2.5 बार\nD) 3 बार\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) 2 times**.\n\nHere's the reasoning:\n\n- The normal height of an Eastern White Pine is **100 feet**.\n- The tree in Michigan is **150 feet** tall.\n- To find out how many times it exceeds the normal height:  \n  \\( \\frac{150}{100} = 1.5 \\).\n- Since the question asks how many times it **exceeds** the normal height, we consider the full difference (150 - 100 = 50 feet), which is **2 times** the normal height (50 ÷ 25 = 2).\n\nThus, the tree is **2 times** taller than a normal Eastern White Pine.  \n\n**Answer: B) 2 times**",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The question: \"How many times ...?\" Options A) 1.5 बार, B) 2 बार, C) 2.5 बार, D) 3 बार. The correct is 1.5 times, i.e., option A. Ground truth says \"A\". Generated answer says B) 2 times. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 596,
+        "question": "डेनिस का मानना है कि पृथ्वी की धरती दुनिया के हर जगह एक समान मोटा है। चार्ली कहता है कि डेनिस गलत है, लेकिन उसे युक्तियां जीतने में मदद करने के लिए कोई तथ्य नहीं पता है। चार्ली को कौन सा तथ्य मदद करेगा?\nA) पृथ्वी अपने घुमाव के कारण ध्रुवों पर थोड़ी तरल होती है।\nB) पृथ्वी के महाद्वीप विशाल पत्थर के भंडार हैं, जो समुद्र के तल से भिन्न हैं।\nC) पृथ्वी के एक ठोस गोलाकार अन्तरिक कोर है जो अधिकतर लोहे से बना है।\nD) पृथ्वी की प्लेटें एक बहुत धीमी दर से हमेशा चलती रहती हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**A) पृथ्वी अपने घुमाव के कारण ध्रुवों पर थोड़ी तरल होती है।**\n\n### Explanation:\n- **A)** This is correct because Earth's rotation causes it to bulge slightly at the equator (an oblate spheroid shape) and flatten at the poles. This means the Earth's diameter is slightly larger at the equator than at the poles, meaning the \"thickness\" of the Earth's crust and mantle varies. This directly contradicts Denis's claim that the Earth's thickness is uniform everywhere.\n\n- **B)** While true, this doesn't directly address the uniformity of Earth's thickness. It describes differences in composition between continents and oceanic crust but doesn't prove the thickness varies.\n\n- **C)** This describes the Earth's core but doesn't relate to the thickness of the crust or mantle, which is what Denis is claiming is uniform.\n\n- **D)** Plate tectonics describe the movement of Earth's crust but don't address the uniformity of the Earth's thickness.\n\nThus, **A** is the best choice to counter Denis's claim.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"B\". Generated answer says the correct answer is A. So they do not convey same meaning. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "कई जीवाणु लगभग 20°C के कमरे तापमान पर तेजी से बढ़ते हैं। एक रेफ्रिजरेटर के अंदर का तापमान आमतौर पर लगभग 4°C पर रखा जाता है। कौन सा दावा सर्वश्रेष्ठ तरीके से बतलाता है कि रेफ्रिजरेटर का उपयोग समाज की मदद कैसे करता है?\nA) यह गर्मियों में रसोईघर को ठंडा रखता है।\nB) यह खाद्य संग्रह के लिए अधिक जगह प्रदान करता है।\nC) यह खाने के लिए सुरक्षित रखने में लंबे समय तक मदद करता है।\nD) यह रसोई में बिजली का उपयोग सुरक्षित बनाता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) It helps keep food safe for longer periods.**  \n\n### Explanation:  \n- **Bacterial Growth:** Bacteria grow rapidly at room temperature (around 20°C), but refrigeration (at 4°C) slows down their growth, preserving food and reducing the risk of foodborne illnesses.  \n- **Other Options:**  \n  - **A)** The refrigerator doesn’t primarily cool the kitchen; its main purpose is food preservation.  \n  - **B)** While it provides storage space, this isn’t the primary societal benefit.  \n  - **D)** Safety isn’t directly related to electricity usage.  \n\nThus, **C** best explains how refrigeration helps society by extending food shelf life and reducing waste.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"C\". Generated answer says \"The correct answer is: C) It helps keep food safe for longer periods.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1121,
+        "question": "धरती पर सभी प्राकृतिक संसाधन तुलनीय या अतुलनीय होते हैं। यह निर्धारित करता है कि संसाधन का नवीनीकरण कितनी तेज़ी से या कितनी धीमी गति से होता है। यदि संसाधन का उपयोग इससे अधिक तेज़ी से होता है, तो संसाधन को समय के साथ-साथ उजाड़ जाएगा। कौन सी गतिविधि एक अतुलनीय प्राकृतिक संसाधन का उपयोग दर्शाती है?\nA) एक समूह लोग एक नदी में तैरते हैं।\nB) एक निर्माण कुल एक लोहे का पुल बनाता है।\nC) एक किसान स्थानीय बाजार में बेचने के लिए सब्जियां उगाता है।\nD) एक व्यक्ति एक हाइड्रोइलेक्ट्रिक बिजली उत्पादन संयंत्र द्वारा बिजली से एक केक बेक करता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) a construction company builds an iron bridge.**\n\n### Explanation:\n- **A) A group of people swim in a river.**  \n  This is a sustainable use of a natural resource (water) because the water is not depleted or significantly altered in the process.\n\n- **B) A construction company builds an iron bridge.**  \n  This is an example of using an **attainable** natural resource (iron ore) to create a durable product (bridge). The iron is extracted, processed, and used in a way that does not deplete the resource over time.\n\n- **C) A farmer grows vegetables for the local market.**  \n  This is a sustainable use of natural resources (soil, water, sunlight) because the resources are replenished through natural processes and farming practices.\n\n- **D) A person bakes a cake using electricity from a hydroelectric power plant.**  \n  This is an example of using an **attainable** resource (electricity generated from water). The water is not depleted in the process, and the resource is renewable.\n\nThus, **B** is the correct answer because it involves the use of an attainable natural resource (iron) in a way that does not deplete it over time.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"B\". Generated answer says correct answer is B, with explanation. So they match. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 681,
+        "question": "एक मकड़ी की आबादी में तीन अलग-अलग आकार होते हैं: छोटे, मध्यम और बड़े। बड़ी मकड़ियाँ शिकारियों द्वारा आसानी से दिखाई देती हैं। छोटी मकड़ियों को भोजन ढूंढने में मुश्किल होती है। बहुत सारी पीढ़ियों के बाद जनसंख्या के साथ अधिकतम क्या होगा?\nA) मध्यम मकड़ियाँ सबसे अधिक होंगी।\nB) बड़े मकड़ियाँ शिकारियों से छुपना सीख जाएंगे।\nC) छोटी और मध्यम मकड़ियाँ सबसे कम होंगी।\nD) छोटी और बड़ी मकड़ियाँ म्यूटेट हो जाएँगी।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**A) Medium-sized spiders will be the most numerous.**\n\n### Explanation:\n- **Large spiders** are easily spotted by predators, which reduces their survival and reproductive success.\n- **Small spiders** struggle to find food, which also limits their population growth.\n- **Medium-sized spiders** strike a balance between visibility to predators and the ability to find food efficiently. Over many generations, natural selection favors this size, leading to a higher population of medium-sized spiders.\n\nThus, the population will eventually stabilize with the most medium-sized spiders.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says \"The correct answer is: A) Medium-sized spiders will be the most numerous.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1106,
+        "question": "तान्या मैग्नेट के आकर्षित घरेलू वस्तुओं की जाँच करती है। कौन सी वस्तु उसकी निष्कर्ष निकालने में मदद करेगी?\nA) एक पूर्वानुमान\nB) एक अनुमान\nC) आपूर्ति की सूची\nD) परिणामों का तालिका\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) एक अनुमान**.\n\n**Explanation:**  \nAn \"अनुमान\" (inference) is a conclusion or judgment based on evidence or reasoning. In this context, तान्या is examining magnets and their attraction to household items. To draw conclusions, she would use her observations and reasoning to make an inference about which items are attracted to the magnet and why.  \n\nThe other options are not directly relevant:  \n- **A) एक पूर्वानुमान** (prediction) is a guess about future events, not a conclusion based on evidence.  \n- **C) आपूर्ति की सूची** (supply list) is a list of items needed for a task, not a tool for drawing conclusions.  \n- **D) परिणामों का तालिका** (table of results) is a data collection tool, but it doesn’t help in drawing conclusions.  \n\nThus, **B) एक अनुमान** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says correct answer is B. So they do not match. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 416,
+        "question": "अधिकतर सैलमन सल्ट वॉटर को छोड़कर फ्रेश वॉटर में लौटने का कारण कौन सा बयान देता है?\nA) यह एक सीखी हुई आचार है जो जनसंख्या को बनाए रखता है।\nB) यह एक सीखी हुई आचार है जो नमक की घनत्व को बनाए रखता है।\nC) यह एक वंशानुगत आचार है जो जनसंख्या को बनाए रखता है।\nD) यह एक वंशानुगत आचार है जो नमक की घनत्व को बनाए रखता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) यह एक सीखी हुई आचार है जो जनसंख्या को बनाए रखता है।**  \n\n### Explanation:  \nSalmon (सैलमन) का मीठे पानी में लौटना एक **सीखी हुई (learned) आदत** है, न कि जन्मजात (inherited) व्यवहार। यह व्यवहार उन्हें अपने जन्म स्थान पर प्रजनन करने में मदद करता है, जिससे उनकी आबादी बनी रहती है।  \n\n- **Option B** गलत है क्योंकि यह नमक की घनत्व (salinity) को नियंत्रित करने से संबंधित नहीं है।  \n- **Option C** गलत है क्योंकि यह व्यवहार वंशानुगत नहीं है, बल्कि अनुभव और पर्यावरणीय संकेतों से सीखा जाता है।  \n- **Option D** भी गलत है क्योंकि यह नमक की घनत्व को बनाए रखने से संबंधित नहीं है।  \n\nइसलिए, सही उत्तर **A** है।",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"अधिकतर सैलमन सल्ट वॉटर को छोड़कर फ्रेश वॉटर में लौटने का कारण कौन सा बयान देता है?\" Options A-D. Ground truth answer is \"C\". That means correct option is C: \"यह एक वंशानुगत आचार है जो जनसंख्या को बनाए रखता है।\" The generated answer says the correct answer is A: \"यह एक सीखी हुई आचार है जो जनसंख्या को बनाए रखता है।\" So they differ. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "बहुत से लोग भूमि के अंतर्गत संग्रहित जल से कुओं से ताजा पानी प्राप्त करते हैं। जब बारिश बहुत कम होती है, तब पानी की कमी होती है। पानी को अधिक समय तक बचाने के लिए कौन सा कदम सबसे उत्तम होगा?\nA) हफ्ते के कुछ ही घंटों के लिए स्प्रिंकलर का इस्तेमाल करना\nB) दोपहर में गाड़ियों को धोना\nC) पार्किंग लॉट से तेल साफ करने के लिए पानी को छिड़कना\nD) दांत साफ करते समय नल खुले छोड़ देना\nAnswer in English.",
+        "generated_answer": "The best step to conserve water for a longer period, especially during times of water scarcity, is:\n\n**A) Using the sprinkler for only a few hours a week.**\n\n### Explanation:\n- **Option A** suggests using the sprinkler for only a few hours a week, which helps in conserving water by reducing the frequency and duration of water usage. This is a practical and efficient way to manage water resources during dry periods.\n- **Option B** (washing cars at noon) and **Option C** (spraying water to clean oil from parking lots) are less efficient and can lead to significant water wastage.\n- **Option D** (leaving the tap open while brushing teeth) is a common source of water waste and should be avoided to conserve water effectively.\n\nThus, **A** is the most appropriate choice for conserving water.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". The generated answer says the best step is A) Using the sprinkler for only a few hours a week. That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 589,
+        "question": "मानव सर्कुलेटरी और श्वसन तंत्रों का आपसी कार्य का सबसे अच्छा वर्णन कौन सा है?\nA) हृदय फेफड़ों में बने अपशिष्ट को हटाता है।\nB) ऑक्सीजन नाक से सीधे ब्लडस्ट्रीम में प्रवेश करता है।\nC) ऑक्सीजन ब्लडस्ट्रीम में होता हुआ संक्रमित होता है जब ब्लड फेफड़ो के पास से गुजरता है।\nD) हृदय फेफड़ों के माध्यम से हवा को ब्लड में भेजता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**C) Oxygen becomes contaminated as it passes through the bloodstream when the blood passes near the lungs.**\n\n### Explanation:\nThe respiratory and circulatory systems work together to ensure oxygen is delivered to the body's tissues and carbon dioxide is removed. Here's how they interact:\n\n1. **Oxygen Intake**: Air enters through the nose/mouth, travels down the trachea, and into the lungs.\n2. **Gas Exchange in Lungs**: In the alveoli (tiny air sacs in the lungs), oxygen diffuses into the blood, and carbon dioxide (a waste product) diffuses out of the blood into the lungs to be exhaled.\n3. **Oxygenated Blood**: The oxygen-rich blood is then pumped by the heart to the rest of the body.\n4. **Carbon Dioxide Removal**: Deoxygenated blood returns to the lungs, where carbon dioxide is released and exhaled.\n\n### Why the Other Options Are Incorrect:\n- **A**: The heart does not remove waste; it pumps oxygenated blood to tissues and returns deoxygenated blood to the lungs.\n- **B**: Oxygen does not enter the bloodstream directly through the nose; it must pass through the lungs first.\n- **D**: The heart does not \"send air\" to the blood; it pumps blood that has already picked up oxygen in the lungs.\n\nThus, **C** is the most accurate description of their interaction.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". The generated answer says the correct answer is C, and explains. So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 911,
+        "question": "एक जंगली पारिस्थितिक में एक गिलहरी जनसँख्या का निच निम्नलिखित है\nA) को टूटने के लिए।\nB) फूलों को गुदांबूत करने के लिए।\nC) मिट्टी में पुनर्चक्रण संबंधी ऊर्जा को उर्जित करने के लिए।\nD) अकॉर्न इकट्ठा करना और मिट्टी में उन्हें गाढ़ी तली में दबाना।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Acorns collect and bury them deep in the soil.**  \n\n### Explanation:  \nGround squirrels (or other rodents) play a crucial role in seed dispersal and forest regeneration by:  \n- **Burrowing** (A) – They create underground tunnels, which helps aerate the soil.  \n- **Foraging for flowers** (B) – While they eat plants, this is not their primary ecological role.  \n- **Recycling energy in soil** (C) – They contribute to nutrient cycling, but this is a secondary effect.  \n- **Burying acorns** (D) – This is their most significant ecological role, as it helps plant new trees and maintain forest diversity.  \n\nThus, **D** is the best answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". Generated answer says \"The correct answer is: D) Acorns collect and bury them deep in the soil.\" That matches D. So meaning same. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 187,
+        "question": "भारी बारिश से पोषक तत्वों से भरा पानी खारे के सागर में बहता हुआ जाता है। इससे समुद्री पर्यावरण में एक जीवाणु फूल होता है। जैसे ही जीवाणु सूखने लगते हैं, तब किनारे के साथ-साथ इस्तेमाल होने वाली ऑक्सीजन की बहुत अधिक मात्रा तब तक उपयोग होती है जब तक कि क्षेत्र में क्या हो सकता है?\nA) पानी में ऑक्सीजन के स्थान पर नाइट्रोजन होता है।\nB) पानी का तापमान बढ़ जाता है।\nC) लहू हल्का होने से मृत जीवाणु को ले जाती है।\nD) बाज बाज़ मर जाते हैं और मछलियां दूर तैरती हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) बाज़ मर जाते हैं और मछलियां दूर तैरती हैं।**  \n\n### Explanation:  \nWhen a bloom of bacteria occurs due to nutrient-rich freshwater flowing into the sea, the following happens:  \n\n1. **Oxygen Depletion**: As the bacteria decompose, they consume large amounts of dissolved oxygen in the water.  \n2. **Hypoxia (Low Oxygen)**: This leads to a condition called **hypoxia**, where oxygen levels drop dangerously low.  \n3. **Marine Life Impact**:  \n   - **Fish and Marine Animals**: Many fish and marine organisms cannot survive in low-oxygen conditions and either die or flee to oxygen-rich areas.  \n   - **Birds (e.g., Seabirds)**: Birds like seagulls or pelicans that feed on these fish may also die due to lack of prey.  \n\n### Why Not the Other Options?  \n- **A)** Nitrogen does not replace oxygen in this scenario; oxygen depletion is the issue.  \n- **B)** While oxygen depletion can indirectly affect temperature, the primary effect is biological (oxygen loss).  \n- **C)** Dead bacteria do not \"lighten\" water; instead, they contribute to decomposition and further oxygen depletion.  \n\nThus, **D** is the most accurate and direct consequence.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is simply \"D\". Generated answer says \"The correct answer is: D) ...\". That matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 649,
+        "question": "एक छात्र ने डिस्टिल्ड पानी में सोडियम क्लोराइड, NaCl, को विलय कर दिया। इस स्थिति में पानी को सबसे अच्छी तरह से कौन सा शब्द वर्णन करता है?\nA) प्रतिघातक\nB) उत्पाद\nC) घोलक\nD) विलयनक\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) घोलक**.\n\nIn this context, the distilled water is acting as the **solvent** (घोलक), which is the substance that dissolves the solute (सोडियम क्लोराइड, NaCl). The resulting mixture is called a **solution** (विलयन), where the solute is evenly distributed in the solvent. \n\n- **A) प्रतिघातक** (Inhibitor) refers to a substance that slows down a chemical reaction.\n- **B) उत्पाद** (Product) refers to the result of a chemical reaction.\n- **D) विलयनक** (Solvent) is the same as **घोलक**, but the correct term in this context is **घोलक**. \n\nSo, the best description for the water in this scenario is **घोलक**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"एक छात्र ने डिस्टिल्ड पानी में सोडियम क्लोराइड, NaCl, को विलय कर दिया। इस स्थिति में पानी को सबसे अच्छी तरह से कौन सा शब्द वर्णन करता है? A) प्रतिघातक B) उत्पाद C) घोलक D) विलयनक Answer in English.\"\n\nGround truth answer: D\n\nSo correct answer is D) विलयनक (which is \"solvent\"? Actually \"विलयनक\" maybe also means solvent). The generated answer says correct answer is C) घोलक, and says D) विलयनक is same as घोलक but correct term is घोलक. So generated answer says answer is C, not D. Ground truth says D. So they do not convey same meaning. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 495,
+        "question": "एक छात्र का सिद्धांत है कि एक शर्ट पर बैलून को रगड़ने के बाद उसे दीवार पर रखने से इसे स्टैटिक बिजली के कारण चिपक जाएगा। एक बार प्रयोग करने के बाद, परिणाम विश्वसनीय होने का सबसे अच्छा तरीका क्या है?\nA) प्रयोग के परिणाम नोट करें।\nB) कुछ बार एक ही प्रयोग दोहराएं।\nC) स्टैटिक बिजली के बारे में एक अन्य सिद्धांत बनाएं।\nD) एक अलग स्टैटिक बिजली प्रयोग करें।\nAnswer in English.",
+        "generated_answer": "The best way to ensure the reliability of the experiment's results is:\n\n**B) Some times repeat the same experiment.**\n\nRepeating the experiment multiple times helps to confirm whether the observed result is consistent and not due to chance or an anomaly. This is a fundamental principle in scientific methodology to ensure the reliability and validity of the findings.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"B\". Generated answer says \"The best way ... is B) Some times repeat the same experiment.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 594,
+        "question": "सबसे अधिक आमतौर पर कौनसी प्राकृतिक घटना होती है?\nA) सूर्योदय\nB) इक्विनॉक्स\nC) पूर्णिमा\nD) सौर ग्रहण\nAnswer in English.",
+        "generated_answer": "The most common natural phenomenon is **A) सूर्योदय** (Sunrise).  \n\n### Explanation:  \n- **सूर्योदय** (Sunrise) occurs daily as the Earth rotates, making it the most frequent natural event.  \n- **इक्विनॉक्स** (Equinox) happens twice a year (spring and autumn), so it is less frequent.  \n- **पूर्णिमा** (Full Moon) occurs roughly once a month, but not every day.  \n- **सौर ग्रहण** (Solar Eclipse) is rare and only occurs a few times a year, depending on alignment.  \n\nThus, **सूर्योदय** is the most common natural phenomenon.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". Generated answer says the most common natural phenomenon is A) सूर्योदय (Sunrise). That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 376,
+        "question": "इनमें से कौन गुणतात्मक विद्युतवर्द्धक होने के गुण का वर्णन करता है?\nA) शोभायमान\nB) माल्यवान\nC) अधिकतम ऊष्मा विन्यास नहीं करता\nD) मात्रात्मक ऊष्मा ध्वनि लघु होती है\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) अधिकतम ऊष्मा विन्यास नहीं करता**  \n\n### Explanation:  \nA **गुणतात्मक विद्युतवर्द्धक** (qualitative electropositive element) is one that readily loses electrons to form positive ions (cations). This property is described by the ability to **not form the maximum possible number of bonds** (i.e., not fully utilizing its valence electrons) and thus exhibiting electropositive behavior.  \n\n- **A) शोभायमान** (Shobhayaman) – This means \"attractive\" or \"shining,\" unrelated to electropositivity.  \n- **B) माल्यवान** (Malayavān) – This means \"garlanded\" or \"adorned,\" also irrelevant.  \n- **D) मात्रात्मक ऊष्मा ध्वनि लघु होती है** (Quantitative heat sound is small) – This describes thermal conductivity or sound properties, not electropositivity.  \n\nThus, **C** is the correct choice as it aligns with the definition of a **qualitative electropositive element**.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"C\". Generated answer says \"The correct answer is: C) अधिकतम ऊष्मा विन्यास नहीं करता\". So it matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 387,
+        "question": "इन्हें में से कौन सी मानव गतिविधियों ने संकटित स्थिति में ओजोन परत की कमी में सबसे ज्यादा मदद की होगी?\nA) हाइड्रोइलेक्ट्रिक प्लांट का निर्माण \nB) खाद से जीवाणु निकास वाली खेतों से उत्पन्न खूबर\nC) फोसिल ईंधन का जलना\nD) एयरोसोल कैन से क्लोरोफ्लोरोकार्बन रिलीज करना\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Aerosol cans releasing chlorofluorocarbons (CFCs)**  \n\n### Explanation:  \nThe ozone layer is most significantly depleted by **chlorofluorocarbons (CFCs)**, which were commonly used in **aerosol cans, refrigerants, and foam-blowing agents**. When released into the atmosphere, CFCs rise to the stratosphere, where they are broken down by UV radiation, releasing chlorine atoms that catalytically destroy ozone molecules.  \n\n### Why not the others?  \n- **A) Hydropower plants** – These do not directly harm the ozone layer.  \n- **B) Fertilizer runoff** – While it can cause eutrophication, it does not contribute to ozone depletion.  \n- **C) Burning fossil fuels** – This releases greenhouse gases (like CO₂) but not CFCs, which are the primary ozone-depleting substances.  \n\nThus, **CFCs from aerosol cans (D)** were the major human-made contributors to ozone layer depletion before their regulation under the **Montreal Protocol (1987)**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"D\". Generated answer says correct answer is D, with explanation. So they match. Therefore answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 382,
+        "question": "22 सैंडी जांच कर रहा है कि उसके कुत्ते को सबसे ज्यादा कौनसा खाना पसंद है। उसकी जांच में कौनसा मानित करके परिवर्तित होता है?\nA) उसके कुत्ते के भोजन के बर्तन का रंग\nB) उसके कुत्ते को कौन सा खाना दिया जाता है\nC) उसके कुत्ते को कितना भोजन दिया जाता है\nD) वह अपने कुत्ते को खिलाने का समय\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**B) His dog is given which food**  \n\n### Explanation:  \nSandy is testing which food his dog likes the most. This means the variable being changed (manipulated) is the **type of food** he offers his dog.  \n\n- **A) The color of the food bowl** – This doesn’t affect the dog’s preference for food.  \n- **C) How much food is given** – This is about quantity, not preference.  \n- **D) Feeding time** – This is about schedule, not taste preference.  \n\nThus, the **food type (B)** is the independent variable being tested.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"B\". Generated answer says the correct answer is B, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 67,
+        "question": "छात्र अध्ययन करते हैं कि किस पदार्थ के तापमान से अणुओं की गति संबंधित होती है। कौन से पदार्थ के अणु सबसे तेजी से घूमते हैं?\nA) ठंडा दूध\nB) गरम सूप\nC) बर्फ से पिघलता हुआ पानी\nD) उबलते पानी से उठता पानीपानी\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) गरम सूप**.\n\nExplanation: The temperature of a substance is directly related to the kinetic energy of its molecules. As the temperature increases, the molecules move faster, and their kinetic energy increases. Therefore, the molecules in **गरम सूप** (hot soup) will be moving the fastest among the given options. \n\n- **ठंडा दूध** (A) will have slower-moving molecules.\n- **बर्फ से पिघलता हुआ पानी** (C) will have molecules that are transitioning from a solid to a liquid state, but they will not be as fast as those in a liquid state.\n- **उबलते पानी से उठता पानी** (D) is also in a liquid state, but it is specifically steam, which is a gas. While steam molecules are indeed very fast, the question specifically asks for a liquid, and **गरम सूप** is the closest liquid option. \n\nThus, **गरम सूप** is the correct answer.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says correct answer is B) गरम सूप. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "ब्रियाना को लगता है कि बड़े कद्दू के बीज छोटे कद्दू के बीजों से जल्दी अंकुरित होते हैं। वह चारों आकार के चार-चार बीजों को एक ही कंटेनर में उगाती है। ब्रियाना कोई ऐसी अनुमानित धारणा बना रही है जो कुछ होने का वर्णन करती हो। ब्रियाना की धारणा को क्या नाम दिया जाता है?\nA) एक प्रयोग\nB) एक परिणाम\nC) एक चर\nD) एक अभिगम्यता\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**A) एक प्रयोग**\n\n**Explanation:**  \nBriana is conducting an experiment by planting four seeds of each size (big and small) in the same container to observe which ones germinate faster. This is an example of an **experiment**, where she is testing a hypothesis (that big pumpkin seeds germinate faster than small ones) by systematically comparing the outcomes.  \n\n- **B) एक परिणाम** (Result) refers to the outcome of the experiment, not the process itself.  \n- **C) एक चर** (Variable) refers to the factor being changed (e.g., seed size), but the question is about the overall approach, not a specific variable.  \n- **D) एक अभिगम्यता** (Accessibility) is unrelated to the context.  \n\nThus, the best answer is **A) एक प्रयोग**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". Generated answer says \"A) एक प्रयोग\". They are not the same. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "बर्फ में और तरल जल में मोलेक्यूलों के बारे में कौन सा बयान सही है?\nA) बर्फ की मोलेक्यूलों में तरल जल में के मोलेक्यूलों से अधिक ऊर्जा होती है।\nB) बर्फ की मोलेक्यूलों में तरल जल में की मोलेक्यूलों से भिन्न अणु होते हैं।\nC) बर्फ की मोलेक्यूलों में तरल जल में के मोलेक्यूलों से अधिक विद्युत आवेश होता है।\nD) बर्फ की मोलेक्यूलों की गति तरल जल में के मोलेक्यूलों से कम होती है।\nAnswer in English.",
+        "generated_answer": "The correct statement is:\n\n**D) बर्फ की मोलेक्यूलों की गति तरल जल में के मोलेक्यूलों से कम होती है।**\n\n### Explanation:\n- In **solid ice**, the molecules are tightly packed in a fixed, ordered structure, so their movement is limited to vibrating in place.  \n- In **liquid water**, the molecules have more energy and can move more freely, sliding past each other.  \n\nThus, the molecules in ice move **less** than those in liquid water.  \n\nThe other options are incorrect because:  \n- **A)** Ice molecules have **less** energy than liquid water molecules (they are in a lower-energy state).  \n- **B)** The molecules are the same (H₂O), just arranged differently.  \n- **C)** There is no significant difference in electrical charge between ice and liquid water molecules.  \n\n**Final Answer: D**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says the correct statement is D, explains, and final answer D. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 141,
+        "question": "हर दिन दिन के प्रकाश के घंटों की संख्या कब और कहां सबसे अधिक होगी?\nA) क्षैतिज निकट विंटर में\nB) क्षैतिज निकट गर्मियों में\nC) उत्तर ध्रुव के पास विंटर में\nD) उत्तर ध्रुव के पास गर्मियों में\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) उत्तर ध्रुव के पास गर्मियों में**.\n\n### Explanation:\n- **उत्तर ध्रुव के पास गर्मियों में**: यहाँ, सूर्य लगभग 6 महीने तक लगातार चमकता रहता है, जिससे दिन के प्रकाश के घंटे सबसे अधिक होते हैं। यह घटना \"मिडसमर\" या \"मिडसमर नाइट्स\" के रूप में जानी जाती है।\n\n- **क्षैतिज निकट विंटर में**: यहाँ, सूर्य के प्रकाश के घंटे सबसे कम होते हैं, क्योंकि सूर्य क्षितिज के नीचे रहता है।\n\n- **उत्तर ध्रुव के पास विंटर में**: यहाँ भी, सूर्य के प्रकाश के घंटे बहुत कम होते हैं, क्योंकि सूर्य क्षितिज के नीचे रहता है।\n\n- **क्षैतिज निकट गर्मियों में**: यहाँ, दिन के प्रकाश के घंटे अधिक होते हैं, लेकिन उत्तर ध्रुव के पास गर्मियों की तुलना में कम होते हैं।\n\nइसलिए, उत्तर ध्रुव के पास गर्मियों में दिन के प्रकाश के घंटे सबसे अधिक होते हैं।",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". The generated answer says correct answer is D) उत्तर ध्रुप के पास गर्मियों में, with explanation. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 183,
+        "question": "छात्र दो तालाबों के हर एक से 500 मिलीलीटर के पानी के नमूनों से माइक्रोऑर्गेनिज्म समुदायों के आकार का तुलना करना चाहते हैं। उनकी अधिकतम अधिगम्यता पर कौन सा कारक सबसे ज्यादा प्रभावित होगा?\nA) पानी के नमूनों के औसत तापमान\nB) माइक्रोस्कोप स्लाइड का ब्रांड\nC) माइक्रोस्कोप की विस्तृतता\nD) प्रत्येक माइक्रोऑर्गेनिज्म की उचित पहचान\nAnswer in English.",
+        "generated_answer": "The correct answer is **A) पानी के नमूनों के औसत तापमान**.\n\n### Explanation:\nThe size of the microorganism community in water samples can be significantly influenced by environmental factors, particularly **temperature**. Temperature affects microbial growth rates, metabolic activities, and even the survival of certain species. Since the two water samples are from different sources, their average temperatures could differ, leading to variations in the size and composition of the microorganism communities.\n\nThe other options are less likely to have a significant impact on the comparison:\n- **B) माइक्रोस्कोप स्लाइड का ब्रांड**: The brand of the microscope slide is unlikely to affect the microorganism community size, as long as the slides are of good quality and properly prepared.\n- **C) माइक्रोस्कोप की विस्तृतता**: The magnification and resolution of the microscope are important for observing microorganisms, but they do not directly affect the size of the microorganism community in the sample.\n- **D) प्रत्येक माइक्रोऑर्गेनिज्म की उचित पहचान**: Proper identification of microorganisms is crucial for accurate analysis, but it does not directly influence the size of the microorganism community in the sample.\n\nTherefore, the **average temperature** of the water samples is the most likely factor to affect the comparison of microorganism community sizes.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"छात्र दो तालाबों के हर एक से 500 मिलीलीटर के पानी के नमूनों से माइक्रोऑर्गेनिज्म समुदायों के आकार का तुलना करना चाहते हैं। उनकी अधिकतम अधिगम्यता पर कौन सा कारक सबसे ज्यादा प्रभावित होगा?\" Options A-D. Ground truth answer is \"C\". That means correct answer is option C: माइक्रोस्कोप की विस्तृतता (microscope magnification). Generated answer says correct answer is A) average temperature. That does not match ground truth. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "एक छात्र ने अलग-अलग मिट्टी के पौधों के विकास का अध्ययन किया। डेटा को संगठित करने का सबसे अच्छा तरीका है\nA) तिथि और समय।\nB) तिथि और पौधे की ऊंचाई।\nC) पौधे की ऊंचाई और मिट्टी का प्रकार\nD) तिथि, पौधे की ऊंचाई और मिट्टी का प्रकार।\nAnswer in English.",
+        "generated_answer": "The best way to organize the data for the student's study on the growth of plants in different types of soil is:\n\n**D) Date, plant height, and type of soil.**\n\n### Explanation:\n- **Date and Time (A):** While recording the date and time is important for tracking when measurements were taken, it alone does not provide enough information to analyze the relationship between plant height and soil type.\n- **Date and Plant Height (B):** Recording only the date and plant height can help track growth over time but does not account for the different types of soil, which is a critical variable in this study.\n- **Plant Height and Type of Soil (C):** This combination is better than the previous options because it allows the student to compare plant growth across different soil types. However, it still lacks the temporal aspect, which is important for understanding growth patterns over time.\n- **Date, Plant Height, and Type of Soil (D):** This is the most comprehensive approach. It allows the student to track plant growth over time, compare growth across different soil types, and analyze the impact of soil type on plant height. This method provides a complete dataset for statistical analysis and drawing meaningful conclusions.\n\nTherefore, **D) Date, plant height, and type of soil** is the best choice.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"D\". Generated answer says the best way is D) Date, plant height, and type of soil. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 306,
+        "question": "लंबे समय तक, नदी में बहते हुए पानी नदी के बिस्तर को कटाक्ष करता है। यह कटाक्ष नदी को इसे करता है कि वह\nA) फ्लो रोक देती है।\nB) लहरें उत्पन्न करता है।\nC) तेज और साफ तरल हो जाती है।\nD) गहरी और चौड़ी होती है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) गहरी और चौड़ी होती है।**  \n\n### Explanation:  \nOver time, the continuous flow of water in a river erodes the riverbed, causing the river to **deepen and widen**. This process is called **downcutting** or **incision**, which shapes the river's course.  \n\nThe other options are incorrect because:  \n- **A)** The river does not \"stop flowing.\"  \n- **B)** While erosion can cause turbulence, the primary effect is not necessarily \"waves.\"  \n- **C)** The water does not necessarily become \"cleaner\" due to erosion.  \n\nThus, the most accurate answer is **D) गहरी और चौड़ी होती है** (the river becomes deeper and wider).",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"D\". Generated answer says correct answer is D and explains. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 79,
+        "question": "एक्सोथर्मिक प्रतिक्रिया सबसे अच्छी तरह से निम्नलिखित के साथ प्रदर्शित की जा सकती है\nA) कार इंजन।\nB) रेफ्रिजरेटर।\nC) फ्रायिंग पैन।\nD) गिलास बोतल।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Car engine.**  \n\n### Explanation:  \nAn **exothermic reaction** releases heat energy to the surroundings. A car engine operates through combustion reactions (like burning fuel), which release heat and energy, making it an example of an exothermic process.  \n\n- **B) Refrigerator** → Uses an endothermic process (absorbs heat to cool).  \n- **C) Frying pan** → Heats up due to conduction, but the cooking process itself is endothermic (absorbs heat).  \n- **D) Glass bottle** → No chemical reaction occurs here.  \n\nThus, the **car engine** best demonstrates an exothermic reaction.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says \"The correct answer is: A) Car engine.\" So they match. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1107,
+        "question": "सूर्य के चारोंों ओर पृथ्वी को कैसे घुमाया जाता है?\nA) चंद्रमा की अविरतता\nB) पृथ्वी के चक्रवात का स्थान\nC) पृथ्वी के घूर्णन की गति\nD) सूर्य की गुरुत्वाकर्षण बल\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) पृथ्वी के घूर्णन की गति**  \n\n### Explanation:  \nEarth rotates (spins) on its axis once every 24 hours, which causes day and night. This rotation is what makes Earth appear to move around the Sun in its orbit. The other options are incorrect because:  \n- **A)** The Moon's phases are due to its orbit around Earth, not Earth's rotation.  \n- **B)** Cyclones are atmospheric phenomena, not related to Earth's motion around the Sun.  \n- **D)** While the Sun's gravity keeps Earth in orbit, it does not \"spin\" Earth around itself.  \n\nThus, **Earth's rotation (C)** is the key factor in its apparent movement around the Sun.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"सूर्य के चारोंों ओर पृथ्वी को कैसे घुमाया जाता है?\" Options: A) चंद्रमा की अविरतता B) पृथ्वी के चक्रवात का स्थान C) पृथ्वी के घूर्णन की गति D) सूर्य की गुरुत्वाकर्षण बल. The ground truth answer is D. The generated answer says C. So they differ. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 801,
+        "question": "गुरुत्वाकर्षण और चुंबकत्व दोनों\nA) सामान्य बल हैं\nB) प्राकृतिक चक्र हैं\nC) पदार्थ की स्थिति हैं\nD) ऊर्जा के रूप हैं\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) सामान्य बल हैं**  \n\n### Explanation:  \n- **Gravity (गुरुत्वाकर्षण)** and **magnetism (चुंबकत्व)** are both fundamental forces of nature that act as **forces of attraction or repulsion** between objects.  \n- They are **not natural cycles** (B), **properties of matter** (C), or **forms of energy** (D).  \n- Instead, they are **fundamental forces** that govern interactions between objects, making **A** the correct choice.  \n\nLet me know if you'd like further clarification!",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"A\". Generated answer says correct answer is A) सामान्य बल हैं. So yes matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1074,
+        "question": "मॉर्निंग ग्लोरीज़ पौधे ऐसे पौधे होते हैं जिनमें फूलों के रंग के जीन के लिए बहुत सारी विविधता होती है। जब एक सफेद फूल सफेद फूल के गुण के बिना एक जनसँख्या में प्रकट होता है, तो सबसे संभव स्रोत क्या है?\nA) आनुवांशिक मूटेशन\nB) चयनात्मक प्रजनन\nC) जीनोम डुप्लिकेशन\nD) यौन पुनर्विचार\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Genetic mutation**  \n\n### Explanation:  \nA **genetic mutation** is a sudden, random change in the DNA sequence that can lead to new traits, such as a white flower appearing in a population where only white-flowered plants existed before. This is the most likely source of the new trait in this scenario.  \n\n- **B) Selective breeding** would involve intentional human intervention to propagate desirable traits, which is not mentioned here.  \n- **C) Genome duplication** would result in multiple copies of genes, not a new trait appearing suddenly.  \n- **D) Sexual recombination** (cross-pollination) could introduce new traits, but it would not explain the sudden appearance of a trait without prior presence.  \n\nThus, **genetic mutation** is the most plausible explanation.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". The generated answer says \"The correct answer is: A) Genetic mutation\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 564,
+        "question": "चांद की उत्पत्ति की कौन सी सिद्धांत धरती के चंद्रमा का उत्पन्न होने का तुलनात्मक प्रक्रिया वह विधि प्रस्तावित करता है जो मंगल, बृहस्पति और नेपच्यून जैसे ग्रहों के उत्पत्ति के द्वारा एक ही विधि से उत्पन्न हुआ था?\nA) द जायंट इम्पैक्ट थ्योरी\nB) द फिशन थ्योरी\nC) द कैप्चर थ्योरी\nD) द को-एक्कोर्डिएशन थ्योरी\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) The Giant Impact Theory**  \n\n### Explanation:  \nThe **Giant Impact Theory (or Theia Impact Hypothesis)** is the most widely accepted scientific explanation for the Moon's formation. According to this theory:  \n\n- A Mars-sized body (named **Theia**) collided with the early Earth about **4.5 billion years ago**.  \n- The debris from this colossal collision coalesced to form the Moon.  \n- This process is similar to how some planets (like Mars, Jupiter, and Neptune) may have formed through accretion and collisions in the early solar system.  \n\n### Why not the others?  \n- **B) Fission Theory** – Suggests the Moon split from Earth due to rapid rotation, but lacks evidence.  \n- **C) Capture Theory** – Proposes Earth \"captured\" the Moon from space, but doesn’t explain the Moon’s similar composition.  \n- **D) Co-Accretion Theory** – Suggests Earth and Moon formed together, but doesn’t account for the Moon’s small iron core.  \n\nThus, the **Giant Impact Theory** best aligns with the idea of a comparable formation process seen in other planetary systems.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"D\". The generated answer says \"A) The Giant Impact Theory\". That's not same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1068,
+        "question": "एक डीएनए नितंब नुक्लियोटाइडों की एक अनुक्रमणिका से बने कोडॉन को शामिल होते हैं। कोडॉनों के महत्व को सबसे बेहतरीन तरीके से क्या वर्णन करता है, जो डीएनए के अनुक्रम में पाए जाते हैं?\nA) वे मैसेंजर आरएए के लिए कोड जानते हैं।\nB) वे माइटोटिक सेल विभाजन की शुरुआत संकेत करते हैं।\nC) वे आनुवंशिक कोड के सही पुनर्जनन को सुनिश्चित करते हैं।\nD) वे प्रोटीन संश्लेषण के लिए एमिनो एसिडों को एकत्रित करने के लिए प्रयोग किए जाते हैं।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) They are used to assemble amino acids for protein synthesis.**\n\n### Explanation:\nCodons are sequences of three nucleotides in DNA (or RNA) that specify which amino acid should be incorporated into a protein during translation. Each codon corresponds to a specific amino acid or a stop signal. This process is fundamental to protein synthesis, ensuring that the correct sequence of amino acids is assembled to form functional proteins. \n\nThe other options are incorrect because:\n- **A)** Messenger RNA (mRNA) carries the genetic code from DNA to the ribosome, but codons themselves do not directly code for mRNA.\n- **B)** Mitotic cell division is regulated by genes and signaling pathways, not directly by codons.\n- **C)** While codons ensure accurate replication, their primary role is in protein synthesis, not just the replication of DNA. \n\nThus, **D** is the most accurate description of the importance of codons.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". The generated answer says correct answer is D and explains. So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 482,
+        "question": "धरती की खनिज परत से कोयला हटाना पृथ्वी की परत की संरचना में परिवर्तन ला सकता है, मैथेन गैस रिलीज़ कर सकता है, और उपजल में भारी धातुओं से प्रदूषण कर सकता है। इन सभी परिणामों से सबसे ज्यादा किस पृथ्वी की उप प्रणाली को प्रभावित किया जा सकता है?\nA) वायुमंडल\nB) जैवमंडल\nC) जलमंडल\nD) शिलामंडल\nAnswer in English.",
+        "generated_answer": "The correct answer is **D) शिलामंडल (Lithosphere)**.\n\nHere's why:\n\n1. **शिलामंडल (Lithosphere)**: The question specifically mentions removing coal from the Earth's mineral layer, which directly affects the lithosphere (the solid outer part of the Earth, including the crust and upper mantle). Coal is a part of the Earth's crust, and its removal disrupts the lithosphere's structure and composition.\n\n2. **वायुमंडल (Atmosphere)**: While methane gas release could affect the atmosphere, the question focuses on the immediate impact of coal removal on the Earth's layers, not atmospheric changes.\n\n3. **जैवमंडल (Biosphere)**: The release of methane and heavy metals could affect the biosphere (all living organisms), but the question is about the Earth's layers, not biological systems.\n\n4. **जलमंडल (Hydrosphere)**: Heavy metal pollution in water bodies affects the hydrosphere, but the question is about the Earth's layers, not water systems.\n\nThus, the primary impact is on the **शिलामंडल (Lithosphere)**.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: asks which Earth subsystem is most affected. Options: A atmosphere, B biosphere, C hydrosphere, D lithosphere. The ground truth answer is B (biosphere). Generated answer says D (lithosphere). They differ. So answer is False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "आईरीन को दो बोर्डों को साथ मिलाने की आवश्यकता है। कौन सा उपयोग बोर्डों को साथ मिलाने में नहीं किया जायेगा?\nA) गोंद\nB) स्क्रू\nC) नेल\nD) देखा\nAnswer in English.",
+        "generated_answer": "The correct answer is **C) नेल (Nail)**.  \n\n**Explanation:**  \n- **A) गोंद (Glue)** – Used to stick materials together.  \n- **B) स्क्रू (Screw)** – Used to fasten or join materials.  \n- **C) नेल (Nail)** – Used to attach or secure materials, but not to *join* two boards together.  \n- **D) देखा (Hammer)** – Used to drive nails, but not directly for joining boards.  \n\nSince the question asks for a method **not** used to join boards, **नेल (Nail)** is the correct choice because nails are typically used for fastening rather than joining two boards together.  \n\n**Answer:** **C) नेल**",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"आईरीन को दो बोर्डों को साथ मिलाने की आवश्यकता है। कौन सा उपयोग बोर्डों को साथ मिलाने में नहीं किया जायेगा?\" Means: \"Irene needs to join two boards together. Which will NOT be used to join boards?\" Options: A) glue, B) screw, C) nail, D) देखा (maybe \"hammer\"?). The correct answer should be something not used to join boards. Typically glue, screw, nail are used to join boards. Hammer is a tool, not a joining material. So answer D (hammer) is correct. Ground truth says D. Generated answer says C (nail). That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "नई प्रौद्योगिकियों ने ऑटोमोबाइल निर्माताओं को ईंधन-दक्ष हाइब्रिड कारों का विपणन करने की अनुमति दी है, लेकिन उनकी सेवा जीवन के अंत में हाइब्रिड गाड़ियों को निस्तारण करना एक समस्या पेश करता है। हाइब्रिड वाहनों के लिए निस्तारण समस्या की प्रतिनिधिता करने वाला कौन सा प्रश्न है?\nA) बैटरी को कैसे रीसाइकल किया जाएगा?\nB) एयर कंडीशनिंग सिस्टम में रेफ्रिजरेंट के साथ क्या किया जाएगा?\nC) गैस टैंक, रेडिएटर और बैटरी में फ्लूइड के साथ क्या किया जाएगा?\nD) वाहन में प्लास्टिक सामग्री के साथ क्या किया जाएगा?\nAnswer in English.",
+        "generated_answer": "The question that best represents the disposal problem for hybrid vehicles is:\n\n**A) How will the battery be recycled?**\n\n### Explanation:\nHybrid vehicles contain advanced battery systems (typically lithium-ion batteries) that are crucial for their operation. These batteries are large, heavy, and contain hazardous materials. At the end of their life, recycling these batteries is a significant challenge due to their complexity and the need to recover valuable materials (like lithium, cobalt, and nickel) while safely disposing of toxic components. This makes battery recycling the most critical and representative issue in hybrid vehicle disposal.\n\nWhile the other options (B, C, and D) also involve environmental and safety concerns, the battery recycling issue is the most prominent and technically challenging aspect of hybrid vehicle disposal.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"A\". Generated answer says the question that best represents disposal problem is A) How will the battery be recycled? So yes, same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 563,
+        "question": "एक पेड़ की तना और एक फूल की तना में सबसे अधिक समानता क्या है?\nA) दोनों मुलायम हैं।\nB) दोनों में कांटे होते हैं।\nC) दोनों पौधे को समर्थन करते हैं।\nD) दोनों में लकड़ी की छाल होती है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**C) Both provide support to the plant.**  \n\n### Explanation:  \n- The **stem** of a tree and the **stem** of a flower both serve as the main structural support for the plant, helping it stand upright and transport nutrients and water.  \n- While other options (like softness or having thorns) may sometimes apply, the primary and most fundamental similarity is their role in supporting the plant.  \n\nThus, **C** is the best answer.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"C\". Generated answer says correct answer is C and explains. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 922,
+        "question": "हाल के समय तक, केवल इंसानी डीएनए के छोटे से हिस्से का माना स्पष्ट कार्य होने के लिए जानता था। बाकी डीएनए को अमहत्वपूर्ण माना जाता था। नए साक्ष्य अब इस बात की सुझाव देते हैं कि कुछ जीन क्रियाओं में सभी डीएनए की आवश्यकता होती है। इस नए साक्ष्य का महत्व सर्वश्रेष्ठ ढंग से कौन सा बयान देता है?\nA) इससे डीएनए का अध्ययन करना बहुत सरल हो जाएगा।\nB) यह साबित करता है कि डीएनए मूल रूप से सोचिते थे से कम महत्वपूर्ण है।\nC) यह साबित करता है कि वैज्ञानिक परिणामों पर सवाल नहीं किए जाने चाहिए।\nD) यह दिखाता है कि वैज्ञानिक ज्ञान परिवर्तन के लिए विषय होता है।\nAnswer in English.",
+        "generated_answer": "The correct answer is:\n\n**D) It shows that scientific knowledge is subject to change.**\n\n### Explanation:\nThe statement highlights how scientific understanding evolves over time. Initially, only a small portion of human DNA was thought to have a clear function, while the rest was considered \"junk.\" However, new evidence suggests that all DNA may play a role in gene activity. This demonstrates that scientific knowledge is not static and can be revised as new discoveries are made. \n\nThe other options are incorrect because:\n- **A)** The study of DNA is not necessarily simpler; it may become more complex as more functions are discovered.\n- **B)** The evidence does not suggest that DNA is less important overall; it just shows that more of it is functional than previously thought.\n- **C)** The statement does not imply that scientific results should not be questioned; rather, it shows how scientific knowledge can be refined.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is simply \"D\". The generated answer says the correct answer is D and explains. That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1008,
+        "question": "वैकल्पिक ऊर्जा संसाधनों में से कौन से मालूम है जो गुरुत्वाकर्षण ऊर्जा का उपयोग बिजली बनाने के लिए करते हैं?\nA) टाइडल ऊर्जा और हाइड्रोपावर\nB) भूगर्भीय ऊर्जा और हाइड्रोपावर\nC) हवा ऊर्जा और टाइडल ऊर्जा\nD) भूगर्भीय ऊर्जा और हवा ऊर्जा\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**A) Tidal energy and Hydro power**  \n\n### Explanation:  \n- **Tidal Energy**: Uses the gravitational pull of the moon and sun on ocean tides to generate electricity.  \n- **Hydro Power (Hydropower)**: Uses the gravitational force of flowing or falling water (from rivers, dams, or tides) to spin turbines and produce electricity.  \n\nThe other options are incorrect because:  \n- **B) Geothermal energy** comes from Earth's internal heat, not gravity.  \n- **C) Wind energy** relies on air movement, not gravity.  \n- **D) Geothermal energy and wind energy** are unrelated to gravity.  \n\nThus, **A** is the correct choice.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"वैकल्पिक ऊर्जा संसाधनों में से कौन से मालूम है जो गुरुत्वाकर्षण ऊर्जा का उपयोग बिजली बनाने के लिए करते हैं?\" Options given. The correct answer is A) टाइडल ऊर्जा और हाइड्रोपावर. Ground truth answer: \"A\". Generated answer says \"The correct answer is: A) Tidal energy and Hydro power\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 731,
+        "question": "लगभग 100 साल पहले, एक बड़ा ज्वालामुखी दक्षिण प्रशांत में फूटा था। अगले साल, बोस्टन में हर महीने नकदी बर्फबारी का रिकॉर्ड बनाया गया, और अधिकांश उत्तरी गोलार्ध में एक ठंडा गर्मी का सामना किया। कौन समझाता है कि ये दो घटनाएं कैसे संबंधित थीं?\nA) फ्यूज द्वारा चालू की गई हरीभरी घटना को भड़काया गया था।\nB) प्रकोप से लावा फ्लो ने पृथ्वी की कुल ऊष्मा ऊर्जा में एक अस्थायी वृद्धि का कारण बनाया।\nC) ज्वालामुखी ने ओज़ोन परत को नुकसान पहुंचाया।\nD) प्रकोप से वायु प्रदूषण ने पृथ्वी तक सोलर ऊर्जा की मात्रा में एक कमी को उत्पन्न किया।\nAnswer in English.",
+        "generated_answer": "The correct answer is **B) The eruption caused a temporary increase in Earth's total heat energy.**\n\n### Explanation:\nThe eruption of a volcano can have significant effects on the Earth's climate, particularly when it is a large and explosive event. Here's how this relates to the two phenomena mentioned:\n\n1. **Volcanic Eruption and Climate Cooling:**\n   - Large volcanic eruptions can inject a significant amount of sulfur dioxide (SO₂) and other aerosols into the stratosphere. These particles can reflect sunlight back into space, leading to a cooling effect on the Earth's surface. This phenomenon is known as \"volcanic winter.\"\n   - The cooling effect can last for several years, as the particles remain in the stratosphere and continue to reflect sunlight.\n\n2. **Cold Summer and Record Snowfall in Boston:**\n   - The cooling effect of the volcanic eruption would have led to a decrease in global temperatures, which could result in colder summers and more frequent and intense snowfall in regions like Boston.\n   - The reduced solar radiation reaching the Earth's surface would have contributed to the unusually cold summer and the record snowfall.\n\n### Why the Other Options Are Incorrect:\n- **A) The eruption did not \"fuel\" the greenhouse effect.** In fact, the eruption would have temporarily reduced the greenhouse effect by reflecting more sunlight back into space.\n- **C) While volcanic eruptions can release gases that affect the ozone layer, this is not the primary mechanism for the observed climate effects in this case.** The cooling effect is more directly related to the reflection of sunlight.\n- **D) Volcanic eruptions do not typically reduce the amount of solar energy reaching the Earth.** Instead, they can increase the reflection of solar energy, leading to a cooling effect.\n\nThus, the most accurate explanation is that the volcanic eruption caused a temporary increase in Earth's total heat energy, leading to the observed climate effects.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question asks: which explains how two events are related? Options A-D. Ground truth answer is D. Generated answer says B. So they are not the same. Therefore answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "1997 के 15 अक्टूबर को, नेवाडा के काले रेगिस्तान में एंडी ग्रीन ने एक जेट-पावर्ड कार के साथ 339 मीटर प्रति सेकंड की औसत गति पर मापी गई दूरी पर चलकर \"थ्रस्ट\" नामक जेट- पावर्ड कारमें यात्रा करने वाले पहले व्यक्ति थे। एंडी ने पहली बार\nA) डॉप्लर प्रभाव का उपयोग करना।\nB) जेट ईंधन वाली कार में ड्राइव करना।\nC) नेवाडा के काले रेगिस्तान को पार करना।\nD) ध्वनि की गति को भूमि पर तोड़ना।\nAnswer in English.",
+        "generated_answer": "The correct answer is:  \n\n**D) Breaking the sound barrier on land.**  \n\n### Explanation:  \nOn October 15, 1997, Andy Green became the first person to break the sound barrier on land in the *Thrust SSC* jet-powered car. He reached an average speed of **339 m/s (1,220 km/h or 760 mph)**, surpassing the sound barrier (approximately **343 m/s at sea level**).  \n\n- **A) Doppler effect** – While the Doppler effect is related to sound waves, it was not the primary focus of this achievement.  \n- **B) Driving a jet-fueled car** – This is true, but the key achievement was breaking the sound barrier.  \n- **C) Crossing Nevada's Black Rock Desert** – The location is correct, but the main accomplishment was exceeding the speed of sound.  \n- **D) Breaking the sound barrier on land** – This is the correct answer, as the event was specifically about surpassing the speed of sound on land.  \n\nThus, the most accurate choice is **D**.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says \"The correct answer is: D) Breaking the sound barrier on land.\" That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 664,
+        "question": "एक वस्तु की शक्ति, जिसमें एक निश्चित भार एक निश्चित दर की त्वरण के साथ त्वरण कर रही है, निम्नलिखित समीकरण का उपयोग करके निर्धारित की जा सकती है। शक्ति = भार x त्वरण कौन सी वस्तु सबसे बड़ी शक्ति रखती होगी?\nA) 10 m/s^2 पर त्वरण करने वाली 5-kg वस्तु\nB) 20 m/s^2 पर त्वरण करने वाली 5-kg वस्तु\nC) 4 m/s^2 पर त्वरण करने वाली 20-kg वस्तु\nD) 3 m/s^2 पर त्वरण करने वाली 20-kg वस्तु\nAnswer in English.",
+        "generated_answer": "To determine which object has the greatest power, we need to use the formula for power:\n\n\\[\n\\text{Power} = \\text{Weight} \\times \\text{Acceleration}\n\\]\n\nThe weight of an object is given by:\n\n\\[\n\\text{Weight} = \\text{Mass} \\times \\text{Acceleration due to gravity}\n\\]\n\nAssuming the acceleration due to gravity \\( g = 10 \\, \\text{m/s}^2 \\), we can calculate the power for each option:\n\n**Option A:**\n- Mass \\( m = 5 \\, \\text{kg} \\)\n- Acceleration \\( a = 10 \\, \\text{m/s}^2 \\)\n\n\\[\n\\text{Power} = 5 \\, \\text{kg} \\times 10 \\, \\text{m/s}^2 = 50 \\, \\text{W}\n\\]\n\n**Option B:**\n- Mass \\( m = 5 \\, \\text{kg} \\)\n- Acceleration \\( a = 20 \\, \\text{m/s}^2 \\)\n\n\\[\n\\text{Power} = 5 \\, \\text{kg} \\times 20 \\, \\text{m/s}^2 = 100 \\, \\text{W}\n\\]\n\n**Option C:**\n- Mass \\( m = 20 \\, \\text{kg} \\)\n- Acceleration \\( a = 4 \\, \\text{m/s}^2 \\)\n\n\\[\n\\text{Power} = 20 \\, \\text{kg} \\times 4 \\, \\text{m/s}^2 = 80 \\, \\text{W}\n\\]\n\n**Option D:**\n- Mass \\( m = 20 \\, \\text{kg} \\)\n- Acceleration \\( a = 3 \\, \\text{m/s}^2 \\)\n\n\\[\n\\text{Power} = 20 \\, \\text{kg} \\times 3 \\, \\text{m/s}^2 = 60 \\, \\text{W}\n\\]\n\nComparing the powers:\n- Option A: 50 W\n- Option B: 100 W\n- Option C: 80 W\n- Option D: 60 W\n\nThe object with the greatest power is **Option B**, which has a power of **100 W**.\n\n**Answer:** B) 20 m/s^2 पर त्वरण करने वाली 5-kg वस्तु",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"B\". Generated answer says the object with greatest power is Option B, and final answer: \"B) 20 m/s^2 पर त्वरण करने वाली 5-kg वस्तु\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 236,
+        "question": "एक किसान के पास तीन बड़े खेत हैं जहां वह घास उगाकर बाल बनाने की योजना बना रहा है। घास को दो साल की वृद्धि के बाद ही काटा जाना चाहिए। किसान हर साल एक बाल फसल होने सुनिश्चित करने के लिए क्या कर सकता है?\nA) हर खेत को एक-वर्षीय अंतराल पर उगाएं।\nB) घास को संभवतः सबसे करीब एक दूसरे के पास लगाएं।\nC) सभी खेतों को एक ही समय पर उगाएं, लेकिन विभिन्न प्रकार की घास लगाएं।\nD) गर्म-सीजन घास और ठंडी-सीजन घासों को एक-दूसरे समय पर हर खेत में लगाएं।\nAnswer in English.",
+        "generated_answer": "The best option for the farmer to ensure a continuous harvest of grass every year is:\n\n**D) Grow warm-season grasses and cool-season grasses at different times in each field.**\n\n### Explanation:\n- **Warm-season grasses** (e.g., Bermuda, Zoysia) grow best in the warmer months (spring and summer).\n- **Cool-season grasses** (e.g., Fescue, Ryegrass) grow best in the cooler months (fall and spring).\n\nBy planting warm-season and cool-season grasses in different fields and staggering their planting times, the farmer can ensure that at least one field is ready for harvest every year. For example:\n- **Field 1** could be planted with warm-season grass in spring and harvested in summer.\n- **Field 2** could be planted with cool-season grass in fall and harvested in spring.\n- **Field 3** could be planted with warm-season grass in summer and harvested in fall.\n\nThis way, the farmer can maintain a continuous supply of grass for hair production without waiting for the two-year growth cycle to complete in all fields simultaneously.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer with ground truth. The question: \"एक किसान के पास तीन बड़े खेत हैं जहां वह घास उगाकर बाल बनाने की योजना बना रहा है। घास को दो साल की वृद्धि के बाद ही काटा जाना चाहिए। किसान हर साल एक बाल फसल होने सुनिश्चित करने के लिए क्या कर सकता है?\" Options A-D. The ground truth answer is \"A\". The generated answer says D. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 996,
+        "question": "ऑस्ट्रेलिया में, दोपहर के तापमान 110 डिग्री फारेनहाइट (43 डिग्री सेल्सियस) से अधिक हो सकते हैं। अपने शरीर को ठंडा रखने के लिए कंगारू अपनी बांहें चाटते हैं और अपने उंगलियों से बार-बार थूक लगाते हैं। यह पानी वापरते हुए उनको ठंडा रखने में मदद करता है जो उनके शरीर का तापमान कम करता है। इस गतिविधि को कौन सा शब्द सबसे अच्छी तरह से वर्णन करता है?\nA) प्राकृतिक चयन\nB) रक्षा तंत्र\nC) संरचनात्मक अनुकूलन\nD) व्यवहारिक अनुकूलन\nAnswer in English.",
+        "generated_answer": "The correct answer is D) व्यवहारिक अनुकूलन (Behavioral adaptation).\n\nKangaroos licking their arms and fingers to cool down is a **behavioral adaptation**. This is because it is a learned or instinctive behavior that helps them regulate their body temperature in response to the extreme heat. Behavioral adaptations are actions or strategies that organisms use to survive and thrive in their environment.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"D\". Generated answer says \"The correct answer is D) व्यवहारिक अनुकूलन (Behavioral adaptation).\" So yes matches. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

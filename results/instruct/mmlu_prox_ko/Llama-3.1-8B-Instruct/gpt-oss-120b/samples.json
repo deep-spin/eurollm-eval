@@ -1,0 +1,82 @@
+[
+    {
+        "id": 6311,
+        "question": "상실 후 우울증을 경험할 가능성이 더 높은 사람은\nA) 강한 사회적 지지 네트워크가 있는 사람\nB) 정신 건강 문제의 이력이 없는 사람\nC) 이전에 우울증을 경험하지 않은 사람\nD) 고소득층\nE) 결혼 기간이 1년 미만인 사람\nF) 젊은 유족\nG) 건강한 사람\nH) None\nI) None\nJ) None\nAnswer in English.",
+        "generated_answer": "A) 강한 사회적 지지 네트워크가 있는 사람\n\n상실 후 우울증은 상실로 인한 심리적 충격으로 인해 발생할 수 있습니다. 강한 사회적 지지 네트워크는 상실로 인한 스트레스를 줄여주고, 회복을 도와주는 역할을 할 수 있습니다. 그러나 강한 사회적 지지 네트워크가 있는 사람도 상실 후 우울증을 경험할 수 있습니다. \n\n상실 후 우울증을 경험할 가능성이 더 높은 사람은 다음과 같은 사람들입니다.\n\n- 이전에 우울증을 경험한 사람\n- 정신 건강 문제의 이력이 있는 사람\n- 고립된 사람\n- 건강 문제가 있는 사람\n- 젊은 유족\n\n따라서, 강한 사회적 지지 네트워크가 있는 사람은 상실 후 우울증을 경험할 가능성이 낮은 사람입니다.",
+        "ground_truth": "F",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Question: \"상실 후 우울증을 경험할 가능성이 더 높은 사람은\" (Who is more likely to experience depression after loss?). Options list includes F) 젊은 유족 (young bereaved). Ground truth answer is \"F\". The generated answer says: \"A) 강한 사회적 지지 네트워크가 있는 사람\" then explains that strong social support reduces risk, and then lists higher risk groups: previous depression, mental health history, isolated, health problems, young bereaved. It concludes that strong social support is lower risk. So the generated answer does not select F; it selects A incorrectly. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "노동조합이 명목임금 5% 인상을 협상할 만큼 강력하다고 가정해봅시다. 물가가 얼마나 상승할 것으로 예상하십니까? 미국의 생산성은 연평균 2% 증가합니다. 노동자들은 얼마나 더 나아질까요?\nA) 2%\nB) 0%, 임금 인상이 생산성 증가로 완전히 상쇄되는 경우\nC) 7%, 임금 인상과 생산성 증가 간 격차로 인한 높은 인플레이션 발생 시\nD) 5%\nE) 4%, 물가 상승에 영향을 미치는 기타 경제적 요인 고려 시\nF) 2.5%, 임금 인상이 생산성 증가와 인플레이션 요인의 복합 효과를 약간 상회하는 경우\nG) 3%\nH) 6%, 인플레이션 압력으로 물가가 임금 인상보다 더 상승하는 경우\nI) 1%\nJ) 실질적 이득 없음, 물가 5% 상승으로 임금 인상 상쇄\nAnswer in English.",
+        "generated_answer": "물가 상승률은 노동자의 실질 임금을 결정하는 데 영향을 미치는 여러 요인에 의해 결정됩니다. 노동자들은 명목 임금 5% 인상과 미국의 생산성 2% 증가를 받게 됩니다. \n\n물가 상승률은 노동자의 실질 임금을 결정하는 데 영향을 미치는 여러 요인에 의해 결정되므로, 명목 임금 인상과 생산성 증가 간의 격차가 물가 상승률에 영향을 미칠 수 있습니다. \n\n만약 물가 상승률이 0%라면, 노동자의 실질 임금은 명목 임금 인상과 생산성 증가 간의 격차로 인해 3% 상승할 것입니다. \n\n따라서, 옳은 답은 F) 2.5% 임금 인상이 생산성 증가와 인플레이션 요인의 복합 효과를 약간 상회하는 경우입니다.",
+        "ground_truth": "G",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"G\". That corresponds to option G) 3%. The generated answer says: It explains stuff, then says \"따라서, 옳은 답은 F) 2.5% ...\" It picks F) 2.5% as correct. That does not match G. So meaning is not same. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "콜로니얼 쿠키 회사는 개당 80센트의 성과급을 지급합니다. 배터 부인은 지난주에 다음과 같은 수의 합격품을 완성했습니다: 월요일 45개, 화요일 41개, 수요일 49개, 목요일 47개, 금요일 43개. 그녀의 한 주 총 수입은 얼마입니까?\nA) $160\nB) $195\nC) $220\nD) $185\nE) $175\nF) $200\nG) $225\nH) $210\nI) $165\nJ) $180\nAnswer in English.",
+        "generated_answer": "Let's break down the number of cookies she made each day:\n\n* Monday: 45\n* Tuesday: 41\n* Wednesday: 49\n* Thursday: 47\n* Friday: 43\n\nTo find the total number of cookies, we add these numbers together:\n\n45 + 41 = 86\n86 + 49 = 135\n135 + 47 = 182\n182 + 43 = 225\n\nSince each cookie is worth $0.80, we multiply the total number of cookies by the pay per cookie:\n\n225 x $0.80 = $180\n\nSo, her total earnings for the week are $180.\n\nThe correct answer is J) $180.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is \"J\". The generated answer says total earnings $180, correct answer is J) $180. That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4242,
+        "question": "약산과 그 짝염기의 농도가 동일한 완충용액이 있습니다. 물을 첨가하여 완충용액의 부피를 두 배로 늘리면 pH에 어떤 영향을 미치나요?\nA) pH가 예측할 수 없게 변동된다.\nB) pH가 물의 pH와 같아진다.\nC) pH가 매우 염기성이 된다.\nD) pH가 완전히 중성화된다.\nE) pH가 크게 감소한다.\nF) 거의 영향이 없다.\nG) pH가 크게 증가한다.\nH) pH 값이 두 배가 된다.\nI) pH가 산의 pKa에 점근적으로 변한다.\nJ) pH가 매우 산성이 된다.\nAnswer in English.",
+        "generated_answer": "The correct answer is F) 거의 영향이 없다.\n\n약산과 그 짝염기의 농도가 동일한 완충용액은 pH가 일정한 상태를 유지하는 완충제의 특성을 가지고 있습니다. 완충제는 pH가 일정한 상태를 유지하기 위해 pH에 대한 pH의 변화에 대한 반응을 보입니다. 완충용액의 부피를 두 배로 늘리면, 약산과 짝염기의 농도는 동일하게 유지되기 때문에 pH에 대한 영향을 받지 않습니다. 따라서 pH는 거의 영향을 받지 않습니다.",
+        "ground_truth": "F",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth is just \"F\". The generated answer says \"The correct answer is F) 거의 영향이 없다.\" which matches. So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8376,
+        "question": "분포의 데이터 중 최소 50%를 포함하기 위해서는 평균으로부터 최소 몇 표준편차만큼 떨어져야 합니까?\nA) 3.1\nB) 2.1\nC) 1.9\nD) 2.0\nE) 0.5\nF) 2.5\nG) 0.67\nH) 3.5\nI) 1.0\nJ) 1.4\nAnswer in English.",
+        "generated_answer": "분포의 데이터 중 최소 50%를 포함하기 위해서는 평균으로부터 약 1 표준편차만큼 떨어져야 합니다. \n\n이것은 표준정규분포에서 68-95-99.7 법칙에 의해 설명됩니다. 이 법칙에 따르면, 표준정규분포에서 약 68%의 데이터가 평균에서 1 표준편차 이내에 위치하고, 약 95%의 데이터가 평균에서 2 표준편차 이내에 위치합니다.\n\n따라서, 옳은 답은 I) 1.0입니다.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer meaning matches ground truth. Ground truth answer is \"J\". That corresponds to option J) 1.4. The generated answer says the correct answer is I) 1.0. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "$\\lim_{x \\to c}((x^2 - 5x - 6) / (x - c))$가 존재할 때, c의 값은?\nA) [0, 5]\nB) [2, 8]\nC) [1, 7]\nD) [3, 9]\nE) [1, 5]\nF) [-3, 3]\nG) [-4, 2]\nH) [0, 6]\nI) [-2, 4]\nJ) [-1, 6]\nAnswer in English.",
+        "generated_answer": "이 문제는 극한의 존재 조건을 사용하여 해결할 수 있습니다. 극한의 존재 조건은 다음과 같습니다.\n\n$\\lim_{x \\to c} f(x) = L$이 존재하려면, $f(x)$는 $x=c$에서 연속이어야 합니다. \n\n$f(x) = \\frac{x^2 - 5x - 6}{x - c}$를 $x=c$에서 연속인지 확인해 보겠습니다.\n\n$f(x)$는 $x=c$에서 연속하려면, 분모 $x-c$는 0이 아니어야 합니다. 따라서, $x=c$에서 $x-c \\neq 0$이여야 합니다. \n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x=c$에서 $f(x)$는 정의되며, 따라서 $f(x)$는 $x=c$에서 연속입니다.\n\n$x=c$에서 $x-c \\neq 0$이면, $x",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. Ground truth answer is \"J\". The question: find c values such that limit exists, multiple choice options. The correct answer is J (which corresponds to interval [-1,6] presumably). The generated answer is a long Korean text repeating condition about continuity, but never gives a specific answer. It does not state \"J\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "단순 순환 흐름 모형에서 경제 성장이 가능할까요?\nA) 단순 순환 흐름 모형에서의 경제 성장은 외부 요인에 달려있다\nB) 모형 내 인구가 증가하면 경제 성장이 일어날 수 있다\nC) 국제 무역을 포함하도록 모형이 조정되면 가능하다\nD) 경제 성장은 모형 내 소비자 신뢰도에 의해 결정된다\nE) 이 모형은 투자 증가를 통한 경제 성장만을 허용한다\nF) 예, 단순 순환 흐름 모형에서 경제 성장이 가능하다\nG) 단순 순환 흐름 모형은 자동적으로 경제 성장으로 이어진다\nH) 경제 성장은 모형이 기술 발전을 포함할 때만 가능하다\nI) 모형 내에서 정부 지출이 증가하면 경제 성장이 일어날 수 있다\nJ) 아니오, 단순 순환 흐름 모형에서는 어떠한 경제 성장도 불가능하다\nAnswer in English.",
+        "generated_answer": "J) 아니오, 단순 순환 흐름 모형에서는 어떠한 경제 성장도 불가능하다\n\n단순 순환 흐름 모형은 경제학에서 사용되는 간단한 경제 모델로, 소비자와 생산자가 서로의 행동을 반영하는 순환을 가정합니다. 이 모형에서는 소비자와 생산자가 서로의 행동을 반영하는 순환을 가정하기 때문에, 이 모형에서는 투자, 기술 발전, 인구 증가, 정부 지출 등 외부 요인에 의한 경제 성장이 불가능합니다.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is just \"J\". The generated answer includes \"J) 아니오, 단순 순환 흐름 모형에서는 어떠한 경제 성장도 불가능하다\" plus explanation. That matches option J, which is \"No, in the simple circular flow model no economic growth is possible.\" So yes, same meaning. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4969,
+        "question": "처음부터 나는 나 자신의 삶을 스스로에게 설명하기 위해 글을 썼고, 나와 함께 여정을 선택한 독자들이 외줄타기에 동참하도록 초대했다. 나는 안전망도, 군중의 소음도 없이 일할 것이다. 높은 곳에서 바라보는 광경은 아찔하면서도 교훈적이다. 나는 세상을 있는 그대로 기록하지 않고, 내가 여정에서 수집한 환상적인 이야기들의 프리즘을 통과시켜 변형한다. 나는 희귀한 나방이나 코스타리카 딱정벌레의 표본을 수집하는 나비학자처럼 이야기를 모은다. 이야기는 내가 세상을 스스로에게 해석하는 데 사용하는 그릇과 같다. ----------팻 콘로이 다음 중 이 글의 구성을 가장 잘 설명한 것은?\nA) 작가가 세상을 이해하는 데 있어 이야기하기의 중요성을 설명한다.\nB) 작가가 해석 없이 일련의 사건들을 서술한다.\nC) 작가가 자신의 작업 방식을 동종 업계 다른 사람들과 대조한다.\nD) 작가가 현재 작업에 이르게 된 일련의 사건들을 설명한다.\nE) 작가가 특정 행위의 경험을 설명하기 위해 비유를 사용한다.\nF) 작가가 자신의 직업이 개인적 삶에 미치는 영향을 논한다.\nG) 작가가 특정 분야에서의 자신의 작업 단계들을 연대기적으로 서술한다.\nH) 작가가 자신의 개인적 경험을 통해 사회적 규범을 비평한다.\nI) 작가가 자신의 경험과 동종 업계 다른 사람들의 경험을 비교한다.\nJ) 작가가 특정 행동 방침을 택한 것에 대해 여러 설명을 제시한다.\nAnswer in English.",
+        "generated_answer": "E) 작가가 특정 행위의 경험을 설명하기 위해 비유를 사용한다.",
+        "ground_truth": "E",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"E\". Generated answer: \"E) 작가가 특정 행위의 경험을 설명하기 위해 비유를 사용한다.\" That's essentially the same as option E. So they match. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7808,
+        "question": "어떤 수 y에서 36을 뺀 것이 13과 같다는 것을 나타내는 방정식은?\nA) 13 + y = 36\nB) 13 - y = 36\nC) y = 13 - 36\nD) 36 - y = 13\nE) 13 = y + 36\nF) y = 36 - 13\nG) y + 36 = 13\nH) y - 36 = 13\nI) 36 + y = -13\nJ) 36 = y + 13\nAnswer in English.",
+        "generated_answer": "The correct answer is D) 36 - y = 13.\n\nThis equation represents the statement \"36을 뺀 것이 13과 같다\"를 영어로 \"36 minus y is equal to 13\"로 번역할 수 있습니다.",
+        "ground_truth": "H",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"H\". The generated answer says \"The correct answer is D) 36 - y = 13.\" That is option D, not H. So they do not match. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "장내 락타아제 결핍은 유당 소화불량을 초래하며, 이는 결과적으로 유당불내증, 즉 임상 증상을 유발할 수 있습니다. 영유아와 어린이는 일반적으로 임상 증상을 경험하지 않을 만큼 충분한 락타아제 수준을 나타냅니다. 전반적으로 성인은 락타아제 지속군과 락타아제 비지속군으로 분류될 수 있습니다. 전 세계적으로 락타아제 비지속군의 대략적인 비율은 얼마입니까?\nA) 30%-35%\nB) 80%-85%\nC) 90%-95%\nD) 55%-60%\nE) 5%-10%\nF) 45%-50%\nG) 60%-65%\nH) 10%-15%\nI) 20%-25%\nJ) 70%-75%\nAnswer in English.",
+        "generated_answer": "B) 80%-85%\n\n락타아제 비지속형은 락타아제의 활동이 시간에 따라 감소하는 것을 의미하며, 이는 유당 소화 불량과 유당 불내증의 위험이 증가합니다. 전 세계적으로 락타아제 비지속형의 비율은 약 80-85%로 보고되었습니다.",
+        "ground_truth": "J",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"J\". That corresponds to option J) 70%-75% (since list shows J) 70%-75%). The generated answer says \"B) 80%-85%\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

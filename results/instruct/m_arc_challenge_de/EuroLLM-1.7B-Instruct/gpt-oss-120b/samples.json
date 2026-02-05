@@ -1,0 +1,802 @@
+[
+    {
+        "id": 788,
+        "question": "Was beschreibt eine chemische Veränderung?\nA) Zucker löst sich im Tee auf\nB) Sonnenschein erwärmt einen Gehweg\nC) Schere schneidet Papier in Stücke\nD) Säure im Magen verdaut Essen\nAnswer in English.",
+        "generated_answer": "A) beschreibt eine chemische Veränderung.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Was beschreibt eine chemische Veränderung?\" Options A-D. Correct answer is D (Säure im Magen verdaut Essen) which is a chemical change. Generated answer: \"A) beschreibt eine chemische Veränderung.\" It says A describes a chemical change. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 861,
+        "question": "Welche der folgenden chemischen Gleichungen ist korrekt und zeigt die Erhaltung der Masse?\nA) Mg + HCl -> H_{2} + MgCl_{2}\nB) H_{2}O + CO_{2} -> H_{2}CO_{3}\nC) KClO_{3} -> KCl + O_{2}\nD) H_{2} + O_{2} -> H_{2}O\nAnswer in English.",
+        "generated_answer": "The correct chemical equation is:\nA) Mg + HCl -> H_{2} + MgCl_{2}\nThis equation shows the conservation of mass, as the mass of the reactants (Mg and HCl) is equal to the mass of the products (H_{2} and MgCl_{2}).",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: Which chemical equation is correct and shows conservation of mass? Options A, B, C, D. The ground truth answer is \"B\". The generated answer says \"A) Mg + HCl -> H2 + MgCl2\". That's not B. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 82,
+        "question": "Warum ist das Gießen von Pflanzen und Gras am frühen Morgen eine Möglichkeit, Wasser zu sparen?\nA) Am Morgen gibt es immer mehr Wasser.\nB) Kleinere Mengen Wasser verdunsten am kühlen Morgen.\nC) Das am Morgen verwendete Wasser kann am Nachmittag recycelt werden.\nD) Gras kann nur am Morgen Wasser aufnehmen.\nAnswer in English.",
+        "generated_answer": "A) Am Morgen gibt es immer mehr Wasser.\nWarum ist das Gießen von Pflanzen und Gras am frühen Morgen eine Möglichkeit, Wasser zu sparen?\nDas Gießen von Pflanzen und Gras am frühen Morgen ist eine Möglichkeit, Wasser zu sparen, weil die Pflanzen und das Gras am Morgen noch nicht so viel Wasser verdunsten, wie sie es am Nachmittag tun. Wenn Sie am Morgen gießen, geben Sie dem Boden mehr Zeit, um das Wasser aufzunehmen und die Pflanzen und das Gras können es besser aufnehmen.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Warum ist das Gießen von Pflanzen und Gras am frühen Morgen eine Möglichkeit, Wasser zu sparen?\" Options: A, B, C, D. Correct answer is B: \"Kleinere Mengen Wasser verdunsten am kühlen Morgen.\" The generated answer selects A and then gives explanation about less evaporation in morning. The generated answer says \"A) Am Morgen gibt es immer mehr Wasser.\" That's not the correct option. The explanation says less evaporation, which aligns with B, but the answer choice is A. The question asks to answer in English, but generated answer is in German and picks A. The ground truth is B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 530,
+        "question": "Welche Veränderung wäre schädlich für den Lebensraum eines Eichhörnchens?\nA) neues Pflanzenwachstum\nB) Wechsel der Jahreszeiten\nC) Abholzung von Bäumen, um Häuser zu bauen\nD) Pflanzung von Kiefernsämlingen\nAnswer in English.",
+        "generated_answer": "A) neues Pflanzenwachstum",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Welche Veränderung wäre schädlich für den Lebensraum eines Eichhörnchens?\" Which change would be harmful for the habitat of a squirrel? Options: A new plant growth, B change of seasons, C deforestation of trees to build houses, D planting of pine seedlings. Correct is C. Generated answer: \"A) neues Pflanzenwachstum\". That's not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1047,
+        "question": "Wie unterscheiden sich Organismen, die als Eukarya klassifiziert sind, von Organismen, die als Archaea und Bakterien klassifiziert sind?\nA) Sie sind alle mehrzellig.\nB) Sie vermehren sich alle sexuell.\nC) Sie produzieren alle ihre eigene Nahrung.\nD) Sie alle haben membranbegrenzte Zellkerne.\nAnswer in English.",
+        "generated_answer": "D) Sie alle haben membranbegrenzte Zellkerne.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German multiple choice. Ground truth answer is \"D\". Generated answer: \"D) Sie alle haben membranbegrenzte Zellkerne.\" That's essentially the same as D. So meaning equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 995,
+        "question": "Während eines Experiments zur aeroben Zellatmung begrenzt ein Biologe die Menge an Phosphor, die einer Zellkultur zur Verfügung steht. Wie könnte sich dies auf die Zelle auswirken?\nA) Die Menge an zellulärer Energie würde abnehmen.\nB) Die Menge an zellulärer Energie würde zunehmen.\nC) Die Menge an produziertem Glukose würde zunehmen.\nD) Die Menge an produziertem Glukose würde abnehmen.\nAnswer in English.",
+        "generated_answer": "A) The amount of cellular energy would decrease.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer says \"A) The amount of cellular energy would decrease.\" That matches option A. So meaning same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 829,
+        "question": "Wenn eine Person aus einem Flugzeug abspringt, reist sie mit etwa 67 Metern pro Sekunde. Wenn sie ihr Seil zieht und ihr Fallschirm öffnet, verlangsamt sie sich auf etwa 3 Meter pro Sekunde. Wenn die Geschwindigkeit und die Beschleunigung vor dem Öffnen des Fallschirms beide als positiv betrachtet werden, wie ändern sich dann ihre Geschwindigkeit und Beschleunigung, wenn der Fallschirm geöffnet wird?\nA) Geschwindigkeit und Beschleunigung bleiben beide positiv.\nB) Geschwindigkeit und Beschleunigung werden beide negativ.\nC) Die Geschwindigkeit bleibt positiv, aber die Beschleunigung wird negativ.\nD) Die Geschwindigkeit wird negativ, aber die Beschleunigung bleibt positiv.\nAnswer in English.",
+        "generated_answer": "Wenn die Person aus dem Flugzeug springt, reist sie mit etwa 67 Metern pro Sekunde. Wenn sie ihr Seil zieht und ihr Fallschirm öffnet, verlangsamt sie sich auf etwa 3 Meter pro Sekunde. Wenn die Geschwindigkeit und die Beschleunigung vor dem Öffnen des Fallschirms beide als positiv betrachtet werden, wie ändern sich dann ihre Geschwindigkeit und Beschleunigung, wenn der Fallschirm geöffnet wird?\nA) Geschwindigkeit und Beschleunigung bleiben beide positiv.\nB) Geschwindigkeit und Beschleunigung werden beide negativ.\nC) Die Geschwindigkeit bleibt positiv, aber die Beschleunigung wird negativ.\nD) Die Geschwindigkeit wird negativ, aber die Beschleunigung bleibt positiv.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"C\". The generated answer repeats the question and options, but does not select an answer. It does not provide \"C\". So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 621,
+        "question": "Einige Froscharten werden sich im Schlamm vergraben, wenn die Umgebung sehr trocken wird. Die Frösche treten in eine Art Winterschlaf ein. Welches wäre das wahrscheinlichste Signal für die Frösche, aus dem Schlamm zu kommen?\nA) eine Abnahme der Tageslichtstunden\nB) eine Erhöhung der Lufttemperatur\nC) eine Erhöhung der Niederschläge\nD) eine Abnahme des Luftdrucks\nAnswer in English.",
+        "generated_answer": "A) eine Abnahme der Tageslichtstunden",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Which would be most likely signal for frogs to come out of mud? Options: A decrease daylight, B increase temperature, C increase precipitation, D decrease air pressure. Correct is C (increase precipitation). Generated answer: \"A) eine Abnahme der Tageslichtstunden\" i.e., option A. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 976,
+        "question": "Schnee, Regen, Hagel und Nebel sind alle Formen von\nA) Gas.\nB) Wasser.\nC) Wind.\nD) Wolken.\nAnswer in English.",
+        "generated_answer": "C) Wind.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Schnee, Regen, Hagel und Nebel sind alle Formen von\" (Snow, rain, hail and fog are all forms of). Correct answer: B) Wasser (water). Ground truth says B. Generated answer: C) Wind. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 733,
+        "question": "Was ist der effizienteste Weg, um große Mengen Kohle von einer Mine in Kentucky zu einem Kraftwerk in Arizona zu transportieren?\nA) per Schiff\nB) per Zug\nC) per LKW\nD) per Flugzeug\nAnswer in English.",
+        "generated_answer": "C) per LKW",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer \"C) per LKW\" with ground truth \"B\". The question: \"Was ist der effizienteste Weg, um große Mengen Kohle von einer Mine in Kentucky zu einem Kraftwerk in Arizona zu transportieren? A) per Schiff B) per Zug C) per LKW D) per Flugzeug Answer in English.\" The correct answer is B (by train). Generated answer says C (by truck). They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 447,
+        "question": "Jede Körperzelle eines Goldfisches enthält 94 Chromosomen. Wie viele Chromosomen enthält eine Geschlechtszelle?\nA) 23\nB) 47\nC) 94\nD) 188\nAnswer in English.",
+        "generated_answer": "D) 188",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer \"D) 188\" with ground truth \"B\". The question: \"Jede Körperzelle eines Goldfisches enthält 94 Chromosomen. Wie viele Chromosomen enthält eine Geschlechtszelle? A) 23 B) 47 C) 94 D) 188\". In diploid organisms, somatic cells have 2n chromosomes, gametes have n. If body cell has 94, then gamete has 47. So correct answer is B. Generated answer says D) 188, which is wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1033,
+        "question": "Welcher Teil des Teichökosystems bietet kleinen Fischen Schutz?\nA) Felsen\nB) Wasser\nC) Frösche\nD) Boden\nAnswer in English.",
+        "generated_answer": "C) Boden",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Welcher Teil des Teichökosystems bietet kleinen Fischen Schutz?\" Means \"Which part of the pond ecosystem provides small fish with protection?\" Options: A) Felsen (rocks), B) Wasser (water), C) Frösche (frogs), D) Boden (bottom/soil). The ground truth answer is \"A\". So correct answer is A (Felsen). Generated answer: \"C) Boden\". That's option D actually? Wait they wrote \"C) Boden\". But Boden is D in list. They mismatched label. Either way it's not A. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 285,
+        "question": "Das Endergebnis im Prozess der Photosynthese ist die Produktion von Zucker und Sauerstoff. Welcher Schritt signalisiert den Beginn der Photosynthese?\nA) Chemische Energie wird über die Wurzeln aufgenommen.\nB) Lichtenergie wird in chemische Energie umgewandelt.\nC) Chlorophyll in den Blättern fängt Lichtenergie auf.\nD) Sonnenlicht wird in Chlorophyll umgewandelt.\nAnswer in English.",
+        "generated_answer": "The correct answer is B) Lichtenergie is converted into chemical energy.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer equivalent in meaning to ground truth. Question: \"Which step signals the beginning of photosynthesis?\" Options: A, B, C, D. Ground truth answer is C: \"Chlorophyll in the leaves captures light energy.\" Generated answer says: \"The correct answer is B) Lichtenergie is converted into chemical energy.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 577,
+        "question": "Was ist die beste Erklärung dafür, was Wissenschaftler meinen, wenn sie den Begriff Schutz verwenden?\nA) Nichtlebende Teile der Umwelt\nB) Lebende Organismen in der Umwelt\nC) Gesundheit der lebenden Organismen in der Umwelt\nD) Schutz, Verwaltung und Erneuerung von Ressourcen\nAnswer in English.",
+        "generated_answer": "C) Gesundheit der lebenden Organismen in der Umwelt",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Was ist die beste Erklärung dafür, was Wissenschaftler meinen, wenn sie den Begriff Schutz verwenden?\" Options A-D. Ground truth answer is D. Generated answer is \"C) Gesundheit der lebenden Organismen in der Umwelt\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 286,
+        "question": "Welche der folgenden Optionen zeigt am besten Prozentwerte der acht häufigsten Elemente in der Erdkruste an?\nA) Liniendiagramm\nB) Kreisdiagramm\nC) Balkendiagramm\nD) Datentabelle\nAnswer in English.",
+        "generated_answer": "The correct answer is C) Balkendiagramm.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Welche der folgenden Optionen zeigt am besten Prozentwerte der acht häufigsten Elemente in der Erdkruste an? A) Liniendiagramm B) Kreisdiagramm C) Balkendiagramm D) Datentabelle Answer in English.\"\n\nGround truth answer: \"D\". So correct answer is D (Datentabelle). Generated answer says: \"The correct answer is C) Balkendiagramm.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 194,
+        "question": "Eine Maus wird an einem Ende eines Kartonlabyrinths platziert, in dem sich am anderen Ende ein Stück Käse befindet. Die Maus riecht den Käse und lernt, wie sie ihn finden kann. Die Maus nutzt eine\nA) erworbene Eigenschaft, um eine vererbte Eigenschaft zu erlangen.\nB) vererbte Eigenschaft, um eine erworbene Eigenschaft zu erlangen.\nC) erworbene Eigenschaft, um eine weitere erworbene Eigenschaft zu erlangen.\nD) vererbte Eigenschaft, um eine weitere vererbte Eigenschaft zu erlangen.\nAnswer in English.",
+        "generated_answer": "A) erworbene Eigenschaft, um eine vererbte Eigenschaft zu erlangen.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: multiple choice. Ground truth answer is B. Generated answer is \"A) erworbene Eigenschaft, um eine vererbte Eigenschaft zu erlangen.\" That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 513,
+        "question": "Welches dieser Merkmale ist in allen Stadien des Lebenszyklus des Schmetterlings erforderlich?\nA) Flügel\nB) Augen\nC) Erde\nD) Luft\nAnswer in English.",
+        "generated_answer": "D) Luft",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Welches dieser Merkmale ist in allen Stadien des Lebenszyklus des Schmetterlings erforderlich?\" Means \"Which of these features is required in all stages of the butterfly life cycle?\" Options: A) Wings, B) Eyes, C) Earth, D) Air. Correct answer is D) Air. Ground truth answer: \"D\". Generated answer: \"D) Luft\". That's equivalent (D, air). So true.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1090,
+        "question": "Energieunternehmen produzieren oft Strom aus einer Vielzahl von Quellen. Welche Ressource würde die Luftqualität am meisten verbessern?\nA) Öl\nB) Gas\nC) Kohle\nD) Wind\nAnswer in English.",
+        "generated_answer": "C) Kohle",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Energieunternehmen produzieren oft Strom aus einer Vielzahl von Quellen. Welche Ressource würde die Luftqualität am meisten verbessern?\" Which resource would improve air quality most? Options: A) Oil, B) Gas, C) Coal, D) Wind. The correct answer is D (wind). Generated answer: \"C) Kohle\" i.e., coal. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 300,
+        "question": "Ein Schüler untersucht die Auswirkungen von Dünger auf Maispflanzen, indem er die folgenden Schritte durchführt. 1. Pflanzen Sie Gruppen von Maispflanzen in derselben Art und Menge von Boden in voller Sonne. 2. Fügen Sie jeder Gruppe die gleiche Menge an verschiedenen Marken von Dünger hinzu. 3. Bewässern Sie die Pflanzen täglich 5 Minuten lang. 4. Messen Sie die Höhen der Pflanzen jeden Tag. Was ist die unabhängige Variable in dieser Untersuchung?\nA) Pflanzenart\nB) Pflanzenhöhe\nC) Menge an Dünger\nD) Art des Düngers\nAnswer in English.",
+        "generated_answer": "The independent variable in this study is A) Plant species.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: independent variable? Steps: same plant type, same soil, same amount of different brands of fertilizer. So independent variable is type/brand of fertilizer (Art des Düngers). That's option D. Ground truth answer: D. Generated answer says: \"The independent variable in this study is A) Plant species.\" That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 635,
+        "question": "Ein Spielzeug-LKW rollt über eine glatte Oberfläche. Wenn die Oberfläche mit Sand bedeckt ist, wird der LKW wahrscheinlich\nA) langsamer\nB) schneller\nC) mit derselben Geschwindigkeit rollen\nD) None\nAnswer in English.",
+        "generated_answer": "C) with the same speed",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"Ein Spielzeug-LKW rollt über eine glatte Oberfläche. Wenn die Oberfläche mit Sand bedeckt ist, wird der LKW wahrscheinlich ...\" Options: A) slower, B) faster, C) same speed, D) None. The correct answer is A (slower). Generated answer: \"C) with the same speed\". That does not match. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 202,
+        "question": "Warum sind schnell stattfindende Umweltveränderungen wahrscheinlicher, Arten auszulöschen, als langsam stattfindende Veränderungen?\nA) Langsame Veränderungen lassen Zeit für Anpassung.\nB) Schnelle Veränderungen erfordern wenig Anpassung.\nC) Langsame Veränderungen betreffen nur kleine Regionen.\nD) Schnelle Veränderungen haben globale Auswirkungen.\nAnswer in English.",
+        "generated_answer": "A) Langsame Veränderungen lassen Zeit für Anpassung.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Warum sind schnell stattfindende Umweltveränderungen wahrscheinlicher, Arten auszulöschen, als langsam stattfindende Veränderungen?\" Options A-D. The ground truth answer is \"A\". The generated answer is \"A) Langsame Veränderungen lassen Zeit für Anpassung.\" That matches option A, which is the correct answer. So they convey same meaning. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 151,
+        "question": "Wodurch wird die Wärmeenergie von der Sonne hauptsächlich auf die Erde übertragen?\nA) Leitung\nB) Konvektion\nC) Verdunstung\nD) Strahlung\nAnswer in English.",
+        "generated_answer": "The heat energy from the sun is mainly transferred to the Earth through:\nA) conduction\nB) convection\nC) evaporation\nD) radiation",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Wodurch wird die Wärmeenergie von der Sonne hauptsächlich auf die Erde übertragen? A) Leitung B) Konvektion C) Verdunstung D) Strahlung\". Ground truth answer: D (Strahlung). The generated answer just repeats the options, not selecting one. It says \"The heat energy from the sun is mainly transferred to the Earth through: A) conduction B) convection C) evaporation D) radiation\". It does not indicate which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 676,
+        "question": "Zwei identische Blätter Papier werden bei einem Experiment verwendet; eins wird zu einem Ball zerknüllt und das andere bleibt flach. Was wird höchstwahrscheinlich passieren, wenn sie gleichzeitig aus derselben Höhe fallen gelassen werden?\nA) Das flache Blatt wird auf seiner Kante fallen.\nB) Beide werden mit der gleichen Geschwindigkeit fallen.\nC) Das zerknüllte Blatt wird schneller fallen.\nD) Das zerknüllte Blatt wird horizontal bewegt werden.\nAnswer in English.",
+        "generated_answer": "A) The flat sheet will fall on its edge.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Two identical sheets of paper, one crumpled into a ball, other flat. What will most likely happen when dropped from same height? Options: A) flat sheet falls on its edge. B) both fall same speed. C) crumpled sheet falls faster. D) crumpled sheet will be moved horizontally. Correct answer is C (crumpled falls faster). Generated answer: \"A) The flat sheet will fall on its edge.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 966,
+        "question": "Ein Schüler misst die Beschleunigung eines Steinblocks auf einer ebenen Fläche, wenn auf den Block eine bekannte Kraft wirkt. Welche zusätzliche Information wird benötigt, um die Masse des Blocks präzise zu berechnen?\nA) die Dichte des Blocks\nB) die Menge an Reibung\nC) die Masse der Oberfläche\nD) die Richtung der Bewegung\nAnswer in English.",
+        "generated_answer": "C) die Masse der Oberfläche",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ein Schüler misst die Beschleunigung eines Steinblocks ... Welche zusätzliche Information wird benötigt, um die Masse des Blocks präzise zu berechnen?\" Correct answer is B) die Menge an Reibung. Generated answer: \"C) die masse der Oberfläche\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1146,
+        "question": "Landwirte verwenden Pestizide, um Insekten zu bekämpfen. Manchmal gelangen die Pestizide in Bäche. Dies ist ein Beispiel für\nA) Landwirte, die versuchen, die Umwelt zu schützen.\nB) die Verwendung natürlicher Stoffe zur Problemlösung.\nC) Landwirte, die versuchen, die Menge an Ernten zu verringern.\nD) die Lösung eines Problems, das ein anderes Problem schafft.\nAnswer in English.",
+        "generated_answer": "D) die Lösung eines Problems, das ein anderes Problem schafft.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth is \"D\". Generated answer is \"D) die Lösung eines Problems, das ein anderes Problem schafft.\" That corresponds to option D, same meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 206,
+        "question": "Dominic beobachtet unter einem Mikroskop eine Volvox-Kolonie und ein Pantoffeltierchen. Er notiert in seinem Journal, dass die Volvox-Kolonie und das Pantoffeltierchen ähnlich sind, weil sie viele Organellen zur Bewegung haben. Was würde Dominic am wahrscheinlichsten in Bezug auf die Bewegung einer Volvox-Kolonie und eines Pantoffeltierchens bemerken?\nA) Sie bewegen sich beide mit der gleichen Geschwindigkeit.\nB) Beide bewegen sich weg vom Licht.\nC) Sie bewegen sich beide in die gleiche Richtung.\nD) Sie bewegen sich beide zu einer Energiequelle hin.\nAnswer in English.",
+        "generated_answer": "B) Both move away from light.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: \"What would Dominic most likely notice about the movement of a Volvox colony and a paramecium?\" Options: A same speed, B both move away from light, C same direction, D move toward an energy source. The ground truth answer is D. Generated answer is B. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 724,
+        "question": "Welches der folgenden Dinge besteht aus Atomen?\nA) Schwerkraft\nB) Licht\nC) Hitze\nD) Luft\nAnswer in English.",
+        "generated_answer": "The correct answer is:\nA) Schwerkraft",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Welches der folgenden Dinge besteht aus Atomen? A) Schwerkraft B) Licht C) Hitze D) Luft\". Which of these consists of atoms? Answer: D (Luft). Ground truth is D. Generated answer says \"The correct answer is: A) Schwerkraft\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 889,
+        "question": "Energie ändert ihre Form oder wird durch die Wirkung von Kräften übertragen. Ein Beispiel dafür, dass kinetische Energie in potenzielle Energie umgewandelt wird, ist:\nA) ein Felsbrocken, der auf einem Kliff sitzt\nB) eine Person, die in einer Runde um eine Strecke rennt\nC) ein Auto, das den Hügel hochgefahren und geparkt wird\nD) ein Gummiband, das gedehnt und dann gebrochen wird\nAnswer in English.",
+        "generated_answer": "Energy changes form or is transferred by the action of forces. An example of kinetic energy being converted to potential energy is:\nA) a boulder sitting on a cliff\nB) a person running around a circuit\nC) an automobile driving up a hill and then parking\nD) a rubber band being stretched and then broken",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"C\". The generated answer repeats the question and lists options, but does not select an answer. It does not state which option is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 647,
+        "question": "Was hätte am wenigsten Einfluss auf den globalen Klimawandel?\nA) Energiegewinnung durch Wasserkraftwerke\nB) Energiegewinnung durch Kohle\nC) Energiegewinnung durch Öl\nD) Energiegewinnung durch Erdgas\nAnswer in English.",
+        "generated_answer": "A) Energy generation by hydroelectric power plants\nB) Energy generation by coal\nC) Energy generation by oil\nD) Energy generation by natural gas",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Was hätte am wenigsten Einfluss auf den globalen Klimawandel?\" (Which would have the least impact on global climate change?) Options A-D given. The ground truth answer is \"A\". So the correct answer is option A (hydropower). The generated answer just repeats the options, not selecting any. It does not state which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 418,
+        "question": "Ein Lehrer führt eine Untersuchung durch, indem er spezielle Geräte verwendet, um ein Magnesiumband (Mg) über die Flamme eines Bunsenbrenners zu halten. Welche Beobachtung deutet darauf hin, dass eine chemische Reaktion stattgefunden hat?\nA) Die Temperatur des Magnesiumbands erhöhte sich.\nB) Die Form des Magnesiumbands hat sich verändert.\nC) Das brennende Magnesium produzierte Licht.\nD) Das Magnesium schien zu verdampfen.\nAnswer in English.",
+        "generated_answer": "A) The temperature of the magnesium strip increased.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which observation indicates a chemical reaction? Correct answer is C (the burning magnesium produced light). Generated answer says A) temperature increased. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1131,
+        "question": "Wenn man in der Natur Beobachtungen durchführt, wie sollten die Schüler am besten Respekt für die Umwelt zeigen?\nA) Auf den Pfaden bleiben.\nB) Keine Proben entnehmen.\nC) Fotografieren.\nD) Den Bereich genau so verlassen, wie sie ihn vorgefunden haben.\nAnswer in English.",
+        "generated_answer": "A) Auf den Pfaden bleiben.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Wenn man in der Natur Beobachtungen durchführt, wie sollten die Schüler am besten Respekt für die Umwelt zeigen?\" Options: A) Stay on paths, B) No samples, C) Photograph, D) Leave area exactly as found. The correct answer is D. Generated answer is A) Auf den Pfaden bleiben. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 906,
+        "question": "Ein roter Riesenstern unterscheidet sich von Hauptreihensternen dadurch, dass er\nA) bei einer niedrigeren Temperatur brennt.\nB) immer größer ist als andere Sonnen.\nC) eine höhere Dichte und Gravitation hat.\nD) Wasserstoff zu Helium verschmilzt.\nAnswer in English.",
+        "generated_answer": "A) bei einer niedrigeren Temperatur brennt.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Ein roter Riesenstern unterscheidet sich von Hauptreihensternen dadurch, dass er ...\". Options given. The correct answer is A) \"bei einer niedrigeren Temperatur brennt.\" The ground truth answer is \"A\". The generated answer is \"A) bei einer niedrigeren Temperatur brennt.\" That conveys the same meaning: it selects option A and repeats the text. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1067,
+        "question": "Ein Behälter mit flüssigem Wasser wurde draußen platziert, als die Temperatur 3°C betrug. Nachts fiel die Außentemperatur auf -2°C. Diese Temperaturänderung führte höchstwahrscheinlich dazu, dass das Wasser\nA) kondensiert\nB) verdampft\nC) eine Flüssigkeit bleibt\nD) ein Feststoff wird\nAnswer in English.",
+        "generated_answer": "C) eine Flüssigkeit bleibt",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: water container outside, temperature drops from 3°C to -2°C. Likely water becomes solid (freeze). So correct answer is D (a solid). Generated answer: \"C) eine Flüssigkeit bleibt\" meaning water remains liquid. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 533,
+        "question": "Ein bestimmtes Atom hat 20 Elektronen, 21 Neutronen und 20 Protonen. Wie groß ist die Atommasse des Atoms?\nA) 20\nB) 21\nC) 41\nD) 61\nAnswer in English.",
+        "generated_answer": "The answer is B) 21.\nThe atomic mass of the atom is the sum of the mass of the protons, neutrons, and electrons. In this case, the atomic mass is 20 + 21 + 20 = 61.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Ein bestimmtes Atom hat 20 Elektronen, 21 Neutronen und 20 Protonen. Wie groß ist die Atommasse des Atoms? A) 20 B) 21 C) 41 D) 61 Answer in English.\"\n\nGround truth answer: \"C\". That corresponds to 41 (since option C is 41). The correct atomic mass is protons + neutrons (electrons negligible) = 20+21 = 41. So correct answer is C.\n\nGenerated answer says: \"The answer is B) 21. The atomic mass ... is 20+21+20 = 61.\" That's contradictory: says answer B but then calculates 61 which is D. So it's wrong. Not equivalent to ground truth. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 127,
+        "question": "Welcher Planet im Sonnensystem hat das längste Jahr?\nA) Der Planet, der der Sonne am nächsten ist.\nB) Der Planet mit dem längsten Tag.\nC) Der Planet mit den meisten Monden.\nD) Der Planet, der am weitesten von der Sonne entfernt ist.\nAnswer in English.",
+        "generated_answer": "A) Der Planet, der der Sonne am nächsten ist.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Welcher Planet im Sonnensystem hat das längste Jahr?\" Which planet has the longest year? Correct answer: D) The planet farthest from the Sun (i.e., Neptune or Pluto historically). Ground truth is D. Generated answer is \"A) Der Planet, der der Sonne am nächsten ist.\" That's opposite. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1123,
+        "question": "Kupfer und Gold haben ähnliche reaktive Eigenschaften. Im Periodensystem der Elemente sind diese Elemente höchstwahrscheinlich\nA) in derselben Gruppe zu sein.\nB) in derselben Periode zu sein.\nC) fast die gleiche Masse zu haben.\nD) die gleiche Anzahl an Protonen zu haben.\nAnswer in English.",
+        "generated_answer": "C) almost the same mass",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German: \"Kupfer und Gold haben ähnliche reaktive Eigenschaften. Im Periodensystem der Elemente sind diese Elemente höchstwahrscheinlich ...\" Options: A) same group, B) same period, C) almost same mass, D) same number of protons. Correct answer is A (same group). Generated answer: \"C) almost the same mass\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 28,
+        "question": "Mehrere Schüler nehmen an einem Brückenbaulwettbewerb teil, bei dem Eisstielen und Klebstoff verwendet werden, um die stärkste Brücke zu bauen. Die Brücken müssen eine Breite von 5 Zoll haben und eine Länge von 18 Zoll überspannen. Welcher der folgenden Tests ist die genaueste Methode, um die stärkste Spannweiten-Konstruktion für diese Brücken zu bestimmen?\nA) Rolle Spielzeugautos über jede Brücke, bis sie zusammenbricht\nB) Platzieren Sie Betonbausteine auf jeder Brücke, bis sie zusammenbricht.\nC) Münzen auf beiden Seiten jeder Brücke stapeln, bis sie zusammenbricht\nD) Legen Sie D-Zellen-Batterien in die Mitte jeder Brücke, bis sie zusammenbricht\nAnswer in English.",
+        "generated_answer": "A) Rolle Spielzeugautos über jede Brücke, bis sie zusammenbricht\nB) Platzieren Sie Betonbausteine auf jeder Brücke, bis sie zusammenbricht.\nC) Münzen auf beiden Seiten jeder Brücke stapeln, bis sie zusammenbricht\nD) Legen Sie D-Zellen-Batterien in die Mitte jeder Brücke, bis sie zusammenbricht",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A) B) C) D) with descriptions, not selecting one. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 191,
+        "question": "Wissenschaftler haben entdeckt, dass einige Bakterien zwar eine Immunität gegen Antibiotika entwickeln können, aber nicht gegen bestimmte Peptide, die als natürliche Antibiotika im menschlichen Körper wirken. Diese Entdeckung führte zur Entwicklung welcher neuen Technologie?\nA) künstliche Substanzen, die menschliche Peptide imitieren\nB) Antibiotika, die durch die Haut absorbiert werden können\nC) Bakterien, die gegen antibiotikaresistente Organismen kämpfen\nD) Antibiotika, die sich an die Immunität der Bakterien anpassen\nAnswer in English.",
+        "generated_answer": "A) künstliche Substanzen, die menschliche Peptide imitieren",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German, asks which new technology was developed. Options given. Ground truth answer: \"A\". The generated answer: \"A) künstliche Substanzen, die menschliche Peptide imitieren\". That is essentially the same as option A, which matches ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 816,
+        "question": "Ein Ingenieur verwendet einen Computer, um eine Brücke zu entwerfen. Welcher Test ist für Sicherheitszwecke am wichtigsten?\nA) Maximale Last, die die Brücke tragen kann\nB) Kosten des Materials, das zum Bau der Brücke verwendet wird\nC) Prozent des Materials, das recycelt werden kann\nD) Geschwindigkeit, mit der die Brücke gebaut werden kann\nAnswer in English.",
+        "generated_answer": "D) Geschwindigkeit, mit der die Brücke gebaut werden kann",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Ein Ingenieur verwendet einen Computer, um eine Brücke zu entwerfen. Welcher Test ist für Sicherheitszwecke am wichtigsten?\" Options: A) Max load, B) cost, C) percent recycled, D) speed of construction. The correct answer is A. Generated answer is D. Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2,
+        "question": "Welche dieser Regeln zur Sicherheit muss befolgt werden, wenn man chemische Stoffe benutzt?\nA) Langes Haar zurückbinden.\nB) Alle Chemikalien kühlen.\nC) Alle Reagenzgläser und Flaschen korrekt beschriften.\nD) Entsorgen Sie gelöschte Streichhölzer ordnungsgemäß.\nAnswer in English.",
+        "generated_answer": "A) Langes Haar zurückbinden.\nB) Alle Chemikalien kühlen.\nC) Alle Reagenzgläser und Flaschen korrekt beschriften.\nD) Entsorgen Sie gelöschte Streichhölzer ordnungsgemäß.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth says answer is C. The generated answer lists all options A-D, not selecting one. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1010,
+        "question": "Unter welchen Umständen wäre eine Anpassung, die die Zeit der Metamorphose eines Kaulquappens verkürzt, am nützlichsten?\nA) wenn Kaulquappen sofort schwimmen müssen\nB) wenn es eine begrenzte Menge an Wasser in ihrer Umgebung gibt\nC) wenn die Anzahl der Raubtiere abnimmt\nD) wenn Kaulquappen sich in ihrer Umgebung tarnen müssen\nAnswer in English.",
+        "generated_answer": "B) wenn es eine begrenzte Menge an Wasser in ihrer Umgebung gibt\nWenn Kaulquappen sofort schwimmen müssen, ist es am nützlichsten, wenn sie sich in einer Umgebung befinden, in der sie nicht so schnell ertrinken können. Eine begrenzte Menge an Wasser in ihrer Umgebung würde ihnen helfen, schneller zu schwimmen und sich in der Nähe von Fischen zu verstecken, die sie als Nahrung nutzen könnten.\nC) wenn die Anzahl der Raubtiere abnimmt\nWenn die Anzahl der Raubtiere abnimmt, ist es am nützlichsten, wenn Kaulquappen in einer Umgebung leben, in der sie nicht so leicht von Raubtieren gefressen werden können. Eine reduzierte Anzahl von Raubtieren würde ihnen helfen, sich in der Nähe von Fischen zu verstecken und zu überleben.\nD) wenn Kaulquappen sich in ihrer Umgebung tarnen müssen\nWenn Kaulquappen sich in ihrer Umgebung tarnen müssen, ist es am nützlichsten, wenn sie in einer Umgebung leben, in der sie nicht so leicht von Raubtieren entdeckt werden können. Eine Umgebung, in der sie sich tarnen müssen, würde ihnen helfen, sich in der Nähe von Fischen zu verstecken und zu überleben.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"B\". The generated answer includes \"B) wenn es eine begrenzte Menge an Wasser in ihrer Umgebung gibt\" plus a lot of extra text about other options. The question: \"Unter welchen Umständen wäre eine Anpassung, die die Zeit der Metamorphose eines Kaulquappens verkürzt, am nützlichsten?\" The correct answer is B. The generated answer lists B and then also includes C and D explanations. It does include B as an answer, but also includes other options. Does that convey same meaning? The instruction: determine whether the GENERATED ANSWER is equivalent in meaning to the GROUND TRUTH answer. The generated answer is not just \"B\". It includes extra content that is not correct. It seems not equivalent because it adds extra options and explanations, not just B. The core answer includes B, but also includes other options, which could be considered not matching. The requirement: if generated answer is empty, not equivalent. Here it's not empty, but does it convey same meaning? The ground truth is a single choice B. The generated answer is a messy multi-choice with B, C, D. That is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 682,
+        "question": "Produzenten können in den meisten Ökosystemen mithilfe der Photosynthese Energie für Nahrungsketten gewinnen. In welchem Ökosystem müssen Produzenten jedoch Energie aus Gasen wie Methan und Wasserstoff sulfid gewinnen?\nA) Korallenriff\nB) Hochwüste\nC) Ozeangraben\nD) Immergrüner Wald\nAnswer in English.",
+        "generated_answer": "D) Immergrüner Wald",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which ecosystem must producers obtain energy from gases like methane and hydrogen sulfide? Correct answer is C (Ozeangraben). Generated answer: D) Immergrüner Wald. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 499,
+        "question": "Golfstöre, eine Art von Fisch, leben in Salzwasser entlang der Golfküste von Florida. Sie schwimmen flussaufwärts, um in sauberem Süßwasser zu züchten. Nach mehreren Jahren wandern die jungen Störe flussabwärts in die Küstensalzwasserumgebungen. Was wäre der wahrscheinlichste Effekt auf Golfstöre, wenn entlang dieser Flüsse Dämme gebaut würden?\nA) Golfstöre werden im Laufe der Zeit zu einer neuen Art werden.\nB) Golfstöre werden von Küstenflüssen in den Ozean ziehen.\nC) Die Golfstör-Population wird aufgrund des Habitatverlustes abnehmen.\nD) Die Golfstör-Population wird sich an die Zucht im Salzwasser anpassen.\nAnswer in English.",
+        "generated_answer": "A) Golfstöre werden im Laufe der Zeit zu einer neuen Art werden.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer is \"A) Golfstöer werden im Laufe der Zeit zu einer neuen Art werden.\" That's option A, not C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 666,
+        "question": "Kupfer ist ein Element, das in elektrischen Kabeln verwendet wird. Was ist die kleinste Einheit von Kupfer, die noch die Eigenschaften von Kupfer aufweist?\nA) das Atom\nB) das Elektron\nC) der Kern\nD) das Proton\nAnswer in English.",
+        "generated_answer": "The smallest unit of copper that still retains the properties of copper is:\nA) the atom",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Kupfer ist ein Element, das in elektrischen Kabeln verwendet wird. Was ist die kleinste Einheit von Kupfer, die noch die Eigenschaften von Kupfer aufweist? A) das Atom B) das Elektron C) der Kern D) das Proton Answer in English.\"\n\nGround truth answer: \"A\". Means the correct answer is \"the atom\". Generated answer: \"The smallest unit of copper that still retains the properties of copper is: A) the atom\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 128,
+        "question": "Vier signifikant unterschiedliche Haushaltsgeräte (Mixer, Toaster, Pürierstab und Küchenmaschine) sind an vier Steckdosen entlang einer Theke eingesteckt. Das Einschalten oder Ausschalten eines oder mehrerer Geräte beeinflusst nicht die Leistung der anderen Geräte, weil die vier Geräte\nA) mit Gleichstrom betrieben werden.\nB) in Reihe geschaltet sind.\nC) parallel geschaltet sind.\nD) mit Wechselstrom betrieben werden.\nAnswer in English.",
+        "generated_answer": "A) with Gleichstrom",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which statement is correct? Ground truth answer is \"C\". That corresponds to \"parallel geschaltet sind.\" The generated answer says \"A) with Gleichstrom\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 391,
+        "question": "Was ist die Spannung in einem Stromkreis mit einem Strom von 3 Ohm und einem Gesamtwiderstand von 12?\nA) 0,25 V\nB) 4 V\nC) 15 V\nD) 36 V\nAnswer in English.",
+        "generated_answer": "The voltage across a 3-ohm resistor is 3 ohms * 0.25 volts = 0.75 volts. The total voltage across the circuit is the sum of the voltage across the resistor and the voltage across the load, which is 3 ohms * 0.25 volts = 0.75 volts. Therefore, the voltage across the load is 12 ohms * 0.75 volts = 9 volts. The correct answer is C) 15 volts.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"D\". That means the correct answer is option D: 36 V. The generated answer says: \"The voltage across a 3-ohm resistor is 3 ohms * 0.25 volts = 0.75 volts... Therefore, the voltage across the load is 12 ohms * 0.75 volts = 9 volts. The correct answer is C) 15 volts.\" This is completely different, says answer C 15 V, which is not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1162,
+        "question": "Was ist ein Beispiel für eine physische Veränderung?\nA) Ein Objekt in kleinere Stücke zerbrechen, indem man einen Hammer benutzt\nB) Eine Eisenkette im Salzwasser lassen, bis sie rostet\nC) Eine braune Substanz erhitzen, bis sie zu einem grauen Pulver wird\nD) Essig und Backpulver reagieren lassen, um weißen Schaum und Gas zu erzeugen\nAnswer in English.",
+        "generated_answer": "A) Ein Objekt in kleinere Stücke zerbrechen, indem man einen Hammer benutzt\nB) Eine Eisenkette im Salzwasser lassen, bis sie rostet\nC) Eine braune Substanz erhitzen, bis sie zu einem grauen Pulver wird\nD) Essig und Backpulver reagieren lassen, um weißen Schaum und Gas zu erzeugen",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Was ist ein Beispiel für eine physische Veränderung?\" Options given. The correct answer is A (breaking object into smaller pieces). Ground truth answer: \"A\". Generated answer repeats all options A-D, not just \"A\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 454,
+        "question": "Ein Schüler untersucht Newtons zweites Bewegungsgesetz, indem er die Kraft ändert, die auf ein Objekt wirkt, und dessen resultierende Beschleunigung beobachtet. Wenn die Kraft auf das Objekt um das Vierfache erhöht würde, um wie viel würde sich die Beschleunigung erhöhen?\nA) 2-mal\nB) 4-mal\nC) 8-mal\nD) 16-mal\nAnswer in English.",
+        "generated_answer": "The answer is C) 8-times.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Newton's second law: F = m a. If force quadrupled, acceleration also quadruples (assuming mass constant). So correct answer is 4 times, which is option B. Ground truth says B. Generated answer says C) 8-times. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 488,
+        "question": "Bernice hat einige Organismen untersucht, die zusammen in einem Feld leben. Inwiefern ähnelt ein Kaninchen der Pflanze, die es frisst?\nA) Beide benötigen Energie zum Überleben.\nB) Beide konsumieren andere Organismen.\nC) Beide absorbieren Wasser aus dem Boden.\nD) Beide produzieren ihre eigene Nahrung aus Sonnenlicht.\nAnswer in English.",
+        "generated_answer": "D) Beide produzieren ihre eigene Nahrung aus Sonnenlicht.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Bernice hat einige Organismen untersucht, die zusammen in einem Feld leben. Inwiefern ähnelt ein Kaninchen der Pflanze, die es frisst?\" Options: A) Both need energy to survive. B) Both consume other organisms. C) Both absorb water from soil. D) Both produce their own food from sunlight. The correct answer is A (both need energy). The generated answer says D) Both produce their own food from sunlight. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 291,
+        "question": "Was tragen Wellen durch Objekte hindurch?\nA) Ton\nB) Licht\nC) Energie\nD) Wasser\nAnswer in English.",
+        "generated_answer": "C) Energie",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Was tragen Wellen durch Objekte hindurch?\" (German: \"What do waves carry through objects?\") Options: A) Ton (sound), B) Licht (light), C) Energie (energy), D) Wasser (water). The correct answer is C) Energie. Ground truth answer: \"C\". Generated answer: \"C) Energie\". That conveys same meaning. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1112,
+        "question": "Ein Wissenschaftler behauptet, dass er im Labor eine Entdeckung gemacht hat. Was braucht der Wissenschaftler, um zu beweisen, dass die Entdeckung gültig ist?\nA) Diagramme, die die Schritte der Entdeckung darstellen\nB) Genau protokollierte Aufzeichnungen, die zeigen, dass die Daten konsistent sind\nC) Dokumente, die zeigen, dass der Wissenschaftler bekannt ist\nD) Nachweis, dass das bei der Entdeckung verwendete Equipment von hoher Qualität ist\nAnswer in English.",
+        "generated_answer": "A) Diagramme, die die Schritte der Entdeckung darstellen",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Ein Wissenschaftler behauptet, dass er im Labor eine Entdeckung gemacht hat. Was braucht der Wissenschaftler, um zu beweisen, dass die Entdeckung gültig ist?\" Options A-D. Ground truth answer is B. Generated answer is \"A) Diagramme, die die Schritte der Entdeckung darstellen\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 917,
+        "question": "Wenn man sich vom Äquator aus nach Norden bewegt, werden heiße und feuchte Klimazonen durch heiße und trockene Klimazonen ersetzt. Die Grenze zwischen diesen beiden Klimatypen wird durch welchen Faktor bestimmt?\nA) Höhe über dem Meeresspiegel\nB) Arten von lokaler Pflanzendecke\nC) Zirkulationsmuster regionaler Luftmassen\nD) Entfernung zur nächsten Bergkette\nAnswer in English.",
+        "generated_answer": "If you move from the equator northward, hot and humid climate zones are replaced by hot and dry climate zones. The boundary between these two climate types is determined by:\nA) Altitude above sea level\nB) Type of local vegetation cover\nC) Circulation patterns of regional air masses\nD) Distance to the nearest mountain range",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The ground truth answer is \"C\". The generated answer lists the options but does not select one. It just repeats the question and options, not indicating which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 186,
+        "question": "Wenn ein elektrischer Strom durch Wasser (H_{2}O) mittels einer bestimmten Apparatur geleitet wird, bilden sich Wasserstoff (H_{2}) und Sauerstoff (O_{2})-Gase. Wie kann diese Reaktion in einer chemischen Gleichung dargestellt werden?\nA) H_{2}O -> H + O + H\nB) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g)\nC) H:O:H -> H_{2}O\nD) H_{2}O(l) -> 2H(g) + O(g)\nAnswer in English.",
+        "generated_answer": "The correct answer is:\nA) H_{2}O -> H + O + H\nThis reaction is the formation of water (H_{2}O) from its elements, hydrogen (H) and oxygen (O). The reaction can be represented as:\nH_{2}O(l) -> H + O + H\nIn this reaction, water molecules (H_{2}O) are formed by the combination of hydrogen (H) and oxygen (O) atoms.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Ground truth is \"B\". The generated answer says \"The correct answer is: A) H2O -> H + O + H\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 164,
+        "question": "Welche dieser Eigenschaften wird vererbt, aber stark von der Umgebung beeinflusst?\nA) Fähigkeit zur Zungenrolle\nB) sportliche Leistung\nC) Sprache\nD) Augenfarbe\nAnswer in English.",
+        "generated_answer": "A) Fähigkeit zur Zungenrolle",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question in German: \"Welche dieser Eigenschaften wird vererbt, aber stark von der Umgebung beeinflusst?\" Which of these traits is inherited but strongly influenced by environment? Options: A) ability to roll tongue, B) athletic performance, C) language, D) eye color. The correct answer likely is B) athletic performance (genetics plus environment). Ground truth says B. Generated answer says A) ability to roll tongue. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 655,
+        "question": "Wolken bringen Regen und Schnee auf die Erdoberfläche. Wie unterstützen Regen und Schnee das Leben auf der Erde am meisten?\nA) Sie kühlen die Landoberfläche.\nB) Sie tragen Säuren in den Boden.\nC) Sie bringen Süßwasser für Landorganismen.\nD) Sie bauen Berge auf.\nAnswer in English.",
+        "generated_answer": "D) Sie bauen Berge auf.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Wolken bringen Regen und Schnee ... Wie unterstützen Regen und Schnee das Leben ... am meisten?\" Correct answer is C: they bring fresh water for land organisms. Generated answer: D) Sie bauen Berge auf. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1040,
+        "question": "Ein Chamäleon kann seine Farben ändern, um sich seiner Umgebung anzupassen. Diese Fähigkeit hilft dem Chamäleon zu überleben, weil es\nA) sich warm halten kann.\nB) einen Partner finden kann.\nC) nach Nahrung jagen kann.\nD) leicht gesehen werden kann.\nAnswer in English.",
+        "generated_answer": "C) nach Nahrung jagen kann.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German: \"Ein Chamäleon kann seine Farben ändern, um sich seiner Umgebung anzupassen. Diese Fähigkeit hilft dem Chamäleon zu überleben, weil es\" options A-D. The correct answer is C) nach Nahrung jagen kann. Ground truth answer: \"C\". Generated answer: \"C) nach Nahrung jagen kann.\" That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1002,
+        "question": "Was ist das größte Organ im menschlichen Körper?\nA) Magen\nB) Gehirn\nC) Haut\nD) Leber\nAnswer in English.",
+        "generated_answer": "C) Haut",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Was ist das größte Organ im menschlichen Körper?\" Options: A) Magen, B) Gehirn, C) Haut, D) Leber. Answer in English. Ground truth: \"C\". That indicates the correct answer is option C, which is \"Haut\" (skin). Generated answer: \"C) Haut\". That matches the ground truth (option C). So meaning equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 223,
+        "question": "Während welcher Phase ihres Lebenszyklus verbringt ein Schmetterling die meiste Zeit damit, Pflanzenblätter zu fressen?\nA) Erwachsener\nB) Ei\nC) Larve\nD) Puppe\nAnswer in English.",
+        "generated_answer": "D) Puppe",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"During which phase of its life cycle does a butterfly spend most time eating plant leaves?\" Correct answer: larva (caterpillar). Ground truth: C. Generated answer: D) Puppe (pupa). That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 617,
+        "question": "Was passiert mit einem Holzstamm, wenn er verbrannt wird?\nA) Es wird komplett zerstört.\nB) Es wird komplett in Wärmeenergie umgewandelt.\nC) Es wird in andere Arten von Materie und Energie umgewandelt.\nD) Es ändert sich physisch in die gasförmige Phase.\nAnswer in English.",
+        "generated_answer": "A) It is completely destroyed.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Was passiert mit einem Holzstamm, wenn er verbrannt wird?\" Options: A) completely destroyed, B) completely into heat energy, C) transformed into other types of matter and energy, D) physically changes to gas phase. Correct answer is C. Generated answer: \"A) It is completely destroyed.\" That's not same as C. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1128,
+        "question": "Eine typische Höhe für eine reife östliche Weißkiefer beträgt 100 Fuß, aber in Ontonagon, Michigan, gibt es eine östliche Weißkiefer, die 150 Fuß erreicht hat. Wie viel größer ist der Kieferbaum in Michigan als der typische Weißkiefer?\nA) 1,5 mal\nB) 2 mal\nC) 2,5 mal\nD) 3 mal\nAnswer in English.",
+        "generated_answer": "The typical eastern white pine tree reaches a height of 100 feet, but in Ontonagon, Michigan, there is an eastern white pine tree that has reached a height of 150 feet. How much larger is the tree in Michigan than the typical white pine tree?\nA) 1.5 times\nB) 2 times\nC) 2.5 times\nD) 3 times",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". The generated answer repeats the question and options, but does not give a selected answer. It just restates the question and options, no answer. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 596,
+        "question": "Was ist potentielle Energie?\nA) Die Energie, die ein Objekt aufgrund seiner Bewegung hat.\nB) Die Energie, die ein Objekt aufgrund seiner Position hat.\nC) Die Energie, die die Masse eines Objekts erhöht.\nD) Die Energie, die die Temperatur eines Objekts erhöht.\nAnswer in English.",
+        "generated_answer": "A) The energy that an object has due to its motion.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer equivalent to ground truth. Question: \"Was ist potentielle Energie?\" Options: A) kinetic, B) due to position, C) mass increase, D) temperature increase. Ground truth is B. Generated answer is A) The energy that an object has due to its motion. That's kinetic, not potential. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 255,
+        "question": "Viele Bakterien wachsen schnell bei Raumtemperaturen von ca. 20°C. Die Temperatur im Kühlschrank wird normalerweise auf ca. 4°C gehalten. Welche Aussage erklärt am besten, wie die Verwendung eines Kühlschranks der Gesellschaft geholfen hat?\nA) Es hält die Küchen im Sommer kühler.\nB) Es bietet mehr Platz zur Aufbewahrung von Lebensmitteln.\nC) Es macht Lebensmittel sicherer für den längeren Verzehr.\nD) Es macht Elektrizität sicherer in der Küche zu verwenden.\nAnswer in English.",
+        "generated_answer": "A) It keeps kitchens cooler in the summer.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Which statement best explains how using a refrigerator helped society? Correct answer is C: It makes food safer for longer consumption. Generated answer: \"A) It keeps kitchens cooler in the summer.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1121,
+        "question": "Alle natürlichen Ressourcen auf der Erde sind entweder erneuerbar oder nicht erneuerbar. Ob eine Ressource erneuerbar oder nicht erneuerbar ist, hängt davon ab, wie schnell oder langsam die Ressource ersetzt wird. Wenn die Ressource schneller verbraucht wird als sie ersetzt wird, wird die Ressource mit der Zeit verschwinden. Welche Aktivität zeigt die Verwendung einer nicht erneuerbaren natürlichen Ressource?\nA) Eine Gruppe von Menschen schwimmt in einem Fluss.\nB) Eine Baucrew baut eine Eisenbrücke.\nC) Ein Bauer züchtet Gemüse, um es auf einem lokalen Markt zu verkaufen.\nD) Eine Person backt einen Kuchen mit Strom, der von einem Wasserkraftwerk erzeugt wird.\nAnswer in English.",
+        "generated_answer": "A) Eine Gruppe von Menschen schwimmt in einem Fluss.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which activity shows use of a non-renewable natural resource? Options: A swimming in river (uses water, renewable), B building an iron bridge (uses iron, non-renewable), C farmer grows vegetables (renewable), D baking cake with hydroelectric electricity (renewable). Correct is B. Generated answer: \"A) Eine Gruppe von Menschen schwimmt in einem Fluss.\" That's not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 681,
+        "question": "Laser werden in der Chirurgie verwendet, um\nA) feine Schnitte zu machen.\nB) Operationsfelder zu beleuchten.\nC) Wunden zu vernähen.\nD) Instrumente zu desinfizieren.\nAnswer in English.",
+        "generated_answer": "D) Instrumente zu desinfizieren.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Laser werden in der Chirurgie verwendet, um\" (Lasers are used in surgery to...). Options: A) feine Schnitte zu machen. (make fine cuts). B) Operationsfelder zu beleuchten. (illuminate operative fields). C) Wunden zu vernähen. (suture wounds). D) Instrumente zu desinfizieren. (disinfect instruments). The correct answer is A. Ground truth is \"A\". Generated answer is \"D) Instrumente zu desinfizieren.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1106,
+        "question": "Tanya untersucht, welche Haushaltsgegenstände von Magneten angezogen werden. Was wird ihr bei der Bildung einer Schlussfolgerung helfen?\nA) eine Vorhersage\nB) eine Hypothese\nC) eine Liste von Materialien\nD) eine Tabelle mit Ergebnissen\nAnswer in English.",
+        "generated_answer": "D) eine Tabelle mit Ergebnissen",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Tanya untersucht, welche Haushaltsgegenstände von Magneten angezogen werden. Was wird ihr bei der Bildung einer Schlussfolgerung helfen?\" Options A-D. The correct answer is D) a table with results. The generated answer: \"D) eine Tabelle mit Ergebnissen\". Ground truth: \"D\". They match. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 416,
+        "question": "Ein Schüler schiebt eine 20 Kilogramm schwere Kiste eine Rampe hinauf. Welche Veränderung erfordert, dass der Schüler weniger Kraft aufwenden muss, um die Kiste zu schieben?\nA) die Masse der Kiste erhöhen\nB) die Länge der Rampe verringern\nC) die Steilheit der Rampe verringern\nD) die Reibung auf der Oberfläche der Kiste erhöhen\nAnswer in English.",
+        "generated_answer": "A) the mass of the box increase",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which change requires less force? Correct answer is C (reduce steepness). Generated answer: \"A) the mass of the box increase\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1120,
+        "question": "Viele Menschen beziehen Frischwasser aus Brunnen, die Wasser speichern, das im Untergrund gespeichert ist. Bei wenig Regen kann das Wasser zur Neige gehen. Welcher Schritt ist am besten, um das Wasser länger haltbar zu machen?\nA) Weniger Stunden pro Woche Sprinkler verwenden\nB) Fahrzeuge mitten am Tag waschen\nC) Wasser zum Reinigen von Öl aus Parkplätzen sprühen\nD) Wasserhähne beim Zähneputzen nicht laufen lassen\nAnswer in English.",
+        "generated_answer": "C) Wasser zum Reinigen von Öl aus Parkplätzen sprühen",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German: Many people get fresh water from wells... Which step is best to make water last longer? Options: A) Use sprinkler fewer hours per week, B) Wash vehicles midday, C) Spray water to clean oil from parking lots, D) Don't let water run while brushing teeth. The correct answer likely is D (turn off tap while brushing) or A? Actually to conserve water, turning off tap while brushing is best. But ground truth says A. So ground truth answer is A. Generated answer is C. They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 589,
+        "question": "Bestimmte Bäume, wie der Kornelkirschenbaum, können von einem Pilz befallen sein, der ihre Blätter beschädigt. Welche der folgenden Aussagen beschreibt am besten die Beziehung zwischen Baum und Pilz?\nA) Parasitismus\nB) Saprophytismus\nC) Mutualismus\nD) Kommensalismus\nAnswer in English.",
+        "generated_answer": "C) Mutualismus",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Bestimmte Bäume, ... Pilz befallen ... Blätter beschädigt. Which statement best describes relationship?\" That's parasitism. Ground truth: A (Parasitismus). Generated answer: C) Mutualismus. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 911,
+        "question": "In einem Waldökosystem ist die Nische einer Eichhörnchenpopulation\nA) zu zersetzen.\nB) Blumen zu bestäuben.\nC) Nährstoffe im Boden zu recyceln.\nD) Eicheln zu sammeln und im Boden zu vergraben.\nAnswer in English.",
+        "generated_answer": "D) Eicheln zu sammeln und im Boden zu vergraben.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In a forest ecosystem, the niche of a squirrel population is ... Options. Ground truth answer: D. Generated answer: \"D) Eicheln zu sammeln und im Boden zu vergraben.\" That's exactly option D, same meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 187,
+        "question": "Nährstoffreiche Gewässer aus schweren Regenfällen fließen in den Golf von Mexiko. Dadurch entsteht eine Algenblüte in der Meeresumgebung. Wenn die Algen verrotten, verbrauchen sie entlang der Küste große Mengen an Sauerstoff. Was würde höchstwahrscheinlich in der Gegend passieren?\nA) Stickstoff ersetzt Sauerstoff im Wasser.\nB) Die Wassertemperatur steigt.\nC) Die Wellenbewegung trägt die abgestorbenen Algen weg.\nD) Bodenbewohner sterben und Fische schwimmen weg.\nAnswer in English.",
+        "generated_answer": "A) Stickstoff ersetzt Sauerstoff im Wasser.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: what would likely happen? Correct answer D: \"Bodenbewohner sterben und Fische schwimmen weg.\" (benthic organisms die and fish swim away). Generated answer: \"A) Stickstoff ersetzt Sauerstoff im Wasser.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 649,
+        "question": "Welche Frage über Tulpen könnte am besten durch wissenschaftliche Forschung beantwortet werden?\nA) Sind Tulpen besser als andere Blumen?\nB) Welche Gene bestimmen die Farbe der Tulpenblütenblätter?\nC) Warum schauen sich Menschen gerne Tulpen an?\nD) Welche Farbe von Tulpen ist die schönste?\nAnswer in English.",
+        "generated_answer": "Which question about tulips could be best answered by scientific research?\nA) Are tulips better than other flowers?\nB) Which genes determine the color of tulip flower petals?\nC) Why do people like to look at tulips?\nD) What color of tulips is the most beautiful?",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The generated answer is a restatement of the question with options, not selecting an answer. It does not provide \"B\". So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 495,
+        "question": "Lichtwellen, die von einem Luftmedium zu einem Wassermedium überqueren, werden\nA) zu einer geraden Linie fokussiert.\nB) Energie verlieren und sich auflösen.\nC) Länge und Richtung ändern.\nD) von der Oberfläche des Wassers reflektiert werden.\nAnswer in English.",
+        "generated_answer": "A) zu einer geraden Linie fokussiert.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Light waves crossing from air to water medium... correct answer is C (change length and direction). Generated answer: \"A) zu einer geraden Linie fokussiert.\" That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 594,
+        "question": "Die Schüler lernen, wie sich die Positionen von Erde und Sonne auf Veränderungen auf der Erde auswirken. Was ist passiert, nachdem vier Jahreszeiten auf der Erde vergangen sind?\nA) Die Erde hat eine Umdrehung um den Mond abgeschlossen.\nB) Die Erde hat eine Umrundung um die Sonne abgeschlossen.\nC) Die Sonne hat eine Umrundung um die Erde abgeschlossen.\nD) Der Mond hat eine Umrundung um die Erde abgeschlossen.\nAnswer in English.",
+        "generated_answer": "A) The Earth has completed one rotation around the Moon.\nB) The Earth has completed one revolution around the Sun.\nC) The Sun has completed one revolution around the Earth.\nD) The Moon has completed one revolution around the Earth.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"B\". The generated answer lists all options with descriptions, not selecting one. It does not indicate which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 376,
+        "question": "Versteinerte Palmen sind in sedimentärem Gestein in der Nähe von Gletschern zu finden. Die Anwesenheit von versteinerten Palmen bietet höchstwahrscheinlich Beweise für welche Aussage?\nA) Es gab einmal mehr Wasser in der Gegend.\nB) Die Gegend war einst Grasland.\nC) Das Klima in der Gegend war einst tropisch.\nD) In der Gegend gibt es aktive Störungen.\nAnswer in English.",
+        "generated_answer": "The presence of petrified palm trees in sedimentary rock near glaciers is most likely evidence of:\nA) There was more water in the area at one time.\nB) The area was once grassland.\nC) The climate in the area was once tropical.\nD) There are active disturbances in the area.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth is \"C\". The generated answer just repeats the question options, not selecting an answer. It does not state which is correct. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 387,
+        "question": "Eine Vorhersage für einen \"winterlichen Mix\" zeigt an, dass in der Luft sowohl Regen als auch Schnee entstehen werden. Welches der folgenden Prinzipien wird durch dieses Ereignis korrekt veranschaulicht?\nA) Es gibt wenig Wasser in der Atmosphäre der Erde.\nB) Der größte Teil des Wassers auf der Erde befindet sich als Dampf.\nC) Wasser existiert in allen drei Aggregatzuständen auf der Erde.\nD) Wasser auf der Erde neigt dazu, im Laufe der Zeit zu einem Feststoff zu werden.\nAnswer in English.",
+        "generated_answer": "A) There is little water in the Earth's atmosphere.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"C\". Generated answer is \"A) There is little water in the Earth's atmosphere.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 382,
+        "question": "Ein Objekt wird von einem Magneten angezogen. Wenn der Magnet vom Objekt weg bewegt wird, wird die magnetische Kraft auf das Objekt\nA) abnehmen\nB) zunehmen\nC) gleich bleiben\nD) None\nAnswer in English.",
+        "generated_answer": "C) gleich bleiben",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: German: \"Ein Objekt wird von einem Magneten angezogen. Wenn der Magnet vom Objekt weg bewegt wird, wird die magnetische Kraft auf das Objekt A) abnehmen B) zunehmen C) gleich bleiben D) None\". The correct answer is A) abnehmen (force decreases as distance increases). Generated answer: \"C) gleich bleiben\". That is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 67,
+        "question": "Schülerinnen und Schüler untersuchen, wie die Temperatur einer Substanz mit der Geschwindigkeit der Molekularbewegung zusammenhängt. In welcher Substanz bewegen sich die Moleküle am schnellsten?\nA) kalte Milch\nB) warme Suppe\nC) Wasser, das von Eis schmilzt\nD) Dampf, der aus kochendem Wasser aufsteigt\nAnswer in English.",
+        "generated_answer": "A) kalte Milch\nB) warme Suppe\nC) Wasser, das von Eis schmilzt\nD) Dampf, der aus kochendem Wasser aufsteigt",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: which substance have fastest molecular motion? Answer: D (steam). Ground truth: D. Generated answer just repeats the options list, not selecting any. It does not indicate D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 532,
+        "question": "In Bereichen mit verstärktem Düngemittelabfluss kann es zu einer Zunahme der Anzahl aller Heterotrophe innerhalb einer See-Nahrungskette kommen. Nach der anfänglichen Zunahme beginnen die Populationen abzunehmen. Welches Ereignis hat höchstwahrscheinlich zu einem Rückgang der Populationen geführt?\nA) Es wurden mehr Fressfeinde in den See eingeführt.\nB) Das Wasser wurde von Nährstoffen wie Stickstoff ausgelaugt.\nC) Die Fortpflanzungszeit der Organismen endete.\nD) Abbauende Algen senkten den Anteil an gelöstem Sauerstoff.\nAnswer in English.",
+        "generated_answer": "A) Es wurden mehr Fressfeinde in den See eingeführt.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: In areas with increased fertilizer runoff, there is an increase in heterotrophs in a lake food chain, then populations decline. Which event most likely caused decline? Options: A) more predators introduced, B) water depleted of nutrients, C) reproductive period ended, D) decaying algae lowered dissolved oxygen. Correct answer is D (oxygen depletion). Generated answer: \"A) Es wurden mehr Fressfeinde in den See eingeführt.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 975,
+        "question": "Welche Aussage über die Moleküle in Eis und den Molekülen in flüssigem Wasser ist korrekt?\nA) Die Moleküle in Eis haben weniger Energie als die Moleküle in flüssigem Wasser.\nB) Die Moleküle in Eis enthalten unterschiedliche Atome als die Moleküle in flüssigem Wasser.\nC) Die Moleküle in Eis haben weniger elektrische Ladung als die Moleküle in flüssigem Wasser.\nD) Die Moleküle in Eis sind weniger frei beweglich als die Moleküle in flüssigem Wasser.\nAnswer in English.",
+        "generated_answer": "A) The molecules in ice have less energy than the molecules in liquid water.\nB) The molecules in ice contain different atoms than the molecules in liquid water.\nC) The molecules in ice have less electric charge than the molecules in liquid water.\nD) The molecules in ice are less mobile than the molecules in liquid water.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"D\". The generated answer lists all options A-D, not selecting one. It does not state which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 141,
+        "question": "Wann und wo wären die täglichen Stunden des Tageslichts am längsten?\nA) im Winter in der Nähe des Äquators\nB) im Sommer in der Nähe des Äquators\nC) im Winter in der Nähe des Nordpols\nD) im Sommer in der Nähe des Nordpols\nAnswer in English.",
+        "generated_answer": "A) im Winter in der Nähe des Äquators",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Wann und wo wären die täglichen Stunden des Tageslichts am längsten?\" Means \"When and where would the daily hours of daylight be longest?\" Options: A) winter near equator, B) summer near equator, C) winter near North Pole, D) summer near North Pole. Correct answer is D (summer near North Pole). Generated answer: \"A) im Winter in der Nähe des Äquators\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 183,
+        "question": "Schülerinnen und Schüler möchten die Größe der Gemeinschaften von Mikroorganismen in 500-Milliliter-Wasserproben aus beiden Teichen vergleichen. Welcher Faktor wird höchstwahrscheinlich die Genauigkeit ihrer Beobachtungen beeinflussen?\nA) die durchschnittliche Temperatur der Wasserproben\nB) die Marke des Mikroskop-Objektträgers, der verwendet wurde\nC) die Vergrößerungskraft des Mikroskops\nD) die richtige Identifizierung jedes Mikroorganismus\nAnswer in English.",
+        "generated_answer": "A) die durchschnittliche Temperatur der Wasserproben",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which factor most likely affects accuracy of observations? Options: A temperature, B brand of microscope slide, C magnification power, D correct identification. Correct answer is C (magnification). Generated answer is A (temperature). Not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 266,
+        "question": "Ein Schüler hat das Wachstum von Pflanzen in verschiedenen Bodentypen untersucht. Die beste Art, die Daten zu organisieren, ist durch\nA) Datum und Uhrzeit.\nB) Datum und Pflanzenhöhe.\nC) Pflanzenhöhe und Bodentyp\nD) Datum, Pflanzenhöhe und Bodentyp.\nAnswer in English.",
+        "generated_answer": "C) Pflanzenhöhe und Bodentyp",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: best way to organize data: options A-D. Ground truth answer is D. Generated answer is C. They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 306,
+        "question": "Welches zeigt ein Beispiel für eine physikalische Veränderung und ein Beispiel für eine chemische Veränderung?\nA) Wasser kochen und Wachs schmelzen\nB) Rostendes Eisen und Backen eines Kuchens\nC) Auflösen von Pulver und Zerkleinern von Papier\nD) Wasser gefrieren und Kohleverbrennung\nAnswer in English.",
+        "generated_answer": "A) Wasser kochen und Wachs schmelzen\nB) Rostendes Eisen und Backen eines Kuchens\nC) Auflösen von Pulver und Zerkleinern von Papier\nD) Wasser gefrieren und Kohleverbrennung",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Welches zeigt ein Beispiel für eine physikalische Veränderung und ein Beispiel für eine chemische Veränderung?\" Options A-D. The correct answer is D according to ground truth. The generated answer just repeats all options, not selecting D. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 79,
+        "question": "Eine exotherme Reaktion könnte am besten mit einem \nA) Automotor.\nB) Kühlschrank.\nC) Bratpfanne.\nD) Glasflasche\nAnswer in English.",
+        "generated_answer": "C) Bratpfanne.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Eine exotherme Reaktion könnte am besten mit einem ...\" (Which best exemplifies an exothermic reaction). Options: A) Automotor, B) Kühlschrank, C) Bratpfanne, D) Glasflasche. The correct answer likely is A (automobile engine) because exothermic reaction produces heat, engine produces heat. But also a frying pan (Bratpfanne) could be exothermic (cooking). However ground truth says A. Generated answer says C. They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1107,
+        "question": "Was hält die Erde in ihrer Umlaufbahn um die Sonne?\nA) Trägheit des Mondes\nB) Position der Erdumlaufbahn\nC) Geschwindigkeit der Rotation der Erde\nD) Gravitationszug der Sonne\nAnswer in English.",
+        "generated_answer": "A) Trägheit des Mondes",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Was hält die Erde in ihrer Umlaufbahn um die Sonne?\" (What keeps the Earth in its orbit around the Sun?) Options: D is correct: gravitational pull of the Sun. Generated answer: \"A) Trägheit des Mondes\" (Inertia of the Moon). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 801,
+        "question": "Nach Zellklassifikation werden prokaryotische Zellen von eukaryotischen Zellen getrennt. Welches Merkmal wird oft verwendet, um prokaryotische Zellen von eukaryotischen Zellen zu unterscheiden?\nA) Lebensprozesse\nB) Größenunterschiede\nC) Plasmamembranen\nD) Energiemoleküle\nAnswer in English.",
+        "generated_answer": "C) Plasmamembranen",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Nach Zellklassifikation ... Welches Merkmal wird oft verwendet, um prokaryotische Zellen von eukaryotischen Zellen zu unterscheiden?\" Options: A) Lebensprozesse, B) Größenunterschiede, C) Plasmamembranen, D) Energiemoleküle. The correct answer is B (size differences). Generated answer says C) Plasmamembranen. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1074,
+        "question": "Prunkwinden sind Pflanzen, die eine große Menge an Variationen in den Genen für Blütenfarbe haben. Wenn eine weiße Blume in einer Population unabhängig vom Merkmal für weiße Blütenfarbe auftritt, was ist die wahrscheinlichste Quelle?\nA) genetische Mutation\nB) selektive Zucht\nC) Genomverdopplung\nD) sexuelle Rekombination\nAnswer in English.",
+        "generated_answer": "C) Genomverdopplung",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German: \"Prunkwinden ... If a white flower appears in a population independent of the trait for white flower color, what is the most likely source?\" Options: A) genetic mutation, B) selective breeding, C) genome duplication, D) sexual recombination. Correct answer is A (genetic mutation). Generated answer: \"C) Genomverdopplung\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 564,
+        "question": "Anna lief 100 Meter in 20 Sekunden. Was war ihre durchschnittliche Geschwindigkeit?\nA) 2 m/s\nB) 5 m/s\nC) 20 m/s\nD) 25 m/s\nAnswer in English.",
+        "generated_answer": "B) 5 m/s",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Anna lief 100 Meter in 20 Sekunden. Was war ihre durchschnittliche Geschwindigkeit? A) 2 m/s B) 5 m/s C) 20 m/s D) 25 m/s Answer in English.\" Ground truth answer: \"B\". Generated answer: \"B) 5 m/s\". That conveys same meaning (choice B). So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1068,
+        "question": "Eine DNA-Strang enthält Codons, die aus einer Sequenz von drei Nukleotiden bestehen. Was beschreibt am besten die Bedeutung von Codons in der DNA-Sequenz?\nA) Sie enthalten den Code für Boten-RNA.\nB) Sie signalisieren den Beginn der mitotischen Zellteilung.\nC) Sie stellen sicher, dass die genetische Code korrekt repliziert wird.\nD) Sie werden verwendet, um Aminosäuren für die Proteinsynthese zusammenzustellen.\nAnswer in English.",
+        "generated_answer": "A) They contain the code for messenger RNA.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"What best describes meaning of codons in DNA sequence?\" Correct answer is D. Generated answer is \"A) They contain the code for messenger RNA.\" That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 482,
+        "question": "Alles Folgende kann auf einer Nährwertkennzeichnung von Lebensmitteln gefunden werden, außer\nA) empfohlene Portionengröße.\nB) Kalorien pro Portion.\nC) ein vorgeschlagener Mahlzeitplan.\nD) eine Liste der Zutaten.\nAnswer in English.",
+        "generated_answer": "A) empfohlene Portionengröße.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Alles Folgende kann auf einer Nährwertkennzeichnung von Lebensmitteln gefunden werden, außer\" meaning \"All of the following can be found on a nutrition label of foods, except\". Options: A) recommended serving size, B) calories per serving, C) a suggested meal plan, D) a list of ingredients. The correct answer is C (a suggested meal plan). Ground truth answer: \"C\". Generated answer: \"A) empfohlene Portionengröße.\" That says the answer is A, not C. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 440,
+        "question": "In einem Laborverfahren beobachtet ein Schüler verschiedene Größen von Bodenpartikeln. Welches Instrument eignet sich am besten für die Untersuchung?\nA) eine Handlupe mit 1-facher Vergrößerung\nB) ein Mikroskop mit 40-facher Vergrößerung\nC) ein Lichtmikroskop mit 100-facher Vergrößerung\nD) ein Stereomikroskop mit 4-facher Vergrößerung\nAnswer in English.",
+        "generated_answer": "A) eine Handlupe mit 1-facher Vergrößerung",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which instrument best for investigating various sizes of soil particles. Options: A hand lens 1x, B microscope 40x, C light microscope 100x, D stereomicroscope 4x. Correct is D. Generated answer: \"A) eine Handlupe mit 1-facher Vergrößerung\". That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 858,
+        "question": "Neue Technologien haben es den Automobilherstellern ermöglicht, kraftstoffeffiziente Hybridfahrzeuge zu vermarkten, aber die Entsorgung dieser Fahrzeuge am Ende ihrer Lebensdauer stellt ein Problem dar. Welche Frage stellt ein Entsorgungsproblem dar, das einzigartig für Hybridfahrzeuge ist?\nA) Was wird mit den Batterien gemacht?\nB) Was wird mit dem Kältemittel in der Klimaanlage gemacht?\nC) Was wird mit den Flüssigkeiten im Tank, im Kühler und in den Batterien gemacht?\nD) Was wird mit den Kunststoffmaterialien in den Fahrzeugen gemacht?\nAnswer in English.",
+        "generated_answer": "A) What will be done with the batteries?",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"A\". Generated answer: \"A) What will be done with the batteries?\" That corresponds to option A, same meaning. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 563,
+        "question": "Welche Theorie über den Ursprung des Mondes besagt, dass der Mond der Erde durch denselben Prozess entstanden ist, der auch Mars, Jupiter und Neptun gebildet hat?\nA) Die Theorie des riesigen Einschlags\nB) Die Spaltungstheorie\nC) Die Einfangtheorie\nD) Die Koakkretionstheorie\nAnswer in English.",
+        "generated_answer": "The theory that the moon formed from the same process that formed Mars, Jupiter, and Neptune is:\nA) The giant impact theory",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Which theory about origin of Moon says that Moon formed by same process that formed Mars, Jupiter, Neptune? Options: A giant impact, B fission, C capture, D coaccretion. Correct is D (coaccretion). Generated answer says \"The theory ... is: A) The giant impact theory\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 922,
+        "question": "Bis vor kurzem war nur ein kleiner Teil der menschlichen DNA mit einer spezifischen Funktion bekannt. Der Rest der DNA galt als unwichtig. Neue Beweise deuten nun darauf hin, dass die gesamte DNA für bestimmte Genfunktionen benötigt wird. Welche Aussage beschreibt die Botschaft dieser neuen Beweise am besten?\nA) Sie werden die Untersuchung von DNA wesentlich einfacher machen.\nB) Sie beweisen, dass DNA weniger wichtig ist als ursprünglich gedacht.\nC) Sie liefern Beweise dafür, dass wissenschaftliche Ergebnisse nicht in Frage gestellt werden sollten.\nD) Sie belegen, dass wissenschaftliches Wissen Änderungen unterliegt.\nAnswer in English.",
+        "generated_answer": "A) They will make the study of DNA much easier.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth is \"D\". The generated answer is \"A) They will make the study of DNA much easier.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1008,
+        "question": "Welche alternativen Energiequellen nutzen die Gravitationsenergie zur Stromerzeugung?\nA) Gezeitenenergie und Wasserkraft\nB) Geothermie und Wasserkraft\nC) Windenergie und Gezeitenenergie\nD) Geothermie und Windenergie\nAnswer in English.",
+        "generated_answer": "A) Gezeitenenergie und Wasserkraft\nB) Geothermie und Wasserkraft\nC) Windenergie und Gezeitenenergie\nD) Geothermie und Windenergie",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Welche alternativen Energiequellen nutzen die Gravitationsenergie zur Stromerzeugung?\" (Which alternative energy sources use gravitational energy for electricity generation?) Options: A) Tidal energy and hydro power, B) Geothermal and hydro, C) Wind and tidal, D) Geothermal and wind. The correct answer is A (tidal and hydro). Ground truth: \"A\". Generated answer just repeats the list of options, not selecting one. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 731,
+        "question": "Ein kleiner Waschraum hat mehrere Regale über der Waschmaschine. Diese Regale sind ein Beispiel für\nA) die Wand stärker zu machen.\nB) den Stauraum effizient zu nutzen.\nC) eine Maschine für mehr als einen Zweck zu verwenden.\nD) die Notwendigkeit für Schutz auf kreative Weise zu lösen.\nAnswer in English.",
+        "generated_answer": "A) the wall to make it stronger.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Ein kleiner Waschraum hat mehrere Regale über der Waschmaschine. Diese Regale sind ein Beispiel für ...\" The correct answer is B) den Stauraum effizient zu nutzen. Ground truth is B. Generated answer: \"A) the wall to make it stronger.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 168,
+        "question": "Am 15. Oktober 1997 reiste Andy Green in der Black Desert von Nevada eine gemessene Strecke mit einer Durchschnittsgeschwindigkeit von 339 Metern pro Sekunde in einem Jet-angetriebenen Auto namens \"Thrust.\" Andy war die erste Person, die\nA) den Doppler-Effekt nutzte.\nB) in einem jetbetriebenen Auto fuhr.\nC) die Black Desert von Nevada durchquerte.\nD) die Schallmauer am Boden durchbrach.\nAnswer in English.",
+        "generated_answer": "A) the Doppler effect was used.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: In German, asks: \"Andy Green was the first person to ...\". Options A-D. Correct is D: \"die Schallmauer am Boden durchbrach\" i.e., broke the sound barrier on the ground. Ground truth answer is D. Generated answer: \"A) the Doppler effect was used.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 664,
+        "question": "Welche erneuerbare Ressource wird durch Luftkonvektionsströme erzeugt?\nA) Windenergie\nB) Solarenergie\nC) Energie aus fossilen Brennstoffen\nD) Geothermische Energie\nAnswer in English.",
+        "generated_answer": "D) Geothermische Energie",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question in German: \"Welche erneuerbare Ressource wird durch Luftkonvektionsströme erzeugt?\" Means \"Which renewable resource is generated by air convection currents?\" Options: A) Wind energy, B) Solar energy, C) Energy from fossil fuels, D) Geothermal energy. Correct answer is A) Wind energy (since wind is caused by convection currents). Ground truth is \"A\". Generated answer is \"D) Geothermische Energie\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 236,
+        "question": "Ein Bauer hat drei große Felder, auf denen er Gräser anbauen möchte, um sie nach zwei Jahren Wachstum zu Heu zu ernten. Was könnte der Bauer tun, um sicherzustellen, dass er jedes Jahr eine Heuernte hat?\nA) Jedes Feld in Ein-Jahres-Abständen bepflanzen.\nB) Die Gräser so eng wie möglich bepflanzen.\nC) Alle Felder zur gleichen Zeit bepflanzen, jedoch mit verschiedenen Grassorten.\nD) Warm- und Kaltjahres-Gräser zur gleichen Zeit auf jedem Feld anpflanzen.\nAnswer in English.",
+        "generated_answer": "A) Jedes Feld in Ein-Jahres-Abständen bepflanzen.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: German, answer options. Ground truth: \"A\". Generated answer: \"A) Jedes Feld in Ein-Jahres-Abständen bepflanzen.\" That's essentially the same as option A. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 996,
+        "question": "In Australien können die Temperaturen zu Mittag auf über 110°F (43°C) steigen. Um ihre Körper kühl zu halten, lecken Kängurus ihre Arme und bedecken sie mit einer dicken Schicht Speichel. Wenn der Speichel verdunstet, wirkt er als Kühlmechanismus und senkt die Körpertemperatur des Kängurus. Welcher Begriff beschreibt diese Aktivität am besten?\nA) natürliche Selektion\nB) Abwehrmechanismus\nC) strukturelle Anpassung\nD) Verhaltensanpassung\nAnswer in English.",
+        "generated_answer": "C) strukturelle Anpassung",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which term best describes this activity? The correct answer is D) Verhaltensanpassung (behavioral adaptation). Ground truth is D. Generated answer is C) strukturelle Anpassung (structural adaptation). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    }
+]

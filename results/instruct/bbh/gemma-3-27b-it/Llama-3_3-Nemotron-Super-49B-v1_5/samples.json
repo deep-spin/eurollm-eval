@@ -1,0 +1,82 @@
+[
+    {
+        "id": 3155,
+        "question": "((-2 * 5 + -3 + 0) * (-9 + 2 + 5 * 4)) =",
+        "generated_answer": "Let's evaluate the expression step by step:\nFirst, we evaluate the expression inside the first parentheses:\n-2 * 5 + -3 + 0 = -10 - 3 + 0 = -13\n\nNext, we evaluate the expression inside the second parentheses:\n-9 + 2 + 5 * 4 = -9 + 2 + 20 = -7 + 20 = 13\n\nNow, we multiply the results of the two parentheses:\n(-13) * (13) = -169\n\nSo, the expression evaluates to -169.\n\n((-2 * 5 + -3 + 0) * (-9 + 2 + 5 * 4)) = (-10 - 3 + 0) * (-9 + 2 + 20)\n= (-13) * (-7 + 20)\n= (-13) * (13)\n= -169\n\nFinal Answer: The final answer is $\\boxed{-169}$",
+        "ground_truth": "-169",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6209,
+        "question": "Question: Fletcher lies. Jerry says Fletcher lies. Raymond says Jerry lies. Conception says Raymond lies. Amberly says Conception tells the truth. Does Amberly tell the truth?",
+        "generated_answer": "Let's break this down step by step:\n\n*   **Fletcher lies:** This is our starting point.\n*   **Jerry says Fletcher lies:** Since Fletcher *does* lie, Jerry is telling the truth.\n*   **Raymond says Jerry lies:** Since Jerry is telling the truth, Raymond is lying.\n*   **Conception says Raymond lies:** Since Raymond *is* lying, Conception is telling the truth.\n*   **Amberly says Conception tells the truth:** Since Conception *is* telling the truth, Amberly is also telling the truth.\n\nTherefore, **Amberly tells the truth.**",
+        "ground_truth": "Yes",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3445,
+        "question": "I have a yam, a cauliflower, a garlic, two lettuce heads, a head of broccoli, a potato, a stalk of celery, and an onion. How many vegetables do I have?",
+        "generated_answer": "Let's count them up!\n\n*   **Yam:** 1 (vegetable)\n*   **Cauliflower:** 1 (vegetable)\n*   **Garlic:** 1 (vegetable)\n*   **Lettuce:** 2 (vegetables)\n*   **Broccoli:** 1 (vegetable)\n*   **Potato:** 1 (vegetable)\n*   **Celery:** 1 (vegetable)\n*   **Onion:** 1 (vegetable)\n\nAdding those together: 1 + 1 + 1 + 2 + 1 + 1 + 1 + 1 = **9**\n\nYou have 9 vegetables!",
+        "ground_truth": "9",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 331,
+        "question": "How would a typical person answer each of the following questions about causation?\nTom has a huge garden and loves flowers. He employed two gardeners who take care of the plants on his 30 flower beds: Alex and Benni. Both can independently decide on their working hours and arrange who cares for which flower beds. Alex and Benni are very reliable and Tom is satisfied with their work. Nevertheless he wants to optimize the plant growth. Since Tom has read in a magazine that plants grow better when they are fertilized, he decides to let Alex and Benni fertilize his plants. The magazine recommends the use of the chemicals A X200R or B Y33R, since both are especially effective. However, Tom also read that it can damage plants when they are exposed to multiple different types of chemicals. Tom therefore decides that he only wants to use one fertilizer. He goes for A X200R. When Tom meets Alex in the garden shortly afterwards, he instructs him to buy the chemical A X200R and to use only this fertilizer. He also explicitly instructs him to tell Benni to only use A X200R. Alex volunteers to buy several bottles of this chemical for Benni and himself and to tell Benni about Tom's instruction. After a few weeks, Tom goes for a walk in his garden. He realizes that some of his plants are much prettier and bigger than before. However, he also realizes that some of his plants have lost their beautiful color and are dried up. That makes Tom very sad and reflective. He wonders whether the drying of his plants might have something to do with the fertilization. He wants to investigate this matter and talks to Alex and Benni. After some interrogation, Alex finally confesses that he had told Benni that Tom wanted them to buy and use the chemical B Y33R instead of A X200R. He wanted Benni to use the wrong fertilizer and to get fired because he wanted to have more working hours to earn more money. He himself only used A X200R. Benni tells Tom that Alex had told him that they were only supposed to use B Y33R. He therefore only used B Y33R without knowing that Tom actually intended both gardeners to use A X200R. Tom realizes that the plants dried up in the flower beds on which both A X200R and B Y33R were applied by the gardeners. Did the fertilization by Alex cause the plant to dry out?\nOptions:\n- Yes\n- No",
+        "generated_answer": "A typical person would answer **No**.\n\nHere's why, and how a typical person would reason through it:\n\n* **Focus on Direct Cause:** Most people understand causation as a direct link. Alex *used* A X200R, and the plants he tended *didn't* dry out. The drying out happened where *both* chemicals were used.\n* **The Real Cause is the Combination:** The story clearly points to the *combination* of the two fertilizers as the problem.  A typical person would identify that as the root cause of the damage.\n* **Alex's Actions Didn't Directly Lead to Drying:** While Alex's *deception* set the stage for the problem, his *actions* (using A X200R) didn't directly cause the plants to dry. He followed instructions (albeit based on misinformation).\n* **Counterfactual Thinking:** A typical person might think, \"If Benni hadn't used the other fertilizer, the plants wouldn't have died.\"  This highlights the importance of B Y33R in the causal chain.\n\nWhile Alex is morally culpable and responsible for the situation, the *causal* agent of the plant damage wasn't his fertilizer use, but the *combination* of fertilizers.  \n\n\n\n",
+        "ground_truth": "No",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2121,
+        "question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: watermelons, apples, kiwis, cantaloupes, and mangoes. The cantaloupes are the second-cheapest. The mangoes are more expensive than the watermelons. The kiwis are less expensive than the apples. The kiwis are more expensive than the mangoes.\nOptions:\n(A) The watermelons are the most expensive\n(B) The apples are the most expensive\n(C) The kiwis are the most expensive\n(D) The cantaloupes are the most expensive\n(E) The mangoes are the most expensive",
+        "generated_answer": "Let's break down the information to determine the order of prices from cheapest to most expensive:\n\n*   **Cantaloupes are the second-cheapest:** This means there's one fruit cheaper than cantaloupes.\n*   **Mangoes are more expensive than watermelons:** Mangoes > Watermelons\n*   **Kiwis are less expensive than apples:** Apples > Kiwis\n*   **Kiwis are more expensive than mangoes:** Kiwis > Mangoes\n\nCombining these:\n\n1.  Apples > Kiwis > Mangoes > Watermelons\n2.  Cantaloupes are the second cheapest.\n\nPutting it all together, we have:\n\nCheapest < Cantaloupes < ...\n\nSince Kiwis > Mangoes > Watermelons, and Apples > Kiwis, the order must be:\n\nCheapest < Cantaloupes < Watermelons < Mangoes < Kiwis < Apples\n\nTherefore, the apples are the most expensive.\n\n**So the answer is (B).**",
+        "ground_truth": "(B)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 4188,
+        "question": "Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\nOptions:\n(A) piqk floyd\n(B) pink flomyd\n(C) pink floyds\n(D) fink floyd",
+        "generated_answer": "The most humorous edit is **(D) fink floyd**. \n\nHere's why:\n\n* **\"Fink\"** is a word that implies someone who tattles or is a bit sneaky/untrustworthy. Juxtaposing that with the iconic, somewhat philosophical and spacey \"Pink Floyd\" creates a funny contrast. It's a subtle but clever play on words.\n\nLet's look at why the others are less humorous:\n\n* **(A) piqk floyd:** Just a slight misspelling, not particularly funny.\n* **(B) pink flomyd:**  A minor vowel change, doesn't create a humorous image or meaning.\n* **(C) pink floyds:** Simply pluralizing the name isn't funny.\n\n\n\n",
+        "ground_truth": "(D)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3980,
+        "question": "On the nightstand, you see the following things arranged in a row: a pink cup, an orange booklet, a turquoise necklace, and a mauve textbook. How many non-magenta things do you see to the left of the necklace?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+        "generated_answer": "Let's list the items to the left of the turquoise necklace:\n1. Pink cup\n2. Orange booklet\n\nWe need to determine if these items are magenta.\n- Pink is not magenta.\n- Orange is not magenta.\n\nTherefore, there are two non-magenta things to the left of the necklace.\n\nFinal Answer: The final answer is $\\boxed{(C)}$",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 3317,
+        "question": "If you follow these instructions, do you return to the starting point? Take 10 steps. Take 2 steps. Take 3 steps. Turn around. Take 4 steps. Turn around. Take 4 steps.\nOptions:\n- Yes\n- No",
+        "generated_answer": "Let's break it down:\n\n*   **10 steps:** You move 10 steps forward.\n*   **2 steps:** You move 2 steps forward (total of 12 steps from the start).\n*   **3 steps:** You move 3 steps forward (total of 15 steps from the start).\n*   **Turn around:** You are now facing the starting point.\n*   **4 steps:** You move 4 steps *towards* the starting point (15 - 4 = 11 steps from the start).\n*   **Turn around:** You are now facing away from the starting point again.\n*   **4 steps:** You move 4 steps *away* from the starting point (11 + 4 = 15 steps from the start).\n\nYou end up 15 steps from your starting point.\n\nTherefore, the answer is **No**.",
+        "ground_truth": "No",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 6420,
+        "question": "Sort the following words alphabetically: List: extempore gotten",
+        "generated_answer": "Here's the alphabetical sorting of the words:\n\n1.  **extempore**\n2.  **gotten**\n\n\n\n",
+        "ground_truth": "extempore gotten",
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 2484,
+        "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Mel, and Ada. Ada finished above Ana. Mel finished below Ana.\nOptions:\n(A) Ana finished first\n(B) Mel finished first\n(C) Ada finished first",
+        "generated_answer": "Let's analyze the given information:\n\n*   \"Ada finished above Ana\" means Ada's rank is higher than Ana's rank.\n*   \"Mel finished below Ana\" means Mel's rank is lower than Ana's rank.\n\nCombining these, we get the order: Ada > Ana > Mel (where > means \"finished above\").\n\nThis means Ada finished higher than Ana, and Ana finished higher than Mel. Therefore, Ada finished first.\n\nSo the answer is (C).",
+        "ground_truth": "(C)",
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

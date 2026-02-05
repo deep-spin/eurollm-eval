@@ -1,0 +1,802 @@
+[
+    {
+        "id": 6311,
+        "question": "Какое животное является национальным символом Австралии?\nA) коала\nB) кенгуру\nC) утконос\nD) аллигатор\nAnswer in English.",
+        "generated_answer": "A) коала",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Какое животное является национальным символом Австралии?\" Options: A) koala, B) kangaroo, C) platypus, D) alligator. Ground truth answer: B (kangaroo). Generated answer: \"A) коала\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12418,
+        "question": "30-летняя женщина обратилась к врачу из-за болей в животе, длительностью 2 дня. У нее была история рецидивирующих инфекций верхних дыхательных путей, синусита и панкреатита. У нее густая насальная секреция. Она говорит, что ее пот соленый и кристаллизуется на ее коже. Ее витальные показатели находятся в пределах нормы. Физическое обследование показывает эпигастральную болезненность. Генетическое тестирование на 36 наиболее распространенных мутаций показывает обнаружение мутации (G551D) в одном аллеле гена CFTR. Что из следующего лучше всего объясняет клинический фенотип этого пациента?\nA) Для CFTR требуется только один аллель G551D\nB) Пациент является обязательным носителем CFTR\nC) Мутация CFTR у пациента не связана с его клиническим фенотипом\nD) Вторая мутация CFTR не была обнаружена при проведенном тестировании\nAnswer in English.",
+        "generated_answer": "A) Для CFTR требуется только один аллель G551D.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question: which best explains phenotype? The correct answer is D: second mutation not detected. Generated answer: \"A) Для CFTR требуется только один аллель G551D.\" That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6890,
+        "question": "Для какого из этих двух сценариев основной персонаж (который использует I/me/my) совершает явно неправильный по моральным меркам по обычным стандартам в США на сегодняшний день? Сценарий 1 | Я срезал цветы у своего соседа. Сценарий 2 | Я дал пять своему женатому коллеге после работы.\nA) Неправильно, Неправильно\nB) Неправильно, Не неправильно\nC) Не неправильно, Неправильно\nD) Не неправильно, Не неправильно\nAnswer in English.",
+        "generated_answer": "C) Неправильно, Неправильно",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: which scenario is morally wrong? Options: A) both wrong, B) first wrong, second not wrong, C) first not wrong, second wrong, D) both not wrong. Ground truth answer is B (first wrong, second not wrong). Generated answer: \"C) Неправильно, Неправильно\". That says option C, which is \"first not wrong, second wrong\"? Wait the options in Russian: A) Неправильно, Неправильно (both wrong). B) Неправильно, Не неправильно (first wrong, second not wrong). C) Не неправильно, Неправильно (first not wrong, second wrong). D) Не неправильно, Не неправильно (both not wrong). The generated answer says \"C) Неправильно, Неправильно\". That's contradictory: they label C but then write \"Неправильно, Неправильно\". That text corresponds to option A. But they claim C. Either way it's not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 663,
+        "question": "Какой из следующих является неявной стоимостью для владельца маленького магазина в вашем родном городе?\nA) Заработная плата, выплачиваемая помощнику менеджера\nB) Стоимость покупки консервированных продуктов у оптового поставщика продовольственных товаров\nC) Оценочная стоимость навыков владельца в альтернативной карьере\nD) Стоимость охлаждения рефрижераторной витрины с мясом\nAnswer in English.",
+        "generated_answer": "A) Заработная плата, выплачиваемая помощнику менеджера",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following is an implicit cost for the owner of a small shop in your hometown?\" Options: A) wage paid to assistant manager (explicit cost), B) cost of buying canned goods from wholesale (explicit), C) estimated value of owner's skills in alternative career (implicit cost), D) cost of cooling refrigerated meat case (explicit). So correct is C. Ground truth answer is C. Generated answer is A). That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4242,
+        "question": "Во время поездки в школу Элиз услышала в радиооэфире об акции раздачи билетов на концерт. Чтобы выиграть, ей нужно было стать седьмым звонившим. Остановившись на обочине, чтобы позвонить, она многократно повторяла номер телефона про себя. Каким способом запоминания номера телефона воспользовалась Элиз?\nA) Иконическая память\nB) Развивающее ознакомление\nC) Фрагментация\nD) Разминка\nAnswer in English.",
+        "generated_answer": "D) Разминка",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian, asks which memory technique used. Options A-D. Ground truth answer: D. Generated answer: \"D) Разминка\". That matches D. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8376,
+        "question": "Какое из следующих не происходит в процессе старения?\n\nA) Уменьшение количества мышечной массы\nB) Уменьшение плотности костной ткани\nC) Увеличение аппетита\nD) Ухудшение иммунной функции\nAnswer in English.",
+        "generated_answer": "D) Ухудшение иммунной функции",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following does NOT occur in the process of aging?\" Options: A) Decrease muscle mass, B) Decrease bone density, C) Increase appetite, D) Deterioration of immune function. The correct answer is C (increase appetite) because that's not typical; aging usually reduces appetite. So ground truth is C. Generated answer: \"D) Ухудшение иммунной функции\" i.e., D) Deterioration of immune function. That's not the same as C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7961,
+        "question": "Предполагая отсутствие статистической погрешности, экспортный избыток должен быть компенсирован в других областях\nA) баланс текущих операций только\nB) баланс финансовых операций только\nC) баланс товарной торговли только\nD) баланс текущих операций или финансовых операций только\nAnswer in English.",
+        "generated_answer": "A) balance of current transactions only",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Russian: \"Предполагая отсутствие статистической погрешности, экспортный избыток должен быть компенсирован в других областях\" which translates: Assuming no statistical error, export surplus must be compensated in other areas. Options: A) balance of current operations only, B) balance of financial operations only, C) balance of goods trade only, D) balance of current operations or financial operations only. The correct answer is D. The generated answer says \"A) balance of current transactions only\". That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6634,
+        "question": "____________ является набором практик, которые позволяют организациям общаться и взаимодействовать с их аудиторией через любое мобильное устройство или сеть.\nA) Мобильный маркетинг\nB) Маркетинг в социальных сетях\nC) Интернет-маркетинг\nD) Маркетинг в социальных медиа\nAnswer in English.",
+        "generated_answer": "A) Мобильный маркетинг",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian: \"____________ является набором практик, которые позволяют организациям общаться и взаимодействовать с их аудиторией через любое мобильное устройство или сеть.\" Options: A) Mobile marketing, B) Social network marketing, C) Internet marketing, D) Social media marketing. The correct answer is A) Mobile marketing. Ground truth: \"A\". Generated answer: \"A) Мобильный маркетинг\". That matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 12841,
+        "question": "Какое из этих блюд готовится из кишок свиньи?\nA) хаггис\nB) читлинс\nC) манная каша\nD) чоп-суи\nAnswer in English.",
+        "generated_answer": "C) манная каша",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Какое из этих блюд готовится из кишок свиньи?\" Means \"Which of these dishes is made from pig intestines?\" Options: A) haggis, B) chitlins, C) semolina porridge, D) chop-sui. Correct answer is B (chitlins). Ground truth is B. Generated answer: \"C) манная каша\" which is semolina porridge, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4969,
+        "question": "Этот вопрос относится к следующей информации.\nПОТОМУ что никто не может быть по-настоящему счастлив, даже наслаждаясь наибольшей свободой гражданского права, если ему ограничена свобода совести в отношении его религиозной профессии и поклонения. А Всемогущий Бог – единственный господин совести, отец света и духов, и автор, а также объект всего божественного знания, веры и поклонения, который один просвещает умы и убеждает разум людей, Я Настоящим предоставляю и объявляю, что никакое лицо или лица, живущие в этой провинции или территориях, которые признают и признают Одного Всемогущего Бога, Созидателя, Хранителя и Властителя Мира, и заявляют о своей обязанности жить мирно в соответствии с гражданским правительством, не будут в каком-либо случае обеспокоены или пострадают в своей личности или имуществе из-за их совести или практики, и не будут принуждены посещать или поддерживать какое-либо религиозное поклонение, место или служение вопреки их сознанию... \n--Уильям Пенн, Хартия привилегий, предоставленная Уильямом Пенном, эсквайром, жителям Пенсильвании и территорий, 28 октября 1701 года\nБлагодаря Хартии привилегий Пеннсильвания стала\nA) одной из наиболее религиозно разнообразных колоний в Британской Америке.\nB) одной из наименее религиозно разнообразных колоний в Америке.\nC) известной своими охотами на ведьм и популярными суевериями.\nD) известной своей враждебностью к традиционным религиозным практикам.\nAnswer in English.",
+        "generated_answer": "A) одной из наиболее религиозно разнообразных колоний в Британской Америке.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Благодаря Хартии привилегий Пеннсильвания стала ...\" options. Ground truth answer: \"A\". The generated answer: \"A) одной из наиболее религиозно разнообразных колоний в Британской Америке.\" That's essentially the same as option A. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7808,
+        "question": "На пике своей мощи лишь около _______ империи инков было населено этническими инками.\nA) 1 процент\nB) 10 процентов\nC) 30 процентов\nD) 50 процентов\nAnswer in English.",
+        "generated_answer": "C) 30 процентов",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"На пике своей мощи лишь около _______ империи инков было населено этническими инками.\" Options A) 1 percent, B) 10 percent, C) 30 percent, D) 50 percent. Ground truth answer is A) i.e., 1 percent. Generated answer is C) 30 percent. They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5866,
+        "question": "Услуги потребляются в точке их производства. Другими словами, доставка услуг не может быть отделена от предоставления услуг или их потребления. Какой характеристикой услуг здесь описывается?\nA) Нематериальность.\nB) Переменность.\nC) Неразрывность.\nD) Непродолжительность.\nAnswer in English.",
+        "generated_answer": "D) Непродолжительность.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian: \"Услуги потребляются в точке их производства... Какой характеристикой услуг здесь описывается?\" Options: A) Intangibility, B) Variability, C) Inseparability, D) Non-duration? The correct is C) Inseparability (Неразрывность). Ground truth answer is C. Generated answer is D) Непродолжительность. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9558,
+        "question": "Для какого из этих двух сценариев главный персонаж (который использует я / мне / мой) совершает что-то явно морально неправильное, согласно обычным моральным стандартам в США на 2020 год? Сценарий 1 | Я знаю, с чем справляется Карла дома со своим отцом, поэтому я пропущу ее плохое отношение. Сценарий 2 | Я решил поджечь огонь в печи.\nA) Неверно, неверно\nB) Неверно, правильно\nC) Правильно, неверно\nD) Правильно, правильно\nAnswer in English.",
+        "generated_answer": "C) Правильно, неверно",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: asks which scenario the main character does something morally wrong. Options: A) Both false, B) first false second true, C) first true second false, D) both true. Need to pick correct based on moral assessment. Scenario1: \"I know what Carla deals with at home with her father, so I will skip her bad attitude.\" That sounds like ignoring her bad attitude because she has issues at home. That's morally questionable? Probably it's wrong to skip? Actually \"skip her bad attitude\" maybe means I will overlook her bad attitude. That's not clearly wrong. Scenario2: \"I decided to set fire in the stove.\" That's likely morally wrong (dangerous). So first not wrong, second wrong => answer: \"Неверно, правильно\"? Wait mapping: first scenario moral wrong? No. second moral wrong? Yes. So first not wrong (незначительно?), second wrong => \"Неверно, правильно\"? Actually options: \"Неверно, правильно\" means first false (not wrong), second true (wrong). That matches. So correct answer is B. But ground truth says D. That seems odd. Maybe they interpret both as wrong: scenario1 is wrong to skip her bad attitude? Actually \"skip her bad attitude\" maybe means I will skip (i.e., ignore) her bad attitude? Could be morally wrong to ignore? Not sure. Scenario2 is definitely wrong. So both wrong => D. Ground truth says D. Generated answer C says first true second false (first wrong, second not wrong). That's opposite. So generated does not match ground truth. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3578,
+        "question": "17-летняя девушка, ранее полностью здоровая, обратилась к врачу из-за истории двухмесячной истории кашля и насморка, возникающих при физических нагрузках. Она играет в хоккей на траве и обратила внимание, что кашель возникает при беге вверх и вниз по полю. Кашель несуточный и проходит после отдыха. Она не испытывала боль в груди и сердцебиение не было отмечено. Она не принимает медикаменты и не курит. У ее сестры астма. Пациентка выглядит здоровой. Ее пульс - 68/min, дыхание - 16/min, артериальное давление - 100/75 мм рт.ст. Пульсоксиметрия на воздухе в комнате показывает насыщение кислородом 99%. Кардиопульмонологический осмотр не выявил никаких отклонений. Рентген грудной клетки не показал никаких отклонений. Спирометрия показала FEV1:FVC-отношение 90% и FEV1 на 90% от прогнозируемого. Какой из следующих вариантов диагноза наиболее вероятен?\nA) Астма\nB) Хронический бронхит\nC) Рефлюкс-эзофагит\nD) Синдром постназального стекания\nAnswer in English.",
+        "generated_answer": "A) Астма",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which diagnosis most likely? Options given. Ground truth answer: \"A\". That corresponds to Asthma. Generated answer: \"A) Астма\". That's same. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8268,
+        "question": "500 женщин в возрасте от 40 до 54 лет, которые проходят регулярное обследование, спрашивают о своем потреблении мяса, и оказывается, что все они являются вегетарианцами. За последующие 5 лет рак толстой кишки развился у 5 вегетарианцев и 43 не вегетарианцев. Какое из следующих наилучшим образом описывает дизайн исследования?\nA) Отчет о серии случаев\nB) Когортное исследование\nC) Исследование случая и контроля\nD) Перекрестное исследование\nAnswer in English.",
+        "generated_answer": "D) Перекрестное исследование",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: Russian: 500 women aged 40-54, regular screening, asked about meat consumption, all are vegetarians. Over 5 years, colon cancer developed in 5 vegetarians and 43 non-vegetarians. What study design best describes? Options: A) Case series report, B) Cohort study, C) Case-control, D) Cross-sectional. The correct answer is likely cohort study: they start with exposure (vegetarian vs non) and follow for outcome. So ground truth says A (case series) which seems wrong. But we must evaluate equivalence: Generated answer is D (cross-sectional). Ground truth is A. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2281,
+        "question": "Этот вопрос относится к следующей информации.\n\"Его Величество Император Китая соглашается, что британские субъекты, со своими семьями и учреждениями, будут иметь возможность проживать, с целью осуществления своих коммерческих деятельностей, без помех или ограничений в городах и городах Цзяньмэнь, Амой, Фучжоу, Нинпо и Шанхай; и Ее Величество Королева Великобритании, и т.д., назначит надзирателей или консульских служащих, чтобы проживать в каждом из вышеупомянутых городов или городов, быть связующим звеном между китайскими властями и указанными купцами, а также убедиться, что справедливые налоги и другие сборы китайского правительства, как это предусмотрено в дальнейшем, должны быть должным образом уплачены гражданами ее британского величества\".\nДоговор Нанджинга, 1839\nКак Боксы начала XX века отреагировали на наследие этого договора?\nA) Они начали вооруженное сопротивление западным интересам в Северном Китае.\nB) Они заключили альянс с Японией, чтобы остановить деятельность западных компаний в Китае.\nC) Они выдвигались на местные политические должности с программой расширения договора.\nD) Они защищали договор от противодействия китайских повстанцев.\nAnswer in English.",
+        "generated_answer": "A) Они начали вооруженное сопротивление западным интересам в Северном Китае.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The ground truth answer is \"A\". The generated answer is \"A) Они начали вооруженное сопротивление западным интересам в Северном Китае.\" That is essentially the same as answer A, which is the same content. So they are equivalent. Therefore Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 4617,
+        "question": "Для какого из этих двух сценариев главный персонаж (который использует Я/меня/мой) совершает что-то, явно нарушающее моральные стандарты, с точки зрения обычных моральных норм в США на 2020 год? Сценарий 1 | Я осторожно избегал птиц в воздухе с помощью моего дрона. Сценарий 2 | Я приготовил моей мачехе клубничный коктейль, потому что ягоды вызывают у нее крапивницу\nA) Неверно, неверно\nB) Неверно, верно\nC) Верно, неверно\nD) Верно, верно\nAnswer in English.",
+        "generated_answer": "C) Верно, неверно",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"C\". Generated answer: \"C) Верно, неверно\". That corresponds to option C, same as ground truth. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2289,
+        "question": "В течение последних 20 лет город на побережье был популярным местом для серфинга. Жители города недавно жаловались, что серферы создают общественную неприятность, мусорят на пляжах, беспокоят загорающихся и травмируют пловцов своими серфами. В результате город принял ордер, запрещающий серфинг на его пляжах. Во вновь принятом ордере также запрещалась продажа серфов в пределах городских пределов. Производитель серфов из другого штата планировал продать новую линейку стеклопластиковых серфов в городе в следующем году. Однако это теперь несовместимо с недавно принятой мерой. Если производитель подаст ходатайство об отмене применения городского ордера, какое из следующего является НАИБОЛЕЕ СЛАБОЙ защитой города?\nA) Нет дела или спора.\nB) Дело производителя утратило свою актуальность.\nC) Производитель не имеет статуса.\nD) Дело еще не зрело.\nAnswer in English.",
+        "generated_answer": "B) Дело производителя утратило свою актуальность.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The question: \"какое из следующего является НАИБОЛЕЕ СЛАБОЙ защитой города?\" Options A-D. The ground truth answer is \"B\". The generated answer: \"B) Дело производителя утратило свою актуальность.\" That corresponds to option B, which is the same. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 12383,
+        "question": "Этот вопрос относится к следующей информации.\nПозвольте нам, умоляю вас, сэр, не обманывать себя. Мы, сэр, сделали все, что было в наших силах, чтобы предотвратить бурю, которая теперь надвигается на нас. Мы обращались с петициями; мы протестовали; мы умоляли; мы преклонялись перед троном и просили вмешательства, чтобы остановить тиранические руки министерства и парламента. Наши петиции были проигнорированы; наши протесты породили дополнительное насилие и оскорбление; наши умоления были пренебрежены; и мы были оттолкнуты с презрением от ног трона. Тщетно, после всего этого, надеяться на мир и примирение. Больше нет места надежде...\n Это тщетно, сэр, умалять значение вопроса. Джентльмены могут кричать, Мир, Мир, но нет мира. Война началась! Следующий шторм, который пронесется с севера, принесет в наши уши звон оружия! Уже наши братья находятся на поле боя! Почему мы стоим без дела? Чего желают джентльмены? Что бы они хотели? Может ли жизнь быть настолько дорогой, или мир настолько сладким, чтобы купить их ценой цепей и рабства? Нет, Всемогущий Бог запретит! Я не знаю, какой путь выберут другие, но для меня дайте мне свободу или смерть!\n— Патрик Генри, 23 марта 1775 года.\n«Буря», о которой говорит Генри, была прямым результатом чего из следующего?\nA) Американские усилия по торговле с Испанией и Францией\nB) Британские усилия по уменьшению бюджетного дефицита после Французско-индийской войны\nC) Британское несогласие сражаться с индейскими племенами на границе\nD) Британское захватчество американских моряков и интерференция в американской торговле\nAnswer in English.",
+        "generated_answer": "A) Американские усилия по торговле с Испанией и Францией",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: which caused the storm? Ground truth: B. Generated answer: \"A) Американские усилия по торговле с Испанией и Францией\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1553,
+        "question": "Область, ограниченная кривыми y = x и y = x^2, находящаяся в первом квадранте плоскости xy, вращается вокруг оси y. Объем полученного тела вращения равен\nA) π/12\nB) π/6\nC) π/3\nD) 2π/3\nAnswer in English.",
+        "generated_answer": "D) 2π/3",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer \"D) 2π/3\" with ground truth \"B\". Ground truth answer is option B, which corresponds to π/6. Generated answer is option D, which is 2π/3. They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10131,
+        "question": "Буква \"с\" в слове \"кошка\" лучше всего описывается как\nA) фонема.\nB) морфема.\nC) голосемейка.\nD) слог.\nAnswer in English.",
+        "generated_answer": "C) голосемейка.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Буква 'с' в слове 'кошка' лучше всего описывается как\" (The letter \"s\" in the word \"кошка\" is best described as). Options: A) phoneme, B) morpheme, C) glosseme? Actually \"голосемейка\" is a term in Russian linguistics meaning \"phoneme\"? Wait \"голосемейка\" is a phoneme? I think \"голосемейка\" is a phoneme (sound family). The correct answer is A) фонема. Ground truth says A. Generated answer says C) голосемейка. That is not the same as A. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4104,
+        "question": "Какое условие возникает, когда жители одного государства хотят присоединить территорию, население которой этнически связано с населением этого государства, но находится под управлением другого государства?\nA) Национализм\nB) Конфликт ресурсов\nC) Ирредентизм\nD) Позиционный конфликт\nAnswer in English.",
+        "generated_answer": "A) Национализм",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian: \"Какое условие возникает, когда жители одного государства хотят присоединить территорию, население которой этнически связано с населением этого государства, но находится под управлением другого государства?\" Options: A) Nationalism, B) Resource conflict, C) Irredentism, D) Positional conflict. Correct answer is C) Irredentism. Ground truth says \"C\". Generated answer: \"A) Национализм\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8725,
+        "question": "Весы пружинного типа используются для измерения чистой силы, приложенной к объекту; детектор звукового движения используется для измерения результирующего ускорения объекта. График строится с чистой силой на вертикальной оси и ускорением на горизонтальной оси. Какое из следующих количеств непосредственно измеряется с помощью наклона этого графика?\nA) Гравитационная масса\nB) Вес\nC) Скорость\nD) Инерционная масса\nAnswer in English.",
+        "generated_answer": "D) Инерционная масса",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian, asks which quantity is directly measured by slope of graph of net force vs acceleration. Answer: inertial mass. Ground truth: \"D\". Generated answer: \"D) Инерционная масса\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11553,
+        "question": "У врача была земельная усадьба площадью два акра за городом. Она разделила часть на 12 участков, обозначенных цифрами от 1 до 12, и продала 11 участков 11 различным покупателям. Врач оставила участок 12 для жилья. Каждый договор на 11 проданных участков содержал следующее ограничение: \"Это является явным обязательством и условием того, что принадлежащая здесь собственность не будет использоваться для чего-то кроме односемейных жилых домов\". Два года спустя после того, как врач разделила и продала участки, покупатели участков с 1 по 11 построили жилые дома на своих землях. В декабре того года врач пробурила скважину на своей земле. Вода из этой скважины поставлялась всем владельцам участков. Год спустя ветеринар, живущий на участке рядом с врачом, пробурил скважину в своем саду. Его скважина привела к отводу воды из скважины врача, и врач больше не может получать никакой воды. В соответствующем действии врача против ветеринара, какое возмещение, если оно есть, доступно?\nA) Должен быть вынесен запрет на использование скважины ветеринаром.\nB) Врач должен иметь право на получение денежной компенсации от ветеринара.\nC) Ветеринар должен обеспечить поставку воды для врача.\nD) Нет общей меры воздействия.\nAnswer in English.",
+        "generated_answer": "A) Должен быть вынесен запрет на использование скважины ветеринаром.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question asks: In the appropriate action of the doctor against the veterinarian, what remedy, if any, is available? Options A, B, C, D. Ground truth answer is D (No general remedy). Generated answer is A (injunction to stop vet's use). They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9861,
+        "question": "Какое из следующих утверждений справедливо для периферической нейропатии?\nA) Демонстрируется потеря чувствительности в области чулка\nB) Тонус увеличен с двух сторон в ногах\nC) Рефлексы очень бодрые с поддержкой\nD) Слабость проявляется более выраженно проксимально, чем дистально\nAnswer in English.",
+        "generated_answer": "A) Демонстрируется потеря чувствительности в области чулка",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which of the following statements is true for peripheral neuropathy?\" Options A-D. Ground truth answer: \"A\". The generated answer: \"A) Демонстрируется потеря чувствительности в области чулка\". That is essentially the same as option A, which matches ground truth. So they convey same meaning. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 2407,
+        "question": "Примерно сколько фильмов смотрят дома за год в Соединенных Штатах?\nA) 200,000,000\nB) 2,000,000,000\nC) 20,000,000,000\nD) 200,000,000,000\nAnswer in English.",
+        "generated_answer": "A) 200,000,000,000\n\nThe United States is the largest consumer of movies in the world, with an estimated 200 billion dollars spent on movie tickets in 2019.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Примерно сколько фильмов смотрят дома за год в Соединенных Штатах?\" Means \"Approximately how many movies are watched at home per year in the United States?\" Options A 200 million, B 2 billion, C 20 billion, D 200 billion. Ground truth answer is C (20,000,000,000). Generated answer says \"A) 200,000,000,000\" which is option D (200 billion). Also includes irrelevant statement about dollars spent. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5081,
+        "question": "Какой из следующих структур переносит кислородосодержащую кровь к сердцу?\nA) Аорта\nB) Каротидные артерии\nC) Нижняя полая вена\nD) Легочные вены\nAnswer in English.",
+        "generated_answer": "A) Аорта",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer \"A) Аорта\" with ground truth \"D\". The question: \"Which of the following structures carries oxygenated blood to the heart?\" Options: Aorta, Carotid arteries, Inferior vena cava, Pulmonary veins. Correct answer is pulmonary veins (D). Generated answer says Aorta, which is incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1618,
+        "question": "Какая из следующих интересных групп создала наибольшее количество политических комитетов действий (PAC) с 1970-х годов?\nA) Активисты экологических организаций\nB) Профсоюзы\nC) Коммерческие предприятия\nD) Религиозные учреждения\nAnswer in English.",
+        "generated_answer": "C) Коммерческие предприятия",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following interesting groups created the most political action committees (PACs) since the 1970s?\" Options A-D. Ground truth answer: \"C\". The generated answer: \"C) Коммерческие предприятия\". That is the same: option C, commercial enterprises. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11957,
+        "question": "При работе над сценой для боевика звуковой техник получает задание изменить частоту выстрела, чтобы более точно отразить нормальную скорость звука. Выстрел произведен актером в машине, движущейся со скоростью 108 км/ч, и записан камерой на платформе, движущейся со скоростью 72 км/ч в том же направлении на расстоянии 200 метров от машины. Если частота звука выстрела обычно составляет 800 Гц, какая частота будет воспринята камерой?\nA) 941 Гц\nB) 787 Гц\nC) 924 Гц\nD) 912 Гц\nAnswer in English.",
+        "generated_answer": "B) 787 Гц",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: Russian physics problem about Doppler effect. The ground truth answer is \"C\". That corresponds to option C) 924 Гц. The generated answer is \"B) 787 Гц\". They are not the same. So answer false.\n\nThus output: Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1208,
+        "question": "Согласно автору, какая у Ольмеков была общая черта, которая объединяла их в различных территориях?\nA) основные религиозные верования, как видно из искусства и символики Ольмеков\nB) сельскохозяйственный избыток, который привел к созданию экономических неравенств\nC) они говорили на одном языке и были связаны родством и браком\nD) система торговли и обмена, как видно по жетонам, используемым в качестве формы денег\nAnswer in English.",
+        "generated_answer": "According to the author, what was the common trait that united the Olmecs in different territories?\nA) the main religious beliefs, as seen from their art and symbolism\nB) the agricultural surplus, which led to the creation of economic inequalities\nC) they spoke the same language and were related by blood and marriage\nD) a system of trade and exchange, as seen by the tokens used as a form of money",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Согласно автору, какая у Ольмеков была общая черта, которая объединяла их в различных территориях?\" Options A-D. Ground truth answer: A. So correct answer is option A.\n\nGenerated answer: It repeats the question and options, but does not select an answer. It just restates the question and options. It does not indicate which option is correct. Therefore it's not equivalent. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11206,
+        "question": "Какая из следующих черт является типичной для временных рядов доходности финансовых активов?\nA) Их распределения имеют узкие хвосты\nB) Они не являются слабо стационарными\nC) Они высокоавтокоррелированы\nD) У них нет тренда\nAnswer in English.",
+        "generated_answer": "A) Их распределения имеют узкие хвосты",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of the following traits is typical for time series of returns of financial assets?\" Options: A narrow tails, B not weakly stationary, C highly autocorrelated, D no trend. Correct answer is D (no trend). Generated answer: \"A) Их распределения имеют узкие хвосты\" i.e., option A. That's not same as D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5409,
+        "question": "Движущийся тележка массой 1,5 кг сталкивается и прилипает к тележке массой 0,5 кг, которая изначально находилась в покое. Сразу после столкновения у обеих тележек будет одинаковый ______.\nA) Скорость\nB) Кинетическая энергия\nC) Масса\nD) Линейный импульс\nAnswer in English.",
+        "generated_answer": "A) Скорость",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian: moving cart mass 1.5 kg collides and sticks to cart mass 0.5 kg initially at rest. Immediately after collision both carts will have same ______. Options: A) speed, B) kinetic energy, C) mass, D) linear momentum. Correct answer: they will have same speed (they move together). Ground truth answer: \"A\". Generated answer: \"A) Скорость\". That matches. So True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 7735,
+        "question": "Какое имя персонажа сыграл Вуди Аллен в фильме 'Казино Рояль' 1967 года о Джеймсе Бонде?\nA) Доктор Зло\nB) Q\nC) Маленький Джимми Бонд\nD) M\nAnswer in English.",
+        "generated_answer": "D) M",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Какое имя персонажа сыграл Вуди Аллен в фильме 'Казино Рояль' 1967 года о Джеймсе Бонде?\" Which character name did Woody Allen play in the 1967 Casino Royale? Options: A) Doctor Evil, B) Q, C) Little Jimmy Bond, D) M. The correct answer is C (Little Jimmy Bond). The generated answer is D) M. That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9171,
+        "question": "Этот вопрос относится к следующей информации.\nПрочитайте следующий отрывок.\nЕсли бы гражданское образование развивало в каждом ребенке его естественные склонности, мы бы увидели, что почти все богатые дети влюблены в различные очень простонародные ремесла, такие как каменщик, плотник, кузнец, седларь. Я привел пример Людовика XVI, который любил профессию слесаря; Инфанта Испании отдавала предпочтение сапожнику; некий король Дании удовлетворил себя изготовлением шприцев; бывший король Неаполя любил продавать рыбу, которую сам поймал на рыночной площади; князь Пармы, которого Кондийяк обучил метафизическим тонкостям, пониманию интуиции, познания, не имел вкуса, кроме занятия церковным служителем и мирянином.\nВеликое большинство богатых детей следовало бы этим простонародным вкусам, если бы гражданское образование не противодействовало развитию них; и если бы грязность мастерских и грубость рабочих не вызывали более сильного отвращения, чем привлекательности. Есть ли ребенок князя, который не имеет вкуса к одному из четырех профессий, которые я только что упомянул - каменщику, плотнику, кузнецу, седларю, и кто не продвинется в них, если он увидит с раннего возраста работу, которая выполняется в светлых мастерских, утонченными людьми, которые всегда организуют миниатюрную мастерскую для детей, с маленькими инструментами и легкой работой?\n— Шарль Фурье, О образовании, 1838 год\nМногие в кругах Фурье выступали за универсальное мужское избирательное право, которое было наиболее распространено в какой из следующих групп?\nA) Люддиты\nB) Либералы\nC) Бентамиты\nD) Чартисты\nAnswer in English.",
+        "generated_answer": "A) Люддиты",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer \"A) Люддиты\" with ground truth \"D\". They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1649,
+        "question": "Какая из следующих менструальных проблем является НАИБОЛЕЕ РАСПРОСТРАНЕННОЙ?\nA) болезненные менструации\nB) отсутствие менструации\nC) менструация без овуляции\nD) овуляция без менструации\nAnswer in English.",
+        "generated_answer": "A) болезненные менструации",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent to ground truth. Question: \"Which of the following menstrual problems is the most common?\" Options A-D. Ground truth answer: \"A\". Generated answer: \"A) болезненные менструации\". That matches option A. So meaning same. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5796,
+        "question": "На декартовой координатной плоскости точки $(1,2)$ и $(7,4)$ являются противоположными вершинами квадрата. Какова площадь квадрата?\nA) 20\nB) 34\nC) 40\nD) \\sqrt{40}\nAnswer in English.",
+        "generated_answer": "The answer is B) 34.\n\nThe area of a square is calculated by multiplying the length of one side by itself. In this case, the length of one side is 7 units, and the length of the other side is 4 units. Therefore, the area of the square is 7 * 4 = 28 square units.\n\nThe answer is B) 34.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". That means correct answer is option A, which is 20. The generated answer says \"The answer is B) 34.\" and then gives reasoning that area is 28 (contradiction). So it's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7113,
+        "question": "Алиса, 14 лет, уверена, что все смотрят на нее из-за большого прыща на средине ее лба. Согласно Элкинду (1967), убеждение Алисы является проявлением:\nA) самосознания.\nB) “личной сказки”.\nC) социальной ориентации.\nD) “воображаемой аудитории”.\nAnswer in English.",
+        "generated_answer": "A) самосознания.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: Russian. The correct answer is D (\"воображаемой аудитории\"). Generated answer: \"A) самосознания.\" That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5180,
+        "question": "Какова цена трехлетней облигации (номиналом $ 100), выплачивающей купоны 5%, при доходности 6%?\nA) $100\nB) $104.29\nC) $96.71\nD) $97.33\nAnswer in English.",
+        "generated_answer": "$100",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer \"$100\" is equivalent in meaning to ground truth \"D\". The question: \"Какова цена трехлетней облигации (номиналом $ 100), выплачивающей купоны 5%, при доходности 6%? A) $100 B) $104.29 C) $96.71 D) $97.33 Answer in English.\"\n\nGround truth answer is D, which corresponds to $97.33. Generated answer is \"$100\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10008,
+        "question": "Какой из следующих документов обычно выдается в рамках процедур дуэ-процесса Финансового управления стандартами (FASB) для изменения Кодекса стандартов бухгалтерского учета FASB?\nA) Предложенное заявление о позиции.\nB) Предложенное обновление бухгалтерских стандартов.\nC) Предложенный бухгалтерский исследовательский бюллетень.\nD) Предложенный бюллетень персонала по бухгалтерскому учету.\nAnswer in English.",
+        "generated_answer": "A) Предложенное заявление о позиции.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which document is usually issued in du-process of FASB for changes to the Accounting Standards Codex? Options: A) Proposed Statement of Position, B) Proposed Accounting Standards Update, C) Proposed Accounting Research Bulletin, D) Proposed Staff Accounting Bulletin. Correct answer is B (Proposed Accounting Standards Update). Generated answer: \"A) Предложенное заявление о позиции.\" That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10492,
+        "question": "Ложные умозаключения могут иметь психологический эффект, даже если они...\nA) Психологически бессильны\nB) Логически ошибочны\nC) Дедуктивно верны\nD) Индуктивно верны\nAnswer in English.",
+        "generated_answer": "C) Дедуктивно верны",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Russian: \"Ложные умозаключения могут иметь психологический эффект, даже если они...\" Means \"False conclusions can have a psychological effect even if they are...\" Options: A) psychologically powerless, B) logically erroneous, C) deductively true, D) inductively true. The correct answer is B (logically erroneous). Generated answer: \"C) Дедуктивно верны\" i.e., \"Deductively true\". That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3350,
+        "question": "Оборачиваемость запасов фирмы (IT) составляет 5 раз на стоимость проданных товаров (COGS) в размере 800 000 долларов. Если IT улучшится до 8 раз, а COGS останется прежней, значительное количество средств будет освобождено из запасов или дополнительно вложено в них. На самом деле,\nA) Освобождается 160 000 долларов.\nB) Дополнительно вкладывается 100 000 долларов.\nC) Дополнительно вкладывается 60 000 долларов.\nD) Освобождается 60 000 долларов.\nAnswer in English.",
+        "generated_answer": "A) Освобождается 160 000 долларов.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Russian: Inventory turnover is 5 times on COGS 800k. If improves to 8 times, COGS same, significant amount of cash will be released from inventory or additionally invested. Actually, which? Options: A) $160k released, B) $100k invested, C) $60k invested, D) $60k released. Ground truth answer is D (i.e., $60k released). Generated answer: \"A) Освобождается 160 000 долларов.\" That's option A, which is different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9052,
+        "question": "Определите антецедент следующего условного предложения: Пчелы выигрывают свою первую игру только в том случае, если Ардварки или Бурундуки не выигрывают свои первые игры.\nA) Ардварки не выигрывают свою первую игру.\nB) Пчелы выигрывают свою первую игру.\nC) Бурундуки не выигрывают свою первую игру.\nD) Либо Ардварки, либо Бурундуки не выигрывают свои первые игры.\nAnswer in English.",
+        "generated_answer": "A) Ардварки не выигрывают свою первую игру.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Determine the antecedent of the conditional sentence: \"Пчелы выигрывают свою первую игру только в том случае, если Ардварки или Бурундуки не выигрывают свои первые игры.\" The antecedent is the \"if\" part? Actually \"only if\" means: P only if Q => P → Q. So antecedent is P: \"Пчелы выигрывают свою первую игру.\" So correct answer is B. Generated answer is A) \"Ардварки не выигрывают свою первую игру.\" That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7815,
+        "question": "Каково свойство теории морали последствий?\nA) Она является теорией, основанной на ценностях.\nB) Она включает идею альтернативных действий, открытых для агента.\nC) Она является сильно импарциалистичной моральной теорией.\nD) все вышеупомянутые свойства\nAnswer in English.",
+        "generated_answer": "A) Она является теорией, основанной на ценностях.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Каково свойство теории морали последствий?\" Options A, B, C, D. Ground truth answer is D (all above). Generated answer is \"A) Она является теорией, основанной на ценностях.\" That's not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7253,
+        "question": "При температуре 20°С труба с открытыми на обоих концах резонирует с частотой 440 герц. Какая частота резонанса будет наступать в этой же трубе в особенно холодный день, когда скорость звука на 3 процента меньше, чем при t = 20°С?\nA) 414 Гц\nB) 427 Гц\nC) 433 Гц\nD) 440 Гц\nAnswer in English.",
+        "generated_answer": "C) 433 Гц",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer \"C) 433 Гц\" with ground truth \"B\". They are not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8541,
+        "question": "Финансовый офис в государственном университете проводит исследование, чтобы определить полные затраты студентов за семестр. Всем студентам взымается плата за обучение в размере $4500. Средние затраты на книги составляют $350 при стандартном отклонении $65. Средние расходы на проживание и питание составляют $2800 при стандартном отклонении $380. Средние личные расходы составляют $675 при стандартном отклонении $125. Предполагая независимость между категориями, каково стандартное отклонение полных затрат студентов?\nA) $24\nB) $91\nC) $190\nD) $405\nAnswer in English.",
+        "generated_answer": "B) $91",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer \"B) $91\" with ground truth \"D\". The ground truth answer is D (which corresponds to $405). The generated answer is B ($91). They are not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4267,
+        "question": "Какая функция денег лучше всего определяет $1.25 как цену 20-унции бутылки газировки?\nA) Средство обращения\nB) Единица учета\nC) Средство накопления\nD) Передача собственности\nAnswer in English.",
+        "generated_answer": "C) Средство накопления",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"Какая функция денег лучше всего определяет $1.25 как цену 20-унции бутылки газировки? A) Средство обращения B) Единица учета C) Средство накопления D) Передача собственности Answer in English.\"\n\nThe correct answer is B (unit of account). Generated answer: \"C) Средство накопления\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1020,
+        "question": "Какая из следующих стран активно пытается сохранить чистоту своего родного языка от загрязнения английским или другими языками?\nA) Италия\nB) Россия\nC) Япония\nD) Бразилия\nAnswer in English.",
+        "generated_answer": "C) Япония",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: \"Which of the following countries actively tries to preserve the purity of its native language from contamination by English or other languages?\" Options A Italy, B Russia, C Japan, D Brazil. Answer in English. Ground truth: \"C\". So correct answer is option C (Japan). Generated answer: \"C) Япония\". That is the same: option C, Japan. So meaning matches. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 8989,
+        "question": "Какое из следующих объяснений лучше подходит для логической ошибки игнорирования возражений?\nA) утверждение, что оппонент занял легко опровергаемую позицию, которую оппонент на самом деле не занял, опровержение этой позиции и действие, как будто вы нанесли значительный ущерб всей аргументации оппонента.\nB) создание путаницы во время опровержения из-за реальной или притворной неспособности участвовать в опровержении\nC) характеризация противоположного аргумента таким образом, чтобы он или его последствия казались нелепыми\nD) аргументация в пользу принятия одного действия только на основании необходимости быть преданным к кому-либо или к группе\nAnswer in English.",
+        "generated_answer": "A) утверждение, что оппонент занял легко опровергаемую позицию, которую оппонент на самом деле не занял, опровержение этой позиции и действие, как будто вы нанесли значительный ущерб всей аргументации оппонента.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which of the following explanations best fits the logical fallacy of ignoring objections?\" Options A-D. The ground truth answer is B. The generated answer is \"A) ...\" i.e., option A. That does not match. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 230,
+        "question": "Зачем необходимо проводить промывание мочевого пузыря у пациента дома?\nA) Когда их моча прозрачная.\nB) Когда катетер заблокирован.\nC) Когда катетер обходит.\nD) Когда катетер грязный.\nAnswer in English.",
+        "generated_answer": "A) Когда их моча прозрачная.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Зачем необходимо проводить промывание мочевого пузыря у пациента дома?\" (Why is it necessary to flush the bladder at home?) Options: A) When urine is clear. B) When catheter is blocked. C) When catheter bypasses. D) When catheter is dirty. The correct answer is B (when catheter is blocked). The generated answer is \"A) Когда их моча прозрачная.\" which is option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1528,
+        "question": "Максимально устойчивая мощность:\nA) обычно остается постоянной во время гонки.\nB) снижается с увеличением дистанции гонки.\nC) улучшается при высокожировой диете.\nD) обратно пропорциональна содержанию гликогена в мышцах.\nAnswer in English.",
+        "generated_answer": "A) обычно остается постоянной во время гонки.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Максимально устойчивая мощность:\" with options A-D. The ground truth answer is \"B\". The generated answer is \"A) обычно остается постоянной во время гонки.\" That's option A, not B. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11791,
+        "question": "Какой из следующих пунктов является доказательством сложного общества?\nA) памятные сооружения\nB) похороны с предметами роскоши\nC) досуг и сидячий образ жизни\nD) все перечисленное\nAnswer in English.",
+        "generated_answer": "D) все перечисленное",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question in Russian: \"Which of the following points is evidence of a complex society?\" Options: A) monumental structures, B) burials with luxury items, C) leisure and sedentary lifestyle, D) all listed. The ground truth answer is \"A\". The generated answer is \"D) все перечисленное\" (i.e., all listed). They differ. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6534,
+        "question": "Жена и ее муж обедали в ресторане, когда жена извинилась и отправилась в туалет. Ресторан принадлежал и управлялся шеф-поваром. Когда жена шла мимо стола, за которым сидел другой посетитель, она поскользнулась и упала на  хрустящий рулетик, лежавший на полу уже довольно долго, хотя шеф-повар не знал, что он упал на пол. Когда жена упала, ее голова ударилась по сервировочному лотку, который находился в проходе. Падение привело к тяжелой контузии у жены. Клиент знал, что рулетик лежит на полу, и, хотя мог бы это сделать, он не предупредил жену. Если жена предъявит иск к шеф-повару о возмещении ущерба, то, скорее всего, она\nA) возместит потери, потому что хрустящий рулетик на полу создавал небезопасные условия на территории.\nB) возместит потери, потому что рулетик лежал на полу продолжительное время до происшествия.\nC) не получит возмещение, потому что шеф-повар не знал, что рулетик лежал на полу.\nD) не получит возмещение, потому что клиент мог предотвратить травму, предупредив жену о наличии рулетика.\nAnswer in English.",
+        "generated_answer": "B) возместит потери, потому что рулетик лежал на полу продолжительное время до происшествия.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Ground truth answer is \"B\". Generated answer: \"B) возместит потери, потому что рулетик лежал на полу продолжительное время до происшествия.\" That's essentially the same: selects B and gives explanation. So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11636,
+        "question": "Какая из следующих стран произвела наибольшее количество энергии из солнечных источников в 2019 году?\nA) Китай\nB) Соединенные Штаты Америки\nC) Германия\nD) Япония\nAnswer in English.",
+        "generated_answer": "A) Китай\nB) Соединенные Штаты Америки\nC) Германия\nD) Япония",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: Which country produced the most solar energy in 2019? Options given. Ground truth answer: A (i.e., China). Generated answer lists all options: \"A) Китай B) ... C) ... D) ...\" That's not equivalent; it's not selecting A only. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 12862,
+        "question": "Какой политикой поддерживают экономисты, сторонники теории предложения?\nA) повышение налогов на корпоративную прибыль.\nB) снижение налоговых ставок на проценты, полученные от сбережений.\nC) отмена налоговых льгот на инвестиции.\nD) увеличение срока выплат пособий по безработице.\nAnswer in English.",
+        "generated_answer": "A) повышение налогов на корпоративную прибыль.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Какой политикой поддерживают экономисты, сторонники теории предложения?\" Means: Which policy is supported by economists who are supply-side theorists? Options: A) increase corporate profit taxes, B) reduce tax rates on interest from savings, C) cancel tax benefits on investments, D) increase unemployment benefits duration. Supply-side economists support lower taxes, especially on capital, so answer B. Ground truth is B. Generated answer is \"A) повышение налогов на корпоративную прибыль.\" That's option A, which is opposite. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10947,
+        "question": "Этот вопрос относится к следующей информации.\nИсточник 1:\n\"Мы провозглашаем Его и через наши чувства со всех сторон, и мы освящаем благородный чувство зрения. Изображение - это памятник, точно такой же, как слова в слух. Что является книгой для грамотных, то изображение для неграмотных. Изображение говорит к зрению, как слова к слуху; оно приносит нам понимание.\"\nИоанн Дамаскин, Апология против тех, кто порицает святые образы, около 730 года.\nИсточник 2:\n\"Для краткости признания мы сохранили все церковные традиции, которые были переданы нам, как в письменной, так и в устной форме, одной из которых является создание живописных изображений, соответствующих преданию о проповеди Евангелия, традиция, полезная во многих отношениях, но особенно в том, что воплощение Слова Божьего показывается как реальное и не просто фантастическое, так как эти образы имеют взаимные показания и, безусловно, также имеют взаимные значения.\"\nДекрет Второго никейского собора, 787 года.\nПоздневизантийский религиозный дебаты конца 8-го века, вызвавший написание этих текстов, лучше всего понимается в контексте, который из перечисленных ниже?\nA) Разногласия о истинной природе божественности\nB) Разногласия о роли священства\nC) Разногласия о правильном использовании религиозной иконографии\nD) Разногласия о лучшей форме аскетической практики\nAnswer in English.",
+        "generated_answer": "D) Разногласия о лучшей форме аскетической практики",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question asks: \"Поздневизантийский религиозный дебаты конца 8-го века, вызвавший написание этих текстов, лучше всего понимается в контексте, который из перечисленных ниже?\" Options A-D. The correct answer is C (disagreements about proper use of religious iconography). Generated answer is D (disagreements about best form of ascetic practice). That is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10244,
+        "question": "Во время производства самолетом сонического бума, самолет\nA) нарушает звуковой барьер\nB) выходит из субзвукового пикирования\nC) летит быстрее звука\nD) Все вышеперечисленное\nAnswer in English.",
+        "generated_answer": "D) Все вышеперечисленное",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question in Russian: \"Во время производства самолетом сонического бума, самолет A) нарушает звуковой барьер B) выходит из субзвукового пикирования C) летит быстрее звука D) Все вышеперечисленное\". The correct answer is likely C: \"летит быстрее звука\" (flies faster than sound). The generated answer is D) \"Все вышеперечисленное\" (All of the above). That does not match ground truth. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 18,
+        "question": "Согласно Хоббсу, в состоянии человека, когда имеется война каждого против каждого, у каждого человека есть право на _____.\nA) некоторые вещи\nB) законное обращение\nC) правовую защиту\nD) все\nAnswer in English.",
+        "generated_answer": "C) правовую защиту",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: According to Hobbes, in the state of man, when there is war of each against each, each man has the right to _____. Options: A) some things, B) lawful treatment, C) legal protection, D) everything. Hobbes says in state of nature, each has a right to everything (including all things). So correct answer is D. Ground truth is D. Generated answer is C) legal protection. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 10025,
+        "question": "У 20-летнего мужчины за последние 4 года часто возникают инфекции верхних дыхательных путей. У него ежедневно наблюдается гнойный мокротный отхаркивание, и снизилась физическая выносливость за последние 2 года. Он и его жена не могут зачать ребенка из-за низкого количества сперматозоидов. В области обоих легких слышны рассеянные выдохи и хрипы. Рентген грудной клетки показывает гиперинфляцию. Спирометрия показывает уменьшенное соотношение FEV1:FVC. Что из следующего наиболее вероятно подтвердит диагноз?\nA) Анализ артериальной крови на газы\nB) Исследование мокроты на эозинофилы\nC) Тест на хлорид пота\nD) Цитология мокроты\nAnswer in English.",
+        "generated_answer": "A) Анализ артериальной крови на газы\nB) Исследование мокроты на эозинофилы\nC) Тест на хлорид пота\nD) Цитология мокроты",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. The question asks: \"What of the following most likely will confirm the diagnosis?\" Options A-D. Ground truth answer: C (Sweat chloride test). The generated answer just repeats the list of options, not selecting one. So it's not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8086,
+        "question": "Певец утверждает, что его аргумент нарушает традиционное различие между:\nA) долгом и милосердием.\nB) эгоизмом и альтруизмом.\nC) правами и привилегиями.\nD) положительными и отрицательными правами.\nAnswer in English.",
+        "generated_answer": "A) долгом и милосердием.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Певец утверждает, что его аргумент нарушает традиционное различие между: A) долгом и милосердием. B) эгоизмом и альтруизмом. C) правами и привилегиями. D) положительными и отрицательными правами. Answer in English.\"\n\nGround truth answer: \"A\". Means the correct choice is A) duty and mercy (долгом и милосердием). Generated answer: \"A) долгом и милосердием.\" That matches the same meaning (choice A). So they are equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5458,
+        "question": "Какой из перечисленных ниже преобразует визуальные изображения?\nA) Роговица\nB) Зрачки\nC) Слуховой анализатор\nD) Сетчатка\nAnswer in English.",
+        "generated_answer": "A) Роговица\nB) Зрачки\nC) Слуховой анализатор\nD) Сетчатка",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Which of the listed below transforms visual images?\" Options: A cornea, B pupils, C auditory analyzer, D retina. Correct answer is D (retina). Ground truth: D. Generated answer just repeats the options list, not selecting any. It does not indicate D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3996,
+        "question": "Рак мужской молочной железы связан с мутациями в ___.\nA) BRCA1\nB) BRCA2\nC) NF1\nD) RET\nAnswer in English.",
+        "generated_answer": "C) NF1",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"Рак мужской молочной железы связан с мутациями в ___.\" Means \"Male breast cancer is associated with mutations in ___.\" Options: A) BRCA1, B) BRCA2, C) NF1, D) RET. The correct answer is B (BRCA2). Generated answer: \"C) NF1\". That does not match. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11964,
+        "question": "Уравнение идеального газа применимо для большинства газов, потому что\nA) температура комнаты высокая\nB) объемы малы\nC) частицы газа не взаимодействуют значительно\nD) газы являются димерами\nAnswer in English.",
+        "generated_answer": "A) температура комнаты высокая",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Уравнение идеального газа применимо для большинства газов, потому что\" (The ideal gas equation is applicable for most gases because...). Options: A) room temperature is high, B) volumes are small, C) gas particles do not interact significantly, D) gases are dimers. Correct answer is C. Generated answer: \"A) температура комнаты высокая\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5328,
+        "question": "Для какого из этих двух сценариев главный персонаж (использующий я/меня/мой) совершает явно морально неправильный поступок согласно обычным моральным стандартам в США на 2020 год? Сценарий 1 | Я замечаю, что слепой и глухой человек потерял свою собаку-поводыря, и теперь он блуждает и идет по железнодорожным путям, но поезд уже идет; Я думаю о том, чтобы сильно оттолкнуть человека в сторону, но я решаю сесть и посмотреть. Сценарий 2 | Я даю клиентам, которые мне не нравятся, кофе со слюной в нем.\nA) Неправильно, неправильно\nB) Неправильно, не неправильно\nC) Не неправильно, неправильно\nD) Не неправильно, не неправильно\nAnswer in English.",
+        "generated_answer": "D) Неправильно, не неправильно",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which scenario the main character does morally wrong? Options: A) Both wrong, B) first wrong second not wrong, C) first not wrong second wrong, D) both not wrong. Ground truth answer is A (both wrong). Generated answer: \"D) Неправильно, не неправильно\". That says D) which is \"Not wrong, not wrong\". That's not equivalent to A. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 11528,
+        "question": "Какие из следующих соображений применимы к выбору размера страницы в системе с пейджингом? \nI. Преимуществом больших страниц является их меньшее занятие объема таблицы страниц. \nII. Преимуществом меньших страниц является их меньшее количество потерь из-за внутренней фрагментации. \nIII. Обычно главным фактором времени доступа к диску является не зависящая от длины страницы величина, поэтому длинные страницы могут использоваться с преимуществом.\nA) Только I\nB) Только II\nC) Только I и III\nD) I, II и III\nAnswer in English.",
+        "generated_answer": "D) I, II и III",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: which considerations apply? Options: A, B, C, D. Ground truth answer: D. Generated answer: \"D) I, II и III\". That's the same as D. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1031,
+        "question": "Конденсатор емкостью 30 мФ имеет 6 милликулонов заряда на каждой пластине. Энергия, хранящаяся в конденсаторе, приблизительно равна\nA) 5.4 × 10⁻¹⁰ Дж\nB) 9.0 × 10⁻⁸ Дж\nC) 0.6 Дж\nD) 12.5 Дж\nAnswer in English.",
+        "generated_answer": "A) 5.4 × 10⁻¹⁰ Дж",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: capacitor 30 µF, 6 millicoulombs charge each plate. Energy stored approx? Compute: C=30 µF = 30e-6 F. Q=6 mC = 6e-3 C. Voltage V = Q/C = (6e-3)/(30e-6)=200 V. Energy = 0.5*C*V^2 = 0.5*30e-6*200^2 =0.5*30e-6*40000 =0.5*1.2 =0.6 J. So answer C (0.6 J). Ground truth says C. Generated answer says A) 5.4 × 10⁻¹⁰ J. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3130,
+        "question": "Какая группа чисел расположена в порядке от наименьшего к наибольшему?\nA) 0,25 1,6 1,0\nB) 1,0 0,25 1,6\nC) 0,25 1,0 1,6\nD) 1,6 1,0 0,25\nAnswer in English.",
+        "generated_answer": "A) 0,25 1,6 1,0\n\nThe group of numbers that are arranged in order from smallest to largest is:\n\n0.25, 1.6, 1.0",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which group of numbers is arranged from smallest to largest?\" Options: A) 0,25 1,6 1,0 ; B) 1,0 0,25 1,6 ; C) 0,25 1,0 1,6 ; D) 1,6 1,0 0,25. The correct answer is C (0.25, 1.0, 1.6). Generated answer says \"A) 0,25 1,6 1,0\" and then says \"The group of numbers that are arranged in order from smallest to largest is: 0.25, 1.6, 1.0\". That is not the same as C. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9298,
+        "question": "Какое из следующих утверждений верно относительно власти Конгресса в области контроля?\nA) Деятельность по контролю со стороны Конгресса наиболее часто осуществляется на уровне комитетов и подкомитетов.\nB) Вызовы штатах Конгрессу в области контроля серьезно ослабляли полномочия Конгресса по контролю.\nC) Контроль со стороны Конгресса в основном направлен на судебную ветвь власти.\nD) Отзывы избирателей не влияют на контроль со стороны Конгресса.\nAnswer in English.",
+        "generated_answer": "A) Деятельность по контролю со стороны Конгресса наиболее часто осуществляется на уровне комитетов и подкомитетов.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Question: multiple choice, correct answer is A. Ground truth answer: \"A\". Generated answer: \"A) Деятельность по контролю со стороны Конгресса наиболее часто осуществляется на уровне комитетов и подкомитетов.\" That is essentially restating option A. So it conveys same meaning: selects A. So equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 3632,
+        "question": "Конгресс будет обязан использовать \"упругую статью\" Конституции, чтобы\nA) изменить требования к гражданству\nB) ввести стандарты безопасности на рабочем месте\nC) увеличить налоговые ставки\nD) разрешить казначейству печатать деньги\nAnswer in English.",
+        "generated_answer": "A) изменить требования к гражданству",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Конгресс будет обязан использовать \"упругую статью\" Конституции, чтобы ...\" Options A-D. The ground truth answer is B. Generated answer is \"A) изменить требования к гражданству\". That's not the same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3909,
+        "question": "Тест на фермент можно использовать для выявления носителей:\nA) Муковисцидоза.\nB) Синдром хрупкого Х-хромосомы.\nC) Окуло-кожистый альбинизм.\nD) Болезнь Тей-Сакса.\nAnswer in English.",
+        "generated_answer": "A) Муковисцидоз.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Тест на фермент можно использовать для выявления носителей:\" which means \"Enzyme test can be used to identify carriers of:\" Options: A) Cystic fibrosis. B) Fragile X syndrome. C) Oculo-cutaneous albinism. D) Tay-Sachs disease.\n\nGround truth answer: D (Tay-Sachs disease). Generated answer: \"A) Муковисцидоз.\" That's cystic fibrosis, not Tay-Sachs. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2334,
+        "question": "Что из нижеперечисленного является примером долгосрочной корректировки для владельцев небольшого кафе?\nA) Владельцы переходят с цельнозернового на ржаной хлеб.\nB) Владельцы нанимают нескольких частичных работников на ужины.\nC) Владельцы работают сверхурочно в выходной день.\nD) Владельцы покупают офис по соседству, и это удваивает количество мест для клиентов.\nAnswer in English.",
+        "generated_answer": "A) Владельцы переходят с цельнозернового на ржаной хлеб.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Что из нижеперечисленного является примером долгосрочной корректировки для владельцев небольшого кафе?\" Which is \"Which of the following is an example of a long-term adjustment for owners of a small cafe?\" Options: A) switch from whole grain to rye bread (that's a product change, maybe short-term). B) hire several part-time workers for dinners (staffing, maybe medium). C) work overtime on a weekend (short-term). D) buy an office next door, doubling seating capacity (that's a long-term adjustment). Ground truth answer: D. Generated answer: A). They do not match. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8896,
+        "question": "Утверждение 1 | Если R - кольцо, а f(x) и g(x) - элементы R[x], то deg (f(x)+g(x)) = max (deg f(x), deg g(x)). Утверждение 2 | Если F - поле, то каждый идеал в F[x] является принципиальным.\nA) Верно, Верно\nB) Ложно, Ложно\nC) Верно, Ложно\nD) Ложно, Верно\nAnswer in English.",
+        "generated_answer": "C) Верно, Ложно",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer \"C) Верно, Ложно\" with ground truth \"D\". The question asks to choose among options A, B, C, D. Ground truth is D. Generated answer is C. They are not the same. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7339,
+        "question": "Для какого из этих двух сценариев главный персонаж (который использует I/me/my) делает что-то явно морально неправильное согласно обычным моральным стандартам в США на 2020 год? Сценарий 1 | Я подавал порции Mud Pie, сделанные из настоящей земли, моим плюшевым животным. Сценарий 2 | Я положил кольцо в коробку Tiffany, чтобы моя девушка подумала, что это настоящее.\nA) Неправильно, Неправильно\nB) Неправильно, Не неправильно\nC) Не неправильно, Неправильно\nD) Не неправильно, Не неправильно\nAnswer in English.",
+        "generated_answer": "C) Неправильно, Неправильно",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"C\". The generated answer is \"C) Неправильно, Неправильно\". That corresponds to option C, which is \"Не неправильно, Неправильно\"? Wait need to check mapping: Options listed:\n\nA) Неправильно, Неправильно\nB) Неправильно, Не неправильно\nC) Не неправильно, Неправильно\nD) Не неправильно, Не неправильно\n\nGround truth says \"C\". That means answer is option C: \"Не неправильно, Неправильно\". The generated answer says \"C) Неправильно, Неправильно\". That is option A actually (both wrong). So the generated answer does not match ground truth. Therefore not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1494,
+        "question": "В каком десятилетии Израиль стал независимым государством?\nA) 1920-е\nB) 1940-е\nC) 1950-е\nD) 1960-е\nAnswer in English.",
+        "generated_answer": "C) 1950-е",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"В каком десятилетии Израиль стал независимым государством?\" Means \"In which decade did Israel become an independent state?\" Correct answer: Israel declared independence in 1948, which is the 1940s. So correct answer is B) 1940-е. Ground truth says \"B\". Generated answer: \"C) 1950-е\". That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1318,
+        "question": "Согласно Канту, никакое действие нельзя назвать «хорошим» без оговорок, кроме ______.\nA) правильного действия\nB) хороших последствий\nC) счастья\nD) доброй воли\nAnswer in English.",
+        "generated_answer": "C) счастья",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: According to Kant, no action can be called \"good\" without qualifications, except ______. Options: A) correct action, B) good consequences, C) happiness, D) good will. Correct answer is D (good will). Generated answer: \"C) счастия\" i.e., happiness. That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5243,
+        "question": "Какие были основные институты либерального международного экономического порядка?\nI. GATT\nII. IMF\nIII. Всемирный Банк\nIV. НАТО\nA) Только IV\nB) II и III\nC) I, II и III\nD) I, II, III и IV\nAnswer in English.",
+        "generated_answer": "D) I, II, III и IV\n\nThe main institutions of the liberal international economic order are:\n\nI. GATT\nII. IMF\nIII. World Bank\nIV. NATO\n\nThese institutions were established to promote free trade, reduce tariffs, and provide financial assistance to countries in need.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer to ground truth. Question: \"Какие были основные институты либерального международного экономического порядка? I. GATT II. IMF III. Всемирный Банк IV. НАТО A) Только IV B) II и III C) I, II и III D) I, II, III и IV Answer in English.\"\n\nGround truth answer: C (i.e., I, II, III). Generated answer: D) I, II, III и IV, and includes NATO as part of main institutions. That is not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8322,
+        "question": "Мимикрия - это стратегия, развиваемая через естественный отбор, чтобы увеличить приспособляемость организмов к их окружению. Какая из нижеприведенных форм мимикрии Бетса является?\nA) То же наружное взращивание миллипеда, которое токсично для жабы, было полностью исключено из списка потенциальных жертв жабы после первой неудачной попытки жабы съесть его.\nB) Мотылек имеет ложные глаза на своем хвосте, чтобы сбивать с толку хищников.\nC) Мотылек демонстрирует почти идентичную расцветку с жалующей пчелой.\nD) Гнездящийся на земле чайковый чайки имеет расцветку, которая с трудом отличима от окружающей среды.\nAnswer in English.",
+        "generated_answer": "A) То же наружное взращивание миллипеда, которое токсично для жабы, было полностью исключено из списка потенциальных жертв жабы после первой неудачной попытки жабы съесть его.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Ground truth answer is \"C\". Generated answer is \"A) ...\" So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8016,
+        "question": "В наклонном гладком распределении с хвостом, вытянутым влево, статистика с наибольшим значением является\nA) стандартное отклонение\nB) мода\nC) медиана\nD) среднее\nAnswer in English.",
+        "generated_answer": "D) среднее",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian: \"В наклонном гладком распределении с хвостом, вытянутым влево, статистика с наибольшим значением является\" Means: In a skewed smooth distribution with tail stretched to the left (i.e., left-skewed), which statistic has the greatest value? Options: standard deviation, mode, median, mean. For left-skewed (negative skew), the order is mean < median < mode. So the statistic with the greatest value is mode. So correct answer is B (mode). Ground truth says B. Generated answer says \"D) среднее\" which is mean. That's incorrect. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 1786,
+        "question": "Инвестиция в размере $4000 растет со скоростью 320*e^(0.08t) долларов в год после t лет. Его стоимость после 10 лет приблизительно равна\nA) $4,902\nB) $8,902\nC) $7,122\nD) $12,902\nAnswer in English.",
+        "generated_answer": "A) $4,902",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: investment grows at rate 320*e^(0.08t) dollars per year after t years. Its value after 10 years approximately equals? Options given. Ground truth answer is B (i.e., option B). Generated answer says \"A) $4,902\". That's not same. So false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4938,
+        "question": "Этот вопрос относится к следующей информации.\nХотя Его Величество король справедливо и правомерно является и должен быть верховным главой Церкви Англии, и это признается духовенством этого государства в их собраниях, тем не менее, для подтверждения и укрепления этого, и для повышения доброчестия в религии Христовой в этом государстве Англии, и для подавления и искоренения всех ошибок, ересей и других чудищных злоупотреблений и злоупотреблений, использованных ранее в этой же области, постановляется, по авторитету нынешнего парламента, что король, наш верховный господин, его наследники и преемники, короли этого государства, должны быть приняты, принятые и признанные единственными верховными главами на земле Церкви Англии, называемой Anglicans Ecclesia; и должны иметь и наслаждаться, а также объединены с имперской короной этого государства, как этот титул и стиль, а также все чести, достоинства, предварительности, юрисдикции, привилегии, власти, иммунитеты, прибыль и коммодитеты, которые принадлежат и относятся к этой величественности верховной главы этой же Церкви; и что наш верховный господин, его наследники и преемники, короли этого государства, должны иметь полную власть и полномочия с времени на время чтобы посещать, подавлять, устранять, записывать, упорядочивать, исправлять, ограничивать и улучшать все такие ошибки, ереси, злоупотребления, преступления, презрения и чудища, какие бы они ни были, которые каким-либо образом должны или могут законным путем реформироваться, подавляться, упорядочиваться, улучшаться, исправляться, ограничиваться или улучшаться больше всего для удовольствия Всемогущего Бога, увеличения доброчестия в религии Христовой, а также для сохранения мира, единства и спокойствия этого государства; независимо от какого-либо использования, земли иностранного происхождения, иностранного авторитета, рецепта или любого другого предмета или предметов, противоречащих этому.\nАнглийский парламент, акт о верховенстве, 1534 г.\nИз отрывка и его исторического контекста можно сделать вывод, что акт был, в частности,\nA) попыткой предотвратить распространение протестантизма в Англии\nB) решением финансовых трудностей Генриха VIII\nC) попыткой легитимизировать единственного наследника Генриха VIII\nD) попыткой союза Англии с Габсбургской империей\nAnswer in English.",
+        "generated_answer": "This question refers to the following information.\nAlthough His Majesty the King is the rightful and just head of the Church of England, and this is recognized by the clergy of this state in their assemblies, nevertheless, to confirm and strengthen this, and to increase the piety in the Christian religion in this state of England, and to suppress and eradicate all errors, heresies and other wicked abuses and abuses used previously in this same area, it is enacted, by the authority of the present parliament, that the King, our sovereign lord, his heirs and successors, the kings of this state, shall be accepted, accepted and recognized as the only supreme heads on earth of the Church of England, called Anglicans Ecclesia; and shall have and enjoy, as well as be united with the imperial crown of this state, as this title and style, as well as all honors, dignity, precedence, jurisdiction, privileges, powers, incomes and commotities, which belong and pertain to this magnificence of the supreme head of this same Church; and that our sovereign lord, his heirs and successors, the kings of this state, shall have full power and authority from time to time to visit, suppress, remove, record, regulate, correct, limit and improve all such errors, heresies, abuses, crimes, contempt and wickedness, as by any lawful means may or may be reformed, suppressed, regulated, improved, corrected, limited or improved more for the pleasure of Almighty God, the increase of piety in the Christian religion, as well as for the preservation of peace, unity and tranquility of this state; independently of any use of foreign land, foreign authority, prescription or any other subject or subjects contrary to this.\nThe English Parliament, Act of Supremacy, 1534.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer conveys same meaning as ground truth. The ground truth answer is \"B\". The generated answer is a restatement of the passage, not selecting an option. It does not give \"B\". So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9031,
+        "question": "После какого события начался раввинистический период в иудаизме?\nA) Строительство Второго Храма\nB) Разрушение Второго Храма\nC) Христианизация Римской империи\nD) Появление Ислама\nAnswer in English.",
+        "generated_answer": "A) Строительство Второго Храма",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: \"После какого события начался раввинистический период в иудаизме?\" (After which event did the rabbinic period in Judaism begin?) Correct answer: B) Разрушение Второго Храма (Destruction of the Second Temple). Ground truth says B. Generated answer: \"A) Строительство Второго Храма\" (Construction of the Second Temple). That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4769,
+        "question": "Этот процесс приводит к чистой продукции двух пироватов, двух АТФ и двух НАДФ.\nA) Гликолиз\nB) Хемиозмоз\nC) Ферментация\nD) Цикл Кальвина\nAnswer in English.",
+        "generated_answer": "Этот процесс приводит к чистой продукции двух пироватов, двух АТФ и двух НАДФ.\nA) Гликолиз",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: Russian: \"Этот процесс приводит к чистой продукции двух пироватов, двух АТФ и двух НАДФ.\" Options: A) Glycolysis, B) Hemiosis, C) Fermentation, D) Calvin cycle. The correct answer is A (Glycolysis). Ground truth answer: \"A\". Generated answer repeats the question and then says \"A) Гликолиз\". That is essentially the same answer: selects A) Glycolysis. So meaning matches. So answer True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 11576,
+        "question": "В каких случаях, общего характера, происходит переполнение буфера?\nA) при записи в освобожденный указатель\nB) при копировании буфера со стека в кучу\nC) когда указатель используется для доступа к памяти, не выделенной для него\nD) когда программа замечает, что буфер заполнен, и начинает отклонять запросы\nAnswer in English.",
+        "generated_answer": "A) при записи в освобожденный указатель\nB) при копировании буфера со стека в кучу\nC) когда указатель используется для доступа к памяти, не выделенной для него\nD) когда программа замечает, что буфер заполнен, и начинает отклонять запросы",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"В каких случаях, общего характера, происходит переполнение буфера?\" Options A-D. The ground truth answer is \"C\". So correct answer is option C only. The generated answer repeats all options A-D, i.e., lists all options, not just C. That does not match ground truth. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 2044,
+        "question": "Какая из этих способностей не присуща супергерою Капитан Марвел?\nA) сила Аполлона\nB) сила Геракла\nC) храбрость Ахиллеса\nD) мудрость Соломона\nAnswer in English.",
+        "generated_answer": "C) храбрость Ахиллеса",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Which of these abilities is not possessed by superhero Captain Marvel?\" Options A) strength of Apollo, B) strength of Hercules, C) bravery of Achilles, D) wisdom of Solomon. The correct answer according to ground truth is A. Generated answer says \"C) храбрость Ахиллеса\" i.e., option C. That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8969,
+        "question": "Если мы возьмем син x и заменим его на 3 син 2x, что произойдет с областью определения и областью значений функции?\nA) Область определения и область значений остаются такими же\nB) Область удваивается; область значений остается такой же\nC) Область утраивается; область значений удваивается\nD) Область определения остается такой же; область значений утраивается\nAnswer in English.",
+        "generated_answer": "A) Область определения и область значений остаются такими же",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to compare generated answer to ground truth. The question: Russian: \"Если мы возьмем син x и заменим его на 3 син 2x, что произойдет с областью определения и областью значений функции?\" Options A-D. Ground truth answer is D. Generated answer is \"A) Область определения и область значений остаются такими же\". That's option A, not D. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 5451,
+        "question": "В каком из этих двух сценариев главный герой (использующий я/меня/мой) делает что-то явно морально неправильное согласно обычным моральным стандартам в США на 2020 год? Сценарий 1 | Из-за раздражения я посмотрел на землю и пнул собаку. Сценарий 2 | Я играл на гитаре, пока мой сосед слушал.\nA) Неправильно, неправильно\nB) Неправильно, не неправильно\nC) Не неправильно, неправильно\nD) Не неправильно, не неправильно\nAnswer in English.",
+        "generated_answer": "A) Неправильно, неправильно",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which scenario the protagonist does something morally wrong? Scenario1: kicked a dog - wrong. Scenario2: playing guitar while neighbor listening - not wrong. So answer should be \"Неправильно, не неправильно\" which is option B. Ground truth is B. Generated answer is \"A) Неправильно, неправильно\". That's wrong. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8852,
+        "question": "Как назначаются члены арбитражного трибунала?\nA) Все члены арбитражного трибунала назначаются сторонами\nB) Все члены арбитражного трибунала назначаются сторонами\nC) Все члены арбитражного трибунала назначаются непредвзятым третьим лицом, таким как президент МПГ\nD) Все члены арбитражного трибунала назначаются сторонами из ограниченного списка арбитров\nAnswer in English.",
+        "generated_answer": "A) All arbitration tribunal members are appointed by the parties\nB) All arbitration tribunal members are appointed by the parties\nC) All arbitration tribunal members are appointed by an impartial third party, such as the President of the ICC\nD) All arbitration tribunal members are appointed by the parties from a limited list of arbitrators",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Как назначаются члены арбитражного трибунала?\" with options A-D. The ground truth answer is \"A\". So correct answer is option A. The generated answer lists all options, not selecting one. It does not indicate which is correct. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3329,
+        "question": "В каком городе вы найдете людей, изучающих искусство и дизайн в Fashion Institute of Technology?\nA) Париж\nB) Нью-Йорк\nC) Лос-Анджелес\nD) Мельбурн\nAnswer in English.",
+        "generated_answer": "C) Лос-Анджелес",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"В каком городе вы найдете людей, изучающих искусство и дизайн в Fashion Institute of Technology?\" Means: In which city will you find people studying art and design at Fashion Institute of Technology? The correct answer is B) Нью-Йорк (NY). Ground truth is \"B\". Generated answer is \"C) Лос-Анджелес\". That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9882,
+        "question": "Может ли поточный шифр иметь абсолютную защиту?\nA) Да, если ГПСЧ действительно “надежен”\nB) Нет, не существует шифров с абсолютной защитой\nC) Да, у каждого шифра есть абсолютная защита\nD) Нет, так как длина ключа короче длины сообщения\nAnswer in English.",
+        "generated_answer": "A) Да, если ГПСЧ действительно “надежен”\n\nA поточный шифр может иметь абсолютную защиту, если он надежен. Надежность означает, что шифр может быть взломан только с использованием очень большого количества времени и ресурсов. В противном случае шифр считается надежным.\n\nБ) Нет, не существует шифров с абсолютной защитой\n\nНе существует шифров с абсолютной защитой, так как длина ключа всегда будет короче длины сообщения. Это означает, что даже если бы кто-то взломал шифр, он все равно не смог бы расшифровать сообщение без ключа.\n\nC) Да, у каждого шифра есть абсолютная защита\n\nКаждый шифр имеет свою собственную степень надежности и защищенности. Некоторые шифры могут быть взломаны с использованием ограниченного количества времени и ресурсов, в то время как другие могут быть взломаны с использованием огромных ресурсов.\n\nD) Нет, так как длина ключа короче длины сообщения\n\nДлина ключа всегда будет короче длины сообщения, так как шифр использует ключ для шифрования сообщения. Это означает, что даже если бы шифр был идеально надежным, он все равно не смог бы расшифровать сообщение без ключа.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth answer. The ground truth is \"D\". The question: \"Может ли поточный шифр иметь абсолютную защиту?\" Options A-D. The correct answer is D: \"Нет, так как длина ключа короче длины сообщения\". The generated answer includes all options with explanations, but does it indicate which is correct? It lists A, B, C, D each with statements. It does not explicitly state which is correct. The ground truth expects answer D. The generated answer includes D as one of the options, but also includes other options. It does not single out D as the correct answer. So it's not equivalent. Also the generated answer is not just D. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 8965,
+        "question": "В старшей школе из 1650 учеников 132 имеют личные инвестиции на фондовом рынке. Для оценки общих инвестиций учеников в акции в этой школе предлагаются два плана. План I будет выбирать случайным образом 30 студентов, находить доверительный интервал оценки их средней инвестиции, а затем умножать оба конца этого интервала на 1650, чтобы получить интервальную оценку общих инвестиций. План II будет выбирать случайным образом 30 студентов из 132, которые инвестируют на рынке, находить доверительный интервал оценки их средней инвестиции, а затем умножать оба конца этого интервала на 132, чтобы получить интервальную оценку общих инвестиций. Какой план лучше для оценки общей инвестиции учеников в акции в этой школе?\nA) План I\nB) План II\nC) Оба плана используют случайные выборки и поэтому будут давать эквивалентные результаты.\nD) Ни один из планов не даст точную оценку.\nAnswer in English.",
+        "generated_answer": "A) План I",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question asks which plan is better. Ground truth answer: B (Plan II). Generated answer: \"A) План I\". That's not the same. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9627,
+        "question": "Согласно Белбину (1981), какая роль подходит экстравертированному и энергичному человеку?\nA) Координатор\nB) Формирователь\nC) Ресурсный исследователь\nD) Реализатор\nAnswer in English.",
+        "generated_answer": "D) Реализатор",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to compare generated answer vs ground truth. Question: \"According to Belbin (1981), which role suits an extroverted and energetic person?\" Options: A) Coordinator, B) Shaper, C) Resource Investigator, D) Implementer (Realizer). The correct answer is C) Resource Investigator. Ground truth says \"C\". Generated answer says \"D) Реализатор\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4712,
+        "question": "Для какого из этих двух сценариев главный персонаж (который использует Я/мне/мои) совершает что-то, что однозначно является морально неправильным согласно общепринятым моральным стандартам в США на 2020 год? Сценарий 1 | Я хотел купить куклу, поэтому я разбил свою копилку. Сценарий 2 | Я вытираю мыло из ванны, потому что моя бабушка может поскользнуться, когда войдет в нее.\nA) Неправильно, Неправильно\nB) Неправильно, Не неправильно\nC) Не неправильно, Неправильно\nD) Не неправильно, Не неправильно\nAnswer in English.",
+        "generated_answer": "A) Неправильно, Неправильно",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Which scenario the main character does something morally wrong? Options: A) Both wrong, B) first wrong second not wrong, C) first not wrong second wrong, D) both not wrong. The correct answer according to ground truth is D (both not wrong). Generated answer is \"A) Неправильно, Неправильно\" which says both wrong. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 7290,
+        "question": "Подрядчик Чарли заключил контракт с Нэнси-несогласной на ремонт ванных комнат и кухни в доме Нэнси. В договоре было указано, что $10 000 должны быть отведены на ремонт ванный комнат, а $15 000 на ремонт кухни, с общей суммой в $25 000, которая должна быть выплачена по окончании всех работ. Чарли завершил реконструкцию ванный комнат, но отказался начать ремонт кухни, потому что Нэнси не сотрудничала. Если Чарли подает иск на Нэнси, то скорее всего суд решит в пользу:\nA) Чарли на сумму $25 000, так как он утверждает, что Нэнси нарушила контракт.\nB) Чарли на сумму $12 500, так как он завершил работы по ремонту ванный комнат.\nC) Чарли на сумму $10 000, если суд признает контракт делимым и $10 000 - это эквивалентная сумма для завершенной части соглашения.\nD) Нэнси, поскольку Чарли не завершит контракт, он не имеет права на какую-либо компенсацию.\nAnswer in English.",
+        "generated_answer": "C) Чарли на сумму $10 000, если суд признает контракт делимым и $10 000 - это эквивалентная сумма для завершенной части соглашения.\n\nВ договоре было указано, что $10 000 должны быть отведены на ремонт ванных комнат, а $15 000 на ремонт кухни, с общей суммой в $25 000, которая должна быть выплачена по окончании всех работ. Чарли завершил реконструкцию ванных комнат, но отказался начать ремонт кухни, потому что Нэнси не сотрудничала. Если Чарли подает иск на Нэнси, то скорее всего суд решит в пользу:\n\nA) Чарли на сумму $25 000, так как он утверждает, что Нэнси нарушила контракт.\nB) Чарли на сумму $12 500, так как он завершил работы по ремонту ванный комнат.\nC) Чарли на сумму $10 000, если суд признает контракт делимым и $10 000 - это эквивалентная сумма для завершенной части соглашения.\nD) Нэнси, поскольку Чарли не завершит контракт, он не имеет права на какую-либо компенсацию.",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"C\". The generated answer says: \"C) Чарли на сумму $10 000, если суд признает контракт делимым и $10 000 - это эквивалентная сумма для завершенной части соглашения.\" That matches option C. So meaning same. Therefore True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 1501,
+        "question": "Сколько разных типов микроорганизмов могут заселять ротовую полость?\nA) 35\nB) 100\nC) 350\nD) 500\nAnswer in English.",
+        "generated_answer": "B) 100",
+        "ground_truth": "C",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: \"Сколько разных типов микроорганизмов могут заселять ротовую полость?\" Options A)35 B)100 C)350 D)500. Ground truth answer is \"C\". That means correct answer is option C, which is 350. Generated answer: \"B) 100\". That's different. So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9769,
+        "question": "Для какого из двух сценариев главный персонаж (который использует I / me / my) clearly нарушает моральные стандарты, принятые в США на 2020 год? Сценарий 1 | Я бросал камни в птиц во дворе. Сценарий 2 | Я пригласил медсестру на день карьеры.\nA) Неправильно, Неправильно\nB) Неправильно, Не неправильно\nC) Не неправильно, Неправильно\nD) Не неправильно, Не неправильно\nAnswer in English.",
+        "generated_answer": "C) Неправильно, Неправильно",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: which scenario the main character clearly violates moral standards. Options: A) Wrong, Wrong; B) Wrong, Not wrong; C) Not wrong, Wrong; D) Not wrong, Not wrong. The correct answer is B (first scenario wrong, second not wrong). Generated answer: \"C) Неправильно, Неправильно\". That says \"Not wrong, Wrong\"? Actually C is \"Не неправильно, Неправильно\" which translates to \"Not wrong, Wrong\". That's different from B. So not equivalent. Also generated answer is different. So answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 6306,
+        "question": "Владелец земли, ее тетя и ее брат являются собственниками трех смежных участков. С земли владельца к земле брата существует наклон. Тетя, собственник, находившаяся посередине трех участков, была любительским ученым. Она начала экспериментировать с электричеством, используя молниеотвод для проведения своих экспериментов. Часто электрические бури, видимо, возникали в и над областью, в которой расположена земля брата. Из-за этого тетя часто наклоняла свой стержень через забор между своей собственностью и собственностью брата, чтобы максимизировать свои шансы на успех. После одного полного дождливого и ветренного сезона экспериментов брат устал от вторжений тети с ее молниеотводом, потому что это мешало его работе в его гараже на радиостанции. Брат подал иск, чтобы запретить такие эксперименты с молниеотводом. На суде выяснилось, что тетя проводила свои действия в воздушном пространстве непосредственно над землей брата. Суд должен\nA) запретить эксперименты тети, потому что они представляют собой неразумное вмешательство в пространство над землей брата.\nB) запретить эксперименты тети, потому что нельзя заниматься такими научными экспериментами без разрешения.\nC) не запрещать эксперименты тети с молниеотводом, если они были необходимы для защиты ее имущества от электрических бурь.\nD) не запрещать эксперименты тети, потому что брат не владеет пространством над своей землей.\nAnswer in English.",
+        "generated_answer": "A) запретить эксперименты тети, потому что они представляют собой неразумное вмешательство в пространство над землей брата.",
+        "ground_truth": "A",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. Ground truth answer is \"A\". Generated answer is \"A) запретить эксперименты тети, потому что они представляют собой неразумное вмешательство в пространство над землей брата.\" That matches option A description. So it's equivalent. Answer: True.assistantfinalAnswer: True",
+        "match": 1
+    },
+    {
+        "id": 5194,
+        "question": "Какое утверждение ниже наименее согласуется с аргументом о том, что судьи в несправедливой правовой системе должны уходить в отставку?\nA) Судьи обязаны действовать справедливо.\nB) Поскольку они также поддерживают несправедливую систему, юристы также должны уйти в отставку.\nC) Если моральный судья уходит в отставку, его место может занять менее моральный судья.\nD) Судьи не создают законы, следовательно, их нельзя считать ответственными за применение несправедливого законодательства.\nAnswer in English.",
+        "generated_answer": "A) Судьи обязаны действовать справедливо.",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth. Question: Which statement least aligns with argument that judges in unjust legal system should resign? Options A-D. Ground truth says D is least consistent. Generated answer says A). So not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 9431,
+        "question": "Для какого из этих двух сценариев главный персонаж (который использует слова Я/Мне/Мой) делает что-то явно не морально верное, согласно обычным моральным стандартам в США на 2020 год? Сценарий 1 | Я заложил свое обручальное кольцо, чтобы заплатить за клубные наркотики. Сценарий 2 | Я пошел в сарай за молотком, чтобы починить сломанную полку жены.\nA) Неверно, неверно\nB) Неверно, не неверно\nC) Не неверно, неверно\nD) Не неверно, не неверно\nAnswer in English.",
+        "generated_answer": "C) Не неверно, неверно",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. The ground truth answer is \"B\". The generated answer is \"C) Не неверно, неверно\". That's not the same as B. So they are not equivalent. Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3966,
+        "question": "Если ИПЦ вырастет с 120 до 150, то цены вырастут на\nA) 20 процентов.\nB) 25 процентов.\nC) 30 процентов.\nD) 30 процентов.\nAnswer in English.",
+        "generated_answer": "If the CPI rises from 120 to 150, then prices will rise by\nA) 20 percent.\nB) 25 percent.\nC) 30 percent.\nD) 30 percent.\nAnswer in English.",
+        "ground_truth": "B",
+        "assessment": "analysisWe need to see if generated answer is equivalent in meaning to ground truth. The question: \"Если ИПЦ вырастет с 120 до 150, то цены вырастут на ...\" The correct answer is B) 25 percent. Ground truth is \"B\". The generated answer just repeats the question in English, listing options, but does not give a choice. It does not state the answer. So it's not equivalent. Therefore Answer: False.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 4756,
+        "question": "42-летний мужчина обратился к врачу из-за слабости, боли в мышцах и суставах, а также повышения температуры до 38,4°C (101,1°F) в течение 3-х дней. Три месяца назад ему была проведена трансплантация почки от донора, что привело к немедленной функции почек. При выписке концентрация креатинина в его крови составляла 0,8 мг/дл. Он принимает циклоспорин и кортикостероиды. Обследование не выявило аномалий. Количество лейкоцитов в его крови составляет 2700/мм3, концентрация креатинина в его крови составляет 1,6 мг/дл, концентрация циклоспорина в крови находится в терапевтическом диапазоне. Биопсия трансплантированной почки показала наличие включений внутри клеток. Какой из следующих вариантов наиболее подходит для следующего шага в управлении ситуацией?\nA) Увеличить дозу кортикостероидов\nB) Увеличить дозу циклоспорина\nC) Начать амфотерициновую терапию\nD) Начать ганцикловировую терапию\nAnswer in English.",
+        "generated_answer": "B) Увеличить дозу циклоспорина",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: It's a transplant patient with fever, muscle/joint pain, leukopenia, creatinine rise, cyclosporine therapeutic, biopsy shows inclusions inside cells (likely viral inclusions). Likely CMV infection; treatment is ganciclovir. So correct answer D (start ganciclovir). Generated answer: B) increase cyclosporine dose. That's not equivalent. So answer false.assistantfinalAnswer: False",
+        "match": 0
+    },
+    {
+        "id": 3012,
+        "question": "Исследование Салливана (2000 г.) показало, что доля домашних дел, которую мужчины делали, была наибольшей, когда:\nA) они переосмыслили себя как 'новых людей'\nB) их жены были дома и постоянно их надоедали\nC) были изобретены увлекательные гаджеты, такие как пылесос и электрическое утюг\nD) они были безработны или оба партнера работали на полную ставку\nAnswer in English.",
+        "generated_answer": "D) они были безработны или оба партнера работали на полную ставку",
+        "ground_truth": "D",
+        "assessment": "analysisWe need to see if generated answer matches ground truth meaning. Question: Russian. The correct answer is D. Generated answer: \"D) они были безработны или оба партнера работали на полную ставку\". That is the full text of option D. Ground truth: \"D\". So they convey same meaning (both indicate option D). So answer True.assistantfinalAnswer: True",
+        "match": 1
+    }
+]

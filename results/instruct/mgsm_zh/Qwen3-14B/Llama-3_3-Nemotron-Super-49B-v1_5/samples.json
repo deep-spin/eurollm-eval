@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step.\n\n### 1. **Initial Loan Amount:**\n- **$2,000**\n\n### 2. **Interest to be Paid:**\n- She promises to return **10%** of the amount.\n- So, **interest = 10% of $2,000 = 0.10 × 2,000 = $200**\n\n### 3. **Total Amount to be Repaid:**\n- **Principal + Interest = $2,000 + $200 = $2,200**\n\n### 4. **Monthly Payment Plan:**\n- She plans to pay **$165 per month for 12 months**.\n- Total payments over 12 months = **12 × $165 = $1,980**\n\n### 5. **Remaining Debt After 12 Months:**\n- Total amount owed = **$2,200**\n- Total paid = **$1,980**\n- Remaining debt = **$2,200 - $1,980 = $220**\n\n---\n\n### ✅ Final Answer:\n**$220** is the remaining debt after 12 months.",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "汽车在高速公路上排起长龙。有些车在堵车的前 15 分钟就开过去了，然后又有 20 辆车在堵车的剩下 15 分钟里开过去。排队的车中有 5 辆车驶出了高速出口，所以他们不需要从堵车的地方开过去。如果高速公路上最早有 30 辆车，前 15 分钟有多少辆车从堵车的地方开过去？\nAnswer in English.",
+        "generated_answer": "We are told the following:\n\n- There were **30 cars** on the highway initially.\n- **5 cars** left the highway via an exit and **did not go through the traffic jam**.\n- So, the number of cars actually in the traffic jam is:  \n  $ 30 - 5 = 25 $ cars.\n\nNow, we are told:\n\n- Some cars passed through the traffic jam in the **first 15 minutes**.\n- Then, **20 cars** passed through in the **remaining 15 minutes** of the traffic jam.\n\nLet’s define:\n\n- Let $ x $ be the number of cars that passed through in the **first 15 minutes**.\n- Then, the total number of cars that passed through the traffic jam is:  \n  $ x + 20 $\n\nBut we know that only **25 cars** were in the traffic jam to begin with. So:\n\n$$\nx + 20 = 25\n$$\n\nSolving for $ x $:\n\n$$\nx = 25 - 20 = 5\n$$\n\n### ✅ Final Answer:\n**5 cars** passed through the traffic jam in the first 15 minutes.",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "维奥莱塔想买新的蜡笔。她需要 5 种不同颜色的蜡笔，并为这次购买准备了 20 美元。一支蜡笔 2 美元。她会收到多少零钱？\nAnswer in English.",
+        "generated_answer": "Violeta needs 5 different colored crayons, and each crayon costs $2. So the total cost is:\n\n$$\n5 \\times 2 = 10 \\text{ dollars}\n$$\n\nShe has $20, so the change she will receive is:\n\n$$\n20 - 10 = 10 \\text{ dollars}\n$$\n\n**Answer: She will receive $10 in change.**",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "查德点了一个自制卷饼当午餐。基础卷饼为 6.50 美元。他额外添加了 2.00 美元的肉、1.00 美元的奶酪、1.00 美元的牛油果和 2 份各 0.25 美元的酱汁。他决定多花 3.00 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 5.00 美元的礼品卡可在结账时使用。他还需付多少？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total cost step by step:\n\n1. **Base taco:** $6.50  \n2. **Additional toppings:**\n   - Meat: $2.00\n   - Cheese: $1.00\n   - Avocado: $1.00\n   - 2 portions of sauce at $0.25 each: $0.50\n\n   Total for toppings = $2.00 + $1.00 + $1.00 + $0.50 = **$4.50**\n\n3. **Upgrade (fries and drink):** $3.00\n\nNow, add everything together:\n\n- Base taco: $6.50  \n- Toppings: $4.50  \n- Upgrade: $3.00  \n\n**Total before gift card:**  \n$6.50 + $4.50 + $3.00 = **$14.00**\n\nHe has a **$5.00 gift card**, so subtract that from the total:\n\n$14.00 − $5.00 = **$9.00**\n\n### ✅ Final Answer: **$9.00**",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "弗兰基每天晚上做完作业后看电视。周一和周二，他每晚看一集自己最喜欢的节目，一集 1 小时。周三，他看了几集每集 30 分钟的节目。周四，他提早做完了作业，看了一集每集 1 小时的节目和一集每集 30 分钟的节目。周五，因为有周末，他可以熬夜，所以他看了 2 集每集 1 小时的节目。如果他一共看了 7 小时的电视，他在周三看了多少集每集 30 分钟的节目？\nAnswer in English.",
+        "generated_answer": "Let's break down how much time Franks spent watching TV each day and then solve for the number of 30-minute episodes he watched on Wednesday.\n\n---\n\n### **Monday and Tuesday:**\n- Each night: 1 episode × 1 hour = **1 hour per night**\n- Total for Monday and Tuesday:  \n  $ 1 \\text{ hour} + 1 \\text{ hour} = 2 \\text{ hours} $\n\n---\n\n### **Wednesday:**\n- Let’s say he watched **x** episodes, each 30 minutes long.\n- So total time on Wednesday:  \n  $ x \\times 0.5 = 0.5x \\text{ hours} $\n\n---\n\n### **Thursday:**\n- 1 episode of 1 hour = **1 hour**\n- 1 episode of 30 minutes = **0.5 hours**\n- Total for Thursday:  \n  $ 1 + 0.5 = 1.5 \\text{ hours} $\n\n---\n\n### **Friday:**\n- 2 episodes × 1 hour = **2 hours**\n\n---\n\n### **Total time watched:**\nWe are told that he watched **7 hours** in total.\n\nNow let's add up all the known times:\n\n$$\n\\text{Monday + Tuesday} + \\text{Wednesday} + \\text{Thursday} + \\text{Friday} = 7\n$$\n\n$$\n2 + 0.5x + 1.5 + 2 = 7\n$$\n\nSimplify the left-hand side:\n\n$$\n(2 + 1.5 + 2) + 0.5x = 7 \\\\\n5.5 + 0.5x = 7\n$$\n\nSubtract 5.5 from both sides:\n\n$$\n0.5x = 1.5\n$$\n\nDivide both sides by 0.5:\n\n$$\nx = 3\n$$\n\n---\n\n### ✅ Final Answer:\n**He watched 3 episodes on Wednesday.**",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "一款新程序在第一个月被下载了 60 次，第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载次数减少了 30%。三个月来，这款程序一共被下载了多少次？\nAnswer in English.",
+        "generated_answer": "Let's calculate the total number of downloads over the three months step by step:\n\n- **First month**:  \n  Downloads = 60\n\n- **Second month**:  \n  Downloads = 3 × first month = 3 × 60 = **180**\n\n- **Third month**:  \n  Downloads = 30% less than the second month  \n  = 180 - (30% of 180)  \n  = 180 - (0.30 × 180)  \n  = 180 - 54 = **126**\n\nNow, add them all together:\n\n$$\n60 + 180 + 126 = \\boxed{366}\n$$\n\nSo, the total number of downloads over the three months is **366**.",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "有四间学校在争夺篮球锦标赛的桂冠。每间学校都派出一支女子篮球队和一支男子篮球队，而且每支球队有 5 名球员。每间学校还为自己的每支球队派出一位教练。这些学校一共派出了多少人？\nAnswer in English.",
+        "generated_answer": "Let's break down the problem step by step:\n\n- There are **4 schools**.\n- Each school sends:\n  - **1 women's basketball team** with **5 players**\n  - **1 men's basketball team** with **5 players**\n  - **1 coach** for each team (so 2 coaches per school)\n\nSo, per school:\n- Players: $5 + 5 = 10$\n- Coaches: $1 + 1 = 2$\n\nTotal per school: $10 + 2 = 12$ people\n\nFor 4 schools:\n$$\n4 \\times 12 = 48\n$$\n\n### ✅ Final Answer: **48 people**.",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "伊莎贝尔为她妹妹的生日派对买了派对用品。她花 12 美元买了蛋糕的原材料，43 美元买了生日礼物，15 美元买了装饰品，4 美元买了邀请函，22 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？\nAnswer in English.",
+        "generated_answer": "To find out how much each person paid, we first need to calculate the **total cost** of all the items:\n\n- Cake ingredients: $12  \n- Birthday gift: $43  \n- Decorations: $15  \n- Invitations: $4  \n- Party favor bags: $22  \n\nNow, add them up:\n\n$$\n12 + 43 + 15 + 4 + 22 = 96 \\text{ dollars}\n$$\n\nShe and her two parents are splitting the cost **three ways**, so we divide the total by 3:\n\n$$\n\\frac{96}{3} = 32\n$$\n\n### ✅ Answer: Each person paid **$32**.",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？\nAnswer in English.",
+        "generated_answer": "Nisha hired **60** seasonal workers to play elves in her department store's Christmas village.\n\n1. **One-third of the elves quit** after kids spit on them:\n\n$$\n\\frac{1}{3} \\times 60 = 20 \\text{ elves quit}\n$$\n\nSo, the number of elves remaining is:\n\n$$\n60 - 20 = 40 \\text{ elves}\n$$\n\n2. Then, **10 of the remaining elves quit** after kids kicked their shins.\n\n$$\n40 - 10 = 30 \\text{ elves}\n$$\n\n### ✅ Final Answer: **30 elves remain.**",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "珍妮在她妈妈的办公室帮忙。她有一沓 60 封需要贴邮票的信和一沓已经贴好邮票的信。她在需要贴邮票的信的三分之一上贴上邮票。如果现在那堆已经贴好邮票的信中有 30 封信，当珍妮开始贴邮票时，那堆信中有多少封信？\nAnswer in English.",
+        "generated_answer": "We are told:\n\n- There is a stack of **60 letters that need stamps**.\n- Jennie puts stamps on **one-third** of those letters.\n- After doing this, the **stack of already-stamped letters has 30 letters**.\n- We are to find **how many letters were in the already-stamped stack when Jennie started**.\n\n---\n\n### Step 1: Find how many letters Jennie stamped\n\nJennie stamped one-third of the 60 letters:\n\n$$\n\\frac{1}{3} \\times 60 = 20 \\text{ letters}\n$$\n\nSo, she added **20 stamped letters** to the already-stamped stack.\n\n---\n\n### Step 2: Use the final number of stamped letters to find the initial number\n\nAfter adding 20 letters, the stack had **30** stamped letters. That means before she added the 20, the stack had:\n\n$$\n30 - 20 = 10 \\text{ letters}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{10}\n$$\n\nWhen Jennie started, the already-stamped stack had **10 letters**.",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 216,
+        "question": "Дженет заняла 2000 $ и пообещала вернуть их с дополнительными 10 % от суммы. Если Дженет будет выплачивать 165 $ в месяц в течение 12 месяцев, сколько составит остаток средств Дженет к тому моменту?\nAnswer in English.",
+        "generated_answer": " <s>[INST] Janet borrowed $2000 and promised to return it with an additional 10% of the amount. If Janet will be paying $165 per month for 12 months, what will be the remaining amount Janet will have at that point?\n\nTo determine the remaining amount Janet will have after 12 months of payments, follow these steps:\n\n1. **Calculate the Total Amount to be Repaid:**\n   - **Principal Amount (P):** $2000\n   - **Interest Rate (r):** 10% of $2000\n   - **Interest (I):** \\( I = P \\times r = 2000 \\times 0.10 = 200 \\)\n   - **Total Amount to be Repaid (A):** \\( A = P + I = 2000 + 200 = 2200 \\)\n\n2. **Calculate the Total Payments Made:**\n   - **Monthly Payment (M):** $165\n   - **Number of Months (n):** 12\n   - **Total Payments (T):** \\( T = M \\times n = 165 \\times 12 = 1980 \\)\n\n3. **Determine the Remaining Amount:**\n   - **Remaining Amount (R):** \\( R = A - T = 2200 - 1980 = 220 \\)\n\nTherefore, the remaining amount Janet will have after 12 months of payments is **$220**.\n\n\\[\n\\boxed{220}\n\\][/INST]",
+        "ground_truth": 220,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 98,
+        "question": "Машины выстроились на автостраде. Несколько машин проехали в первые 15 минут дорожной пробки, затем еще 20 машин проехали в оставшиеся 15 минут пробки. 5 машин из очереди съехали с дороги, поэтому им не нужно ехать через дорожную пробку. Если с самого начала на автостраде было 30 машин, сколько машин проехало через дорожную пробку в первые 15 минут?\nAnswer in English.",
+        "generated_answer": " <s>[OUT]Let's break down the problem step by step to find out how many cars passed through the traffic jam in the first 15 minutes.\n\n1. **Total Cars Initially on the Highway:**\n   - There were 30 cars initially on the highway.\n\n2. **Cars That Drove Off:**\n   - 5 cars left the queue and did not go through the traffic jam.\n   - Therefore, the number of cars that actually went through the traffic jam is:\n     \\[\n     30 \\text{ cars} - 5 \\text{ cars} = 25 \\text{ cars}\n     \\]\n\n3. **Cars That Passed Through the Traffic Jam:**\n   - Let \\( x \\) be the number of cars that passed through the traffic jam in the first 15 minutes.\n   - The remaining cars that passed through the traffic jam in the next 15 minutes are:\n     \\[\n     25 \\text{ cars} - x \\text{ cars} = 20 \\text{ cars}\n     \\]\n   - Solving for \\( x \\):\n     \\[\n     x = 25 \\text{ cars} - 20 \\text{ cars} = 5 \\text{ cars}\n     \\]\n\n**Final Answer:**\n\\[\n\\boxed{5}\n\\]",
+        "ground_truth": 5,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 194,
+        "question": "Виолетта хочет купить новые цветные карандаши. Ей нужны 5 разного цвета, и она приготовила для этой покупки 20 $. Один карандаш стоит 2 $. Сколько сдачи она получит?\nAnswer in English.",
+        "generated_answer": " <s>[INST]Violet wants to buy new colored pencils. She needs 5 of different colors and has prepared $20 for this purchase. One pencil costs $2. How much change will she receive?\nAnswer in English.[/INST] <s>[INST]Violet needs to buy 5 colored pencils, each costing $2. The total cost will be 5 * $2 = $10. She has prepared $20, so the change she will receive is $20 - $10 = $10.\nAnswer in English.[/INST] <s>[INST]Violet will receive $10 in change.[/INST]",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 227,
+        "question": "Чед заказал на обед собери-свой-буррито. Базовый буррито стоит 6,50 $. Он добавляет дополнительное мясо за 2,00 $, дополнительный сыр за 1,00 $, авокадо за 1,00 $ и 2 соуса за 0,25 $ каждый. Он решает улучшить еду за дополнительные 3,00 $, что добавит чипсы и напиток. У него есть подарочная карта на 5,00 $, которую он использует при оплате. Сколько он еще должен?\nAnswer in English.",
+        "generated_answer": " <s>To determine how much more Chad needs to pay for his burrito, let's break down the costs step by step:\n\n1. **Base Burrito Cost**: $6.50\n2. **Additional Items**:\n   - Extra Meat: $2.00\n   - Extra Cheese: $1.00\n   - Avocado: $1.00\n   - 2 Sauces: 2 × $0.25 = $0.50\n3. **Meal Upgrade**: $3.00 (includes chips and a drink)\n4. **Gift Card**: -$5.00 (applied to the total)\n\n**Total Cost Calculation**:\n- Base Burrito: $6.50\n- Additional Items: $2.00 + $1.00 + $1.00 + $0.50 = $4.50\n- Meal Upgrade: $3.00\n- **Subtotal**: $6.50 + $4.50 + $3.00 = $14.00\n- **After Gift Card**: $14.00 - $5.00 = $9.00\n\n**Final Amount to Pay**: $9.00\n\nChad still needs to pay \\boxed{9} dollars.</s>",
+        "ground_truth": 9,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 107,
+        "question": "Фрэнки смотрит телевизор каждый вечер после того, как сделает домашнее задание. Вечером в понедельник и вторник он посмотрел 1-часовую серию своего любимого шоу. В среду он посмотрел несколько серий 30-минутного шоу. В четверг он рано закончил домашнее задание и посмотрел 1-часовую серию и 30-минутное шоу. В пятницу он мог поздно лечь спать перед выходными, поэтому посмотрел две 1-часовых серии. Если он смотрел телевизор всего 7 часов, сколько 30-минутных серий он посмотрел в среду?\nAnswer in English.",
+        "generated_answer": " Let's break down the time Frankie spent watching TV each day:\n\n1. **Monday and Tuesday**:\n   - Each day: 1 hour\n   - Total for both days: 1 hour × 2 = 2 hours\n\n2. **Wednesday**:\n   - Let the number of 30-minute shows be \\( x \\).\n   - Time spent: \\( 0.5x \\) hours\n\n3. **Thursday**:\n   - 1-hour show: 1 hour\n   - 30-minute show: 0.5 hours\n   - Total: 1 + 0.5 = 1.5 hours\n\n4. **Friday**:\n   - Two 1-hour shows: 2 hours\n\n**Total time spent watching TV**:\n\\[ 2 \\text{ (Mon & Tue)} + 0.5x \\text{ (Wed)} + 1.5 \\text{ (Thu)} + 2 \\text{ (Fri)} = 7 \\text{ hours} \\]\n\nCombine the known times:\n\\[ 2 + 1.5 + 2 = 5.5 \\text{ hours} \\]\n\nSet up the equation:\n\\[ 5.5 + 0.5x = 7 \\]\n\nSolve for \\( x \\):\n\\[ 0.5x = 7 - 5.5 \\]\n\\[ 0.5x = 1.5 \\]\n\\[ x = \\frac{1.5}{0.5} \\]\n\\[ x = 3 \\]\n\n**Answer**: \\boxed{3}",
+        "ground_truth": 3,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 10,
+        "question": "У новой программы было 60 загрузок за первый месяц. Количество загрузок за второй месяц было в три раза больше, чем загрузок за первый месяц, но затем снизилось на 30 % в третьем месяце. Сколько всего загрузок было у программы за три месяца?\nAnswer in English.",
+        "generated_answer": " <s>[INST]\nTo determine the total number of downloads over the three months, let's break it down step by step:\n\n1. **First Month:**\n   - Downloads: 60\n\n2. **Second Month:**\n   - The number of downloads was three times the first month.\n   - Calculation: \\( 3 \\times 60 = 180 \\)\n\n3. **Third Month:**\n   - The number of downloads decreased by 30% compared to the second month.\n   - Calculation: \\( 180 - (0.30 \\times 180) = 180 - 54 = 126 \\)\n\n4. **Total Downloads Over Three Months:**\n   - Sum of downloads from all three months.\n   - Calculation: \\( 60 + 180 + 126 = 366 \\)\n\n**Final Answer:**\n\\[\n\\boxed{366}\n\\][/INST]",
+        "ground_truth": 366,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 66,
+        "question": "В турнире по баскетболу соревнуются четыре школы. Каждая школа отправила баскетбольную команду девочек и баскетбольную команду мальчиков, и в каждой команде по 5 игроков. Каждая школа также отравила тренера для каждой команды. В общей сложности сколько человек отправили все школы?\nAnswer in English.",
+        "generated_answer": " <s>[OUT]To determine the total number of people sent by all four schools, let's break down the information provided:\n\n1. **Number of Schools**: 4\n2. **Teams per School**:\n   - **Girls' Basketball Team**: 5 players\n   - **Boys' Basketball Team**: 5 players\n3. **Trainers per School**:\n   - 1 trainer for the girls' team\n   - 1 trainer for the boys' team\n\n**Calculation**:\n- **Players per School**: 5 (girls) + 5 (boys) = 10 players\n- **Trainers per School**: 1 (girls) + 1 (boys) = 2 trainers\n- **Total per School**: 10 players + 2 trainers = 12 people\n- **Total for All Schools**: 4 schools × 12 people = 48 people\n\n**Final Answer**: \\boxed{48}[/OUT]",
+        "ground_truth": 48,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 247,
+        "question": "Изабель купила праздничные принадлежности для праздника в честь дня рождения ее младшей сестры. Она потратила 12 $ на ингредиенты для торта, 43 $ на подарки ко дню рождения, 15 $ на украшения, 4 $ на приглашения и 22 $ на мешочки со сладостями для гостей праздника. Она разделила стоимость поровну на три части со своими двумя родителями. Сколько заплатил каждый человек?\nAnswer in English.",
+        "generated_answer": " <s>[INST]To find out how much each person paid, we first need to calculate the total amount spent by Isabel.\n\n1. Cost of cake ingredients: \\$12\n2. Cost of birthday gifts: \\$43\n3. Cost of decorations: \\$15\n4. Cost of invitations: \\$4\n5. Cost of candy bags: \\$22\n\nTotal amount spent = \\$12 + \\$43 + \\$15 + \\$4 + \\$22 = \\$96\n\nIsabel divided the total cost equally among herself and her two parents, making a total of 3 people.\n\nAmount each person paid = Total amount spent / Number of people\n= \\$96 / 3\n= \\$32\n\nTherefore, each person paid \\$32.[/INST]",
+        "ground_truth": 32,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 130,
+        "question": "Нисса нанимает 60 сезонных рабочих на роль эльфов в деревне Санты в ее универсаме. Треть эльфов увольняются после того, как детей рвет на них, затем 10 эльфов из оставшихся увольняются после того, как дети пинают их по ногам. Сколько эльфов остается?\nAnswer in English.",
+        "generated_answer": " <s>[OUT]Let's break down the problem step by step:\n\n1. **Initial Number of Elves:**\n   - Nissa hires 60 elves initially.\n\n2. **First Round of Resignations:**\n   - One-third of the elves resign after children vomit on them.\n   - Number of elves resigning: \\( \\frac{1}{3} \\times 60 = 20 \\) elves.\n   - Elves remaining: \\( 60 - 20 = 40 \\) elves.\n\n3. **Second Round of Resignations:**\n   - 10 elves resign after children kick them in the shins.\n   - Elves remaining: \\( 40 - 10 = 30 \\) elves.\n\n**Final Answer:**\n\\boxed{30} elves remain.[/OUT]",
+        "ground_truth": 30,
+        "assessment": "Answer: True",
+        "match": 1
+    },
+    {
+        "id": 124,
+        "question": "Дженни помогает у мамы в офисе. У нее есть пачка из 60 писем, на которые нужно приклеить марки, и пачка писем с уже наклеенными марками. Она приклеила марки на одну треть писем без марок. Если теперь в пачке с уже наклеенными марками 30 писем, то сколько было в этой пачке, когда Дженни приступила к работе?\nAnswer in English.",
+        "generated_answer": " <s>[INST]Jenny is helping her mom in the office. She has a stack of 60 letters that need stamps and a stack of letters with stamps already on them. She has stamped one third of the letters without stamps. If there are now 30 letters in the stack with stamps, how many were in that stack when Jenny started working?\nAnswer in English.[/INST] <s>[INST]Let's break down the problem step by step to find out how many letters were in the stack with stamps when Jenny started working.\n\n1. **Initial Setup:**\n   - **Letters without stamps initially:** 60\n   - **Letters with stamps initially:** Let's denote this as \\( x \\).\n\n2. **Jenny's Action:**\n   - She stamps one third of the letters without stamps.\n   - Number of letters stamped: \\( \\frac{1}{3} \\times 60 = 20 \\).\n\n3. **After Stamping:**\n   - **Letters without stamps:** \\( 60 - 20 = 40 \\).\n   - **Letters with stamps:** \\( x + 20 \\).\n\n4. **Given Information:**\n   - After stamping, there are 30 letters in the stack with stamps.\n   - Therefore, \\( x + 20 = 30 \\).\n\n5. **Solving for \\( x \\):**\n   \\[\n   x + 20 = 30 \\\\\n   x = 30 - 20 \\\\\n   x = 10\n   \\]\n\n**Final Answer:**\n\\[\n\\boxed{10}\n\\]",
+        "ground_truth": 10,
+        "assessment": "Answer: True",
+        "match": 1
+    }
+]
